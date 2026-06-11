@@ -11,6 +11,7 @@ function App() {
   const isBibliaEmUmAno = path === '/como-ler-biblia-inteira-2026-metodos-praticos';
   const isAhJesus = path === '/ah-jesus-coracao-igual-ao-teu-analise-biblica-julliany-souza';
   const isSilencioDeDeus = path === '/silencio-deus-dificuldades-charles-spurgeon';
+  const isEleicao = path === '/doutrina-eleicao-incondicional-efesios-romanos';
 
   return (
     <>
@@ -653,6 +654,118 @@ function App() {
              <hr />
              <p><strong>Legado:</strong> Spurgeon é citado por pregadores como John Piper e Mark Dever como uma das maiores influências em suas vidas.</p>
              <p><strong>Citação Famosa:</strong> <em>"Um ministério que não é nascido de joelhos morrerá de joelhos."</em></p>
+          </main>
+        ) : isEleicao ? (
+          <main className="article-content section-mb">
+             <div className="article-header">
+               <span className="cat-tag">Teologia</span>
+               <h1>A Doutrina da Eleição Incondicional: A Beleza da Graça Soberana em Efésios 1 e Romanos 9</h1>
+               <div className="article-meta">Por <strong>João Calvino</strong> | 18 Abr, 2026</div>
+             </div>
+             
+             <img src="/eleicao.png" alt="A Doutrina da Eleição Incondicional" className="article-hero-img" loading="lazy" />
+             
+             <p>A doutrina da eleição incondicional é, sem dúvida, uma das verdades mais gloriosas, mais confortadoras e, simultaneamente, mais mal compreendidas de toda a teologia cristã. Para muitos, soa como arbitrariedade divina ou fatalismo frio. Para a Igreja Reformada, contudo, é o coração pulsante do Evangelho: a declaração inequívoca de que a salvação, do início ao fim, é obra exclusiva de Deus.</p>
+             <p>Neste estudo, mergulharemos nas Escrituras, na história da Igreja e na pastoral cristã para desvendar não apenas o <em>que</em> a Bíblia ensina sobre a eleição, mas <em>por que</em> essa verdade deve nos levar a joelhos, não a debates estéreis.</p>
+
+             <hr />
+
+             <h2>📖 I. Fundamento Bíblico I: Efésios 1:3-14 — A Bênção nas Regiões Celestiais</h2>
+             <p>Paulo abre sua epístola aos efésios com uma doxologia que ecoa a eternidade. Nos versículos 3-14, ele desenha o plano redentor de Deus antes mesmo da fundação do mundo:</p>
+             <blockquote>
+               <p><em>"Bendito o Deus e Pai de nosso Senhor Jesus Cristo, que nos abençoou com todas as bênçãos espirituais nas regiões celestiais em Cristo, assim como nos escolheu nele antes da fundação do mundo, para sermos santos e irrepreensíveis diante dele."</em> (Ef 1:3-4)</p>
+             </blockquote>
+             <p>Observe os marcadores teológicos:</p>
+             <ol>
+               <li><strong>Tempo:</strong> "Antes da fundação do mundo" — a eleição não é reação divina ao comportamento humano; é decreto eterno.</li>
+               <li><strong>Base:</strong> "Em Cristo" — a eleição não é abstrata; está cristocentricamente fundamentada. Cristo é o Eleito por excelência; nós somos eleitos <em>nEle</em>.</li>
+               <li><strong>Propósito:</strong> "Para sermos santos" — a eleição não é apenas para salvação, mas para transformação. A graça soberana não anula a santidade; ela a produz.</li>
+               <li><strong>Meio:</strong> "Nos predestinou para ele, para a adoção de filhos" (v.5) — a predestinação visa relacionamento filial, não apenas juridismo forense.</li>
+             </ol>
+             <p>Paulo repete a ênfase no versículo 11: <em>"Nele, digo, no qual fomos também feitos herança, predestinados conforme o propósito daquele que faz todas as coisas conforme o conselho da sua vontade."</em> A expressão "conselho da sua vontade" aponta para uma decisão divina autônoma, não condicionada por fatores externos.</p>
+
+             <hr />
+
+             <h2>⚖️ II. Fundamento Bíblico II: Romanos 9 — O Oleiro, o Barro e a Misericórdia</h2>
+             <p>Se Efésios 1 apresenta a eleição como bênção cósmica, Romanos 9 a defende como justiça divina. Paulo enfrenta uma objeção prática: <em>"A palavra de Deus falhou?"</em> (Rm 9:6). A resposta não é teórica; é histórica e teológica.</p>
+             <p>Paulo recorre a Jacó e Esaú:</p>
+             <blockquote>
+               <p><em>"Antes de nascerem, antes de praticarem o bem ou o mal (para que o propósito de Deus quanto à eleição prevalecesse, não por obras, mas por aquele que chama), foi dito a ela: O maior servirá ao menor. Como está escrito: Amei Jacó e odiei Esaú."</em> (Rm 9:11-13)</p>
+             </blockquote>
+             <p>Note o timing divino: <strong>"Antes de nascerem, antes de praticarem o bem ou o mal"</strong>. A escolha não se baseia em previsão de fé, mérito moral ou resposta humana. Baseia-se no <strong>"propósito de Deus quanto à eleição"</strong>.</p>
+             <p>Quando Paulo antecipa a objeção <em>"Há injustiça da parte de Deus?"</em> (v.14), ele responde com Êxodo 33:19:</p>
+             <blockquote>
+               <p><em>"Terei misericórdia de quem eu tiver misericórdia e me compadecerei de quem eu me compadecer."</em></p>
+             </blockquote>
+             <p>A soberania da misericórdia não é tirania; é a própria essência da graça. Se Deus deve a todos a salvação, então a salvação não é graça, é dívida. Mas a graça, por definição, é imerecida.</p>
+             <p>Paulo usa a metáfora do oleiro (v.20-24) não para anular a responsabilidade humana, mas para recalibrar nossa perspectiva: o Criador tem direito soberano sobre a criatura. Isso não faz de Deus um tirano, mas um Rei cujo trono está fundado em santidade e amor.</p>
+
+             <hr />
+
+             <h2>🕰️ III. Desenvolvimento Histórico: Da Controvérsia Pelagiana aos Cânones de Dort</h2>
+             <p>A eleição não é invenção calvinista. É fio condutor da ortodoxia cristã:</p>
+             <ul>
+               <li><strong>Agostinho (séc. IV-V):</strong> Combateu o pelagianismo afirmando que a graça precede a vontade humana. <em>"Dá o que ordenas e ordena o que queres."</em></li>
+               <li><strong>Reforma Protestante (séc. XVI):</strong> Lutero e Calvino recuperaram a centralidade da graça soberana contra o semi-pelagianismo medieval.</li>
+               <li><strong>Sínodo de Dort (1618-1619):</strong> Em resposta aos arminianos, os reformados formularam os Cinco Pontos do Calvinismo, sendo a <strong>Eleição Incondicional</strong> o "E" de TULIP. O Cânones declararam: <em>"A eleição é o propósito imutável de Deus, pelo qual, antes da fundação do mundo, Ele escolheu em Cristo, para a salvação, um número definido de pessoas, não por previsão de fé ou obras, mas unicamente por Sua livre graça e amor."</em></li>
+             </ul>
+             <p>Essa continuidade histórica mostra que a eleição não é doutrina marginal; é guardiã do Evangelho da graça.</p>
+
+             <hr />
+
+             <h2>🛡️ IV. Respondendo às Objeções Comuns</h2>
+             
+             <h3>1. "Isso torna Deus injusto!"</h3>
+             <p><strong>Resposta:</strong> Justiça seria dar a todos o que merecem: condenação. Misericórdia é dar o que não merecemos: salvação. Deus não é injusto por ser misericordioso a alguns; seria injusto se fosse misericordioso a <em>todos</em> sem base em Cristo (pois a justiça exigiria punição). A cruz satisfaz a justiça; a eleição aplica a misericórdia.</p>
+
+             <h3>2. "E o livre-arbítrio humano?"</h3>
+             <p><strong>Resposta:</strong> A Bíblia não ensina "livre-arbítrio" no sentido moderno de neutralidade absoluta. Ensina <strong>livre-agência</strong>: o homem age conforme sua natureza. Caído, escolhe o pecado livremente (Jo 8:34). Regenerado, escolhe Cristo livremente (Jo 6:44-45). A eleição não anula a vontade; a liberta da escravidão do pecado.</p>
+
+             <h3>3. "Se Deus já escolheu, por que evangelizar?"</h3>
+             <p><strong>Resposta:</strong> Porque Deus ordenou os fins <em>e</em> os meios. A eleição é o <em>porquê</em> da salvação; o evangelho é o <em>como</em>. Atos 13:48 mostra a conexão: <em>"Creram todos os que haviam sido destinados para a vida eterna."</em> A pregação é o instrumento pelo qual os eleitos são chamados. Sem evangelismo, não há chamada; sem eleição, não há resposta verdadeira.</p>
+
+             <h3>4. "Deus é amor. Como pode escolher alguns e deixar outros?"</h3>
+             <p><strong>Resposta:</strong> O amor de Deus não é sentimentalismo universalista; é amor santo que resgata pecadores merecedores de ira. Romanos 9:22-23 mostra dois vasos: uns de ira, outros de misericórdia. A paciência de Deus com os réprobos é real (2Pe 3:9), mas Sua escolha salvífica é particular. Isso não diminui Seu amor; exalta Sua graça seletiva.</p>
+
+             <h3>5. "Isso gera fatalismo ou indiferença espiritual."</h3>
+             <p><strong>Resposta:</strong> Pelo contrário. A eleição é âncora de segurança, não desculpa para passividade. Pedro exorta: <em>"Procurai fazer cada vez mais firme a vossa vocação e eleição"</em> (2Pe 1:10). Os eleitos são chamados a santidade (Ef 1:4), perseverança (Jo 10:28-29) e amor fraterno (1Ts 1:4). A doutrina correta produz piedade, não preguiça.</p>
+
+             <hr />
+
+             <h2>💡 V. Implicações Pastorais: Por que essa doutrina importa hoje?</h2>
+             
+             <h3>1. Humildade Radical</h3>
+             <p>Se a salvação depende de minha escolha, tenho motivo para me gloriar. Se depende da eleição soberana, toda glória é de Deus (Ef 1:6, 12, 14). A eleição mata o orgulho religioso.</p>
+
+             <h3>2. Segurança Inabalável</h3>
+             <p>Minha fé pode vacilar. Meus sentimentos podem oscilar. Mas o decreto eterno de Deus não muda. <em>"Quem intentará acusação contra os eleitos de Deus? É Deus quem os justifica."</em> (Rm 8:33-34). A eleição é o alicerce da perseverança dos santos.</p>
+
+             <h3>3. Evangelismo com Coragem</h3>
+             <p>Não pregamos para "convencer" Deus a salvar; pregamos porque Deus já decidiu salvar por meio da Palavra. A certeza da eleição liberta o evangelista do peso de "resultados" e o direciona à fidelidade.</p>
+
+             <h3>4. Adoração Profunda</h3>
+             <p>A eleição não é tema para especulação acadêmica; é motivo para doxologia. Efésios 1 termina com Paulo louvando: <em>"Para o louvor da sua glória."</em> A teologia correta sempre desemboca em adoração.</p>
+
+             <hr />
+
+             <h2>🕊️ VI. Conclusão: A Beleza que Conforta e Transforma</h2>
+             <p>A eleição incondicional não é um dogma frio; é o abraço eterno de um Pai que, antes que o tempo existisse, olhou para Cristo e disse: <em>"Nele, Eu salvarei os Meus."</em> É a garantia de que nenhuma falha minha, nenhuma fraqueza minha, nenhum erro meu pode desfazer o que Deus estabeleceu na eternidade.</p>
+             <p>Longe de nos afastar de Deus, essa doutrina nos lança em Seus braços. Longe de nos tornar passivos, nos torna gratos, santos e ousados na missão.</p>
+             <p>Que a Igreja do século XXI recupere não apenas a <em>defesa</em> da eleição, mas a <em>adoração</em> que ela produz. Pois no fim, como declarou Agostinho: <em>"Tu nos fizeste para Ti, e nosso coração está inquieto até que descanse em Ti."</em> A eleição é o caminho pelo qual esse descanso se torna realidade.</p>
+             <p><strong>Soli Deo Gloria.</strong></p>
+
+             <hr />
+
+             <p><strong>📚 Leitura Recomendada:</strong></p>
+             <ul>
+               <li><em>A Instituição da Religião Cristã</em> — João Calvino (Livro III, caps. 21-24)</li>
+               <li><em>Os Cânones de Dort</em> — Texto integral disponível em português</li>
+               <li><em>Eleição e Predestinação</em> — R.C. Sproul</li>
+               <li><em>Romanos 1-8</em> — Thomas Schreiner (Comentário NT)</li>
+               <li><em>Efésios</em> — John Stott & F.F. Bruce</li>
+             </ul>
+
+             <p><strong>🔗 Referências Bíblicas Chave:</strong> Ef 1:3-14; Rm 8:29-30; Rm 9:6-24; Jo 6:37-44; 2Ts 2:13; 1Pe 1:1-2; Ap 13:8; 17:8</p>
           </main>
         ) : (
           <>
