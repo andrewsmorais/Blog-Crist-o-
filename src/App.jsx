@@ -530,7 +530,7 @@ function App() {
           <div className="container">
             <p className="copyright-title">&copy; 2026 Soli Deo Gloria — Todos os direitos reservados.</p>
             <p>O conteúdo deste site é protegido por direitos autorais. É proibida a reprodução total ou parcial sem autorização prévia por escrito.</p>
-            <p>Este site exibe anúncios do Google AdSense. Consulte nossa <a href="/politica-de-privacidade">Política de Privacidade</a> para entender como seus dados são processados.</p>
+            <p>Este site exibe anúncios e utiliza cookies controlados pelo Google AdSense para fins de personalização de publicidade e análise de tráfego. Ao continuar navegando, você concorda com a nossa <a href="/politica-de-privacidade">Política de Privacidade</a>.</p>
           </div>
         </div>
       </footer>
