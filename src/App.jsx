@@ -10,6 +10,7 @@ function App() {
   const isSermaoDoMonte = path === '/artigo/sermao-do-monte';
   const isBibliaEmUmAno = path === '/como-ler-biblia-inteira-2026-metodos-praticos';
   const isAhJesus = path === '/ah-jesus-coracao-igual-ao-teu-analise-biblica-julliany-souza';
+  const isSilencioDeDeus = path === '/silencio-deus-dificuldades-charles-spurgeon';
 
   return (
     <>
@@ -558,6 +559,101 @@ function App() {
              <p><strong>Referência:</strong> Este artigo foi baseado no vídeo "Ah Jesus - Coração Igual ao Teu" de Julliany Souza.<br />
              <strong>Assista ao vídeo:</strong> <a href="https://www.youtube.com/watch?v=Z044IcMUEKE" target="_blank" rel="noreferrer">https://www.youtube.com/watch?v=Z044IcMUEKE</a></p>
           </main>
+        ) : isSilencioDeDeus ? (
+          <main className="article-content section-mb">
+             <div className="article-header">
+               <span className="cat-tag">Devocional / Vida Cristã</span>
+               <h1>O Silêncio de Deus nas Dificuldades: Confiando no Caráter Revelado do Senhor</h1>
+               <div className="article-meta">Por <strong>Charles Spurgeon</strong> | 10 Abr, 2026</div>
+             </div>
+             
+             <img src="/silence_of_god.png" alt="O Silêncio de Deus" className="article-hero-img" loading="lazy" />
+             
+             <p><em>"Até quando, SENHOR, continuamente clamarei, e tu não me ouvirás? Gritarei: Violência! E não salvarás?"</em> — Habacuque 1:2</p>
+             <p>Há momentos na jornada cristã em que o céu parece de bronze. Clamamos, oramos, jejuamos, mas parecem não haver respostas. O silêncio de Deus é uma das experiências mais angustiantes que um crente pode enfrentar. Contudo, é precisamente nesses momentos que somos chamados a confiar não em nossos sentimentos, mas no caráter imutável do Senhor conforme revelado em Sua Palavra.</p>
+
+             <h2>Quando Deus Parece Se Calar</h2>
+             <p>O salmista conhecia bem essa experiência. No Salmo 13, Davi pergunta quatro vezes "até quando?":</p>
+             <p><em>"Até quando, SENHOR? Esconder-te-ás para sempre? Até quando arderá a tua ira como fogo?"</em> (v.1)</p>
+             <p>Esses não são gritos de descrença, mas de fé agonizante. São a expressão de almas que conhecem a Deus o suficiente para saber que Ele <em>deveria</em> estar agindo, mas que, na experiência presente, parecem abandonadas.</p>
+
+             <h3>O Perigo de Confiar nos Sentimentos</h3>
+             <p>Nossos sentimentos são volúveis. Eles oscilam como as ondas do mar, influenciados por cansaço físico, circunstâncias adversas, ataque espiritual e solidão.</p>
+             <p>Se confiarmos apenas no que sentimos, naufragaremos. Por isso, <strong>devemos confiar no caráter revelado do Senhor ao invés de nossos sentimentos</strong>.</p>
+
+             <h2>O Que a Bíblia Diz Sobre o Silêncio de Deus</h2>
+             
+             <h3>1. O Silêncio Não É Ausência</h3>
+             <p>Isaías 45:15 declara: <em>"Verdadeiramente, tu és o Deus que se esconde, o Deus de Israel, o Salvador."</em></p>
+             <p>Note que mesmo escondido, Ele ainda é "o Salvador". Sua natureza não muda porque Sua presença parece distante.</p>
+
+             <h3>2. O Silêncio Tem Propósito</h3>
+             <p>Deuteronômio 8:2-3 revela: <em>"Para te humilhar, para te provar, para saber o que estava no teu coração."</em></p>
+             <p>O deserto do silêncio divino é uma escola, não um castigo. É onde aprendemos a confiar não nas bênçãos de Deus, mas no Deus das bênçãos.</p>
+
+             <h3>3. O Silêncio É Temporário</h3>
+             <p>Isaías 54:7-8 promete: <em>"Por um breve momento te deixei, mas com grandes compaixões te recolherei."</em></p>
+
+             <h2>Como Agir Quando Deus Parece Se Calar</h2>
+             
+             <h3>1. Continue Clamando</h3>
+             <p>Lucas 18:1-8 registra a parábola da viúva persistente. Jesus conclui: <em>"Deus não fará justiça aos seus escolhidos, que a ele clamam dia e noite?"</em></p>
+
+             <h3>2. Lembre-se do Passado</h3>
+             <p>Salmo 77:11-12: <em>"Lembrar-me-ei das obras do SENHOR; lembrar-me-ei, sim, das tuas maravilhas da antiguidade."</em></p>
+
+             <h3>3. Confie no Caráter de Deus</h3>
+             <p>Malaquias 3:6: <em>"Porque eu, o SENHOR, não mudo."</em></p>
+             <p>Deus é bom, sábio, soberano e amoroso — mesmo quando parece ausente.</p>
+
+             <h3>4. Espere com Paciência</h3>
+             <p>Salmo 27:14: <em>"Espera no SENHOR, anima-te, e ele fortalecerá o teu coração."</em></p>
+
+             <h2>Conclusão</h2>
+             <p>O Salmo 40 termina com uma declaração gloriosa: <em>"Pôs na minha boca um cântico novo, um hino ao nosso Deus."</em></p>
+             <p>O mesmo Deus que permite o silêncio também concede o cântico. Confie no caráter revelado de Deus. Ele é fiel. Ele é bom. Ele <strong>nunca</strong> se atrasa.</p>
+
+             <hr />
+
+             <h2>📚 Sobre Charles Haddon Spurgeon (1834-1892)</h2>
+             
+             <h3>Biografia</h3>
+             <p>Charles Haddon Spurgeon, conhecido como o "Príncipe dos Pregadores", nasceu em 19 de junho de 1834 em Kelvedon, Essex, Inglaterra. Convertido em 1850, aos 15 anos, começou a pregar aos 16 anos.</p>
+             <p>Em 1854, aos 19 anos, foi chamado para pastorear a Igreja Batista de New Park Street em Londres. Sua pregação poderosa e centrada em Cristo atraiu multidões. Em 1861, a congregação mudou-se para o Metropolitan Tabernacle, que comportava 6.000 pessoas.</p>
+             <p>Spurgeon pregou sem notas, com clareza doutrinária e aplicação prática. Estima-se que pregou para mais de 10 milhões de pessoas em sua vida.</p>
+
+             <h3>Características de Seu Ministério</h3>
+             <p><strong>Teologia Calvinista:</strong> Spurgeon era firmemente calvinista, crendo na soberania absoluta de Deus na salvação.</p>
+             <p><strong>Paixão pelas Almas:</strong> Apesar de sua teologia da eleição, era um evangelista ardente. Fundiu um orfanato que cuidou de mais de 500 crianças.</p>
+             <p><strong>Sofrimento e Perseverança:</strong> Sofreu de gota e depressão ao longo da vida.</p>
+             <p>Faleceu em 31 de janeiro de 1892, aos 57 anos.</p>
+
+             <hr />
+
+             <h2>📖 Principais Obras de Spurgeon</h2>
+             
+             <h3>1. <strong>The Treasury of David</strong> (1869-1885)</h3>
+             <p>Sua obra magna — um comentário exaustivo sobre os Salmos em 7 volumes. Considerado um dos melhores comentários sobre Salmos já escritos.</p>
+
+             <h3>2. <strong>Morning and Evening</strong> (1859)</h3>
+             <p>Devocional diário com leituras matinais e vespertinas. Um clássico da literatura devocional reformada.</p>
+
+             <h3>3. <strong>All of Grace</strong> (1885)</h3>
+             <p>Sua obra evangelística mais famosa. Explica de forma clara a doutrina da salvação pela graça somente.</p>
+
+             <h3>4. <strong>Spurgeon's Sermons</strong> (63 volumes)</h3>
+             <p>Mais de 3.500 sermões publicados — um recorde histórico.</p>
+
+             <h3>5. <strong>Lectures to My Students</strong> (1875-1881)</h3>
+             <p>Três volumes de palestras para estudantes de teologia e pastores.</p>
+
+             <h3>6. <strong>The Sword and the Trowel</strong> (1865-1892)</h3>
+             <p>Revista mensal que cobria questões teológicas, sociais e eclesiásticas.</p>
+
+             <hr />
+             <p><strong>Legado:</strong> Spurgeon é citado por pregadores como John Piper e Mark Dever como uma das maiores influências em suas vidas.</p>
+             <p><strong>Citação Famosa:</strong> <em>"Um ministério que não é nascido de joelhos morrerá de joelhos."</em></p>
+          </main>
         ) : (
           <>
             {/* PRIMEIRA DOBRA (HERO MAGAZINE) - 60 / 20 / 20 */}
@@ -671,10 +767,12 @@ function App() {
                   </a>
                 </div>
                 <div className="grid-3-item">
-                  <div className="img-ph" loading="lazy"></div>
-                  <h3>O Silêncio de Deus nas Dificuldades</h3>
-                  <p>Quando clamamos e parecemos não ouvir resposta, devemos confiar no caráter revelado do Senhor ao invés de nossos sentimentos...</p>
-                  <div className="meta">por <span>Charles Spurgeon</span> · 10 Abr</div>
+                  <a href="/silencio-deus-dificuldades-charles-spurgeon" style={{textDecoration: 'none', color: 'inherit'}}>
+                    <img src="/silence_of_god.png" alt="O Silêncio de Deus" className="img-ph" loading="lazy" />
+                    <h3>O Silêncio de Deus nas Dificuldades: Confiando no Caráter Revelado do Senhor</h3>
+                    <p>Quando clamamos e parecemos não ouvir resposta, devemos confiar no caráter revelado do Senhor ao invés de nossos sentimentos...</p>
+                    <div className="meta">por <span>Charles Spurgeon</span> · 10 Abr, 2026</div>
+                  </a>
                 </div>
                 <div className="grid-3-item">
                   <a href="/como-ler-biblia-inteira-2026-metodos-praticos" style={{textDecoration: 'none', color: 'inherit'}}>
