@@ -1608,10 +1608,6 @@ function App() {
               </div>
             </section>
             
-            {/* AD PLACEHOLDER */}
-            <div className="ad-ph ad-leaderboard" style={{marginBottom: '40px'}}>
-              Google AdSense - Final da Página
-            </div>
           </>
         )}
       </div>
