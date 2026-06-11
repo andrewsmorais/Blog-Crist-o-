@@ -9,6 +9,7 @@ function App() {
   const isSarcaArdente = path === '/artigo/sarca-ardente';
   const isSermaoDoMonte = path === '/artigo/sermao-do-monte';
   const isBibliaEmUmAno = path === '/como-ler-biblia-inteira-2026-metodos-praticos';
+  const isAhJesus = path === '/ah-jesus-coracao-igual-ao-teu-analise-biblica-julliany-souza';
 
   return (
     <>
@@ -420,21 +421,158 @@ function App() {
                <li>2 Timóteo 3:16-17</li>
              </ul>
           </main>
+        ) : isAhJesus ? (
+          <main className="article-content section-mb">
+             <div className="article-header">
+               <span className="cat-tag">Devocional / Louvor e Adoração</span>
+               <h1>"Ah Jesus, Coração Igual ao Teu": O Clamor de Julliany Souza e o Que a Bíblia Diz Sobre um Coração Transformado</h1>
+               <div className="article-meta">Por <strong>João Calvino</strong> | 12 Jun, 2026</div>
+             </div>
+             
+             <img src="/worship_hero.png" alt="Coração Igual ao Teu - Julliany Souza" className="article-hero-img" loading="lazy" />
+             
+             <p>Em 2026, uma canção tem ecoado profundamente nos corações dos cristãos brasileiros: <strong>"Ah Jesus - Coração Igual ao Teu"</strong>, da cantora <strong>Julliany Souza</strong>. Com uma letra que expõe a alma humana em sua fragilidade e clama por transformação radical, esse louvor tem tocado milhões de pessoas.</p>
+             <p>Mas o que torna essa canção tão poderosa? São as <strong>verdades bíblicas profundas</strong> que ela carrega. Neste artigo, vamos explorar os principais temas da música à luz das Escrituras.</p>
+
+             <h2>🎵 TEMA 1: "Ah Jesus, Rompe Meu Orgulho"</h2>
+             <p><strong>O Que a Bíblia Diz:</strong></p>
+             <p>O orgulho é o pecado raiz que nos separa de Deus. Tiago 4:6 nos lembra: <em>"Deus resiste aos soberbos, mas dá graça aos humildes."</em></p>
+             <p>Paulo, em Filipenses 2:3-5, exorta: <em>"Nada façais por contenda ou por vanglória, mas por humildade; cada um considere os outros superiores a si mesmo."</em></p>
+             <p><strong>Reflexão Prática:</strong></p>
+             <ul>
+               <li>Em quais áreas da sua vida o orgulho ainda domina?</li>
+               <li>Como olhar para a cruz pode curar seu orgulho hoje?</li>
+             </ul>
+             <p><strong>Versículo para Memorizar:</strong> <em>"Antes, humilhai-vos debaixo da potente mão de Deus, para que a seu tempo vos exalte."</em> — 1 Pedro 5:6</p>
+
+             <hr />
+
+             <h2>🎵 TEMA 2: "Tira a Dureza do Meu Coração"</h2>
+             <p><strong>O Que a Bíblia Diz:</strong></p>
+             <p>Em Ezequiel 36:26, Deus promete: <em>"Dar-vos-ei coração novo e porei dentro de vós espírito novo; tirarei de vós o coração de pedra e vos darei coração de carne."</em></p>
+             <p>A regeneração é obra soberana do Espírito Santo. Um coração duro é incapaz de se arrepender verdadeiramente.</p>
+             <p><strong>Reflexão Prática:</strong></p>
+             <ul>
+               <li>Seu coração tem sido sensível à voz do Espírito Santo?</li>
+               <li>Ore: <em>"Cria em mim, ó Deus, um coração puro"</em> (Salmo 51:10)</li>
+             </ul>
+             <p><strong>Versículo para Memorizar:</strong> <em>"Antes, sede uns para com os outros benignos, misericordiosos, perdoando-vos uns aos outros, como também Deus vos perdoou em Cristo."</em> — Efésios 4:32</p>
+
+             <hr />
+
+             <h2>🎵 TEMA 3: "Eu Sou o Vaso, Tu És o Oleiro"</h2>
+             <p><strong>O Que a Bíblia Diz:</strong></p>
+             <p>Isaías 64:8 declara: <em>"Mas agora, ó SENHOR, tu és nosso Pai; nós o barro e tu o nosso oleiro; e todos nós, obra das tuas mãos."</em></p>
+             <p>Paulo desenvolve esse tema em Romanos 9:20-21, mostrando a soberania divina sobre nossas vidas.</p>
+             <p>Jeremias 18:1-6 registra que Deus pode <strong>refazer</strong> um vaso quando ele não sai conforme o planejado — isso é graça restauradora!</p>
+             <p><strong>Reflexão Prática:</strong></p>
+             <ul>
+               <li>Você tem resistido à moldagem de Deus ou se submetido às Suas mãos?</li>
+               <li>Lembre-se: o oleiro nunca desperdiça o barro.</li>
+             </ul>
+             <p><strong>Versículo para Memorizar:</strong> <em>"Temos, porém, este tesouro em vasos de barro, para que a excelência do poder seja de Deus e não de nós."</em> — 2 Coríntios 4:7</p>
+
+             <hr />
+
+             <h2>🎵 TEMA 4: "Tomo Minha Cruz e Me Nego a Si Mesmo"</h2>
+             <p><strong>O Que a Bíblia Diz:</strong></p>
+             <p>Jesus foi categórico em Lucas 9:23: <em>"Se alguém quer vir após mim, negue-se a si mesmo, e, de dia em dia, tome a sua cruz e siga-me."</em></p>
+             <p>Paulo expressa essa realidade em Gálatas 2:20: <em>"Já estou crucificado com Cristo; e vivo, não mais eu, mas Cristo vive em mim."</em></p>
+             <p><strong>Reflexão Prática:</strong></p>
+             <ul>
+               <li>O que significa "negar-se a si mesmo" na prática do seu dia a dia?</li>
+               <li>Lembre-se: não há cristianismo sem cruz.</li>
+             </ul>
+             <p><strong>Versículo para Memorizar:</strong> <em>"E os que são de Cristo crucificaram a carne com as suas paixões e concupiscências."</em> — Gálatas 5:24</p>
+
+             <hr />
+
+             <h2>🎵 TEMA 5: "Porque do Pecado Já Não Sou Prisioneiro"</h2>
+             <p><strong>O Que a Bíblia Diz:</strong></p>
+             <p>Romanos 6:6-7 proclama: <em>"Sabendo isto, que o nosso homem velho foi com ele crucificado, para que o corpo do pecado seja desfeito, para que não sirvamos mais ao pecado."</em></p>
+             <p>Jesus declarou em João 8:36: <em>"Se, pois, o Filho vos libertar, verdadeiramente sereis livres."</em></p>
+             <p><strong>Reflexão Prática:</strong></p>
+             <ul>
+               <li>Você vive como alguém liberto ou ainda age como escravo?</li>
+               <li>A liberdade em Cristo não é licença para pecar, mas poder para obedecer.</li>
+             </ul>
+             <p><strong>Versículo para Memorizar:</strong> <em>"Estai, pois, firmes na liberdade com que Cristo nos libertou e não torneis a meter-vos em jugo de servidão."</em> — Gálatas 5:1</p>
+
+             <hr />
+
+             <h2>🎵 TEMA 6: "Se Recebi Teu Perdão, Mas Não Consigo Perdoar"</h2>
+             <p><strong>O Que a Bíblia Diz:</strong></p>
+             <p>Jesus aborda isso na <strong>parábola do credor incompassivo</strong> (Mateus 18:23-35). A incapacidade de perdoar revela um coração não transformado.</p>
+             <p>Efésios 4:32 ordena: <em>"Sede uns para com os outros benignos, misericordiosos, perdoando-vos uns aos outros, como também Deus vos perdoou em Cristo."</em></p>
+             <p><strong>Reflexão Prática:</strong></p>
+             <ul>
+               <li>Há alguém que você ainda se recusa a perdoar?</li>
+               <li>Lembre-se: você foi perdoado de uma dívida infinitamente maior.</li>
+             </ul>
+             <p><strong>Versículo para Memorizar:</strong> <em>"Suportando-vos uns aos outros e perdoando-vos uns aos outros, se algum tiver queixa contra outro; assim como Cristo vos perdoou, assim fazei vós também."</em> — Colossenses 3:13</p>
+
+             <hr />
+
+             <h2>🎵 TEMA 7: "Dame um Coração Igual ao Teu"</h2>
+             <p><strong>O Que a Bíblia Diz:</strong></p>
+             <p>Romanos 8:29 revela o propósito eterno de Deus: <em>"Os que dantes conheceu, também os predestinou para serem conformes à imagem de seu Filho."</em></p>
+             <p>O coração de Cristo era:</p>
+             <ul>
+               <li><strong>Humilde</strong> (Filipenses 2:5-8)</li>
+               <li><strong>Obediente até a morte</strong> (João 6:38)</li>
+               <li><strong>Compassivo</strong> (Mateus 9:36)</li>
+             </ul>
+             <p><strong>Reflexão Prática:</strong></p>
+             <ul>
+               <li>Você deseja verdadeiramente um coração como o de Cristo?</li>
+               <li>A santificação é obra do Espírito, mas exige nossa cooperação.</li>
+             </ul>
+
+             <hr />
+
+             <h2>🎤 Sobre Julliany Souza</h2>
+             <p>Julliany Souza tem sido usada por Deus para ministrar corações através de louvores profundos e teologicamente ricos. "Ah Jesus - Coração Igual ao Teu" é parte do projeto <strong>#louvorcomletra</strong>, que busca resgatar a profundidade teológica no louvor.</p>
+             <p><strong>Assista ao vídeo oficial:</strong> <a href="https://www.youtube.com/watch?v=Z044IcMUEKE" target="_blank" rel="noreferrer">Ah Jesus - Coração Igual ao Teu</a><br />
+             <strong>Canal:</strong> Julliany Souza no YouTube</p>
+
+             <hr />
+
+             <h2>💡 Conclusão</h2>
+             <p>"Ah Jesus, Coração Igual ao Teu" não é apenas uma música bonita — é uma <strong>oração teológica</strong> que nos confronta com verdades eternas.</p>
+             <p>Que essa canção não seja apenas um momento emocional, mas um <strong>estilo de vida</strong>.</p>
+
+             <hr />
+
+             <p><strong>Plano de Leitura Sugerido:</strong></p>
+             <ul>
+               <li><strong>Dia 1:</strong> Humildade e Orgulho — Filipenses 2:1-11, Tiago 4:1-10</li>
+               <li><strong>Dia 2:</strong> Coração Novo — Ezequiel 36:25-27, Salmo 51</li>
+               <li><strong>Dia 3:</strong> Oleiro e Barro — Isaías 64, Jeremias 18:1-11</li>
+               <li><strong>Dia 4:</strong> Tomando a Cruz — Lucas 9:23-26, Gálatas 2:20</li>
+               <li><strong>Dia 5:</strong> Libertos do Pecado — Romanos 6:1-14, João 8:31-36</li>
+               <li><strong>Dia 6:</strong> O Perdão — Mateus 18:21-35, Efésios 4:32</li>
+               <li><strong>Dia 7:</strong> Conformados a Cristo — Romanos 8:28-30, 1 Pedro 2:21</li>
+             </ul>
+
+             <hr />
+             <p><strong>Referência:</strong> Este artigo foi baseado no vídeo "Ah Jesus - Coração Igual ao Teu" de Julliany Souza.<br />
+             <strong>Assista ao vídeo:</strong> <a href="https://www.youtube.com/watch?v=Z044IcMUEKE" target="_blank" rel="noreferrer">https://www.youtube.com/watch?v=Z044IcMUEKE</a></p>
+          </main>
         ) : (
           <>
             {/* PRIMEIRA DOBRA (HERO MAGAZINE) - 60 / 20 / 20 */}
             <section className="hero-grid section-mb">
               {/* Esquerda (60%) */}
               <div className="hero-main">
-                <div className="img-ph" loading="lazy"></div>
-                <span className="cat-tag">Teologia Sistemática</span>
-                <h1>A Soberania de Deus: Um Estudo Completo</h1>
-                <p className="excerpt">
-                  Mergulhe profundamente nos atributos incomunicáveis de Deus e como a Sua 
-                  completa soberania sobre todas as coisas afeta nossa compreensão da graça, 
-                  salvação e vida cristã.
-                </p>
-                <div className="meta">por <span>João Calvino</span> · 14 Mar, 2026</div>
+                <a href="/ah-jesus-coracao-igual-ao-teu-analise-biblica-julliany-souza" style={{textDecoration: 'none', color: 'inherit'}}>
+                  <img src="/worship_hero.png" alt="Ah Jesus, Coração Igual ao Teu" className="img-ph" loading="lazy" style={{objectFit: 'cover'}} />
+                  <span className="cat-tag" style={{display: 'inline-block', marginTop: '15px'}}>Devocional / Louvor e Adoração</span>
+                  <h1 style={{marginTop: '10px'}}>"Ah Jesus, Coração Igual ao Teu": O Clamor de Julliany Souza e o Que a Bíblia Diz Sobre um Coração Transformado</h1>
+                  <p className="excerpt">
+                    Descubra o que a Bíblia diz sobre cada verso do hit 'Ah Jesus, Coração Igual ao Teu' de Julliany Souza. Uma análise teológica profunda dos 7 temas principais da música com versículos, reflexões práticas e aplicação para sua vida cristã.
+                  </p>
+                  <div className="meta">por <span>João Calvino</span> · 12 Jun, 2026</div>
+                </a>
               </div>
 
               {/* Centro (20%) */}
