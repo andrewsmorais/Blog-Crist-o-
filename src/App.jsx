@@ -1456,26 +1456,18 @@ function App() {
               </div>
 
               {/* Direita (20%) */}
-              <div className="article-list">
-                <div className="article-list-item">
-                  <h4>A Necessidade da Pregação Expositiva</h4>
-                  <p>Uma análise de como a exposição fiel do texto alimenta a igreja.</p>
+              <div className="hero-center">
+                <div className="article-sm">
+                  <div className="img-ph" loading="lazy"></div>
+                  <h3>A Necessidade da Pregação Expositiva</h3>
+                  <span className="cat-tag">Teologia Pastoral</span>
                   <div className="meta">13 Mai, 2026</div>
                 </div>
-                <div className="article-list-item">
-                  <h4>O Papel da Lei e do Evangelho</h4>
-                  <p>Compreendendo a distinção correta entre a lei moral e a graça salvadora.</p>
+                <div className="article-sm">
+                  <div className="img-ph" loading="lazy"></div>
+                  <h3>O Papel da Lei e do Evangelho</h3>
+                  <span className="cat-tag">Teologia Bíblica</span>
                   <div className="meta">01 Dez, 2025</div>
-                </div>
-                <div className="article-list-item">
-                  <h4>O Culto Regulado pelas Escrituras</h4>
-                  <p>Por que devemos adorar a Deus apenas como Ele prescreveu.</p>
-                  <div className="meta">14 Fev, 2025</div>
-                </div>
-                <div className="article-list-item">
-                  <h4>Santificação: Uma obra de uma vida inteira</h4>
-                  <p>Os desafios contínuos do crente contra o pecado residente.</p>
-                  <div className="meta">13 Jan, 2025</div>
                 </div>
               </div>
             </section>
@@ -1620,6 +1612,30 @@ function App() {
             
           </>
         )}
+      </div>
+
+      {/* ARTIGOS RESTANTES (NO RODAPÉ) */}
+      <div className="container section-mb">
+        <div style={{display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(350px, 1fr))', gap: '32px'}}>
+          <div className="article-sm" style={{display: 'flex', gap: '20px', alignItems: 'center'}}>
+            <div className="img-ph" style={{width: '150px', aspectRatio: '4/3', marginBottom: '0', flexShrink: '0'}}></div>
+            <div>
+              <span className="cat-tag">Liturgia</span>
+              <h3 style={{fontSize: '1.25rem', fontFamily: 'var(--font-title)', marginBottom: '8px', lineHeight: '1.2'}}>O Culto Regulado pelas Escrituras</h3>
+              <p style={{fontSize: '0.95rem', color: 'var(--text-secondary)', marginBottom: '8px', lineHeight: '1.5'}}>Por que devemos adorar a Deus apenas como Ele prescreveu.</p>
+              <div className="meta" style={{marginTop: '0'}}>14 Fev, 2025</div>
+            </div>
+          </div>
+          <div className="article-sm" style={{display: 'flex', gap: '20px', alignItems: 'center'}}>
+            <div className="img-ph" style={{width: '150px', aspectRatio: '4/3', marginBottom: '0', flexShrink: '0'}}></div>
+            <div>
+              <span className="cat-tag">Vida Cristã</span>
+              <h3 style={{fontSize: '1.25rem', fontFamily: 'var(--font-title)', marginBottom: '8px', lineHeight: '1.2'}}>Santificação: Uma obra de uma vida inteira</h3>
+              <p style={{fontSize: '0.95rem', color: 'var(--text-secondary)', marginBottom: '8px', lineHeight: '1.5'}}>Os desafios contínuos do crente contra o pecado residente.</p>
+              <div className="meta" style={{marginTop: '0'}}>13 Jan, 2025</div>
+            </div>
+          </div>
+        </div>
       </div>
 
       {/* FOOTER COMPLETO PARA ADSENSE */}
