@@ -8,6 +8,7 @@ function App() {
   const isTermsOfUse = path === '/termos-de-uso';
   const isSarcaArdente = path === '/artigo/sarca-ardente';
   const isSermaoDoMonte = path === '/artigo/sermao-do-monte';
+  const isBibliaEmUmAno = path === '/como-ler-biblia-inteira-2026-metodos-praticos';
 
   return (
     <>
@@ -306,6 +307,119 @@ function App() {
              <p>Jesus nos convida a ser estranhos no mundo: a chorar quando o mundo ri, a perdoar quando o mundo se vinga, a buscar a pureza quando o mundo incentiva a corrupção. É um caminho estreito, sim. Mas é o único caminho que leva à verdadeira vida, pois é o caminho do próprio Cristo.</p>
              <p>Ao terminar o Sermão, as multidões ficaram maravilhadas. "Porquanto os ensinava como quem tem autoridade, e não como os escribas" (Mateus 7:29). Eles perceberam que não estavam ouvindo apenas um filósofo, mas o próprio Rei falando sobre o Seu Reino.</p>
           </main>
+        ) : isBibliaEmUmAno ? (
+          <main className="article-content section-mb">
+             <div className="article-header">
+               <span className="cat-tag">Devocional / Prática Cristã</span>
+               <h1>5 Métodos Práticos para Ler a Bíblia Inteira em 2026</h1>
+               <div className="article-meta">Por <strong>João Calvino</strong> | 12 Jun, 2026</div>
+             </div>
+             
+             <img src="/bible_reading.png" alt="Leitura Bíblica" className="article-hero-img" loading="lazy" />
+             
+             <p>Chegamos à metade de 2026. Muitos começaram o ano com a nobre resolução de ler a Bíblia inteira, mas já abandonaram o propósito. Se você se identifica com essa realidade, este artigo é para você.</p>
+             <p>A Bíblia possui 1.189 capítulos. Com a estratégia certa, você pode ler as Escrituras completas em menos de um ano — mantendo a constância sem sacrificar sua saúde mental ou espiritual.</p>
+             <p>Neste artigo, exploraremos cinco métodos práticos testados e comprovados, além de entender os três tipos de leitura bíblica que todo cristão deveria conhecer.</p>
+
+             <h2>Método 1: Quatro Capítulos por Dia — A Simplicidade que Funciona</h2>
+             <p>A conta é simples: 1.189 capítulos ÷ 4 capítulos por dia = 297,25 dias. Em 300 dias, você lê a Bíblia inteira, com 65 dias de margem.</p>
+             <p><strong>Como implementar:</strong></p>
+             <ul>
+               <li>Opção A: Dois capítulos pela manhã + dois à noite</li>
+               <li>Opção B: Dois do Antigo Testamento + dois do Novo Testamento</li>
+               <li>Opção C: Dois do AT + um Salmo/Provérbios + um do NT</li>
+             </ul>
+             <p><strong>Ferramentas Recomendadas:</strong></p>
+             <ol>
+               <li>Bible Journey — Permite criar desafios personalizados</li>
+               <li>Bible Reading — Calcula automaticamente quantos capítulos ler por dia</li>
+             </ol>
+
+             <h2>Método 2: Leitura Anual Contínua (Gênesis a Apocalipse)</h2>
+             <p>Leia a Bíblia capa a capa, distribuindo os capítulos ao longo dos 365 dias.</p>
+             <p><strong>Vantagens:</strong></p>
+             <ul>
+               <li>Progressão narrativa clara</li>
+               <li>Flexibilidade diária</li>
+               <li>Sem culpa se perder um dia</li>
+             </ul>
+
+             <h2>Método 3: Leitura em Conjunto — A Força da Comunhão</h2>
+             <p>Ideal para casais ou famílias. Leiam juntos, dividindo a responsabilidade.</p>
+             <p><strong>Benefícios:</strong></p>
+             <ul>
+               <li>Prestação de contas mútua</li>
+               <li>Comunhão fortalecida</li>
+               <li>Perspectivas diferentes</li>
+             </ul>
+
+             <h2>Método 4: Leitura por Tempo — Ideal para Rotinas Corridas</h2>
+             <p>Esqueça a contagem de capítulos. Foque em tempo dedicado:</p>
+             <ul>
+               <li>20 minutos diários → Completa em ~9 meses</li>
+               <li>30 minutos diários → Completa em ~6 meses</li>
+               <li>60 minutos diários → Completa em ~3 meses</li>
+             </ul>
+
+             <h2>Método 5: Combinação Estratégica</h2>
+             <ul>
+               <li>Segunda a Sexta: 20-30 minutos de leitura contínua</li>
+               <li>Sábado: Leitura mais longa (45-60 min) para recuperar dias perdidos</li>
+               <li>Domingo: Leitura devocional leve (Salmos ou Provérbios)</li>
+             </ul>
+
+             <h2>Os Três Tipos de Leitura Bíblica</h2>
+             
+             <h3>1. Leitura Devocional</h3>
+             <p><strong>Objetivo:</strong> Aplicação pessoal e comunhão com Deus<br />Ritmo mais lento, foco em meditação e oração</p>
+
+             <h3>2. Leitura de Conhecimento (Panorâmica)</h3>
+             <p><strong>Objetivo:</strong> Familiaridade com o conteúdo bíblico geral<br />Ritmo mais rápido, foco no "grande quadro"</p>
+
+             <h3>3. Leitura de Estudo (Exegese)</h3>
+             <p><strong>Objetivo:</strong> Compreensão profunda e exaustiva<br />Ritmo lento, uso de ferramentas e comentários</p>
+
+             <h2>Curiosidade: A Bíblia em 7 Dias</h2>
+             <p>É possível ler a Bíblia inteira em apenas 7 dias (170 capítulos por dia, ~8-10 horas diárias). Alguns cristãos fazem isso em retiros especiais.</p>
+
+             <h2>O Segredo: Constância, Não Perfeição</h2>
+             <p><em>"A queda nasce justamente nas exceções."</em></p>
+             <ul>
+               <li>Está cansado? Leia apenas um Salmo, mas leia</li>
+               <li>Sem tempo? Leia 5 minutos no ônibus, mas leia</li>
+               <li>Sem foco? Leia em voz alta, mas leia</li>
+             </ul>
+             <p>O importante não é a quantidade, é a constância.</p>
+
+             <h2>Plano de Ação: Comece Agora</h2>
+             <ol>
+               <li>Escolha UM método</li>
+               <li>Defina um horário fixo</li>
+               <li>Baixe um aplicativo de acompanhamento</li>
+               <li>Encontre um parceiro de responsabilidade</li>
+               <li>Celebre pequenas vitórias</li>
+             </ol>
+
+             <hr />
+             <p><strong>Referência:</strong> Este artigo foi baseado no vídeo "Como Ler a Bíblia Inteira em 2026" do canal [Nome do Canal] no YouTube.</p>
+             <p><strong>Assista ao vídeo original:</strong> <a href="https://www.youtube.com/watch?v=OWsLeHlsdnU" target="_blank" rel="noreferrer">https://www.youtube.com/watch?v=OWsLeHlsdnU</a></p>
+
+             <hr />
+             <p><strong>Para Reflexão:</strong></p>
+             <ul>
+               <li>Qual método você vai implementar a partir de hoje?</li>
+               <li>Que exceções você tem criado que estão te impedindo de ler a Bíblia consistentemente?</li>
+             </ul>
+
+             <p><strong>Desafio Prático:</strong><br />Escolha UM dos métodos e comprometa-se a segui-lo pelos próximos 30 dias.</p>
+
+             <p><strong>Leitura Recomendada:</strong></p>
+             <ul>
+               <li>Salmo 119:105</li>
+               <li>Josué 1:8</li>
+               <li>2 Timóteo 3:16-17</li>
+             </ul>
+          </main>
         ) : (
           <>
             {/* PRIMEIRA DOBRA (HERO MAGAZINE) - 60 / 20 / 20 */}
@@ -425,10 +539,12 @@ function App() {
                   <div className="meta">por <span>Charles Spurgeon</span> · 10 Abr</div>
                 </div>
                 <div className="grid-3-item">
-                  <div className="img-ph" loading="lazy"></div>
-                  <h3>Alegria Imutável em Cristo Jesus</h3>
-                  <p>A verdadeira alegria cristã não depende das circunstâncias, mas da rocha firme da obra redentora completada na cruz...</p>
-                  <div className="meta">por <span>J.C. Ryle</span> · 06 Nov</div>
+                  <a href="/como-ler-biblia-inteira-2026-metodos-praticos" style={{textDecoration: 'none', color: 'inherit'}}>
+                    <img src="/bible_reading.png" alt="Leitura Bíblica" className="img-ph" loading="lazy" />
+                    <h3>5 Métodos Práticos para Ler a Bíblia Inteira em 2026</h3>
+                    <p>Descubra 5 métodos práticos e testados para ler a Bíblia inteira em 2026, mesmo com rotina corrida. Técnicas flexíveis, aplicativos recomendados e o segredo da constância.</p>
+                    <div className="meta">por <span>João Calvino</span> · 12 Jun, 2026</div>
+                  </a>
                 </div>
               </div>
             </section>
