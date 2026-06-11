@@ -1563,48 +1563,58 @@ function App() {
               Google AdSense - Espaço Reservado
             </div>
 
-            {/* SEÇÃO 3: TEOLOGIA (33/33/33) */}
+            {/* SEÇÃO 3: CATEGORY SPLIT (TEOLOGIA / DOGMÁTICA) */}
             <section className="section-mb">
-              <div className="section-title-wrap">
-                <h2>Teologia</h2>
-                <a href="#">Ver todos →</a>
-              </div>
-              
-              <div className="sect3-grid">
-                <div className="sect3-left">
-                  <span className="cat-tag">Teologia · 18 Abr, 2026</span>
-                  <h3>A Doutrina da Eleição Incondicional</h3>
-                  <p>
-                    Um exame profundo de Efésios 1 e Romanos 9, demonstrando que a escolha salvífica 
-                    de Deus repousa inteiramente em Sua graça soberana e beneplácito, sem qualquer 
-                    previsão de mérito ou fé humana. Entenda as objeções mais comuns e a beleza desta 
-                    doutrina.
-                  </p>
-                  <a href="#" className="sect3-btn">Read More</a>
-                </div>
+              <div className="split-category-grid">
                 
-                <div className="sect3-center">
-                  <div className="img-ph" loading="lazy"></div>
+                {/* COLUNA 1: TEOLOGIA */}
+                <div className="split-column">
+                  <div className="cat-header-split">
+                    <h3>TEOLOGIA</h3>
+                  </div>
+                  <div className="split-card">
+                    <img src="/eleicao.png" alt="A Doutrina da Eleição Incondicional" />
+                    <div className="split-card-content">
+                      <h4>A Doutrina da Eleição Incondicional</h4>
+                      <div className="meta">JOÃO CALVINO</div>
+                      <p>
+                        Um exame profundo de Efésios 1 e Romanos 9, demonstrando que a escolha salvífica 
+                        de Deus repousa inteiramente em Sua graça soberana e beneplácito, sem qualquer 
+                        previsão de mérito ou fé humana.
+                      </p>
+                    </div>
+                    <div className="split-pagination">
+                      <button className="btn-outline">&lsaquo; ANTERIOR</button>
+                      <button className="btn-outline">PRÓXIMO &rsaquo;</button>
+                      <span className="page-count">1 De 24</span>
+                    </div>
+                  </div>
                 </div>
-                
-                <div className="article-list">
-                  <div className="article-list-item">
-                    <h4>A Trindade: Um só Deus em Três Pessoas</h4>
-                    <div className="meta">por <span>R.C. Sproul</span></div>
+
+                {/* COLUNA 2: DOGMÁTICA */}
+                <div className="split-column">
+                  <div className="cat-header-split">
+                    <h3>DOGMÁTICA</h3>
                   </div>
-                  <div className="article-list-item">
-                    <h4>A União Hipostática de Cristo</h4>
-                    <div className="meta">por <span>Herman Bavinck</span></div>
-                  </div>
-                  <div className="article-list-item">
-                    <h4>Os Sacramentos: Batismo e Ceia</h4>
-                    <div className="meta">por <span>João Calvino</span></div>
-                  </div>
-                  <div className="article-list-item">
-                    <h4>A Infalibilidade e Inerrância das Escrituras</h4>
-                    <div className="meta">por <span>B.B. Warfield</span></div>
+                  <div className="split-card">
+                    <img src="/trindade.png" alt="A Trindade: Um só Deus em Três Pessoas" />
+                    <div className="split-card-content">
+                      <h4>A Trindade: Um só Deus em Três Pessoas</h4>
+                      <div className="meta">R.C. SPROUL</div>
+                      <p>
+                        A doutrina da Trindade afirma que há um só Deus, eternamente subsistente em 
+                        três pessoas distintas: o Pai, o Filho e o Espírito Santo. Uma reflexão sobre 
+                        o maior mistério e fundamento da fé cristã.
+                      </p>
+                    </div>
+                    <div className="split-pagination">
+                      <button className="btn-outline">&lsaquo; ANTERIOR</button>
+                      <button className="btn-outline">PRÓXIMO &rsaquo;</button>
+                      <span className="page-count">1 De 18</span>
+                    </div>
                   </div>
                 </div>
+
               </div>
             </section>
             
