@@ -13,6 +13,7 @@ function App() {
   const isSilencioDeDeus = path === '/silencio-deus-dificuldades-charles-spurgeon';
   const isEleicao = path === '/doutrina-eleicao-incondicional-efesios-romanos';
   const isGalatas = path === '/carta-galatas-liberdade-crista-estudo-completo';
+  const isProvisao = path === '/deus-honrou-fe-testemunho-milagres-provisao-divina';
 
   return (
     <>
@@ -1161,6 +1162,266 @@ function App() {
                <li><em>Sola Fide</em> — Various authors</li>
              </ul>
           </main>
+        ) : isProvisao ? (
+          <main className="article-content section-mb">
+             <div className="article-header">
+               <span className="cat-tag">Devocional / Testemunhos</span>
+               <h1>Deus Honrou a Fé Dela: O Milagre do Cachorro que Trouxe Dinheiro na Boca</h1>
+               <p className="article-subtitle" style={{fontSize: '1.2rem', color: '#555', marginTop: '0.5rem'}}>Um testemunho poderoso de provisão sobrenatural e o perigo da murmuração nas provas da fé</p>
+               <div className="article-meta">Por <strong>João Calvino</strong> | 12 Jun, 2026</div>
+             </div>
+             
+             <img src="/provisao.png" alt="O Milagre do Cachorro que Trouxe Dinheiro na Boca" className="article-hero-img" loading="lazy" />
+             
+             <p><em>"Louvai ao SENHOR, porque ele é bom, porque a sua misericórdia dura para sempre."</em> — Salmo 136:1</p>
+             <p>Há testemunhos que não apenas nos emocionam, mas nos ensinam lições profundas sobre fé, provisão divina e o caráter de Deus. Esta é a história real de uma mãe de doze filhos que, enfrentando oito dias sem pão na mesa, aprendeu da maneira mais extraordinária que <strong>Deus honra aqueles que confiam nEle sem murmurar</strong>.</p>
+             <p>Assista ao testemunho completo abaixo:</p>
+
+             <hr />
+
+             <h2>📺 O Testemunho</h2>
+             <div style={{position: 'relative', paddingBottom: '177.77%', height: 0, overflow: 'hidden', maxWidth: '100%', background: '#000', margin: '2rem 0', borderRadius: '12px'}}>
+               <iframe 
+                 src="https://www.youtube.com/embed/gBFAXFhgoAY" 
+                 title="Deus honrou a fé dela. Ela não reclamou. #bençãos #biblia #testemunho"
+                 frameBorder="0" 
+                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                 allowFullScreen
+                 style={{position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', borderRadius: '12px'}}>
+               </iframe>
+             </div>
+             <p><strong>Canal:</strong> OUVINDO A CRISTO<br />
+             <strong>Duração:</strong> Short/YouTube Shorts</p>
+
+             <hr />
+
+             <h2>🍞 A Prova do Pão: Oito Dias com Uma Panela de Feijão</h2>
+             <p>A história começa com uma pergunta difícil do pastor Apolone: <em>"O seu filho tem o que comer?"</em></p>
+             <p>Com sinceridade tocante, mas sem revolta, ela respondeu:</p>
+             <blockquote>
+               <p><em>"Não, pastor. Faz oito dias hoje que eu só tenho uma panela de feijão de avô para dar de comer aos meus filhos. Eu não fico dizendo a ninguém o que estou passando, mas Deus usa as pessoas; aí vem um e manda um pacote de biscoito, outro manda outro negócio, e assim nós estamos escapando."</em></p>
+             </blockquote>
+
+             <h3>A Realidade Dura</h3>
+             <p>Imagine a cena:</p>
+             <ul>
+               <li><strong>Doze filhos</strong> para criar (na época, oito ou nove em casa)</li>
+               <li><strong>Oito dias</strong> sem pão</li>
+               <li>Apenas <strong>uma panela de feijão</strong> para todos</li>
+               <li>Mesa vazia, mas coração cheio de fé</li>
+             </ul>
+             <p>Ela confessa: <em>"Eu não blasfemava, eu não murmurava."</em> Se o marido não tinha dinheiro, ela aceitava. E Jesus ia conservando a casa dela.</p>
+             <p><strong>Lição #1:</strong> A verdadeira fé não depende das circunstâncias. Ela canta e ora o dia todo, mesmo com a despensa vazia.</p>
+
+             <hr />
+
+             <h2>😢 O Dia em que as Forças Acabaram</h2>
+             <p>Mas houve um dia em que a prova ficou pesada demais. Faltou o pão e o sustento para o <strong>filho mais pequenininho, um bebê de apenas dois meses</strong> que estava deitado na rede.</p>
+             <p>Ela confessa com honestidade brutal:</p>
+             <blockquote>
+               <p><em>"Eu não nego, eu não tinha forças nem para orar."</em></p>
+             </blockquote>
+
+             <h3>O Desespero Silencioso</h3>
+             <p>A única coisa que ela conseguia fazer era:</p>
+             <ul>
+               <li>Andar de um lado para o outro dentro de casa</li>
+               <li>Lágrimas caindo dos olhos</li>
+               <li>Clamar em pensamento: <em>"Senhor, o que é que eu faço hoje?"</em></li>
+               <li>Olhar para a filheirinha dos filhos e chorar escondida</li>
+               <li>Entrar no quarto, chorar mais um pouco, voltar para a sala</li>
+             </ul>
+             <p>Quando foi ficando tarde, ela saiu no quintal, olhou para o céu e repetiu:</p>
+             <blockquote>
+               <p><em>"Jesus, o que eu faço para quando essa criança acordar eu ter o que dar de comer a ela?"</em></p>
+             </blockquote>
+             <p><strong>Lição #2:</strong> Até os gigantes da fé têm momentos de fraqueza. O importante não é nunca cair, é para quem você clama quando cai.</p>
+
+             <hr />
+
+             <h2>🐕 O Milagre Inesperado: Leão, o Cão Providencial</h2>
+             <p>A família criava um cachorrinho cujo nome era, curiosamente, <strong>Leão</strong>.</p>
+             <p>Logo após sua oração sincera olhando para o céu, ela viu o cachorrinho vindo correndo da rua. O animal correu, entrou no meio das crianças que estavam no quintal e <strong>soltou algo da boca</strong>.</p>
+             <p>Na hora, os filhos gritaram: <em>"Mãe, olha o que o Leão trouxe!"</em></p>
+
+             <h3>O Que Aconteceu</h3>
+             <p>Quando ela olhou, o cachorro havia trazido:</p>
+             <ul>
+               <li><strong>Um bolo de dinheiro enrolado</strong> jogado no chão</li>
+               <li>Não lembrava se eram 80 ou 180 Cruzeiros (moeda da época)</li>
+               <li>Era dinheiro vivo, certinho</li>
+             </ul>
+             <p>Ela declara no vídeo:</p>
+             <blockquote>
+               <p><em>"As coisas que Deus faz são muito bem feitas. Eu nunca ia esperar que um cachorro viesse trazer dinheiro na boca!"</em></p>
+             </blockquote>
+             <p>Ela pegou aquele dinheiro e, <strong>assim que o bebê de dois meses acordou na rede</strong>, ela já tinha conseguido comprar a comida e o sustento para ele.</p>
+
+             <h3>A Resposta aos Críticos</h3>
+             <p>Algumas pessoas na época duvidaram ou zombaram da história. Sua resposta foi firme:</p>
+             <blockquote>
+               <p><em>"Se vocês quiserem acreditar, acreditem, se não quiserem, não acreditem. Eu vi o animal trazendo, eu recebi o dinheiro e dei de comer aos meus filhos. Estou aqui contando a bênção para a glória de Deus, porque eu não tenho precisão de inventar uma mentira dessas."</em></p>
+             </blockquote>
+             <p><strong>Lição #3:</strong> Deus usa os meios mais improváveis para prover. Um cachorro chamado Leão foi o instrumento de milagre. Quem somos nós para limitar o Criador?</p>
+
+             <hr />
+
+             <h2>✨ A Promessa Cumprida: "Multiplicarei o Pão da Tua Mesa"</h2>
+             <p>Depois que ela passou por essa prova extrema sem murmurar, ela conta que <strong>Jesus falou fortemente ao seu coração</strong>:</p>
+             <blockquote>
+               <p><em>"Agora multiplicarei o pão da tua mesa."</em></p>
+             </blockquote>
+             <p>Ela testemunha que, a partir daquele dia:</p>
+             <ul>
+               <li>Com aquele mesmo dinheiro e a bênção de Deus</li>
+               <li>O sustento <strong>multiplicou</strong></li>
+               <li><strong>Nunca, nunca mais faltou nada</strong> na mesa dela</li>
+             </ul>
+             <p><strong>Lição #4:</strong> A fidelidade na prova gera multiplicação depois da prova. Deus não apenas supriu a necessidade do dia, mas estabeleceu provisão contínua.</p>
+
+             <hr />
+
+             <h2>📖 O Que a Bíblia Diz Sobre Não Murmurar</h2>
+             <p>Este testemunho ilustra perfeitamente o que as Escrituras ensinam sobre murmuração e fé:</p>
+
+             <h3>1. A Murmuração Impede a Bênção</h3>
+             <blockquote>
+               <p><em>"Não façam nada por ambição egoísta ou por vaidade, mas humildemente considerem os outros superiores a vocês mesmos."</em> — Filipenses 2:3</p>
+             </blockquote>
+             <p>Os israelitas murmuraram no deserto e não entraram na Terra Prometida (Números 14:26-35). A murmuração é falta de fé na provisão de Deus.</p>
+
+             <h3>2. A Gratidão Abre Portas</h3>
+             <blockquote>
+               <p><em>"Deem graças em todas as circunstâncias, pois esta é a vontade de Deus para vocês em Cristo Jesus."</em> — 1 Tessalonicenses 5:18</p>
+             </blockquote>
+             <p>Essa senhora cantava e orava mesmo sem pão. Sua gratidão na prova preparou o caminho para o milagre.</p>
+
+             <h3>3. Deus Honra a Fé</h3>
+             <blockquote>
+               <p><em>"Sem fé é impossível agradar a Deus, pois quem dele se aproxima precisa crer que ele existe e que recompensa aqueles que o buscam."</em> — Hebreus 11:6</p>
+             </blockquote>
+             <p>Ela buscou a Deus sem murmurar. Deus honrou sua fé de forma sobrenatural.</p>
+
+             <h3>4. A Provisão de Deus Vem de Formas Inesperadas</h3>
+             <blockquote>
+               <p><em>"Porque todo animal da selva é meu, e o gado sobre milhares de colinas."</em> — Salmo 50:10</p>
+             </blockquote>
+             <p>Deus é dono de tudo. Se Ele quiser usar um cachorro, um corvo (como com Elias), ou uma viúva (como com Elias novamente), Ele usará.</p>
+
+             <hr />
+
+             <h2>💡 Lições Práticas para Nossa Vida</h2>
+
+             <h3>1. Não Rotule Todas as Provas como "Ataque do Diabo"</h3>
+             <p>O conselho final dela é ouro puro:</p>
+             <blockquote>
+               <p><em>"Por isso que eu digo e gosto muito de dizer: gente, quando você estiver passando por uma prova, não blasfeme. Nem fique dizendo que é o diabo, porque nem tudo é o diabo! Tem coisas que é Deus nos preparando para uma obra. E se a gente viver murmurando ou dizendo que tudo é o adversário, nós não vencemos."</em></p>
+             </blockquote>
+             <p><strong>Aplicação:</strong> Às vezes, a prova é <strong>permitida por Deus</strong> para nos fortalecer, não um ataque do inimigo para nos destruir.</p>
+
+             <h3>2. Aceite a Realidade Sem Revolta</h3>
+             <p>Ela disse: <em>"Se o marido não tinha dinheiro, ela aceitava que não tinha e ponto final."</em></p>
+             <p>Isso não é passividade, é <strong>confiança ativa</strong> na soberania de Deus.</p>
+
+             <h3>3. Deus Vê Sua Lágrima Escondida</h3>
+             <p>Ela chorava escondida para os filhos não verem. Deus viu. Deus ouviu. Deus agiu.</p>
+             <blockquote>
+               <p><em>"Guarda as minhas lágrimas no teu odre; acaso não estão elas no teu livro?"</em> — Salmo 56:8</p>
+             </blockquote>
+
+             <h3>4. O Milagre Vem no Tempo de Deus</h3>
+             <p>Ela orou o dia todo. Quando estava ficando tarde, o milagre chegou.</p>
+             <p>Não desista na hora mais escura. O milagre pode estar a minutos de distância.</p>
+
+             <h3>5. Testemunhe Sem Medo de Críticas</h3>
+             <p>Ela enfrentou zombadores, mas continuou contando a verdade para glória de Deus.</p>
+             <p><strong>Seu testemunho é sua arma espiritual.</strong> Não o cale por medo do que dirão.</p>
+
+             <hr />
+
+             <h2>🔥 Reflexão Final: Qual É a Sua "Prova do Pão"?</h2>
+             <p>Talvez você esteja vivendo agora:</p>
+             <ul>
+               <li>Uma crise financeira</li>
+               <li>Uma necessidade urgente</li>
+               <li>Uma porta fechada</li>
+               <li>Uma espera dolorosa</li>
+             </ul>
+             <p><strong>O que você tem feito?</strong></p>
+             <ul>
+               <li>Tem murmurado ou orado?</li>
+               <li>Tem culpado o diabo ou confiado em Deus?</li>
+               <li>Tem escondido suas lágrimas ou derramado-as diante do Senhor?</li>
+             </ul>
+             
+             <h3>A Promessa para Você</h3>
+             <p>Deus não mudou. O mesmo Deus que usou um cachorro chamado Leão para trazer dinheiro na boca é o <strong>mesmo Deus</strong> que pode prover para você hoje.</p>
+             <p>Mas há uma condição: <strong>não murmure</strong>.</p>
+             <p>A murmuração fecha portas. A fé abre céus.</p>
+
+             <hr />
+
+             <h2>🙏 Oração Baseada Neste Testemunho</h2>
+             <p><em>"Senhor Jesus,<br />
+             Assim como honraste a fé dessa mãe, honra a minha fé hoje.<br />
+             Perdoa-me pelas vezes em que murmurei, reclamei e duvidei do Teu cuidado.<br />
+             Ensina-me a confiar em Ti mesmo quando a mesa estiver vazia.<br />
+             Ajuda-me a cantar e orar mesmo quando não entender Teus caminhos.<br />
+             Eu creio que Tu podes usar meios improváveis para me abençoar.<br />
+             Eu creio que, se eu permanecer fiel na prova, Tu multiplicarás o pão da minha mesa.<br />
+             Eu não murmurarei. Eu confiarei. Eu esperarei.<br />
+             Em nome de Jesus, amém."</em></p>
+
+             <hr />
+
+             <h2>📝 Desafio Prático da Semana</h2>
+             <p><strong>Comprometa-se a:</strong></p>
+             <ol>
+               <li><strong>Não reclamar</strong> por 7 dias seguidos</li>
+               <li><strong>Agradecer</strong> a Deus três vezes ao dia, mesmo nas dificuldades</li>
+               <li><strong>Orar</strong> em vez de murmurar quando a prova apertar</li>
+               <li><strong>Testemunhar</strong> o que Deus tem feito em sua vida, mesmo que pareça pequeno</li>
+             </ol>
+             <p>Ao final dos 7 dias, escreva em um diário o que mudou em seu coração e em suas circunstâncias.</p>
+
+             <hr />
+
+             <h2>📚 Versículos para Memorizar</h2>
+             <p>✓ <strong>Salmo 37:25</strong> — <em>"Fui moço e agora sou velho, mas nunca vi o justo desamparado, nem seus filhos mendigando o pão."</em></p>
+             <p>✓ <strong>Filipenses 4:19</strong> — <em>"O meu Deus suprirá todas as necessidades de vocês, de acordo com as suas gloriosas riquezas em Cristo Jesus."</em></p>
+             <p>✓ <strong>Tiago 1:2-4</strong> — <em>"Considerem motivo de grande alegria o fato de passarem por diversas provações, pois vocês sabem que a prova da sua fé produz perseverança."</em></p>
+             <p>✓ <strong>1 Pedro 5:7</strong> — <em>"Lancem sobre ele toda a sua ansiedade, porque ele tem cuidado de vocês."</em></p>
+
+             <hr />
+
+             <h2>💬 Compartilhe Seu Testemunho</h2>
+             <p>Deus tem feito milagres em sua vida? Assim como essa mãe, <strong>não se cale</strong>. Seu testemunho pode ser a fé que alguém precisa para crer que Deus também proverá.</p>
+             <p>Deixe nos comentários ou compartilhe com alguém que está passando por uma prova.</p>
+             <p><strong>Lembre-se:</strong> O mesmo Deus que honrou a fé dela, honrará a sua fé também.</p>
+
+             <hr />
+             <p><em>"As coisas que Deus faz são muito bem feitas."</em> — Testemunho do vídeo</p>
+             <p><strong>Soli Deo Gloria.</strong></p>
+
+             <hr />
+
+             <p><strong>📌 Sobre o Canal OUVINDO A CRISTO:</strong><br />
+             O canal "OUVINDO A CRISTO" tem como propósito compartilhar testemunhos, mensagens e conteúdos que edificam a fé cristã. Este vídeo em formato Shorts alcançou milhares de pessoas com esta mensagem poderosa de fé e provisão.</p>
+             <p><strong>Assista mais conteúdos:</strong> <a href="https://youtube.com/@OUVINDOACRISTO" target="_blank" rel="noreferrer">Canal OUVINDO A CRISTO no YouTube</a></p>
+
+             <hr />
+
+             <p><strong>📖 Referências Bíblicas:</strong> Salmo 136:1 | Filipenses 2:3 | 1 Tessalonicenses 5:18 | Hebreus 11:6 | Salmo 50:10 | Salmo 56:8 | Salmo 37:25 | Filipenses 4:19 | Tiago 1:2-4 | 1 Pedro 5:7</p>
+             <p><strong>🔗 Link do Vídeo Original:</strong> <a href="https://youtube.com/shorts/gBFAXFhgoAY" target="_blank" rel="noreferrer">https://youtube.com/shorts/gBFAXFhgoAY</a></p>
+             
+             <div className="article-tags" style={{marginTop: '2rem'}}>
+                <span className="cat-tag" style={{marginRight: '10px'}}>#provisãodivina</span>
+                <span className="cat-tag" style={{marginRight: '10px'}}>#fé</span>
+                <span className="cat-tag" style={{marginRight: '10px'}}>#testemunho</span>
+                <span className="cat-tag" style={{marginRight: '10px'}}>#milagre</span>
+                <span className="cat-tag">#nãomurmure</span>
+             </div>
+          </main>
         ) : (
           <>
             {/* PRIMEIRA DOBRA (HERO MAGAZINE) - 60 / 20 / 20 */}
@@ -1233,9 +1494,11 @@ function App() {
               
               <div className="grid-4">
                 <div className="grid-4-item">
-                  <div className="img-ph" loading="lazy"></div>
-                  <h3>Gênesis: A Criação e a Queda do Homem</h3>
-                  <div className="meta">15 Jun, 2026</div>
+                  <a href="/deus-honrou-fe-testemunho-milagres-provisao-divina" style={{textDecoration: 'none', color: 'inherit'}}>
+                    <img src="/provisao.png" alt="Deus Honrou a Fé Dela" className="img-ph" loading="lazy" style={{objectFit: 'cover'}} />
+                    <h3>Deus Honrou a Fé Dela: O Milagre do Cachorro que Trouxe Dinheiro na Boca</h3>
+                    <div className="meta">por <span>João Calvino</span> · 12 Jun, 2026</div>
+                  </a>
                 </div>
                 <div className="grid-4-item">
                   <a href="/artigo/sarca-ardente" style={{textDecoration: 'none', color: 'inherit'}}>
