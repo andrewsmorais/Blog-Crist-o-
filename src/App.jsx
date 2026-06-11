@@ -12,6 +12,7 @@ function App() {
   const isAhJesus = path === '/ah-jesus-coracao-igual-ao-teu-analise-biblica-julliany-souza';
   const isSilencioDeDeus = path === '/silencio-deus-dificuldades-charles-spurgeon';
   const isEleicao = path === '/doutrina-eleicao-incondicional-efesios-romanos';
+  const isGalatas = path === '/carta-galatas-liberdade-crista-estudo-completo';
 
   return (
     <>
@@ -766,6 +767,399 @@ function App() {
              </ul>
 
              <p><strong>🔗 Referências Bíblicas Chave:</strong> Ef 1:3-14; Rm 8:29-30; Rm 9:6-24; Jo 6:37-44; 2Ts 2:13; 1Pe 1:1-2; Ap 13:8; 17:8</p>
+          </main>
+        ) : isGalatas ? (
+          <main className="article-content section-mb">
+             <div className="article-header">
+               <span className="cat-tag">Estudos Bíblicos</span>
+               <h1>A Carta aos Gálatas e a Liberdade Cristã: O Evangelho da Graça Contra o Legalismo</h1>
+               <div className="article-meta">Por <strong>João Calvino</strong> | 14 Mar, 2026</div>
+             </div>
+             
+             <img src="/galatas.png" alt="A Carta aos Gálatas e a Liberdade Cristã" className="article-hero-img" loading="lazy" />
+             
+             <p><em>"Foi para a liberdade que Cristo nos libertou. Portanto, permaneçam firmes e não se deixem submeter novamente a um jugo de escravidão."</em> — Gálatas 5:1</p>
+             <p>A Carta aos Gálatas é, sem exagero, a <strong>Magna Carta da liberdade cristã</strong>. Martinho Lutero, que a chamava de "minha epístola", disse certa vez: <em>"Eu me casei com a Carta aos Gálatas."</em> Por quê? Porque nela encontramos o coração do Evangelho em sua forma mais pura, mais combativa e mais libertadora.</p>
+             <p>Neste estudo, exploraremos o contexto histórico, a estrutura teológica e as aplicações práticas desta epístola que continua sendo a principal defesa bíblica contra o legalismo, o misticismo e qualquer distorção do Evangelho da graça.</p>
+
+             <hr />
+
+             <h2>📜 I. Contexto Histórico: Quando o Evangelho Está em Jogo</h2>
+             
+             <h3>Autoria e Data</h3>
+             <p>Paulo, o apóstolo dos gentios, escreve esta carta por volta de <strong>48-49 d.C.</strong> (alguns estudiosos defendem 55 d.C.), tornando-a possivelmente a <strong>mais antiga das epístolas paulinas</strong>. Isso é crucial: Gálatas foi escrita antes do Concílio de Jerusalém (Atos 15), quando a igreja ainda debatia se os gentios precisavam seguir a lei mosaica para serem salvos.</p>
+
+             <h3>Destinatários: As Igrejas da Galácia</h3>
+             <p>A "Galácia" pode referir-se a:</p>
+             <ol>
+               <li><strong>Teoria do Norte:</strong> Região étnica dos gálatas (celtas) no centro da Anatólia</li>
+               <li><strong>Teoria do Sul:</strong> Cidades da província romana da Galácia (Antioquia da Pisídia, Icônio, Listra e Derbe)</li>
+             </ol>
+             <p>A evidência favorece a <strong>teoria do sul</strong>, pois Paulo menciona que os gálatas o conheceram durante sua <strong>primeira viagem missionária</strong> (Atos 13-14), e ele sofreu de uma "enfermidade na carne" (Gl 4:13) que o levou a pregar lá.</p>
+
+             <h3>A Crise: Judaizantes e o "Outro Evangelho"</h3>
+             <p>Após a partida de Paulo, chegaram à Galácia <strong>judaizantes</strong> — cristãos judeus que insistiam que os gentios convertidos deviam:</p>
+             <ul>
+               <li>Ser circuncidados (Gl 5:2-3)</li>
+               <li>Guardar o sábado e as festas judaicas (Gl 4:10)</li>
+               <li>Observar as leis dietéticas (Gl 2:11-14)</li>
+               <li>Seguir a lei mosaica para serem plenamente salvos</li>
+             </ul>
+             <p>Esses falsos mestres não negavam Jesus, mas <strong>acrescentavam</strong> obras à fé. E isso era suficiente para Paulo declarar: <em>"Se alguém vos prega evangelho que vá além daquele que recebestes, seja anátema"</em> (Gl 1:9).</p>
+             <p><strong>Nota teológica:</strong> O problema não era a obediência em si, mas a motivação. Os judaizantes tornavam a circuncisão <strong>necessária para a salvação</strong>, transformando a graça em dívida.</p>
+
+             <hr />
+
+             <h2>📖 II. Estrutura e Argumento Teológico</h2>
+             <p>A carta divide-se em três movimentos principais:</p>
+
+             <h3><strong>CAPÍTULOS 1-2: DEFESA PESSOAL — A Origem Divina do Evangelho</strong></h3>
+             <p>Paulo começa de forma explosiva, sem ação de graças (ao contrário de suas outras cartas). Ele está indignado:</p>
+             <blockquote>
+               <p><em>"Admiro-me de que estejais passando tão depressa daquele que vos chamou no evangelho de Cristo para outro evangelho"</em> (Gl 1:6)</p>
+             </blockquote>
+
+             <h4>A Origem Apostólica de Paulo (1:11-24)</h4>
+             <p>Paulo defende que seu evangelho:</p>
+             <ul>
+               <li><strong>Não é de origem humana</strong> (v.11)</li>
+               <li><strong>Não lhe foi ensinado</strong> por ninguém (v.12)</li>
+               <li><strong>Veio por revelação direta de Jesus Cristo</strong> (v.12)</li>
+             </ul>
+             <p>Ele relata sua conversão dramática e como, após três anos, subiu a Jerusalém apenas para conhecer Pedro (1:18). Isso prova que sua mensagem não foi "aprendida" com os apóstolos originais, mas recebida do próprio Cristo.</p>
+
+             <h4>O Concílio de Jerusalém (2:1-10)</h4>
+             <p>Paulo descreve a reunião onde os apóstolos reconheceram que:</p>
+             <ul>
+               <li>Pedro foi enviado aos <strong>judeus circuncidados</strong></li>
+               <li>Paulo foi enviado aos <strong>gentios incircuncisos</strong> (2:7-8)</li>
+               <li>Tiago, Pedro e João deram a Paulo e Barnabé a <strong>direita de comunhão</strong> (2:9)</li>
+             </ul>
+             <p>Isso é crucial: a liderança de Jerusalém <strong>validou</strong> o ministério de Paulo aos gentios <strong>sem exigir circuncisão</strong>.</p>
+
+             <h4>O Confronto em Antioquia (2:11-14)</h4>
+             <p>Paulo relata como resistiu a Pedro "face a face" porque ele, por medo dos judaizantes, deixou de comer com os gentios. A acusação de Paulo é severa:</p>
+             <blockquote>
+               <p><em>"Se tu, sendo judeu, vives como gentio e não como judeu, como obrigas os gentios a judaizar?"</em> (2:14)</p>
+             </blockquote>
+             <p><strong>Aplicação:</strong> Mesmo um apóstolo pode errar quando cede à pressão do legalismo. A verdade do Evangelho está acima de qualquer liderança humana.</p>
+
+             <hr />
+
+             <h3><strong>CAPÍTULOS 3-4: DEFESA DOUTRINÁRIA — Justificação pela Fé Somente</strong></h3>
+             <p>Aqui Paulo entra no cerne teológico: <strong>como o pecador é justificado diante de Deus?</strong></p>
+
+             <h4>A Experiência dos Gálatas (3:1-5)</h4>
+             <p>Paulo apela para a experiência deles:</p>
+             <blockquote>
+               <p><em>"Quereis saber de uma coisa: foi pelas obras da lei que recebestes o Espírito ou pela pregação da fé?"</em> (3:2)</p>
+             </blockquote>
+             <p>A resposta é óbvia: eles receberam o Espírito <strong>pela fé</strong>, não pela lei. Por que, então, tentar aperfeiçoar pela carne o que começou no Espírito? (3:3)</p>
+             <p><strong>Princípio:</strong> A salvação começa e termina pela fé. Acrescentar obras é negar a suficiência da cruz.</p>
+
+             <h4>O Exemplo de Abraão (3:6-9)</h4>
+             <p>Paulo cita Gênesis 15:6:</p>
+             <blockquote>
+               <p><em>"Abraão creu em Deus, e isso lhe foi imputado para justiça"</em> (3:6)</p>
+             </blockquote>
+             <p>Abraão foi justificado <strong>antes</strong> da circuncisão (que veio em Gênesis 17) e <strong>antes</strong> da lei (que veio 430 anos depois, conforme 3:17). Logo:</p>
+             <ul>
+               <li>A justificação é pela fé</li>
+               <li>A lei não anula a promessa</li>
+               <li>Os que são da fé são filhos de Abraão (3:7)</li>
+             </ul>
+             <p><strong>Nota reformada:</strong> Isso é o coração da doutrina da <strong>imputação da justiça de Cristo</strong>. Não somos justos por nossas obras, mas pela fé que recebe a justiça de Cristo.</p>
+
+             <h4>A Maldição da Lei (3:10-14)</h4>
+             <p>Paulo cita Deuteronômio 27:26:</p>
+             <blockquote>
+               <p><em>"Maldito todo aquele que não permanece em todas as coisas escritas no Livro da Lei, para praticá-las"</em> (3:10)</p>
+             </blockquote>
+             <p>O problema da lei é que ela exige <strong>perfeição absoluta</strong>. Quem falha em um ponto, torna-se culpado de todos (Tg 2:10). Cristo, porém, nos resgatou da maldição da lei, fazendo-se ele próprio maldição em nosso lugar (3:13), cumprindo Zacarias 3 e Isaías 53.</p>
+             <p><strong>Substituição penal:</strong> Cristo tomou nossa maldição para nos dar sua bênção. Isso é Evangelho puro!</p>
+
+             <h4>A Promessa e a Lei (3:15-25)</h4>
+             <p>Paulo usa uma ilustração jurídica: um testamento (aliança) não pode ser anulado ou modificado após ratificado. A promessa feita a Abraão (e à sua "semente", singular — Cristo, v.16) não pode ser anulada pela lei que veio 430 anos depois.</p>
+             <p><strong>Qual é, então, o propósito da lei?</strong> (3:19)</p>
+             <ol>
+               <li><strong>Revelar o pecado</strong> (3:19) — A lei é espelho que mostra nossa impureza</li>
+               <li><strong>Conduzir a Cristo</strong> (3:24) — A lei é "pedagogo" (paidagogos) que nos leva ao Mestre</li>
+               <li><strong>Aprisionar sob o pecado</strong> (3:22) — Para que a promessa fosse dada aos que creem</li>
+             </ol>
+             <p><strong>Aplicação pastoral:</strong> A lei tem função <strong>temporária</strong> e <strong>preparatória</strong>. Ela não salva; mostra nossa necessidade de salvação.</p>
+
+             <h4>Filhos e Herdeiros (4:1-7)</h4>
+             <p>Paulo compara a lei à tutela de um menor. Enquanto criança, o herdeiro não difere de um escravo, embora seja senhor de tudo. Assim também nós:</p>
+             <blockquote>
+               <p><em>"Quando, porém, chegou a plenitude do tempo, Deus enviou seu Filho, nascido de mulher, nascido sob a lei, para resgatar os que estavam sob a lei, a fim de que recebêssemos a adoção de filhos"</em> (4:4-5)</p>
+             </blockquote>
+             <p><strong>Cristologia:</strong> Jesus nasceu "sob a lei" para cumprir a lei em nosso lugar. Sua obediência perfeita é imputada a nós.</p>
+             <p>E porque somos filhos, Deus enviou o Espírito de seu Filho aos nossos corações, que clama: <em>"Aba, Pai!"</em> (4:6). Não somos mais escravos, mas filhos e herdeiros (4:7).</p>
+
+             <hr />
+
+             <h3><strong>CAPÍTULOS 5-6: DEFESA PRÁTICA — A Liberdade que Serve pelo Amor</strong></h3>
+             <p>A teologia sem aplicação é morta. Paulo agora mostra como a liberdade cristã se vive na prática.</p>
+
+             <h4>A Liberdade Cristã (5:1-12)</h4>
+             <blockquote>
+               <p><em>"Foi para a liberdade que Cristo nos libertou. Portanto, permaneçam firmes e não se deixem submeter novamente a um jugo de escravidão"</em> (5:1)</p>
+             </blockquote>
+             <p><strong>Atenção:</strong> Paulo não diz "foi para a liberdade que vocês se libertaram". A liberdade é <strong>dom de Cristo</strong>, não conquista humana.</p>
+             <p>Ele alerta:</p>
+             <ul>
+               <li>Se vocês se deixam circuncidar, <strong>Cristo de nada vos aproveitará</strong> (5:2)</li>
+               <li>Todo homem que se deixa circuncidar está <strong>obrigado a guardar toda a lei</strong> (5:3)</li>
+               <li>Separar-se de Cristo pela lei é <strong>cair da graça</strong> (5:4)</li>
+             </ul>
+             <p><strong>Nota importante:</strong> "Cair da graça" não significa perder a salvação, mas abandonar o princípio da justificação pela fé para tentar justificar-se pela lei.</p>
+             <p>A verdadeira justiça vem do Espírito, pela fé, aguardando a esperança (5:5). Em Cristo, nem circuncisão nem incircuncisão têm valor, mas <strong>a fé que atua pelo amor</strong> (5:6).</p>
+
+             <h4>Liberdade Não É Licenciosidade (5:13-15)</h4>
+             <blockquote>
+               <p><em>"Vós, porém, irmãos, fostes chamados à liberdade; porém não useis da liberdade por oportunidade da carne, mas servi-vos uns aos outros pelo amor"</em> (5:13)</p>
+             </blockquote>
+             <p>A liberdade cristã não é:</p>
+             <ul>
+               <li>Licença para pecar (licenciosidade)</li>
+               <li>Individualismo ("cada um faz o que quer")</li>
+               <li>Antinomianismo (rejeição da lei moral)</li>
+             </ul>
+             <p>A liberdade cristã é:</p>
+             <ul>
+               <li>Poder para obedecer</li>
+               <li>Motivação pelo amor, não pelo medo</li>
+               <li>Serviço mútuo, não egoísmo</li>
+             </ul>
+             <p><strong>Paradoxo cristão:</strong> Somos livres para servir. A verdadeira liberdade encontra sua expressão no amor ao próximo (5:14, citando Lv 19:18).</p>
+
+             <h4>Carne versus Espírito (5:16-26)</h4>
+             <p>Paulo apresenta a batalha interior do crente:</p>
+             <blockquote>
+               <p><em>"Digo, porém: Andai em Espírito e de maneira nenhuma satisfareis à concupiscência da carne"</em> (5:16)</p>
+             </blockquote>
+             <p><strong>A Carne (sarx):</strong> Não é o corpo físico, mas a natureza pecaminosa caída, que se opõe a Deus.</p>
+             <p><strong>As Obras da Carne</strong> (5:19-21):</p>
+             <ul>
+               <li>Imoralidade sexual, impureza, libertinagem</li>
+               <li>Idolatria, feitiçaria</li>
+               <li>Ódios, discórdia, ciúmes, iras, egoísmo, dissensões, facções, invejas</li>
+               <li>Embriaguez, orgias e coisas semelhantes</li>
+             </ul>
+             <p><strong>Alerta solene:</strong> <em>"Os que praticam essas coisas não herdarão o Reino de Deus"</em> (5:21). Isso não significa que crentes verdadeiros nunca pecam, mas que aqueles que <strong>vivem</strong> nessas práticas, sem arrependimento, demonstram não serem regenerados.</p>
+             <p><strong>O Fruto do Espírito</strong> (5:22-23):</p>
+             <ul>
+               <li>Amor, alegria, paz</li>
+               <li>Paciência, amabilidade, bondade</li>
+               <li>Fidelidade, mansidão, domínio próprio</li>
+             </ul>
+             <p><strong>Nota:</strong> "Fruto" está no singular — é um fruto integrado, não dons separados. Todos os crentes devem manifestar <strong>todas</strong> essas qualidades.</p>
+             <p><strong>Contra essas coisas não há lei</strong> (5:23). O Espírito produz o que a lei exigia mas não podia produzir.</p>
+
+             <h4>Andai no Espírito (5:25-26)</h4>
+             <blockquote>
+               <p><em>"Se vivemos pelo Espírito, andemos também pelo Espírito"</em> (5:25)</p>
+             </blockquote>
+             <p>Viver "pelo Espírito" (posição) deve resultar em andar "pelo Espírito" (prática). A santificação é obra do Espírito, mas exige nossa cooperação ativa.</p>
+
+             <h4>Restauração e Responsabilidade Mútua (6:1-10)</h4>
+             <p>Paulo dá instruções práticas:</p>
+             <ul>
+               <li><strong>Restaurar</strong> o que foi surpreendido em pecado com espírito de mansidão (6:1)</li>
+               <li><strong>Levar</strong> as cargas uns dos outros (6:2)</li>
+               <li><strong>Examinar</strong> os próprios atos (6:4)</li>
+               <li><strong>Semear</strong> para o Espírito, não para a carne (6:8)</li>
+             </ul>
+             <blockquote>
+               <p><em>"Não vos enganeis: de Deus não se zomba; pois o que o homem semear, isso também ceifará"</em> (6:7)</p>
+             </blockquote>
+             <p><strong>Princípio da semeadura:</strong></p>
+             <ul>
+               <li>Semear na carne → ceifar corrupção (juízo)</li>
+               <li>Semear no Espírito → ceifar vida eterna (6:8)</li>
+             </ul>
+             <p><strong>Perseverança:</strong> <em>"E não nos cansemos de fazer o bem, porque a seu tempo ceifaremos, se não houvermos desfalecido"</em> (6:9).</p>
+
+             <hr />
+
+             <h2>📚 III. Temas Teológicos Centrais</h2>
+             
+             <h3>1. Justificação Somente Pela Fé (Sola Fide)</h3>
+             <p>Este é o <strong>material principle</strong> da Reforma. Gálatas é a defesa mais clara de que:</p>
+             <ul>
+               <li>O pecador é declarado justo <strong>não por obras da lei</strong>, mas <strong>somente pela fé</strong> em Cristo</li>
+               <li>A justiça de Cristo é <strong>imputada</strong> (creditada) ao crente, não infundida</li>
+               <li>A fé é o <strong>instrumento</strong> que recebe Cristo, não uma obra meritória</li>
+             </ul>
+             <p>Lutero disse: <em>"A doutrina da justificação é o artigo pelo qual a igreja permanece ou cai."</em></p>
+
+             <h3>2. A Suficiência da Obra de Cristo</h3>
+             <p>Cristo:</p>
+             <ul>
+               <li>Cumpriu a lei perfeitamente</li>
+               <li>Carregou nossa maldição na cruz</li>
+               <li>Nos deu sua justiça</li>
+               <li>Nos enviou o Espírito</li>
+             </ul>
+             <p><strong>Nada pode ser acrescentado.</strong> Qualquer "Jesus + algo" é outro evangelho.</p>
+
+             <h3>3. A Natureza da Liberdade Cristã</h3>
+             <p>Liberdade em Cristo é:</p>
+             <ul>
+               <li><strong>De</strong> — libertos da condenação da lei, do poder do pecado, da escravidão religiosa</li>
+               <li><strong>Para</strong> — viver em amor, servir ao próximo, andar no Espírito</li>
+             </ul>
+             <p>Não é autonomia, mas <strong>teonomia</strong> (governo de Deus) internalizada pelo Espírito.</p>
+
+             <h3>4. O Papel da Lei</h3>
+             <p>A lei:</p>
+             <ul>
+               <li><strong>Não salva</strong> (3:11, 21)</li>
+               <li><strong>Revela o pecado</strong> (3:19)</li>
+               <li><strong>Conduz a Cristo</strong> (3:24)</li>
+               <li><strong>É cumprida</strong> no amor (5:14)</li>
+               <li><strong>É escrita no coração</strong> pelo Espírito ( Jr 31:33; Ez 36:27)</li>
+             </ul>
+             <p>O crente não está "sem lei" (anomia), mas "sob a lei de Cristo" (1Co 9:21) — a lei moral cumprida no amor pelo poder do Espírito.</p>
+
+             <h3>5. A Vida no Espírito</h3>
+             <p>A santificação é:</p>
+             <ul>
+               <li><strong>Obra do Espírito</strong> (3:3, 5:16-18)</li>
+               <li><strong>Progressiva</strong> (fruto cresce)</li>
+               <li><strong>Concreta</strong> (virtudes visíveis)</li>
+               <li><strong>Comunitária</strong> (6:1-10)</li>
+             </ul>
+             <p>Não é misticismo passivo, mas cooperação ativa: <em>"Andai no Espírito"</em> (imperativo).</p>
+
+             <hr />
+
+             <h2>💡 IV. Aplicações Contemporâneas: Gálatas para o Século XXI</h2>
+
+             <h3>1. Contra o Legalismo Religioso</h3>
+             <p>O legalismo ainda vive:</p>
+             <ul>
+               <li>"Você precisa fazer X para ser mais santo"</li>
+               <li>"Deus só vai te abençoar se..."</li>
+               <li>"Verdadeiros cristãos não fazem Y"</li>
+               <li>Regras humanas elevadas ao nível de mandamentos divinos</li>
+             </ul>
+             <p><strong>Resposta de Gálatas:</strong> Cristo já realizou tudo. Sua aceitação diante de Deus baseia-se <strong>somente</strong> na obra de Cristo, não em seu desempenho.</p>
+
+             <h3>2. Contra o Antinomianismo</h3>
+             <p>O oposto do legalismo é a licenciosidade:</p>
+             <ul>
+               <li>"Sou livre, posso fazer o que quiser"</li>
+               <li>"Graça significa que o pecado não importa"</li>
+               <li>"Não estou debaixo da lei, então..."</li>
+             </ul>
+             <p><strong>Resposta de Gálatas:</strong> A verdadeira fé produz obediência pelo amor. A liberdade é para servir, não para pecar.</p>
+
+             <h3>3. Contra o "Evangelho" da Prosperidade</h3>
+             <p>Os judaizantes prometiam: "Seja circuncidado e será pleno". Hoje: "Dizime e seja próspero", "Declare e receba", "Tenha fé e Deus te abençoará".</p>
+             <p><strong>Resposta de Gálatas:</strong> O Evangelho não é sobre o que você ganha, mas sobre o que Cristo já fez. A bênção de Abraão é o Espírito (3:14), não riqueza material.</p>
+
+             <h3>4. Para a Segurança da Salvação</h3>
+             <p>Se sua salvação depende de você, você a perderá. Se depende de Cristo, está segura.</p>
+             <p><strong>Consolo de Gálatas:</strong> <em>"Já não sou eu quem vive, mas Cristo vive em mim"</em> (2:20). Sua perseverança está fundamentada na fidelidade de Cristo, não na sua.</p>
+
+             <h3>5. Para a Vida no Espírito</h3>
+             <p>Como vencer o pecado? Não por regras, mas pelo Espírito.</p>
+             <p><strong>Direção de Gálatas:</strong> <em>"Andai no Espírito"</em> (5:16). Encha-se do Espírito (Ef 5:18), ande no Espírito, seja guiado pelo Espírito (Rm 8:14).</p>
+
+             <hr />
+
+             <h2>🕊️ V. Conclusão: Permaneçam na Liberdade</h2>
+             <p>Gálatas termina com um apelo apaixonado:</p>
+             <blockquote>
+               <p><em>"Longe esteja de mim gloriar-me, senão na cruz de nosso Senhor Jesus Cristo, pela qual o mundo foi crucificado para mim e eu, para o mundo"</em> (6:14)</p>
+             </blockquote>
+             <p>Paulo não se gloria em:</p>
+             <ul>
+               <li>Suas realizações apostólicas</li>
+               <li>Sua linhagem judaica</li>
+               <li>Suas revelações</li>
+               <li>Seu sofrimento</li>
+             </ul>
+             <p>Ele se gloria <strong>somente na cruz</strong>. Porque na cruz:</p>
+             <ul>
+               <li>Seu velho eu morreu</li>
+               <li>O mundo perdeu seu poder de atração</li>
+               <li>Cristo tudo realizou</li>
+             </ul>
+             <p><strong>Irmãos, a mensagem final é:</strong></p>
+             <ul>
+               <li><strong>Não troque</strong> a liberdade pela escravidão</li>
+               <li><strong>Não acrescente</strong> nada à obra de Cristo</li>
+               <li><strong>Não despreze</strong> a graça que o custou tanto</li>
+               <li><strong>Permaneça firme</strong> na liberdade de Cristo</li>
+             </ul>
+             <p>O Evangelho é simples: <strong>Cristo morreu pelos nossos pecados e ressuscitou para nossa justificação</strong>. Creia. Descanse. Viva. Sirva. Glorifique.</p>
+             <p><em>"A graça de nosso Senhor Jesus Cristo seja com o vosso espírito, irmãos. Amém."</em> (Gálatas 6:18)</p>
+             <p><strong>Soli Deo Gloria.</strong></p>
+
+             <hr />
+
+             <h2>📚 Guia de Estudo Prático</h2>
+             
+             <h3>Semana 1: O Evangelho da Graça (Capítulos 1-2)</h3>
+             <p><strong>Leitura:</strong> Gálatas 1-2<br />
+             <strong>Reflexão:</strong> Que "outros evangelhos" tentam me afastar da suficiência de Cristo?<br />
+             <strong>Oração:</strong> "Senhor, guarda-me no Evangelho puro da tua graça."</p>
+
+             <h3>Semana 2: Justificação pela Fé (Capítulo 3)</h3>
+             <p><strong>Leitura:</strong> Gálatas 3<br />
+             <strong>Reflexão:</strong> Em que áreas ainda tento me justificar por obras?<br />
+             <strong>Oração:</strong> "Cristo, tua justiça me basta. Descanso em ti."</p>
+
+             <h3>Semana 3: Filhos, Não Escravos (Capítulo 4)</h3>
+             <p><strong>Leitura:</strong> Gálatas 4<br />
+             <strong>Reflexão:</strong> Vivo como filho ou como escravo?<br />
+             <strong>Oração:</strong> "Espírito Santo, ensina-me a clamar: Aba, Pai!"</p>
+
+             <h3>Semana 4: Liberdade para Servir (Capítulo 5)</h3>
+             <p><strong>Leitura:</strong> Gálatas 5:1-15<br />
+             <strong>Reflexão:</strong> Como tenho usado minha liberdade cristã?<br />
+             <strong>Oração:</strong> "Usa minha liberdade para servir em amor."</p>
+
+             <h3>Semana 5: Andando no Espírito (Capítulo 5-6)</h3>
+             <p><strong>Leitura:</strong> Gálatas 5:16 - 6:10<br />
+             <strong>Reflexão:</strong> Onde vejo o fruto do Espírito em minha vida? Onde preciso crescer?<br />
+             <strong>Oração:</strong> "Espírito, produz teu fruto em mim."</p>
+
+             <h3>Semana 6: Gloriando-se na Cruz (Capítulo 6)</h3>
+             <p><strong>Leitura:</strong> Gálatas 6:11-18<br />
+             <strong>Reflexão:</strong> Em que me glorio?<br />
+             <strong>Oração:</strong> "Longe de mim gloriar-me, senão na cruz de Cristo."</p>
+
+             <hr />
+
+             <h2>🔍 Perguntas para Discussão em Grupo</h2>
+             <ol>
+               <li>Qual é a diferença entre "outro evangelho" (1:6) e "distorção do Evangelho"?</li>
+               <li>Como Paulo defende sua autoridade apostólica? Por que isso era importante?</li>
+               <li>Explique a relação entre fé e obras na justificação.</li>
+               <li>Qual é o propósito da lei segundo Gálatas 3?</li>
+               <li>Como a adoção filial muda nossa relação com Deus?</li>
+               <li>O que significa "cair da graça" (5:4)?</li>
+               <li>Como distinguir liberdade cristã de licenciosidade?</li>
+               <li>Quais são as evidências de que alguém está "andando no Espírito"?</li>
+               <li>Como aplicar o princípio da semeadura e colheita (6:7-8)?</li>
+               <li>Por que Paulo se gloria apenas na cruz (6:14)?</li>
+             </ol>
+
+             <hr />
+
+             <p><strong>📖 Referências Bíblicas Chave:</strong> Gálatas 1-6 | Romanos 3-8 | Efésios 2 | Filipenses 3 | Tiago 2</p>
+             
+             <p><strong>📚 Leituras Recomendadas:</strong></p>
+             <ul>
+               <li><em>Comentário de Gálatas</em> — Martinho Lutero (clássico indispensável)</li>
+               <li><em>Gálatas</em> — F.F. Bruce (excelente exegese)</li>
+               <li><em>Gálatas</em> — John Stott (aplicação pastoral)</li>
+               <li><em>A Doutrina da Justificação</em> — R.C. Sproul</li>
+               <li><em>Sola Fide</em> — Various authors</li>
+             </ul>
           </main>
         ) : (
           <>
