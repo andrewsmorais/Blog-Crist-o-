@@ -1513,9 +1513,12 @@ function App() {
                   <div className="meta">18 Abr, 2026</div>
                 </div>
                 <div className="grid-4-item">
-                  <div className="img-ph" loading="lazy"></div>
-                  <h3>A Carta aos Gálatas e a Liberdade Cristã</h3>
-                  <div className="meta">14 Mar, 2026</div>
+                  <a href="/carta-galatas-liberdade-crista-estudo-completo" style={{textDecoration: 'none', color: 'inherit'}}>
+                    <img src="/galatas.png" alt="A Carta aos Gálatas e a Liberdade Cristã" className="img-ph" loading="lazy" style={{objectFit: 'cover'}} />
+                    <h3>A Carta aos Gálatas e a Liberdade Cristã: O Evangelho da Graça Contra o Legalismo</h3>
+                    <p style={{fontSize: '0.9rem', color: '#666', marginBottom: '0.5rem', marginTop: '0.5rem'}}>Um estudo profundo da epístola de Paulo aos Gálatas, explorando a doutrina da justificação pela fé, a liberdade cristã e os perigos do legalismo. Descubra como o Evangelho da graça nos liberta do jugo da lei.</p>
+                    <div className="meta">por <span>João Calvino</span> · 14 Mar, 2026</div>
+                  </a>
                 </div>
               </div>
             </section>
