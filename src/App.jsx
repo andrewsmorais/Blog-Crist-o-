@@ -14,6 +14,7 @@ function App() {
   const isEleicao = path === '/doutrina-eleicao-incondicional-efesios-romanos';
   const isGalatas = path === '/carta-galatas-liberdade-crista-estudo-completo';
   const isProvisao = path === '/deus-honrou-fe-testemunho-milagres-provisao-divina';
+  const isCincoSolas = path === '/cinco-solas-relevancia-hoje-reforma-protestante';
 
   return (
     <>
@@ -1162,6 +1163,119 @@ function App() {
                <li><em>Sola Fide</em> — Various authors</li>
              </ul>
           </main>
+        ) : isCincoSolas ? (
+          <main className="article-content section-mb">
+             <div className="article-header">
+               <span className="cat-tag red">História Bíblica / Teologia</span>
+               <h1>As Cinco Solas e Sua Relevância Hoje: Os Pilares da Reforma que Ainda Transformam Vidas</h1>
+               <p className="article-subtitle" style={{fontSize: '1.2rem', color: '#555', marginTop: '0.5rem'}}>Descubra os cinco princípios fundamentais da Reforma Protestante e como eles continuam essenciais para a fé cristã no século XXI</p>
+               <div className="article-meta">Por <strong>João Calvino</strong> | 26 Dez, 2025</div>
+             </div>
+             
+             <img src="/cinco_solas.png" alt="As Cinco Solas da Reforma" className="article-hero-img" loading="lazy" />
+             
+             <p>Em 1517, Martinho Lutero deu início à Reforma Protestante ao pregar suas 95 teses na porta da igreja do castelo de Wittenberg. Mais do que um protesto contra abusos clericais, a Reforma foi um retorno às raízes do Evangelho. Desse movimento histórico surgiram cinco princípios fundamentais que moldaram a teologia cristã: as <strong>Cinco Solas</strong>.</p>
+             <p>A palavra latina "Sola" significa "somente". Elas não eram apenas chavões teológicos, mas declarações vitais que diferenciavam o verdadeiro evangelho das adições humanas. Mas será que elas ainda importam hoje? A resposta é um retumbante <em>sim</em>.</p>
+
+             <hr />
+
+             <h2>📜 1. Sola Scriptura (Somente a Escritura)</h2>
+             <p>O princípio material da Reforma afirma que a Bíblia é a única regra infalível de fé e prática para o cristão e para a Igreja.</p>
+             
+             <div style={{background: '#f9f9f9', borderLeft: '4px solid #8B0000', padding: '15px', margin: '20px 0'}}>
+               <p style={{margin: 0}}><em>"Toda a Escritura é divinamente inspirada, e proveitosa para ensinar, para redarguir, para corrigir, para instruir em justiça."</em> — 2 Timóteo 3:16</p>
+             </div>
+
+             <h3>A Relevância Hoje</h3>
+             <ul>
+               <li><strong>Contra o Subjetivismo:</strong> Vivemos em uma era onde a "verdade pessoal" e as emoções ditam a realidade. Sola Scriptura nos ancora na verdade objetiva de Deus.</li>
+               <li><strong>Contra Tradições Humanas:</strong> Nenhuma revelação moderna, experiência ou tradição eclesiástica pode se sobrepor ao que está escrito na Palavra.</li>
+             </ul>
+
+             <hr />
+
+             <h2>✝️ 2. Solus Christus (Somente Cristo)</h2>
+             <p>A salvação é encontrada apenas em Jesus Cristo, o único mediador entre Deus e os homens. Nossos méritos, santos ou mediadores humanos não têm poder salvífico.</p>
+
+             <div style={{background: '#f9f9f9', borderLeft: '4px solid #8B0000', padding: '15px', margin: '20px 0'}}>
+               <p style={{margin: 0}}><em>"E em nenhum outro há salvação, porque também debaixo do céu nenhum outro nome há, dado entre os homens, pelo qual devamos ser salvos."</em> — Atos 4:12</p>
+             </div>
+
+             <h3>A Relevância Hoje</h3>
+             <ul>
+               <li><strong>Contra o Pluralismo:</strong> Num mundo que diz que "todos os caminhos levam a Deus", Solus Christus reafirma a exclusividade de Cristo.</li>
+               <li><strong>O Suficiente Salvador:</strong> Cristo não precisa da nossa ajuda para nos salvar. Sua obra na cruz foi completa e perfeita.</li>
+             </ul>
+
+             <hr />
+
+             <h2>🎁 3. Sola Gratia (Somente a Graça)</h2>
+             <p>A salvação é um dom imerecido de Deus. Não há nada que possamos fazer, antes ou depois da conversão, para comprar o favor divino. O ser humano está morto em seus pecados (Efésios 2:1) e precisa que Deus o ressuscite.</p>
+
+             <div style={{background: '#f9f9f9', borderLeft: '4px solid #8B0000', padding: '15px', margin: '20px 0'}}>
+               <p style={{margin: 0}}><em>"Porque pela graça sois salvos, por meio da fé; e isto não vem de vós, é dom de Deus. Não vem das obras, para que ninguém se glorie."</em> — Efésios 2:8-9</p>
+             </div>
+
+             <h3>A Relevância Hoje</h3>
+             <ul>
+               <li><strong>Contra o Legalismo:</strong> Liberta-nos da esteira rolante do desempenho religioso. Somos aceitos por causa do que Cristo fez, não do que fazemos.</li>
+               <li><strong>Profunda Humildade:</strong> A graça destrói o orgulho humano, pois reconhecemos que somos devedores absolutos à misericórdia de Deus.</li>
+             </ul>
+
+             <hr />
+
+             <h2>🕊️ 4. Sola Fide (Somente a Fé)</h2>
+             <p>Nós recebemos a graça de Deus e somos justificados (declarados justos) unicamente através da fé em Jesus Cristo, e não por nossas obras.</p>
+
+             <div style={{background: '#f9f9f9', borderLeft: '4px solid #8B0000', padding: '15px', margin: '20px 0'}}>
+               <p style={{margin: 0}}><em>"Concluímos, pois, que o homem é justificado pela fé sem as obras da lei."</em> — Romanos 3:28</p>
+             </div>
+
+             <h3>A Relevância Hoje</h3>
+             <ul>
+               <li><strong>Paz com Deus:</strong> Como podemos ter certeza da salvação? Se dependesse de nós, nunca teríamos certeza. Como depende da obra de Cristo recebida pela fé, temos firme garantia.</li>
+               <li><strong>O Combate ao Mérito:</strong> Muitas pessoas tentam se justificar perante Deus e perante os homens. Sola Fide nos ensina a descansar na justiça imputada de Cristo.</li>
+             </ul>
+
+             <hr />
+
+             <h2>👑 5. Soli Deo Gloria (Glória Somente a Deus)</h2>
+             <p>O propósito final de toda a criação e da nossa salvação é a glória de Deus. Como a salvação é inteiramente obra de Deus, a Ele pertence toda a glória.</p>
+
+             <div style={{background: '#f9f9f9', borderLeft: '4px solid #8B0000', padding: '15px', margin: '20px 0'}}>
+               <p style={{margin: 0}}><em>"Portanto, quer comais quer bebais, ou façais outra qualquer coisa, fazei tudo para glória de Deus."</em> — 1 Coríntios 10:31</p>
+             </div>
+
+             <h3>A Relevância Hoje</h3>
+             <ul>
+               <li><strong>Contra o Antropocentrismo:</strong> A cultura de hoje é focada no "eu" (autoestima, autoajuda, realização pessoal). Soli Deo Gloria nos lembra que o universo gira em torno de Deus, não de nós.</li>
+               <li><strong>Propósito de Vida:</strong> Transforma até as tarefas mais comuns em adoração, quando feitas para o Senhor.</li>
+             </ul>
+
+             <hr />
+
+             <h2>💡 Conclusão e Aplicação Prática</h2>
+             <p>As Cinco Solas não são apenas relíquias históricas; elas são a espinha dorsal da nossa identidade cristã. Elas nos protegem de desvios teológicos e garantem que o nosso evangelho continua sendo "boas novas".</p>
+
+             <div style={{background: '#e8f4f8', border: '1px solid #b3d4e0', padding: '20px', margin: '30px 0', borderRadius: '8px'}}>
+               <h3 style={{marginTop: 0, color: '#005580'}}>🎯 Desafio Prático da Semana</h3>
+               <p>Ao longo desta semana, reflita sobre as Cinco Solas:</p>
+               <ol>
+                 <li><strong>Sola Scriptura:</strong> Você tem passado mais tempo lendo a Bíblia ou consumindo opiniões na internet?</li>
+                 <li><strong>Solus Christus:</strong> Sua confiança está em Cristo ou nas suas habilidades?</li>
+                 <li><strong>Sola Gratia / Sola Fide:</strong> Você vive ansioso tentando agradar a Deus por esforço próprio, ou descansa na obra consumada de Cristo?</li>
+                 <li><strong>Soli Deo Gloria:</strong> As suas motivações na escola, no trabalho ou em casa visam a exaltação do seu nome ou do nome do Senhor?</li>
+               </ol>
+             </div>
+
+             <div className="article-tags" style={{marginTop: '2rem'}}>
+                <span className="cat-tag" style={{marginRight: '10px'}}>#CincoSolas</span>
+                <span className="cat-tag" style={{marginRight: '10px'}}>#ReformaProtestante</span>
+                <span className="cat-tag" style={{marginRight: '10px'}}>#SolaScriptura</span>
+                <span className="cat-tag" style={{marginRight: '10px'}}>#SolaFide</span>
+                <span className="cat-tag" style={{marginRight: '10px'}}>#SoliDeoGloria</span>
+             </div>
+          </main>
         ) : isProvisao ? (
           <main className="article-content section-mb">
              <div className="article-header">
@@ -1442,10 +1556,12 @@ function App() {
               {/* Centro (20%) */}
               <div className="hero-center">
                 <div className="article-sm">
-                  <div className="img-ph" loading="lazy"></div>
-                  <h3>As Cinco Solas e sua relevância hoje</h3>
-                  <span className="cat-tag red">História Bíblica</span>
-                  <div className="meta">26 Dez, 2025</div>
+                  <a href="/cinco-solas-relevancia-hoje-reforma-protestante" style={{textDecoration: 'none', color: 'inherit'}}>
+                    <img src="/cinco_solas.png" alt="As Cinco Solas e Sua Relevância Hoje" className="img-ph" loading="lazy" style={{objectFit: 'cover'}} />
+                    <h3>As Cinco Solas e Sua Relevância Hoje: Os Pilares da Reforma que Ainda Transformam Vidas</h3>
+                    <span className="cat-tag red">História Bíblica / Teologia</span>
+                    <div className="meta">26 Dez, 2025</div>
+                  </a>
                 </div>
                 <div className="article-sm">
                   <div className="img-ph" loading="lazy"></div>
