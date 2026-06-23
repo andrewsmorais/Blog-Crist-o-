@@ -1719,21 +1719,6 @@ function App() {
                 </div>
               </div>
 
-              {/* Direita (20%) */}
-              <div className="hero-center">
-                <div className="article-sm">
-                  <div className="img-ph" loading="lazy"></div>
-                  <h3>A Necessidade da Pregação Expositiva</h3>
-                  <span className="cat-tag">Teologia Pastoral</span>
-                  <div className="meta">13 Mai, 2026</div>
-                </div>
-                <div className="article-sm">
-                  <div className="img-ph" loading="lazy"></div>
-                  <h3>O Papel da Lei e do Evangelho</h3>
-                  <span className="cat-tag">Teologia Bíblica</span>
-                  <div className="meta">01 Dez, 2025</div>
-                </div>
-              </div>
             </section>
 
             {/* AD PLACEHOLDER */}

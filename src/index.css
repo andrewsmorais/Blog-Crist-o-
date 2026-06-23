@@ -219,7 +219,7 @@ img {
 /* --- Hero Section (60/20/20) --- */
 .hero-grid {
   display: grid;
-  grid-template-columns: 6fr 2fr 2fr;
+  grid-template-columns: 6fr 4fr;
   gap: 32px;
 }
 
