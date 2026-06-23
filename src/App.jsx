@@ -18,6 +18,7 @@ function App() {
   const isEstudosBiblicos = path === '/estudos-biblicos';
   const isPersonagensBiblicos = path === '/personagens-biblicos';
   const isPauloTarso = path === '/paulo-tarso-apostolo-nacoes';
+  const isSamuel = path === '/samuel-profeta-voz-deus-trevas-israel';
   const isAna = path === '/ana-mae-orou-chorou-gerou-profeta-samuel';
   const isDavi = path === '/pastor-conquistou-trono-jornada-davi-belem-jerusalem';
   const isEster = path === '/ester-rainha-salvou-povo-deus-age-sombras';
@@ -524,9 +525,9 @@ function App() {
             <div className="section-title">
               <h2>Personagens Bíblicos</h2>
             </div>
-            <div className="grid-4" style={{marginTop: '2rem'}}>
+            <div className="grid-3" style={{marginTop: '2rem'}}>
               
-              <div className="grid-4-item">
+              <div className="grid-3-item">
                 <a href="/ana-mae-orou-chorou-gerou-profeta-samuel" style={{textDecoration: 'none', color: 'inherit'}}>
                   <img src="/ana_orando.png" alt="Ana: A Mãe que Orou, Chorou e Gerou um Profeta" className="img-ph" loading="lazy" style={{objectFit: 'cover'}} />
                   <h3 style={{fontSize: '1.1rem', marginBottom: '8px', lineHeight: '1.4'}}>Ana: A Mãe que Orou, Chorou e Gerou um Profeta</h3>
@@ -534,7 +535,7 @@ function App() {
                 </a>
               </div>
 
-              <div className="grid-4-item">
+              <div className="grid-3-item">
                 <a href="/ester-rainha-salvou-povo-deus-age-sombras" style={{textDecoration: 'none', color: 'inherit'}}>
                   <img src="/ester_rainha.png" alt="Rainha Ester" className="img-ph" loading="lazy" style={{objectFit: 'cover'}} />
                   <h3 style={{fontSize: '1.1rem', marginBottom: '8px', lineHeight: '1.4'}}>Ester: A Rainha que Salvou um Povo</h3>
@@ -542,7 +543,7 @@ function App() {
                 </a>
               </div>
 
-              <div className="grid-4-item">
+              <div className="grid-3-item">
                 <a href="/pastor-conquistou-trono-jornada-davi-belem-jerusalem" style={{textDecoration: 'none', color: 'inherit'}}>
                   <img src="/davi_pastor.png" alt="O Pastor que Conquistou um Trono" className="img-ph" loading="lazy" style={{objectFit: 'cover'}} />
                   <h3 style={{fontSize: '1.1rem', marginBottom: '8px', lineHeight: '1.4'}}>O Pastor que Conquistou um Trono: A Jornada de Davi</h3>
@@ -551,10 +552,22 @@ function App() {
                 </a>
               </div>
 
-              <div className="grid-4-item">
+            </div>
+
+            <div className="grid-2" style={{marginTop: '2rem'}}>
+              
+              <div className="grid-2-item">
                 <a href="/paulo-tarso-apostolo-nacoes" style={{textDecoration: 'none', color: 'inherit'}}>
                   <img src="/paulo_de_tarso.png" alt="Paulo de Tarso" className="img-ph" loading="lazy" style={{objectFit: 'cover'}} />
                   <h3 style={{fontSize: '1.1rem', marginBottom: '8px', lineHeight: '1.4'}}>Paulo de Tarso: O Perseguidor Chamado para Ser Apóstolo das Nações</h3>
+                  <div className="meta">Personagens Bíblicos</div>
+                </a>
+              </div>
+
+              <div className="grid-2-item">
+                <a href="/samuel-profeta-voz-deus-trevas-israel" style={{textDecoration: 'none', color: 'inherit'}}>
+                  <img src="/samuel_profeta.png" alt="Samuel: O Profeta" className="img-ph" loading="lazy" style={{objectFit: 'cover'}} />
+                  <h3 style={{fontSize: '1.1rem', marginBottom: '8px', lineHeight: '1.4'}}>Samuel: O Profeta que Foi a Voz de Deus nas Trevas de Israel</h3>
                   <div className="meta">Personagens Bíblicos</div>
                 </a>
               </div>
@@ -588,6 +601,62 @@ function App() {
                <div className="quote-box" style={{backgroundColor: 'var(--bg-light)', borderLeftColor: 'var(--primary)'}}>
                  Sua jornada nos lembra que ninguém está além do alcance da graça de Deus. Se Ele pôde transformar o maior perseguidor no maior apóstolo, Ele pode transformar qualquer coração hoje.
                </div>
+
+             </div>
+          </main>
+        ) : isSamuel ? (
+          <main className="article-content section-mb">
+             <div className="article-header">
+               <span className="cat-tag">Personagens Bíblicos</span>
+               <h1>Samuel: O Profeta que Foi a Voz de Deus nas Trevas de Israel</h1>
+               <div className="article-meta">Por <strong>Equipe Soli Deo Gloria</strong> | 24 Jun, 2026</div>
+             </div>
+             <img src="/samuel_profeta.png" alt="Samuel: O Profeta" className="article-hero-img" loading="lazy" />
+             <div className="article-body">
+               <div className="quote-box">
+                 "Crescia Samuel, e o SENHOR era com ele, e nenhuma de todas as suas palavras deixou cair em terra. E todo o Israel, desde Dã até Berseba, sabia que Samuel estava confirmado profeta do SENHOR." — <strong>1 Samuel 3:19-20</strong>
+               </div>
+               
+               <p>Há momentos na história de um povo em que o silêncio de Deus se torna ensurdecedor. Não porque Ele deixou de falar, mas porque o povo parou de ouvir. Foi exatamente nesse cenário de apatia espiritual, corrupção religiosa e caos moral que Deus levantou uma voz. Não a voz de um guerreiro, nem de um rei, mas a voz de um menino criado no templo.</p>
+               
+               <p>Samuel não foi apenas um juiz ou um líder político; ele foi o canal vivo da revelação divina em uma época onde "a palavra do SENHOR era rara" (1 Samuel 3:1). Sua vida é o testemunho de que Deus sempre encontra uma boca para falar a verdade, mesmo quando o mundo inteiro prefere o silêncio.</p>
+
+               <p>Neste artigo, vamos caminhar pela vida de Samuel: desde sua consagração no ventre de sua mãe, passando pelo chamado dramático em Siló, até sua autoridade inabalável como o profeta que ungiu reis, confrontou pecados e manteve a aliança de Deus viva em Israel.</p>
+
+               <h2>1. O Cenário de Siló: Quando a Palavra era Rara</h2>
+               <p>Para entender a grandeza de Samuel, precisamos entender o escuro em que ele brilhou. Por volta do século XI a.C., o centro religioso de Israel era Siló, onde ficava o Tabernáculo e a Arca da Aliança. O sacerdote responsável era Eli, um homem bondoso, mas espiritualmente negligente. Seus filhos, Hofni e Fineias, eram "filhos de Belial" (1 Samuel 2:12).</p>
+               
+               <p>O resultado? O povo começou a desprezar a oferta do Senhor (1 Samuel 2:17). A religião havia se tornado um negócio, e Deus, em Sua santidade, retirou Sua presença visível. "Naqueles dias, a palavra do SENHOR era rara; as visões não eram frequentes." (1 Samuel 3:1). O céu parecia fechado. Não havia profetas. Não havia direção clara. Israel vivia de memórias, não de revelação. Era o cenário perfeito para Deus introduzir uma nova voz.</p>
+
+               <h2>2. O Menino no Templo: Crescendo Diante do Senhor</h2>
+               <p>Enquanto os filhos do sacerdote corrompiam o altar, uma criança de cerca de 2 ou 3 anos foi trazida a Siló. Seu nome era Samuel ("Pedido a Deus"). Sua mãe, Ana, cumpriu o voto feito em meio a lágrimas. Ela trouxe um bezerro de três anos, um efa de farinha e um odre de vinho (1 Samuel 1:24). Samuel não foi deixado ali como um órfão; foi entregue como oferta viva.</p>
+
+               <p>Samuel cresceu "diante do SENHOR" (1 Samuel 2:11). Isso significa que sua infância foi moldada pela liturgia sagrada. A Bíblia diz algo extraordinário: "O jovem Samuel ia crescendo e se fazia aceitável, assim para com o SENHOR, como também para com os homens." (1 Samuel 2:26). Em meio à sujeira espiritual de Siló, Samuel era um aroma agradável a Deus.</p>
+
+               <h2>3. O Chamado: A Voz que Rompeu o Silêncio</h2>
+               <p>O evento que definiu o ministério de Samuel ocorreu quando ele ainda era jovem, deitado no templo, perto da Arca. A lâmpada de Deus (o candelabro de ouro) ainda não se havia apagado — eram as últimas horas da noite, o momento mais silencioso. De repente, uma voz chamou: "Samuel! Samuel!"</p>
+
+               <div className="quote-box" style={{backgroundColor: 'var(--bg-light)', borderLeftColor: 'var(--primary)'}}>
+                 Quando Deus chamou a quarta vez, Samuel não perguntou "Quem é?" (como Saulo faria anos depois). Ele já sabia. Ele disse as palavras que definem um profeta verdadeiro: "Fala, SENHOR, porque o teu servo ouve." (1 Samuel 3:10)
+               </div>
+
+               <h2>4. O Profeta como Líder Nacional e Reformador</h2>
+               <p>Samuel não ficou apenas no templo. Quando os filisteus capturaram a Arca e Eli morreu, Samuel assumiu a liderança espiritual e política de Israel. Ele convocou o povo a Mizpá para um grande jejum e confissão. Enquanto ofereciam sacrifícios, os filisteus atacaram. Samuel clamou ao Senhor, e Deus respondeu com trovões que confundiram o inimigo.</p>
+
+               <h2>5. O Ungidor de Reis: Samuel e a Monarquia</h2>
+               <p>O teste final da autoridade de Samuel veio quando o povo pediu um rei, rejeitando o governo teocrático de Deus. Deus ordenou a Samuel que ungisse Saul, da tribo de Benjamim. Quando Saul desobedeceu, Samuel o confrontou com a frase que ecoa até hoje: "Eis que o obedecer é melhor do que o sacrificar." (1 Samuel 15:22). Posteriormente, Deus enviou Samuel a Belém para ungir o novo rei: Davi, o pastor.</p>
+
+               <h2>6. O Intercessor: "Não Pecarei Deixando de Orar"</h2>
+               <p>Samuel não era apenas um pregador de julgamento; era um gigante de intercessão. Na sua despedida, em 1 Samuel 12, ele faz uma declaração impressionante: "Quanto a mim, longe de mim que eu peque contra o SENHOR, deixando de orar por vós; antes vos ensinarei o caminho bom e direito." (1 Samuel 12:23)</p>
+
+               <h2>Lições de Samuel para Hoje</h2>
+               <ul>
+                 <li><strong>Deus fala aos que ouvem:</strong> O silêncio de Deus muitas vezes é culpa de nossos ouvidos fechados. Samuel estava atento.</li>
+                 <li><strong>Integridade no ambiente hostil:</strong> É possível crescer "aceitável diante de Deus e dos homens" mesmo quando o sistema religioso ao redor está falido.</li>
+                 <li><strong>A Palavra não cai por terra:</strong> Um líder ou cristão é confirmado não por títulos, mas pela fidelidade do que fala. A Palavra de Deus em sua boca deve ser confiável.</li>
+                 <li><strong>Obediência &gt; Ritual:</strong> O maior pecado não é a falha cerimonial, mas a rebelião contra a Palavra. Samuel nos ensina que Deus quer o coração obediente, não apenas as mãos ocupadas no templo.</li>
+                 <li><strong>Oração como Dever:</strong> Interceder pelos outros não é opcional; é uma responsabilidade sagrada que nos protege do pecado.</li>
+               </ul>
 
              </div>
           </main>
