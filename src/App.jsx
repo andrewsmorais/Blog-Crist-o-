@@ -19,6 +19,7 @@ function App() {
   const isPersonagensBiblicos = path === '/personagens-biblicos';
   const isPauloTarso = path === '/paulo-tarso-apostolo-nacoes';
   const isSamuel = path === '/samuel-profeta-voz-deus-trevas-israel';
+  const isJo = path === '/jo-homem-perdeu-tudo-soberania-divina';
   const isAna = path === '/ana-mae-orou-chorou-gerou-profeta-samuel';
   const isDavi = path === '/pastor-conquistou-trono-jornada-davi-belem-jerusalem';
   const isEster = path === '/ester-rainha-salvou-povo-deus-age-sombras';
@@ -554,9 +555,9 @@ function App() {
 
             </div>
 
-            <div className="grid-2" style={{marginTop: '2rem'}}>
+            <div className="grid-3" style={{marginTop: '2rem'}}>
               
-              <div className="grid-2-item">
+              <div className="grid-3-item">
                 <a href="/paulo-tarso-apostolo-nacoes" style={{textDecoration: 'none', color: 'inherit'}}>
                   <img src="/paulo_de_tarso.png" alt="Paulo de Tarso" className="img-ph" loading="lazy" style={{objectFit: 'cover'}} />
                   <h3 style={{fontSize: '1.1rem', marginBottom: '8px', lineHeight: '1.4'}}>Paulo de Tarso: O Perseguidor Chamado para Ser Apóstolo das Nações</h3>
@@ -564,10 +565,18 @@ function App() {
                 </a>
               </div>
 
-              <div className="grid-2-item">
+              <div className="grid-3-item">
                 <a href="/samuel-profeta-voz-deus-trevas-israel" style={{textDecoration: 'none', color: 'inherit'}}>
                   <img src="/samuel_profeta.png" alt="Samuel: O Profeta" className="img-ph" loading="lazy" style={{objectFit: 'cover'}} />
                   <h3 style={{fontSize: '1.1rem', marginBottom: '8px', lineHeight: '1.4'}}>Samuel: O Profeta que Foi a Voz de Deus nas Trevas de Israel</h3>
+                  <div className="meta">Personagens Bíblicos</div>
+                </a>
+              </div>
+
+              <div className="grid-3-item">
+                <a href="/jo-homem-perdeu-tudo-soberania-divina" style={{textDecoration: 'none', color: 'inherit'}}>
+                  <img src="/jo_patriarca.png" alt="Jó: O Patriarca" className="img-ph" loading="lazy" style={{objectFit: 'cover'}} />
+                  <h3 style={{fontSize: '1.1rem', marginBottom: '8px', lineHeight: '1.4'}}>Jó: O Homem que Perdeu Tudo, Mas Não Perdeu a Deus</h3>
                   <div className="meta">Personagens Bíblicos</div>
                 </a>
               </div>
@@ -657,6 +666,54 @@ function App() {
                  <li><strong>Obediência &gt; Ritual:</strong> O maior pecado não é a falha cerimonial, mas a rebelião contra a Palavra. Samuel nos ensina que Deus quer o coração obediente, não apenas as mãos ocupadas no templo.</li>
                  <li><strong>Oração como Dever:</strong> Interceder pelos outros não é opcional; é uma responsabilidade sagrada que nos protege do pecado.</li>
                </ul>
+
+             </div>
+          </main>
+        ) : isJo ? (
+          <main className="article-content section-mb">
+             <div className="article-header">
+               <span className="cat-tag">Personagens Bíblicos</span>
+               <h1>Jó: O Homem que Perdeu Tudo, Mas Não Perdeu a Deus — A Soberania Divina no Meio do Sofrimento</h1>
+               <div className="article-meta">Por <strong>Equipe Soli Deo Gloria</strong> | 25 Jun, 2026</div>
+             </div>
+             <img src="/jo_patriarca.png" alt="Jó" className="article-hero-img" loading="lazy" />
+             <div className="article-body">
+               <div className="quote-box">
+                 "Ainda que ele me mate, nele esperarei." — <strong>Jó 13:15</strong><br/><br/>
+                 "Eu te conhecia só de ouvir, mas agora os meus olhos te veem." — <strong>Jó 42:5</strong>
+               </div>
+               
+               <p>Há personagens bíblicos que não foram chamados para liderar exércitos, nem para escrever leis, nem para ungir reis. Foram chamados para algo mais misterioso e profundo: sofrer com fidelidade, clamar com honestidade e permanecer de pé quando o chão desaparece. Jó é um deles.</p>
+               
+               <p>Sua história não é um tratado filosófico sobre o mal. É um relato visceral de dor, um debate teológico acalorado, um encontro pessoal com o Criador e um testemunho eterno de que Deus não abandona os seus, mesmo quando o silêncio parece ensurdecedor.</p>
+
+               <p>Neste artigo, vamos mergulhar na vida de Jó: quem ele era, onde viveu, como foi provado, como Deus se revelou a ele no redemoinho, e por que seu livro continua sendo uma âncora para milhões que enfrentam o vale da sombra da morte.</p>
+
+               <h2>1. Quem Foi Jó? O Patriarca da Terra de Uz</h2>
+               <p>Jó (em hebraico: Iyov — אִיּוֹב) possivelmente significa "perseguido", "odiado" ou "onde está o Pai?". Ironicamente, seu nome carrega a dor que viveria, mas também a pergunta que ecoaria em sua alma: "Onde está Deus quando tudo desaba?"</p>
+               
+               <p>A Bíblia situa Jó na Terra de Uz (Jó 1:1). Jó não era israelita. Era um gentio temente a Deus, o que mostra que o Senhor sempre teve testemunhas fiéis entre as nações, muito antes de Abraão. Jó era o homem mais rico do Oriente, mas sua maior riqueza não era material. A Bíblia o descreve com quatro marcas espirituais: <em>"Íntegro, reto, temente a Deus e desviava-se do mal."</em> (Jó 1:1)</p>
+
+               <h2>2. O Livro de Jó: Mistério, Poesia e Sabedoria Antiga</h2>
+               <p>O livro de Jó pertence à literatura de sabedoria (junto com Provérbios, Eclesiastes e Cânticos). Sua estrutura é única: começa e termina em prosa (narrativa histórica) e no meio há diálogos em poesia. Jó não responde "por que sofremos?". Ele responde: "Quem sustenta o universo enquanto sofremos?". O livro desmonta a teologia da retribuição (sofrimento = castigo) e revela que a fé verdadeira não é transacional, mas relacional.</p>
+
+               <h2>3. O Conselho Celestial e a Prova Permitida</h2>
+               <p>O livro abre com um drama invisível: o tribunal celestial. Satã ("o Acusador") lança um desafio teológico, questionando a gratuidade da fé de Jó. Deus permite a prova, mas estabelece limites.</p>
+
+               <p>Após perder tudo em um dia, Jó rasga o manto, rapa a cabeça, prostra-se e adora: <em>"Nu saí do ventre de minha mãe, e nu tornarei para lá. O SENHOR o deu, e o SENHOR o tomou; bendito seja o nome do SENHOR."</em> (Jó 1:21). Sua fé não pecou com os lábios.</p>
+
+               <h2>4. A Dor, os Amigos e o Clamor de Jó</h2>
+               <p>Os três amigos de Jó (Elifaz, Bildade e Zofar) vêm para confortá-lo, mas acabam sendo acusadores. Eles defendem a rígida lei da retribuição, argumentando que Jó deveria ter pecado para estar sofrendo. Jó rejeita essa lógica e, no meio da dor, profetiza:</p>
+               
+               <div className="quote-box" style={{backgroundColor: 'var(--bg-light)', borderLeftColor: 'var(--primary)'}}>
+                 "Porque eu sei que o meu Redentor vive, e que por fim se levantará sobre a terra." (Jó 19:25)
+               </div>
+
+               <h2>5. A Voz do Redemoinho: Quando Deus Fala</h2>
+               <p>Deus responde a Jó do redemoinho. Ele não fornece explicações filosóficas, mas se revela em Sua infinita sabedoria e poder governante do cosmos. Jó, então, se arrepende de ter tentado limitar Deus à lógica humana e diz: <em>"Eu te conhecia só de ouvir, mas agora os meus olhos te veem."</em></p>
+
+               <h2>6. Restauração e Legado Eterno</h2>
+               <p>A restauração não apaga a dor de Jó, mas valida a sua fé. Jó é honrado e chamado a interceder por seus amigos. Deus dobra sua riqueza, e Jó vive o suficiente para ver quatro gerações. Jó provou que é possível ter uma fé inabalável mesmo quando todas as bênçãos nos são tiradas.</p>
 
              </div>
           </main>
