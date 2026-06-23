@@ -16,6 +16,7 @@ function App() {
   const isProvisao = path === '/deus-honrou-fe-testemunho-milagres-provisao-divina';
   const isCincoSolas = path === '/cinco-solas-relevancia-hoje-reforma-protestante';
   const isAna = path === '/ana-mae-orou-chorou-gerou-profeta-samuel';
+  const isDavi = path === '/pastor-conquistou-trono-jornada-davi-belem-jerusalem';
 
   return (
     <>
@@ -1309,6 +1310,137 @@ function App() {
                 <span className="cat-tag" style={{marginRight: '10px'}}>#OracaoRespondida</span>
              </div>
           </main>
+        ) : isDavi ? (
+          <main className="article-content section-mb">
+             <div className="article-header">
+               <span className="cat-tag red">História Bíblica / Liderança</span>
+               <h1>O Pastor que Conquistou um Trono: A Jornada de Davi, do Curral de Belém ao Palácio de Jerusalém</h1>
+               <p className="article-subtitle" style={{fontSize: '1.2rem', color: '#555', marginTop: '0.5rem'}}>A história não é um conto de fadas; é um testemunho vivo de como Deus escolhe, prepara e exalta aqueles que confiam nEle em meio à obscuridade.</p>
+               <div className="article-meta">Por <strong>Equipe Soli Deo Gloria</strong> | 23 Jun, 2026</div>
+             </div>
+             
+             <img src="/davi_pastor.png" alt="Davi o Jovem Pastor" className="article-hero-img" loading="lazy" />
+             
+             <div style={{background: '#f9f9f9', borderLeft: '4px solid #8B0000', padding: '15px', margin: '20px 0'}}>
+               <p style={{margin: 0, fontStyle: 'italic'}}>"Porém o SENHOR disse a Samuel: Não atentes para a sua aparência, nem para a grandeza da sua estatura, porque eu o rejeitei; porque o SENHOR não vê como vê o homem. O homem vê o exterior, porém o SENHOR, o coração." — 1 Samuel 16:7</p>
+             </div>
+
+             <p>Há nomes que ecoam através dos séculos não apenas por conquistas militares ou coroas de ouro, mas porque carregam em si o peso de um chamado divino. Davi é um desses nomes. Antes de ser rei, salmista ou guerreiro lendário, ele era apenas um jovem pastor nas colinas de Belém. Sua história não é um conto de fadas; é um testemunho vivo de como Deus escolhe, prepara e exalta aqueles que confiam nEle em meio à obscuridade.</p>
+             <p>Neste artigo, vamos caminhar passo a passo pela jornada de Davi: desde suas origens humildes, passando pelo encontro transformador com o profeta Samuel, a batalha épica contra Golias, os anos de fugitivo e as primeiras campanhas militares, até o momento glorioso de sua coroação como rei de todo o Israel.</p>
+             <p>Prepare-se para uma narrativa rica em detalhes históricos, teológicos e espirituais. A jornada de Davi é, acima de tudo, a jornada de um homem que aprendeu a depender de Deus antes de depender de uma espada.</p>
+
+             <hr />
+
+             <h2>🌾 1. Origens em Belém: O Menino Esquecido da Família de Jessé</h2>
+             <h3>O Berço da Linhagem Real</h3>
+             <p>Davi nasceu por volta de 1040 a.C. em Belém de Judá, uma pequena cidade agrícola situada a cerca de 8 km ao sul de Jerusalém. Na época, Israel vivia o conturbado período dos Juízes, transitando para a monarquia com o rei Saul. Belém, embora modesta, carregava um peso profético: séculos antes, a moabita Rute havia se casado com Boaz ali, dando à luz Obede, pai de Jessé, pai de Davi (Rute 4:17-22). Assim, Davi já carregava em seu sangue a semente da redenção que um dia culminaria no Messias.</p>
+
+             <h3>A Família de Jessé</h3>
+             <p>Jessé era um homem respeitado em Belém, pertencente à tribo de Judá e à linhagem de Perez. Tinha oito filhos. Davi era o mais novo (1 Samuel 16:10-11). Na cultura patriarcal da época, o filho mais novo raramente era considerado para liderança ou honra pública. Enquanto seus irmãos mais velhos seguiam o pai nas colheitas ou serviam no exército de Saul, Davi ficou encarregado das ovelhas.</p>
+
+             <h3>A Escola do Pastoreio</h3>
+             <p>Ser pastor em Judá não era um passatempo; era uma escola de caráter. As colinas de Belém eram infestadas de predadores. Davi mesmo relata mais tarde:</p>
+             <div style={{background: '#f9f9f9', borderLeft: '4px solid #8B0000', padding: '15px', margin: '20px 0'}}>
+               <p style={{margin: 0, fontStyle: 'italic'}}>"Teu servo feriu tanto o leão como o urso... O SENHOR, que me livrou das garras do leão e das garras do urso, me livrará da mão deste filisteu." — 1 Samuel 17:36-37</p>
+             </div>
+             
+             <p>Nesses anos de solidão, Davi desenvolveu:</p>
+             <ul>
+               <li><strong>Coragem prática:</strong> Enfrentar feras com apenas um cajado e uma funda.</li>
+               <li><strong>Dependência espiritual:</strong> Aprender a clamar a Deus no perigo.</li>
+               <li><strong>Sensibilidade artística:</strong> Tocava harpa e compunha cânticos (1 Samuel 16:18).</li>
+               <li><strong>Liderança silenciosa:</strong> Cuidar de seres vulneráveis com paciência e vigilância.</li>
+             </ul>
+             <p>O nome Davi (em hebraico: <em>Dod</em> ou <em>David</em>) significa "Amado" ou "Tio/Paterno". Ironia divina: o menino "amado" por Deus começaria sua vida sendo o menos considerado pelos homens.</p>
+
+             <hr />
+
+             <h2>🕊️ 2. O Encontro com Samuel: A Unção que Mudou a História</h2>
+             <h3>O Chamado do Profeta</h3>
+             <p>Deus rejeitara Saul como rei devido à sua desobediência (1 Samuel 15). Então ordenou ao profeta Samuel:</p>
+             <p><em>"Enche o teu chifre de azeite e vem; enviar-te-ei a Jessé, o belemita; porque dentre os seus filhos me tenho provido de rei."</em> (1 Samuel 16:1)</p>
+             <p>Samuel, temendo a ira de Saul, foi a Belém sob o pretexto de um sacrifício. Jessé e os anciãos da cidade tremeram ao ver o profeta. Tudo parecia um ritual sagrado comum. Mas Deus tinha outros planos.</p>
+
+             <h3>O Desfile dos Irmãos</h3>
+             <p>Jessé chamou seus filhos. Samuel viu Eliabe, o mais velho: alto, forte, de aparência nobre. Pensou: "Certamente é este o ungido do SENHOR." Mas Deus interrompeu: <em>"Não atentes para a sua aparência... porque eu o rejeitei."</em> (v.7)</p>
+             <p>Abinadab passou. Shama passou. Sete filhos de Jessé passaram diante de Samuel. Nenhum foi escolhido. A tensão no ar era palpável. Samuel, confuso, perguntou: "Acabaram-se os teus filhos?" Jessé respondeu: "Ainda falta o menor, que está apascentando as ovelhas."</p>
+
+             <h3>A Chegada do Pastor</h3>
+             <p>Mandaram chamar Davi. Quando entrou, a Bíblia o descreve como: <em>"Ruivo, formoso de semblante e de boa aparência."</em> (1 Samuel 16:12)</p>
+             <p>Samuel tomou o chifre de azeite e ungiu Davi no meio de seus irmãos. O texto registra algo sobrenatural: <em>"Desde aquele dia em diante, o Espírito do SENHOR se apossou de Davi."</em> (v.13)</p>
+
+             <h3>O Segredo da Unção</h3>
+             <p>Note o que aconteceu depois: Samuel voltou para Ramá. Davi voltou para as ovelhas. Não houve coroação, não houve exército, não houve anúncio público. Apenas um jovem pastor, com azeite na cabeça e o Espírito no coração, continuou alimentando o rebanho.</p>
+             <p><strong>Deus não nos prepara para o palco; Ele nos prepara no curral.</strong> A unção não é um atalho para a fama; é um chamado para a fidelidade no escondido. Davi passou anos escrevendo Salmos, enfrentando feras, aprendendo a confiar em Deus antes de enfrentar exércitos.</p>
+
+             <hr />
+
+             <h2>🎵 3. A Ponte para o Palácio: O Músico que Acalmava um Rei</h2>
+             <p>Saul, atormentado por um espírito maligno, buscava alívio. Seus servos sugeriram: <em>"Busque-se, pois, um homem que saiba tocar harpa... para que toque com a mão, e te acharás melhor."</em> (1 Samuel 16:16)</p>
+             <p>Recomendaram Davi. Jessé enviou pão, vinho, um cabrito e o próprio filho. Davi entrou no palácio, tocou, e Saul "sentiu alívio, e se achou melhor" (v.23). Davi tornou-se seu escudeiro e músico da corte.</p>
+             <p>Aqui vemos a providência divina: o pastor de Belém agora caminhava nos corredores de Gibeá, observando a guerra, aprendendo estratégia militar, entendendo a política de Israel, tudo enquanto servia com humildade. Deus estava treinando seu futuro rei nas sombras da rejeição de outro.</p>
+
+             <hr />
+
+             <h2>⚔️ 4. O Vale de Elah: Quando a Fé Derruba um Gigante</h2>
+             <h3>O Cenário da Guerra</h3>
+             <p>Os filisteus, povo do mar tecnologicamente avançado (dominavam o ferro), acamparam em Socó, no vale de Elah. Os israelitas, sob Saul, posicionaram-se no monte oposto. Entre os dois exércitos, um vale estreito separava as linhas.</p>
+             <p>Todos os dias, durante 40 dias, um campeão filisteu saía e desafiava Israel: <em>"Escolhei dentre vós um homem que desça e peleje comigo. Se ele puder pelejar comigo e me matar, seremos vossos servos; porém, se eu o matar, sereis vossos servos."</em> (1 Samuel 17:8-9)</p>
+
+             <h3>Golias de Gate</h3>
+             <p>A descrição é intencionalmente aterradora: Altura de quase 3 metros, armadura de bronze pesando 57 kg, ponta de lança de 7 kg, escudeiro à frente, voz trovejante. O exército de Israel tremeu e teve grande medo (v.11). Saul escondia-se na tenda. A fé nacional estava paralisada.</p>
+
+             <h3>A Chegada de Davi</h3>
+             <p>Davi, com cerca de 15 a 17 anos, foi enviado por Jessé com suprimentos. Ouviu o desafio e reagiu com indignação santa: <em>"Quem é este filisteu incircunciso, para afrontar os exércitos do Deus vivo?"</em> (v.26)</p>
+
+             <h3>O Confronto</h3>
+             <p>Davi se ofereceu para lutar. Saul consentiu e ofereceu sua armadura. Davi recusou: <em>"Não posso andar com isto, pois nunca o usei."</em> Princípio eterno: Não use a armadura de outro na sua batalha. Deus te chamou para lutar com o que Ele já te deu.</p>
+             <p>Davi pegou seu cajado, funda e cinco pedras lisas. Golias zombou. Davi respondeu com uma das declarações mais poderosas da Bíblia:</p>
+             
+             <div style={{background: '#f9f9f9', borderLeft: '4px solid #8B0000', padding: '15px', margin: '20px 0'}}>
+               <p style={{margin: 0, fontStyle: 'italic'}}>"Tu vens a mim com espada, e com lança, e com escudo; mas eu vou a ti em nome do SENHOR dos Exércitos, o Deus dos exércitos de Israel, a quem tens afrontado. Hoje mesmo o SENHOR te entregará na minha mão... para que toda esta terra saiba que há Deus em Israel." — 1 Samuel 17:45-46</p>
+             </div>
+
+             <p>Davi correu, atirou a pedra, que penetrou na testa de Golias. O gigante caiu, Davi o decapitou com a própria espada do inimigo, e Israel teve grande vitória.</p>
+
+             <hr />
+
+             <h2>👑 5. Da Glória ao Exílio: As Primeiras Campanhas e a Fuga</h2>
+             <p>Após a vitória, as mulheres cantavam: <em>"Saul feriu os seus milhares, porém Davi os seus dez milhares."</em> (1 Samuel 18:7)</p>
+             <p>Saul, inseguro, viu Davi como ameaça e tentou matá-lo. Davi fugiu, tornando-se genro de Saul ao casar-se com Mical. Jônatas, filho de Saul, fez uma aliança de amizade profunda com Davi.</p>
+             <p>Davi passou anos como fugitivo, liderando um grupo de homens marginalizados, protegendo cidades de Israel (como Queila) e poupando a vida de Saul duas vezes, demonstrando que esperaria o tempo de Deus para assumir o trono.</p>
+
+             <hr />
+
+             <h2>🕊️ 6. A Coroação: Do Luto ao Trono de Jerusalém</h2>
+             <p>Saul e Jônatas caíram no monte Gilboa. Davi lamentou profundamente a morte de ambos (2 Samuel 1). Ele não celebrou a queda do inimigo; honrou o ungido do Senhor.</p>
+             <p>Davi reinou em Hebrom sobre Judá por 7 anos e meio. Após a morte de Is-Bosete, todas as tribos de Israel vieram coroá-lo rei sobre toda a nação. Ele tinha 30 anos (2 Samuel 5).</p>
+             <p>Davi conquistou Jerusalém (Sião), tornando-a a capital, e trouxe a Arca da Aliança. Deus estabeleceu o pacto davídico, prometendo um trono eterno para sua linhagem.</p>
+
+             <hr />
+
+             <h2>💡 Reflexões: O Legado de Davi para Hoje</h2>
+             <div style={{background: '#e8f4f8', border: '1px solid #b3d4e0', padding: '20px', margin: '30px 0', borderRadius: '8px'}}>
+               <ul style={{marginBottom: 0}}>
+                 <li><strong>Deus vê o coração, não o currículo.</strong> Davi era o último da fila, mas o primeiro no coração de Deus.</li>
+                 <li><strong>A preparação antecede a promoção.</strong> Anos de pastoreio, música, fuga e batalhas forjaram um rei sábio.</li>
+                 <li><strong>A fé não nega o gigante; confia no Deus que o esmaga.</strong> Davi não subestimou Golias; superestimou Deus.</li>
+                 <li><strong>Paciência na espera é adoração.</strong> Davi podia tomar o trono à força, mas esperou 15 anos.</li>
+                 <li><strong>Liderança é serviço, não domínio.</strong> Davi chorou por Saul, poupou inimigos, governou com justiça.</li>
+               </ul>
+             </div>
+             
+             <p>Davi não era perfeito. Cometeu adultério, assassinato e falhou como pai. Mas quando confrontado, arrependeu-se profundamente (Salmo 51). E desse coração ferido e restaurado, nasceu a linhagem que traria Jesus, o Filho de Davi, o Rei dos Reis (Mateus 1:1; Apocalipse 22:16).</p>
+             
+             <p><em>Soli Deo Gloria.</em> 👑</p>
+
+             <div className="article-tags" style={{marginTop: '2rem'}}>
+                <span className="cat-tag" style={{marginRight: '10px'}}>#ReiDavi</span>
+                <span className="cat-tag" style={{marginRight: '10px'}}>#HomensDaBiblia</span>
+                <span className="cat-tag" style={{marginRight: '10px'}}>#FeELideranca</span>
+                <span className="cat-tag" style={{marginRight: '10px'}}>#SoliDeoGloria</span>
+             </div>
+          </main>
         ) : isCincoSolas ? (
           <main className="article-content section-mb">
              <div className="article-header">
@@ -1866,15 +1998,15 @@ function App() {
       {/* ARTIGOS RESTANTES (NO RODAPÉ) */}
       <div className="container section-mb">
         <div style={{display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(350px, 1fr))', gap: '32px'}}>
-          <div className="article-sm" style={{display: 'flex', gap: '20px', alignItems: 'center'}}>
-            <div className="img-ph" style={{width: '150px', aspectRatio: '4/3', marginBottom: '0', flexShrink: '0'}}></div>
+          <a href="/pastor-conquistou-trono-jornada-davi-belem-jerusalem" className="article-sm" style={{display: 'flex', gap: '20px', alignItems: 'center', textDecoration: 'none', color: 'inherit'}}>
+            <img src="/davi_pastor.png" alt="O Pastor que Conquistou um Trono" className="img-ph" loading="lazy" style={{width: '150px', height: '112.5px', aspectRatio: '4/3', marginBottom: '0', flexShrink: '0', objectFit: 'cover'}} />
             <div>
-              <span className="cat-tag">Liturgia</span>
-              <h3 style={{fontSize: '1.25rem', fontFamily: 'var(--font-title)', marginBottom: '8px', lineHeight: '1.2'}}>O Culto Regulado pelas Escrituras</h3>
-              <p style={{fontSize: '0.95rem', color: 'var(--text-secondary)', marginBottom: '8px', lineHeight: '1.5'}}>Por que devemos adorar a Deus apenas como Ele prescreveu.</p>
-              <div className="meta" style={{marginTop: '0'}}>14 Fev, 2025</div>
+              <span className="cat-tag" style={{color: '#8B0000'}}>Heróis da Fé</span>
+              <h3 style={{fontSize: '1.25rem', fontFamily: 'var(--font-title)', marginBottom: '8px', lineHeight: '1.2'}}>O Pastor que Conquistou um Trono: A Jornada de Davi</h3>
+              <p style={{fontSize: '0.95rem', color: 'var(--text-secondary)', marginBottom: '8px', lineHeight: '1.5'}}>Do Curral de Belém ao Palácio de Jerusalém.</p>
+              <div className="meta" style={{marginTop: '0'}}>23 Jun, 2026</div>
             </div>
-          </div>
+          </a>
           <div className="article-sm" style={{display: 'flex', gap: '20px', alignItems: 'center'}}>
             <div className="img-ph" style={{width: '150px', aspectRatio: '4/3', marginBottom: '0', flexShrink: '0'}}></div>
             <div>
