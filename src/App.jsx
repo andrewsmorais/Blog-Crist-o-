@@ -15,6 +15,7 @@ function App() {
   const isGalatas = path === '/carta-galatas-liberdade-crista-estudo-completo';
   const isProvisao = path === '/deus-honrou-fe-testemunho-milagres-provisao-divina';
   const isCincoSolas = path === '/cinco-solas-relevancia-hoje-reforma-protestante';
+  const isEstudosBiblicos = path === '/estudos-biblicos';
   const isAna = path === '/ana-mae-orou-chorou-gerou-profeta-samuel';
   const isDavi = path === '/pastor-conquistou-trono-jornada-davi-belem-jerusalem';
   const isEster = path === '/ester-rainha-salvou-povo-deus-age-sombras';
@@ -45,7 +46,7 @@ function App() {
           <nav className="header-nav">
             <ul className="nav-list">
               <li><a href="/">Início</a></li>
-              <li><a href="#">Estudos Bíblicos</a></li>
+              <li><a href="/estudos-biblicos">Estudos Bíblicos</a></li>
               <li><a href="#">Devocionais</a></li>
               <li><a href="#">Cursos</a></li>
               <li><a href="#">Personagens Bíblicos</a></li>
@@ -429,7 +430,90 @@ function App() {
                <li>2 Timóteo 3:16-17</li>
              </ul>
           </main>
-        ) : isAhJesus ? (
+        ) : isEstudosBiblicos ? (
+          <main className="section-mb">
+            <div className="section-title">
+              <h2>Estudos Bíblicos</h2>
+            </div>
+            <div className="grid-4" style={{marginTop: '2rem'}}>
+              
+              <div className="grid-4-item">
+                <a href="/cinco-solas-relevancia-hoje-reforma-protestante" style={{textDecoration: 'none', color: 'inherit'}}>
+                  <img src="/cinco_solas.png" alt="As Cinco Solas e Sua Relevância Hoje" className="img-ph" loading="lazy" style={{objectFit: 'cover'}} />
+                  <h3 style={{fontSize: '1.1rem', marginBottom: '8px', lineHeight: '1.4'}}>As Cinco Solas e Sua Relevância Hoje: Os Pilares da Reforma que Ainda Transformam Vidas</h3>
+                  <div className="meta">26 Dez, 2025</div>
+                </a>
+              </div>
+
+              <div className="grid-4-item">
+                <a href="/artigo/sarca-ardente" style={{textDecoration: 'none', color: 'inherit'}}>
+                  <img src="/sarca-ardente.jpg" alt="A Sarça Ardente" className="img-ph" loading="lazy" style={{objectFit: 'cover'}} />
+                  <h3 style={{fontSize: '1.1rem', marginBottom: '8px', lineHeight: '1.4'}}>A Sarça Ardente: Quando Deus Encontrou Moisés no Deserto</h3>
+                  <div className="meta">30 Mai, 2026</div>
+                </a>
+              </div>
+
+              <div className="grid-4-item">
+                <a href="/carta-galatas-liberdade-crista-estudo-completo" style={{textDecoration: 'none', color: 'inherit'}}>
+                  <img src="/galatas.png" alt="A Carta aos Gálatas e a Liberdade Cristã" className="img-ph" loading="lazy" style={{objectFit: 'cover'}} />
+                  <h3 style={{fontSize: '1.1rem', marginBottom: '8px', lineHeight: '1.4'}}>A Carta aos Gálatas e a Liberdade Cristã: O Evangelho da Graça Contra o Legalismo</h3>
+                  <div className="meta">por João Calvino · 14 Mar, 2026</div>
+                </a>
+              </div>
+
+              <div className="grid-4-item">
+                <a href="/artigo/sermao-do-monte" style={{textDecoration: 'none', color: 'inherit'}}>
+                  <img src="/sermao-do-monte.png" alt="Sermão do Monte" className="img-ph" loading="lazy" style={{objectFit: 'cover'}} />
+                  <h3 style={{fontSize: '1.1rem', marginBottom: '8px', lineHeight: '1.4'}}>Sermão do Monte: As Bem-Aventuranças e a Nova Constituição do Reino</h3>
+                  <p style={{fontSize: '0.9rem', color: '#666', marginTop: '8px'}}>Jesus estabeleceu a constituição de um novo Reino e inverteu a lógica do mundo...</p>
+                  <div className="meta">10 Abr, 2026</div>
+                </a>
+              </div>
+
+              <div className="grid-4-item">
+                <a href="/artigo/silencio-de-deus" style={{textDecoration: 'none', color: 'inherit'}}>
+                  <img src="/silence_of_god.png" alt="O Silêncio de Deus nas Dificuldades" className="img-ph" loading="lazy" style={{objectFit: 'cover'}} />
+                  <h3 style={{fontSize: '1.1rem', marginBottom: '8px', lineHeight: '1.4'}}>O Silêncio de Deus nas Dificuldades: Confiando no Caráter Revelado do Senhor</h3>
+                  <p style={{fontSize: '0.9rem', color: '#666', marginTop: '8px'}}>Quando clamamos e parecemos não ouvir resposta, devemos confiar no caráter revelado do Senhor ao invés de nossos sentimentos...</p>
+                  <div className="meta">por Charles Spurgeon · 10 Abr, 2026</div>
+                </a>
+              </div>
+
+              <div className="grid-4-item">
+                <a href="/artigo/metodos-ler-biblia" style={{textDecoration: 'none', color: 'inherit'}}>
+                  <div className="img-ph" loading="lazy"></div>
+                  <h3 style={{fontSize: '1.1rem', marginBottom: '8px', lineHeight: '1.4'}}>5 Métodos Práticos para Ler a Bíblia Inteira em 2026</h3>
+                  <div className="meta">20 Abr, 2026</div>
+                </a>
+              </div>
+
+              <div className="grid-4-item">
+                <a href="/artigo/eleicao" style={{textDecoration: 'none', color: 'inherit'}}>
+                  <img src="/eleicao.png" alt="A Doutrina da Eleição Incondicional" className="img-ph" loading="lazy" style={{objectFit: 'cover'}} />
+                  <h3 style={{fontSize: '1.1rem', marginBottom: '8px', lineHeight: '1.4'}}>A Doutrina da Eleição Incondicional</h3>
+                  <div className="meta">05 Mai, 2026</div>
+                </a>
+              </div>
+
+              <div className="grid-4-item">
+                <a href="/artigo/trindade" style={{textDecoration: 'none', color: 'inherit'}}>
+                  <img src="/trindade.png" alt="A Trindade: Um só Deus em Três Pessoas" className="img-ph" loading="lazy" style={{objectFit: 'cover'}} />
+                  <h3 style={{fontSize: '1.1rem', marginBottom: '8px', lineHeight: '1.4'}}>A Trindade: Um só Deus em Três Pessoas</h3>
+                  <div className="meta">11 Fev, 2026</div>
+                </a>
+              </div>
+
+              <div className="grid-4-item">
+                <a href="/artigo/santificacao" style={{textDecoration: 'none', color: 'inherit'}}>
+                  <div className="img-ph" loading="lazy"></div>
+                  <h3 style={{fontSize: '1.1rem', marginBottom: '8px', lineHeight: '1.4'}}>Santificação: Uma obra de uma vida inteira</h3>
+                  <div className="meta">Vida Cristã</div>
+                </a>
+              </div>
+
+            </div>
+          </main>
+        ) : path === '/' ? (
           <main className="article-content section-mb">
              <div className="article-header">
                <span className="cat-tag">Devocional / Louvor e Adoração</span>
