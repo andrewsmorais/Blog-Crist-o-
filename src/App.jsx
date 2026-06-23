@@ -484,7 +484,7 @@ function App() {
             <div className="grid-2" style={{marginTop: '2rem'}}>
               <div className="grid-2-item">
                 <a href="#" style={{textDecoration: 'none', color: 'inherit'}}>
-                  <div className="img-ph" loading="lazy"></div>
+                  <img src="/metodos_biblia.png" alt="5 Métodos Práticos para Ler a Bíblia Inteira em 2026" className="img-ph" loading="lazy" style={{objectFit: 'cover'}} />
                   <h3 style={{fontSize: '1.1rem', marginBottom: '8px', lineHeight: '1.4'}}>5 Métodos Práticos para Ler a Bíblia Inteira em 2026</h3>
                   <div className="meta">20 Abr, 2026</div>
                 </a>
@@ -510,7 +510,7 @@ function App() {
 
               <div className="grid-2-item">
                 <a href="#" style={{textDecoration: 'none', color: 'inherit'}}>
-                  <div className="img-ph" loading="lazy"></div>
+                  <img src="/santificacao.png" alt="Santificação: Uma obra de uma vida inteira" className="img-ph" loading="lazy" style={{objectFit: 'cover'}} />
                   <h3 style={{fontSize: '1.1rem', marginBottom: '8px', lineHeight: '1.4'}}>Santificação: Uma obra de uma vida inteira</h3>
                   <div className="meta">Vida Cristã</div>
                 </a>
@@ -2161,7 +2161,7 @@ function App() {
                 </div>
                 <div className="grid-3-item">
                   <a href="/como-ler-biblia-inteira-2026-metodos-praticos" style={{textDecoration: 'none', color: 'inherit'}}>
-                    <img src="/bible_reading.png" alt="Leitura Bíblica" className="img-ph" loading="lazy" />
+                    <img src="/metodos_biblia.png" alt="Leitura Bíblica" className="img-ph" loading="lazy" />
                     <h3>5 Métodos Práticos para Ler a Bíblia Inteira em 2026</h3>
                     <p>Descubra 5 métodos práticos e testados para ler a Bíblia inteira em 2026, mesmo com rotina corrida. Técnicas flexíveis, aplicativos recomendados e o segredo da constância.</p>
                     <div className="meta">por <span>João Calvino</span> · 12 Jun, 2026</div>
@@ -2247,7 +2247,7 @@ function App() {
             </div>
           </a>
           <div className="article-sm" style={{display: 'flex', gap: '20px', alignItems: 'center'}}>
-            <div className="img-ph" style={{width: '150px', aspectRatio: '4/3', marginBottom: '0', flexShrink: '0'}}></div>
+            <img src="/santificacao.png" alt="Santificação" className="img-ph" style={{width: '150px', height: '112.5px', aspectRatio: '4/3', marginBottom: '0', flexShrink: '0', objectFit: 'cover'}} loading="lazy" />
             <div>
               <span className="cat-tag">Vida Cristã</span>
               <h3 style={{fontSize: '1.25rem', fontFamily: 'var(--font-title)', marginBottom: '8px', lineHeight: '1.2'}}>Santificação: Uma obra de uma vida inteira</h3>
