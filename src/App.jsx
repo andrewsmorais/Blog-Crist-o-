@@ -16,6 +16,7 @@ function App() {
   const isProvisao = path === '/deus-honrou-fe-testemunho-milagres-provisao-divina';
   const isCincoSolas = path === '/cinco-solas-relevancia-hoje-reforma-protestante';
   const isEstudosBiblicos = path === '/estudos-biblicos';
+  const isPersonagensBiblicos = path === '/personagens-biblicos';
   const isAna = path === '/ana-mae-orou-chorou-gerou-profeta-samuel';
   const isDavi = path === '/pastor-conquistou-trono-jornada-davi-belem-jerusalem';
   const isEster = path === '/ester-rainha-salvou-povo-deus-age-sombras';
@@ -49,7 +50,7 @@ function App() {
               <li><a href="/estudos-biblicos">Estudos Bíblicos</a></li>
               <li><a href="#">Devocionais</a></li>
               <li><a href="#">Cursos</a></li>
-              <li><a href="#">Personagens Bíblicos</a></li>
+              <li><a href="/personagens-biblicos">Personagens Bíblicos</a></li>
               <li><a href="#">Testemunhos</a></li>
               <li><a href="#">Contato</a></li>
             </ul>
@@ -515,6 +516,40 @@ function App() {
                   <div className="meta">Vida Cristã</div>
                 </a>
               </div>
+            </div>
+          </main>
+        ) : isPersonagensBiblicos ? (
+          <main className="section-mb">
+            <div className="section-title">
+              <h2>Personagens Bíblicos</h2>
+            </div>
+            <div className="grid-3" style={{marginTop: '2rem'}}>
+              
+              <div className="grid-3-item">
+                <a href="/ana-mae-orou-chorou-gerou-profeta-samuel" style={{textDecoration: 'none', color: 'inherit'}}>
+                  <img src="/ana_orando.png" alt="Ana: A Mãe que Orou, Chorou e Gerou um Profeta" className="img-ph" loading="lazy" style={{objectFit: 'cover'}} />
+                  <h3 style={{fontSize: '1.1rem', marginBottom: '8px', lineHeight: '1.4'}}>Ana: A Mãe que Orou, Chorou e Gerou um Profeta</h3>
+                  <div className="meta">Mulheres da Bíblia</div>
+                </a>
+              </div>
+
+              <div className="grid-3-item">
+                <a href="/ester-rainha-salvou-povo-deus-age-sombras" style={{textDecoration: 'none', color: 'inherit'}}>
+                  <img src="/ester_rainha.png" alt="Rainha Ester" className="img-ph" loading="lazy" style={{objectFit: 'cover'}} />
+                  <h3 style={{fontSize: '1.1rem', marginBottom: '8px', lineHeight: '1.4'}}>Ester: A Rainha que Salvou um Povo</h3>
+                  <div className="meta">23 Jun, 2026</div>
+                </a>
+              </div>
+
+              <div className="grid-3-item">
+                <a href="/pastor-conquistou-trono-jornada-davi-belem-jerusalem" style={{textDecoration: 'none', color: 'inherit'}}>
+                  <img src="/davi_pastor.png" alt="O Pastor que Conquistou um Trono" className="img-ph" loading="lazy" style={{objectFit: 'cover'}} />
+                  <h3 style={{fontSize: '1.1rem', marginBottom: '8px', lineHeight: '1.4'}}>O Pastor que Conquistou um Trono: A Jornada de Davi</h3>
+                  <p style={{fontSize: '0.9rem', color: '#666', marginTop: '8px'}}>Do Curral de Belém ao Palácio de Jerusalém.</p>
+                  <div className="meta">História Bíblica / Liderança</div>
+                </a>
+              </div>
+
             </div>
           </main>
         ) : isAhJesus ? (
