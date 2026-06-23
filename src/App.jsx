@@ -46,9 +46,9 @@ function App() {
               <li><a href="/">Início</a></li>
               <li><a href="#">Estudos Bíblicos</a></li>
               <li><a href="#">Devocionais</a></li>
-              <li><a href="#">Teologia</a></li>
-              <li><a href="#">História Bíblica</a></li>
-              <li><a href="#">Apologética</a></li>
+              <li><a href="#">Cursos</a></li>
+              <li><a href="#">Personagens Bíblicos</a></li>
+              <li><a href="#">Testemunhos</a></li>
               <li><a href="#">Contato</a></li>
             </ul>
           </nav>
