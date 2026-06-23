@@ -17,6 +17,7 @@ function App() {
   const isCincoSolas = path === '/cinco-solas-relevancia-hoje-reforma-protestante';
   const isAna = path === '/ana-mae-orou-chorou-gerou-profeta-samuel';
   const isDavi = path === '/pastor-conquistou-trono-jornada-davi-belem-jerusalem';
+  const isEster = path === '/ester-rainha-salvou-povo-deus-age-sombras';
 
   return (
     <>
@@ -1310,6 +1311,154 @@ function App() {
                 <span className="cat-tag" style={{marginRight: '10px'}}>#OracaoRespondida</span>
              </div>
           </main>
+        ) : isEster ? (
+          <main className="article-content section-mb">
+             <div className="article-header">
+               <span className="cat-tag red">História Bíblica / Mulheres da Bíblia</span>
+               <h1>Ester: A Rainha que Salvou um Povo e o Deus que Age nas Sombras</h1>
+               <p className="article-subtitle" style={{fontSize: '1.2rem', color: '#555', marginTop: '0.5rem'}}>Uma jornada que ecoa através dos séculos e nos ensina como Deus age quando tudo parece perdido.</p>
+               <div className="article-meta">Por <strong>Equipe Soli Deo Gloria</strong> | 23 Jun, 2026</div>
+             </div>
+             
+             <img src="/ester_rainha.png" alt="Rainha Ester" className="article-hero-img" loading="lazy" />
+             
+             <div style={{background: '#f9f9f9', borderLeft: '4px solid #8B0000', padding: '15px', margin: '20px 0'}}>
+               <p style={{margin: 0, fontStyle: 'italic'}}>"Porque, se de todo te calares agora, de outra parte se levantarão socorro e livramento para os judeus, mas tu e a casa de teu pai perecereis; e quem sabe se para tal tempo como este chegaste a este reino?" — Ester 4:14</p>
+             </div>
+
+             <p>Há histórias na Bíblia que não mencionam o nome de Deus uma única vez, mas onde Sua mão é tão visível que cada página respira providência. O livro de Ester é exatamente assim. Não há milagres partindo o mar, nem vozes trovejantes do céu, nem pragas sobrenaturais. Há apenas um decreto real, um jejum silencioso, uma rainha que arrisca a vida e um povo à beira do extermínio. E, no entanto, é nessa aparente ausência que Deus age com precisão cirúrgica para preservar o Seu povo.</p>
+             <p>Ester não é apenas uma história de coragem feminina. É o relato de como Deus sustenta Sua aliança com Israel mesmo quando eles estão dispersos, vulneráveis e esquecidos pelos homens. É a prova de que nenhum decreto humano pode anular o propósito divino. É a narrativa de um povo que aprendeu, na dor e no jejum, que a sobrevivência não vem de exércitos ou palácios, mas da fidelidade do Deus que prometeu: <em>"Não te deixarei, nem te desampararei."</em> (Hebreus 13:5)</p>
+             <p>Venha conosco mergulhar na história de Ester, com foco especial no povo judeu, sua identidade, sua crise e sua preservação sobrenatural. Uma jornada que ecoa através dos séculos e nos ensina como Deus age quando tudo parece perdido.</p>
+
+             <hr />
+
+             <h2>🌍 1. O Povo Judeu na Diáspora Persa: Entre a Sobrevivência e a Assimilação</h2>
+             <h3>O Contexto Histórico</h3>
+             <p>Após o exílio babilônico (586–539 a.C.), o rei Ciro da Pérsia permitiu que os judeus retornassem a Jerusalém para reconstruir o Templo (Esdras 1:1-4). No entanto, a maioria não voltou. Muitos já haviam se estabelecido na Mesopotâmia, Pérsia e Egito. Geraram raízes, negócios e famílias. Viviam como minoria étnico-religiosa em um império vasto e multicultural.</p>
+             <p>No reinado de Assuero (Xerxes I, 486–465 a.C.), o Império Persa estendia-se da Índia à Etiópia (Ester 1:1). Os judeus estavam espalhados por 127 províncias. Não tinham território próprio, nem exército, nem autonomia política. Sua proteção dependia da boa vontade do rei e da lealdade das autoridades locais.</p>
+
+             <h3>A Identidade em Terra Estranha</h3>
+             <p>Apesar da dispersão, o povo judeu manteve marcos inegociáveis da aliança:</p>
+             <ul>
+               <li>Circuncisão (sinal da aliança com Abraão)</li>
+               <li>Sábado (descanso sagrado, mesmo sob pressão laboral)</li>
+               <li>Leis alimentares (kashrut, distinção cultural e espiritual)</li>
+               <li>Torá e sinagogas (ensino, oração e comunidade)</li>
+               <li>Festas (Páscoa, Pentecostes, Tabernáculos)</li>
+             </ul>
+             <p>Essas práticas os tornavam visíveis e vulneráveis. Em um império que valorizava a homogeneidade cultural, ser judeu era ser diferente. E diferença, em tempos de crise, facilmente se tornava alvo.</p>
+
+             <h3>A Teologia da Dispersão</h3>
+             <p>O exílio e a diáspora não foram acidentes históricos. Foram disciplina e preservação. Deus usou a dispersão para: cumprir profecias (Jeremias 29:10-14), espalhar o conhecimento do Deus verdadeiro entre as nações e preparar o cenário para a vinda do Messias em "plenitude dos tempos" (Gálatas 4:4).</p>
+             <p>O povo judeu em Susã não era um acidente. Era semente plantada em solo hostil, mas regada pela promessa divina.</p>
+
+             <hr />
+
+             <h2>⚔️ 2. A Ameaça Existencial: O Decreto de Hamã e o Perigo do Extermínio</h2>
+             <h3>A Ascensão de Hamã</h3>
+             <p>Hamã, o agagita (descendente de Agague, rei amalequita), foi elevado por Assuero a posição de primeiro-ministro (Ester 3:1). Os amalequitas eram inimigos históricos de Israel (Êxodo 17:8-16), e Deus havia jurado guerra contra eles de geração em geração. A ironia providencial é clara: o inimigo ancestral agora detinha o poder de decretar o fim do povo da aliança.</p>
+
+             <h3>A Recusa de Mardoqueu</h3>
+             <p>Mardoqueu, judeu da tribo de Benjamim, recusou-se a prostrar-se diante de Hamã. Não por orgulho, mas por fidelidade covenantal. Os judeus adoravam somente a Yahweh. Inclinar-se a um homem como se fosse divino era idolatria. Hamã, furioso, não buscou vingança apenas contra Mardoqueu, mas contra todo o seu povo (Ester 3:6).</p>
+
+             <h3>O Decreto de Extermínio</h3>
+             <p>Hamã convenceu o rei com argumentos econômicos e xenófobos:</p>
+             <div style={{background: '#f9f9f9', borderLeft: '4px solid #8B0000', padding: '15px', margin: '20px 0'}}>
+               <p style={{margin: 0, fontStyle: 'italic'}}>"Existe um povo espalhado e dividido entre os povos de todas as províncias do teu reino; suas leis são diferentes das de todos os outros povos, e não cumprem as leis do rei; por isso, não convém ao rei deixá-los viver." — Ester 3:8</p>
+             </div>
+             <p>O decreto foi selado com o anel real, escrito em todas as línguas do império, e enviado por correios velozes. A data marcada: 13 de Adar. O plano: matar, destruir e exterminar todos os judeus, jovens e velhos, crianças e mulheres, num só dia, e saquear seus bens (Ester 3:13).</p>
+             <p>Note: Não havia exército judeu. Não havia embaixada. Não havia recurso legal. Apenas um povo marcado para a morte, um rei que não sabia da identidade de sua rainha, e um céu que parecia em silêncio.</p>
+
+             <hr />
+
+             <h2>👑 3. A Identidade de Ester: Escondida, Mas Não Apagada</h2>
+             <h3>Hadassa → Ester: O Nome que Esconde e Revela</h3>
+             <p>Ester era judia, da tribo de Benjamim, sobrinha de Mardoqueu. Órfã, foi adotada e criada por ele. Seu nome hebraico era Hadassa ("murta", símbolo de beleza e resiliência). No palácio, ficou conhecida como Ester (possivelmente do persa <em>star</em>, "estrela", ou do hebraico <em>hester</em>, "escondido").</p>
+             <p>Deus a colocou no palácio não por acaso, mas por soberana providência. Sua beleza abriu portas, mas sua identidade judaica foi mantida em sigilo por orientação de Mardoqueu (Ester 2:10). Por quê? Para protegê-la, sim, mas também para que o momento da revelação fosse estratégico, não acidental.</p>
+
+             <h3>O Chamado de Mardoqueu</h3>
+             <p>Quando o decreto chegou, Mardoqueu rasgou as vestes, cobriu-se de cinzas e clamou. Ester enviou roupas, mas ele as recusou. Enviou Hataque, e a mensagem foi clara: <em>"Quem sabe se não foi para um tempo como este que chegaste a este reino?"</em> (Ester 4:14)</p>
+             <p>Ester estava diante de um dilema:</p>
+             <ul>
+               <li><strong>Silêncio:</strong> Manter a segurança, o trono, a vida.</li>
+               <li><strong>Fala:</strong> Arriscar a morte, revelar a identidade, interceder pelo povo.</li>
+             </ul>
+             <p>A resposta dela é um dos maiores atos de fé do Antigo Testamento:</p>
+             <div style={{background: '#f9f9f9', borderLeft: '4px solid #8B0000', padding: '15px', margin: '20px 0'}}>
+               <p style={{margin: 0, fontStyle: 'italic'}}>"Vai, ajunta a todos os judeus que se acharem em Susã, e jejuai por mim... Eu e as minhas servas também jejuaremos assim. Depois irei ter com o rei, ainda que não seja segundo a lei; e, se perecer, pereci." — Ester 4:16</p>
+             </div>
+             <p>"Se perecer, pereci." Não é resignação. É consagração. Ester entrega a vida ao propósito maior: a sobrevivência do povo de Deus.</p>
+
+             <hr />
+
+             <h2>🕊️ 4. O Clamor e a Virada Divina: Quando o Céu Responde ao Jejum</h2>
+             <h3>O Jejum de Três Dias</h3>
+             <p>Ester não age por impulso. Ela convoca jejum comunitário. Na teologia judaica, o jejum não é apenas abstinência; é humilhação diante de Deus, arrependimento e intercessão urgente. O povo jejua. A rainha jejua. As servas jejuam. O céu é movido não por estratégias humanas, mas por dependência radical.</p>
+
+             <h3>A Abordagem ao Rei</h3>
+             <p>Ester veste trajes reais, entra no pátio interno e o rei estende o cetro de ouro. Ela é poupada da morte. Mas não pede imediatamente. Marca dois banquetes. Por quê?</p>
+             <ul>
+               <li>Para ganhar confiança</li>
+               <li>Para isolar Hamã</li>
+               <li>Para criar o momento exato da revelação</li>
+             </ul>
+             <p>Na segunda noite, quando o rei pergunta: "Qual é a tua petição, rainha Ester?", ela revela:</p>
+             <p><em>"Porque fomos vendidos, eu e o meu povo, para sermos destruídos, mortos e exterminados... Pois eu e o meu povo não valíamos tanto, ó rei, a ponto de o perturbar."</em> (Ester 7:3-4)</p>
+             <p>O rei pergunta: "Quem é, e onde está, quem ousou fazer tal coisa?"</p>
+             <p>Ester responde: <strong>"O adversário e inimigo é este perverso Hamã."</strong> (v.6)</p>
+
+             <h3>A Queda do Inimigo e a Preservação do Povo</h3>
+             <p>A ira do rei acende-se. Hamã é enforcado na mesma forca que preparara para Mardoqueu. O anel real é dado a Mardoqueu. Um novo decreto é emitido: os judeus têm permissão para se defender no dia marcado. O medo se inverte. Os inimigos são derrotados. O povo é salvo.</p>
+             <p>Note a providência: O rei não dorme na noite crucial (Ester 6:1); as crônicas reais são lidas (Ester 6:2); Mardoqueu é honrado no momento exato (Ester 6:10-11); Hamã cai pela própria armadilha. O nome de Deus não aparece, mas Sua mão está em cada detalhe.</p>
+
+             <hr />
+
+             <h2>📜 5. A Preservação do Povo e o Legado de Purim</h2>
+             <h3>A Instituição de Purim</h3>
+             <p>Mardoqueu e Ester estabelecem a festa de Purim (de <em>pur</em>, "sorte", referindo-se aos dados lançados por Hamã). É celebrada nos dias 14 e 15 de Adar, com leitura do rolo de Ester (Megillah), banquetes e alegria, presentes aos amigos e esmolas aos pobres.</p>
+             <p>Purim não é apenas memória; é proclamação anual: <strong>"Deus preservou Seu povo. A aliança permanece. O inimigo foi frustrado."</strong></p>
+
+             <h3>Importância Histórica e Teológica</h3>
+             <p>Sem a intervenção em Ester:</p>
+             <ul>
+               <li>O remanescente judaico na Pérsia teria sido exterminado.</li>
+               <li>A comunidade pós-exílio teria enfraquecido drasticamente.</li>
+               <li>A reconstrução do Templo e a preservação das Escrituras teriam sido comprometidas.</li>
+               <li>A linhagem messiânica (Mateus 1:1-17) teria sido ameaçada.</li>
+             </ul>
+             <p>Deus preservou o povo para preservar a promessa. A vinda de Cristo dependia da sobrevivência física e espiritual de Israel. Ester é, portanto, elo crucial na história da redenção.</p>
+
+             <h3>O Silêncio de Deus e a Sua Fidelidade</h3>
+             <p>O livro de Ester é único no cânon: Yahweh não é nomeado. Isso não é descuido; é ensino. Deus age nos bastidores, nas coincidências providenciais, nas decisões humanas, no jejum e na coragem, na inversão de destinos.</p>
+             <p>Isaías 45:15 ecoa aqui: <em>"Verdadeiramente, tu és o Deus que se esconde, o Deus de Israel, o Salvador."</em></p>
+
+             <hr />
+
+             <h2>💡 6. O Que o Povo de Ester Ensina à Igreja Hoje</h2>
+             <div style={{background: '#e8f4f8', border: '1px solid #b3d4e0', padding: '20px', margin: '30px 0', borderRadius: '8px'}}>
+               <ol style={{marginBottom: 0}}>
+                 <li><strong>Deus Preserva Sua Aliança Mesmo na Dispersão:</strong> O povo não tinha templo, terra ou rei. Mas tinha a promessa.</li>
+                 <li><strong>Identidade Não Se Negocia por Segurança:</strong> Ester revelou quem era quando o chamado exigiu. A igreja não deve silenciar o Evangelho por conveniência cultural.</li>
+                 <li><strong>O Jejum e a Oração Movem o Céu:</strong> A arma da igreja não é política ou força, mas intercessão persistente.</li>
+                 <li><strong>"Para um Tempo Como Este":</strong> Sua posição onde você está não é acidente; é chamado.</li>
+                 <li><strong>A Providência Trabalha no Silêncio:</strong> Quando Deus parece ausente, Ele está tecendo.</li>
+               </ol>
+             </div>
+
+             <h2>🕊️ Conclusão: O Povo que Sobreviveu, o Deus que Permanece</h2>
+             <p>A história de Ester não é sobre uma rainha heroica. É sobre um povo preservado por um Deus fiel. É sobre identidade que não se vende, fé que não se cala, e providência que não falha.</p>
+             <p>Que a igreja olhe para Ester e veja não apenas história, mas espelho. Que aprenda a jejuar quando o decreto parecer final. Que aprenda a falar quando o silêncio for mais seguro. Que aprenda a confiar quando o nome de Deus não for mencionado, mas Sua mão estiver em tudo.</p>
+             <p>O povo foi salvo. A aliança permanece. O Deus de Ester é o Deus da igreja. E Ele ainda age "para um tempo como este".</p>
+             
+             <p><em>Soli Deo Gloria.</em> 👑</p>
+
+             <div className="article-tags" style={{marginTop: '2rem'}}>
+                <span className="cat-tag" style={{marginRight: '10px'}}>#RainhaEster</span>
+                <span className="cat-tag" style={{marginRight: '10px'}}>#MulheresDaBiblia</span>
+                <span className="cat-tag" style={{marginRight: '10px'}}>#ProvidenciaDivina</span>
+                <span className="cat-tag" style={{marginRight: '10px'}}>#FeEPoder</span>
+             </div>
+          </main>
         ) : isDavi ? (
           <main className="article-content section-mb">
              <div className="article-header">
@@ -1881,9 +2030,11 @@ function App() {
                   </a>
                 </div>
                 <div className="grid-4-item">
-                  <div className="img-ph" loading="lazy"></div>
-                  <h3>A Relevância do Pacto da Graça</h3>
-                  <div className="meta">18 Abr, 2026</div>
+                  <a href="/ester-rainha-salvou-povo-deus-age-sombras" style={{textDecoration: 'none', color: 'inherit'}}>
+                    <img src="/ester_rainha.png" alt="Rainha Ester" className="img-ph" loading="lazy" style={{objectFit: 'cover'}} />
+                    <h3 style={{fontSize: '1.1rem', marginBottom: '8px', lineHeight: '1.4'}}>Ester: A Rainha que Salvou um Povo</h3>
+                    <div className="meta">23 Jun, 2026</div>
+                  </a>
                 </div>
                 <div className="grid-4-item">
                   <a href="/carta-galatas-liberdade-crista-estudo-completo" style={{textDecoration: 'none', color: 'inherit'}}>
