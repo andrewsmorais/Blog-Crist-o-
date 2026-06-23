@@ -15,6 +15,7 @@ function App() {
   const isGalatas = path === '/carta-galatas-liberdade-crista-estudo-completo';
   const isProvisao = path === '/deus-honrou-fe-testemunho-milagres-provisao-divina';
   const isCincoSolas = path === '/cinco-solas-relevancia-hoje-reforma-protestante';
+  const isAna = path === '/ana-mae-orou-chorou-gerou-profeta-samuel';
 
   return (
     <>
@@ -1163,6 +1164,151 @@ function App() {
                <li><em>Sola Fide</em> — Various authors</li>
              </ul>
           </main>
+        ) : isAna ? (
+          <main className="article-content section-mb">
+             <div className="article-header">
+               <span className="cat-tag red">Mulheres da Bíblia / Estudos Bíblicos</span>
+               <h1>Ana: A Mãe que Orou, Chorou e Gerou um Profeta</h1>
+               <p className="article-subtitle" style={{fontSize: '1.2rem', color: '#555', marginTop: '0.5rem'}}>Sua história nos ensina que Deus ouve o clamor dos humildes, que a oração persistente move o céu e que um filho dedicado a Deus pode transformar uma nação.</p>
+               <div className="article-meta">Por <strong>Equipe Soli Deo Gloria</strong> | 22 Jun, 2026</div>
+             </div>
+             
+             <img src="/ana_orando.png" alt="Ana Orando no Tabernáculo" className="article-hero-img" loading="lazy" />
+             
+             <div style={{background: '#f9f9f9', borderLeft: '4px solid #8B0000', padding: '15px', margin: '20px 0'}}>
+               <p style={{margin: 0, fontStyle: 'italic'}}>"Então Eli respondeu: Vai em paz, e o Deus de Israel te conceda a petição que lhe fizeste." — 1 Samuel 1:17</p>
+             </div>
+
+             <p>Essas palavras, proferidas por um velho sacerdote no templo de Siló, marcariam o início de uma das histórias mais comoventes de fé, perseverança e milagre em toda a Bíblia. Ana não era uma rainha, nem uma guerreira, nem uma profetisa famosa. Era apenas uma mulher estéril, desprezada e angustiada. Mas foi exatamente em sua fraqueza que Deus manifestou Seu poder.</p>
+             <p>Venha conosco conhecer a história completa de Ana — uma jornada de lágrimas que se transformaram em cânticos de alegria.</p>
+
+             <hr />
+
+             <h2>📖 Quem Foi Ana?</h2>
+             <h3>O Significado do Nome</h3>
+             <p>Ana (em hebraico: <em>Channah</em> — חַנָּה) significa "graça" ou "favor". Ironicamente, ela viveu anos sem experimentar o favor de ter filhos, embora carregasse esse nome profético.</p>
+
+             <h3>Seu Contexto Familiar</h3>
+             <p>Ana vivia por volta do século XI a.C. (aproximadamente 1100-1050 a.C.) em Ramataim-Zofim, na região montanhosa de Efraim, em Israel.</p>
+             <p>Ela era esposa de Elcana, um levita da família dos coatitas (1 Crônicas 6:26-27). Os levitas eram a tribo separada para o serviço sagrado do Tabernáculo, e Elcana era um homem piedoso que fielmente subia ao santuário em Siló para adorar.</p>
+
+             <h3>A Dor da Esterilidade</h3>
+             <p>Ana enfrentava a maior vergonha social de sua época: a esterilidade. No antigo Israel, a capacidade de gerar filhos era vista como:</p>
+             <ul>
+               <li>Sinal da bênção de Deus</li>
+               <li>Garantia de continuidade do nome da família</li>
+               <li>Segurança para a velhice</li>
+               <li>Prova de favor divino</li>
+             </ul>
+             <p>Não ter filhos era considerado maldição ou desfavor divino. Imagine o peso emocional e social que Ana carregava diariamente.</p>
+
+             <hr />
+
+             <h2>✍️ Quem Escreveu a História de Ana?</h2>
+             <h3>Autoria de 1 Samuel</h3>
+             <p>O livro de 1 Samuel, onde conhecemos a história de Ana, foi escrito por múltiplos autores:</p>
+             <ul>
+               <li><strong>Samuel</strong> — o próprio filho de Ana! Ele escreveu a maior parte (1 Samuel 1-24)</li>
+               <li><strong>Natã</strong> — profeta da corte de Davi</li>
+               <li><strong>Gade</strong> — outro profeta contemporâneo de Davi</li>
+             </ul>
+             <p><strong>Data:</strong> Aproximadamente 1050-930 a.C.<br />
+             <strong>Contexto Histórico:</strong> Ana viveu durante o período dos Juízes, uma época turbulenta da história de Israel onde "cada um fazia o que achava mais reto" (Juízes 21:25). O sacerdócio estava corrompido (os filhos de Eli eram ímpios), e Israel precisava desesperadamente de um líder fiel.</p>
+
+             <h3>Importância Histórica do Texto</h3>
+             <p>O relato de Ana não é apenas uma história pessoal — é fundamental para entender a transição de Israel:</p>
+             <ul>
+               <li>Do período dos Juízes → à Monarquia</li>
+               <li>De um sacerdócio corrupto → a um profeta fiel (Samuel)</li>
+               <li>Da desordem → à organização do reino</li>
+             </ul>
+             <p>Sem Ana, não haveria Samuel. Sem Samuel, não haveria Davi como rei. Sem Davi, não haveria a linhagem messiânica. Ana é, portanto, um elo crucial na história da redenção que culminaria em Jesus Cristo!</p>
+
+             <hr />
+
+             <h2>💔 A Dor de Ana: Uma Casa Dividida</h2>
+             <h3>A Poligamia de Elcana</h3>
+             <p>Elcana tinha duas esposas:</p>
+             <ul>
+               <li><strong>Ana</strong> — estéril, mas amada</li>
+               <li><strong>Penina</strong> — fértil, com muitos filhos e filhas</li>
+             </ul>
+             <p><em>"Tinha Elcana duas mulheres; o nome de uma era Ana, e o nome da outra, Penina. Penina tinha filhos, porém Ana não tinha."</em> (1 Samuel 1:2)</p>
+             <p>A poligamia, embora permitida na cultura da época, nunca foi o plano original de Deus (Gênesis 2:24). E aqui vemos as consequências dolorosas.</p>
+
+             <h3>A Crueldade de Penina</h3>
+             <p>Penina não era apenas uma co-esposa; era uma perseguidora cruel:</p>
+             <p><em>"E a sua rival a afligia excessivamente para a irritar, porquanto o SENHOR lhe havia fechado a madre."</em> (1 Samuel 1:6)</p>
+             <p>A palavra hebraica para "afligia" (<em>ka'as</em>) significa provocar, irritar, atormentar. Penina fazia isso constantemente, intencionalmente e cruelmente (zombando da esterilidade de Ana).</p>
+
+             <h3>O Amor de Elcana</h3>
+             <p>Apesar da dor, Elcana amava Ana profundamente:</p>
+             <p><em>"Porém a Ana amava; contudo, o SENHOR lhe havia fechado a madre."</em> (1 Samuel 1:5)</p>
+             <p>Durante as ofertas anuais em Siló, Elcana dava a Ana porção dobrada — um gesto de amor e honra, tentando compensar sua dor.</p>
+
+             <hr />
+
+             <h2>🙏 A Oração que Rompeu o Céu</h2>
+             <h3>O Dia que Mudou Tudo</h3>
+             <p>Em um desses anos, após o sacrifício, Ana não suportou mais. Enquanto Elcana e Penina celebravam, Ana levantou-se e foi orar.</p>
+             <p><em>"Ela, com amargura de alma, orou ao SENHOR e chorou abundantemente."</em> (1 Samuel 1:10)</p>
+             <p>Note os detalhes: "Amargura de alma" (angústia profunda), "Orou ao SENHOR" (foi diretamente a Deus) e "Chorou abundantemente".</p>
+
+             <h3>O Voto de Ana</h3>
+             <div style={{background: '#f9f9f9', borderLeft: '4px solid #8B0000', padding: '15px', margin: '20px 0'}}>
+               <p style={{margin: 0, fontStyle: 'italic'}}>"E fez um voto, dizendo: SENHOR dos Exércitos, se benignamente atentares para a aflição da tua serva, e de mim te lembrares, e da tua serva te não esqueceres, e deres à tua serva um filho homem, ao SENHOR o darei todos os dias da sua vida, e sobre a sua cabeça não passará navalha." — 1 Samuel 1:11</p>
+             </div>
+             
+             <p>Ana pediu um filho não para si mesma, mas para entregá-lo a Deus. Ela pediu que ele fosse consagrado como nazireu (semelhante a Sansão), separado totalmente para o Senhor.</p>
+
+             <h3>A Oração Silenciosa e a Defesa de Ana</h3>
+             <p>Enquanto orava, apenas os lábios de Ana se moviam; sua voz não era ouvida. Eli, o sacerdote, a teve por embriagada (1 Samuel 1:12-13).</p>
+             <p>Quando repreendida, ela respondeu com respeito e firmeza: <em>"Não, senhor meu! Eu sou uma mulher atribulada de espírito... tenho derramado a minha alma perante o SENHOR."</em> (1 Samuel 1:15)</p>
+
+             <hr />
+
+             <h2>✨ A Resposta de Deus</h2>
+             <h3>A Bênção de Eli</h3>
+             <p><em>"Então Eli respondeu: Vai em paz, e o Deus de Israel te conceda a petição que lhe fizeste."</em> (1 Samuel 1:17)</p>
+             
+             <h3>A Transformação de Ana</h3>
+             <p>Ainda sem engravidar, apenas com a bênção recebida, o semblante de Ana mudou. Ela comeu e não estava mais triste (1 Samuel 1:18). A fé na promessa já a havia transformado.</p>
+
+             <h3>A Concepção</h3>
+             <p>Voltando para casa, Elcana conheceu Ana, e <em>"o SENHOR se lembrou dela"</em>. Ana engravidou e deu à luz um filho, chamando-o de Samuel ("Pedido a Deus").</p>
+
+             <hr />
+
+             <h2>👶 O Cumprimento do Voto</h2>
+             <p>Quando Samuel foi desmamado (cerca de 3 anos de idade), Ana cumpriu sua promessa, levando-o a Siló com ofertas generosas (1 Samuel 1:24).</p>
+             <p>Neste momento, Ana entoou um dos mais belos cânticos da Bíblia (1 Samuel 2:1-10), exaltando a soberania de Deus, Seu poder de inverter situações humanas, e até profetizando sobre o Messias.</p>
+
+             <hr />
+
+             <h2>🌟 A Importância de Ana na História da Redenção</h2>
+             <p>O filho de Ana, Samuel, tornou-se o último Juiz de Israel, o primeiro profeta de uma nova era, e foi quem ungiu o rei Davi (de cuja linhagem nasceria Jesus Cristo). Ana é parte crucial da genealogia espiritual do Messias!</p>
+
+             <hr />
+
+             <h2>💭 Reflexões Práticas para Nossa Vida</h2>
+             <div style={{background: '#e8f4f8', border: '1px solid #b3d4e0', padding: '20px', margin: '30px 0', borderRadius: '8px'}}>
+               <h3 style={{marginTop: 0, color: '#005580'}}>🎯 Para Quem Está Esperando</h3>
+               <p>Talvez você esteja esperando por um milagre ou resposta. Ana te ensina:</p>
+               <ul>
+                 <li>Continue orando — Deus ouve</li>
+                 <li>Continue crendo — Deus age no Seu tempo</li>
+                 <li>Continue adorando — mesmo antes da resposta</li>
+                 <li>Continue dedicando — entregue seu pedido a Deus</li>
+               </ul>
+             </div>
+
+             <div className="article-tags" style={{marginTop: '2rem'}}>
+                <span className="cat-tag" style={{marginRight: '10px'}}>#AnaESamuel</span>
+                <span className="cat-tag" style={{marginRight: '10px'}}>#MulheresDaBiblia</span>
+                <span className="cat-tag" style={{marginRight: '10px'}}>#FeEPoder</span>
+                <span className="cat-tag" style={{marginRight: '10px'}}>#OracaoRespondida</span>
+             </div>
+          </main>
         ) : isCincoSolas ? (
           <main className="article-content section-mb">
              <div className="article-header">
@@ -1564,10 +1710,12 @@ function App() {
                   </a>
                 </div>
                 <div className="article-sm">
-                  <div className="img-ph" loading="lazy"></div>
-                  <h3>Justificação pela Fé Somente</h3>
-                  <span className="cat-tag">Apologética</span>
-                  <div className="meta">07 Dez, 2025</div>
+                  <a href="/ana-mae-orou-chorou-gerou-profeta-samuel" style={{textDecoration: 'none', color: 'inherit'}}>
+                    <img src="/ana_orando.png" alt="Ana: A Mãe que Orou, Chorou e Gerou um Profeta" className="img-ph" loading="lazy" style={{objectFit: 'cover'}} />
+                    <h3 style={{fontSize: '1.1rem'}}>Ana: A Mãe que Orou, Chorou e Gerou um Profeta</h3>
+                    <span className="cat-tag" style={{color: '#8B0000'}}>Mulheres da Bíblia</span>
+                    <div className="meta">22 Jun, 2026</div>
+                  </a>
                 </div>
               </div>
 
