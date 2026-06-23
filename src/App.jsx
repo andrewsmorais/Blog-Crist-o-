@@ -17,6 +17,7 @@ function App() {
   const isCincoSolas = path === '/cinco-solas-relevancia-hoje-reforma-protestante';
   const isEstudosBiblicos = path === '/estudos-biblicos';
   const isPersonagensBiblicos = path === '/personagens-biblicos';
+  const isPauloTarso = path === '/paulo-tarso-apostolo-nacoes';
   const isAna = path === '/ana-mae-orou-chorou-gerou-profeta-samuel';
   const isDavi = path === '/pastor-conquistou-trono-jornada-davi-belem-jerusalem';
   const isEster = path === '/ester-rainha-salvou-povo-deus-age-sombras';
@@ -523,9 +524,9 @@ function App() {
             <div className="section-title">
               <h2>Personagens Bíblicos</h2>
             </div>
-            <div className="grid-3" style={{marginTop: '2rem'}}>
+            <div className="grid-4" style={{marginTop: '2rem'}}>
               
-              <div className="grid-3-item">
+              <div className="grid-4-item">
                 <a href="/ana-mae-orou-chorou-gerou-profeta-samuel" style={{textDecoration: 'none', color: 'inherit'}}>
                   <img src="/ana_orando.png" alt="Ana: A Mãe que Orou, Chorou e Gerou um Profeta" className="img-ph" loading="lazy" style={{objectFit: 'cover'}} />
                   <h3 style={{fontSize: '1.1rem', marginBottom: '8px', lineHeight: '1.4'}}>Ana: A Mãe que Orou, Chorou e Gerou um Profeta</h3>
@@ -533,7 +534,7 @@ function App() {
                 </a>
               </div>
 
-              <div className="grid-3-item">
+              <div className="grid-4-item">
                 <a href="/ester-rainha-salvou-povo-deus-age-sombras" style={{textDecoration: 'none', color: 'inherit'}}>
                   <img src="/ester_rainha.png" alt="Rainha Ester" className="img-ph" loading="lazy" style={{objectFit: 'cover'}} />
                   <h3 style={{fontSize: '1.1rem', marginBottom: '8px', lineHeight: '1.4'}}>Ester: A Rainha que Salvou um Povo</h3>
@@ -541,7 +542,7 @@ function App() {
                 </a>
               </div>
 
-              <div className="grid-3-item">
+              <div className="grid-4-item">
                 <a href="/pastor-conquistou-trono-jornada-davi-belem-jerusalem" style={{textDecoration: 'none', color: 'inherit'}}>
                   <img src="/davi_pastor.png" alt="O Pastor que Conquistou um Trono" className="img-ph" loading="lazy" style={{objectFit: 'cover'}} />
                   <h3 style={{fontSize: '1.1rem', marginBottom: '8px', lineHeight: '1.4'}}>O Pastor que Conquistou um Trono: A Jornada de Davi</h3>
@@ -550,7 +551,45 @@ function App() {
                 </a>
               </div>
 
+              <div className="grid-4-item">
+                <a href="/paulo-tarso-apostolo-nacoes" style={{textDecoration: 'none', color: 'inherit'}}>
+                  <img src="/paulo_de_tarso.png" alt="Paulo de Tarso" className="img-ph" loading="lazy" style={{objectFit: 'cover'}} />
+                  <h3 style={{fontSize: '1.1rem', marginBottom: '8px', lineHeight: '1.4'}}>Paulo de Tarso: O Perseguidor Chamado para Ser Apóstolo das Nações</h3>
+                  <div className="meta">Personagens Bíblicos</div>
+                </a>
+              </div>
+
             </div>
+          </main>
+        ) : isPauloTarso ? (
+          <main className="article-content section-mb">
+             <div className="article-header">
+               <span className="cat-tag">Personagens Bíblicos</span>
+               <h1>Paulo de Tarso: O Perseguidor Chamado para Ser Apóstolo das Nações</h1>
+               <div className="article-meta">Por <strong>Equipe Soli Deo Gloria</strong> | 24 Jun, 2026</div>
+             </div>
+             <img src="/paulo_de_tarso.png" alt="Paulo de Tarso" className="article-hero-img" loading="lazy" />
+             <div className="article-body">
+               <div className="quote-box">
+                 "Mas Deus, que me separou desde o ventre de minha mãe e me chamou pela sua graça, teve por bem revelar seu Filho em mim, para que eu o pregasse entre os gentios." — <strong>Gálatas 1:15-16</strong>
+               </div>
+               
+               <p>Há chamados na Bíblia que mudam o curso da história. Moisés no deserto. Davi no curral. Isaías no templo. Mas nenhum é mais dramático, mais transformador, mais teologicamente rico do que o chamado de Saulo de Tarso na estrada de Damasco.</p>
+               
+               <p>Um homem que respirava ameaças contra os discípulos do Senhor. Um fariseu de fariseus, zeloso da lei, aprovado pelos líderes religiosos. Um perseguidor que consentiu na morte de Estêvão e invadia casas para arrastar homens e mulheres à prisão.</p>
+
+               <p>E, em um instante, esse mesmo homem cai por terra, ofuscado por uma luz mais forte que o sol do meio-dia, e ouve a voz que mudaria sua vida e a história do cristianismo: <em>"Saulo, Saulo, por que me persegues?"</em></p>
+
+               <h2>De Saulo a Paulo: A Graça que Transforma</h2>
+               <p>A conversão de Paulo é a prova cabal de que a salvação pertence inteiramente ao Senhor. Não havia nada em Saulo que o tornasse merecedor. Ele estava ativamente destruindo a igreja. Mas a graça de Deus o alcançou de forma irresistível.</p>
+
+               <p>Ele não apenas mudou de lado, ele se tornou o maior teólogo e missionário da igreja primitiva, escrevendo grande parte do Novo Testamento e levando o Evangelho de Cristo aos gentios, fundando igrejas por todo o Império Romano.</p>
+               
+               <div className="quote-box" style={{backgroundColor: 'var(--bg-light)', borderLeftColor: 'var(--primary)'}}>
+                 Sua jornada nos lembra que ninguém está além do alcance da graça de Deus. Se Ele pôde transformar o maior perseguidor no maior apóstolo, Ele pode transformar qualquer coração hoje.
+               </div>
+
+             </div>
           </main>
         ) : isAhJesus ? (
           <main className="article-content section-mb">
