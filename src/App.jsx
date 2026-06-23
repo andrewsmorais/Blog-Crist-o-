@@ -517,7 +517,7 @@ function App() {
               </div>
             </div>
           </main>
-        ) : path === '/' ? (
+        ) : isAhJesus ? (
           <main className="article-content section-mb">
              <div className="article-header">
                <span className="cat-tag">Devocional / Louvor e Adoração</span>
