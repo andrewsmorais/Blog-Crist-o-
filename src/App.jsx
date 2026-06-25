@@ -753,24 +753,23 @@ function App() {
                </div>
              </div>
              
-             <img src="/deus_e_bom.png" alt="Uma luz brilhando num quarto escuro" className="article-hero-img" loading="lazy" />
+             <div style={{maxWidth: '900px', margin: '2.5rem auto 3rem'}}>
+               <div style={{position: 'relative', width: '100%', paddingBottom: '56.25%', borderRadius: '12px', overflow: 'hidden', boxShadow: '0 15px 50px rgba(0,0,0,0.2)'}}>
+                 <iframe 
+                   src="https://www.youtube.com/embed/9w1pvUayZLE" 
+                   title="Deus É Bom - Uma História de Fé e Transformação #ccb #testemunho"
+                   style={{position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', border: 'none'}}
+                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                   allowFullScreen>
+                 </iframe>
+               </div>
+               <div style={{background: 'linear-gradient(to right, #f8f9fa, #e9ecef)', padding: '15px', borderRadius: '0 0 8px 8px', textAlign: 'center'}}>
+                 🎥 <a href="http://www.youtube.com/watch?v=9w1pvUayZLE" target="_blank" rel="noreferrer" style={{color: '#333', textDecoration: 'none', fontWeight: 'bold'}}>Assista ao testemunho completo no vídeo acima</a>
+               </div>
+             </div>
              
              <div className="article-body">
                <p style={{fontSize: '1.1rem', color: '#555', fontStyle: 'italic', marginBottom: '2.5rem'}}>Um domingo à tarde, uma visita inesperada e três palavras que quebraram correntes: 'Deus é bom'. Descubra como um encontro simples se tornou um marco de libertação e despertar espiritual.</p>
-
-               <div style={{maxWidth: '900px', margin: '2.5rem auto 3rem'}}>
-                 <div className="video-responsive" style={{borderRadius: '12px', boxShadow: '0 15px 50px rgba(0,0,0,0.2)'}}>
-                   <iframe 
-                     src="https://www.youtube.com/embed/9w1pvUayZLE" 
-                     title="Deus É Bom - Uma História de Fé e Transformação #ccb #testemunho"
-                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-                     allowFullScreen>
-                   </iframe>
-                 </div>
-                 <div style={{background: 'linear-gradient(to right, #f8f9fa, #e9ecef)', padding: '15px', borderRadius: '8px', textAlign: 'center', marginTop: '-1.5rem'}}>
-                   🎥 <a href="http://www.youtube.com/watch?v=9w1pvUayZLE" target="_blank" rel="noreferrer" style={{color: '#333', textDecoration: 'none', fontWeight: 'bold'}}>Assista ao testemunho completo no vídeo acima</a>
-                 </div>
-               </div>
 
                <h2>📝 Transcrição do Testemunho</h2>
                <div style={{background: '#fafafa', padding: '2rem', borderLeft: '4px solid var(--primary)', borderRadius: '0 8px 8px 0', marginBottom: '3rem', fontStyle: 'italic', color: '#444', lineHeight: '1.8'}}>
