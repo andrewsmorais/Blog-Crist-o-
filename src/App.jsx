@@ -20,6 +20,8 @@ function App() {
   const isPauloTarso = path === '/paulo-tarso-apostolo-nacoes';
   const isSamuel = path === '/samuel-profeta-voz-deus-trevas-israel';
   const isJo = path === '/jo-homem-perdeu-tudo-soberania-divina';
+  const isTestemunhos = path === '/testemunhos';
+  const isTestemunhoDeusEBom = path === '/testemunho-deus-e-bom-historia-fe-transformacao';
   const isAna = path === '/ana-mae-orou-chorou-gerou-profeta-samuel';
   const isDavi = path === '/pastor-conquistou-trono-jornada-davi-belem-jerusalem';
   const isEster = path === '/ester-rainha-salvou-povo-deus-age-sombras';
@@ -54,7 +56,7 @@ function App() {
               <li><a href="#">Devocionais</a></li>
               <li><a href="#">Cursos</a></li>
               <li><a href="/personagens-biblicos">Personagens Bíblicos</a></li>
-              <li><a href="#">Testemunhos</a></li>
+              <li><a href="/testemunhos">Testemunhos</a></li>
               <li><a href="#">Contato</a></li>
             </ul>
           </nav>
@@ -716,6 +718,96 @@ function App() {
                <p>A restauração não apaga a dor de Jó, mas valida a sua fé. Jó é honrado e chamado a interceder por seus amigos. Deus dobra sua riqueza, e Jó vive o suficiente para ver quatro gerações. Jó provou que é possível ter uma fé inabalável mesmo quando todas as bênçãos nos são tiradas.</p>
 
              </div>
+          </main>
+        ) : isTestemunhos ? (
+          <main className="section-mb">
+            <div className="section-title">
+              <h2>Testemunhos</h2>
+            </div>
+            <div className="grid-3" style={{marginTop: '2rem'}}>
+              
+              <div className="grid-3-item">
+                <a href="/testemunho-deus-e-bom-historia-fe-transformacao" style={{textDecoration: 'none', color: 'inherit'}}>
+                  <img src="/deus_e_bom.png" alt="Deus É Bom" className="img-ph" loading="lazy" style={{objectFit: 'cover'}} />
+                  <span className="cat-tag" style={{display: 'inline-block', marginBottom: '8px', marginTop: '12px'}}>TESTEMUNHOS</span>
+                  <h3 style={{fontSize: '1.1rem', marginBottom: '8px', lineHeight: '1.4'}}>Deus É Bom — Uma História de Fé e Transformação</h3>
+                  <p style={{fontSize: '0.9rem', color: '#666', marginTop: '8px', marginBottom: '12px'}}>Um domingo à tarde, uma visita inesperada e três palavras que quebraram correntes: 'Deus é bom'. Descubra como um encontro simples se tornou um marco de libertação e despertar espiritual.</p>
+                  <div className="meta">por <strong>João Calvino</strong> · 25 Jun, 2026</div>
+                  <div style={{marginTop: '15px'}}><span className="btn-cta" style={{padding: '8px 16px', fontSize: '0.85rem'}}>LER MAIS</span></div>
+                </a>
+              </div>
+
+            </div>
+          </main>
+        ) : isTestemunhoDeusEBom ? (
+          <main className="article-content section-mb">
+             <div className="article-header">
+               <span className="cat-tag">Testemunhos</span>
+               <h1>Deus É Bom — Uma História de Fé e Transformação</h1>
+               <h2 style={{fontSize: '1.2rem', fontWeight: 'normal', color: '#555', margin: '15px 0'}}>Como três palavras simples despertaram uma vida do sono da morte para a vida em Cristo</h2>
+               <div className="article-meta">Por <strong>João Calvino</strong> | 25 Jun, 2026</div>
+               <div className="share-buttons">
+                 <button className="share-btn">🔗 Copiar Link</button>
+                 <button className="share-btn">📱 WhatsApp</button>
+                 <button className="share-btn">📘 Facebook</button>
+               </div>
+             </div>
+             
+             <img src="/deus_e_bom.png" alt="Uma luz brilhando num quarto escuro" className="article-hero-img" loading="lazy" />
+             
+             <div className="article-body">
+               <p>Um domingo à tarde, uma visita inesperada e três palavras que quebraram correntes: <strong>"Deus é bom"</strong>. Descubra como um encontro simples se tornou um marco de libertação e despertar espiritual.</p>
+
+               <div className="video-responsive">
+                 <iframe 
+                   src="https://www.youtube.com/embed/9w1pvUayZLE" 
+                   title="Assista ao testemunho completo"
+                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                   allowFullScreen>
+                 </iframe>
+               </div>
+               <p style={{textAlign: 'center', fontSize: '0.9rem', color: '#666', fontStyle: 'italic', marginBottom: '2rem'}}>Assista ao testemunho completo no vídeo acima 🎬</p>
+               
+               <hr style={{border: 'none', borderTop: '1px solid #eee', margin: '2rem 0'}} />
+
+               <h2>O Despertar Espiritual ✨</h2>
+               <p>Às vezes, Deus usa os momentos mais simples e improváveis para realizar grandes milagres. A luz entra por uma porta entreaberta, e uma mensagem que parece tão básica carrega o poder de quebrar o julgo do sono espiritual e trazer vida onde havia morte.</p>
+
+               <div className="quote-box">
+                 "Deus é bom. Em todo tempo, Ele é bom." 🙏
+               </div>
+               
+               <p>Esta não é apenas uma frase clichê, mas uma <em>verdade transformadora</em>. Quando reconhecemos a bondade de Deus em meio às nossas fraquezas, nosso coração é despertado. A visita daquele domingo carregou uma mensagem de paz e libertação.</p>
+
+               <h3>O Que Aprendemos Com Esse Encontro:</h3>
+               <ul>
+                 <li><strong>A Simplicidade do Evangelho:</strong> Não precisamos de discursos complexos para tocar uma alma. "Deus é bom" é suficiente.</li>
+                 <li><strong>O Poder da Visitação:</strong> Ir até alguém pode ser a resposta da oração que essa pessoa estava fazendo em silêncio.</li>
+                 <li><strong>A Paz que Excede o Entendimento:</strong> Como dito no testemunho: <em>"Que a santa paz de Deus inunde a sua vida."</em></li>
+               </ul>
+
+               <hr style={{border: 'none', borderTop: '1px solid #eee', margin: '2rem 0'}} />
+
+               <h2>Oração Final e Desafio Prático 🙏</h2>
+               <p>Senhor, te agradecemos porque Tu és bom e a Tua misericórdia dura para sempre. Que possamos ser portadores dessa mesma luz, despertando aqueles que estão adormecidos ao nosso redor. Em nome de Jesus, Amém!</p>
+               
+               <div style={{background: '#f4f9ff', padding: '1.5rem', borderRadius: '12px', marginTop: '2rem', borderLeft: '4px solid var(--primary)'}}>
+                 <strong>Seu Desafio:</strong> Nesta semana, visite alguém ou mande uma mensagem lembrando-a simplesmente de que <strong>Deus é bom</strong>. Você pode ser a resposta de oração dessa pessoa!
+               </div>
+
+             </div>
+
+             <div className="comments-section">
+               <h3>Comentários e Testemunhos 💬</h3>
+               <p style={{color: '#666', marginBottom: '1.5rem'}}>Deixe aqui o seu testemunho! O que Deus tem feito na sua vida?</p>
+               <textarea className="comment-input" placeholder="Escreva o seu testemunho ou comentário aqui..."></textarea>
+               <button className="btn-cta">Publicar Comentário</button>
+             </div>
+             
+             <div style={{marginTop: '3rem', textAlign: 'center'}}>
+               <button className="btn-cta" style={{background: '#333'}}>Compartilhar Seu Testemunho</button>
+             </div>
+
           </main>
         ) : isAhJesus ? (
           <main className="article-content section-mb">
