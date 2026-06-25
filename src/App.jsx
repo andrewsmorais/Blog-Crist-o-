@@ -22,6 +22,7 @@ function App() {
   const isJo = path === '/jo-homem-perdeu-tudo-soberania-divina';
   const isTestemunhos = path === '/testemunhos';
   const isTestemunhoDeusEBom = path === '/testemunho-deus-e-bom-historia-fe-transformacao';
+  const isTestemunhoDesespero = path === '/testemunho-desespero-esperanca';
   const isAna = path === '/ana-mae-orou-chorou-gerou-profeta-samuel';
   const isDavi = path === '/pastor-conquistou-trono-jornada-davi-belem-jerusalem';
   const isEster = path === '/ester-rainha-salvou-povo-deus-age-sombras';
@@ -737,6 +738,17 @@ function App() {
                 </a>
               </div>
 
+              <div className="grid-3-item">
+                <a href="/testemunho-desespero-esperanca" style={{textDecoration: 'none', color: 'inherit'}}>
+                  <img src="/desespero_esperanca.png" alt="Do Desespero à Esperança" className="img-ph" loading="lazy" style={{objectFit: 'cover'}} />
+                  <span className="cat-tag" style={{display: 'inline-block', marginBottom: '8px', marginTop: '12px'}}>TESTEMUNHOS</span>
+                  <h3 style={{fontSize: '1.1rem', marginBottom: '8px', lineHeight: '1.4'}}>Do Desespero à Esperança: Quando Deus Interrompeu Meu Último Ato</h3>
+                  <p style={{fontSize: '0.9rem', color: '#666', marginTop: '8px', marginBottom: '12px'}}>Como uma última oração se tornou o início de uma nova vida.</p>
+                  <div className="meta">por <strong>João Calvino</strong> · 25 Jun, 2026</div>
+                  <div style={{marginTop: '15px'}}><span className="btn-cta" style={{padding: '8px 16px', fontSize: '0.85rem'}}>LER MAIS</span></div>
+                </a>
+              </div>
+
             </div>
           </main>
         ) : isTestemunhoDeusEBom ? (
@@ -864,6 +876,118 @@ function App() {
                    <li style={{marginBottom: '10px'}}><strong>Compartilhe</strong> essa história com pelo menos uma pessoa.</li>
                    <li style={{marginBottom: '10px'}}><strong>Seja o jovem:</strong> bata na porta (ou mande mensagem) e leve paz.</li>
                    <li><strong>Repita:</strong> "Deus é bom".</li>
+                 </ol>
+               </div>
+
+             </div>
+
+              </div>
+
+           </main>
+        ) : isTestemunhoDesespero ? (
+          <main className="article-content section-mb">
+             <div className="article-header">
+               <span className="cat-tag">Testemunhos</span>
+               <h1>Do Desespero à Esperança: Quando Deus Interrompeu Meu Último Ato</h1>
+               <h2 style={{fontSize: '1.2rem', fontWeight: 'normal', color: '#555', margin: '15px 0'}}>Como uma última oração se tornou o início de uma nova vida</h2>
+               <div className="article-meta">Por <strong>João Calvino</strong> | 25 Jun, 2026</div>
+             </div>
+             
+             <div style={{maxWidth: '900px', margin: '2.5rem auto 3rem'}}>
+               <div style={{position: 'relative', width: '100%', paddingBottom: '56.25%', borderRadius: '12px', overflow: 'hidden', boxShadow: '0 15px 50px rgba(0,0,0,0.2)'}}>
+                 <iframe 
+                   src="https://www.youtube.com/embed/UNM8GvuJmrM" 
+                   title="Do Desespero à Esperança"
+                   style={{position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', border: 'none'}}
+                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                   allowFullScreen>
+                 </iframe>
+               </div>
+               <div style={{background: 'linear-gradient(to right, #f8f9fa, #e9ecef)', padding: '15px', borderRadius: '0 0 8px 8px', textAlign: 'center'}}>
+                 🎥 <a href="http://www.youtube.com/watch?v=UNM8GvuJmrM" target="_blank" rel="noreferrer" style={{color: '#333', textDecoration: 'none', fontWeight: 'bold'}}>Assista ao testemunho completo no vídeo acima</a>
+               </div>
+             </div>
+             
+             <div className="article-body">
+               <p style={{fontSize: '1.1rem', color: '#555', fontStyle: 'italic', marginBottom: '2.5rem'}}>No momento mais sombrio, quando o desespero parecia não ter fim, uma voz suave interrompeu o ato final. Descubra como o Espírito Santo transformou um último adeus em um novo começo.</p>
+
+               <h2>📝 Transcrição do Testemunho</h2>
+               <div style={{background: '#fafafa', padding: '2rem', borderLeft: '4px solid var(--primary)', borderRadius: '0 8px 8px 0', marginBottom: '3rem', fontStyle: 'italic', color: '#444', lineHeight: '1.8'}}>
+                 <p>"Entrei no quarto, tranquei minha porta, falei: 'Deus, hoje eu vou tirar minha vida'. E eu lembro de abrir o guarda-roupa e procurar um objeto pontiagudo, procurar alguma forma para eu tirar minha vida. E quando eu abri o guarda-roupa, o Espírito Santo falou para mim: 'Então por que que você não faz uma última oração?'</p>
+                 <p>Me ajoelhei e falei: 'Jesus, eu só te peço uma segunda chance. Eu quero voltar a ser feliz, eu quero voltar a priorizar o Teu reino, eu quero voltar a amar a Sua igreja. Eu não sou feliz, então me dê a felicidade de novo'.</p>
+                 <p>E quando eu abri os meus olhos, eu estava na sala da minha casa. Eu não lembro como, minha mãe fala que eu cheguei chorando, pedindo ajuda. Sério. Pra mim foi o Espírito Santo que me levou."</p>
+               </div>
+
+               <h2>Testemunhos: Monumentos Vivos da Fidelidade de Deus</h2>
+               <p><em>"Contai entre as nações a sua glória"</em> (<strong>Salmo 96:3</strong>). Os testemunhos não são apenas histórias do passado; eles são monumentos vivos da fidelidade divina. Eles existem para:</p>
+               <ul>
+                 <li><strong>Glorificar a Deus</strong> pelo livramento recebido.</li>
+                 <li><strong>Fortalecer a comunidade</strong> mostrando que há esperança.</li>
+                 <li><strong>Validar a nossa fé</strong> de que Deus escuta orações.</li>
+                 <li><strong>Cumprir a Grande Comissão</strong> ao compartilhar vida.</li>
+                 <li><strong>Construir um legado</strong> espiritual inabalável.</li>
+               </ul>
+               <p>Essa história real de libertação é um lembrete do valor inestimável de uma segunda chance.</p>
+
+               <hr style={{border: 'none', borderTop: '1px solid #eee', margin: '3rem 0'}} />
+
+               <div className="quote-box" style={{textAlign: 'center', fontSize: '1.3rem'}}>
+                 "O SENHOR está perto dos que têm o coração quebrantado e salva os de espírito abatido."<br/>— <strong>Salmo 34:18</strong>
+               </div>
+
+               <h2>O Encontro que Mudou Tudo ✨</h2>
+               <p>Há dias em que a dor sufoca a alma. A mente, exausta, procura uma saída para aliviar o peso que o peito carrega. Esse é o momento crítico onde o inimigo tenta roubar não apenas a paz, mas o futuro. Porém, o Espírito Santo nunca abandona aqueles que, mesmo em meio à escuridão, possuem uma faísca de clamor dentro de si.</p>
+
+               <h2>O Quarto Fechado 🚪</h2>
+               <p>O cenário do desespero absoluto: uma porta trancada e um coração dilacerado. "Entrei no quarto, tranquei minha porta, falei: 'Deus, hoje eu vou tirar minha vida'". A decisão parecia final, e as buscas dentro do guarda-roupa eram o prelúdio da tragédia. Mas Deus é mestre em entrar em quartos cujas portas nós mesmos trancamos.</p>
+
+               <h2>A Voz que Interrompeu 🕊️</h2>
+               <p>Quando a esperança já não existia, uma intervenção surpreendente aconteceu. Não foi um anjo visível, nem um terremoto, mas a voz do Consolador: <strong>"Então por que que você não faz uma última oração?"</strong>. Essa é a essência do Espírito Santo. Ele argumenta com a alma, propõe a vida onde a morte já fez morada e instiga o ser humano a olhar uma última vez para o alto.</p>
+
+               <h2>A Última Oração 🗣️</h2>
+               <p>No lugar da morte, um clamor nasceu. De joelhos, o desespero se transformou em petição sincera: <em>"Jesus, eu só te peço uma segunda chance... me dê a felicidade de novo."</em>. Em uma oração simples e rasgada, a verdadeira intenção do coração foi ouvida no céu. Deus não exigiu explicações, apenas recebeu as lágrimas daquele pedido de resgate.</p>
+
+               <h2>Do Sono da Morte para a Vida em Cristo ⚡</h2>
+               <p>O que aconteceu a seguir é indescritível do ponto de vista humano. Sem lembrança racional do trajeto, a pessoa despertou na sala, chorando e pedindo ajuda à mãe. <em>"Pra mim foi o Espírito Santo que me levou."</em> A intervenção divina arrancou uma alma das garras da morte de forma literal. Jesus agiu como o Bom Pastor, carregando a ovelha perdida em seus próprios braços.</p>
+
+               <h2>A Simplicidade que Transforma 🌿</h2>
+               <p>Nenhuma estratégia terrena poderia ter salvo essa vida naquele instante. Foi a simplicidade de uma "última oração" sugerida pelo Espírito Santo que abriu a porta para o resgate. Deus precisa apenas do nosso "sim" — mesmo que venha do fundo do poço — para transformar toda a nossa eternidade.</p>
+
+               <h2>Lições para Nossa Vida 📖</h2>
+               <ul>
+                 <li><strong>Nenhuma porta trancada impede Deus:</strong> O Espírito Santo tem acesso livre ao nosso quarto secreto.</li>
+                 <li><strong>A oração interrompe a morte:</strong> Uma última oração pode mudar tudo.</li>
+                 <li><strong>Nunca é tarde para pedir a Jesus:</strong> O pedido por uma segunda chance jamais é ignorado por Ele.</li>
+                 <li><strong>Busque ajuda:</strong> O milagre divino também nos leva aos braços daqueles que podem nos abraçar (como a mãe na sala).</li>
+               </ul>
+
+               <h2>Reflexão Final 🔒</h2>
+               <p>Você não está sozinho. Nenhuma dor é profunda o suficiente que o braço do Senhor não possa alcançar. Se você acha que já tentou de tudo e que a esperança acabou, escute a voz do Espírito Santo hoje sussurrando para você: <em>"Faça mais uma oração."</em> Existe uma segunda chance, existe um futuro e, principalmente, existe um Pai que anseia te fazer feliz novamente.</p>
+
+               <div style={{display: 'flex', gap: '20px', margin: '3rem 0'}}>
+                 <div style={{flex: 1, padding: '1.5rem', background: '#f5f5f5', borderRadius: '8px', textAlign: 'center'}}>
+                   <em>"Ele cura os que têm o coração partido e trata das suas feridas."</em><br/><strong>— Salmo 147:3</strong>
+                 </div>
+                 <div style={{flex: 1, padding: '1.5rem', background: '#f5f5f5', borderRadius: '8px', textAlign: 'center'}}>
+                   <em>"Esqueçam o que se foi; não vivam no passado. Vejam, estou fazendo uma coisa nova!"</em><br/><strong>— Isaías 43:18-19</strong>
+                 </div>
+               </div>
+
+               <hr style={{border: 'none', borderTop: '1px solid #eee', margin: '2rem 0'}} />
+
+               <h2>Oração 🙏</h2>
+               <blockquote style={{fontStyle: 'italic', fontSize: '1.1rem', color: '#555', background: '#f9f9f9', padding: '20px', borderRadius: '10px', borderLeft: '4px solid #4CAF50'}}>
+                 "Senhor Jesus, nós te louvamos porque Tu és o Deus das segundas chances. Se hoje houver alguém trancado no quarto do desespero, que a voz suave do Espírito Santo rompa o silêncio. Dá forças para fazer aquela última oração que mudará tudo. Restaura a alegria, devolve a paz e traga uma nova vida para aqueles que achavam que era o fim. Em nome de Jesus, amém."
+               </blockquote>
+
+               <h2>Desafio Prático da Semana 🎯</h2>
+               <div style={{background: '#fff3e0', padding: '1.5rem', borderRadius: '12px', marginTop: '1.5rem', borderLeft: '4px solid #ff9800'}}>
+                 <ol style={{margin: 0, paddingLeft: '1.5rem'}}>
+                   <li style={{marginBottom: '10px'}}><strong>Ore por quem sofre:</strong> Interceda por alguém que você sabe que está passando por depressão.</li>
+                   <li style={{marginBottom: '10px'}}><strong>Seja o ombro amigo:</strong> Se alguém te procurar chorando pedindo ajuda, acolha sem julgamentos.</li>
+                   <li style={{marginBottom: '10px'}}><strong>Dê uma segunda chance:</strong> Se você precisa, peça a Deus hoje a sua alegria de volta.</li>
+                   <li style={{marginBottom: '10px'}}><strong>Compartilhe:</strong> Envie este testemunho para alguém que precisa de esperança.</li>
+                   <li><strong>Acredite:</strong> Deus ainda intervém!</li>
                  </ol>
                </div>
 
