@@ -2598,29 +2598,7 @@ function App() {
         )}
       </div>
 
-      {/* ARTIGOS RESTANTES (NO RODAPÉ) */}
-      <div className="container section-mb">
-        <div style={{display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(350px, 1fr))', gap: '32px'}}>
-          <a href="/pastor-conquistou-trono-jornada-davi-belem-jerusalem" className="article-sm" style={{display: 'flex', gap: '20px', alignItems: 'center', textDecoration: 'none', color: 'inherit'}}>
-            <img src="/davi_pastor.png" alt="O Pastor que Conquistou um Trono" className="img-ph" loading="lazy" style={{width: '150px', height: '112.5px', aspectRatio: '4/3', marginBottom: '0', flexShrink: '0', objectFit: 'cover'}} />
-            <div>
-              <span className="cat-tag" style={{color: '#8B0000'}}>Heróis da Fé</span>
-              <h3 style={{fontSize: '1.25rem', fontFamily: 'var(--font-title)', marginBottom: '8px', lineHeight: '1.2'}}>O Pastor que Conquistou um Trono: A Jornada de Davi</h3>
-              <p style={{fontSize: '0.95rem', color: 'var(--text-secondary)', marginBottom: '8px', lineHeight: '1.5'}}>Do Curral de Belém ao Palácio de Jerusalém.</p>
-              <div className="meta" style={{marginTop: '0'}}>23 Jun, 2026</div>
-            </div>
-          </a>
-          <div className="article-sm" style={{display: 'flex', gap: '20px', alignItems: 'center'}}>
-            <img src="/santificacao.png" alt="Santificação" className="img-ph" style={{width: '150px', height: '112.5px', aspectRatio: '4/3', marginBottom: '0', flexShrink: '0', objectFit: 'cover'}} loading="lazy" />
-            <div>
-              <span className="cat-tag">Vida Cristã</span>
-              <h3 style={{fontSize: '1.25rem', fontFamily: 'var(--font-title)', marginBottom: '8px', lineHeight: '1.2'}}>Santificação: Uma obra de uma vida inteira</h3>
-              <p style={{fontSize: '0.95rem', color: 'var(--text-secondary)', marginBottom: '8px', lineHeight: '1.5'}}>Os desafios contínuos do crente contra o pecado residente.</p>
-              <div className="meta" style={{marginTop: '0'}}>13 Jan, 2025</div>
-            </div>
-          </div>
-        </div>
-      </div>
+
 
       {/* FOOTER COMPLETO PARA ADSENSE */}
       <footer className="footer-main">
