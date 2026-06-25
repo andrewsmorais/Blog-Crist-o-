@@ -25,6 +25,7 @@ function App() {
   const isTestemunhoDesespero = path === '/testemunho-desespero-esperanca';
   const isTestemunhoEEle = path === '/testemunho-e-ele-cancao-nasceu-deserto-paulo-vicente';
   const isTestemunhoThamires = path === '/testemunho-thamires-musica-cura-aquieta-minhalma';
+  const isTestemunhoJulliany = path === '/testemunho-julliany-souza-louvor-arma-espiritual-familia';
   const isAna = path === '/ana-mae-orou-chorou-gerou-profeta-samuel';
   const isDavi = path === '/pastor-conquistou-trono-jornada-davi-belem-jerusalem';
   const isEster = path === '/ester-rainha-salvou-povo-deus-age-sombras';
@@ -773,6 +774,17 @@ function App() {
                 </a>
               </div>
 
+              <div className="grid-3-item">
+                <a href="/testemunho-julliany-souza-louvor-arma-espiritual-familia" style={{textDecoration: 'none', color: 'inherit'}}>
+                  <img src="/testemunho_julliany.png" alt="O Testemunho de Julliany Souza" className="img-ph" loading="lazy" style={{objectFit: 'cover'}} />
+                  <span className="cat-tag" style={{display: 'inline-block', marginBottom: '8px', marginTop: '12px'}}>TESTEMUNHOS</span>
+                  <h3 style={{fontSize: '1.1rem', marginBottom: '8px', lineHeight: '1.4'}}>A Voz que Quebrou Correntes: O Chamado de Julliany Souza no Quarto do Pai</h3>
+                  <p style={{fontSize: '0.9rem', color: '#666', marginTop: '8px', marginBottom: '12px'}}>Como uma adolescente usou o louvor como arma espiritual e viu Deus transformar uma família.</p>
+                  <div className="meta">por <strong>João Calvino</strong> · 25 Jun, 2026</div>
+                  <div style={{marginTop: '15px'}}><span className="btn-cta" style={{padding: '8px 16px', fontSize: '0.85rem'}}>LER MAIS</span></div>
+                </a>
+              </div>
+
             </div>
           </main>
         ) : isTestemunhoDeusEBom ? (
@@ -1282,6 +1294,141 @@ function App() {
                    <li style={{marginBottom: '10px'}}><strong>Esta semana, antes de cantar, orar ou servir</strong>, pergunte: "Senhor, isso é expressão do meu coração para Ti ou busca de reconhecimento?"</li>
                    <li><strong>Ore por alguém que está esperando cura:</strong> "Senhor, renova as forças de quem espera em Ti".</li>
                  </ol>
+               </div>
+
+             </div>
+
+           </main>
+        ) : isTestemunhoJulliany ? (
+          <main className="article-content section-mb">
+             <div className="article-header">
+               <span className="cat-tag">Testemunhos</span>
+               <h1>A Voz que Quebrou Correntes: O Chamado de Julliany Souza no Quarto do Pai</h1>
+               <h2 style={{fontSize: '1.2rem', fontWeight: 'normal', color: '#555', margin: '15px 0'}}>Como uma adolescente usou o louvor como arma espiritual e viu Deus transformar uma família</h2>
+               <div className="article-meta">Por <strong>João Calvino</strong> | 25 Jun, 2026</div>
+               <div className="share-buttons" style={{display: 'flex', gap: '10px', marginTop: '15px', justifyContent: 'center'}}>
+                 <button className="share-btn">📘 Facebook</button>
+                 <button className="share-btn">📱 WhatsApp</button>
+                 <button className="share-btn">🐦 Twitter</button>
+                 <button className="share-btn">📸 Instagram</button>
+               </div>
+             </div>
+             
+             <div style={{maxWidth: '900px', margin: '2.5rem auto 3rem'}}>
+               <div style={{position: 'relative', width: '100%', paddingBottom: '56.25%', borderRadius: '12px', overflow: 'hidden', boxShadow: '0 15px 50px rgba(0,0,0,0.2)'}}>
+                 <iframe 
+                   src="https://www.youtube.com/embed/AyY3DsOcQmY" 
+                   title="O Testemunho de Julliany Souza"
+                   style={{position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', border: 'none'}}
+                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                   allowFullScreen>
+                 </iframe>
+               </div>
+               <div style={{background: '#f8f9fa', padding: '15px', borderRadius: '0 0 12px 12px', textAlign: 'center'}}>
+                 🎥 <a href="http://www.youtube.com/watch?v=AyY3DsOcQmY" target="_blank" rel="noreferrer" style={{color: '#333', textDecoration: 'none', fontWeight: 'bold'}}>Assista ao testemunho completo no vídeo acima</a>
+               </div>
+             </div>
+             
+             <div className="article-body">
+               <p style={{fontSize: '1.1rem', color: '#555', fontStyle: 'italic', marginBottom: '2.5rem', textAlign: 'center'}}>Antes dos palcos e das multidões, havia uma porta fechada. Do outro lado, dor. Do lado de cá, uma adolescente com um violão e uma certeza: "Creio que Tu és a cura". Descubra como Julliany Souza aprendeu que o louvor não é apenas música — é arma espiritual que rompe cadeias e gera chamados.</p>
+
+               <h2>📝 Transcrição do Testemunho</h2>
+               <div style={{background: '#f8f9fa', padding: '1.5rem', borderLeft: '4px solid #0066cc', borderRadius: '0 8px 8px 0', marginBottom: '3rem', color: '#444', lineHeight: '1.8', fontSize: '0.95rem'}}>
+                 <p>"Eu passei a viver uma, uma vida de devoção ao Senhor ainda na minha adolescência, e eu comecei a usar o louvor como arma ali na minha casa, para o que eu tava passando na minha família. E eu me lembro que meu pai, ele ficava... eh, ele fazia uso da droga dentro de casa, trancado no quarto, e eu ficava cantando na porta para ele. Eu ficava cantando os louvores porque eu entendia que aquilo ali era uma arma.</p>
+                 <p>E de alguma forma eu entendia que Deus tinha me entregado aquilo, sabe? Que o Senhor tinha me entregue aquilo. Então eu ficava cantando na porta dele: 'Creio que tu és a cura'. E meu chamado, acredito que começou ali. Começou na minha casa, começou com essa fé tão grande que eu tinha, que o meu pai seria alcançado, que meu pai seria tocado por Deus através da minha voz, através daquilo que eu cantava."</p>
+               </div>
+
+               <h2>Testemunhos: Monumentos Vivos da Fidelidade de Deus</h2>
+               <p><em>"Contai entre as nações a sua glória"</em> (<strong>Salmo 96:3</strong>). Os testemunhos não são apenas histórias do passado; eles são monumentos vivos da fidelidade divina. Eles existem para:</p>
+               <ul>
+                 <li><strong>Glorificar a Deus</strong>, não o homem.</li>
+                 <li><strong>Fortalecer a comunidade</strong> na fé.</li>
+                 <li><strong>Validar que o Evangelho</strong> transforma.</li>
+                 <li><strong>Cumprir Atos 1:8:</strong> "Ser-me-eis testemunhas".</li>
+                 <li><strong>Construir legado</strong> para futuras gerações.</li>
+               </ul>
+               <p>Nesta seção, compartilhamos histórias reais de como Deus usa vozes simples, em lugares comuns, para realizar obras extraordinárias.</p>
+
+               <hr style={{border: 'none', borderTop: '1px solid #eee', margin: '3rem 0'}} />
+
+               <div className="quote-box" style={{textAlign: 'center', fontSize: '1.3rem', fontFamily: 'serif', fontStyle: 'italic', margin: '2rem 0'}}>
+                 "Cantai ao SENHOR um cântico novo; cantai ao SENHOR, todas as terras."<br/>— <strong>Salmo 96:1</strong>
+               </div>
+
+               <h2>O Encontro que Mudou Tudo ✨</h2>
+               <p>Como Julliany, ainda adolescente, entendeu que o louvor era mais que música: era linguagem de guerra espiritual e intercessão. Ela descobriu cedo que a adoração move os céus a favor das nossas batalhas terrenas.</p>
+
+               <h2>A Visita Inesperada 🚪 → A Porta Fechada do Quarto</h2>
+               <p>O pai trancado, o uso de drogas, a filha do lado de fora com um violão e uma convicção inabalável: "Deus me entregou isso". Em vez de ceder ao desespero, ela escolheu usar o que tinha nas mãos para lutar por quem amava.</p>
+
+               <h2>A Saudação que Trouxe Paz 🕊️ → Creio que Tu és a Cura</h2>
+               <p>A frase "Creio que tu és a cura" era repetida como profecia, não apenas como um desejo distante. Era a fé que canta antes de ver o milagre acontecer, declarando a verdade sobre a dor.</p>
+
+               <h2>O Poder das Palavras-Chave 🗣️ → O Louvor como Arma</h2>
+               <p>Não era entretenimento, nem performance. Era uma arma espiritual capaz de romper cadeias invisíveis. O louvor tem o poder de mudar a atmosfera e trazer a luz de Deus para as trevas mais densas.</p>
+
+               <h2>Do Sono da Morte para a Vida em Cristo ⚡ → O Chamado que Nasceu em Casa</h2>
+               <p>O ministério não começou no palco; começou no corredor, na porta, na persistência de uma filha que amava seu pai. O verdadeiro chamado de Deus muitas vezes floresce no solo escondido das nossas lutas familiares.</p>
+
+               <h2>A Simplicidade que Transforma 🌿 → Fé que Canta no Escuro</h2>
+               <p>Não precisava de plateia, de microfone de última geração, nem de aplausos. Precisava apenas de obediência e fé verdadeira. E Deus honrou aquela voz que cantava no escuro.</p>
+
+               <h2>Lições para Nossa Vida 📖</h2>
+               <ul>
+                 <li><strong>O louvor é arma</strong> quando nasce da fé, não da performance.</li>
+                 <li><strong>Deus usa lugares comuns</strong> (quartos, portas, corredores) para gerar chamados extraordinários.</li>
+                 <li><strong>Cantar "Creio que Tu és a cura"</strong> antes da cura chegar é um poderoso ato de guerra espiritual.</li>
+                 <li><strong>O chamado muitas vezes começa</strong> intercedendo em secreto por quem amamos.</li>
+                 <li><strong>A persistência na adoração</strong> gera colheita que nem sempre vemos imediatamente, mas que Deus garante no tempo certo.</li>
+               </ul>
+
+               <h2>Reflexão Final 🔒</h2>
+               <p>A história de Julliany é um convite para usarmos o louvor como intercessão dentro de nossas casas. É um chamado para crer antes de ver, entendendo que Deus sempre honra as vozes que escolhem cantar, mesmo diante das portas trancadas.</p>
+
+               <div style={{display: 'flex', flexWrap: 'wrap', gap: '20px', margin: '3rem 0'}}>
+                 <div style={{flex: '1 1 300px', padding: '1.5rem', background: '#f5f5f5', borderRadius: '8px', textAlign: 'center'}}>
+                   <em>"Mas à meia-noite Paulo e Silas oravam e cantavam hinos a Deus, e os outros presos os escutavam."</em><br/><strong>— Atos 16:25</strong>
+                 </div>
+                 <div style={{flex: '1 1 300px', padding: '1.5rem', background: '#f5f5f5', borderRadius: '8px', textAlign: 'center'}}>
+                   <em>"O sacrifício aceitável a Deus é o espírito quebrantado; ao coração quebrantado e contrito não desprezarás, ó Deus."</em><br/><strong>— Salmo 51:17</strong>
+                 </div>
+               </div>
+
+               <hr style={{border: 'none', borderTop: '1px solid #eee', margin: '2rem 0'}} />
+
+               <h2>Oração 🙏</h2>
+               <blockquote style={{fontStyle: 'italic', fontSize: '1.1rem', color: '#555', background: '#fff9f9', padding: '20px', borderRadius: '10px', borderLeft: '4px solid #722F37'}}>
+                 "Senhor Jesus,<br/>
+                 Obrigado porque Tu usas vozes simples para realizar obras extraordinárias.<br/>
+                 Ensina-nos a usar o louvor como arma de intercessão, não como performance.<br/>
+                 Que cantemos 'Creio que Tu és a cura' mesmo quando a cura ainda não chegou.<br/>
+                 Usa nossas casas como altar, nossas famílias como missão, nossas vozes como espada.<br/>
+                 E que, como Julliany, possamos crer: o chamado começa onde estamos, com o que temos.<br/>
+                 Em nome de Jesus, amém."
+               </blockquote>
+
+               <h2>Desafio Prático da Semana 🎯</h2>
+               <div style={{background: '#f0f7ff', padding: '1.5rem', borderRadius: '12px', marginTop: '1.5rem', borderLeft: '4px solid #0066cc'}}>
+                 <ol style={{margin: 0, paddingLeft: '1.5rem'}}>
+                   <li style={{marginBottom: '10px'}}><strong>Escolha uma pessoa da sua família</strong> por quem você quer interceder em louvor esta semana.</li>
+                   <li style={{marginBottom: '10px'}}><strong>Cante ou declare "Creio que Tu és a cura"</strong> sobre uma situação que parece sem solução.</li>
+                   <li style={{marginBottom: '10px'}}><strong>Separe 10 minutos diários</strong> para louvar em casa, mesmo que ninguém esteja ouvindo.</li>
+                   <li style={{marginBottom: '10px'}}><strong>Escreva uma frase profética</strong> baseada em um versículo e declare sobre sua casa.</li>
+                   <li><strong>Compartilhe este testemunho</strong> com alguém que precisa crer que Deus ouve o louvor no quarto fechado.</li>
+                 </ol>
+               </div>
+
+               <hr style={{border: 'none', borderTop: '1px solid #eee', margin: '3rem 0'}} />
+
+               <div className="comments-section" style={{marginTop: '3rem'}}>
+                 <h3>Comentários 💬</h3>
+                 <p style={{color: '#666', marginBottom: '1.5rem'}}>Compartilhe como você já usou o louvor como intercessão em sua casa.</p>
+                 <textarea className="comment-input" placeholder="Escreva o seu comentário aqui..."></textarea>
+                 <button className="btn-cta">Publicar Comentário</button>
+               </div>
+               
+               <div style={{marginTop: '3rem', textAlign: 'center'}}>
+                 <button className="btn-cta" style={{background: '#333'}}>Compartilhar Seu Testemunho</button>
                </div>
 
              </div>
