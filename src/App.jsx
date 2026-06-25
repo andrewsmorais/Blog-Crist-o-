@@ -196,7 +196,7 @@ function App() {
              <div className="article-header">
                <span className="cat-tag">História Bíblica</span>
                <h1>A Sarça Ardente: Quando Deus Encontrou Moisés no Deserto</h1>
-               <div className="article-meta">📖 <strong>Texto Base:</strong> Gálatas 5:1</div>|<div className="article-meta">📖 <strong>Texto Base:</strong> Gálatas 5:1</div>
+               <div className="article-meta">📖 <strong>Texto Base:</strong> Gálatas 5:1</div>
              </div>
              
              <img src="/sarca-ardente.jpg" alt="A Sarça Ardente" className="article-hero-img" loading="lazy" />
@@ -281,7 +281,7 @@ function App() {
              <div className="article-header">
                <span className="cat-tag">Devocional / Teologia</span>
                <h1>Sermão do Monte: As Bem-Aventuranças e a Nova Constituição do Reino</h1>
-               <div className="article-meta">📖 <strong>Texto Base:</strong> Gálatas 5:1</div>|<div className="article-meta">📖 <strong>Texto Base:</strong> Romanos 1:17</div>
+               <div className="article-meta">📖 <strong>Texto Base:</strong> Romanos 1:17</div>
              </div>
              
              <img src="/sermao-do-monte.png" alt="Sermão do Monte" className="article-hero-img" loading="lazy" />
@@ -332,7 +332,7 @@ function App() {
              <div className="article-header">
                <span className="cat-tag">Devocional / Prática Cristã</span>
                <h1>5 Métodos Práticos para Ler a Bíblia Inteira em 2026</h1>
-               <div className="article-meta">📖 <strong>Texto Base:</strong> Gálatas 5:1</div>|<div className="article-meta">📖 <strong>Texto Base:</strong> Filipenses 4:19</div>
+               <div className="article-meta">📖 <strong>Texto Base:</strong> Filipenses 4:19</div>
              </div>
              
              <img src="/bible_reading.png" alt="Leitura Bíblica" className="article-hero-img" loading="lazy" />
@@ -468,7 +468,7 @@ function App() {
                 <a href="/carta-galatas-liberdade-crista-estudo-completo" style={{textDecoration: 'none', color: 'inherit'}}>
                   <img src="/galatas.png" alt="A Carta aos Gálatas e a Liberdade Cristã" className="img-ph" loading="lazy" style={{objectFit: 'cover'}} />
                   <h3 style={{fontSize: '1.1rem', marginBottom: '8px', lineHeight: '1.4'}}>A Carta aos Gálatas e a Liberdade Cristã: O Evangelho da Graça Contra o Legalismo</h3>
-                  <div className="meta">por João Calvino ·<div className="article-meta">📖 <strong>Texto Base:</strong> 1 Samuel 3:10</div>
+                  <div className="meta">📖 <strong>Texto Base:</strong> 1 Samuel 3:10</div>
                 </a>
               </div>
 
@@ -486,7 +486,7 @@ function App() {
                   <img src="/silence_of_god.png" alt="O Silêncio de Deus nas Dificuldades" className="img-ph" loading="lazy" style={{objectFit: 'cover'}} />
                   <h3 style={{fontSize: '1.1rem', marginBottom: '8px', lineHeight: '1.4'}}>O Silêncio de Deus nas Dificuldades: Confiando no Caráter Revelado do Senhor</h3>
                   <p style={{fontSize: '0.9rem', color: '#666', marginTop: '8px'}}>Quando clamamos e parecemos não ouvir resposta, devemos confiar no caráter revelado do Senhor ao invés de nossos sentimentos...</p>
-                  <div className="meta">por Charles Spurgeon ·<div className="article-meta">📖 <strong>Texto Base:</strong> Efésios 2:8</div>
+                  <div className="meta">📖 <strong>Texto Base:</strong> Efésios 2:8</div>
                 </a>
               </div>
             </div>
@@ -567,7 +567,7 @@ function App() {
                 <a href="/paulo-tarso-apostolo-nacoes" style={{textDecoration: 'none', color: 'inherit'}}>
                   <img src="/paulo_de_tarso.png" alt="Paulo de Tarso" className="img-ph" loading="lazy" style={{objectFit: 'cover'}} />
                   <h3 style={{fontSize: '1.1rem', marginBottom: '8px', lineHeight: '1.4'}}>Paulo de Tarso: O Perseguidor Chamado para Ser Apóstolo das Nações</h3>
-                  <div className="meta">📖 <strong>Texto Base:</strong> Vários</div>
+                  <div className="meta">📖 <strong>Texto Base:</strong> Hebreus 11</div>
                 </a>
               </div>
 
@@ -575,7 +575,7 @@ function App() {
                 <a href="/samuel-profeta-voz-deus-trevas-israel" style={{textDecoration: 'none', color: 'inherit'}}>
                   <img src="/samuel_profeta.png" alt="Samuel: O Profeta" className="img-ph" loading="lazy" style={{objectFit: 'cover'}} />
                   <h3 style={{fontSize: '1.1rem', marginBottom: '8px', lineHeight: '1.4'}}>Samuel: O Profeta que Foi a Voz de Deus nas Trevas de Israel</h3>
-                  <div className="meta">📖 <strong>Texto Base:</strong> Vários</div>
+                  <div className="meta">📖 <strong>Texto Base:</strong> Hebreus 11</div>
                 </a>
               </div>
 
@@ -583,7 +583,7 @@ function App() {
                 <a href="/jo-homem-perdeu-tudo-soberania-divina" style={{textDecoration: 'none', color: 'inherit'}}>
                   <img src="/jo_patriarca.png" alt="Jó: O Patriarca" className="img-ph" loading="lazy" style={{objectFit: 'cover'}} />
                   <h3 style={{fontSize: '1.1rem', marginBottom: '8px', lineHeight: '1.4'}}>Jó: O Homem que Perdeu Tudo, Mas Não Perdeu a Deus</h3>
-                  <div className="meta">📖 <strong>Texto Base:</strong> Vários</div>
+                  <div className="meta">📖 <strong>Texto Base:</strong> Hebreus 11</div>
                 </a>
               </div>
 
@@ -594,7 +594,7 @@ function App() {
              <div className="article-header">
                <span className="cat-tag">Personagens Bíblicos</span>
                <h1>Paulo de Tarso: O Perseguidor Chamado para Ser Apóstolo das Nações</h1>
-               <div className="article-meta">📖 <strong>Texto Base:</strong> Ester 4:14</div>|<div className="article-meta">📖 <strong>Texto Base:</strong> Ester 4:14</div>
+               <div className="article-meta">📖 <strong>Texto Base:</strong> Ester 4:14</div>
              </div>
              <img src="/paulo_de_tarso.png" alt="Paulo de Tarso" className="article-hero-img" loading="lazy" />
              <div className="article-body">
@@ -624,7 +624,7 @@ function App() {
              <div className="article-header">
                <span className="cat-tag">Personagens Bíblicos</span>
                <h1>Samuel: O Profeta que Foi a Voz de Deus nas Trevas de Israel</h1>
-               <div className="article-meta">📖 <strong>Texto Base:</strong> Ester 4:14</div>|<div className="article-meta">📖 <strong>Texto Base:</strong> Ester 4:14</div>
+               <div className="article-meta">📖 <strong>Texto Base:</strong> Ester 4:14</div>
              </div>
              <img src="/samuel_profeta.png" alt="Samuel: O Profeta" className="article-hero-img" loading="lazy" />
              <div className="article-body">
@@ -680,7 +680,7 @@ function App() {
              <div className="article-header">
                <span className="cat-tag">Personagens Bíblicos</span>
                <h1>Jó: O Homem que Perdeu Tudo, Mas Não Perdeu a Deus — A Soberania Divina no Meio do Sofrimento</h1>
-               <div className="article-meta">📖 <strong>Texto Base:</strong> Ester 4:14</div>|<div className="article-meta">📖 <strong>Texto Base:</strong> 1 Samuel 1</div>
+               <div className="article-meta">📖 <strong>Texto Base:</strong> 1 Samuel 1</div>
              </div>
              <img src="/jo_patriarca.png" alt="Jó" className="article-hero-img" loading="lazy" />
              <div className="article-body">
@@ -803,7 +803,7 @@ function App() {
                <span className="cat-tag">Testemunhos</span>
                <h1>Deus É Bom — Uma História de Fé e Transformação</h1>
                <h2 style={{fontSize: '1.2rem', fontWeight: 'normal', color: '#555', margin: '15px 0'}}>Como três palavras simples despertaram uma vida do sono da morte para a vida em Cristo</h2>
-               <div className="article-meta">📖 <strong>Texto Base:</strong> Gálatas 5:1</div>|<div className="article-meta">📖 <strong>Texto Base:</strong> 1 Samuel 1</div>
+               <div className="article-meta">📖 <strong>Texto Base:</strong> Hebreus 11</div>
              </div>
              
              <div style={{maxWidth: '900px', margin: '2.5rem auto 3rem'}}>
@@ -933,7 +933,7 @@ function App() {
                <span className="cat-tag">Testemunhos</span>
                <h1>Do Desespero à Esperança: Quando Deus Interrompeu Meu Último Ato</h1>
                <h2 style={{fontSize: '1.2rem', fontWeight: 'normal', color: '#555', margin: '15px 0'}}>Como uma última oração se tornou o início de uma nova vida</h2>
-               <div className="article-meta">📖 <strong>Texto Base:</strong> Gálatas 5:1</div>|<div className="article-meta">📖 <strong>Texto Base:</strong> 1 Samuel 1</div>
+               <div className="article-meta">📖 <strong>Texto Base:</strong> Hebreus 11</div>
              </div>
              
              <div style={{maxWidth: '900px', margin: '2.5rem auto 3rem'}}>
@@ -1043,7 +1043,7 @@ function App() {
                <span className="cat-tag">Testemunhos</span>
                <h1>É Ele: A Canção que Nasceu no Deserto e Ecoou nas Nações</h1>
                <h2 style={{fontSize: '1.2rem', fontWeight: 'normal', color: '#555', margin: '15px 0'}}>Como Paulo Vicente ouviu do Senhor e compôs um hino sobre João Batista que atravessou fronteiras</h2>
-               <div className="article-meta">📖 <strong>Texto Base:</strong> Gálatas 5:1</div>|<div className="article-meta">📖 <strong>Texto Base:</strong> 1 Samuel 1</div>
+               <div className="article-meta">📖 <strong>Texto Base:</strong> Hebreus 11</div>
              </div>
              
              <div style={{maxWidth: '900px', margin: '2.5rem auto 3rem'}}>
@@ -1185,7 +1185,7 @@ function App() {
                <span className="cat-tag">Testemunhos</span>
                <h1>Da Epilepsia à Adoração: Como a Música se Tornou a Voz da Cura de Thamires</h1>
                <h2 style={{fontSize: '1.2rem', fontWeight: 'normal', color: '#555', margin: '15px 0'}}>Uma jornada de dor, revelação e canções que nasceram do encontro entre sofrimento e graça</h2>
-               <div className="article-meta">📖 <strong>Texto Base:</strong> Gálatas 5:1</div>|<div className="article-meta">📖 <strong>Texto Base:</strong> 1 Samuel 1</div>
+               <div className="article-meta">📖 <strong>Texto Base:</strong> Hebreus 11</div>
              </div>
              
              <div style={{maxWidth: '900px', margin: '2.5rem auto 3rem'}}>
@@ -1315,7 +1315,7 @@ function App() {
                <span className="cat-tag">Testemunhos</span>
                <h1>A Voz que Quebrou Correntes: O Chamado de Julliany Souza no Quarto do Pai</h1>
                <h2 style={{fontSize: '1.2rem', fontWeight: 'normal', color: '#555', margin: '15px 0'}}>Como uma adolescente usou o louvor como arma espiritual e viu Deus transformar uma família</h2>
-               <div className="article-meta">📖 <strong>Texto Base:</strong> Gálatas 5:1</div>|<div className="article-meta">📖 <strong>Texto Base:</strong> 1 Samuel 1</div>
+               <div className="article-meta">📖 <strong>Texto Base:</strong> Hebreus 11</div>
                <div className="share-buttons" style={{display: 'flex', gap: '10px', marginTop: '15px', justifyContent: 'center'}}>
                  <button className="share-btn">📘 Facebook</button>
                  <button className="share-btn">📱 WhatsApp</button>
@@ -1449,7 +1449,7 @@ function App() {
              <div className="article-header">
                <span className="cat-tag">Devocional / Louvor e Adoração</span>
                <h1>"Ah Jesus, Coração Igual ao Teu": O Clamor de Julliany Souza e o Que a Bíblia Diz Sobre um Coração Transformado</h1>
-               <div className="article-meta">📖 <strong>Texto Base:</strong> Gálatas 5:1</div>|<div className="article-meta">📖 <strong>Texto Base:</strong> Filipenses 4:19</div>
+               <div className="article-meta">📖 <strong>Texto Base:</strong> Filipenses 4:19</div>
              </div>
              
              <img src="/worship_hero.png" alt="Coração Igual ao Teu - Julliany Souza" className="article-hero-img" loading="lazy" />
@@ -1586,7 +1586,7 @@ function App() {
              <div className="article-header">
                <span className="cat-tag">Devocional / Vida Cristã</span>
                <h1>O Silêncio de Deus nas Dificuldades: Confiando no Caráter Revelado do Senhor</h1>
-               <div className="article-meta">📖 <strong>Texto Base:</strong> Efésios 2:8</div>|<div className="article-meta">📖 <strong>Texto Base:</strong> Efésios 2:8</div>
+               <div className="article-meta">📖 <strong>Texto Base:</strong> Efésios 2:8</div>
              </div>
              
              <img src="/silence_of_god.png" alt="O Silêncio de Deus" className="article-hero-img" loading="lazy" />
@@ -1681,7 +1681,7 @@ function App() {
              <div className="article-header">
                <span className="cat-tag">Teologia</span>
                <h1>A Doutrina da Eleição Incondicional: A Beleza da Graça Soberana em Efésios 1 e Romanos 9</h1>
-               <div className="article-meta">📖 <strong>Texto Base:</strong> Gálatas 5:1</div>|<div className="article-meta">📖 <strong>Texto Base:</strong> Atos 9:15</div>
+               <div className="article-meta">📖 <strong>Texto Base:</strong> Atos 9:15</div>
              </div>
              
              <img src="/eleicao.png" alt="A Doutrina da Eleição Incondicional" className="article-hero-img" loading="lazy" />
@@ -1793,7 +1793,7 @@ function App() {
              <div className="article-header">
                <span className="cat-tag">Estudos Bíblicos</span>
                <h1>A Carta aos Gálatas e a Liberdade Cristã: O Evangelho da Graça Contra o Legalismo</h1>
-               <div className="article-meta">📖 <strong>Texto Base:</strong> Gálatas 5:1</div>|<div className="article-meta">📖 <strong>Texto Base:</strong> 1 Samuel 3:10</div>
+               <div className="article-meta">📖 <strong>Texto Base:</strong> 1 Samuel 3:10</div>
              </div>
              
              <img src="/galatas.png" alt="A Carta aos Gálatas e a Liberdade Cristã" className="article-hero-img" loading="lazy" />
@@ -2187,7 +2187,7 @@ function App() {
                <span className="cat-tag red">Mulheres da Bíblia / Estudos Bíblicos</span>
                <h1>Ana: A Mãe que Orou, Chorou e Gerou um Profeta</h1>
                <p className="article-subtitle" style={{fontSize: '1.2rem', color: '#555', marginTop: '0.5rem'}}>Sua história nos ensina que Deus ouve o clamor dos humildes, que a oração persistente move o céu e que um filho dedicado a Deus pode transformar uma nação.</p>
-               <div className="article-meta">📖 <strong>Texto Base:</strong> Ester 4:14</div>| 22 Jun, 2026</div>
+               <div className="article-meta">📖 <strong>Texto Base:</strong> 1 Samuel 16</div>
              </div>
              
              <img src="/ana_orando.png" alt="Ana Orando no Tabernáculo" className="article-hero-img" loading="lazy" />
@@ -2332,7 +2332,7 @@ function App() {
                <span className="cat-tag red">História Bíblica / Mulheres da Bíblia</span>
                <h1>Ester: A Rainha que Salvou um Povo e o Deus que Age nas Sombras</h1>
                <p className="article-subtitle" style={{fontSize: '1.2rem', color: '#555', marginTop: '0.5rem'}}>Uma jornada que ecoa através dos séculos e nos ensina como Deus age quando tudo parece perdido.</p>
-               <div className="article-meta">📖 <strong>Texto Base:</strong> Ester 4:14</div>| 23 Jun, 2026</div>
+               <div className="article-meta">📖 <strong>Texto Base:</strong> Ester 4:14</div>
              </div>
              
              <img src="/ester_rainha.png" alt="Rainha Ester" className="article-hero-img" loading="lazy" />
@@ -2480,7 +2480,7 @@ function App() {
                <span className="cat-tag red">História Bíblica / Liderança</span>
                <h1>O Pastor que Conquistou um Trono: A Jornada de Davi, do Curral de Belém ao Palácio de Jerusalém</h1>
                <p className="article-subtitle" style={{fontSize: '1.2rem', color: '#555', marginTop: '0.5rem'}}>A história não é um conto de fadas; é um testemunho vivo de como Deus escolhe, prepara e exalta aqueles que confiam nEle em meio à obscuridade.</p>
-               <div className="article-meta">📖 <strong>Texto Base:</strong> Ester 4:14</div>| 23 Jun, 2026</div>
+               <div className="article-meta">📖 <strong>Texto Base:</strong> Ester 4:14</div>
              </div>
              
              <img src="/davi_pastor.png" alt="Davi o Jovem Pastor" className="article-hero-img" loading="lazy" />
@@ -2611,7 +2611,7 @@ function App() {
                <span className="cat-tag red">História Bíblica / Teologia</span>
                <h1>As Cinco Solas e Sua Relevância Hoje: Os Pilares da Reforma que Ainda Transformam Vidas</h1>
                <p className="article-subtitle" style={{fontSize: '1.2rem', color: '#555', marginTop: '0.5rem'}}>Descubra os cinco princípios fundamentais da Reforma Protestante e como eles continuam essenciais para a fé cristã no século XXI</p>
-               <div className="article-meta">📖 <strong>Texto Base:</strong> Gálatas 5:1</div>|<div className="article-meta">📖 <strong>Texto Base:</strong> Jó 42:2</div>
+               <div className="article-meta">📖 <strong>Texto Base:</strong> Jó 42:2</div>
              </div>
              
              <img src="/cinco_solas.png" alt="As Cinco Solas da Reforma" className="article-hero-img" loading="lazy" />
@@ -2724,7 +2724,7 @@ function App() {
                <span className="cat-tag">Devocional / Testemunhos</span>
                <h1>Deus Honrou a Fé Dela: O Milagre do Cachorro que Trouxe Dinheiro na Boca</h1>
                <p className="article-subtitle" style={{fontSize: '1.2rem', color: '#555', marginTop: '0.5rem'}}>Um testemunho poderoso de provisão sobrenatural e o perigo da murmuração nas provas da fé</p>
-               <div className="article-meta">📖 <strong>Texto Base:</strong> Gálatas 5:1</div>|<div className="article-meta">📖 <strong>Texto Base:</strong> Filipenses 4:19</div>
+               <div className="article-meta">📖 <strong>Texto Base:</strong> Filipenses 4:19</div>
              </div>
              
              <img src="/provisao.png" alt="O Milagre do Cachorro que Trouxe Dinheiro na Boca" className="article-hero-img" loading="lazy" />
@@ -2991,7 +2991,7 @@ function App() {
                   <p className="excerpt">
                     Descubra o que a Bíblia diz sobre cada verso do hit 'Ah Jesus, Coração Igual ao Teu' de Julliany Souza. Uma análise teológica profunda dos 7 temas principais da música com versículos, reflexões práticas e aplicação para sua vida cristã.
                   </p>
-                  <div className="meta">por <span>João Calvino</span> ·<div className="article-meta">📖 <strong>Texto Base:</strong> Filipenses 4:19</div>
+                  <div className="meta">📖 <strong>Texto Base:</strong> Filipenses 4:19</div>
                 </a>
               </div>
 
@@ -3034,7 +3034,7 @@ function App() {
                   <a href="/deus-honrou-fe-testemunho-milagres-provisao-divina" style={{textDecoration: 'none', color: 'inherit'}}>
                     <img src="/provisao.png" alt="Deus Honrou a Fé Dela" className="img-ph" loading="lazy" style={{objectFit: 'cover'}} />
                     <h3>Deus Honrou a Fé Dela: O Milagre do Cachorro que Trouxe Dinheiro na Boca</h3>
-                    <div className="meta">por <span>João Calvino</span> ·<div className="article-meta">📖 <strong>Texto Base:</strong> Filipenses 4:19</div>
+                    <div className="meta">📖 <strong>Texto Base:</strong> Filipenses 4:19</div>
                   </a>
                 </div>
                 <div className="grid-4-item">
@@ -3056,7 +3056,7 @@ function App() {
                     <img src="/galatas.png" alt="A Carta aos Gálatas e a Liberdade Cristã" className="img-ph" loading="lazy" style={{objectFit: 'cover'}} />
                     <h3>A Carta aos Gálatas e a Liberdade Cristã: O Evangelho da Graça Contra o Legalismo</h3>
                     <p style={{fontSize: '0.9rem', color: '#666', marginBottom: '0.5rem', marginTop: '0.5rem'}}>Um estudo profundo da epístola de Paulo aos Gálatas, explorando a doutrina da justificação pela fé, a liberdade cristã e os perigos do legalismo. Descubra como o Evangelho da graça nos liberta do jugo da lei.</p>
-                    <div className="meta">por <span>João Calvino</span> ·<div className="article-meta">📖 <strong>Texto Base:</strong> 1 Samuel 3:10</div>
+                    <div className="meta">📖 <strong>Texto Base:</strong> 1 Samuel 3:10</div>
                   </a>
                 </div>
               </div>
@@ -3083,7 +3083,7 @@ function App() {
                     <img src="/silence_of_god.png" alt="O Silêncio de Deus" className="img-ph" loading="lazy" />
                     <h3>O Silêncio de Deus nas Dificuldades: Confiando no Caráter Revelado do Senhor</h3>
                     <p>Quando clamamos e parecemos não ouvir resposta, devemos confiar no caráter revelado do Senhor ao invés de nossos sentimentos...</p>
-                    <div className="meta">por <span>Charles Spurgeon</span> ·<div className="article-meta">📖 <strong>Texto Base:</strong> Efésios 2:8</div>
+                    <div className="meta">📖 <strong>Texto Base:</strong> Efésios 2:8</div>
                   </a>
                 </div>
                 <div className="grid-3-item">
@@ -3091,7 +3091,7 @@ function App() {
                     <img src="/metodos_biblia.png" alt="Leitura Bíblica" className="img-ph" loading="lazy" />
                     <h3>5 Métodos Práticos para Ler a Bíblia Inteira em 2026</h3>
                     <p>Descubra 5 métodos práticos e testados para ler a Bíblia inteira em 2026, mesmo com rotina corrida. Técnicas flexíveis, aplicativos recomendados e o segredo da constância.</p>
-                    <div className="meta">por <span>João Calvino</span> ·<div className="article-meta">📖 <strong>Texto Base:</strong> Filipenses 4:19</div>
+                    <div className="meta">📖 <strong>Texto Base:</strong> Filipenses 4:19</div>
                   </a>
                 </div>
               </div>
