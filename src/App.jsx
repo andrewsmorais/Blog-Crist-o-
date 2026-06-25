@@ -1144,8 +1144,6 @@ function App() {
 
              </div>
 
-             </div>
-
            </main>
         ) : isAhJesus ? (
           <main className="article-content section-mb">
