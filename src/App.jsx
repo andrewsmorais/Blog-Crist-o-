@@ -1010,12 +1010,6 @@ function App() {
                <h1>É Ele: A Canção que Nasceu no Deserto e Ecoou nas Nações</h1>
                <h2 style={{fontSize: '1.2rem', fontWeight: 'normal', color: '#555', margin: '15px 0'}}>Como Paulo Vicente ouviu do Senhor e compôs um hino sobre João Batista que atravessou fronteiras</h2>
                <div className="article-meta">Por <strong>João Calvino</strong> | 25 Jun, 2026</div>
-               <div className="share-buttons" style={{display: 'flex', gap: '10px', marginTop: '15px', justifyContent: 'center'}}>
-                 <button className="share-btn">📘 Facebook</button>
-                 <button className="share-btn">📱 WhatsApp</button>
-                 <button className="share-btn">🐦 Twitter</button>
-                 <button className="share-btn">📸 Instagram</button>
-               </div>
              </div>
              
              <div style={{maxWidth: '900px', margin: '2.5rem auto 3rem'}}>
@@ -1148,18 +1142,7 @@ function App() {
                  </ol>
                </div>
 
-               <hr style={{border: 'none', borderTop: '1px solid #eee', margin: '3rem 0'}} />
-
-               <div className="comments-section" style={{marginTop: '3rem'}}>
-                 <h3>Comentários 💬</h3>
-                 <p style={{color: '#666', marginBottom: '1.5rem'}}>Compartilhe como Deus tem falado com você através de canções inspiradas na Palavra.</p>
-                 <textarea className="comment-input" placeholder="Escreva o seu comentário aqui..."></textarea>
-                 <button className="btn-cta">Publicar Comentário</button>
-               </div>
-               
-               <div style={{marginTop: '3rem', textAlign: 'center'}}>
-                 <button className="btn-cta" style={{background: '#333'}}>Compartilhar Seu Testemunho</button>
-               </div>
+             </div>
 
              </div>
 
