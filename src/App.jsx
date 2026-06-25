@@ -869,17 +869,6 @@ function App() {
 
              </div>
 
-             <div className="comments-section">
-               <h3>Comentários e Testemunhos 💬</h3>
-               <p style={{color: '#666', marginBottom: '1.5rem'}}>Deixe aqui o seu testemunho! O que Deus tem feito na sua vida?</p>
-               <textarea className="comment-input" placeholder="Escreva o seu testemunho ou comentário aqui..."></textarea>
-               <button className="btn-cta">Publicar Comentário</button>
-             </div>
-             
-             <div style={{marginTop: '3rem', textAlign: 'center'}}>
-               <button className="btn-cta" style={{background: '#333'}}>Compartilhar Seu Testemunho</button>
-             </div>
-
           </main>
         ) : isAhJesus ? (
           <main className="article-content section-mb">
