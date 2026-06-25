@@ -23,6 +23,7 @@ function App() {
   const isTestemunhos = path === '/testemunhos';
   const isTestemunhoDeusEBom = path === '/testemunho-deus-e-bom-historia-fe-transformacao';
   const isTestemunhoDesespero = path === '/testemunho-desespero-esperanca';
+  const isTestemunhoEEle = path === '/testemunho-e-ele-cancao-nasceu-deserto-paulo-vicente';
   const isAna = path === '/ana-mae-orou-chorou-gerou-profeta-samuel';
   const isDavi = path === '/pastor-conquistou-trono-jornada-davi-belem-jerusalem';
   const isEster = path === '/ester-rainha-salvou-povo-deus-age-sombras';
@@ -749,6 +750,17 @@ function App() {
                 </a>
               </div>
 
+              <div className="grid-3-item">
+                <a href="/testemunho-e-ele-cancao-nasceu-deserto-paulo-vicente" style={{textDecoration: 'none', color: 'inherit'}}>
+                  <img src="/e_ele_vicente.png" alt="É Ele: A Canção que Nasceu no Deserto" className="img-ph" loading="lazy" style={{objectFit: 'cover'}} />
+                  <span className="cat-tag" style={{display: 'inline-block', marginBottom: '8px', marginTop: '12px'}}>TESTEMUNHOS</span>
+                  <h3 style={{fontSize: '1.1rem', marginBottom: '8px', lineHeight: '1.4'}}>É Ele: A Canção que Nasceu no Deserto e Ecoou nas Nações</h3>
+                  <p style={{fontSize: '0.9rem', color: '#666', marginTop: '8px', marginBottom: '12px'}}>Como Paulo Vicente ouviu do Senhor e compôs um hino sobre João Batista que atravessou fronteiras.</p>
+                  <div className="meta">por <strong>João Calvino</strong> · 25 Jun, 2026</div>
+                  <div style={{marginTop: '15px'}}><span className="btn-cta" style={{padding: '8px 16px', fontSize: '0.85rem'}}>LER MAIS</span></div>
+                </a>
+              </div>
+
             </div>
           </main>
         ) : isTestemunhoDeusEBom ? (
@@ -991,6 +1003,167 @@ function App() {
              </div>
 
           </main>
+        ) : isTestemunhoEEle ? (
+          <main className="article-content section-mb">
+             <div className="article-header">
+               <span className="cat-tag">Testemunhos</span>
+               <h1>É Ele: A Canção que Nasceu no Deserto e Ecoou nas Nações</h1>
+               <h2 style={{fontSize: '1.2rem', fontWeight: 'normal', color: '#555', margin: '15px 0'}}>Como Paulo Vicente ouviu do Senhor e compôs um hino sobre João Batista que atravessou fronteiras</h2>
+               <div className="article-meta">Por <strong>João Calvino</strong> | 25 Jun, 2026</div>
+               <div className="share-buttons" style={{display: 'flex', gap: '10px', marginTop: '15px', justifyContent: 'center'}}>
+                 <button className="share-btn">📘 Facebook</button>
+                 <button className="share-btn">📱 WhatsApp</button>
+                 <button className="share-btn">🐦 Twitter</button>
+                 <button className="share-btn">📸 Instagram</button>
+               </div>
+             </div>
+             
+             <div style={{maxWidth: '900px', margin: '2.5rem auto 3rem'}}>
+               <div style={{position: 'relative', width: '100%', paddingBottom: '56.25%', borderRadius: '12px', overflow: 'hidden', boxShadow: '0 15px 50px rgba(0,0,0,0.2)'}}>
+                 <iframe 
+                   src="https://www.youtube.com/embed/OG0N3B0BtX8" 
+                   title="É Ele: A Canção que Nasceu no Deserto"
+                   style={{position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', border: 'none'}}
+                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                   allowFullScreen>
+                 </iframe>
+               </div>
+               <div style={{background: '#f8f9fa', padding: '15px', borderRadius: '0 0 12px 12px', textAlign: 'center'}}>
+                 🎥 <a href="http://www.youtube.com/watch?v=OG0N3B0BtX8" target="_blank" rel="noreferrer" style={{color: '#333', textDecoration: 'none', fontWeight: 'bold'}}>Assista ao podcast completo no vídeo acima</a>
+               </div>
+             </div>
+             
+             <div className="article-body">
+               <p style={{fontSize: '1.1rem', color: '#555', fontStyle: 'italic', marginBottom: '2.5rem', textAlign: 'center'}}>Às vezes, Deus não sopra uma canção para o palco, mas para o deserto. Descubra como um refrão ouvido no chuveiro se tornou um hino sobre João Batista que ecoou de Londrina à Argentina, chamando a igreja a viver não para si, mas para Aquele que é digno.</p>
+
+               <h2>📝 Transcrição do Testemunho</h2>
+               <div style={{background: '#f8f9fa', padding: '1.5rem', borderLeft: '4px solid #0066cc', borderRadius: '0 8px 8px 0', marginBottom: '3rem', color: '#444', lineHeight: '1.8'}}>
+                 <p><strong>Entrevistador:</strong> "É mano, cara... deixa eu vou começar de trás para frente e eu queria até que você respondesse uma pergunta né, que você já respondeu em outros lugares, mas só pra gente registrar aqui também para essa galera que ouve de forma específica aqui. Eh, como é que surgiu a canção 'É Ele', né? Eh, de tempos em tempos a gente vê o Senhor soprando né uma canção, uma mensagem, e nesse tempo tem sido uma delas, tem sido essa mensagem né, e 'É Ele'. E eu vi você até falando dela naquele podcast com o Pedro, mas eu queria que você falasse mais uma vez aqui, como é que essa canção surgiu assim, o que que ela significa."</p>
+                 <p><strong>Paulo Vicente:</strong> "Irado, mano. Eh, essa canção na verdade ela surge dentro de um contexto, mas a mensagem dela, que é o que é mais importante, começou a ganhar o meu coração e o coração da minha família, eu, Rebeca e as crianças há mais ou menos uns dois anos atrás. O Senhor começou... eh, eu não sei se você tem isso mano, mas comigo às vezes parece que Deus começa a me dar cliques assim de mensagens de homens das escrituras. Às vezes trechos que eu li e conheço há muito tempo parece que Deus começa a chamar mais a minha atenção para aquela coisa específica e aquilo vai ganhando proporção. É para mim é meio monotemático assim, é tipo, parece que para onde eu olho, onde eu caio em música, mensagem, livro, parece que Ele tá falando a mesma coisa."</p>
+                 <p><strong>Entrevistador:</strong> "Isso mano, entendi."</p>
+                 <p><strong>Paulo Vicente:</strong> "Há dois anos atrás começou isso. Deus começou a chamar minha atenção pra vida de João Batista. E aí eu começo a então a ler, mas sem muita pretensão, entendendo que Deus estava me direcionando para me ensinar alguma coisa e eu começo a visitar também eh, algumas mensagens de amigos que eu sabia que tava apontando para isso há muito tempo. Então por exemplo, Vittor Vieira. Uhum. É, e a galera que eu sei que vira e mexe batia nesse ponto, começo a me alimentar disso. Dito e feito, eu encontro com o Vittor lá em Londrina numa conferência e ele põe um livro na minha mão, que é o 'O Escolhido Para o Deserto' do Whitefield. Aí... aí eu falo que a minha vida estragou, é porque daí esse livro é muito pontual em relação a essa mensagem da vida de João. Eh, e aí eu começo a entrar numa estação de fato assim, muito, não vou dizer árida, mas literalmente o Senhor me coloca no deserto e o Senhor me diz: 'Você vai começar a entender um pouco que tem algumas coisas do reino que não se tratam de... não são mensagens que são pontuais no sentido de: ah beleza, vamos falar disso e depois vai ter uma outra questão'. O Senhor começa a me dizer: 'Essa aqui vai ser a mensagem da sua vida'."</p>
+                 <p><strong>Entrevistador:</strong> "E mensagem pra vida inteira, é isso. E, e só assim abrindo um parêntese aí. Eh, fala um pouco da mensagem desse livro porque, eh, pelo que eu me lembre, eu não li, mas me relataram, eh, ele coloca deserto de uma outra forma do que a gente usa né? Pô o cara tá desempregado, 'pô tô num deserto', o cara tá, não consegue uma namorada, 'pô tô num deserto' né? Mas não era isso deserto para João Batista né?"</p>
+                 <p><strong>Paulo Vicente:</strong> "Exato Douglas. Quando o Senhor começa a chamar minha atenção ele começa a falar sobre um estilo de vida. Hum. Então, o que o Whitefield ele fala sobre a vida de João, eh, ele coloca esse panorama de que João teve a oportunidade de viver uma série de outras coisas. Então, ele era filho de Zacarias, um homem que tinha um lugar importante na sociedade judaica, um sacerdote no templo, eh, um cara que usava uma roupa específica. Então as pessoas olhavam, eles sabiam quem ele era, ele tinha uma notoriedade. Então João ele vem num contexto de casa aonde tudo indicaria que ele assumiria o lugar do pai, ele serviria ao Senhor num contexto ali em Jerusalém, enfim, ele teria uma posição diante da sociedade, tudo isso. E o Whitefield ele fala que João ele escolheu o deserto."</p>
+                 <p><strong>Entrevistador:</strong> "Ok. Isso é o tema, palavra é forte."</p>
+                 <p><strong>Paulo Vicente:</strong> "Ele abraçou podendo viver em Jerusalém. Ele olha para um lugar seco, árido, ele diz: 'Eu vou levantar minha mensagem ali, eu vou viver a minha vida ali'. Então quando a gente olha pra vida de João, ele teve uma parcela aí de talvez, não sei, 30 anos aproximadamente de vida de deserto e ele sai do deserto, ele tem talvez aí meses, digamos, de vida pública, é. E aí quando Cristo é revelado, Whitefield vai falar isso, que quando a ascensão de Cristo, quando Cristo se torna público e João olha e diz: 'É Ele, Ele é o cordeiro de Deus, é por esse cara que eu tô vivendo', quando Jesus é revelado o ministério de João termina. É. E aí cara que é a parada, ele vai trazer esse enfoque sobre o Senhor desejar levantar amigos do noivo, um tipo de gente que não está preocupado em levantar o próprio ministério, é, em construir o próprio nome. É, quando Deus faz o convite para Israel lá com Moisés e diz: 'Moisés liberta esse povo e leva eles pro deserto', em Êxodo, Deus diz: 'Eu quero celebrar uma festa com eles'. Então o deserto nunca foi um lugar de, sabe, de prova no sentido de você vai passar por ele, você vai sair mais forte, privação e tal, não. O propósito de Deus no deserto é levar o homem a um lugar onde não existem distrações e Ele é o centro da atenção."</p>
+                 <p><strong>Entrevistador:</strong> "Entendi."</p>
+                 <p><strong>Paulo Vicente:</strong> "O Senhor quer levantar um tipo de gente que não tem olhos para outras coisas e aí João vai para esse lugar e ele é batizado por essa mensagem que dizia: 'Enquanto o filho de Deus não estiver aqui nada está bem'. Enquanto Ele não estiver, e é maluco porque, eh, é um estilo de vida intencional, percebe? Ele escolhe intencionalmente ir para uma geografia, para um lugar árido aonde ele não ia ter uma estrutura, ele não teria, eh cara, mecanismos, eh, coisas que... obrigado, coisas que, eh, sabe de alguma forma seria uma plataforma e até uma muleta né, assim, não deu eu me agarro aqui né?"</p>
+                 <p><strong>Entrevistador:</strong> "Um apoio, aham."</p>
+                 <p><strong>Paulo Vicente:</strong> "É um lugar árido. Bem, quem quisesse ouvir a mensagem de João iria para um lugar, mano, ia ter isso. A roupa dele não, não agradava o estilo, nada né. E o Whitefield ele fala isso, ele diz: 'João intencionalmente, podendo usar uma roupa de um sacerdote, ele veste uma roupa estranha que gerava um incômodo físico nele'. É como se ele tivesse lembrando o próprio corpo: 'Eu não sou digno de viver bem enquanto o meu Senhor não estiver aqui. Eu não tenho direito de caminhar em um conforto fazendo da mensagem eh, um trampolim para a minha vida melhorar'. Enquanto o filho de Deus não foi revelado, ele comia uma comida estranha porque trazia para ele esse senso de propósito: 'Eu estou gastando a minha vida por um homem e eu também não vou comer qualquer coisa. Eu preciso me lembrar: só vai ficar bem quando Cristo for revelado'."</p>
+                 <p><strong>Paulo Vicente:</strong> "E eu tô passado esse, esse um ano e pouco quase dois anos... a gente lá em Londrina tem o SDA, que é a semana de avivamento. E aí eu tava ali junto, a gente faz três noites de encontros, um culto assim com um time ministrando adoração, outro pastor pregando e tudo mais, e ia ter um encerramento desses três dias da nossa igreja. E era um sábado, eu tava em casa e eu tava orando pela noite assim, eu tava ali num grupo com outros irmãos ministros de louvor e o pessoal tava mandando ali os set list deles, o que cada um ia ministrar. E eu tava ali dizendo: 'Jesus, o que que o Senhor quer ouvir nessa noite? Poxa é uma oportunidade tão preciosa da tua igreja te exaltar aqui em Londrina, são tantos irmãos de tantos lugares diferentes. Jesus, como que a gente te agrada nessa noite?'"</p>
+                 <p><strong>Paulo Vicente:</strong> "E cara, eu lembro que eu entrei no banho e eu comecei a tomar banho, eu tava orando em línguas assim e, né, com meu espírito inclinado pro Senhor e eu escutei esse refrão. E eu escutei, mano: 'É ele, por ele que eu estou gastando a minha vida, perdendo tudo'. E aí eu ouvi isso. Eu ouvi isso, eu comecei a chorar porque eu sei quando é Ele. Hum, é. Eu sei, eu não tenho a capacidade, não mano, eu não tenho a capacidade de escrever isso. Eu não tenho, eu não tenho um curso mano, eu não tenho uma especialização em composição, eu não tenho capacidade."</p>
+                 <p><strong>Paulo Vicente:</strong> "Mas esse dia quando eu entrei nesse banho, a mensagem também me lavou. O Senhor disse: 'Eu estou lavando a sua vida e eu estou te banhando com uma mensagem'. E eu fiquei ali chorando e cantando isso. Eu saio do banho, eu gravo no telefone para não perder e amém, mano. Fui pro culto à noite. E, e durante o dia eu tava falando com a minha esposa, com a Beca, dizendo: 'Amor, eu não sei o que é pra gente cantar, eu sinto que tem algo mais pontual que o Senhor quer ouvir da igreja nessa noite'. E repartindo com ela essa santa angústia. Eu sei que começou o culto, foi chegando o momento de eu ministrar a minha parte, eu era um ali junto com os irmãos dividindo a liderança da adoração e eu lembro que quando foi chegando a minha hora de ministrar mano, esse refrão subiu na minha garganta assim, e eu perdi a paz no sentido de..."</p>
+                 <p><strong>Entrevistador:</strong> "Uhum."</p>
+                 <p><strong>Paulo Vicente:</strong> "...eu falei: vou ter que liberar. É, só que mano, não era minha igreja local, não era o povo que a gente serve junto, era para testar né, e no sentido assim: 'Mano, beleza, vamos lá'. É uma mensagem mano, que tem a ver, precisa estar num contexto às vezes. Então era esse temor assim de falar: 'Meu, eu tenho irmãos da Assembleia, eu tenho irmãos da Batista, da Presbiteriana, Jesus, é a tua igreja, como é que eu vou tocar? E outra, ninguém tá cantando, ninguém tá liberando espontâneo aqui, Deus, tá todo mundo... porque há um propósito de unidade né. Então quanto mais a igreja cantasse junto faria mais sentido e tal'. É mano, e posso ser sincero, essa parada também de eu liberar alguma coisa, as pessoas saírem dali dizendo: 'Cara, você cantou um negócio', entendi, ninguém aparecer né? Exato, mano. E eu fui entrando nessa angústia e eu peguei meu telefone e mandei pra Beca, falei: 'O Senhor tá me incomodando com aquele refrão'. E a Beca falou: 'Então vai, libera, se Ele tá te incomodando é para você falar, nós estamos com você'."</p>
+                 <p><strong>Paulo Vicente:</strong> "E aí mano, chegou a hora e eu liberei. E foi muito pontual assim, porque às vezes quando a gente tem alguns ajuntamentos assim de irmãos é bem comum, um ou outro queria um lugar um pouco mais... desde os, desde Caim e Abel né? Desde a antiguidade. E então foi uma mensagem que veio bem na contramão da noite inclusive, entendi. E aí cara, beleza, eu saio dessa reunião, mas esse refrão começa a correr. E aí na nossa igreja local, eh, vira e mexe nos cultos ele aparece, a gente canta ele e, e o Senhor começa a pontuar: 'Eu quero, eu quero liberar mais sobre isso, eu quero falar'. É aí mano, aí eu sentei, abri a palavra e falei: 'Espírito Santo, você sabe fazer isso muito melhor que eu'. E aí Douglas, mano, a canção toda é a palavra escrita mano, é Isaías 40, é... não tem mano assim, eu não consigo te dizer, se eu conseguir poetizar ou romantizar alguma coisa na minha leitura é a palavra muito crua."</p>
+                 <p><strong>Paulo Vicente:</strong> "Então 'estou preparando um caminho, endireitando as veredas', é a mensagem de João. 'Voz que clama no deserto, prepara um caminho', enfim. Aí foi o tempo de sentar, abrir a palavra e daí ser intencional nesse sentido de dizer: 'Bom beleza, a gente tem um norte e a gente precisa entender o que que Jesus quer enxertar aqui'. Aí eu termino de escrever e a gente também coloca aquele apontamento profético de Isaías que é da ponte: 'E Ele virá soberano em poder, o governo está nEle'. E aqui é um ponto muito importante porque tem alguns lugares que eu vejo os irmãos cantando isso, e quando a gente fala: 'Vejam, Ele traz consigo a Sua recompensa', não tá falando sobre uma recompensa que o Senhor tá trazendo para nós. Isaías tá fazendo aquele apontamento escatológico que diz que o Senhor virá trazendo consigo todo o povo, raça, tribo, língua e nação dele. Sim. É o cordeiro sendo dignificado mano, então eu lamento te dizer mas você, você entendeu errado você... pronto, ajuda a gente cara, põe lá no seu quadro isso, canal, porque me dá um frio na espinha quando eu vejo a galera adaptando a mensagem. Não, o Senhor não vai trazer uma recompensa para nós, o cordeiro Ele é digno da recompensa, a recompensa é dele."</p>
+                 <p><strong>Paulo Vicente:</strong> "É, então enfim, aí voltando à pergunta foi esse trabalho cara, de sentar, organizar a letra, legal, fechar isso. E aí é, é aquela parada assim mano, de você olhar e falar: 'Jesus, é teu, faz o que o Senhor quiser'."</p>
+                 <p><strong>Entrevistador:</strong> "E você tinha noção que aconteceria isso mano?"</p>
+                 <p><strong>Paulo Vicente:</strong> "Noção não, porque assim, eu, eu tava na Argentina, entendeu? E os caras tavam cantando lá em espanhol entendeu? Eh, então assim: 'Ah, é difícil falar mano que eu tinha noção'."</p>
+                 <p><strong>Entrevistador:</strong> "Mas assim, você sabia que era algo especial do Senhor ali? Porque você já tinha... porque eh, para quem não conhecia o Paulinho Drops, eh, pode achar que vocês surgiram esse mês né? Vocês estão há anos servindo ao Senhor e tal. Eh, e vocês já tinham feito, compuseram várias canções, liberaram várias canções e várias que já até já, a gente eh eh já estava cantando e tal. Mas você, quando você, você tipo assim, você viu: 'Cara, Senhor tem algo especial nessa daqui'?"</p>
+                 <p><strong>Paulo Vicente:</strong> "Eu tinha uma impressão no meu espírito de que era uma mensagem pontual, hum. Eh, mas eu não tinha noção assim, naturalmente falando, que o Senhor sopraria como Ele tá soprando. Soprando porque tem um outro ponto também mano, quando eu, eu lembro que quando a gente terminou a letra e eu escrevi, eu tinha um, eu tinha meio que um nicho assim no meu coração de irmãos que eu dizia: 'Jesus isso aqui é a porção desses caras'. Uhum. Que assim mano, abrindo meu coração com você aqui, homens como por exemplo Maion, que eu fui a saúde, Maion Barroco. Aham. Homens que estão gastando a sua vida. Hum. Que dizia para mim no almoço hoje, que começou plantando uma igreja numa cidade de Isa 6.000 mesos... você que não viu tem no podcast que eles contando como eles foram pro sertão começar a plantar a igreja. Eu pensei muito. É, eu pensei muito cara, em gente que tá de fato mano uhum, perdendo as coisas literalmente, que não tá construindo um império com o ministério socorro. Então eu pensei em irmãos da nossa igreja mano, gente que, que gasta recurso, que, e que ama o reino e que não tá segurando as coisas para si, que não está. Então eu lembro que quando eu, eu tô com a letra na mão eu falo: 'Jesus, é isso, posiciona isso no coração dos missionários da sala de oração. Sim, entendi. Saca? Gente que saiu da sua terra, que deixou o seu lugar'."</p>
+                 <p><strong>Paulo Vicente:</strong> "Então tem alguns lugares mano, que quando eu vejo a galera cantando me traz esse senso assim de, por exemplo, fhop. Uhum. Eu conheço muitos missionários ali. Sim. Gente que saiu da sua terra... aqui você tem gente assim mano. Sim. Vários, lá em Londrina temos vários irmãos assim. Então no meu coração eu tinha essa galera."</p>
+               </div>
+
+               <h2>Testemunhos: Monumentos Vivos da Fidelidade de Deus</h2>
+               <p><em>"Contai entre as nações a sua glória"</em> (<strong>Salmo 96:3</strong>). Os testemunhos não são apenas histórias do passado; eles são monumentos vivos da fidelidade divina. Eles existem para:</p>
+               <ul>
+                 <li><strong>Glorificar a Deus</strong>, não o homem.</li>
+                 <li><strong>Fortalecer a comunidade</strong> na fé.</li>
+                 <li><strong>Validar que o Evangelho</strong> transforma.</li>
+                 <li><strong>Cumprir Atos 1:8:</strong> "Ser-me-eis testemunhas".</li>
+                 <li><strong>Construir legado</strong> para futuras gerações.</li>
+               </ul>
+               <p>Nesta seção, compartilhamos histórias reais de como Deus sopra canções, direciona corações e usa pessoas simples para ecoar Sua verdade.</p>
+
+               <hr style={{border: 'none', borderTop: '1px solid #eee', margin: '3rem 0'}} />
+
+               <div className="quote-box" style={{textAlign: 'center', fontSize: '1.3rem', fontFamily: 'serif', fontStyle: 'italic', margin: '2rem 0'}}>
+                 "Voz do que clama no deserto: Preparai o caminho do SENHOR; endireitai no ermo vereda a nosso Deus."<br/>— <strong>Isaías 40:3</strong>
+               </div>
+
+               <h2>O Encontro que Mudou Tudo ✨</h2>
+               <p>Como Deus começou a "dar cliques" nas Escrituras para Paulo, direcionando-o para João Batista. Quando o Senhor quer levantar uma mensagem, Ele prepara o coração do mensageiro, fazendo-o olhar repetidas vezes para a mesma porção da Palavra.</p>
+
+               <h2>A Visita Inesperada 🚪 → O Livro que Mudou Tudo</h2>
+               <p>O encontro com Vittor Vieira e o livro "O Escolhido Para o Deserto" de Whitefield foram fundamentais. O livro apontou diretamente para a mensagem da vida de João Batista, marcando uma nova estação na jornada de Paulo.</p>
+
+               <h2>A Saudação que Trouxe Paz 🕊️ → O Deserto que Escolheu João</h2>
+               <p>João poderia ter vivido em Jerusalém, assumindo o papel de seu pai como sacerdote, com roupas e comidas confortáveis. Em vez disso, ele escolheu o deserto intencionalmente, abraçando um estilo de vida que chamava a atenção exclusivamente para o Cordeiro de Deus.</p>
+
+               <h2>O Poder das Palavras-Chave 🗣️ → É Ele: O Refrão que Nasceu no Banho</h2>
+               <p>O momento sobrenatural no chuveiro: "É ele, por ele que eu estou gastando a minha vida, perdendo tudo". Foi uma canção que não nasceu da técnica de composição, mas de uma mensagem soprando diretamente do coração de Deus.</p>
+
+               <h2>Do Sono da Morte para a Vida em Cristo ⚡ → Da Angústia à Liberação</h2>
+               <p>O temor de liberar algo novo em um ambiente de unidade, o apoio incondicional de Rebeca e a coragem de obedecer. Quando Deus incomoda com uma mensagem, a liberação traz alívio e inicia o fluir daquilo que Ele deseja fazer.</p>
+
+               <h2>A Simplicidade que Transforma 🌿 → A Canção é a Palavra</h2>
+               <p>A canção inteira é Isaías 40 escrito de forma crua, sem romantização. A mensagem é Cristo, não nós. Ele é o foco, Ele é o Cordeiro digno, e a Sua recompensa é Ele mesmo recebendo as nações por herança.</p>
+
+               <h2>Lições para Nossa Vida 📖</h2>
+               <ul>
+                 <li><strong>Deus sopra canções no silêncio</strong>, não no palco.</li>
+                 <li><strong>O deserto não é punição</strong>; é foco em Deus, livre de distrações.</li>
+                 <li><strong>Viver para Cristo</strong> significa "perder tudo" intencionalmente por Ele.</li>
+                 <li><strong>A recompensa é dEle</strong>, não nossa. Não devemos adaptar as Escrituras para nos satisfazer.</li>
+                 <li><strong>Obedecer mesmo com medo</strong> gera frutos inesperados que ecoam nas nações.</li>
+               </ul>
+
+               <h2>Reflexão Final 🔒</h2>
+               <p>O chamado de João Batista não foi apenas para ele; é um convite para a Igreja de hoje. O Senhor procura "amigos do noivo" que não estejam preocupados em construir seus próprios impérios ou nomes, mas que vivam para dizer ao mundo: "É Ele". Que nossa vida seja gasta por essa causa.</p>
+
+               <div style={{display: 'flex', flexWrap: 'wrap', gap: '20px', margin: '3rem 0'}}>
+                 <div style={{flex: '1 1 300px', padding: '1.5rem', background: '#f5f5f5', borderRadius: '8px', textAlign: 'center'}}>
+                   <em>"Convém que ele cresça e que eu diminua."</em><br/><strong>— João 3:30</strong>
+                 </div>
+                 <div style={{flex: '1 1 300px', padding: '1.5rem', background: '#f5f5f5', borderRadius: '8px', textAlign: 'center'}}>
+                   <em>"E Ele virá soberano em poder; o governo está sobre os seus ombros."</em><br/><strong>— Isaías 9:6</strong> (paráfrase)
+                 </div>
+               </div>
+
+               <hr style={{border: 'none', borderTop: '1px solid #eee', margin: '2rem 0'}} />
+
+               <h2>Oração 🙏</h2>
+               <blockquote style={{fontStyle: 'italic', fontSize: '1.1rem', color: '#555', background: '#fff9f9', padding: '20px', borderRadius: '10px', borderLeft: '4px solid #722F37'}}>
+                 "Senhor Jesus,<br/>
+                 Obrigado porque Tu és digno de toda recompensa.<br/>
+                 Ensina-nos a escolher o deserto quando Tu nos chamas.<br/>
+                 Que não busquemos plataforma, mas Tua presença.<br/>
+                 Que não construamos nosso nome, mas proclamemos o Teu.<br/>
+                 Sopra em nós canções que nasçam da Palavra.<br/>
+                 Usa-nos como amigos do Noivo, que se alegram com a Tua revelação.<br/>
+                 Quando a angústia vier, dá-nos coragem para liberar o que Tu sopraste.<br/>
+                 E que, como João, possamos dizer com alegria: 'É Ele'.<br/>
+                 Em nome de Jesus, amém."
+               </blockquote>
+
+               <h2>Desafio Prático da Semana 🎯</h2>
+               <div style={{background: '#f0f7ff', padding: '1.5rem', borderRadius: '12px', marginTop: '1.5rem', borderLeft: '4px solid #0066cc'}}>
+                 <ol style={{margin: 0, paddingLeft: '1.5rem'}}>
+                   <li style={{marginBottom: '10px'}}><strong>Leia Isaías 40 e João 1–3</strong>, meditando na vida de João Batista.</li>
+                   <li style={{marginBottom: '10px'}}><strong>Pergunte ao Senhor:</strong> "Há algo que Tu queres que eu 'perca' para que Cristo seja exaltado?"</li>
+                   <li style={{marginBottom: '10px'}}><strong>Ouça a canção "É Ele"</strong> em adoração pessoal, cantando junto.</li>
+                   <li style={{marginBottom: '10px'}}><strong>Compartilhe este testemunho</strong> com um irmão que precisa de foco em Cristo.</li>
+                   <li><strong>Esta semana</strong>, em vez de buscar reconhecimento, ore: "Senhor, que eu diminua para que Tu cresças".</li>
+                 </ol>
+               </div>
+
+               <hr style={{border: 'none', borderTop: '1px solid #eee', margin: '3rem 0'}} />
+
+               <div className="comments-section" style={{marginTop: '3rem'}}>
+                 <h3>Comentários 💬</h3>
+                 <p style={{color: '#666', marginBottom: '1.5rem'}}>Compartilhe como Deus tem falado com você através de canções inspiradas na Palavra.</p>
+                 <textarea className="comment-input" placeholder="Escreva o seu comentário aqui..."></textarea>
+                 <button className="btn-cta">Publicar Comentário</button>
+               </div>
+               
+               <div style={{marginTop: '3rem', textAlign: 'center'}}>
+                 <button className="btn-cta" style={{background: '#333'}}>Compartilhar Seu Testemunho</button>
+               </div>
+
+             </div>
+
+           </main>
         ) : isAhJesus ? (
           <main className="article-content section-mb">
              <div className="article-header">
