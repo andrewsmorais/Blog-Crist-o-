@@ -756,43 +756,121 @@ function App() {
              <img src="/deus_e_bom.png" alt="Uma luz brilhando num quarto escuro" className="article-hero-img" loading="lazy" />
              
              <div className="article-body">
-               <p>Um domingo à tarde, uma visita inesperada e três palavras que quebraram correntes: <strong>"Deus é bom"</strong>. Descubra como um encontro simples se tornou um marco de libertação e despertar espiritual.</p>
+               <p style={{fontSize: '1.1rem', color: '#555', fontStyle: 'italic', marginBottom: '2.5rem'}}>Um domingo à tarde, uma visita inesperada e três palavras que quebraram correntes: 'Deus é bom'. Descubra como um encontro simples se tornou um marco de libertação e despertar espiritual.</p>
 
-               <div className="video-responsive">
-                 <iframe 
-                   src="https://www.youtube.com/embed/9w1pvUayZLE" 
-                   title="Assista ao testemunho completo"
-                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-                   allowFullScreen>
-                 </iframe>
+               <div style={{maxWidth: '900px', margin: '2.5rem auto 3rem'}}>
+                 <div className="video-responsive" style={{borderRadius: '12px', boxShadow: '0 15px 50px rgba(0,0,0,0.2)'}}>
+                   <iframe 
+                     src="https://www.youtube.com/embed/9w1pvUayZLE" 
+                     title="Deus É Bom - Uma História de Fé e Transformação #ccb #testemunho"
+                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                     allowFullScreen>
+                   </iframe>
+                 </div>
+                 <div style={{background: 'linear-gradient(to right, #f8f9fa, #e9ecef)', padding: '15px', borderRadius: '8px', textAlign: 'center', marginTop: '-1.5rem'}}>
+                   🎥 <a href="http://www.youtube.com/watch?v=9w1pvUayZLE" target="_blank" rel="noreferrer" style={{color: '#333', textDecoration: 'none', fontWeight: 'bold'}}>Assista ao testemunho completo no vídeo acima</a>
+                 </div>
                </div>
-               <p style={{textAlign: 'center', fontSize: '0.9rem', color: '#666', fontStyle: 'italic', marginBottom: '2rem'}}>Assista ao testemunho completo no vídeo acima 🎬</p>
-               
-               <hr style={{border: 'none', borderTop: '1px solid #eee', margin: '2rem 0'}} />
 
-               <h2>O Despertar Espiritual ✨</h2>
-               <p>Às vezes, Deus usa os momentos mais simples e improváveis para realizar grandes milagres. A luz entra por uma porta entreaberta, e uma mensagem que parece tão básica carrega o poder de quebrar o julgo do sono espiritual e trazer vida onde havia morte.</p>
-
-               <div className="quote-box">
-                 "Deus é bom. Em todo tempo, Ele é bom." 🙏
+               <h2>📝 Transcrição do Testemunho</h2>
+               <div style={{background: '#fafafa', padding: '2rem', borderLeft: '4px solid var(--primary)', borderRadius: '0 8px 8px 0', marginBottom: '3rem', fontStyle: 'italic', color: '#444', lineHeight: '1.8'}}>
+                 <p>"Essa obra é muito linda, que marcou a minha história. Um domingo à tarde, 2 horas, 2:30 da tarde, bateram palma no portão da minha casa, tocaram campainha. Eu me lembro quando eu abri a porta lá em cima, que eu morava num sobrado. Que eu abri a porta lá em cima, tinha um jovem lá embaixo. Um jovem muito bonito, cabelo bem cortado, terninho simples, uma gravatinha simples e uma pastinha preta debaixo do braço.</p>
+                 <p>E quando olhei para aquele moço, na minha mente veio assim: 'Será que é um advogado que veio falar comigo? Mais um dia de domingo, um advogado, né?'. Quando eu fui falar alguma coisa, aquele moço estendeu as duas mãozinhas para dentro do meu quintal e falou essas palavras: 'Que a santa paz de Deus esteja aqui no nome do Senhor Jesus'.</p>
+                 <p>Meu coração deu uma disparada, né? Deu aquela vontade de chorar porque a voz dele já foi uma voz de paz, né? E eu cabeludo ali na sala, e ele não pediu licença. Isso foi muito interessante, porque quando Deus entra na vida de alguém, Deus não pede licença. Ele entra e faz a obra do jeito que ele quer fazer, né? E Deus usou daquele menino, daquele moço, devia ter uns 19 para 22 anos aquele jovem.</p>
+                 <p>E ele entrou assim, sentou de frente pro meu sofá assim, e eu muito triste. Ele não falou, ele já foi direto no assunto. Olhou bem no meu rosto, falou assim: 'Moço, Deus é bom'. Olhou bem para mim de novo, falou assim: 'Moço, Deus é bom'. Eu já tava explodindo por dentro já, meu coração disparado assim, aquela alegria. Sabe, eu vi as algemas sendo quebradas, sabe? As correntes, o mal sendo quebrado.</p>
+                 <p>Sabe, aí ele olhou para mim mais uma vez assim: 'Moço'. Olhou dentro dos meus olhos e falou assim: 'Deus é bom'. Quando ele falou: 'Deus é bom', eu senti as correntes sendo quebradas. Aquela alegria de viver entrou em mim de novo. Sabe, parece que eu vejo hoje assim uma depressão... Hoje assim, espírito de morte. Eu vejo hoje um ser humano, é um sono. É um sono que quando Jesus chega, Deus desperta ele daquele sono, né? Que é um sono da morte, um sono de depressão, um sono de angústia, um sono de fracasso, né? E o Senhor Jesus naquela tarde, ele me despertou para uma nova vida."</p>
                </div>
-               
-               <p>Esta não é apenas uma frase clichê, mas uma <em>verdade transformadora</em>. Quando reconhecemos a bondade de Deus em meio às nossas fraquezas, nosso coração é despertado. A visita daquele domingo carregou uma mensagem de paz e libertação.</p>
 
-               <h3>O Que Aprendemos Com Esse Encontro:</h3>
+               <h2>Testemunhos: Monumentos Vivos da Fidelidade de Deus</h2>
+               <p><em>"Contai entre as nações a sua glória"</em> (<strong>Salmo 96:3</strong>). Os testemunhos não são apenas histórias bonitas do passado; eles são monumentos vivos da fidelidade do Senhor. Quando compartilhamos o que Deus fez, nós:</p>
                <ul>
-                 <li><strong>A Simplicidade do Evangelho:</strong> Não precisamos de discursos complexos para tocar uma alma. "Deus é bom" é suficiente.</li>
-                 <li><strong>O Poder da Visitação:</strong> Ir até alguém pode ser a resposta da oração que essa pessoa estava fazendo em silêncio.</li>
-                 <li><strong>A Paz que Excede o Entendimento:</strong> Como dito no testemunho: <em>"Que a santa paz de Deus inunde a sua vida."</em></li>
+                 <li><strong>Glorificamos a Deus</strong>, exaltando o Seu poder salvador.</li>
+                 <li><strong>Fortalecemos a comunidade</strong> da fé com esperança renovada.</li>
+                 <li><strong>Validamos a nossa fé</strong> para um mundo que busca a verdade.</li>
+                 <li><strong>Cumprimos a Grande Comissão</strong>, sendo Suas testemunhas (Atos 1:8).</li>
+                 <li><strong>Construímos um legado</strong> espiritual para as próximas gerações.</li>
+               </ul>
+               <p>Histórias reais de libertação como a que veremos hoje nos lembram que o Evangelho é poder de Deus em ação.</p>
+
+               <hr style={{border: 'none', borderTop: '1px solid #eee', margin: '3rem 0'}} />
+
+               <div className="quote-box" style={{textAlign: 'center', fontSize: '1.3rem'}}>
+                 "Eu te conhecia só de ouvir, mas agora os meus olhos te veem."<br/>— <strong>Jó 19:25</strong>
+               </div>
+
+               <h2>O Encontro que Mudou Tudo ✨</h2>
+               <p>Essa é uma daquelas histórias marcadas pela <strong>soberania divina</strong>. Não houve um culto extravagante nem uma pregação elaborada. O poder estava em três palavras simples que abalaram as estruturas do inferno e trouxeram um homem de volta à vida.</p>
+
+               <h2>A Visita Inesperada 🚪</h2>
+               <p>Era um típico domingo à tarde. Entre 14:00 e 14:30, a campainha tocou. Ao abrir a porta do andar de cima de seu sobrado, o morador se deparou com uma figura inusitada lá embaixo: um jovem bonito, de cabelo bem cortado, vestindo um terninho simples com uma gravatinha, carregando uma pastinha preta debaixo do braço.</p>
+               <p>A primeira reação? <em>"Será que é um advogado que veio falar comigo num domingo?"</em>. Mas Deus tinha planos muito maiores do que qualquer processo legal.</p>
+
+               <h2>A Saudação que Trouxe Paz 🕊️</h2>
+               <p>Antes que o morador pudesse questioná-lo, o jovem estendeu as duas mãos em direção ao quintal e declarou: <strong>"Que a santa paz de Deus esteja aqui no nome do Senhor Jesus."</strong></p>
+               <p>Naquele exato momento, o coração do homem disparou. A vontade de chorar veio à tona, porque a voz daquele rapaz — que tinha entre 19 e 22 anos — era, de fato, uma voz de paz. Uma lição profunda ecoa desse momento: <strong>quando Deus entra na vida de alguém, Ele não pede licença.</strong> Ele simplesmente entra e faz a obra.</p>
+
+               <h2>O Poder de Três Palavras 🗣️</h2>
+               <p>O jovem entrou e sentou-se em frente ao sofá. Olhando fixamente para o rosto do homem, que estava imerso em profunda tristeza, ele foi direto ao ponto. Ele não fez perguntas, não pediu explicações. Apenas declarou com firmeza:</p>
+               
+               <div className="quote-box" style={{backgroundColor: '#e3f2fd', borderLeftColor: '#2196f3'}}>
+                 "Moço, Deus é bom."
+               </div>
+
+               <p>Ele repetiu: <em>"Moço, Deus é bom."</em></p>
+               <p>O impacto espiritual foi imediato. O coração disparou de alegria. As algemas da alma e as correntes do mal começaram a se quebrar ali mesmo na sala. Então, mais uma vez, olhando fundo nos olhos do homem, o jovem sentenciou: <strong>"Moço... Deus é bom."</strong></p>
+               <p>Nesse instante, as correntes caíram por terra. O sobrenatural invadiu a sala e a alegria de viver, que parecia morta, ressuscitou.</p>
+
+               <h2>Do Sono da Morte para a Vida em Cristo ⚡</h2>
+               <p>Muitas vezes nós caminhamos pela vida sem perceber que, na verdade, estamos <strong>dormindo</strong>. Um sono de depressão, de angústia, um espírito de morte e fracasso. A alma está adormecida para as possibilidades divinas.</p>
+               <p>Mas quando Jesus chega, Ele nos <em>desperta</em> desse sono. Naquela tarde de domingo, o Senhor Jesus usou a visita daquele jovem para provocar um despertar sobrenatural para uma nova vida.</p>
+
+               <h2>A Simplicidade que Transforma 🌿</h2>
+               <p>Os elementos mais poderosos dessa história são os mais simples:</p>
+               <ul>
+                 <li>Um jovem simples e disponível.</li>
+                 <li>Apenas três palavras: <strong>"Deus é bom"</strong>.</li>
+                 <li>A repetição da verdade para quebrar as mentiras da mente.</li>
+                 <li>O contato visual que transmite compaixão.</li>
+                 <li>A presença palpável do Espírito Santo.</li>
                </ul>
 
+               <h2>Lições para Nossa Vida 📖</h2>
+               <ul>
+                 <li><strong>Deus Usa os Disponíveis:</strong> Aquele jovem se dispôs a bater numa porta numa tarde de domingo.</li>
+                 <li><strong>A Simplicidade é Poderosa:</strong> O Evangelho não exige discursos complicados.</li>
+                 <li><strong>A Repetição Edifica:</strong> Ouvir a verdade repetidas vezes destrói fortalezas espirituais.</li>
+                 <li><strong>O Tempo de Deus é Perfeito:</strong> Ele chega exatamente na hora que precisamos.</li>
+                 <li><strong>Deus Não Pede Licença:</strong> Sua graça invade nossas vidas soberanamente.</li>
+               </ul>
+
+               <h2>Reflexão Final 🌅</h2>
+               <p>Quantas vezes nós ou alguém próximo a nós está dormindo e precisa apenas de alguém para dizer que <strong>Deus é bom</strong>? Seja você esse jovem com a pastinha preta. Seja a voz. Seja o instrumento de despertar na vida de alguém. Deus é bom. Todos os dias.</p>
+
+               <div style={{display: 'flex', gap: '20px', margin: '3rem 0'}}>
+                 <div style={{flex: 1, padding: '1.5rem', background: '#f5f5f5', borderRadius: '8px', textAlign: 'center'}}>
+                   <em>"Rendei graças ao Senhor, porque ele é bom, porque a sua misericórdia dura para sempre."</em><br/><strong>— Salmo 136:1</strong>
+                 </div>
+                 <div style={{flex: 1, padding: '1.5rem', background: '#f5f5f5', borderRadius: '8px', textAlign: 'center'}}>
+                   <em>"Provai e vede que o Senhor é bom; bem-aventurado o homem que nele se refugia."</em><br/><strong>— Salmo 34:8</strong>
+                 </div>
+               </div>
+
                <hr style={{border: 'none', borderTop: '1px solid #eee', margin: '2rem 0'}} />
 
-               <h2>Oração Final e Desafio Prático 🙏</h2>
-               <p>Senhor, te agradecemos porque Tu és bom e a Tua misericórdia dura para sempre. Que possamos ser portadores dessa mesma luz, despertando aqueles que estão adormecidos ao nosso redor. Em nome de Jesus, Amém!</p>
-               
-               <div style={{background: '#f4f9ff', padding: '1.5rem', borderRadius: '12px', marginTop: '2rem', borderLeft: '4px solid var(--primary)'}}>
-                 <strong>Seu Desafio:</strong> Nesta semana, visite alguém ou mande uma mensagem lembrando-a simplesmente de que <strong>Deus é bom</strong>. Você pode ser a resposta de oração dessa pessoa!
+               <h2>Oração 🙏</h2>
+               <p style={{fontStyle: 'italic', fontSize: '1.1rem', color: '#555', background: '#f9f9f9', padding: '20px', borderRadius: '10px', borderLeft: '4px solid #4CAF50'}}>
+                 "Senhor Jesus, obrigado porque Tu és bom. Obrigado por usares pessoas simples. Desperta-nos do sono da morte. Usa-nos como instrumentos da Tua paz. Dá-nos coragem para ir. Que possamos dizer a todos: 'Deus é bom'. Em nome de Jesus, amém."
+               </p>
+
+               <h2>Desafio Prático da Semana 🎯</h2>
+               <div style={{background: '#fff3e0', padding: '1.5rem', borderRadius: '12px', marginTop: '1.5rem', borderLeft: '4px solid #ff9800'}}>
+                 <ol style={{margin: 0, paddingLeft: '1.5rem'}}>
+                   <li style={{marginBottom: '10px'}}><strong>Lembre-se</strong> das ações de Deus na sua vida.</li>
+                   <li style={{marginBottom: '10px'}}><strong>Escreva</strong> o seu próprio testemunho.</li>
+                   <li style={{marginBottom: '10px'}}><strong>Compartilhe</strong> essa história com pelo menos uma pessoa.</li>
+                   <li style={{marginBottom: '10px'}}><strong>Seja o jovem:</strong> bata na porta (ou mande mensagem) e leve paz.</li>
+                   <li><strong>Repita:</strong> "Deus é bom".</li>
+                 </ol>
                </div>
 
              </div>
