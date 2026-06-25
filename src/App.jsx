@@ -746,11 +746,6 @@ function App() {
                <h1>Deus É Bom — Uma História de Fé e Transformação</h1>
                <h2 style={{fontSize: '1.2rem', fontWeight: 'normal', color: '#555', margin: '15px 0'}}>Como três palavras simples despertaram uma vida do sono da morte para a vida em Cristo</h2>
                <div className="article-meta">Por <strong>João Calvino</strong> | 25 Jun, 2026</div>
-               <div className="share-buttons">
-                 <button className="share-btn">🔗 Copiar Link</button>
-                 <button className="share-btn">📱 WhatsApp</button>
-                 <button className="share-btn">📘 Facebook</button>
-               </div>
              </div>
              
              <div style={{maxWidth: '900px', margin: '2.5rem auto 3rem'}}>
