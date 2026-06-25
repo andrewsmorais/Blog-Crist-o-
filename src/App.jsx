@@ -880,9 +880,6 @@ function App() {
                </div>
 
              </div>
-
-              </div>
-
            </main>
         ) : isTestemunhoDesespero ? (
           <main className="article-content section-mb">
