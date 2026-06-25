@@ -24,6 +24,7 @@ function App() {
   const isTestemunhoDeusEBom = path === '/testemunho-deus-e-bom-historia-fe-transformacao';
   const isTestemunhoDesespero = path === '/testemunho-desespero-esperanca';
   const isTestemunhoEEle = path === '/testemunho-e-ele-cancao-nasceu-deserto-paulo-vicente';
+  const isTestemunhoThamires = path === '/testemunho-thamires-musica-cura-aquieta-minhalma';
   const isAna = path === '/ana-mae-orou-chorou-gerou-profeta-samuel';
   const isDavi = path === '/pastor-conquistou-trono-jornada-davi-belem-jerusalem';
   const isEster = path === '/ester-rainha-salvou-povo-deus-age-sombras';
@@ -761,6 +762,17 @@ function App() {
                 </a>
               </div>
 
+              <div className="grid-3-item">
+                <a href="/testemunho-thamires-musica-cura-aquieta-minhalma" style={{textDecoration: 'none', color: 'inherit'}}>
+                  <img src="/testemunho_thamires.png" alt="Da Epilepsia à Adoração: O Testemunho de Thamires" className="img-ph" loading="lazy" style={{objectFit: 'cover'}} />
+                  <span className="cat-tag" style={{display: 'inline-block', marginBottom: '8px', marginTop: '12px'}}>TESTEMUNHOS</span>
+                  <h3 style={{fontSize: '1.1rem', marginBottom: '8px', lineHeight: '1.4'}}>Da Epilepsia à Adoração: Como a Música se Tornou a Voz da Cura de Thamires</h3>
+                  <p style={{fontSize: '0.9rem', color: '#666', marginTop: '8px', marginBottom: '12px'}}>Uma jornada de dor, revelação e canções que nasceram do encontro entre sofrimento e graça.</p>
+                  <div className="meta">por <strong>João Calvino</strong> · 25 Jun, 2026</div>
+                  <div style={{marginTop: '15px'}}><span className="btn-cta" style={{padding: '8px 16px', fontSize: '0.85rem'}}>LER MAIS</span></div>
+                </a>
+              </div>
+
             </div>
           </main>
         ) : isTestemunhoDeusEBom ? (
@@ -1140,6 +1152,155 @@ function App() {
                    <li style={{marginBottom: '10px'}}><strong>Compartilhe este testemunho</strong> com um irmão que precisa de foco em Cristo.</li>
                    <li><strong>Esta semana</strong>, em vez de buscar reconhecimento, ore: "Senhor, que eu diminua para que Tu cresças".</li>
                  </ol>
+               </div>
+
+             </div>
+
+           </main>
+        ) : isTestemunhoThamires ? (
+          <main className="article-content section-mb">
+             <div className="article-header">
+               <span className="cat-tag">Testemunhos</span>
+               <h1>Da Epilepsia à Adoração: Como a Música se Tornou a Voz da Cura de Thamires</h1>
+               <h2 style={{fontSize: '1.2rem', fontWeight: 'normal', color: '#555', margin: '15px 0'}}>Uma jornada de dor, revelação e canções que nasceram do encontro entre sofrimento e graça</h2>
+               <div className="article-meta">Por <strong>João Calvino</strong> | 25 Jun, 2026</div>
+               <div className="share-buttons" style={{display: 'flex', gap: '10px', marginTop: '15px', justifyContent: 'center'}}>
+                 <button className="share-btn">📘 Facebook</button>
+                 <button className="share-btn">📱 WhatsApp</button>
+                 <button className="share-btn">🐦 Twitter</button>
+                 <button className="share-btn">📸 Instagram</button>
+               </div>
+             </div>
+             
+             <div style={{maxWidth: '900px', margin: '2.5rem auto 3rem'}}>
+               <div style={{position: 'relative', width: '100%', paddingBottom: '56.25%', borderRadius: '12px', overflow: 'hidden', boxShadow: '0 15px 50px rgba(0,0,0,0.2)'}}>
+                 <iframe 
+                   src="https://www.youtube.com/embed/aEFHMJ_Azj0" 
+                   title="O Testemunho de Thamires"
+                   style={{position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', border: 'none'}}
+                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                   allowFullScreen>
+                 </iframe>
+               </div>
+               <div style={{background: '#f8f9fa', padding: '15px', borderRadius: '0 0 12px 12px', textAlign: 'center'}}>
+                 🎥 <a href="http://www.youtube.com/watch?v=aEFHMJ_Azj0" target="_blank" rel="noreferrer" style={{color: '#333', textDecoration: 'none', fontWeight: 'bold'}}>Assista ao podcast completo no vídeo acima</a>
+               </div>
+             </div>
+             
+             <div className="article-body">
+               <p style={{fontSize: '1.1rem', color: '#555', fontStyle: 'italic', marginBottom: '2.5rem', textAlign: 'center'}}>Para Thamires, a música nunca foi apenas talento — foi linguagem. Foi através do canto que ela recebeu o batismo no Espírito, compôs hinos que tocam milhões e encontrou cura onde a medicina dizia "não há garantia". Descubra como uma menina de seis anos no louvor se tornou voz de um Deus que cura, consola e transforma dor em adoração.</p>
+
+               <h2>📝 Transcrição do Testemunho</h2>
+               <div style={{background: '#f8f9fa', padding: '1.5rem', borderLeft: '4px solid #0066cc', borderRadius: '0 8px 8px 0', marginBottom: '3rem', color: '#444', lineHeight: '1.8', fontSize: '0.95rem'}}>
+                 <p><strong>Entrevistador:</strong> "O que é e como é que foi, como é que fez história da, da música na sua vida? Você ficou um tempo aqui, 14 anos, você já participou ali daquele concurso e então você sempre esteve envolvida com a música?"</p>
+                 <p><strong>Thamires:</strong> "Sempre, sempre estive envolvida com a música. A partir desse momento né, a música para mim ela ficou ligada como relacionamento do Espírito Santo. Por que foi cantando que eu recebi o batismo no Espírito Santo. Então para mim tinha uma relação muito grande da minha expressão de adoração, do nosso relacionamento mesmo assim. Não que a música fosse adoração para mim, mas era uma expressão do meu coração para Deus. Então eu... seis anos, depois de batizada eu já fazia parte do louvor da igreja. Engraçado você ver, eu tenho umas poucas fotos, alguns poucos vídeos assim, mas a banda inteira e só eu daquele tamainho ali, seis anos, o microfone botou assim meio impressionante, mas chegou. E eu fiquei cantando."</p>
+                 <p><strong>Thamires:</strong> "Chegou um tempo que eu passei a ter crise... é nessa hora inclusive que nessa fase aí da minha rebeldia né, eu não queria, eu não queria saber de música. Porque na minha cabeça como criança, a música estava ligada com adoração e não fazia sentido a competição para mim. Não fazia sentido a briga pelo poder, quem canta melhor, tá todo mundo adorando a Jesus. 'E quem toca mais', não espera aí, para mim não fazia sentido. E enfim, comecei... retomei isso e comecei a compor muito cedo também. Eu comecei, compus a primeira com 18 anos e comecei a compor... a compor com 12 anos. Gravei ao vivo o primeiro álbum fazendo parte do ministério que eu era antes e... as músicas eram minhas. E aí o tempo foi passando e gravando, e cantando, e compondo e tudo mais. Eu me expressava assim, sempre me expressei assim, então para mim tudo se torna uma revelação até hoje. Toda a minha revelação se torna uma canção. E apesar de não ser minha paixão primária né, a minha coisa foi a dança, então..."</p>
+                 <p><strong>Entrevistador:</strong> "É mesmo?"</p>
+                 <p><strong>Thamires:</strong> "É, eu achando a minha vida assim, foi ali que eu me entreguei para o Senhor, porque eu não tinha como dançar e cantar, ou fazer uma coisa ou fazer outra. E eu sabia que era a ferramenta que o Senhor queria usar né através da minha vida. Foi 'o que é isso? Então tô aqui e vou cantar, amém'. E foi assim que passou a ser uma expressão né. E sempre compondo. Então se torna uma revelação, se torna uma canção sempre assim. O seu processo de compor é muito parecido com o processo de... meio que uma pregação, sim. E e para mim assim, se eu tivesse que escolher entre pregar e cantar, eu pregaria, eu prefiro mil vezes. Mas o que... uma coisa que eu fui me dando conta ao longo da vida é que assim: pastor prega 50 minutos, uma hora, na semana seguinte ninguém sabe o que ele pregou. Meu, poucas são as pessoas e é... mas se eu componho músicas as pessoas anos depois tem..."</p>
+                 <p><strong>Thamires:</strong> "Uma das minhas por exemplo, 'Aquieta Minh'Alma', faz 12 anos já que eu compus, vai fazer 12 anos agora no final do ano, e até hoje... só que eu compus baseado em Salmo 42. Tem uma parte literal, cantar isso também tá literalmente."</p>
+                 <p><strong>Entrevistador:</strong> "Agora é uma ótima, é um plágio da escritura, pode né?"</p>
+                 <p><strong>Thamires:</strong> "E eu passei a compor assim, então. Lógico que estão envolvidas as minhas experiências pessoais, 'Aquieta Minh'Alma' mesmo, eu com 14 anos descobri que eu era epiléptica, então eu tinha muitas convulsões, eu sofria crises. E nessa adolescência né, e nessa crise da adolescência, de Deus acontecendo, 'e agora como é que eu faço?' e tal, mas ao mesmo tempo querendo servir o Senhor... uns diziam é frescura, outros diziam que é chamar atenção, outros diziam é demônio, outro dizia: 'Um pecado você não sabe que você está cometendo'. E eu: 'Jesus, como vai viver uma coisa que eu nem sei que tá fazendo né?' E esse, enfim, o legalismo ali né dessa dessa vida. E eu só tinha... o Deus e eu, só tive o diagnóstico clínico, mas não tinha diagnóstico por exame."</p>
+                 <p><strong>Thamires:</strong> "E eu lembro que era três de de dezembro de 2010 e depois de uma convulsão fortíssima assim, voltava com muitas vezes no corpo, terrível assim. É muito humilhante também, era uma questão muito humilhante. E aí eu lembro que entrei no quarto, peguei o violão e comecei a cantar uma música de um irmão lá e eu nem conheço esse irmão. Essa música me marcou tanto, baseada no Salmo 119 né, que diz: 'Eu estou como um odre na fumaça'. O que é que o odre na fumaça é? É aquela pintura, o couro da novena do posto no varal, ele fica preso ali... E eu 'Senhor, não tem o que fazer, eu tô preso aqui, eu tô literalmente preso né'. Cercada, me sentindo ele, como o Salmo 139: 'Por trás e por diante... se eu for a mãe não tem um próximo de é isso aqui que eu vou viver e é isso tá bom o seu encontro'. Sendo que me curava em tanto, vivi coisa de cura... e sabia que isso me curava mesmo. 'E quando Ele vai curar?'"</p>
+                 <p><strong>Thamires:</strong> "E aí entrei, comecei a cantar isso né: 'Quando a verdade me consolar, preciso viver as promessas né?' Tá, eu fui cantando aquela música. Quando aquilo acabou, estava com a escritura aberta meditando em Salmos 42, vem. Oi, e ele fala: 'Como a corça suspira pelas correntes das águas'. Eu comecei a chorar, aquela melodia, eu chorei a melodia 'Aquieta Minh'Alma' inteira primeiro. Nem sem uma letra. Depois compus a letra e depois mostrei né pro pessoal do ministério: 'Tudo que aceito, uma palavra aqui, outra ali, música pronto'. E as pessoas até falavam muito dessa música: 'Muito ruim não gravar essa música, essa música é horrível, essa... essa gostei muito ruim... fica... vamos gravar'. Cara, toda vez que a gente ministra, toca as pessoas, é uma história, tem uma história com essa canção e tal. Gravamos aí né, foi que deu no que deu. E anos depois... já era 2015, compus em 2010... já em 2015 já tava tendo sim, 5, 6 convulsões por dia."</p>
+                 <p><strong>Entrevistador:</strong> "Sério?"</p>
+                 <p><strong>Thamires:</strong> "Tava terrível. Senhor... Eu lembro que nesse dia eu tava no culto de mulheres, são umas cinco mil mulheres, um pastor da Nigéria tinha vindo ministrar. E eu tinha acabado de passar mal assim, tudo abaixo, teve uma crise convulsiva assim. E troquei de roupa né, você tava naquela situação de uma mente brilhante, troquei de roupa tudo, só que eu cheguei no culto que está acontecendo e parecia que tava no cemitério e ninguém responde à presença de Deus, e a presença de Deus estava ali. E eu 'Meu Deus, ninguém vai fazer nada, de novo vai fazer nada, ninguém vai fazer nada, não tem mais um fazer do nosso Senhor'. Eu me revoltei: 'Meu Deus como assim a presença de Deus, para que você possa tá só olhando como se não valesse nada'."</p>
+                 <p><strong>Thamires:</strong> "Eu fui lá, fui lá para frente sozinha. Fechei... ele começou a ministrar, as meninas tavam junto com ele. Ele só orando e o pessoal ministrando 'Navegarei' e eu ali de olho fechado. Sai uma irmã assim sabe, aquela quando acontece assim que do mesmo jeito do banheiro assim, nasceu parece, e sobem e vem uma irmã... 'Pois amor eu tô vendo... o Senhor está te curando hoje' e saiu. E eu vi, muita gente sabe, eu passava mal demais né. Tem muita gente que sabia e até o Fred Arrais estava conversando com ele: 'Cara, te ajudei uma vez numa ministração de socorrista. Eu estava ministrando, te socorri'. 'É meu? Foi assim no meio? Eu não lembro'. Licitação, eu passei mal e eu falei: 'Meu Deus, eu nem lembrava disso'. Minha irmã passou, eu falei: 'Muita gente sabe, eu não vou parar os remédios, eu não vou'. E seis meses antes eu tinha pegado um diagnóstico por imagem né, nosso... muito cerebral tudo dentro... Eu tinha um exame finalmente né para falar: 'Amigos queridos, olha, é uma condição médica'."</p>
+                 <p><strong>Thamires:</strong> "E aí eu falei: 'Vou continuar os remédios'. Eu tô tendo crise com o remédio, não consigo. Inclusive as pessoas que tá falando 'é muito linda essa letra, dessa música e tal', mas eu tava vivendo literal. Depender de Deus é viver perigosamente para mim, era: 'Você vai? Vou confiar no Senhor, vou depender do Senhor, mas eu vou, se eu tiver atravessando a rua, eu passar mal e me atropelar, vou morrer, acabou'. E não era um perigo viver, e os médicos sem falar: 'Nas próximas convulsões não garanto que você volta enxergando, a gente não garante que você volta falando, a gente não ganha nada... com parada cardiorrespiratória, vai se imaginar'."</p>
+                 <p><strong>Thamires:</strong> "E aí eu falei: 'Vou continuar os remédios'. 20 dias depois eu lembrei que eu não tinha tomado remédio e me dei conta que não tava passando, não tava passando mal mais. E você... anos se passaram, fui fazer os exames tudo e até com o doutor Cláudio aí... não sei se conhece, irmão... e ele falou: 'Tamires, seu cérebro é perfeito né. De alguém que um dia sofreu disso e hoje está bem, não é de alguém que um dia... ele fica sequelas, ele fica mostra, é só umas cargas elétricas muito fortes, só não seu, seu cérebro é como se você nunca tivesse tido nada'. Então assim, a música para mim ela sempre esteve relacionada diretamente com um relacionamento com Deus, mas ela também foi a ferramenta de uso para muita gente. Então é..."</p>
+               </div>
+
+               <h2>Testemunhos: Monumentos Vivos da Fidelidade de Deus</h2>
+               <p><em>"Contai entre as nações a sua glória"</em> (<strong>Salmo 96:3</strong>). Os testemunhos não são apenas histórias do passado; eles são monumentos vivos da fidelidade divina. Eles existem para:</p>
+               <ul>
+                 <li><strong>Glorificar a Deus</strong>, não o homem.</li>
+                 <li><strong>Fortalecer a comunidade</strong> na fé.</li>
+                 <li><strong>Validar que o Evangelho</strong> transforma.</li>
+                 <li><strong>Cumprir Atos 1:8:</strong> "Ser-me-eis testemunhas".</li>
+                 <li><strong>Construir legado</strong> para futuras gerações.</li>
+               </ul>
+               <p>Nesta seção, compartilhamos histórias reais de como Deus usa a música, o sofrimento e a rendição para escrever canções que ecoam eternamente.</p>
+
+               <hr style={{border: 'none', borderTop: '1px solid #eee', margin: '3rem 0'}} />
+
+               <div className="quote-box" style={{textAlign: 'center', fontSize: '1.3rem', fontFamily: 'serif', fontStyle: 'italic', margin: '2rem 0'}}>
+                 "Como a corça suspira pelas correntes das águas, assim, ó Deus, a minha alma suspira por ti."<br/>— <strong>Salmo 42:1</strong>
+               </div>
+
+               <h2>O Encontro que Mudou Tudo ✨</h2>
+               <p>Como Thamires recebeu o batismo no Espírito cantando e entendeu a música como linguagem de relacionamento com Deus. Não era apenas talento ou paixão secundária (a dança era a primária), mas o meio escolhido por Deus para que ela expressasse seu coração a Ele.</p>
+
+               <h2>A Visita Inesperada 🚪 → A Menina de Seis Anos no Louvor</h2>
+               <p>Microfone grande demais, banda inteira e só ela pequena no altar. Mas ali, já aos seis anos, Deus estava chamando uma adoradora. A música não era exibição, era intimidade precoce e profunda com o Senhor.</p>
+
+               <h2>A Saudação que Trouxe Paz 🕊️ → Quando a Música Parecia sem Sentido</h2>
+               <p>A crise adolescente veio acompanhada de um choque de realidade com o "mercado" e a "competição" eclesiástica. "Se é adoração, por que competição?" Essa busca por pureza a fez se afastar momentaneamente, até entender o real propósito da adoração.</p>
+
+               <h2>O Poder das Palavras-Chave 🗣️ → Aquieta Minh'Alma: A Melodia que Nasceu em Lágrimas</h2>
+               <p>No dia 3 de dezembro de 2010, após uma convulsão humilhante, Thamires encontrou consolo na dor ao ler o Salmo 42. Foi ali, trancada no quarto e chorando, que a melodia de um dos maiores hinos de sua geração nasceu, antes mesmo da letra.</p>
+
+               <h2>Do Sono da Morte para a Vida em Cristo ⚡ → Viver Perigosamente: Confiança em Meio ao Perigo</h2>
+               <p>Com 5 a 6 convulsões por dia, enfrentando diagnósticos assustadores (risco de perder visão, fala, ou a própria vida) e até o julgamento religioso ("é demônio, é pecado, é frescura"), ela precisou aprender na prática que "depender de Deus é viver perigosamente".</p>
+
+               <h2>A Simplicidade que Transforma 🌿 → Seu Cérebro é Perfeito</h2>
+               <p>A cura não veio como um relâmpago mágico, mas no processo de uma adoração desesperada em um culto onde parecia que "Deus não estava fazendo nada". Anos depois, os exames confirmaram o impossível: um cérebro sem sequelas, "como se você nunca tivesse tido nada".</p>
+
+               <h2>Lições para Nossa Vida 📖</h2>
+               <ul>
+                 <li><strong>A música pode ser linguagem de cura</strong>, não apenas talento vocal.</li>
+                 <li><strong>Deus usa nossa dor</strong> para compor hinos que consolam outras pessoas que estão na fumaça.</li>
+                 <li><strong>"Depender de Deus é viver perigosamente"</strong> — mas é o único lugar seguro de verdade.</li>
+                 <li><strong>A cura pode vir no processo</strong>, e o milagre se confirma no tempo de Deus.</li>
+                 <li><strong>Nossas canções nascem da Palavra</strong> unida à nossa experiência e rendição.</li>
+               </ul>
+
+               <h2>Reflexão Final 🔒</h2>
+               <p>O testemunho de Thamires é um convite para ver a adoração não como performance ou competição, mas como o oxigênio de um relacionamento vivo com o Espírito Santo. É um chamado para compor a partir da Palavra e continuar adorando e confiando, mesmo quando o diagnóstico tenta te calar.</p>
+
+               <div style={{display: 'flex', flexWrap: 'wrap', gap: '20px', margin: '3rem 0'}}>
+                 <div style={{flex: '1 1 300px', padding: '1.5rem', background: '#f5f5f5', borderRadius: '8px', textAlign: 'center'}}>
+                   <em>"O SENHOR está perto dos que têm o coração quebrantado e salva os de espírito abatido."</em><br/><strong>— Salmo 34:18</strong>
+                 </div>
+                 <div style={{flex: '1 1 300px', padding: '1.5rem', background: '#f5f5f5', borderRadius: '8px', textAlign: 'center'}}>
+                   <em>"Mas os que esperam no SENHOR renovam as suas forças; sobem com asas como águias, correm e não se cansam, caminham e não se fatigam."</em><br/><strong>— Isaías 40:31</strong>
+                 </div>
+               </div>
+
+               <hr style={{border: 'none', borderTop: '1px solid #eee', margin: '2rem 0'}} />
+
+               <h2>Oração 🙏</h2>
+               <blockquote style={{fontStyle: 'italic', fontSize: '1.1rem', color: '#555', background: '#fff9f9', padding: '20px', borderRadius: '10px', borderLeft: '4px solid #722F37'}}>
+                 "Senhor Jesus,<br/>
+                 Obrigado porque Tu és o Deus que ouve o choro e transforma em canção.<br/>
+                 Ensina-nos a usar nossa dor como linguagem de adoração, não como muro.<br/>
+                 Que nossas canções nasçam da Tua Palavra e do nosso encontro contigo.<br/>
+                 Cura os quebrantados, consola os que esperam, renova os que cansaram.<br/>
+                 Usa-nos como instrumentos de Tua graça, mesmo quando não entendemos o processo.<br/>
+                 E que, como Thamires, possamos dizer: 'Minha música é relacionamento Contigo'.<br/>
+                 Em nome de Jesus, amém."
+               </blockquote>
+
+               <h2>Desafio Prático da Semana 🎯</h2>
+               <div style={{background: '#f0f7ff', padding: '1.5rem', borderRadius: '12px', marginTop: '1.5rem', borderLeft: '4px solid #0066cc'}}>
+                 <ol style={{margin: 0, paddingLeft: '1.5rem'}}>
+                   <li style={{marginBottom: '10px'}}><strong>Leia Salmo 42</strong> e medite: "Como a corça suspira... assim minha alma suspira por Ti".</li>
+                   <li style={{marginBottom: '10px'}}><strong>Escreva uma oração ou canção curta</strong> baseada em um versículo que fala ao seu coração hoje.</li>
+                   <li style={{marginBottom: '10px'}}><strong>Compartilhe com alguém</strong> como Deus tem usado sua história (ou sua música) para abençoar.</li>
+                   <li style={{marginBottom: '10px'}}><strong>Esta semana, antes de cantar, orar ou servir</strong>, pergunte: "Senhor, isso é expressão do meu coração para Ti ou busca de reconhecimento?"</li>
+                   <li><strong>Ore por alguém que está esperando cura:</strong> "Senhor, renova as forças de quem espera em Ti".</li>
+                 </ol>
+               </div>
+
+               <hr style={{border: 'none', borderTop: '1px solid #eee', margin: '3rem 0'}} />
+
+               <div className="comments-section" style={{marginTop: '3rem'}}>
+                 <h3>Comentários 💬</h3>
+                 <p style={{color: '#666', marginBottom: '1.5rem'}}>Compartilhe como Deus tem usado a música em sua vida.</p>
+                 <textarea className="comment-input" placeholder="Escreva o seu comentário aqui..."></textarea>
+                 <button className="btn-cta">Publicar Comentário</button>
+               </div>
+               
+               <div style={{marginTop: '3rem', textAlign: 'center'}}>
+                 <button className="btn-cta" style={{background: '#333'}}>Compartilhar Seu Testemunho</button>
                </div>
 
              </div>
