@@ -1,7 +1,42 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import './index.css';
 
+const heroArticles = [
+  {
+    link: "/ah-jesus-coracao-igual-ao-teu-analise-biblica-julliany-souza",
+    image: "/worship_hero.png",
+    tag: "Devocional / Louvor e Adoração",
+    title: "\"Ah Jesus, Coração Igual ao Teu\": O Clamor de Julliany Souza e o Que a Bíblia Diz Sobre um Coração Transformado",
+    excerpt: "Descubra o que a Bíblia diz sobre cada verso do hit 'Ah Jesus, Coração Igual ao Teu' de Julliany Souza. Uma análise teológica profunda dos 7 temas principais da música com versículos, reflexões práticas e aplicação para sua vida cristã.",
+    meta: "Filipenses 4:19"
+  },
+  {
+    link: "/silencio-deus-dificuldades-charles-spurgeon",
+    image: "/spurgeon.png",
+    tag: "Teologia / Charles Spurgeon",
+    title: "O Silêncio de Deus nas Dificuldades: Uma Perspectiva de Charles Spurgeon",
+    excerpt: "Entenda por que Deus, muitas vezes, parece em silêncio durante as provações e como o 'Príncipe dos Pregadores' nos ensina a confiar na providência soberana mesmo na escuridão.",
+    meta: "Jó 42:2"
+  },
+  {
+    link: "/como-ler-biblia-inteira-2026-metodos-praticos",
+    image: "/biblia-plano.jpg",
+    tag: "Vida Cristã / Guia Prático",
+    title: "Como Ler a Bíblia Inteira em 2026: Métodos Práticos que Funcionam",
+    excerpt: "Dicas, planos de leitura e orientações práticas para superar a procrastinação e finalmente ler todas as Escrituras em um ano. Um guia completo para nutrir sua alma diariamente.",
+    meta: "Salmos 119:105"
+  }
+];
+
 function App() {
+  const [currentHeroIndex, setCurrentHeroIndex] = useState(0);
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setCurrentHeroIndex((prevIndex) => (prevIndex + 1) % heroArticles.length);
+    }, 7000);
+    return () => clearInterval(interval);
+  }, []);
   const path = window.location.pathname;
   const isPrivacyPolicy = path === '/politica-de-privacidade';
   const isCookiePolicy = path === '/politica-de-cookies';
@@ -2982,18 +3017,34 @@ function App() {
           <>
             {/* PRIMEIRA DOBRA (HERO MAGAZINE) - 60 / 20 / 20 */}
             <section className="section-mb">
-              <div className="hero-main" style={{ marginBottom: '80px' }}>
-                <a href="/ah-jesus-coracao-igual-ao-teu-analise-biblica-julliany-souza" className="hero-main-link" style={{textDecoration: 'none', color: 'inherit'}}>
-                  <img src="/worship_hero.png" alt="Ah Jesus, Coração Igual ao Teu" className="img-ph" loading="lazy" style={{objectFit: 'cover', width: '100%', height: '100%'}} />
+              <div className="hero-main" style={{ marginBottom: '80px', position: 'relative' }}>
+                <a href={heroArticles[currentHeroIndex].link} className="hero-main-link" style={{textDecoration: 'none', color: 'inherit'}}>
+                  <img src={heroArticles[currentHeroIndex].image} alt={heroArticles[currentHeroIndex].title} className="img-ph" loading="lazy" style={{objectFit: 'cover', width: '100%', height: '100%'}} />
                   <div className="hero-main-text" style={{display: 'flex', flexDirection: 'column', justifyContent: 'center'}}>
-                    <span className="cat-tag">Devocional / Louvor e Adoração</span>
-                    <h1 style={{marginTop: '10px'}}>"Ah Jesus, Coração Igual ao Teu": O Clamor de Julliany Souza e o Que a Bíblia Diz Sobre um Coração Transformado</h1>
+                    <span className="cat-tag">{heroArticles[currentHeroIndex].tag}</span>
+                    <h1 style={{marginTop: '10px'}}>{heroArticles[currentHeroIndex].title}</h1>
                     <p className="excerpt">
-                      Descubra o que a Bíblia diz sobre cada verso do hit 'Ah Jesus, Coração Igual ao Teu' de Julliany Souza. Uma análise teológica profunda dos 7 temas principais da música com versículos, reflexões práticas e aplicação para sua vida cristã.
+                      {heroArticles[currentHeroIndex].excerpt}
                     </p>
-                    <div className="meta">📖 <strong>Texto Base:</strong> Filipenses 4:19</div>
+                    <div className="meta">📖 <strong>Texto Base:</strong> {heroArticles[currentHeroIndex].meta}</div>
                   </div>
                 </a>
+                <div style={{ display: 'flex', justifyContent: 'center', gap: '10px', position: 'absolute', bottom: '-30px', left: '0', right: '0' }}>
+                  {heroArticles.map((_, index) => (
+                    <span 
+                      key={index}
+                      onClick={() => setCurrentHeroIndex(index)}
+                      style={{
+                        width: '12px', 
+                        height: '12px', 
+                        borderRadius: '50%', 
+                        backgroundColor: index === currentHeroIndex ? '#111' : '#ccc',
+                        cursor: 'pointer',
+                        transition: 'background-color 0.3s ease'
+                      }}
+                    />
+                  ))}
+                </div>
               </div>
 
               <div className="hero-bottom-articles">
