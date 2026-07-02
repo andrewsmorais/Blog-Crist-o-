@@ -2982,7 +2982,7 @@ function App() {
           <>
             {/* PRIMEIRA DOBRA (HERO MAGAZINE) - 60 / 20 / 20 */}
             <section className="section-mb">
-              <div className="hero-main" style={{ marginBottom: '40px' }}>
+              <div className="hero-main" style={{ marginBottom: '80px' }}>
                 <a href="/ah-jesus-coracao-igual-ao-teu-analise-biblica-julliany-souza" className="hero-main-link" style={{textDecoration: 'none', color: 'inherit'}}>
                   <img src="/worship_hero.png" alt="Ah Jesus, Coração Igual ao Teu" className="img-ph" loading="lazy" style={{objectFit: 'cover', width: '100%', height: '100%'}} />
                   <div className="hero-main-text" style={{display: 'flex', flexDirection: 'column', justifyContent: 'center'}}>

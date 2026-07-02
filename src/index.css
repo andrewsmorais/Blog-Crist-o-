@@ -225,7 +225,7 @@ img {
 }
 @media (min-width: 900px) {
   .hero-main-link {
-    grid-template-columns: 1.3fr 1fr;
+    grid-template-columns: 1.7fr 1fr;
   }
 }
 
