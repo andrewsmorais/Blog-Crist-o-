@@ -2981,35 +2981,35 @@ function App() {
         ) : (
           <>
             {/* PRIMEIRA DOBRA (HERO MAGAZINE) - 60 / 20 / 20 */}
-            <section className="hero-grid section-mb">
-              {/* Esquerda (60%) */}
-              <div className="hero-main">
-                <a href="/ah-jesus-coracao-igual-ao-teu-analise-biblica-julliany-souza" style={{textDecoration: 'none', color: 'inherit'}}>
-                  <img src="/worship_hero.png" alt="Ah Jesus, Coração Igual ao Teu" className="img-ph" loading="lazy" style={{objectFit: 'cover'}} />
-                  <span className="cat-tag" style={{display: 'inline-block', marginTop: '15px'}}>Devocional / Louvor e Adoração</span>
-                  <h1 style={{marginTop: '10px'}}>"Ah Jesus, Coração Igual ao Teu": O Clamor de Julliany Souza e o Que a Bíblia Diz Sobre um Coração Transformado</h1>
-                  <p className="excerpt">
-                    Descubra o que a Bíblia diz sobre cada verso do hit 'Ah Jesus, Coração Igual ao Teu' de Julliany Souza. Uma análise teológica profunda dos 7 temas principais da música com versículos, reflexões práticas e aplicação para sua vida cristã.
-                  </p>
-                  <div className="meta">📖 <strong>Texto Base:</strong> Filipenses 4:19</div>
+            <section className="section-mb">
+              <div className="hero-main" style={{ marginBottom: '40px' }}>
+                <a href="/ah-jesus-coracao-igual-ao-teu-analise-biblica-julliany-souza" className="hero-main-link" style={{textDecoration: 'none', color: 'inherit'}}>
+                  <img src="/worship_hero.png" alt="Ah Jesus, Coração Igual ao Teu" className="img-ph" loading="lazy" style={{objectFit: 'cover', width: '100%', height: '100%'}} />
+                  <div className="hero-main-text" style={{display: 'flex', flexDirection: 'column', justifyContent: 'center'}}>
+                    <span className="cat-tag">Devocional / Louvor e Adoração</span>
+                    <h1 style={{marginTop: '10px'}}>"Ah Jesus, Coração Igual ao Teu": O Clamor de Julliany Souza e o Que a Bíblia Diz Sobre um Coração Transformado</h1>
+                    <p className="excerpt">
+                      Descubra o que a Bíblia diz sobre cada verso do hit 'Ah Jesus, Coração Igual ao Teu' de Julliany Souza. Uma análise teológica profunda dos 7 temas principais da música com versículos, reflexões práticas e aplicação para sua vida cristã.
+                    </p>
+                    <div className="meta">📖 <strong>Texto Base:</strong> Filipenses 4:19</div>
+                  </div>
                 </a>
               </div>
 
-              {/* Centro (20%) */}
-              <div className="hero-center">
+              <div className="hero-bottom-articles">
                 <div className="article-sm">
                   <a href="/cinco-solas-relevancia-hoje-reforma-protestante" style={{textDecoration: 'none', color: 'inherit'}}>
                     <img src="/cinco_solas.png" alt="As Cinco Solas e Sua Relevância Hoje" className="img-ph" loading="lazy" style={{objectFit: 'cover'}} />
-                    <h3>As Cinco Solas e Sua Relevância Hoje: Os Pilares da Reforma que Ainda Transformam Vidas</h3>
-                    <span className="cat-tag red">História Bíblica / Teologia</span>
+                    <h3 style={{marginTop: '15px'}}>As Cinco Solas e Sua Relevância Hoje: Os Pilares da Reforma que Ainda Transformam Vidas</h3>
+                    <span className="cat-tag red" style={{marginTop: '8px'}}>História Bíblica / Teologia</span>
                     <div className="meta">📖 <strong>Texto Base:</strong> Jó 42:2</div>
                   </a>
                 </div>
                 <div className="article-sm">
                   <a href="/ana-mae-orou-chorou-gerou-profeta-samuel" style={{textDecoration: 'none', color: 'inherit'}}>
                     <img src="/ana_orando.png" alt="Ana: A Mãe que Orou, Chorou e Gerou um Profeta" className="img-ph" loading="lazy" style={{objectFit: 'cover'}} />
-                    <h3 style={{fontSize: '1.1rem'}}>Ana: A Mãe que Orou, Chorou e Gerou um Profeta</h3>
-                    <span className="cat-tag" style={{color: '#8B0000'}}>Mulheres da Bíblia</span>
+                    <h3 style={{marginTop: '15px', fontSize: '1.1rem'}}>Ana: A Mãe que Orou, Chorou e Gerou um Profeta</h3>
+                    <span className="cat-tag" style={{color: '#8B0000', marginTop: '8px'}}>Mulheres da Bíblia</span>
                     <div className="meta">📖 <strong>Texto Base:</strong> 1 Samuel 16</div>
                   </a>
                 </div>

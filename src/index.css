@@ -216,17 +216,23 @@ img {
   height: 90px;
 }
 
-/* --- Hero Section (60/20/20) --- */
-.hero-grid {
+/* --- Hero Section --- */
+.hero-main-link {
   display: grid;
-  grid-template-columns: 6fr 4fr;
+  grid-template-columns: 1fr;
   gap: 32px;
+  align-items: center;
+}
+@media (min-width: 900px) {
+  .hero-main-link {
+    grid-template-columns: 1.3fr 1fr;
+  }
 }
 
 /* Col 1 (60%) */
 .hero-main .img-ph {
   aspect-ratio: 16/9;
-  margin-bottom: 24px;
+  margin-bottom: 0;
 }
 .hero-main h1 {
   font-family: var(--font-title);
@@ -242,11 +248,16 @@ img {
   margin-bottom: 16px;
 }
 
-/* Col 2 (20%) */
-.hero-center {
-  display: flex;
-  flex-direction: column;
+/* Bottom articles */
+.hero-bottom-articles {
+  display: grid;
+  grid-template-columns: 1fr;
   gap: 32px;
+}
+@media (min-width: 768px) {
+  .hero-bottom-articles {
+    grid-template-columns: 1fr 1fr;
+  }
 }
 .hero-center .article-sm .img-ph {
   aspect-ratio: 4/3;
