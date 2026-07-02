@@ -3037,34 +3037,44 @@ function App() {
                 <a href="#">Ver todos →</a>
               </div>
               
-              <div className="grid-4">
-                <div className="grid-4-item">
+              <div className="grid-2">
+                <div className="split-card">
                   <a href="/deus-honrou-fe-testemunho-milagres-provisao-divina" style={{textDecoration: 'none', color: 'inherit'}}>
-                    <img src="/provisao.png" alt="Deus Honrou a Fé Dela" className="img-ph" loading="lazy" style={{objectFit: 'cover'}} />
-                    <h3>Deus Honrou a Fé Dela: O Milagre do Cachorro que Trouxe Dinheiro na Boca</h3>
-                    <div className="meta">📖 <strong>Texto Base:</strong> Filipenses 4:19</div>
+                    <img src="/provisao.png" alt="Deus Honrou a Fé Dela" loading="lazy" />
+                    <div className="split-card-content">
+                      <h4>Deus Honrou a Fé Dela: O Milagre do Cachorro que Trouxe Dinheiro na Boca</h4>
+                      <div className="meta">📖 <strong>Texto Base:</strong> Filipenses 4:19</div>
+                    </div>
                   </a>
                 </div>
-                <div className="grid-4-item">
+                <div className="split-card">
                   <a href="/artigo/sarca-ardente" style={{textDecoration: 'none', color: 'inherit'}}>
-                    <img src="/sarca-ardente.jpg" alt="A Sarça Ardente" className="img-ph" loading="lazy" />
-                    <h3>A Sarça Ardente: Quando Deus Encontrou Moisés no Deserto</h3>
-                    <div className="meta">📖 <strong>Texto Base:</strong> Gálatas 5:1</div>
+                    <img src="/sarca-ardente.jpg" alt="A Sarça Ardente" loading="lazy" />
+                    <div className="split-card-content">
+                      <h4>A Sarça Ardente: Quando Deus Encontrou Moisés no Deserto</h4>
+                      <div className="meta">📖 <strong>Texto Base:</strong> Gálatas 5:1</div>
+                    </div>
                   </a>
                 </div>
-                <div className="grid-4-item">
+                <div className="split-card">
                   <a href="/ester-rainha-salvou-povo-deus-age-sombras" style={{textDecoration: 'none', color: 'inherit'}}>
-                    <img src="/ester_rainha.png" alt="Rainha Ester" className="img-ph" loading="lazy" style={{objectFit: 'cover'}} />
-                    <h3 style={{fontSize: '1.1rem', marginBottom: '8px', lineHeight: '1.4'}}>Ester: A Rainha que Salvou um Povo</h3>
-                    <div className="meta">📖 <strong>Texto Base:</strong> 1 Samuel 1</div>
+                    <img src="/ester_rainha.png" alt="Rainha Ester" loading="lazy" />
+                    <div className="split-card-content">
+                      <h4>Ester: A Rainha que Salvou um Povo</h4>
+                      <div className="meta">📖 <strong>Texto Base:</strong> 1 Samuel 1</div>
+                    </div>
                   </a>
                 </div>
-                <div className="grid-4-item">
+                <div className="split-card">
                   <a href="/carta-galatas-liberdade-crista-estudo-completo" style={{textDecoration: 'none', color: 'inherit'}}>
-                    <img src="/galatas.png" alt="A Carta aos Gálatas e a Liberdade Cristã" className="img-ph" loading="lazy" style={{objectFit: 'cover'}} />
-                    <h3>A Carta aos Gálatas e a Liberdade Cristã: O Evangelho da Graça Contra o Legalismo</h3>
-                    <p style={{fontSize: '0.9rem', color: '#666', marginBottom: '0.5rem', marginTop: '0.5rem'}}>Um estudo profundo da epístola de Paulo aos Gálatas, explorando a doutrina da justificação pela fé, a liberdade cristã e os perigos do legalismo. Descubra como o Evangelho da graça nos liberta do jugo da lei.</p>
-                    <div className="meta">📖 <strong>Texto Base:</strong> 1 Samuel 3:10</div>
+                    <img src="/galatas.png" alt="A Carta aos Gálatas e a Liberdade Cristã" loading="lazy" />
+                    <div className="split-card-content">
+                      <h4>A Carta aos Gálatas e a Liberdade Cristã: O Evangelho da Graça Contra o Legalismo</h4>
+                      <div className="meta">📖 <strong>Texto Base:</strong> 1 Samuel 3:10</div>
+                      <p>
+                        Um estudo profundo da epístola de Paulo aos Gálatas, explorando a doutrina da justificação pela fé, a liberdade cristã e os perigos do legalismo. Descubra como o Evangelho da graça nos liberta do jugo da lei.
+                      </p>
+                    </div>
                   </a>
                 </div>
               </div>
@@ -3130,11 +3140,6 @@ function App() {
                         previsão de mérito ou fé humana.
                       </p>
                     </div>
-                    <div className="split-pagination">
-                      <button className="btn-outline">&lsaquo; ANTERIOR</button>
-                      <button className="btn-outline">PRÓXIMO &rsaquo;</button>
-                      <span className="page-count">1 De 24</span>
-                    </div>
                   </div>
                 </div>
 
@@ -3153,11 +3158,6 @@ function App() {
                         três pessoas distintas: o Pai, o Filho e o Espírito Santo. Uma reflexão sobre 
                         o maior mistério e fundamento da fé cristã.
                       </p>
-                    </div>
-                    <div className="split-pagination">
-                      <button className="btn-outline">&lsaquo; ANTERIOR</button>
-                      <button className="btn-outline">PRÓXIMO &rsaquo;</button>
-                      <span className="page-count">1 De 18</span>
                     </div>
                   </div>
                 </div>
