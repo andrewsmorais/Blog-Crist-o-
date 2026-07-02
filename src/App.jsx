@@ -2997,20 +2997,28 @@ function App() {
               </div>
 
               <div className="hero-bottom-articles">
-                <div className="article-sm">
+                <div className="split-card">
                   <a href="/cinco-solas-relevancia-hoje-reforma-protestante" style={{textDecoration: 'none', color: 'inherit'}}>
-                    <img src="/cinco_solas.png" alt="As Cinco Solas e Sua Relevância Hoje" className="img-ph" loading="lazy" style={{objectFit: 'cover'}} />
-                    <h3 style={{marginTop: '15px'}}>As Cinco Solas e Sua Relevância Hoje: Os Pilares da Reforma que Ainda Transformam Vidas</h3>
-                    <span className="cat-tag red" style={{marginTop: '8px'}}>História Bíblica / Teologia</span>
-                    <div className="meta">📖 <strong>Texto Base:</strong> Jó 42:2</div>
+                    <img src="/cinco_solas.png" alt="As Cinco Solas e Sua Relevância Hoje" loading="lazy" />
+                    <div className="split-card-content">
+                      <h4>As Cinco Solas e Sua Relevância Hoje: Os Pilares da Reforma que Ainda Transformam Vidas</h4>
+                      <div className="meta">📖 <strong>Texto Base:</strong> Jó 42:2</div>
+                      <p>
+                        Conheça os cinco pilares que sustentaram a Reforma Protestante no século XVI e entenda por que Sola Scriptura, Sola Fide, Sola Gratia, Solus Christus e Soli Deo Gloria ainda são essenciais para a fé cristã autêntica nos dias de hoje.
+                      </p>
+                    </div>
                   </a>
                 </div>
-                <div className="article-sm">
+                <div className="split-card">
                   <a href="/ana-mae-orou-chorou-gerou-profeta-samuel" style={{textDecoration: 'none', color: 'inherit'}}>
-                    <img src="/ana_orando.png" alt="Ana: A Mãe que Orou, Chorou e Gerou um Profeta" className="img-ph" loading="lazy" style={{objectFit: 'cover'}} />
-                    <h3 style={{marginTop: '15px', fontSize: '1.1rem'}}>Ana: A Mãe que Orou, Chorou e Gerou um Profeta</h3>
-                    <span className="cat-tag" style={{color: '#8B0000', marginTop: '8px'}}>Mulheres da Bíblia</span>
-                    <div className="meta">📖 <strong>Texto Base:</strong> 1 Samuel 16</div>
+                    <img src="/ana_orando.png" alt="Ana: A Mãe que Orou, Chorou e Gerou um Profeta" loading="lazy" />
+                    <div className="split-card-content">
+                      <h4>Ana: A Mãe que Orou, Chorou e Gerou um Profeta</h4>
+                      <div className="meta">📖 <strong>Texto Base:</strong> 1 Samuel 16</div>
+                      <p>
+                        A história emocionante de uma mulher cujo ventre estava fechado, mas cujo clamor rasgou os céus. Descubra como a oração sincera e a entrega total de Ana resultaram no nascimento de um dos maiores profetas de Israel.
+                      </p>
+                    </div>
                   </a>
                 </div>
               </div>
