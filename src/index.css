@@ -557,7 +557,7 @@ img {
     -webkit-overflow-scrolling: touch;
   }
   .hero-grid > *, .grid-4 > *, .grid-3 > *, .grid-2 > *, .sect3-grid > *, .split-category-grid > *, .hero-bottom-articles > * {
-    flex: 0 0 85%;
+    flex: 0 0 100%;
     scroll-snap-align: center;
   }
   /* Ocultar barra de rolagem mas permitir o scroll */
