@@ -828,7 +828,7 @@ function App() {
             
             <div style={{marginTop: '3rem', textAlign: 'center', color: '#666', fontSize: '0.95rem'}}>
               <p>📍 <strong>Soli Deo Gloria Portal Teológico</strong></p>
-              <p>✉️ E-mail oficial: contato@solideogloria.com.br</p>
+              <p>✉️ E-mail oficial: contato@sdgloria.com.br</p>
             </div>
           </main>
         ) : isTestemunhos ? (

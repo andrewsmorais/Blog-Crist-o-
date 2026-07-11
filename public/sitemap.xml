@@ -2,174 +2,174 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <!-- Página Inicial -->
   <url>
-    <loc>https://solideogloria.com/</loc>
+    <loc>https://sdgloria.com.br/</loc>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
   
   <!-- Páginas Institucionais -->
   <url>
-    <loc>https://solideogloria.com/sobre</loc>
+    <loc>https://sdgloria.com.br/sobre</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://solideogloria.com/contato</loc>
+    <loc>https://sdgloria.com.br/contato</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://solideogloria.com/politica-de-privacidade</loc>
+    <loc>https://sdgloria.com.br/politica-de-privacidade</loc>
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
   </url>
   <url>
-    <loc>https://solideogloria.com/termos-de-uso</loc>
+    <loc>https://sdgloria.com.br/termos-de-uso</loc>
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
   </url>
   <url>
-    <loc>https://solideogloria.com/politica-de-cookies</loc>
+    <loc>https://sdgloria.com.br/politica-de-cookies</loc>
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
   </url>
 
   <!-- Páginas de Categorias -->
   <url>
-    <loc>https://solideogloria.com/estudos-biblicos</loc>
+    <loc>https://sdgloria.com.br/estudos-biblicos</loc>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://solideogloria.com/devocionais</loc>
+    <loc>https://sdgloria.com.br/devocionais</loc>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://solideogloria.com/personagens-biblicos</loc>
+    <loc>https://sdgloria.com.br/personagens-biblicos</loc>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://solideogloria.com/testemunhos</loc>
+    <loc>https://sdgloria.com.br/testemunhos</loc>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
 
   <!-- Estudos Bíblicos / Teologia -->
   <url>
-    <loc>https://solideogloria.com/artigo/sarca-ardente</loc>
+    <loc>https://sdgloria.com.br/artigo/sarca-ardente</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://solideogloria.com/artigo/sermao-do-monte</loc>
+    <loc>https://sdgloria.com.br/artigo/sermao-do-monte</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://solideogloria.com/como-ler-biblia-inteira-2026-metodos-praticos</loc>
+    <loc>https://sdgloria.com.br/como-ler-biblia-inteira-2026-metodos-praticos</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://solideogloria.com/doutrina-eleicao-incondicional-efesios-romanos</loc>
+    <loc>https://sdgloria.com.br/doutrina-eleicao-incondicional-efesios-romanos</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://solideogloria.com/carta-galatas-liberdade-crista-estudo-completo</loc>
+    <loc>https://sdgloria.com.br/carta-galatas-liberdade-crista-estudo-completo</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://solideogloria.com/cinco-solas-relevancia-hoje-reforma-protestante</loc>
+    <loc>https://sdgloria.com.br/cinco-solas-relevancia-hoje-reforma-protestante</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://solideogloria.com/silencio-deus-dificuldades-charles-spurgeon</loc>
+    <loc>https://sdgloria.com.br/silencio-deus-dificuldades-charles-spurgeon</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://solideogloria.com/trindade-um-so-deus-tres-pessoas-estudo-completo</loc>
+    <loc>https://sdgloria.com.br/trindade-um-so-deus-tres-pessoas-estudo-completo</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://solideogloria.com/santificacao-obra-vida-inteira-estudo</loc>
+    <loc>https://sdgloria.com.br/santificacao-obra-vida-inteira-estudo</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
 
   <!-- Devocionais / Louvor -->
   <url>
-    <loc>https://solideogloria.com/ah-jesus-coracao-igual-ao-teu-analise-biblica-julliany-souza</loc>
+    <loc>https://sdgloria.com.br/ah-jesus-coracao-igual-ao-teu-analise-biblica-julliany-souza</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
 
   <!-- Personagens Bíblicos -->
   <url>
-    <loc>https://solideogloria.com/paulo-tarso-apostolo-nacoes</loc>
+    <loc>https://sdgloria.com.br/paulo-tarso-apostolo-nacoes</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://solideogloria.com/samuel-profeta-voz-deus-trevas-israel</loc>
+    <loc>https://sdgloria.com.br/samuel-profeta-voz-deus-trevas-israel</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://solideogloria.com/jo-homem-perdeu-tudo-soberania-divina</loc>
+    <loc>https://sdgloria.com.br/jo-homem-perdeu-tudo-soberania-divina</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://solideogloria.com/ana-mae-orou-chorou-gerou-profeta-samuel</loc>
+    <loc>https://sdgloria.com.br/ana-mae-orou-chorou-gerou-profeta-samuel</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://solideogloria.com/pastor-conquistou-trono-jornada-davi-belem-jerusalem</loc>
+    <loc>https://sdgloria.com.br/pastor-conquistou-trono-jornada-davi-belem-jerusalem</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://solideogloria.com/ester-rainha-salvou-povo-deus-age-sombras</loc>
+    <loc>https://sdgloria.com.br/ester-rainha-salvou-povo-deus-age-sombras</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
 
   <!-- Testemunhos -->
   <url>
-    <loc>https://solideogloria.com/testemunho-deus-e-bom-historia-fe-transformacao</loc>
+    <loc>https://sdgloria.com.br/testemunho-deus-e-bom-historia-fe-transformacao</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://solideogloria.com/testemunho-desespero-esperanca</loc>
+    <loc>https://sdgloria.com.br/testemunho-desespero-esperanca</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://solideogloria.com/testemunho-e-ele-cancao-nasceu-deserto-paulo-vicente</loc>
+    <loc>https://sdgloria.com.br/testemunho-e-ele-cancao-nasceu-deserto-paulo-vicente</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://solideogloria.com/testemunho-thamires-musica-cura-aquieta-minhalma</loc>
+    <loc>https://sdgloria.com.br/testemunho-thamires-musica-cura-aquieta-minhalma</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://solideogloria.com/testemunho-julliany-souza-louvor-arma-espiritual-familia</loc>
+    <loc>https://sdgloria.com.br/testemunho-julliany-souza-louvor-arma-espiritual-familia</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://solideogloria.com/deus-honrou-fe-testemunho-milagres-provisao-divina</loc>
+    <loc>https://sdgloria.com.br/deus-honrou-fe-testemunho-milagres-provisao-divina</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
