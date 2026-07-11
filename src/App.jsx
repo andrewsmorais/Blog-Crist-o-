@@ -3391,7 +3391,6 @@ function App() {
               <li><a href="/sobre">Quem Somos / Sobre Nós</a></li>
               <li><a href="/contato">Contato</a></li>
               <li><a href="/contato">Anuncie Conosco</a></li>
-              <li><a href="/sitemap.xml" target="_blank" rel="noreferrer">Mapa do Site</a></li>
             </ul>
           </div>
           
