@@ -12,7 +12,7 @@ const heroArticles = [
   },
   {
     link: "/silencio-deus-dificuldades-charles-spurgeon",
-    image: "/spurgeon.png",
+    image: "/silence_of_god.png",
     tag: "Teologia / Charles Spurgeon",
     title: "O Silêncio de Deus nas Dificuldades: Uma Perspectiva de Charles Spurgeon",
     excerpt: "Entenda por que Deus, muitas vezes, parece em silêncio durante as provações e como o 'Príncipe dos Pregadores' nos ensina a confiar na providência soberana mesmo na escuridão.",
@@ -20,7 +20,7 @@ const heroArticles = [
   },
   {
     link: "/como-ler-biblia-inteira-2026-metodos-praticos",
-    image: "/biblia-plano.jpg",
+    image: "/metodos_biblia.png",
     tag: "Vida Cristã / Guia Prático",
     title: "Como Ler a Bíblia Inteira em 2026: Métodos Práticos que Funcionam",
     excerpt: "Dicas, planos de leitura e orientações práticas para superar a procrastinação e finalmente ler todas as Escrituras em um ano. Um guia completo para nutrir sua alma diariamente.",
