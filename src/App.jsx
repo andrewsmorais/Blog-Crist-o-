@@ -98,7 +98,6 @@ function App() {
               <li><a href="/">Início</a></li>
               <li><a href="/estudos-biblicos">Estudos Bíblicos</a></li>
               <li><a href="/devocionais">Devocionais</a></li>
-              <li><a href="#">Cursos</a></li>
               <li><a href="/personagens-biblicos">Personagens Bíblicos</a></li>
               <li><a href="/testemunhos">Testemunhos</a></li>
               <li><a href="/contato">Contato</a></li>
@@ -3238,7 +3237,7 @@ function App() {
             <section className="section-mb">
               <div className="section-title-wrap">
                 <h2>Estudos Bíblicos</h2>
-                <a href="#">Ver todos →</a>
+                <a href="/estudos-biblicos">Ver todos →</a>
               </div>
               
               <div className="grid-2">
@@ -3288,7 +3287,7 @@ function App() {
             <section className="section-mb">
               <div className="section-title-wrap">
                 <h2>Devocionais</h2>
-                <a href="#">Ver todos →</a>
+                <a href="/devocionais">Ver todos →</a>
               </div>
               
               <div className="grid-3">
@@ -3393,8 +3392,8 @@ function App() {
             <ul className="footer-links">
               <li><a href="/sobre">Quem Somos / Sobre Nós</a></li>
               <li><a href="/contato">Contato</a></li>
-              <li><a href="#">Anuncie Conosco</a></li>
-              <li><a href="#">Mapa do Site</a></li>
+              <li><a href="/contato">Anuncie Conosco</a></li>
+              <li><a href="/sitemap.xml" target="_blank" rel="noreferrer">Mapa do Site</a></li>
             </ul>
           </div>
           
