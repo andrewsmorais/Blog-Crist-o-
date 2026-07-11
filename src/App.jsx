@@ -1,6 +1,161 @@
 import React, { useState, useEffect } from 'react';
 import './index.css';
 
+/* ===== COMPONENTES PROFISSIONAIS REUTILIZÁVEIS ===== */
+
+// Breadcrumb Navigation
+function Breadcrumb({ category, categoryLink, title }) {
+  return (
+    <nav className="breadcrumbs" aria-label="Breadcrumb">
+      <a href="/">Início</a>
+      <span className="separator">›</span>
+      <a href={categoryLink}>{category}</a>
+      <span className="separator">›</span>
+      <span>{title.length > 50 ? title.substring(0, 50) + '...' : title}</span>
+    </nav>
+  );
+}
+
+// Article Info (Author, Date, Reading Time)
+function ArticleInfo({ date, readingTime }) {
+  return (
+    <div className="article-info">
+      <span>✍️ Equipe Soli Deo Gloria</span>
+      <span>📅 {date}</span>
+      <span>⏱️ {readingTime} min de leitura</span>
+    </div>
+  );
+}
+
+// Share Buttons
+function ShareBar({ title, url }) {
+  const fullUrl = 'https://sdgloria.com.br' + url;
+  const encodedUrl = encodeURIComponent(fullUrl);
+  const encodedTitle = encodeURIComponent(title);
+  
+  const copyLink = () => {
+    navigator.clipboard.writeText(fullUrl);
+    alert('Link copiado! Cole onde quiser compartilhar.');
+  };
+  
+  return (
+    <div className="share-bar">
+      <span className="share-bar-label">Compartilhe:</span>
+      <a className="share-btn whatsapp" href={`https://api.whatsapp.com/send?text=${encodedTitle}%20${encodedUrl}`} target="_blank" rel="noreferrer">
+        WhatsApp
+      </a>
+      <a className="share-btn facebook" href={`https://www.facebook.com/sharer/sharer.php?u=${encodedUrl}`} target="_blank" rel="noreferrer">
+        Facebook
+      </a>
+      <a className="share-btn twitter" href={`https://twitter.com/intent/tweet?text=${encodedTitle}&url=${encodedUrl}`} target="_blank" rel="noreferrer">
+        X (Twitter)
+      </a>
+      <button className="share-btn copy-link" onClick={copyLink}>
+        📋 Copiar Link
+      </button>
+    </div>
+  );
+}
+
+// Newsletter Section
+function Newsletter() {
+  const [email, setEmail] = useState('');
+  const [subscribed, setSubscribed] = useState(false);
+  
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    if (email) {
+      setSubscribed(true);
+      setEmail('');
+    }
+  };
+  
+  return (
+    <section className="newsletter-section">
+      <h3>📬 Receba Nossos Estudos por E-mail</h3>
+      <p>Toda semana enviamos um novo estudo bíblico direto na sua caixa de entrada. Grátis, sem spam.</p>
+      {subscribed ? (
+        <p style={{color: '#25D366', fontWeight: 'bold', fontSize: '1.1rem'}}>
+          ✅ Obrigado! Você receberá nossos estudos em breve.
+        </p>
+      ) : (
+        <form className="newsletter-form" onSubmit={handleSubmit}>
+          <input 
+            type="email" 
+            placeholder="Seu melhor e-mail" 
+            value={email} 
+            onChange={(e) => setEmail(e.target.value)} 
+            required 
+          />
+          <button type="submit">Quero Receber</button>
+        </form>
+      )}
+    </section>
+  );
+}
+
+// Related Articles
+const allArticlesData = [
+  { link: '/artigo/sarca-ardente', image: '/sarca-ardente.jpg', tag: 'Estudos Bíblicos', title: 'A Sarça Ardente: Quando Deus Encontrou Moisés' },
+  { link: '/artigo/sermao-do-monte', image: '/sermao-do-monte.png', tag: 'Estudos Bíblicos', title: 'Sermão do Monte: As Bem-Aventuranças' },
+  { link: '/como-ler-biblia-inteira-2026-metodos-praticos', image: '/metodos_biblia.png', tag: 'Vida Cristã', title: '5 Métodos Práticos para Ler a Bíblia em 2026' },
+  { link: '/doutrina-eleicao-incondicional-efesios-romanos', image: '/eleicao.png', tag: 'Teologia', title: 'A Doutrina da Eleição Incondicional' },
+  { link: '/carta-galatas-liberdade-crista-estudo-completo', image: '/galatas.png', tag: 'Estudos Bíblicos', title: 'A Carta aos Gálatas e a Liberdade Cristã' },
+  { link: '/cinco-solas-relevancia-hoje-reforma-protestante', image: '/cinco_solas.png', tag: 'Teologia', title: 'As Cinco Solas e Sua Relevância Hoje' },
+  { link: '/silencio-deus-dificuldades-charles-spurgeon', image: '/silence_of_god.png', tag: 'Teologia', title: 'O Silêncio de Deus nas Dificuldades' },
+  { link: '/trindade-um-so-deus-tres-pessoas-estudo-completo', image: '/trindade.png', tag: 'Teologia', title: 'A Trindade: Um Só Deus em Três Pessoas' },
+  { link: '/santificacao-obra-vida-inteira-estudo', image: '/santificacao.png', tag: 'Teologia', title: 'Santificação: Uma Obra de Uma Vida Inteira' },
+  { link: '/ah-jesus-coracao-igual-ao-teu-analise-biblica-julliany-souza', image: '/worship_hero.png', tag: 'Devocionais', title: 'Ah Jesus, Coração Igual ao Teu' },
+  { link: '/paulo-tarso-apostolo-nacoes', image: '/paulo_de_tarso.png', tag: 'Personagens Bíblicos', title: 'Paulo de Tarso: O Apóstolo das Nações' },
+  { link: '/samuel-profeta-voz-deus-trevas-israel', image: '/samuel_profeta.png', tag: 'Personagens Bíblicos', title: 'Samuel: A Voz de Deus nas Trevas' },
+  { link: '/jo-homem-perdeu-tudo-soberania-divina', image: '/jo_patriarca.png', tag: 'Personagens Bíblicos', title: 'Jó: O Homem que Perdeu Tudo' },
+  { link: '/ana-mae-orou-chorou-gerou-profeta-samuel', image: '/ana_orando.png', tag: 'Personagens Bíblicos', title: 'Ana: A Mãe que Orou e Gerou um Profeta' },
+  { link: '/pastor-conquistou-trono-jornada-davi-belem-jerusalem', image: '/davi_pastor.png', tag: 'Personagens Bíblicos', title: 'Davi: O Pastor que Conquistou o Trono' },
+  { link: '/ester-rainha-salvou-povo-deus-age-sombras', image: '/ester_rainha.png', tag: 'Personagens Bíblicos', title: 'Ester: A Rainha que Salvou Seu Povo' },
+  { link: '/testemunho-deus-e-bom-historia-fe-transformacao', image: '/deus_e_bom.png', tag: 'Testemunhos', title: 'Deus É Bom — Uma História de Fé' },
+  { link: '/testemunho-desespero-esperanca', image: '/desespero_esperanca.png', tag: 'Testemunhos', title: 'Do Desespero à Esperança' },
+  { link: '/testemunho-e-ele-cancao-nasceu-deserto-paulo-vicente', image: '/e_ele_vicente.png', tag: 'Testemunhos', title: 'É Ele — Paulo Vicente' },
+  { link: '/testemunho-thamires-musica-cura-aquieta-minhalma', image: '/testemunho_thamires.png', tag: 'Testemunhos', title: 'Thamires: Da Epilepsia à Adoração' },
+  { link: '/testemunho-julliany-souza-louvor-arma-espiritual-familia', image: '/testemunho_julliany.png', tag: 'Testemunhos', title: 'Julliany Souza: Louvor como Arma' },
+  { link: '/deus-honrou-fe-testemunho-milagres-provisao-divina', image: '/provisao.png', tag: 'Testemunhos', title: 'Deus Honrou a Fé Dela — Provisão Divina' },
+];
+
+function RelatedArticles({ currentLink, category }) {
+  const related = allArticlesData
+    .filter(a => a.link !== currentLink)
+    .filter(a => a.tag === category || Math.random() > 0.5)
+    .slice(0, 3);
+    
+  return (
+    <div className="related-articles">
+      <h3>📖 Artigos Relacionados</h3>
+      <div className="related-grid">
+        {related.map((article, i) => (
+          <a key={i} href={article.link} className="related-card">
+            <img src={article.image} alt={article.title} loading="lazy" />
+            <div className="related-card-body">
+              <span>{article.tag}</span>
+              <h4>{article.title}</h4>
+            </div>
+          </a>
+        ))}
+      </div>
+    </div>
+  );
+}
+
+// 404 Page
+function NotFoundPage() {
+  return (
+    <main className="page-404 section-mb">
+      <h1>404</h1>
+      <h2>Página Não Encontrada</h2>
+      <p>O endereço que você digitou não existe ou foi removido. Mas não se preocupe, temos muito conteúdo esperando por você!</p>
+      <a href="/" className="btn-home">← Voltar para a Página Inicial</a>
+    </main>
+  );
+}
+
 const heroArticles = [
   {
     link: "/ah-jesus-coracao-igual-ao-teu-analise-biblica-julliany-souza",
@@ -69,6 +224,7 @@ function App() {
   const isDevocionais = path === '/devocionais';
   const isTrindade = path === '/trindade-um-so-deus-tres-pessoas-estudo-completo';
   const isSantificacao = path === '/santificacao-obra-vida-inteira-estudo';
+  const isHome = path === '/' || path === '';
 
   return (
     <>
@@ -230,11 +386,14 @@ function App() {
           </main>
         ) : isSarcaArdente ? (
           <main className="article-content section-mb">
+             <Breadcrumb category="Estudos Bíblicos" categoryLink="/estudos-biblicos" title="A Sarça Ardente" />
              <div className="article-header">
                <span className="cat-tag">História Bíblica</span>
                <h1>A Sarça Ardente: Quando Deus Encontrou Moisés no Deserto</h1>
                <div className="article-meta">📖 <strong>Texto Base:</strong> Gálatas 5:1</div>
-             </div>
+             
+               <ArticleInfo date="10 de Junho de 2026" readingTime={12} />
+              </div>
              
              <img src="/sarca-ardente.jpg" alt="A Sarça Ardente" className="article-hero-img" loading="lazy" />
              
@@ -312,14 +471,20 @@ function App() {
              <p><strong>Leitura Recomendada:</strong> Êxodo 3-4 | Atos 7:20-34</p>
              <hr />
              <p><em>Este artigo faz parte da série "Encontros que Transformaram" — explorando os momentos decisivos entre Deus e Seus servos na narrativa bíblica.</em></p>
-          </main>
+          
+              <ShareBar title="A Sarça Ardente" url="/artigo/sarca-ardente" />
+              <RelatedArticles currentLink="/artigo/sarca-ardente" category="Estudos Bíblicos" />
+           </main>
         ) : isSermaoDoMonte ? (
           <main className="article-content section-mb">
+             <Breadcrumb category="Estudos Bíblicos" categoryLink="/estudos-biblicos" title="Sermão do Monte" />
              <div className="article-header">
                <span className="cat-tag">Devocional / Teologia</span>
                <h1>Sermão do Monte: As Bem-Aventuranças e a Nova Constituição do Reino</h1>
                <div className="article-meta">📖 <strong>Texto Base:</strong> Romanos 1:17</div>
-             </div>
+             
+               <ArticleInfo date="10 de Junho de 2026" readingTime={14} />
+              </div>
              
              <img src="/sermao-do-monte.png" alt="Sermão do Monte" className="article-hero-img" loading="lazy" />
              
@@ -363,14 +528,20 @@ function App() {
              <p>As Bem-Aventuranças não são conselhos para "melhorar a vida" no sentido mundano. Elas são um chamado revolucionário.</p>
              <p>Jesus nos convida a ser estranhos no mundo: a chorar quando o mundo ri, a perdoar quando o mundo se vinga, a buscar a pureza quando o mundo incentiva a corrupção. É um caminho estreito, sim. Mas é o único caminho que leva à verdadeira vida, pois é o caminho do próprio Cristo.</p>
              <p>Ao terminar o Sermão, as multidões ficaram maravilhadas. "Porquanto os ensinava como quem tem autoridade, e não como os escribas" (Mateus 7:29). Eles perceberam que não estavam ouvindo apenas um filósofo, mas o próprio Rei falando sobre o Seu Reino.</p>
-          </main>
+          
+              <ShareBar title="Sermão do Monte" url="/artigo/sermao-do-monte" />
+              <RelatedArticles currentLink="/artigo/sermao-do-monte" category="Estudos Bíblicos" />
+           </main>
         ) : isBibliaEmUmAno ? (
           <main className="article-content section-mb">
+             <Breadcrumb category="Estudos Bíblicos" categoryLink="/estudos-biblicos" title="Como Ler a Bíblia Inteira em 2026" />
              <div className="article-header">
                <span className="cat-tag">Devocional / Prática Cristã</span>
                <h1>5 Métodos Práticos para Ler a Bíblia Inteira em 2026</h1>
                <div className="article-meta">📖 <strong>Texto Base:</strong> Filipenses 4:19</div>
-             </div>
+             
+               <ArticleInfo date="11 de Junho de 2026" readingTime={10} />
+              </div>
              
              <img src="/bible_reading.png" alt="Leitura Bíblica" className="article-hero-img" loading="lazy" />
              
@@ -476,7 +647,10 @@ function App() {
                <li>Josué 1:8</li>
                <li>2 Timóteo 3:16-17</li>
              </ul>
-          </main>
+          
+              <ShareBar title="Como Ler a Bíblia Inteira em 2026" url="/como-ler-biblia-inteira-2026-metodos-praticos" />
+              <RelatedArticles currentLink="/como-ler-biblia-inteira-2026-metodos-praticos" category="Estudos Bíblicos" />
+           </main>
         ) : isEstudosBiblicos ? (
           <main className="section-mb">
             <div className="section-title">
@@ -628,11 +802,14 @@ function App() {
           </main>
         ) : isPauloTarso ? (
           <main className="article-content section-mb">
+             <Breadcrumb category="Personagens Bíblicos" categoryLink="/personagens-biblicos" title="Paulo de Tarso" />
              <div className="article-header">
                <span className="cat-tag">Personagens Bíblicos</span>
                <h1>Paulo de Tarso: O Perseguidor Chamado para Ser Apóstolo das Nações</h1>
                <div className="article-meta">📖 <strong>Texto Base:</strong> Ester 4:14</div>
-             </div>
+             
+               <ArticleInfo date="23 de Junho de 2026" readingTime={10} />
+              </div>
              <img src="/paulo_de_tarso.png" alt="Paulo de Tarso" className="article-hero-img" loading="lazy" />
              <div className="article-body">
                <div className="quote-box">
@@ -655,14 +832,20 @@ function App() {
                </div>
 
              </div>
-          </main>
+          
+              <ShareBar title="Paulo de Tarso" url="/paulo-tarso-apostolo-nacoes" />
+              <RelatedArticles currentLink="/paulo-tarso-apostolo-nacoes" category="Personagens Bíblicos" />
+           </main>
         ) : isSamuel ? (
           <main className="article-content section-mb">
+             <Breadcrumb category="Personagens Bíblicos" categoryLink="/personagens-biblicos" title="Samuel" />
              <div className="article-header">
                <span className="cat-tag">Personagens Bíblicos</span>
                <h1>Samuel: O Profeta que Foi a Voz de Deus nas Trevas de Israel</h1>
                <div className="article-meta">📖 <strong>Texto Base:</strong> Ester 4:14</div>
-             </div>
+             
+               <ArticleInfo date="23 de Junho de 2026" readingTime={9} />
+              </div>
              <img src="/samuel_profeta.png" alt="Samuel: O Profeta" className="article-hero-img" loading="lazy" />
              <div className="article-body">
                <div className="quote-box">
@@ -711,14 +894,20 @@ function App() {
                </ul>
 
              </div>
-          </main>
+          
+              <ShareBar title="Samuel" url="/samuel-profeta-voz-deus-trevas-israel" />
+              <RelatedArticles currentLink="/samuel-profeta-voz-deus-trevas-israel" category="Personagens Bíblicos" />
+           </main>
         ) : isJo ? (
           <main className="article-content section-mb">
+             <Breadcrumb category="Personagens Bíblicos" categoryLink="/personagens-biblicos" title="Jó" />
              <div className="article-header">
                <span className="cat-tag">Personagens Bíblicos</span>
                <h1>Jó: O Homem que Perdeu Tudo, Mas Não Perdeu a Deus — A Soberania Divina no Meio do Sofrimento</h1>
                <div className="article-meta">📖 <strong>Texto Base:</strong> 1 Samuel 1</div>
-             </div>
+             
+               <ArticleInfo date="23 de Junho de 2026" readingTime={11} />
+              </div>
              <img src="/jo_patriarca.png" alt="Jó" className="article-hero-img" loading="lazy" />
              <div className="article-body">
                <div className="quote-box">
@@ -758,7 +947,10 @@ function App() {
                <p>A restauração não apaga a dor de Jó, mas valida a sua fé. Jó é honrado e chamado a interceder por seus amigos. Deus dobra sua riqueza, e Jó vive o suficiente para ver quatro gerações. Jó provou que é possível ter uma fé inabalável mesmo quando todas as bênçãos nos são tiradas.</p>
 
              </div>
-          </main>
+          
+              <ShareBar title="Jó" url="/jo-homem-perdeu-tudo-soberania-divina" />
+              <RelatedArticles currentLink="/jo-homem-perdeu-tudo-soberania-divina" category="Personagens Bíblicos" />
+           </main>
         ) : isSobre ? (
           <main className="article-content section-mb">
              <div className="article-header" style={{textAlign: 'center', marginBottom: '3rem'}}>
@@ -942,11 +1134,14 @@ function App() {
           </main>
         ) : isTrindade ? (
           <main className="article-content section-mb">
+             <Breadcrumb category="Estudos Bíblicos" categoryLink="/estudos-biblicos" title="A Trindade" />
             <div className="article-header">
               <span className="cat-tag">Teologia</span>
               <h1>A Trindade: Um só Deus em Três Pessoas</h1>
               <div className="article-meta">📖 <strong>Texto Base:</strong> Gênesis 1:26</div>
-            </div>
+            
+               <ArticleInfo date="2 de Julho de 2026" readingTime={15} />
+              </div>
             <img src="/trindade.png" alt="A Trindade" className="article-hero-img" loading="lazy" style={{maxHeight: '450px', width: '100%', objectFit: 'cover', borderRadius: '12px'}} />
             <div className="article-body" style={{lineHeight: '1.8', fontSize: '1.1rem', marginTop: '2rem'}}>
               <p>A doutrina da Trindade é um dos pilares mais fundamentais e gloriosos da fé cristã. Ela afirma que há um só Deus, eternamente subsistente em três Pessoas distintas: o Pai, o Filho e o Espírito Santo. Cremos em um único Deus no que diz respeito à Sua essência, mas em três Pessoas no que diz respeito à Sua personalidade.</p>
@@ -960,14 +1155,20 @@ function App() {
               <h2>3. A Importância Prática para a Salvação</h2>
               <p>Se Deus não fosse Trino, a salvação cristã seria impossível. O Pai planejou a redenção e enviou o Filho. O Filho, sendo Deus encarnado, ofereceu um sacrifício de valor infinito na cruz para satisfazer a justiça divina. E o Espírito Santo aplica essa salvação em nossos corações, regenerando-nos e selando-nos para o dia da redenção.</p>
             </div>
-          </main>
+          
+              <ShareBar title="A Trindade" url="/trindade-um-so-deus-tres-pessoas-estudo-completo" />
+              <RelatedArticles currentLink="/trindade-um-so-deus-tres-pessoas-estudo-completo" category="Estudos Bíblicos" />
+           </main>
         ) : isSantificacao ? (
           <main className="article-content section-mb">
+             <Breadcrumb category="Estudos Bíblicos" categoryLink="/estudos-biblicos" title="Santificação" />
             <div className="article-header">
               <span className="cat-tag">Teologia / Vida Cristã</span>
               <h1>Santificação: Uma Obra de Uma Vida Inteira</h1>
               <div className="article-meta">📖 <strong>Texto Base:</strong> 1 Tessalonicenses 4:3</div>
-            </div>
+            
+               <ArticleInfo date="2 de Julho de 2026" readingTime={13} />
+              </div>
             <img src="/santificacao.png" alt="Santificação" className="article-hero-img" loading="lazy" style={{maxHeight: '450px', width: '100%', objectFit: 'cover', borderRadius: '12px'}} />
             <div className="article-body" style={{lineHeight: '1.8', fontSize: '1.1rem', marginTop: '2rem'}}>
               <p>Muitas vezes confundida com perfeccionismo moralista ou mero cumprimento de regras externas, a santificação bíblica é a obra graciosa e contínua do Espírito Santo em cooperatividade com o crente, conformando-o à imagem de Jesus Cristo.</p>
@@ -981,15 +1182,21 @@ function App() {
               <h2>3. O Papel da Palavra e da Oração</h2>
               <p>Jesus orou em João 17:17: <em>"Santifica-os na verdade; a tua palavra é a verdade."</em> A leitura constante das Escrituras, a comunhão e a oração são os meios graciosos pelos quais Deus molda nosso coração, gerando em nós o arrependimento diário e o amor sincero pelas coisas celestiais.</p>
             </div>
-          </main>
+          
+              <ShareBar title="Santificação" url="/santificacao-obra-vida-inteira-estudo" />
+              <RelatedArticles currentLink="/santificacao-obra-vida-inteira-estudo" category="Estudos Bíblicos" />
+           </main>
         ) : isTestemunhoDeusEBom ? (
           <main className="article-content section-mb">
+             <Breadcrumb category="Testemunhos" categoryLink="/testemunhos" title="Deus É Bom" />
              <div className="article-header">
                <span className="cat-tag">Testemunhos</span>
                <h1>Deus É Bom — Uma História de Fé e Transformação</h1>
                <h2 style={{fontSize: '1.2rem', fontWeight: 'normal', color: '#555', margin: '15px 0'}}>Como três palavras simples despertaram uma vida do sono da morte para a vida em Cristo</h2>
                <div className="article-meta">📖 <strong>Texto Base:</strong> Hebreus 11</div>
-             </div>
+             
+               <ArticleInfo date="25 de Junho de 2026" readingTime={12} />
+              </div>
              
              <div style={{maxWidth: '900px', margin: '2.5rem auto 3rem'}}>
                <div style={{position: 'relative', width: '100%', paddingBottom: '56.25%', borderRadius: '12px', overflow: 'hidden', boxShadow: '0 15px 50px rgba(0,0,0,0.2)'}}>
@@ -1111,15 +1318,21 @@ function App() {
                </div>
 
              </div>
+           
+              <ShareBar title="Deus É Bom" url="/testemunho-deus-e-bom-historia-fe-transformacao" />
+              <RelatedArticles currentLink="/testemunho-deus-e-bom-historia-fe-transformacao" category="Testemunhos" />
            </main>
         ) : isTestemunhoDesespero ? (
           <main className="article-content section-mb">
+             <Breadcrumb category="Testemunhos" categoryLink="/testemunhos" title="Do Desespero à Esperança" />
              <div className="article-header">
                <span className="cat-tag">Testemunhos</span>
                <h1>Do Desespero à Esperança: Quando Deus Interrompeu Meu Último Ato</h1>
                <h2 style={{fontSize: '1.2rem', fontWeight: 'normal', color: '#555', margin: '15px 0'}}>Como uma última oração se tornou o início de uma nova vida</h2>
                <div className="article-meta">📖 <strong>Texto Base:</strong> Hebreus 11</div>
-             </div>
+             
+               <ArticleInfo date="25 de Junho de 2026" readingTime={10} />
+              </div>
              
              <div style={{maxWidth: '900px', margin: '2.5rem auto 3rem'}}>
                <div style={{position: 'relative', width: '100%', paddingBottom: '56.25%', borderRadius: '12px', overflow: 'hidden', boxShadow: '0 15px 50px rgba(0,0,0,0.2)'}}>
@@ -1221,15 +1434,21 @@ function App() {
 
              </div>
 
-          </main>
+          
+              <ShareBar title="Do Desespero à Esperança" url="/testemunho-desespero-esperanca" />
+              <RelatedArticles currentLink="/testemunho-desespero-esperanca" category="Testemunhos" />
+           </main>
         ) : isTestemunhoEEle ? (
           <main className="article-content section-mb">
+             <Breadcrumb category="Testemunhos" categoryLink="/testemunhos" title="É Ele — Paulo Vicente" />
              <div className="article-header">
                <span className="cat-tag">Testemunhos</span>
                <h1>É Ele: A Canção que Nasceu no Deserto e Ecoou nas Nações</h1>
                <h2 style={{fontSize: '1.2rem', fontWeight: 'normal', color: '#555', margin: '15px 0'}}>Como Paulo Vicente ouviu do Senhor e compôs um hino sobre João Batista que atravessou fronteiras</h2>
                <div className="article-meta">📖 <strong>Texto Base:</strong> Hebreus 11</div>
-             </div>
+             
+               <ArticleInfo date="25 de Junho de 2026" readingTime={9} />
+              </div>
              
              <div style={{maxWidth: '900px', margin: '2.5rem auto 3rem'}}>
                <div style={{position: 'relative', width: '100%', paddingBottom: '56.25%', borderRadius: '12px', overflow: 'hidden', boxShadow: '0 15px 50px rgba(0,0,0,0.2)'}}>
@@ -1363,15 +1582,21 @@ function App() {
 
              </div>
 
+           
+              <ShareBar title="É Ele — Paulo Vicente" url="/testemunho-e-ele-cancao-nasceu-deserto-paulo-vicente" />
+              <RelatedArticles currentLink="/testemunho-e-ele-cancao-nasceu-deserto-paulo-vicente" category="Testemunhos" />
            </main>
         ) : isTestemunhoThamires ? (
           <main className="article-content section-mb">
+             <Breadcrumb category="Testemunhos" categoryLink="/testemunhos" title="Thamires" />
              <div className="article-header">
                <span className="cat-tag">Testemunhos</span>
                <h1>Da Epilepsia à Adoração: Como a Música se Tornou a Voz da Cura de Thamires</h1>
                <h2 style={{fontSize: '1.2rem', fontWeight: 'normal', color: '#555', margin: '15px 0'}}>Uma jornada de dor, revelação e canções que nasceram do encontro entre sofrimento e graça</h2>
                <div className="article-meta">📖 <strong>Texto Base:</strong> Hebreus 11</div>
-             </div>
+             
+               <ArticleInfo date="25 de Junho de 2026" readingTime={8} />
+              </div>
              
              <div style={{maxWidth: '900px', margin: '2.5rem auto 3rem'}}>
                <div style={{position: 'relative', width: '100%', paddingBottom: '56.25%', borderRadius: '12px', overflow: 'hidden', boxShadow: '0 15px 50px rgba(0,0,0,0.2)'}}>
@@ -1493,9 +1718,13 @@ function App() {
 
              </div>
 
+           
+              <ShareBar title="Thamires" url="/testemunho-thamires-musica-cura-aquieta-minhalma" />
+              <RelatedArticles currentLink="/testemunho-thamires-musica-cura-aquieta-minhalma" category="Testemunhos" />
            </main>
         ) : isTestemunhoJulliany ? (
           <main className="article-content section-mb">
+             <Breadcrumb category="Testemunhos" categoryLink="/testemunhos" title="Julliany Souza" />
              <div className="article-header">
                <span className="cat-tag">Testemunhos</span>
                <h1>A Voz que Quebrou Correntes: O Chamado de Julliany Souza no Quarto do Pai</h1>
@@ -1506,7 +1735,9 @@ function App() {
                  <button className="share-btn">📱 WhatsApp</button>
                  <button className="share-btn">🐦 Twitter</button>
                  <button className="share-btn">📸 Instagram</button>
-               </div>
+               
+               <ArticleInfo date="25 de Junho de 2026" readingTime={9} />
+              </div>
              </div>
              
              <div style={{maxWidth: '900px', margin: '2.5rem auto 3rem'}}>
@@ -1628,14 +1859,20 @@ function App() {
 
              </div>
 
+           
+              <ShareBar title="Julliany Souza" url="/testemunho-julliany-souza-louvor-arma-espiritual-familia" />
+              <RelatedArticles currentLink="/testemunho-julliany-souza-louvor-arma-espiritual-familia" category="Testemunhos" />
            </main>
         ) : isAhJesus ? (
           <main className="article-content section-mb">
+             <Breadcrumb category="Devocionais" categoryLink="/devocionais" title="Ah Jesus, Coração Igual ao Teu" />
              <div className="article-header">
                <span className="cat-tag">Devocional / Louvor e Adoração</span>
                <h1>"Ah Jesus, Coração Igual ao Teu": O Clamor de Julliany Souza e o Que a Bíblia Diz Sobre um Coração Transformado</h1>
                <div className="article-meta">📖 <strong>Texto Base:</strong> Filipenses 4:19</div>
-             </div>
+             
+               <ArticleInfo date="11 de Junho de 2026" readingTime={15} />
+              </div>
              
              <img src="/worship_hero.png" alt="Coração Igual ao Teu - Julliany Souza" className="article-hero-img" loading="lazy" />
              
@@ -1765,14 +2002,20 @@ function App() {
              <hr />
              <p><strong>Referência:</strong> Este artigo foi baseado no vídeo "Ah Jesus - Coração Igual ao Teu" de Julliany Souza.<br />
              <strong>Assista ao vídeo:</strong> <a href="https://www.youtube.com/watch?v=Z044IcMUEKE" target="_blank" rel="noreferrer">https://www.youtube.com/watch?v=Z044IcMUEKE</a></p>
-          </main>
+          
+              <ShareBar title="Ah Jesus, Coração Igual ao Teu" url="/ah-jesus-coracao-igual-ao-teu-analise-biblica-julliany-souza" />
+              <RelatedArticles currentLink="/ah-jesus-coracao-igual-ao-teu-analise-biblica-julliany-souza" category="Devocionais" />
+           </main>
         ) : isSilencioDeDeus ? (
           <main className="article-content section-mb">
+             <Breadcrumb category="Estudos Bíblicos" categoryLink="/estudos-biblicos" title="O Silêncio de Deus nas Dificuldades" />
              <div className="article-header">
                <span className="cat-tag">Devocional / Vida Cristã</span>
                <h1>O Silêncio de Deus nas Dificuldades: Confiando no Caráter Revelado do Senhor</h1>
                <div className="article-meta">📖 <strong>Texto Base:</strong> Efésios 2:8</div>
-             </div>
+             
+               <ArticleInfo date="11 de Junho de 2026" readingTime={11} />
+              </div>
              
              <img src="/silence_of_god.png" alt="O Silêncio de Deus" className="article-hero-img" loading="lazy" />
              
@@ -1860,14 +2103,20 @@ function App() {
              <hr />
              <p><strong>Legado:</strong> Spurgeon é citado por pregadores como John Piper e Mark Dever como uma das maiores influências em suas vidas.</p>
              <p><strong>Citação Famosa:</strong> <em>"Um ministério que não é nascido de joelhos morrerá de joelhos."</em></p>
-          </main>
+          
+              <ShareBar title="O Silêncio de Deus nas Dificuldades" url="/silencio-deus-dificuldades-charles-spurgeon" />
+              <RelatedArticles currentLink="/silencio-deus-dificuldades-charles-spurgeon" category="Estudos Bíblicos" />
+           </main>
         ) : isEleicao ? (
           <main className="article-content section-mb">
+             <Breadcrumb category="Estudos Bíblicos" categoryLink="/estudos-biblicos" title="Eleição Incondicional" />
              <div className="article-header">
                <span className="cat-tag">Teologia</span>
                <h1>A Doutrina da Eleição Incondicional: A Beleza da Graça Soberana em Efésios 1 e Romanos 9</h1>
                <div className="article-meta">📖 <strong>Texto Base:</strong> Atos 9:15</div>
-             </div>
+             
+               <ArticleInfo date="11 de Junho de 2026" readingTime={13} />
+              </div>
              
              <img src="/eleicao.png" alt="A Doutrina da Eleição Incondicional" className="article-hero-img" loading="lazy" />
              
@@ -1972,14 +2221,20 @@ function App() {
              </ul>
 
              <p><strong>🔗 Referências Bíblicas Chave:</strong> Ef 1:3-14; Rm 8:29-30; Rm 9:6-24; Jo 6:37-44; 2Ts 2:13; 1Pe 1:1-2; Ap 13:8; 17:8</p>
-          </main>
+          
+              <ShareBar title="Eleição Incondicional" url="/doutrina-eleicao-incondicional-efesios-romanos" />
+              <RelatedArticles currentLink="/doutrina-eleicao-incondicional-efesios-romanos" category="Estudos Bíblicos" />
+           </main>
         ) : isGalatas ? (
           <main className="article-content section-mb">
+             <Breadcrumb category="Estudos Bíblicos" categoryLink="/estudos-biblicos" title="A Carta aos Gálatas" />
              <div className="article-header">
                <span className="cat-tag">Estudos Bíblicos</span>
                <h1>A Carta aos Gálatas e a Liberdade Cristã: O Evangelho da Graça Contra o Legalismo</h1>
                <div className="article-meta">📖 <strong>Texto Base:</strong> 1 Samuel 3:10</div>
-             </div>
+             
+               <ArticleInfo date="11 de Junho de 2026" readingTime={12} />
+              </div>
              
              <img src="/galatas.png" alt="A Carta aos Gálatas e a Liberdade Cristã" className="article-hero-img" loading="lazy" />
              
@@ -2365,15 +2620,21 @@ function App() {
                <li><em>A Doutrina da Justificação</em> — R.C. Sproul</li>
                <li><em>Sola Fide</em> — Various authors</li>
              </ul>
-          </main>
+          
+              <ShareBar title="A Carta aos Gálatas" url="/carta-galatas-liberdade-crista-estudo-completo" />
+              <RelatedArticles currentLink="/carta-galatas-liberdade-crista-estudo-completo" category="Estudos Bíblicos" />
+           </main>
         ) : isAna ? (
           <main className="article-content section-mb">
+             <Breadcrumb category="Personagens Bíblicos" categoryLink="/personagens-biblicos" title="Ana" />
              <div className="article-header">
                <span className="cat-tag red">Mulheres da Bíblia / Estudos Bíblicos</span>
                <h1>Ana: A Mãe que Orou, Chorou e Gerou um Profeta</h1>
                <p className="article-subtitle" style={{fontSize: '1.2rem', color: '#555', marginTop: '0.5rem'}}>Sua história nos ensina que Deus ouve o clamor dos humildes, que a oração persistente move o céu e que um filho dedicado a Deus pode transformar uma nação.</p>
                <div className="article-meta">📖 <strong>Texto Base:</strong> 1 Samuel 16</div>
-             </div>
+             
+               <ArticleInfo date="23 de Junho de 2026" readingTime={9} />
+              </div>
              
              <img src="/ana_orando.png" alt="Ana Orando no Tabernáculo" className="article-hero-img" loading="lazy" />
              
@@ -2510,15 +2771,21 @@ function App() {
                 <span className="cat-tag" style={{marginRight: '10px'}}>#FeEPoder</span>
                 <span className="cat-tag" style={{marginRight: '10px'}}>#OracaoRespondida</span>
              </div>
-          </main>
+          
+              <ShareBar title="Ana" url="/ana-mae-orou-chorou-gerou-profeta-samuel" />
+              <RelatedArticles currentLink="/ana-mae-orou-chorou-gerou-profeta-samuel" category="Personagens Bíblicos" />
+           </main>
         ) : isEster ? (
           <main className="article-content section-mb">
+             <Breadcrumb category="Personagens Bíblicos" categoryLink="/personagens-biblicos" title="Ester" />
              <div className="article-header">
                <span className="cat-tag red">História Bíblica / Mulheres da Bíblia</span>
                <h1>Ester: A Rainha que Salvou um Povo e o Deus que Age nas Sombras</h1>
                <p className="article-subtitle" style={{fontSize: '1.2rem', color: '#555', marginTop: '0.5rem'}}>Uma jornada que ecoa através dos séculos e nos ensina como Deus age quando tudo parece perdido.</p>
                <div className="article-meta">📖 <strong>Texto Base:</strong> Ester 4:14</div>
-             </div>
+             
+               <ArticleInfo date="23 de Junho de 2026" readingTime={10} />
+              </div>
              
              <img src="/ester_rainha.png" alt="Rainha Ester" className="article-hero-img" loading="lazy" />
              
@@ -2658,15 +2925,21 @@ function App() {
                 <span className="cat-tag" style={{marginRight: '10px'}}>#ProvidenciaDivina</span>
                 <span className="cat-tag" style={{marginRight: '10px'}}>#FeEPoder</span>
              </div>
-          </main>
+          
+              <ShareBar title="Ester" url="/ester-rainha-salvou-povo-deus-age-sombras" />
+              <RelatedArticles currentLink="/ester-rainha-salvou-povo-deus-age-sombras" category="Personagens Bíblicos" />
+           </main>
         ) : isDavi ? (
           <main className="article-content section-mb">
+             <Breadcrumb category="Personagens Bíblicos" categoryLink="/personagens-biblicos" title="Davi" />
              <div className="article-header">
                <span className="cat-tag red">História Bíblica / Liderança</span>
                <h1>O Pastor que Conquistou um Trono: A Jornada de Davi, do Curral de Belém ao Palácio de Jerusalém</h1>
                <p className="article-subtitle" style={{fontSize: '1.2rem', color: '#555', marginTop: '0.5rem'}}>A história não é um conto de fadas; é um testemunho vivo de como Deus escolhe, prepara e exalta aqueles que confiam nEle em meio à obscuridade.</p>
                <div className="article-meta">📖 <strong>Texto Base:</strong> Ester 4:14</div>
-             </div>
+             
+               <ArticleInfo date="23 de Junho de 2026" readingTime={10} />
+              </div>
              
              <img src="/davi_pastor.png" alt="Davi o Jovem Pastor" className="article-hero-img" loading="lazy" />
              
@@ -2789,15 +3062,21 @@ function App() {
                 <span className="cat-tag" style={{marginRight: '10px'}}>#FeELideranca</span>
                 <span className="cat-tag" style={{marginRight: '10px'}}>#SoliDeoGloria</span>
              </div>
-          </main>
+          
+              <ShareBar title="Davi" url="/pastor-conquistou-trono-jornada-davi-belem-jerusalem" />
+              <RelatedArticles currentLink="/pastor-conquistou-trono-jornada-davi-belem-jerusalem" category="Personagens Bíblicos" />
+           </main>
         ) : isCincoSolas ? (
           <main className="article-content section-mb">
+             <Breadcrumb category="Estudos Bíblicos" categoryLink="/estudos-biblicos" title="As Cinco Solas" />
              <div className="article-header">
                <span className="cat-tag red">História Bíblica / Teologia</span>
                <h1>As Cinco Solas e Sua Relevância Hoje: Os Pilares da Reforma que Ainda Transformam Vidas</h1>
                <p className="article-subtitle" style={{fontSize: '1.2rem', color: '#555', marginTop: '0.5rem'}}>Descubra os cinco princípios fundamentais da Reforma Protestante e como eles continuam essenciais para a fé cristã no século XXI</p>
                <div className="article-meta">📖 <strong>Texto Base:</strong> Jó 42:2</div>
-             </div>
+             
+               <ArticleInfo date="22 de Junho de 2026" readingTime={14} />
+              </div>
              
              <img src="/cinco_solas.png" alt="As Cinco Solas da Reforma" className="article-hero-img" loading="lazy" />
              
@@ -2902,15 +3181,21 @@ function App() {
                 <span className="cat-tag" style={{marginRight: '10px'}}>#SolaFide</span>
                 <span className="cat-tag" style={{marginRight: '10px'}}>#SoliDeoGloria</span>
              </div>
-          </main>
+          
+              <ShareBar title="As Cinco Solas" url="/cinco-solas-relevancia-hoje-reforma-protestante" />
+              <RelatedArticles currentLink="/cinco-solas-relevancia-hoje-reforma-protestante" category="Estudos Bíblicos" />
+           </main>
         ) : isProvisao ? (
           <main className="article-content section-mb">
+             <Breadcrumb category="Testemunhos" categoryLink="/testemunhos" title="Deus Honrou a Fé Dela" />
              <div className="article-header">
                <span className="cat-tag">Devocional / Testemunhos</span>
                <h1>Deus Honrou a Fé Dela: O Milagre do Cachorro que Trouxe Dinheiro na Boca</h1>
                <p className="article-subtitle" style={{fontSize: '1.2rem', color: '#555', marginTop: '0.5rem'}}>Um testemunho poderoso de provisão sobrenatural e o perigo da murmuração nas provas da fé</p>
                <div className="article-meta">📖 <strong>Texto Base:</strong> Filipenses 4:19</div>
-             </div>
+             
+               <ArticleInfo date="11 de Junho de 2026" readingTime={8} />
+              </div>
              
              <img src="/provisao.png" alt="O Milagre do Cachorro que Trouxe Dinheiro na Boca" className="article-hero-img" loading="lazy" />
              
@@ -3162,8 +3447,11 @@ function App() {
                 <span className="cat-tag" style={{marginRight: '10px'}}>#milagre</span>
                 <span className="cat-tag">#nãomurmure</span>
              </div>
-          </main>
-        ) : (
+          
+              <ShareBar title="Deus Honrou a Fé Dela" url="/deus-honrou-fe-testemunho-milagres-provisao-divina" />
+              <RelatedArticles currentLink="/deus-honrou-fe-testemunho-milagres-provisao-divina" category="Testemunhos" />
+           </main>
+         ) : isHome ? (
           <>
             {/* PRIMEIRA DOBRA (HERO MAGAZINE) - 60 / 20 / 20 */}
             <section className="section-mb">
@@ -3366,7 +3654,10 @@ function App() {
               </div>
             </section>
             
+            <Newsletter />
           </>
+        ) : (
+          <NotFoundPage />
         )}
       </div>
 
