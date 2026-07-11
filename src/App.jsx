@@ -64,6 +64,11 @@ function App() {
   const isAna = path === '/ana-mae-orou-chorou-gerou-profeta-samuel';
   const isDavi = path === '/pastor-conquistou-trono-jornada-davi-belem-jerusalem';
   const isEster = path === '/ester-rainha-salvou-povo-deus-age-sombras';
+  const isSobre = path === '/sobre';
+  const isContato = path === '/contato';
+  const isDevocionais = path === '/devocionais';
+  const isTrindade = path === '/trindade-um-so-deus-tres-pessoas-estudo-completo';
+  const isSantificacao = path === '/santificacao-obra-vida-inteira-estudo';
 
   return (
     <>
@@ -92,11 +97,11 @@ function App() {
             <ul className="nav-list">
               <li><a href="/">Início</a></li>
               <li><a href="/estudos-biblicos">Estudos Bíblicos</a></li>
-              <li><a href="#">Devocionais</a></li>
+              <li><a href="/devocionais">Devocionais</a></li>
               <li><a href="#">Cursos</a></li>
               <li><a href="/personagens-biblicos">Personagens Bíblicos</a></li>
               <li><a href="/testemunhos">Testemunhos</a></li>
-              <li><a href="#">Contato</a></li>
+              <li><a href="/contato">Contato</a></li>
             </ul>
           </nav>
         </header>
@@ -517,7 +522,7 @@ function App() {
               </div>
 
               <div className="grid-3-item">
-                <a href="#" style={{textDecoration: 'none', color: 'inherit'}}>
+                <a href="/silencio-deus-dificuldades-charles-spurgeon" style={{textDecoration: 'none', color: 'inherit'}}>
                   <img src="/silence_of_god.png" alt="O Silêncio de Deus nas Dificuldades" className="img-ph" loading="lazy" style={{objectFit: 'cover'}} />
                   <h3 style={{fontSize: '1.1rem', marginBottom: '8px', lineHeight: '1.4'}}>O Silêncio de Deus nas Dificuldades: Confiando no Caráter Revelado do Senhor</h3>
                   <p style={{fontSize: '0.9rem', color: '#666', marginTop: '8px'}}>Quando clamamos e parecemos não ouvir resposta, devemos confiar no caráter revelado do Senhor ao invés de nossos sentimentos...</p>
@@ -528,7 +533,7 @@ function App() {
 
             <div className="grid-2" style={{marginTop: '2rem'}}>
               <div className="grid-2-item">
-                <a href="#" style={{textDecoration: 'none', color: 'inherit'}}>
+                <a href="/como-ler-biblia-inteira-2026-metodos-praticos" style={{textDecoration: 'none', color: 'inherit'}}>
                   <img src="/metodos_biblia.png" alt="5 Métodos Práticos para Ler a Bíblia Inteira em 2026" className="img-ph" loading="lazy" style={{objectFit: 'cover'}} />
                   <h3 style={{fontSize: '1.1rem', marginBottom: '8px', lineHeight: '1.4'}}>5 Métodos Práticos para Ler a Bíblia Inteira em 2026</h3>
                   <div className="meta">📖 <strong>Texto Base:</strong> Atos 9:15</div>
@@ -536,7 +541,7 @@ function App() {
               </div>
 
               <div className="grid-2-item">
-                <a href="#" style={{textDecoration: 'none', color: 'inherit'}}>
+                <a href="/doutrina-eleicao-incondicional-efesios-romanos" style={{textDecoration: 'none', color: 'inherit'}}>
                   <img src="/eleicao.png" alt="A Doutrina da Eleição Incondicional" className="img-ph" loading="lazy" style={{objectFit: 'cover'}} />
                   <h3 style={{fontSize: '1.1rem', marginBottom: '8px', lineHeight: '1.4'}}>A Doutrina da Eleição Incondicional</h3>
                   <div className="meta">📖 <strong>Texto Base:</strong> Romanos 1:17</div>
@@ -546,7 +551,7 @@ function App() {
 
             <div className="grid-2" style={{marginTop: '2rem'}}>
               <div className="grid-2-item">
-                <a href="#" style={{textDecoration: 'none', color: 'inherit'}}>
+                <a href="/trindade-um-so-deus-tres-pessoas-estudo-completo" style={{textDecoration: 'none', color: 'inherit'}}>
                   <img src="/trindade.png" alt="A Trindade: Um só Deus em Três Pessoas" className="img-ph" loading="lazy" style={{objectFit: 'cover'}} />
                   <h3 style={{fontSize: '1.1rem', marginBottom: '8px', lineHeight: '1.4'}}>A Trindade: Um só Deus em Três Pessoas</h3>
                   <div className="meta">📖 <strong>Texto Base:</strong> Gênesis 1</div>
@@ -554,7 +559,7 @@ function App() {
               </div>
 
               <div className="grid-2-item">
-                <a href="#" style={{textDecoration: 'none', color: 'inherit'}}>
+                <a href="/santificacao-obra-vida-inteira-estudo" style={{textDecoration: 'none', color: 'inherit'}}>
                   <img src="/santificacao.png" alt="Santificação: Uma obra de uma vida inteira" className="img-ph" loading="lazy" style={{objectFit: 'cover'}} />
                   <h3 style={{fontSize: '1.1rem', marginBottom: '8px', lineHeight: '1.4'}}>Santificação: Uma obra de uma vida inteira</h3>
                   <div className="meta">📖 <strong>Texto Base:</strong> Filipenses 4:19</div>
@@ -749,7 +754,6 @@ function App() {
                <div className="quote-box" style={{backgroundColor: 'var(--bg-light)', borderLeftColor: 'var(--primary)'}}>
                  "Porque eu sei que o meu Redentor vive, e que por fim se levantará sobre a terra." (Jó 19:25)
                </div>
-
                <h2>5. A Voz do Redemoinho: Quando Deus Fala</h2>
                <p>Deus responde a Jó do redemoinho. Ele não fornece explicações filosóficas, mas se revela em Sua infinita sabedoria e poder governante do cosmos. Jó, então, se arrepende de ter tentado limitar Deus à lógica humana e diz: <em>"Eu te conhecia só de ouvir, mas agora os meus olhos te veem."</em></p>
 
@@ -757,6 +761,78 @@ function App() {
                <p>A restauração não apaga a dor de Jó, mas valida a sua fé. Jó é honrado e chamado a interceder por seus amigos. Deus dobra sua riqueza, e Jó vive o suficiente para ver quatro gerações. Jó provou que é possível ter uma fé inabalável mesmo quando todas as bênçãos nos são tiradas.</p>
 
              </div>
+          </main>
+        ) : isSobre ? (
+          <main className="article-content section-mb">
+             <div className="article-header" style={{textAlign: 'center', marginBottom: '3rem'}}>
+               <span className="cat-tag">Sobre o Portal</span>
+               <h1>Quem Somos — Soli Deo Gloria</h1>
+               <p style={{fontSize: '1.2rem', color: '#555', marginTop: '0.5rem'}}>Nossa missão, nossa fé e o propósito deste portal teológico</p>
+             </div>
+             
+             <div className="article-body" style={{maxWidth: '800px', margin: '0 auto', lineHeight: '1.8', fontSize: '1.1rem'}}>
+               <p>O portal <strong>Soli Deo Gloria</strong> nasceu com o firme propósito de ser uma voz fiel e bíblica na internet, promovendo o estudo profundo das Escrituras Sagradas, da Teologia Sistemática e da Apologética Reformada. Cremos que a igreja contemporânea carece de raízes teológicas sólidas e doutrinas firmes que glorifiquem exclusivamente ao Senhor.</p>
+               
+               <h2>Nossos Pilares de Fé</h2>
+               <p>Como herdeiros da Reforma Protestante do século XVI, subscrevemos os cinco pilares fundamentais da fé cristã:</p>
+               <ul>
+                 <li><strong>Sola Scriptura:</strong> Somente as Escrituras são a nossa regra única e infalível de fé e prática.</li>
+                 <li><strong>Sola Fide:</strong> A justificação do pecador é somente pela fé em Jesus Cristo, sem méritos humanos.</li>
+                 <li><strong>Sola Gratia:</strong> A salvação é inteiramente pela graça soberana de Deus, iniciada e completada por Ele.</li>
+                 <li><strong>Solus Christus:</strong> Jesus Cristo é o único Mediador entre Deus e os homens; não há outro nome para salvação.</li>
+                 <li><strong>Soli Deo Gloria:</strong> Tudo o que existe, a criação e a salvação, serve para a glória exclusiva de Deus.</li>
+               </ul>
+
+               <h2>Quem Somos</h2>
+               <p>Somos um grupo de cristãos, pastores e estudantes de teologia que amam a sã doutrina e enxergam na escrita e na curadoria de conteúdo digital uma ferramenta poderosa para edificação da igreja do Senhor no Brasil e no mundo. Nosso desejo é que cada artigo escrito, testemunho compartilhado e estudo bíblico publicado sirva como alimento espiritual e despertamento para a glória do Senhor.</p>
+
+               <div className="quote-box" style={{marginTop: '2rem', padding: '1.5rem', background: '#f9f9f9', borderLeft: '4px solid #111'}}>
+                 <em>"Porque dele, e por ele, e para ele são todas as coisas; glória, pois, a ele eternamente. Amém."</em> — <strong>Romanos 11:36</strong>
+               </div>
+             </div>
+          </main>
+        ) : isContato ? (
+          <main className="section-mb" style={{maxWidth: '800px', margin: '0 auto', padding: '2rem 1rem'}}>
+            <div className="section-title" style={{textAlign: 'center', marginBottom: '2rem'}}>
+              <h2>Contato</h2>
+              <p style={{color: '#666', marginTop: '0.5rem'}}>Dúvidas, sugestões ou pedidos de oração? Entre em contato conosco!</p>
+            </div>
+            
+            <div style={{background: '#fff', padding: '2.5rem', borderRadius: '12px', boxShadow: '0 4px 20px rgba(0,0,0,0.05)', border: '1px solid #eee'}}>
+              <form onSubmit={(e) => { e.preventDefault(); alert('Mensagem enviada com sucesso! Em breve entraremos em contato.'); e.target.reset(); }}>
+                <div style={{marginBottom: '1.5rem'}}>
+                  <label htmlFor="name" style={{display: 'block', fontWeight: '600', marginBottom: '0.5rem', fontSize: '0.9rem'}}>Nome Completo</label>
+                  <input type="text" id="name" required style={{width: '100%', padding: '0.75rem', border: '1px solid #ddd', borderRadius: '6px', fontSize: '1rem'}} />
+                </div>
+                
+                <div style={{marginBottom: '1.5rem'}}>
+                  <label htmlFor="email" style={{display: 'block', fontWeight: '600', marginBottom: '0.5rem', fontSize: '0.9rem'}}>E-mail para Retorno</label>
+                  <input type="email" id="email" required style={{width: '100%', padding: '0.75rem', border: '1px solid #ddd', borderRadius: '6px', fontSize: '1rem'}} />
+                </div>
+                
+                <div style={{marginBottom: '1.5rem'}}>
+                  <label htmlFor="subject" style={{display: 'block', fontWeight: '600', marginBottom: '0.5rem', fontSize: '0.9rem'}}>Assunto</label>
+                  <select id="subject" style={{width: '100%', padding: '0.75rem', border: '1px solid #ddd', borderRadius: '6px', fontSize: '1rem', background: '#fff'}}>
+                    <option>Dúvidas / Sugestões</option>
+                    <option>Pedido de Oração</option>
+                    <option>Parcerias / Anúncios</option>
+                    <option>Outros</option>
+                  </select>
+                </div>
+                
+                <div style={{marginBottom: '1.5rem'}}>
+                  <label htmlFor="message" style={{display: 'block', fontWeight: '600', marginBottom: '0.5rem', fontSize: '0.9rem'}}>Sua Mensagem</label>
+                  <textarea id="message" rows="6" required style={{width: '100%', padding: '0.75rem', border: '1px solid #ddd', borderRadius: '6px', fontSize: '1rem', resize: 'vertical'}}></textarea>
+                </div>
+                
+                <button type="submit" className="btn btn-dark" style={{width: '100%', padding: '1rem', fontSize: '1.1rem', fontWeight: 'bold', cursor: 'pointer'}}>Enviar Mensagem</button>
+              </form>
+            </div>
+            
+            <div style={{marginTop: '3rem', textAlign: 'center', color: '#666', fontSize: '0.95rem'}}>
+              <p>📍 <strong>Soli Deo Gloria Portal Teológico</strong></p>
+              <p>✉️ E-mail oficial: contato@solideogloria.com.br</p>
+            </div>
           </main>
         ) : isTestemunhos ? (
           <main className="section-mb">
@@ -830,6 +906,83 @@ function App() {
                 </a>
               </div>
 
+            </div>
+          </main>
+        ) : isDevocionais ? (
+          <main className="section-mb">
+            <div className="section-title" style={{marginBottom: '2rem'}}>
+              <h2>Devocionais</h2>
+            </div>
+            <div className="grid-3" style={{marginTop: '2rem'}}>
+              <div className="grid-3-item">
+                <a href="/artigo/sermao-do-monte" style={{textDecoration: 'none', color: 'inherit'}}>
+                  <img src="/sermao-do-monte.png" alt="Sermão do Monte" className="img-ph" loading="lazy" />
+                  <span className="cat-tag" style={{display: 'inline-block', marginBottom: '8px', marginTop: '12px'}}>DEVOCIONAIS</span>
+                  <h3 style={{fontSize: '1.1rem', marginBottom: '8px', lineHeight: '1.4'}}>Sermão do Monte: As Bem-Aventuranças e a Nova Constituição do Reino</h3>
+                  <p style={{fontSize: '0.9rem', color: '#666', marginTop: '8px', marginBottom: '12px'}}>Jesus estabeleceu a constituição de um novo Reino e inverteu a lógica do mundo...</p>
+                  <div className="meta">📖 <strong>Texto Base:</strong> Romanos 1:17</div>
+                </a>
+              </div>
+              <div className="grid-3-item">
+                <a href="/silencio-deus-dificuldades-charles-spurgeon" style={{textDecoration: 'none', color: 'inherit'}}>
+                  <img src="/silence_of_god.png" alt="O Silêncio de Deus" className="img-ph" loading="lazy" />
+                  <span className="cat-tag" style={{display: 'inline-block', marginBottom: '8px', marginTop: '12px'}}>DEVOCIONAIS</span>
+                  <h3 style={{fontSize: '1.1rem', marginBottom: '8px', lineHeight: '1.4'}}>O Silêncio de Deus nas Dificuldades: Confiando no Caráter Revelado do Senhor</h3>
+                  <p style={{fontSize: '0.9rem', color: '#666', marginTop: '8px', marginBottom: '12px'}}>Quando clamamos e parecemos não ouvir resposta, devemos confiar no caráter revelado do Senhor ao invés de nossos sentimentos...</p>
+                  <div className="meta">📖 <strong>Texto Base:</strong> Efésios 2:8</div>
+                </a>
+              </div>
+              <div className="grid-3-item">
+                <a href="/como-ler-biblia-inteira-2026-metodos-praticos" style={{textDecoration: 'none', color: 'inherit'}}>
+                  <img src="/metodos_biblia.png" alt="Leitura Bíblica" className="img-ph" loading="lazy" />
+                  <span className="cat-tag" style={{display: 'inline-block', marginBottom: '8px', marginTop: '12px'}}>DEVOCIONAIS</span>
+                  <h3 style={{fontSize: '1.1rem', marginBottom: '8px', lineHeight: '1.4'}}>5 Méticos Práticos para Ler a Bíblia Inteira em 2026</h3>
+                  <p style={{fontSize: '0.9rem', color: '#666', marginTop: '8px', marginBottom: '12px'}}>Descubra 5 métodos práticos e testados para ler a Bíblia inteira em 2026, mesmo com rotina corrida. Técnicas flexíveis, aplicativos recomendados e o segredo da constância.</p>
+                  <div className="meta">📖 <strong>Texto Base:</strong> Filipenses 4:19</div>
+                </a>
+              </div>
+            </div>
+          </main>
+        ) : isTrindade ? (
+          <main className="article-content section-mb">
+            <div className="article-header">
+              <span className="cat-tag">Teologia</span>
+              <h1>A Trindade: Um só Deus em Três Pessoas</h1>
+              <div className="article-meta">📖 <strong>Texto Base:</strong> Gênesis 1:26</div>
+            </div>
+            <img src="/trindade.png" alt="A Trindade" className="article-hero-img" loading="lazy" style={{maxHeight: '450px', width: '100%', objectFit: 'cover', borderRadius: '12px'}} />
+            <div className="article-body" style={{lineHeight: '1.8', fontSize: '1.1rem', marginTop: '2rem'}}>
+              <p>A doutrina da Trindade é um dos pilares mais fundamentais e gloriosos da fé cristã. Ela afirma que há um só Deus, eternamente subsistente em três Pessoas distintas: o Pai, o Filho e o Espírito Santo. Cremos em um único Deus no que diz respeito à Sua essência, mas em três Pessoas no que diz respeito à Sua personalidade.</p>
+              
+              <h2>1. Unidade na Essência, Trindade nas Pessoas</h2>
+              <p>O mistério da Trindade não é uma contradição lógica. Não dizemos que Deus é uma pessoa e três pessoas ao mesmo tempo, nem que é uma essência e três essências. Ele é <strong>um em essência (o quê Deus é)</strong> e <strong>três em pessoas (quem Deus é)</strong>. O Pai não é o Filho, o Filho não é o Espírito Santo, e o Espírito Santo não é o Pai; no entanto, cada Pessoa é totalmente e plenamente Deus.</p>
+
+              <h2>2. Fundamento Bíblico</h2>
+              <p>A doutrina da Trindade está presente desde as primeiras páginas das Escrituras. Em Gênesis 1:26, Deus diz: <em>"Façamos o homem à nossa imagem"</em>, usando o plural. No Novo Testamento, essa revelação se torna explícita no batismo de Jesus (onde o Filho é batizado, o Pai fala do céu e o Espírito desce como pomba) e na Grande Comissão em Mateus 28:19: <em>"batizando-os em nome [singular] do Pai, e do Filho, e do Espírito Santo."</em></p>
+
+              <h2>3. A Importância Prática para a Salvação</h2>
+              <p>Se Deus não fosse Trino, a salvação cristã seria impossível. O Pai planejou a redenção e enviou o Filho. O Filho, sendo Deus encarnado, ofereceu um sacrifício de valor infinito na cruz para satisfazer a justiça divina. E o Espírito Santo aplica essa salvação em nossos corações, regenerando-nos e selando-nos para o dia da redenção.</p>
+            </div>
+          </main>
+        ) : isSantificacao ? (
+          <main className="article-content section-mb">
+            <div className="article-header">
+              <span className="cat-tag">Teologia / Vida Cristã</span>
+              <h1>Santificação: Uma Obra de Uma Vida Inteira</h1>
+              <div className="article-meta">📖 <strong>Texto Base:</strong> 1 Tessalonicenses 4:3</div>
+            </div>
+            <img src="/santificacao.png" alt="Santificação" className="article-hero-img" loading="lazy" style={{maxHeight: '450px', width: '100%', objectFit: 'cover', borderRadius: '12px'}} />
+            <div className="article-body" style={{lineHeight: '1.8', fontSize: '1.1rem', marginTop: '2rem'}}>
+              <p>Muitas vezes confundida com perfeccionismo moralista ou mero cumprimento de regras externas, a santificação bíblica é a obra graciosa e contínua do Espírito Santo em cooperatividade com o crente, conformando-o à imagem de Jesus Cristo.</p>
+
+              <h2>1. O Significado de Ser Santo</h2>
+              <p>Santidade (do termo hebraico <em>Kadosh</em> e grego <em>Hagios</em>) significa, essencialmente, ser "separado". Fomos separados por Deus do sistema do mundo pecaminoso para pertencer exclusivamente a Ele. A santificação consiste em alinhar nossa mente, afetos, escolhas e caráter com essa nova realidade de separação.</p>
+
+              <h2>2. A Diferença entre Justificação e Santificação</h2>
+              <p>Enquanto a <strong>Justificação</strong> é um ato único, declaratório e legal de Deus onde somos declarados justos pelos méritos de Cristo (somos salvos da culpa do pecado), a <strong>Santificação</strong> é um processo contínuo e progressivo onde o Espírito Santo nos cura do poder e da corrupção do pecado em nossa vida diária.</p>
+
+              <h2>3. O Papel da Palavra e da Oração</h2>
+              <p>Jesus orou em João 17:17: <em>"Santifica-os na verdade; a tua palavra é a verdade."</em> A leitura constante das Escrituras, a comunhão e a oração são os meios graciosos pelos quais Deus molda nosso coração, gerando em nós o arrependimento diário e o amor sincero pelas coisas celestiais.</p>
             </div>
           </main>
         ) : isTestemunhoDeusEBom ? (
@@ -3238,8 +3391,8 @@ function App() {
           <div className="footer-col">
             <h4>Links Úteis</h4>
             <ul className="footer-links">
-              <li><a href="#">Quem Somos / Sobre Nós</a></li>
-              <li><a href="#">Contato</a></li>
+              <li><a href="/sobre">Quem Somos / Sobre Nós</a></li>
+              <li><a href="/contato">Contato</a></li>
               <li><a href="#">Anuncie Conosco</a></li>
               <li><a href="#">Mapa do Site</a></li>
             </ul>
