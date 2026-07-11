@@ -87,9 +87,7 @@ function App() {
             </div>
 
             <div className="header-right">
-              <span className="icon-search">🔍</span>
-              <button className="btn">Login</button>
-              <button className="btn btn-dark">Assinar</button>
+              {/* Botões removidos a pedido do usuário */}
             </div>
           </div>
           
