@@ -249,12 +249,12 @@ function App() {
           
           <nav className="header-nav">
             <ul className="nav-list">
-              <li><a href="/">Início</a></li>
-              <li><a href="/estudos-biblicos">Estudos Bíblicos</a></li>
-              <li><a href="/devocionais">Devocionais</a></li>
-              <li><a href="/personagens-biblicos">Personagens Bíblicos</a></li>
-              <li><a href="/testemunhos">Testemunhos</a></li>
-              <li><a href="/contato">Contato</a></li>
+              <li><a href="/" className={isHome ? "active" : ""}>Início</a></li>
+              <li><a href="/estudos-biblicos" className={isEstudosBiblicos ? "active" : ""}>Estudos Bíblicos</a></li>
+              <li><a href="/devocionais" className={isDevocionais ? "active" : ""}>Devocionais</a></li>
+              <li><a href="/personagens-biblicos" className={isPersonagensBiblicos ? "active" : ""}>Personagens Bíblicos</a></li>
+              <li><a href="/testemunhos" className={isTestemunhos ? "active" : ""}>Testemunhos</a></li>
+              <li><a href="/contato" className={isContato ? "active" : ""}>Contato</a></li>
             </ul>
           </nav>
         </header>

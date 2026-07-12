@@ -126,8 +126,14 @@ img {
   color: var(--text-secondary);
 }
 
-.nav-list a:hover {
+.nav-list a:hover,
+.nav-list a.active {
   color: var(--text-primary);
+}
+
+.nav-list a.active {
+  border-bottom: 2px solid var(--text-primary);
+  padding-bottom: 4px;
 }
 
 .header-right {
