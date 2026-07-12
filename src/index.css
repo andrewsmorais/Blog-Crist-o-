@@ -206,21 +206,6 @@ img {
   font-weight: 500;
 }
 
-/* AdSense Placeholders */
-.ad-ph {
-  width: 100%;
-  background-color: #f9f9f9;
-  border: 1px solid var(--border-color);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: #aaa;
-  font-size: 0.8rem;
-  margin-bottom: 40px;
-}
-.ad-leaderboard {
-  height: 90px;
-}
 
 /* --- Hero Section --- */
 .hero-main-link {

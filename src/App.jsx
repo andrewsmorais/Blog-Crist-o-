@@ -3514,10 +3514,6 @@ function App() {
 
             </section>
 
-            {/* AD PLACEHOLDER */}
-            <div className="ad-ph ad-leaderboard">
-              Google AdSense - Espaço Reservado
-            </div>
 
             {/* SEÇÃO 1: ESTUDOS BÍBLICOS */}
             <section className="section-mb">
@@ -3604,10 +3600,6 @@ function App() {
               </div>
             </section>
 
-            {/* AD PLACEHOLDER */}
-            <div className="ad-ph ad-leaderboard">
-              Google AdSense - Espaço Reservado
-            </div>
 
             {/* SEÇÃO 3: CATEGORY SPLIT (TEOLOGIA / DOGMÁTICA) */}
             <section className="section-mb">
