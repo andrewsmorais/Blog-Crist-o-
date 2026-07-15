@@ -120,6 +120,7 @@ const allArticlesData = [
   { link: '/deus-honrou-fe-testemunho-milagres-provisao-divina', image: '/provisao.png', tag: 'Testemunhos', title: 'Deus Honrou a Fé Dela — Provisão Divina' },
   { link: '/14-estrelas-copa-mundo-2026-seguem-jesus-jogadores-cristaos', image: '/copa_mundo_fe.png', tag: 'Notícias', title: '14 Estrelas da Copa 2026 que Seguem Jesus' },
   { link: '/custo-real-do-discipulado-caminhar-na-fe', image: '/discipulado_custo.png', tag: 'Devocionais', title: 'O Custo Real do Discipulado' },
+  { link: '/para-onde-vai-alma-cristao-apos-morte-estado-intermediario-ressurreicao', image: '/estado_intermediario.png', tag: 'Estudos Bíblicos', title: 'Para Onde Vai a Alma do Cristão Após a Morte?' },
 ];
 
 function RelatedArticles({ currentLink, category }) {
@@ -229,6 +230,7 @@ function App() {
   const isNoticias = path === '/noticias';
   const isCopaJesus = path === '/14-estrelas-copa-mundo-2026-seguem-jesus-jogadores-cristaos';
   const isDiscipulado = path === '/custo-real-do-discipulado-caminhar-na-fe';
+  const isEstadoIntermediario = path === '/para-onde-vai-alma-cristao-apos-morte-estado-intermediario-ressurreicao';
   const isHome = path === '/' || path === '';
 
   return (
@@ -3787,6 +3789,156 @@ function App() {
 
               <ShareBar title="O Custo Real do Discipulado" url="/custo-real-do-discipulado-caminhar-na-fe" />
               <RelatedArticles currentLink="/custo-real-do-discipulado-caminhar-na-fe" category="Devocionais" />
+           </main>
+
+         ) : isEstadoIntermediario ? (
+          <main className="article-content section-mb">
+             <Breadcrumb category="Estudos Bíblicos" categoryLink="/estudos-biblicos" title="Para Onde Vai a Alma do Cristão Após a Morte?" />
+             <div className="article-header">
+               <span className="cat-tag">Estudos Bíblicos</span>
+               <h1>Para Onde Vai a Alma do Cristão Após a Morte? O Estado Intermediário e a Esperança da Ressurreição</h1>
+               <p style={{fontSize: '1.1rem', color: '#555', marginTop: '8px', lineHeight: '1.6'}}>Uma análise exegética de 1 Tessalonicenses 4, 2 Coríntios 5 e Filipenses 1 sobre o que acontece com os crentes entre a morte e a segunda vinda de Cristo.</p>
+               <div className="article-meta">📖 <strong>João Calvino</strong></div>
+               <ArticleInfo date="25 de Junho de 2026" readingTime={16} />
+              </div>
+
+              <img src="/estado_intermediario.png" alt="O Estado Intermediário e a Esperança da Ressurreição" className="article-hero-img" loading="lazy" />
+
+              <p>A morte é uma realidade inevitável, mas para o cristão, ela não é o fim. No entanto, muitos crentes ficam confusos sobre o que exatamente acontece quando morremos. A alma vai imediatamente para o céu? Ou permanece em algum estado de "sono" até a ressurreição? Neste estudo, exploraremos o que as Escrituras ensinam sobre o estado intermediário e como a segunda vinda de Cristo se relaciona com essa realidade.</p>
+
+              <hr />
+
+              <h2>A Dúvida Legítima: 1 Tessalonicenses 4</h2>
+
+              <p>A confusão é compreensível quando lemos <strong>1 Tessalonicenses 4:16-17</strong>:</p>
+              
+              <blockquote style={{borderLeft:'4px solid #722F37', background:'#fff9f9', padding:'1.2rem 1.5rem', margin:'1.5rem 0', borderRadius:'4px'}}>
+                <p><em>"Porquanto o Senhor mesmo, dada a sua palavra de ordem, ouvida a voz do arcanjo, e ressoada a trombeta de Deus, descerá dos céus, e os mortos em Cristo ressuscitarão primeiro. Depois, nós, os que estivermos vivos e formos deixados, seremos arrebatados juntamente com eles nas nuvens, para o encontro com o Senhor nos ares, e assim estaremos para sempre com o Senhor."</em></p>
+              </blockquote>
+
+              <p>À primeira vista, pode parecer que os crentes que morreram só encontrarão Jesus na sua segunda vinda, quando ressuscitarem. Isso levantaria a questão: onde estão as almas dos mortos em Cristo antes desse momento? Estariam "dormindo" em algum lugar? Aguardando conscientemente?</p>
+              <p>Para responder a essa pergunta, precisamos examinar o que o próprio apóstolo Paulo ensina em outras passagens.</p>
+
+              <hr />
+
+              <h2>A Certeza Paulina: Estar com Cristo Imediatamente</h2>
+
+              <p>Paulo não deixa margem para dúvidas sobre o destino imediato dos crentes após a morte. Duas passagens são particularmente claras:</p>
+
+              <h3>A. 2 Coríntios 5:6-8 — "Deixar o Corpo e Habitar com o Senhor"</h3>
+              
+              <blockquote style={{borderLeft:'4px solid #722F37', background:'#fff9f9', padding:'1.2rem 1.5rem', margin:'1.5rem 0', borderRadius:'4px'}}>
+                <p><em>"Temos, portanto, sempre bom ânimo, sabendo que, enquanto no corpo, estamos ausentes do Senhor; visto que andamos por fé e não pelo que vemos. Entretanto, estamos em plena confiança, preferindo deixar o corpo e habitar com o Senhor."</em></p>
+              </blockquote>
+
+              <p>Aqui, Paulo apresenta duas alternativas claras:</p>
+              <ul>
+                <li><strong>Estar no corpo</strong> → ausente do Senhor (andar por fé, não por visão)</li>
+                <li><strong>Deixar o corpo</strong> → habitar com o Senhor (presença direta)</li>
+              </ul>
+              <p>Note a lógica: ou estou aqui no corpo (longe da presença plena), ou morro e vou para casa, com o Senhor. Não há uma terceira opção de "sono da alma" ou estado inconsciente.</p>
+
+              <p>O apóstolo tem três opções em mente, em ordem de preferência:</p>
+              <ol>
+                <li>Cristo voltar antes da morte e revesti-lo com corpo glorificado (ideal).</li>
+                <li>Morrer e estar imediatamente com Cristo (sem corpo, mas consciente e infinitamente melhor).</li>
+                <li>Permanecer vivo e trabalhar para o Reino (útil para a Igreja).</li>
+              </ol>
+
+              <h3>B. Filipenses 1:22-24 — "Partir e Estar com Cristo"</h3>
+
+              <blockquote style={{borderLeft:'4px solid #722F37', background:'#fff9f9', padding:'1.2rem 1.5rem', margin:'1.5rem 0', borderRadius:'4px'}}>
+                <p><em>"Entretanto, se o viver na carne traz fruto para o meu trabalho, já não sei o que hei de escolher. Ora, de um e outro lado, estou constrangido, tendo o desejo de partir e estar com Cristo, o que é incomparavelmente melhor. Mas, por vossa causa, é mais necessário permanecer na carne."</em></p>
+              </blockquote>
+
+              <p>A escolha não é "morrer e ter a alma adormecida na sepultura até a segunda vinda". A escolha é entre continuar aqui ou ir para lá — e "lá" é estar com Cristo, consciente e plenamente. Se a morte fosse um "sono inconsciente", Paulo não diria que é <strong>"incomparavelmente melhor"</strong>.</p>
+
+              <hr />
+
+              <h2>Reconciliando as Passagens: O Significado de "Preceder"</h2>
+
+              <p>Como conciliar isso com 1 Tessalonicenses 4, onde Paulo diz que "os mortos em Cristo ressuscitarão primeiro"? A chave está em entender o que significa "preceder".</p>
+
+              <p>A lógica de 1 Tessalonicenses 4:14-17 é a seguinte:</p>
+              <ul>
+                <li><strong>v.14:</strong> Os que "dormem" (morreram) já estão com Jesus no céu, e Ele os trará consigo.</li>
+                <li><strong>v.15:</strong> Os vivos não terão vantagem sobre os mortos.</li>
+                <li><strong>v.16:</strong> Os mortos em Cristo ressuscitarão primeiro.</li>
+                <li><strong>v.17:</strong> Todos juntos, vivos transformados e mortos ressuscitados, serão arrebatados.</li>
+              </ul>
+
+              <p><strong>"Preceder" não se refere a quem chega primeiro ao céu</strong> (os mortos já estão lá). "Preceder" refere-se a quem experimenta primeiro a plenitude da segunda vinda com corpos ressurretos. Os mortos já estão com Cristo (alma no céu); na segunda vinda, seus corpos ressuscitarão primeiro. Ninguém terá vantagem na experiência gloriosa da volta de Cristo.</p>
+
+              <hr />
+
+              <h2>O Estado Intermediário: Consciente e com Cristo</h2>
+
+              <p>Com base nessas passagens, podemos concluir quatro realidades claras:</p>
+              
+              <ul style={{listStyleType:'none', paddingLeft:0}}>
+                <li style={{marginBottom:'10px'}}>✅ <strong>A alma vai imediatamente para a presença de Cristo:</strong> Não há "sono da alma" ou estado intermediário de purificação (purgatório). Há comunhão consciente e gozosa.</li>
+                <li style={{marginBottom:'10px'}}>✅ <strong>Esse estado é "melhor", mas não é o "melhor de todos":</strong> É melhor do que estar aqui, mas o estado ideal e final é a ressurreição corporal (1 Coríntios 15).</li>
+                <li style={{marginBottom:'10px'}}>✅ <strong>A segunda vinda não é o primeiro encontro:</strong> A alma já está com Ele. A segunda vinda é quando o corpo é ressuscitado e reunido à alma.</li>
+                <li style={{marginBottom:'10px'}}>✅ <strong>Não há vantagem entre vivos e mortos:</strong> Na volta de Cristo, todos serão arrebatados e experimentarão a glória simultaneamente.</li>
+              </ul>
+
+              <hr />
+
+              <h2>Implicações Práticas para Nossa Vida</h2>
+
+              <ul style={{listStyleType:'none', paddingLeft:0}}>
+                <li style={{marginBottom:'10px'}}>✓ <strong>Consolo na Morte de Entes Queridos:</strong> Quando um irmão morre, choramos, mas não sem esperança (1 Ts 4:13). Ele já está com o Senhor.</li>
+                <li style={{marginBottom:'10px'}}>✓ <strong>Coragem para Enfrentar a Própria Morte:</strong> Se hoje você enfrentasse a morte, iria para a presença de Cristo. O medo natural submete-se à esperança eterna.</li>
+                <li style={{marginBottom:'10px'}}>✓ <strong>Urgência na Missão:</strong> Enquanto estamos aqui, temos propósito. Paulo escolheu permanecer "por vossa causa" (Fp 1:24).</li>
+                <li style={{marginBottom:'10px'}}>✓ <strong>Anseio pela Volta de Cristo:</strong> A melhor notícia não é ir para o céu; é que Cristo voltará e teremos corpos glorificados.</li>
+              </ul>
+
+              <hr />
+
+              <h2>Conclusão: A Esperança que Não Envergonha</h2>
+
+              <p>A doutrina do estado intermediário não é um detalhe teológico obscuro. É o alicerce da esperança cristã. A morte não tem a última palavra. Cristo tem. E Ele disse: <em>"Eu sou a ressurreição e a vida. Quem crê em mim, ainda que morra, viverá"</em> (João 11:25).</p>
+
+              <div style={{background:'#f8f9fa', border:'1px solid #e2e4e7', borderRadius:'12px', padding:'24px', margin:'30px 0'}}>
+                <h3 style={{marginTop:0}}>📖 Referências Bíblicas Principais</h3>
+                <ul>
+                  <li><strong>1 Tessalonicenses 4:13-18</strong> — Os mortos em Cristo ressuscitarão primeiro.</li>
+                  <li><strong>2 Coríntios 5:6-9</strong> — "Deixar o corpo e habitar com o Senhor".</li>
+                  <li><strong>Filipenses 1:22-24</strong> — "Partir e estar com Cristo, o que é incomparavelmente melhor".</li>
+                  <li><strong>João 11:25</strong> — "Eu sou a ressurreição e a vida".</li>
+                  <li><strong>Romanos 8:23</strong> — Aguardamos a redenção do nosso corpo.</li>
+                  <li><strong>1 Coríntios 15</strong> — A doutrina da ressurreição corporal.</li>
+                  <li><strong>Apocalipse 14:13</strong> — "Bem-aventurados os mortos que morrem no Senhor".</li>
+                </ul>
+              </div>
+
+              <div style={{background:'#f8f9fa', border:'1px solid #e2e4e7', borderRadius:'12px', padding:'24px', margin:'30px 0'}}>
+                <h3 style={{marginTop:0}}>📚 Leituras Recomendadas</h3>
+                <ul>
+                  <li><em>"A Morte e a Vida Após a Morte"</em> — John Piper (foco bíblico e pastoral)</li>
+                  <li><em>"O Céu"</em> — Randy Alcorn (exploração detalhada do estado intermediário e eterno)</li>
+                  <li><em>"Surpreendido pela Esperança"</em> — N.T. Wright (escatologia bíblica renovada)</li>
+                  <li><em>"Teologia Sistemática"</em> — Wayne Grudem (capítulo sobre escatologia)</li>
+                  <li><em>"A Ressurreição do Filho de Deus"</em> — Darrell Bock e Michael Gorman</li>
+                </ul>
+              </div>
+
+              <p style={{textAlign:'center', fontStyle:'italic', color:'#555', marginTop:'30px'}}>
+                "Bendito seja o Deus e Pai de nosso Senhor Jesus Cristo, que, segundo a sua grande misericórdia, nos regenerou para uma viva esperança, mediante a ressurreição de Jesus Cristo dentre os mortos." — <strong>1 Pedro 1:3</strong><br/><br/>
+                <strong>Soli Deo Gloria. 🙏✨</strong>
+              </p>
+
+              <div className="tags" style={{marginTop:'30px'}}>
+                <span className="cat-tag" style={{marginRight: '10px'}}>#escatologia</span>
+                <span className="cat-tag" style={{marginRight: '10px'}}>#ressurreição</span>
+                <span className="cat-tag" style={{marginRight: '10px'}}>#vidapósamorte</span>
+                <span className="cat-tag" style={{marginRight: '10px'}}>#1Tessalonicenses</span>
+                <span className="cat-tag" style={{marginRight: '10px'}}>#teologiasistemática</span>
+                <span className="cat-tag">#esperança</span>
+              </div>
+
+              <ShareBar title="Para Onde Vai a Alma do Cristão Após a Morte?" url="/para-onde-vai-alma-cristao-apos-morte-estado-intermediario-ressurreicao" />
+              <RelatedArticles currentLink="/para-onde-vai-alma-cristao-apos-morte-estado-intermediario-ressurreicao" category="Estudos Bíblicos" />
            </main>
 
          ) : isHome ? (
