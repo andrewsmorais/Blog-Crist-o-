@@ -121,6 +121,7 @@ const allArticlesData = [
   { link: '/14-estrelas-copa-mundo-2026-seguem-jesus-jogadores-cristaos', image: '/copa_mundo_fe.png', tag: 'Notícias', title: '14 Estrelas da Copa 2026 que Seguem Jesus' },
   { link: '/custo-real-do-discipulado-caminhar-na-fe', image: '/discipulado_custo.png', tag: 'Devocionais', title: 'O Custo Real do Discipulado' },
   { link: '/para-onde-vai-alma-cristao-apos-morte-estado-intermediario-ressurreicao', image: '/estado_intermediario.png', tag: 'Estudos Bíblicos', title: 'Para Onde Vai a Alma do Cristão Após a Morte?' },
+  { link: '/meus-planos-e-a-graca-de-deus-arquiteto-do-lar', image: '/arquiteto_do_lar.png', tag: 'Devocionais', title: 'Meus Planos e a Graça de Deus' },
 ];
 
 function RelatedArticles({ currentLink, category }) {
@@ -231,6 +232,7 @@ function App() {
   const isCopaJesus = path === '/14-estrelas-copa-mundo-2026-seguem-jesus-jogadores-cristaos';
   const isDiscipulado = path === '/custo-real-do-discipulado-caminhar-na-fe';
   const isEstadoIntermediario = path === '/para-onde-vai-alma-cristao-apos-morte-estado-intermediario-ressurreicao';
+  const isArquitetoDoLar = path === '/meus-planos-e-a-graca-de-deus-arquiteto-do-lar';
   const isHome = path === '/' || path === '';
 
   return (
@@ -3939,6 +3941,70 @@ function App() {
 
               <ShareBar title="Para Onde Vai a Alma do Cristão Após a Morte?" url="/para-onde-vai-alma-cristao-apos-morte-estado-intermediario-ressurreicao" />
               <RelatedArticles currentLink="/para-onde-vai-alma-cristao-apos-morte-estado-intermediario-ressurreicao" category="Estudos Bíblicos" />
+           </main>
+
+         ) : isArquitetoDoLar ? (
+          <main className="article-content section-mb">
+             <Breadcrumb category="Devocionais" categoryLink="/devocionais" title="Meus Planos e a Graça de Deus" />
+             <div className="article-header">
+               <span className="cat-tag">Devocionais</span>
+               <h1>Meus planos e a graça de Deus: Deus, Arquiteto do lar</h1>
+               <p style={{fontSize: '1.1rem', color: '#555', marginTop: '8px', lineHeight: '1.6'}}>Uma reflexão sobre nossas metas para 2026, a soberania de Deus em nossas famílias e a esperança que encontramos no nascimento de Emanuel.</p>
+               <div className="article-meta">📖 <strong>Soli Deo Gloria</strong></div>
+               <ArticleInfo date="14 de Julho de 2026" readingTime={7} />
+              </div>
+
+              <img src="/arquiteto_do_lar.png" alt="Deus, Arquiteto do Lar" className="article-hero-img" loading="lazy" />
+
+              <p>Você faz planos para 2026. Elabora um programa de atividades físicas aliado a uma dieta com o objetivo de desinflamar o corpo, emagrecer e ganhar mais tempo de vida com saúde. Decide que finalmente concluirá aquele curso on-line que já começou, embora mal se lembre do que aprendeu nas primeiras aulas. Além disso, estabelece metas de aperfeiçoamento profissional que prometem garantir uma posição mais interessante na empresa em que trabalha.</p>
+
+              <p>Na rotina familiar, promove algumas mudanças nas tarefas domésticas para ter mais tempo com o cônjuge e direcionar melhor a educação dos filhos. Planos definidos, metas organizadas e um ano inteiro pela frente — como uma folha de caderno em branco, pronta para ser preenchida. O coração se enche de alegria com a expectativa de que, daqui para frente, a história será empolgante.</p>
+
+              <p>Em tudo isso, porém, é a graça de Deus que nos dirige e nos capacita a avançar com ordem, disciplina e esperança.</p>
+
+              <div style={{background:'#fdf8f5', borderLeft:'4px solid #c9a84c', padding:'24px', margin:'30px 0', borderRadius:'0 12px 12px 0'}}>
+                <p style={{fontStyle:'italic', margin:0, color:'#5a4a2a', lineHeight:'1.8'}}>
+                  "Se o Senhor não edificar a casa,<br/>
+                  em vão trabalham os que a edificam;<br/>
+                  se o Senhor não guardar a cidade,<br/>
+                  em vão vigia a sentinela.<br/><br/>
+                  Inútil vos será levantar de madrugada, repousar tarde,<br/>
+                  comer o pão que penosamente granjeastes;<br/>
+                  aos seus amados ele o dá enquanto dormem.<br/><br/>
+                  Herança do Senhor são os filhos;<br/>
+                  o fruto do ventre, seu galardão.<br/><br/>
+                  Como flechas na mão do guerreiro,<br/>
+                  assim os filhos da mocidade.<br/><br/>
+                  Feliz o homem que enche deles a sua aljava;<br/>
+                  não será envergonhado,<br/>
+                  quando pleitear com os inimigos à porta."<br/>
+                  <br/>
+                  <strong>— Salmo 127</strong>
+                </p>
+              </div>
+
+              <p>Deus, em sua soberania, provê tudo o que seus filhos realmente precisam. Nós fazemos planos, nos organizamos e trabalhamos, mas não podemos — nem devemos — deixar Deus fora de nossa existência.</p>
+
+              <p>O Salmo 127 nos ensina que <strong>Deus é o arquiteto da casa</strong>. O salmista, Salomão, refere-se tanto ao edifício quanto ao que acontece dentro dele. Deus se importa com a habitação do seu povo, com o lar em sua dimensão visível e invisível. Por isso, devemos depender da sabedoria desse Arquiteto sábio e soberano ao planejar a casa, pois, sem o Senhor, todo trabalho se torna inútil.</p>
+
+              <p>O salmista prossegue falando dos filhos. A criação dos filhos começa no lar — esse lar que construímos segundo as instruções do Arquiteto divino. O lar é o lugar de nossa habitação nesta terra, onde a vida comum acontece: onde famílias se formam, aprendem a amar e a cuidar umas das outras. Assim, de geração em geração, os filhos crescem, deixam a casa e formam novas famílias em novos lares, e o ciclo se repete.</p>
+
+              <p>Deus graciosamente nos ensina que o nascimento de um bebê sempre renova a vida familiar. Uma nova vida traz consigo novos afetos, novos cuidados e uma grande responsabilidade. É nesse contexto que o nascimento de Jesus ganha ainda mais significado. Quando o Deus-homem nasce em um lar, a pedagogia do Pai nos revela seu amor: Ele oferece o seu Filho para habitar entre nós, em uma família humana, frágil e pecadora. <strong>Que graça imerecida!</strong></p>
+
+              <p>A chegada de Emanuel, Deus conosco, é esperança e consolo para nossos corações corrompidos. Esperança de que aprenderemos a amar como o Pai nos ama; consolo, porque Ele veio para curar nosso coração ferido e nos resgatar de nosso miserável pecado.</p>
+
+              <p>É impossível vigiar a casa — e ainda mais impossível amar como o Pai nos ama — sem o Salvador entre nós. Em vão vigiamos, planejamos e vivemos se Jesus não for o centro. <strong>Ele é o Alfa e o Ômega, o Princípio e o Fim.</strong></p>
+
+              <div className="tags" style={{marginTop:'30px'}}>
+                <span className="cat-tag" style={{marginRight: '10px'}}>#planos</span>
+                <span className="cat-tag" style={{marginRight: '10px'}}>#família</span>
+                <span className="cat-tag" style={{marginRight: '10px'}}>#graça</span>
+                <span className="cat-tag" style={{marginRight: '10px'}}>#Salmo127</span>
+                <span className="cat-tag">#Emanuel</span>
+              </div>
+
+              <ShareBar title="Meus planos e a graça de Deus: Deus, Arquiteto do lar" url="/meus-planos-e-a-graca-de-deus-arquiteto-do-lar" />
+              <RelatedArticles currentLink="/meus-planos-e-a-graca-de-deus-arquiteto-do-lar" category="Devocionais" />
            </main>
 
          ) : isHome ? (
