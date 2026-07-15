@@ -122,6 +122,7 @@ const allArticlesData = [
   { link: '/custo-real-do-discipulado-caminhar-na-fe', image: '/discipulado_custo.png', tag: 'Devocionais', title: 'O Custo Real do Discipulado' },
   { link: '/para-onde-vai-alma-cristao-apos-morte-estado-intermediario-ressurreicao', image: '/estado_intermediario.png', tag: 'Estudos Bíblicos', title: 'Para Onde Vai a Alma do Cristão Após a Morte?' },
   { link: '/meus-planos-e-a-graca-de-deus-arquiteto-do-lar', image: '/arquiteto_do_lar.png', tag: 'Devocionais', title: 'Meus Planos e a Graça de Deus' },
+  { link: '/multidao-oposicao-ou-discipulo-quem-segue-jesus-marcos-3', image: '/marcos3_discipulos.png', tag: 'Estudos Bíblicos', title: 'Multidão, Oposição ou Discípulo?' },
 ];
 
 function RelatedArticles({ currentLink, category }) {
@@ -161,6 +162,14 @@ function NotFoundPage() {
 }
 
 const heroArticles = [
+  {
+    link: "/multidao-oposicao-ou-discipulo-quem-segue-jesus-marcos-3",
+    image: "/marcos3_discipulos.png",
+    tag: "Estudos Bíblicos",
+    title: "Multidão, Oposição ou Discípulo? Quem Realmente Segue a Jesus em Marcos 3",
+    excerpt: "Uma análise exegética sobre o chamado, a identidade de Cristo e o custo do verdadeiro discipulado. Descubra a diferença entre buscar benefícios e responder ao chamado de Cristo.",
+    meta: "Marcos 3:14"
+  },
   {
     link: "/ah-jesus-coracao-igual-ao-teu-analise-biblica-julliany-souza",
     image: "/worship_hero.png",
@@ -233,6 +242,7 @@ function App() {
   const isDiscipulado = path === '/custo-real-do-discipulado-caminhar-na-fe';
   const isEstadoIntermediario = path === '/para-onde-vai-alma-cristao-apos-morte-estado-intermediario-ressurreicao';
   const isArquitetoDoLar = path === '/meus-planos-e-a-graca-de-deus-arquiteto-do-lar';
+  const isMarcos3 = path === '/multidao-oposicao-ou-discipulo-quem-segue-jesus-marcos-3';
   const isHome = path === '/' || path === '';
 
   return (
@@ -4005,6 +4015,138 @@ function App() {
 
               <ShareBar title="Meus planos e a graça de Deus: Deus, Arquiteto do lar" url="/meus-planos-e-a-graca-de-deus-arquiteto-do-lar" />
               <RelatedArticles currentLink="/meus-planos-e-a-graca-de-deus-arquiteto-do-lar" category="Devocionais" />
+           </main>
+
+         ) : isMarcos3 ? (
+          <main className="article-content section-mb">
+             <Breadcrumb category="Estudos Bíblicos" categoryLink="/estudos-biblicos" title="Multidão, Oposição ou Discípulo?" />
+             <div className="article-header">
+               <span className="cat-tag">Estudos Bíblicos</span>
+               <h1>Multidão, Oposição ou Discípulo? Quem Realmente Segue a Jesus em Marcos 3</h1>
+               <p style={{fontSize: '1.1rem', color: '#555', marginTop: '8px', lineHeight: '1.6'}}>Uma análise exegética sobre o chamado, a identidade de Cristo e o custo do verdadeiro discipulado.</p>
+               <div className="article-meta">📖 <strong>João Calvino</strong> (Adaptação Teológica)</div>
+               <ArticleInfo date="25 de Junho de 2026" readingTime={12} />
+              </div>
+
+              <img src="/marcos3_discipulos.png" alt="Jesus e seus discípulos" className="article-hero-img" loading="lazy" />
+
+              <blockquote style={{borderLeft:'4px solid #722F37', background:'#fff9f9', padding:'1.2rem 1.5rem', margin:'1.5rem 0', borderRadius:'4px'}}>
+                <p><em>"O caminho de Jesus estava intimamente ligado à obediência à vontade de Deus. Portanto, a própria experiência de rejeição de Jesus por sua família serve como modelo para um discipulado que pode muito bem custar a outros seus laços familiares."</em> — <strong>Robert Guelich</strong></p>
+              </blockquote>
+
+              <p>Em Marcos 3, o evangelista organiza sua narrativa com precisão cirúrgica. Após uma série de conflitos com as autoridades religiosas, Jesus reúne multidões, chama doze discípulos, é acusado de estar possesso e redefine o que significa ser sua família. No centro de tudo, uma pergunta silenciosa ecoa: <strong>quem realmente está seguindo a Jesus?</strong></p>
+              
+              <p>Este artigo mergulha na perícope de Marcos 3:7-35 para discernir a diferença entre a multidão que busca benefícios, a oposição que tenta controlar ou condenar Cristo, e os verdadeiros discípulos que respondem ao chamado com obediência e confissão. Uma reflexão necessária para a igreja contemporânea, onde o "seguir a Jesus" muitas vezes foi reduzido a consumo espiritual, e não a compromisso cruciforme.</p>
+
+              <hr />
+
+              <h2>🌊 A Multidão que Busca Benefícios vs. Os Discípulos Chamados</h2>
+
+              <p>Marcos usa termos similares para descrever a multidão (<em>ὄχλος</em> – ochlos; <em>πλῆθος</em> – plēthos) e os seguidores (3:32), e até emprega o mesmo verbo (<em>ἀκολουθέω</em> – akoloutheō) para ambos os grupos. Mas a semelhança linguística esconde uma diferença radical de motivação.</p>
+
+              <h3>A Multidão: Atraída pela Fama, não pela Pessoa</h3>
+              <p>A multidão vai até Jesus porque ouviu "a respeito de tudo o que Ele estava fazendo" (3:8). Curas, exorcismos, autoridade sobrenatural. Eles não buscam quem Jesus é; buscam o que Ele pode fazer por eles. Marcos relata que "todos os que sofriam de doenças ficavam se empurrando para conseguir tocar nele" (3:10). A fama de Jesus se espalhava por milagres, não por seus ensinamentos.</p>
+              <p>Curiosamente, Marcos faz um jogo de palavras sutil: enquanto a multidão jogava-se sobre Jesus (<em>ἐπιπίπτω</em> – epipiptō; 3:9), os demônios prostravam-se diante dele (<em>προσπίπτω</em> – prospiptō; 3:11). Os espíritos imundos, ainda que hostis, reconheciam sua autoridade. A multidão queria apenas usar Jesus, não adorá-Lo.</p>
+
+              <h3>Os Discípulos: Chamados para Estar, não para Consumir</h3>
+              <p>Enquanto a multidão se aglomera por interesse, Jesus sobe ao monte e "chamou a si aqueles que Ele quis" (3:13). O verbo <em>καλέω</em> (kaleō) indica iniciativa divina. Os discípulos não vão por curiosidade; vão em resposta ao convite do Mestre. Jesus não os chama para receber milagres, mas <strong>para estar com Ele</strong> (3:14). O discipulado começa na presença, não no benefício. E dessa presença nasce o comissionamento.</p>
+
+              <hr />
+
+              <h2>⚔️ A Oposição: Familiares, Escribas e a Confissão dos Demônios</h2>
+
+              <p>O antagonismo contra Jesus não vem apenas dos fariseus (3:6), mas também de sua família e dos mestres da lei.</p>
+
+              <h3>Familiares: "Ele está fora de si!" (3:21)</h3>
+              <p>Preocupados com o ritmo intenso de Jesus, seus parentes saem para "prendê-lo". Na visão deles, o Messias era um lunático. A preocupação humana, quando não submetida à revelação divina, pode se tornar oposição espiritual.</p>
+
+              <h3>Escribas: "Ele está possesso de Belzebu" (3:22)</h3>
+              <p>Testemunhas dos exorcismos, os escribas não podiam negar os fatos, mas atribuíram o poder de Jesus a Satanás. Para eles, o Filho de Deus era um endemoninhado.</p>
+
+              <h3>A Ironia Teológica: Os Demônios Sabem Quem Ele É</h3>
+              <p>Em meio a tantas vozes equivocadas, apenas os espíritos imundos acertam: "Tu és o Filho de Deus" (3:11). Humanos rejeitam ou distorcem a identidade de Cristo, enquanto os demônios a reconhecem. Contudo, <strong>reconhecimento não é discipulado</strong>. Os demônios sabem, mas não se submetem. O discípulo sabe, confia e obedece.</p>
+
+              <hr />
+
+              <h2>👨‍👩‍👧 A Verdadeira Família de Jesus: Obediência como Marcador</h2>
+
+              <p>Quando a mãe e os irmãos de Jesus chegam e mandam chamá-Lo (3:31), Marcos usa o mesmo verbo <em>καλέω</em> (kaleō) usado para chamar os doze. A ironia é proposital: os familiares biológicos estão fora, enquanto os que obedecem à vontade de Deus estão dentro, assentados ao redor dEle (3:32).</p>
+
+              <blockquote style={{borderLeft:'4px solid #722F37', background:'#fff9f9', padding:'1.2rem 1.5rem', margin:'1.5rem 0', borderRadius:'4px'}}>
+                <p><em>"Quem faz a vontade de Deus, este é meu irmão, minha irmã e minha mãe."</em> — <strong>Marcos 3:35</strong></p>
+              </blockquote>
+
+              <p>A família espiritual de Cristo não é definida por sangue, tradição ou proximidade cultural, mas por <strong>obediência à vontade do Pai</strong>. O discipulado verdadeiro rompe barreiras naturais e cria laços eternos.</p>
+
+              <hr />
+
+              <h2>🔍 Duas Perguntas que Revelam seu Lugar</h2>
+
+              <p>Marcos nos confronta com perguntas essenciais:</p>
+              
+              <ul style={{listStyleType:'none', paddingLeft:0}}>
+                <li style={{marginBottom:'15px'}}>
+                  <strong>1. Você vai até Jesus em busca de benefícios ou foi chamado para estar com Ele?</strong><br/>
+                  A multidão busca o que Jesus pode dar. O discípulo busca Jesus.
+                </li>
+                <li>
+                  <strong>2. Quem é Jesus para você?</strong><br/>
+                  Um meio para fins pessoais? → <em>Multidão.</em><br/>
+                  Um lunático ou um perigoso? → <em>Oposição.</em><br/>
+                  O Filho de Deus, digno de obediência e entrega? → <em>Discípulo.</em>
+                </li>
+              </ul>
+
+              <p>Seguir a Cristo não é aderir a um movimento religioso. É responder a um chamado pessoal, confessar sua identidade divina e viver em obediência diária.</p>
+
+              <hr />
+
+              <h2>🌱 Aplicação Prática para a Igreja Hoje</h2>
+
+              <ul>
+                <li style={{marginBottom:'10px'}}><strong>Examine suas motivações:</strong> Você busca a Cristo por seus dons ou por Ele mesmo?</li>
+                <li style={{marginBottom:'10px'}}><strong>Abrace o chamado à presença:</strong> O discipulado começa no "estar com Ele", não no "fazer para Ele".</li>
+                <li style={{marginBottom:'10px'}}><strong>Não tema a oposição:</strong> Familiares, cultura ou religiões podem tentar "prendê-lo" em expectativas humanas. Permaneça na obediência.</li>
+                <li><strong>Viva a família espiritual:</strong> A igreja é o lugar onde a vontade de Deus é praticada em comunidade. Não subestime os laços da obediência compartilhada.</li>
+              </ul>
+
+              <hr />
+
+              <div style={{background:'#f8f9fa', borderLeft:'4px solid #0066cc', borderTop:'1px solid #e2e4e7', borderRight:'1px solid #e2e4e7', borderBottom:'1px solid #e2e4e7', borderRadius:'0 8px 8px 0', padding:'24px', margin:'30px 0'}}>
+                <h3 style={{marginTop:0, color:'#0066cc'}}>📖 Versículos-Chave para Meditação</h3>
+                <p style={{margin: '10px 0'}}><strong>Marcos 3:14</strong> — "Jesus escolheu doze homens para estar com Ele e para os enviar a pregar..."</p>
+                <p style={{margin: '10px 0'}}><strong>Marcos 3:35</strong> — "Quem faz a vontade de Deus, este é meu irmão, minha irmã e minha mãe."</p>
+                <p style={{margin: '10px 0'}}><strong>Marcos 8:34</strong> — "Se alguém quer vir após mim, negue-se a si mesmo, tome a sua cruz e siga-me."</p>
+                <p style={{margin: '10px 0'}}><strong>João 15:16</strong> — "Vós não me escolhestes a mim; pelo contrário, eu vos escolhi a vós."</p>
+              </div>
+
+              <div style={{background:'#f8f9fa', border:'1px solid #e2e4e7', borderRadius:'12px', padding:'24px', margin:'30px 0'}}>
+                <h3 style={{marginTop:0}}>📚 Leituras Recomendadas</h3>
+                <ul>
+                  <li><em>"Mark 1-8:26"</em> — Robert Guelich (Word Biblical Commentary)</li>
+                  <li><em>"The Gospel of Mark"</em> — R.T. France (NICNT)</li>
+                  <li><em>"Seguindo a Jesus"</em> — Dietrich Bonhoeffer</li>
+                  <li><em>"O Discipulado Radical"</em> — David Platt</li>
+                  <li><em>"Cristo e Cultura"</em> — H. Richard Niebuhr</li>
+                </ul>
+              </div>
+
+              <p style={{textAlign:'center', fontStyle:'italic', color:'#555', marginTop:'30px'}}>
+                "Porque dele, e por meio dele, e para ele são todas as coisas. A ele, pois, a glória eternamente. Amém." — <strong>Romanos 11:36</strong><br/><br/>
+                <strong>Soli Deo Gloria. 🙏📖✨</strong>
+              </p>
+
+              <div className="tags" style={{marginTop:'30px'}}>
+                <span className="cat-tag" style={{marginRight: '10px'}}>#Marcos3</span>
+                <span className="cat-tag" style={{marginRight: '10px'}}>#discipulado</span>
+                <span className="cat-tag" style={{marginRight: '10px'}}>#identidadeDeCristo</span>
+                <span className="cat-tag" style={{marginRight: '10px'}}>#obediência</span>
+                <span className="cat-tag" style={{marginRight: '10px'}}>#teologiaBíblica</span>
+                <span className="cat-tag">#SoliDeoGloria</span>
+              </div>
+
+              <ShareBar title="Multidão, Oposição ou Discípulo?" url="/multidao-oposicao-ou-discipulo-quem-segue-jesus-marcos-3" />
+              <RelatedArticles currentLink="/multidao-oposicao-ou-discipulo-quem-segue-jesus-marcos-3" category="Estudos Bíblicos" />
            </main>
 
          ) : isHome ? (
