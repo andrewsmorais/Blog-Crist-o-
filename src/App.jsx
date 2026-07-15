@@ -119,6 +119,7 @@ const allArticlesData = [
   { link: '/testemunho-julliany-souza-louvor-arma-espiritual-familia', image: '/testemunho_julliany.png', tag: 'Testemunhos', title: 'Julliany Souza: Louvor como Arma' },
   { link: '/deus-honrou-fe-testemunho-milagres-provisao-divina', image: '/provisao.png', tag: 'Testemunhos', title: 'Deus Honrou a Fé Dela — Provisão Divina' },
   { link: '/14-estrelas-copa-mundo-2026-seguem-jesus-jogadores-cristaos', image: '/copa_mundo_fe.png', tag: 'Notícias', title: '14 Estrelas da Copa 2026 que Seguem Jesus' },
+  { link: '/custo-real-do-discipulado-caminhar-na-fe', image: '/discipulado_custo.png', tag: 'Devocionais', title: 'O Custo Real do Discipulado' },
 ];
 
 function RelatedArticles({ currentLink, category }) {
@@ -227,6 +228,7 @@ function App() {
   const isSantificacao = path === '/santificacao-obra-vida-inteira-estudo';
   const isNoticias = path === '/noticias';
   const isCopaJesus = path === '/14-estrelas-copa-mundo-2026-seguem-jesus-jogadores-cristaos';
+  const isDiscipulado = path === '/custo-real-do-discipulado-caminhar-na-fe';
   const isHome = path === '/' || path === '';
 
   return (
@@ -3647,6 +3649,144 @@ function App() {
 
               <ShareBar title="14 Estrelas da Copa do Mundo 2026 que Seguem Jesus" url="/14-estrelas-copa-mundo-2026-seguem-jesus-jogadores-cristaos" />
               <RelatedArticles currentLink="/14-estrelas-copa-mundo-2026-seguem-jesus-jogadores-cristaos" category="Notícias" />
+           </main>
+
+         ) : isDiscipulado ? (
+          <main className="article-content section-mb">
+             <Breadcrumb category="Devocionais" categoryLink="/devocionais" title="O Custo Real do Discipulado" />
+             <div className="article-header">
+               <span className="cat-tag">Devocionais</span>
+               <h1>O Custo Real do Discipulado: Por que Caminhar com Alguém na Fé Exige Mais do que Boa Vontade</h1>
+               <p style={{fontSize: '1.1rem', color: '#555', marginTop: '8px', lineHeight: '1.6'}}>Uma reflexão sobre a natureza cruciforme do discipulado bíblico, o perigo da alma voltada para si mesma e o chamado a amar como Cristo amou.</p>
+               <div className="article-meta">📖 <strong>Thomas Anderson</strong> (Adaptação e Revisão: João Calvino)</div>
+               <ArticleInfo date="25 de Junho de 2026" readingTime={14} />
+              </div>
+
+              <img src="/discipulado_custo.png" alt="O Custo Real do Discipulado" className="article-hero-img" loading="lazy" />
+
+              <p>Há um momento em todo relacionamento genuíno de discipulado em que a conversa deixa de girar em torno de conceitos gerais e passa a encarar a realidade nua e crua da vida do outro. A energia inicial dá lugar ao silêncio. A conveniência cede espaço ao desconforto. E é exatamente aí que descobrimos o <strong>verdadeiro preço de caminhar lado a lado na fé</strong>.</p>
+
+              <p>Muitos começam essa jornada com entusiasmo, esperando que o discipulado seja sempre leve, produtivo e recompensador. E, de fato, ele pode ser profundamente gratificante. No entanto, a igreja frequentemente silencia sobre o outro lado da moeda: <strong>o discipulado bíblico não é apenas um programa de mentoria; é um chamado cruciforme</strong>. Exige entrega, paciência, verdade dita em amor e uma disposição de amar mesmo quando o processo se torna inconveniente, lento ou doloroso.</p>
+
+              <p>Se você já tentou acompanhar alguém espiritualmente — ou ser acompanhado —, provavelmente já sentiu esse peso. E isso é bom. Porque é nesse custo que a graça de Deus se torna real, tangível e transformadora.</p>
+
+              <hr />
+
+              <h2>A Alma Curvada para Si Mesma</h2>
+
+              <p>Desde a Queda, a natureza humana carrega uma tendência profunda: voltar-se para dentro. Teólogos como Jonathan Edwards e os reformadores descreveram essa condição com a expressão latina <em>incurvatus in se</em> — <strong>"curvado sobre si mesmo"</strong>. Não se trata apenas de egoísmo superficial, mas de uma reorientação espiritual: a alma que deveria olhar para Deus e para o próximo passa a orbitar em torno de si, de seus medos, desejos e autopreservação.</p>
+
+              <p>Podemos sentir isso fisicamente quando estamos exaustos ou assustados: os ombros caem, o peito se fecha, a postura se recolhe. Espiritualmente, o efeito é ainda mais devastador. Uma alma curvada para dentro pode manter uma rotina religiosa impecável por décadas, cumprir deveres, ler a Bíblia e frequentar cultos, <strong>sem jamais experimentar a libertação que vem do amor sacrificial ao outro</strong>.</p>
+
+              <p>É aqui que o discipulado revela sua verdadeira natureza. Ele não pode ser sustentado por disciplina humana ou força de vontade. Exige uma reorientação que só o Espírito Santo pode operar: <strong>descurvar a alma, abrir o olhar para fora e restaurar a capacidade de amar com verdade e paciência</strong>.</p>
+
+              <hr />
+
+              <h2>O Preço para Quem Discipula</h2>
+
+              <p>O custo para o discipulador geralmente começa com o atrito do dia a dia: uma mensagem que chega quando você precisava descansar, uma conversa que exige preparo quando você já está esgotado, uma reunião que se estende além do planejado. No início, há alegria em ser útil. Há satisfação em ver confiança sendo depositada em você.</p>
+
+              <p>Com o tempo, porém, a realidade se impõe. As pessoas não amadurecem no nosso ritmo. Repetem os mesmos erros. Evitam conversas necessárias. Pedem direção e, às vezes, ignoram o conselho. É nesse ponto que o discipulador enfrenta um perigo silencioso: <strong>começar a medir seu próprio valor pelo progresso visível do discípulo</strong>.</p>
+
+              <p>Quando isso acontece, o jardim vira fábrica. Em vez de jardineiros que regam, podam e esperam, nos tornamos fabricantes que cobram resultados, prazos e indicadores de sucesso. <strong>Esquecemos que não produzimos vida; apenas preparamos o terreno.</strong></p>
+
+              <hr />
+
+              <h2>O Preço para Quem é Discipulado</h2>
+
+              <p>Do outro lado, o custo é diferente, mas igualmente real. Muitos desejam mentores; poucos estão dispostos a serem discipulados. A mentoria pode ser confortável: afirmação, dicas estratégicas, conselhos pontuais. O discipulado, por outro lado, envolve <strong>formação espiritual</strong>. E formação exige confronto.</p>
+
+              <blockquote style={{borderLeft:'4px solid #722F37', background:'#fff9f9', padding:'1.2rem 1.5rem', margin:'1.5rem 0', borderRadius:'4px'}}>
+                <p><em>"Leais são as feridas feitas pelo amigo, mas os beijos de um inimigo são enganosos."</em> — <strong>Provérbios 27:6</strong></p>
+              </blockquote>
+
+              <p>Em uma cultura que confunde validação com amor e trata toda correção como agressão, ouvir a verdade dói. Ser discipulado significa permitir que alguém veja suas áreas cegas, nomeie seus padrões destrutivos e <strong>te ame o suficiente para não te deixar confortável no pecado</strong>.</p>
+
+              <p>É um processo que exige humildade. Exige crer que quem te corrige não é teu inimigo, mas um irmão que caminha contigo rumo à santidade.</p>
+
+              <hr />
+
+              <h2>A Metáfora do Jardim: Plantar, Regar, Esperar</h2>
+
+              <p>A imagem bíblica mais antiga e mais precisa para esse trabalho é a jardinagem. Em <strong>Gênesis 2:15</strong>, Deus coloca o homem no jardim "para lavrá-lo e guardá-lo". Séculos depois, Paulo retoma a mesma linguagem:</p>
+
+              <blockquote style={{borderLeft:'4px solid #722F37', background:'#fff9f9', padding:'1.2rem 1.5rem', margin:'1.5rem 0', borderRadius:'4px'}}>
+                <p><em>"Eu plantei, Apolo regou, mas Deus é quem deu o crescimento. De modo que nem o que planta é alguma coisa, nem o que rega, mas Deus, que dá o crescimento."</em> — <strong>1 Coríntios 3:6-7</strong></p>
+              </blockquote>
+
+              <p>Discipular não é produzir arrependimento. Não é fabricar fome pela Palavra. Não é criar vida espiritual por esforço humano. É preparar o solo. Manter o espaço aberto. Regar com oração, Escritura e conversas honestas. <strong>Permanecer presente. E confiar que o crescimento é obra de Deus.</strong></p>
+
+              <p>Quando entendemos isso, o peso diminui. Se o discípulo cresce, agradecemos, sem roubar a glória. Se ele tropeça, lamentamos, sem tentar controlar o processo como se fôssemos Deus. Se ele se afasta, choramos, sem acreditar que o Reino depende da nossa competência. <strong>O trabalho é nosso. A vida é dEle.</strong></p>
+
+              <hr />
+
+              <h2>O Motor que Sustenta: Amor, não Dever</h2>
+
+              <p>O dever pode nos fazer iniciar uma relação de discipulado. Pode nos manter comprometidos por um tempo. Mas o dever sem amor vira ressentimento. O sacrifício sem alegria vira contagem de pontos. E a alma curvada para dentro não sustenta esse chamado.</p>
+
+              <blockquote style={{borderLeft:'4px solid #722F37', background:'#fff9f9', padding:'1.2rem 1.5rem', margin:'1.5rem 0', borderRadius:'4px'}}>
+                <p><em>"Pois o amor de Cristo nos constrange."</em> — <strong>2 Coríntios 5:14</strong></p>
+              </blockquote>
+
+              <p>O verdadeiro motor é o amor de Cristo. Esse amor não é sentimentalismo; é força redentora. <strong>Ele nos libertou primeiro. Por isso, nos entregamos. Por isso, nos aproximamos. Por isso, permanecemos.</strong></p>
+
+              <p>Não é força de vontade que nos mantém orando quando estamos cansados. Não é disciplina que nos dá coragem para falar a verdade com voz trêmula. É o Espírito Santo, que já estava agindo antes de chegarmos e que continuará agindo depois que partirmos.</p>
+
+              <hr />
+
+              <h2>Expectativas Realistas: O que Esperar do Caminho</h2>
+
+              <p><strong>Se você deseja discipular alguém</strong>, espere ser interrompido. Espere orar mais do que planejou. Espere preparar conversas quando preferiria improvisar. Espere sentir impaciência, orgulho e a tentação de controlar o resultado. Espere que o processo revele sua própria necessidade de graça, tanto quanto a do outro.</p>
+
+              <p>Mas espere também alegria. Espere ver alguém ler as Escrituras e perceber, talvez pela primeira vez, que Deus está falando diretamente com ele. Espere ouvir uma confissão que levou anos para ser dita. <strong>Espere pequenas ressurreições.</strong> Espere descobrir que Cristo já estava presente na obra antes mesmo de você chegar.</p>
+
+              <p><strong>Se você deseja ser discipulado</strong>, espere ser amado demais para ser apenas afirmado. Espere perguntas que desafiam suas respostas prontas. Espere encorajamento e correção. Espere paciência, não indulgência. Espere aprender que as partes de você que mais resistem a ser vistas são justamente as que mais precisam de graça.</p>
+
+              <hr />
+
+              <h2>Uma Visão Cruciforme</h2>
+
+              <p>A igreja não precisa de uma versão romantizada do discipulado. Precisa de uma <strong>visão cruciforme</strong>. No centro da nossa fé está um Salvador que:</p>
+
+              <blockquote style={{borderLeft:'4px solid #722F37', background:'#fff9f9', padding:'1.2rem 1.5rem', margin:'1.5rem 0', borderRadius:'4px'}}>
+                <p><em>"Amou a igreja e a si mesmo se entregou por ela."</em> — <strong>Efésios 5:25</strong></p>
+              </blockquote>
+
+              <p>Ele entrou no tempo. Caminhou devagar. Suportou discípulos lentos, confusos e fugitivos. Corrigiu com verdade. Chorou com compaixão. Orou com intensidade. <strong>Permaneceu até o fim. E deu a vida.</strong></p>
+
+              <p>Quando o discipulado começa a custar algo, é porque estamos nos aproximando do caminho de Jesus. Plantamos. Regamos. Podamos. Esperamos. E Deus dá o crescimento.</p>
+
+              <p><strong>Que esse chamado não nos assuste, mas nos convide.</strong> Porque é no custo que a graça brilha mais forte. E é na comunhão cruciforme que a igreja se torna, de fato, corpo de Cristo.</p>
+
+              <hr />
+
+              <div style={{background:'#f8f9fa', border:'1px solid #e2e4e7', borderRadius:'12px', padding:'24px', margin:'30px 0'}}>
+                <h3 style={{marginTop:0}}>📖 Versículos para Meditar</h3>
+                <ul>
+                  <li><strong>2 Coríntios 5:14</strong> — "Pois o amor de Cristo nos constrange..."</li>
+                  <li><strong>1 Coríntios 3:6-7</strong> — "Eu plantei, Apolo regou, mas Deus é quem deu o crescimento."</li>
+                  <li><strong>Provérbios 27:6</strong> — "Leais são as feridas feitas pelo amigo..."</li>
+                  <li><strong>Efésios 5:25</strong> — "Cristo amou a igreja e a si mesmo se entregou por ela."</li>
+                  <li><strong>Gênesis 2:15</strong> — "O SENHOR Deus tomou o homem e o colocou no jardim do Éden para lavrá-lo e guardá-lo."</li>
+                </ul>
+              </div>
+
+              <div style={{background:'#fafafa', border:'1px solid #e8e8e8', borderRadius:'8px', padding:'16px', margin:'20px 0', fontSize:'0.9rem', color:'#666'}}>
+                <p style={{margin:0}}><strong>Fonte Original:</strong> Thomas Anderson, Pastor de Discipulado na Grace Community Church (Fulton, Maryland).<br />
+                <strong>Adaptação para Soli Deo Gloria:</strong> Revisão teológica, reestruturação pastoral e formatação para publicação.</p>
+              </div>
+
+              <div className="tags" style={{marginTop:'30px'}}>
+                <span className="cat-tag" style={{marginRight: '10px'}}>#discipulado</span>
+                <span className="cat-tag" style={{marginRight: '10px'}}>#crescimentoespiritual</span>
+                <span className="cat-tag" style={{marginRight: '10px'}}>#teologiaprática</span>
+                <span className="cat-tag" style={{marginRight: '10px'}}>#igreja</span>
+                <span className="cat-tag" style={{marginRight: '10px'}}>#comunhão</span>
+                <span className="cat-tag">#graça</span>
+              </div>
+
+              <ShareBar title="O Custo Real do Discipulado" url="/custo-real-do-discipulado-caminhar-na-fe" />
+              <RelatedArticles currentLink="/custo-real-do-discipulado-caminhar-na-fe" category="Devocionais" />
            </main>
 
          ) : isHome ? (
