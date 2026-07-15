@@ -118,6 +118,7 @@ const allArticlesData = [
   { link: '/testemunho-thamires-musica-cura-aquieta-minhalma', image: '/testemunho_thamires.png', tag: 'Testemunhos', title: 'Thamires: Da Epilepsia à Adoração' },
   { link: '/testemunho-julliany-souza-louvor-arma-espiritual-familia', image: '/testemunho_julliany.png', tag: 'Testemunhos', title: 'Julliany Souza: Louvor como Arma' },
   { link: '/deus-honrou-fe-testemunho-milagres-provisao-divina', image: '/provisao.png', tag: 'Testemunhos', title: 'Deus Honrou a Fé Dela — Provisão Divina' },
+  { link: '/14-estrelas-copa-mundo-2026-seguem-jesus-jogadores-cristaos', image: '/copa_mundo_fe.png', tag: 'Notícias', title: '14 Estrelas da Copa 2026 que Seguem Jesus' },
 ];
 
 function RelatedArticles({ currentLink, category }) {
@@ -224,6 +225,8 @@ function App() {
   const isDevocionais = path === '/devocionais';
   const isTrindade = path === '/trindade-um-so-deus-tres-pessoas-estudo-completo';
   const isSantificacao = path === '/santificacao-obra-vida-inteira-estudo';
+  const isNoticias = path === '/noticias';
+  const isCopaJesus = path === '/14-estrelas-copa-mundo-2026-seguem-jesus-jogadores-cristaos';
   const isHome = path === '/' || path === '';
 
   return (
@@ -254,6 +257,7 @@ function App() {
               <li><a href="/devocionais" className={isDevocionais ? "active" : ""}>Devocionais</a></li>
               <li><a href="/personagens-biblicos" className={isPersonagensBiblicos ? "active" : ""}>Personagens Bíblicos</a></li>
               <li><a href="/testemunhos" className={isTestemunhos ? "active" : ""}>Testemunhos</a></li>
+              <li><a href="/noticias" className={isNoticias ? "active" : ""}>Notícias</a></li>
               <li><a href="/contato" className={isContato ? "active" : ""}>Contato</a></li>
             </ul>
           </nav>
@@ -3451,6 +3455,200 @@ function App() {
               <ShareBar title="Deus Honrou a Fé Dela" url="/deus-honrou-fe-testemunho-milagres-provisao-divina" />
               <RelatedArticles currentLink="/deus-honrou-fe-testemunho-milagres-provisao-divina" category="Testemunhos" />
            </main>
+         ) : isCopaJesus ? (
+          <main className="article-content section-mb">
+             <Breadcrumb category="Notícias" categoryLink="/noticias" title="14 Estrelas da Copa 2026 que Seguem Jesus" />
+             <div className="article-header">
+               <span className="cat-tag">Notícias</span>
+               <h1>14 Estrelas da Copa do Mundo 2026 que Seguem Jesus: Craques que Glorificam a Deus em Campo</h1>
+               <p className="article-subtitle" style={{fontSize: '1.1rem', color: '#555', marginTop: '8px', lineHeight: '1.6'}}>De Alisson a Bukayo Saka, conheça os atletas que entram na maior competição do futebol mundial para exaltar o nome de Cristo</p>
+               <div className="article-meta">📰 <strong>Cody Benjamin</strong> (Tradução e Adaptação: João Calvino)</div>
+               <ArticleInfo date="25 de Junho de 2026" readingTime={18} />
+              </div>
+
+              <img src="/copa_mundo_fe.png" alt="Copa do Mundo 2026 e Fé Cristã" className="article-hero-img" loading="lazy" />
+
+              <div className="copa-info-box" style={{background:'#f0f7ff', border:'1px solid #cde0f5', borderRadius:'12px', padding:'24px', margin:'30px 0', textAlign:'center'}}>
+                <h3 style={{margin:'0 0 16px', fontSize:'1.2rem'}}>⚽ Copa do Mundo FIFA 2026 — Dados</h3>
+                <div style={{display:'grid', gridTemplateColumns:'repeat(4, 1fr)', gap:'16px'}}>
+                  <div style={{padding:'12px'}}><strong style={{fontSize:'2rem', display:'block', color:'#1a365d'}}>48</strong><span style={{fontSize:'0.85rem', color:'#666'}}>Países</span></div>
+                  <div style={{padding:'12px'}}><strong style={{fontSize:'2rem', display:'block', color:'#1a365d'}}>104</strong><span style={{fontSize:'0.85rem', color:'#666'}}>Partidas</span></div>
+                  <div style={{padding:'12px'}}><strong style={{fontSize:'2rem', display:'block', color:'#1a365d'}}>3</strong><span style={{fontSize:'0.85rem', color:'#666'}}>Nações-sede</span></div>
+                  <div style={{padding:'12px'}}><strong style={{fontSize:'2rem', display:'block', color:'#1a365d'}}>39</strong><span style={{fontSize:'0.85rem', color:'#666'}}>Dias</span></div>
+                </div>
+                <p style={{marginTop:'12px', fontSize:'0.9rem', color:'#666'}}>11 de Junho — 19 de Julho de 2026 | Final: Nova Jersey, EUA</p>
+              </div>
+
+              <p>A Copa do Mundo da FIFA está de volta, e maior do que nunca. Quatro anos depois de a Argentina conquistar o título, o torneio de 2026 contará com um número recorde de <strong>48 países</strong> e <strong>104 partidas</strong>, realizadas em três nações (Estados Unidos, Canadá e México) ao longo de mais de um mês.</p>
+              <p>Mas além dos gols, dribles e taças, há algo ainda mais importante acontecendo: <strong>a fé cristã está bem representada</strong> no campeonato que começa em 11 de junho e termina em 19 de julho, em Nova Jersey.</p>
+              <p>Conheça <strong>14 dos talentos mais reconhecidos</strong> desta Copa do Mundo que também se identificam como cristãos, expressando publicamente sua confiança em Deus, dentro e fora de campo:</p>
+
+              <hr />
+
+              <h2>🇧🇪 Bélgica</h2>
+
+              <div className="player-card" style={{background:'#fafafa', border:'1px solid #e8e8e8', borderRadius:'12px', padding:'24px', marginBottom:'20px', borderLeft:'4px solid #111'}}>
+                <h3 style={{margin:'0 0 4px', fontSize:'1.3rem'}}>Jérémy Doku</h3>
+                <p style={{color:'#888', fontSize:'0.85rem', margin:'0 0 12px'}}>Manchester City • 23 anos • Ponta</p>
+                <p>O veloz ponta raramente publica algo nas redes sociais sem incluir versículos bíblicos ou atribuir louvor a Jesus. Em seu canal no YouTube, ele compartilha a "verdade que abriu meus olhos" e revela que passou de querer exibir seu próprio talento para <strong>glorificar a Deus</strong> com seus dons.</p>
+                <blockquote style={{borderLeft:'3px solid #c9a84c', background:'#fffdf5', padding:'12px 16px', margin:'16px 0 0', fontStyle:'italic', borderRadius:'4px'}}>"Seu status não vai te salvar. O dinheiro não vai te salvar… Meu objetivo é que [Jesus] me diga: 'Muito bem, servo bom e fiel'."</blockquote>
+              </div>
+
+              <div className="player-card" style={{background:'#fafafa', border:'1px solid #e8e8e8', borderRadius:'12px', padding:'24px', marginBottom:'20px', borderLeft:'4px solid #111'}}>
+                <h3 style={{margin:'0 0 4px', fontSize:'1.3rem'}}>Dodi Lukébakio</h3>
+                <p style={{color:'#888', fontSize:'0.85rem', margin:'0 0 12px'}}>Sevilla FC • 28 anos • Atacante</p>
+                <p>Dez anos após estrear pela República Democrática do Congo aos 18 anos, Lukébakio fará sua estreia na Copa do Mundo pela Bélgica. Ele conta que a <strong>música gospel é o destaque de sua playlist</strong> antes dos jogos porque "influencia meu espírito" e aponta para "o Deus que vive em mim".</p>
+                <blockquote style={{borderLeft:'3px solid #c9a84c', background:'#fffdf5', padding:'12px 16px', margin:'16px 0 0', fontStyle:'italic', borderRadius:'4px'}}>"Os momentos de silêncio com Deus são a parte mais importante da minha vida."</blockquote>
+              </div>
+
+              <hr />
+
+              <h2>🇧🇷 Brasil</h2>
+
+              <div className="player-card" style={{background:'#fafafa', border:'1px solid #e8e8e8', borderRadius:'12px', padding:'24px', marginBottom:'20px', borderLeft:'4px solid #009c3b'}}>
+                <h3 style={{margin:'0 0 4px', fontSize:'1.3rem'}}>Alisson Becker</h3>
+                <p style={{color:'#888', fontSize:'0.85rem', margin:'0 0 12px'}}>Liverpool FC • 33 anos • Goleiro</p>
+                <p>Um dos melhores goleiros de sua geração, com títulos da Liga dos Campeões e Premier League, Becker também é um dos jogadores mais fervorosos em sua fé. Ele frequentemente demonstra sua fé abertamente, como quando usou uma camiseta com a frase <strong>"Jesus é o Caminho, a Verdade e a Vida"</strong> ao comemorar o campeonato de 2025.</p>
+                <p>Alisson, que também <strong>batizou seu ex-companheiro Roberto Firmino</strong>, afirma que a Bíblia influencia todos os aspectos de sua vida, incluindo treinos, forma de jogar e postura pessoal.</p>
+              </div>
+
+              <div className="player-card" style={{background:'#fafafa', border:'1px solid #e8e8e8', borderRadius:'12px', padding:'24px', marginBottom:'20px', borderLeft:'4px solid #009c3b'}}>
+                <h3 style={{margin:'0 0 4px', fontSize:'1.3rem'}}>Ederson</h3>
+                <p style={{color:'#888', fontSize:'0.85rem', margin:'0 0 12px'}}>Manchester City • 32 anos • Goleiro</p>
+                <p>Assim como Alisson, Ederson é um cristão fervoroso que demonstra sua fé no próprio corpo, com uma tatuagem que diz <strong>"Eu pertenço a Jesus"</strong> gravada no peito. O tricampeão da Luva de Ouro da Premier League atribui a Deus a superação de uma infância humilde.</p>
+              </div>
+
+              <div className="player-card" style={{background:'#fafafa', border:'1px solid #e8e8e8', borderRadius:'12px', padding:'24px', marginBottom:'20px', borderLeft:'4px solid #009c3b'}}>
+                <h3 style={{margin:'0 0 4px', fontSize:'1.3rem'}}>Endrick</h3>
+                <p style={{color:'#888', fontSize:'0.85rem', margin:'0 0 12px'}}>Real Madrid • 19 anos • Atacante</p>
+                <p>O jogador mais jovem convocado para a seleção brasileira em mais de três décadas tem uma história de superação: sua infância incluiu uma breve passagem por um orfanato. Ele e a esposa foram <strong>batizados publicamente em 2024</strong>, e viralizou ao comparar sua fé com a terapia.</p>
+                <blockquote style={{borderLeft:'3px solid #c9a84c', background:'#fffdf5', padding:'12px 16px', margin:'16px 0 0', fontStyle:'italic', borderRadius:'4px'}}>"Meu psicólogo é Deus."</blockquote>
+              </div>
+
+              <div className="player-card" style={{background:'#fafafa', border:'1px solid #e8e8e8', borderRadius:'12px', padding:'24px', marginBottom:'20px', borderLeft:'4px solid #009c3b'}}>
+                <h3 style={{margin:'0 0 4px', fontSize:'1.3rem'}}>Neymar</h3>
+                <p style={{color:'#888', fontSize:'0.85rem', margin:'0 0 12px'}}>Al-Hilal • 34 anos • Atacante</p>
+                <p>Lenda brasileira que levou o país à sua primeira medalha de ouro olímpica no futebol, Neymar retorna à seleção para o que deve ser <strong>sua última Copa do Mundo</strong>. Ele sempre professou sua fé, tendo tornado famosa uma faixa branca com a inscrição <strong>"100% Jesus"</strong>, e dizima parte de seu salário à Igreja Batista Peniel, em São Paulo.</p>
+              </div>
+
+              <div className="player-card" style={{background:'#fafafa', border:'1px solid #e8e8e8', borderRadius:'12px', padding:'24px', marginBottom:'20px', borderLeft:'4px solid #009c3b'}}>
+                <h3 style={{margin:'0 0 4px', fontSize:'1.3rem'}}>Lucas Paquetá</h3>
+                <p style={{color:'#888', fontSize:'0.85rem', margin:'0 0 12px'}}>West Ham • 28 anos • Meia</p>
+                <p>Em sua segunda participação consecutiva na Copa, Paquetá demonstrou repetidamente sua fé. Certa vez, entrou em campo ao lado de dois de seus filhos, que vestiam camisetas com a inscrição <strong>"Glória a Deus"</strong>, e usou língua de sinais para declarar Jesus como "o único Senhor e Salvador" após marcar um gol. Foi batizado em sua própria piscina pelo companheiro Pedro Guilherme em 2025.</p>
+              </div>
+
+              <hr />
+
+              <h2>🇬🇧 Inglaterra</h2>
+
+              <div className="player-card" style={{background:'#fafafa', border:'1px solid #e8e8e8', borderRadius:'12px', padding:'24px', marginBottom:'20px', borderLeft:'4px solid #cf142b'}}>
+                <h3 style={{margin:'0 0 4px', fontSize:'1.3rem'}}>Bukayo Saka</h3>
+                <p style={{color:'#888', fontSize:'0.85rem', margin:'0 0 12px'}}>Arsenal • 24 anos • Ponta</p>
+                <p>Apelidado de "Pequeno Chilli", o veterano do Arsenal é um dos cerca de 10 <strong>"Irmãos da Bíblia"</strong> (apelido carinhoso dado a um grupo de jogadores cristãos do Arsenal). Eles usam estudos bíblicos em hotéis e orações antes das partidas para fortalecer a união da equipe.</p>
+                <blockquote style={{borderLeft:'3px solid #c9a84c', background:'#fffdf5', padding:'12px 16px', margin:'16px 0 0', fontStyle:'italic', borderRadius:'4px'}}>"Ler as Escrituras toda noite me lembra de que o plano de Deus é perfeito e permite que eu entre em campo sem nervosismo."</blockquote>
+              </div>
+
+              <div className="player-card" style={{background:'#fafafa', border:'1px solid #e8e8e8', borderRadius:'12px', padding:'24px', marginBottom:'20px', borderLeft:'4px solid #cf142b'}}>
+                <h3 style={{margin:'0 0 4px', fontSize:'1.3rem'}}>Marc Guéhi</h3>
+                <p style={{color:'#888', fontSize:'0.85rem', margin:'0 0 12px'}}>Manchester City • 25 anos • Zagueiro</p>
+                <p>O zagueiro cresceu na fé, já que seu pai, John, é pastor de uma igreja no sul de Londres. Guéhi <strong>arriscou-se a ser processado</strong> pela Federação Inglesa ao escrever "Eu amo Jesus" e "Jesus te ama" em braçadeiras com as cores do arco-íris que recebeu para usar em apoio a uma campanha de inclusão.</p>
+              </div>
+
+              <div className="player-card" style={{background:'#fafafa', border:'1px solid #e8e8e8', borderRadius:'12px', padding:'24px', marginBottom:'20px', borderLeft:'4px solid #cf142b'}}>
+                <h3 style={{margin:'0 0 4px', fontSize:'1.3rem'}}>Eberechi Eze</h3>
+                <p style={{color:'#888', fontSize:'0.85rem', margin:'0 0 12px'}}>Arsenal • 27 anos • Meia</p>
+                <p>Campeão da Premier League em sua primeira temporada com o Arsenal, Eze nasceu na Grande Londres, filho de pais nigerianos. Sua caminhada com Jesus, no entanto, é "mais importante", e ele tem sido um <strong>defensor declarado de sua fé cristã</strong>, que influencia visivelmente todos os aspectos de sua vida, desde hábitos alimentares até sua maneira de falar.</p>
+              </div>
+
+              <hr />
+
+              <h2>🇩🇪 Alemanha</h2>
+
+              <div className="player-card" style={{background:'#fafafa', border:'1px solid #e8e8e8', borderRadius:'12px', padding:'24px', marginBottom:'20px', borderLeft:'4px solid #111'}}>
+                <h3 style={{margin:'0 0 4px', fontSize:'1.3rem'}}>Felix Nmecha</h3>
+                <p style={{color:'#888', fontSize:'0.85rem', margin:'0 0 12px'}}>Borussia Dortmund • 25 anos • Meia</p>
+                <p>Ex-promessa do Manchester City, o meio-campista de 1,90m afirmou que uma lesão grave no início de sua carreira foi <strong>a "melhor coisa que poderia ter acontecido"</strong>, pois o aproximou de Deus "como nunca antes".</p>
+                <blockquote style={{borderLeft:'3px solid #c9a84c', background:'#fffdf5', padding:'12px 16px', margin:'16px 0 0', fontStyle:'italic', borderRadius:'4px'}}>"A lesão foi a melhor coisa que poderia ter acontecido. Me aproximou de Deus como nunca antes."</blockquote>
+              </div>
+
+              <hr />
+
+              <h2>🇬🇭 Gana</h2>
+
+              <div className="player-card" style={{background:'#fafafa', border:'1px solid #e8e8e8', borderRadius:'12px', padding:'24px', marginBottom:'20px', borderLeft:'4px solid #111'}}>
+                <h3 style={{margin:'0 0 4px', fontSize:'1.3rem'}}>Antoine Semenyo</h3>
+                <p style={{color:'#888', fontSize:'0.85rem', margin:'0 0 12px'}}>Manchester City • 26 anos • Ponta</p>
+                <p>O ponta abandonou brevemente o futebol na adolescência, mas agora é peça fundamental da seleção de Gana. Ele é frequentemente visto <strong>orando antes das partidas</strong> — às vezes acompanhado de um pastor — e atribui à fé o fato de ser "um leão" nos jogos.</p>
+                <blockquote style={{borderLeft:'3px solid #c9a84c', background:'#fffdf5', padding:'12px 16px', margin:'16px 0 0', fontStyle:'italic', borderRadius:'4px'}}>"Deus é minha inspiração. [Ele] é a única pessoa a quem temo."</blockquote>
+              </div>
+
+              <hr />
+
+              <h2>🇳🇱 Holanda</h2>
+
+              <div className="player-card" style={{background:'#fafafa', border:'1px solid #e8e8e8', borderRadius:'12px', padding:'24px', marginBottom:'20px', borderLeft:'4px solid #ff6600'}}>
+                <h3 style={{margin:'0 0 4px', fontSize:'1.3rem'}}>Cody Gakpo</h3>
+                <p style={{color:'#888', fontSize:'0.85rem', margin:'0 0 12px'}}>Liverpool FC • 27 anos • Atacante</p>
+                <p>Um dos principais atacantes do Liverpool, Gakpo mostrou uma camisa com a inscrição <strong>"Eu pertenço a Jesus"</strong> após marcar um gol que garantiu o título na temporada 2024-25. Foi uma homenagem a Kaká, o ex-astro brasileiro que mostrou a mesma camisa pela primeira vez após a vitória na Copa do Mundo de 2002.</p>
+                <p>Gakpo considera seu cristianismo um <strong>"estilo de vida"</strong> e lidera estudos bíblicos para a seleção de seu país.</p>
+              </div>
+
+              <hr />
+
+              <h2>🇺🇸 Estados Unidos</h2>
+
+              <div className="player-card" style={{background:'#fafafa', border:'1px solid #e8e8e8', borderRadius:'12px', padding:'24px', marginBottom:'20px', borderLeft:'4px solid #002868'}}>
+                <h3 style={{margin:'0 0 4px', fontSize:'1.3rem'}}>Christian Pulisic</h3>
+                <p style={{color:'#888', fontSize:'0.85rem', margin:'0 0 12px'}}>AC Milan • 27 anos • Ponta/Meia</p>
+                <p>Apelidado de "Capitão América", Pulisic é o rosto contemporâneo do futebol americano e já figura entre os cinco maiores artilheiros da história do país. Ele descreveu seu colar com um crucifixo como um de seus bens mais preciosos.</p>
+                <p>Este ano, ele destacou seu estudo da <strong>Epístola aos Efésios</strong>, chamando a atenção para o fato de que a salvação não é conquistada, mas sim um <strong>dom de Deus</strong>.</p>
+                <blockquote style={{borderLeft:'3px solid #c9a84c', background:'#fffdf5', padding:'12px 16px', margin:'16px 0 0', fontStyle:'italic', borderRadius:'4px'}}>"Nada pode me parar, pois confio em Deus para minha força."</blockquote>
+              </div>
+
+              <hr />
+
+              <div style={{background:'linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%)', color:'#fff', borderRadius:'12px', padding:'32px', margin:'30px 0'}}>
+                <h2 style={{color:'#c9a84c', marginTop:0}}>✝️ Reflexão Bíblica</h2>
+                <blockquote style={{borderLeft:'3px solid #c9a84c', padding:'12px 20px', margin:'16px 0', background:'rgba(255,255,255,0.05)', borderRadius:'4px'}}>
+                  <p style={{margin:0}}><em>"E tudo quanto fizerdes, fazei-o de todo o coração, como ao Senhor, e não aos homens, sabendo que recebereis do Senhor a recompensa da herança, porque a Cristo, o Senhor, servis."</em> — <strong>Colossenses 3:23-24</strong></p>
+                </blockquote>
+                <p>Estes atletas nos lembram que o talento é um <strong>dom de Deus</strong>, e a verdadeira vitória não está apenas nos placares, mas em viver para a glória dEle. Como disse Jérémy Doku: "Meu objetivo é que [Jesus] me diga: 'Muito bem, servo bom e fiel'".</p>
+                <p>Que esses testemunhos inspirem não apenas os amantes do futebol, mas <strong>todos os que buscam viver sua fé em sua profissão</strong>, seja ela qual for.</p>
+              </div>
+
+              <div style={{background:'#fff9f9', border:'1px solid #e8d4d4', borderRadius:'12px', padding:'24px', margin:'30px 0'}}>
+                <h3 style={{marginTop:0}}>🙏 Oração pelos Atletas</h3>
+                <blockquote style={{borderLeft:'4px solid #722F37', padding:'16px', margin:0, fontStyle:'italic'}}>
+                  <p>Senhor Jesus,<br />
+                  Obrigado por esses atletas que usam seus dons para Te glorificar.<br />
+                  Abençoa cada um deles nesta Copa do Mundo.<br />
+                  Protege-os de lesões, fortalece-os nas dificuldades e usa seus testemunhos para alcançar milhões.<br />
+                  Que, independente do resultado das partidas, eles continuem firmes em Ti.<br />
+                  E que muitos corações sejam tocados ao verem jogadores que priorizam o Teu reino.<br />
+                  Em nome de Jesus, amém.</p>
+                </blockquote>
+              </div>
+
+              <h3>📖 Versículos para Meditar</h3>
+              <ul>
+                <li><strong>Colossenses 3:23-24</strong> — "E tudo quanto fizerdes, fazei-o de todo o coração, como ao Senhor."</li>
+                <li><strong>1 Coríntios 10:31</strong> — "Portanto, quer comais, quer bebais ou façais outra qualquer coisa, fazei tudo para a glória de Deus."</li>
+                <li><strong>Filipenses 4:13</strong> — "Tudo posso naquele que me fortalece."</li>
+                <li><strong>Salmo 20:4</strong> — "Conceda-te ele o desejo do teu coração e cumpra todo o teu plano."</li>
+              </ul>
+
+              <div className="tags" style={{marginTop:'30px'}}>
+                <span className="cat-tag" style={{marginRight: '10px'}}>#CopaDoMundo2026</span>
+                <span className="cat-tag" style={{marginRight: '10px'}}>#FutebolECristianismo</span>
+                <span className="cat-tag" style={{marginRight: '10px'}}>#JogadoresCristãos</span>
+                <span className="cat-tag" style={{marginRight: '10px'}}>#fénoesporte</span>
+                <span className="cat-tag">#glóriaaDeus</span>
+              </div>
+
+              <ShareBar title="14 Estrelas da Copa do Mundo 2026 que Seguem Jesus" url="/14-estrelas-copa-mundo-2026-seguem-jesus-jogadores-cristaos" />
+              <RelatedArticles currentLink="/14-estrelas-copa-mundo-2026-seguem-jesus-jogadores-cristaos" category="Notícias" />
+           </main>
+
          ) : isHome ? (
           <>
             {/* PRIMEIRA DOBRA (HERO MAGAZINE) - 60 / 20 / 20 */}
