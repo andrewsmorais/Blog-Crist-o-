@@ -537,7 +537,24 @@ img {
     gap: 16px;
   }
   .header-nav {
+    display: block;
+    width: 100%;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    border-bottom: 1px solid var(--border-color);
+    margin-bottom: 20px;
+    padding: 10px 0;
+  }
+  .header-nav::-webkit-scrollbar {
     display: none;
+  }
+  .header-nav .nav-list {
+    justify-content: flex-start;
+    padding-left: 0;
+    gap: 20px;
+  }
+  .header-nav .nav-list a {
+    white-space: nowrap;
   }
   .hero-grid, .grid-4, .grid-3, .grid-2, .sect3-grid, .split-category-grid, .hero-bottom-articles {
     display: flex;

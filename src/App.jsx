@@ -1000,6 +1000,32 @@ function App() {
                </div>
              </div>
           </main>
+        ) : isNoticias ? (
+          <main className="section-mb">
+            <div className="section-title">
+              <h2>Notícias</h2>
+            </div>
+            <div className="grid-3" style={{marginTop: '2rem'}}>
+              
+              <div className="grid-3-item">
+                <a href="/14-estrelas-copa-mundo-2026-seguem-jesus-jogadores-cristaos" style={{textDecoration: 'none', color: 'inherit'}}>
+                  <img src="/copa_mundo_fe.png" alt="14 Estrelas da Copa do Mundo 2026" className="img-ph" loading="lazy" style={{objectFit: 'cover', aspectRatio: '16/9'}} />
+                  <span className="cat-tag" style={{display: 'inline-block', marginBottom: '8px', marginTop: '12px'}}>NOTÍCIAS</span>
+                  <h3 style={{fontSize: '1.1rem', marginBottom: '8px', lineHeight: '1.4'}}>14 Estrelas da Copa do Mundo 2026 que Seguem Jesus</h3>
+                  <p style={{fontSize: '0.9rem', color: '#666', marginTop: '8px', marginBottom: '12px'}}>Conheça os atletas que entram na maior competição do futebol mundial para exaltar o nome de Cristo</p>
+                  <div style={{marginTop: '15px', color: '#722F37', fontWeight: 'bold', fontSize: '0.9rem'}}>
+                    → Ler Artigo
+                  </div>
+                </a>
+              </div>
+
+            </div>
+            
+            <div style={{marginTop: '3rem', textAlign: 'center', color: '#666', fontSize: '0.95rem'}}>
+              <p>📍 <strong>Soli Deo Gloria Portal Teológico</strong></p>
+              <p>✉️ E-mail oficial: contato@sdgloria.com.br</p>
+            </div>
+          </main>
         ) : isContato ? (
           <main className="section-mb" style={{maxWidth: '800px', margin: '0 auto', padding: '2rem 1rem'}}>
             <div className="section-title" style={{textAlign: 'center', marginBottom: '2rem'}}>
