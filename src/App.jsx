@@ -112,6 +112,7 @@ const allArticlesData = [
   { link: '/ana-mae-orou-chorou-gerou-profeta-samuel', image: '/ana_orando.png', tag: 'Personagens Bíblicos', title: 'Ana: A Mãe que Orou e Gerou um Profeta' },
   { link: '/pastor-conquistou-trono-jornada-davi-belem-jerusalem', image: '/davi_pastor.png', tag: 'Personagens Bíblicos', title: 'Davi: O Pastor que Conquistou o Trono' },
   { link: '/ester-rainha-salvou-povo-deus-age-sombras', image: '/ester_rainha.png', tag: 'Personagens Bíblicos', title: 'Ester: A Rainha que Salvou Seu Povo' },
+  { link: '/pao-para-100000-criancas-vida-oracao-george-muller', image: '/george_muller_pao.png', tag: 'Testemunhos', title: 'Pão para 100.000 Crianças: A Vida de Oração de George Müller' },
   { link: '/testemunho-deus-e-bom-historia-fe-transformacao', image: '/deus_e_bom.png', tag: 'Testemunhos', title: 'Deus É Bom — Uma História de Fé' },
   { link: '/testemunho-desespero-esperanca', image: '/desespero_esperanca.png', tag: 'Testemunhos', title: 'Do Desespero à Esperança' },
   { link: '/testemunho-e-ele-cancao-nasceu-deserto-paulo-vicente', image: '/e_ele_vicente.png', tag: 'Testemunhos', title: 'É Ele — Paulo Vicente' },
@@ -245,6 +246,7 @@ function App() {
   const isArquitetoDoLar = path === '/meus-planos-e-a-graca-de-deus-arquiteto-do-lar';
   const isMarcos3 = path === '/multidao-oposicao-ou-discipulo-quem-segue-jesus-marcos-3';
   const isEstudoBiblicoPensar = path === '/antes-ler-comentario-pensar-por-si-mesmo-estudo-biblico';
+  const isTestemunhoMuller = path === '/pao-para-100000-criancas-vida-oracao-george-muller';
   const isHome = path === '/' || path === '';
 
   return (
@@ -1242,6 +1244,247 @@ function App() {
           
               <ShareBar title="Santificação" url="/santificacao-obra-vida-inteira-estudo" />
               <RelatedArticles currentLink="/santificacao-obra-vida-inteira-estudo" category="Estudos Bíblicos" />
+           </main>
+        ) : isTestemunhoMuller ? (
+          <main className="article-content section-mb">
+             <Breadcrumb category="Testemunhos" categoryLink="/testemunhos" title="George Müller" />
+             <div className="article-header">
+               <span className="cat-tag">Testemunhos</span>
+               <h1>Pão para 100.000 Crianças: A Vida de Oração de George Müller</h1>
+               <h2 style={{fontSize: '1.2rem', fontWeight: 'normal', color: '#555', margin: '15px 0'}}>Como um homem que começou com dois xelins no bolso sustentou mais de dez mil órfãos apenas pela oração — e o que isso nos ensina sobre confiar no Pai que conhece nossas necessidades</h2>
+               <div className="article-meta">
+                 📖 <strong>HISTÓRIA DA IGREJA / DEVOCIONAIS | Soli Deo Gloria</strong><br/>
+                 <span style={{fontSize: '0.9rem', color: '#666'}}><em>Adaptado de SOLA Network | 25 Jun, 2026</em></span>
+               </div>
+               <ArticleInfo readingTime={12} />
+              </div>
+             
+             <img src="/george_muller_pao.png" alt="George Müller orando com órfãos" className="article-hero-img" loading="lazy" />
+
+             <p>Como um homem consegue cuidar de dez mil órfãos e arrecadar milhões de dólares (em valores atuais) sem pedir uma única doação ou jamais contrair dívidas?</p>
+             
+             <p>A resposta de George Müller era simples, mas revolucionária: levando a sério a palavra de Deus em Mateus 7:7 — "Peçam, e lhes será dado".</p>
+             
+             <p>Müller construiu cinco orfanatos, cuidou de 10.024 órfãos durante sua vida e, após sua morte, seus orfanatos sustentaram mais de 100.000 crianças com comida, roupas e um lar. Tudo isso sem campanhas, sem apelos públicos, sem dívidas. Apenas oração.</p>
+             
+             <p>Este artigo conta a história extraordinária de um homem que aprendeu a confiar no Pai celestial — e nos convida a fazer o mesmo.</p>
+
+             <hr />
+
+             <h2>🕊️ O Começo: Quando Müller Aprendeu a Confiar</h2>
+             
+             <p>Antes de pedir a Deus que cuidasse dos outros, Müller precisou aprender a confiar sua própria vida a Deus.</p>
+             
+             <p>Quando contou ao pai que queria ser missionário, o pai cortou o financiamento de seus estudos universitários. Müller poderia ter desistido. Poderia ter se ressentido. Mas ele fez algo diferente:</p>
+             
+             <blockquote style={{borderLeft: '4px solid #722F37', background: '#fff9f9', padding: '1.2rem 1.5rem', margin: '1.5rem 0', borderRadius: '4px'}}>
+               <p><em>"Embora se sentisse um pouco 'bobo', Muller se ajoelhou e pediu a Deus que o apoiasse."</em></p>
+             </blockquote>
+             
+             <p>Em menos de uma hora, um professor bateu à sua porta, oferecendo um emprego remunerado como tutor. Esse foi o primeiro de muitos encontros que convenceram Müller de uma verdade que marcaria sua vida:</p>
+             
+             <blockquote style={{borderLeft: '4px solid #722F37', background: '#fff9f9', padding: '1.2rem 1.5rem', margin: '1.5rem 0', borderRadius: '4px'}}>
+               <p><em>"Contanto que eu realmente buscasse servir ao Senhor, contanto que eu buscasse o reino de Deus e a Sua justiça, essas minhas necessidades materiais me seriam acrescentadas."</em></p>
+             </blockquote>
+             
+             <p>Ele não estava repetindo um versículo decorado. Estava vivendo uma realidade que transformaria milhares de vidas.</p>
+             
+             <hr />
+
+             <h2>📖 A Palavra que Sustentou uma Vida</h2>
+             
+             <p>Müller não confiava em sentimentos ou experiências isoladas. Ele se apegava às Escrituras. Memorizou versículos que se tornaram o alicerce de sua jornada:</p>
+             
+             <div style={{background: '#f8f9fa', borderLeft: '4px solid #0066cc', padding: '1.5rem', borderRadius: '0 8px 8px 0', margin: '2rem 0'}}>
+               <p style={{margin: '0 0 10px 0'}}><em>"E eu farei tudo o que vocês pedirem em meu nome, para que o Pai seja glorificado no Filho. Se vocês pedirem alguma coisa em meu nome, eu o farei."</em> — <strong>João 14:13-14</strong></p>
+               <p style={{margin: '0 0 10px 0'}}><em>"Portanto, eu lhes digo: não se preocupem com a sua vida, com o que comer ou beber; nem com o seu corpo, com o que vestir... Observem as aves do céu: elas não semeiam nem colhem, nem armazenam em celeiros; contudo, o Pai celestial as alimenta. Não têm vocês muito mais valor do que elas?"</em> — <strong>Mateus 6:25-26</strong></p>
+             </div>
+             
+             <p>Essas não eram promessas abstratas para Müller. Eram contratos assinados no céu que ele apresentava diariamente ao trono da graça.</p>
+             
+             <hr />
+
+             <h2>🏠 O Chamado: Órfãos nas Ruas da Inglaterra</h2>
+             
+             <p>Após se formar na escola missionária, Müller ficou devastado com os órfãos que encontrou nas ruas da Inglaterra. Na época:</p>
+             <ul>
+               <li>Milhares de crianças sem-teto morriam de fome e frio</li>
+               <li>Muitas eram forçadas a trabalhos abusivos em asilos</li>
+               <li>O sistema social era cruel e indiferente</li>
+             </ul>
+             
+             <p>Müller sentiu o chamado de Deus para abrir um orfanato. E aqui vem o detalhe impressionante:</p>
+             
+             <blockquote style={{borderLeft: '4px solid #722F37', background: '#fff9f9', padding: '1.2rem 1.5rem', margin: '1.5rem 0', borderRadius: '4px'}}>
+               <p><em>"Embora tivesse apenas dois xelins (cinquenta centavos de dólar) no bolso, ele tinha certeza de que Deus proveria cada necessidade específica."</em></p>
+             </blockquote>
+             
+             <p>Não foi um plano estratégico. Foi um passo de fé. E ao longo dos anos, a Inglaterra testemunhou Deus prover:</p>
+             <ul style={{listStyleType: 'none', paddingLeft: '0'}}>
+               <li>✅ Prédios</li>
+               <li>✅ Pessoas para supervisioná-los</li>
+               <li>✅ Móveis, comida, roupas</li>
+               <li>✅ Dinheiro — sempre no momento certo</li>
+             </ul>
+
+             <hr />
+             
+             <h2>🍞 O Milagre do Pão: Quando 300 Crianças Esperaram Juntas</h2>
+             
+             <p>Certa manhã, Müller acordou com a notícia de que o orfanato, que abrigava 300 crianças, estava sem comida.</p>
+             
+             <p>Sua reação não foi pânico. Foi oração. Ele instruiu a responsável a acomodar todas as crianças no refeitório. Agradeceu a Deus pela comida. E eles esperaram. Em poucos minutos:</p>
+             
+             <ul style={{listStyleType: 'none', paddingLeft: '0'}}>
+               <li style={{marginBottom: '10px'}}>1️⃣ <strong>Um padeiro bateu à porta:</strong><br/>
+               <em>"Sr. Müller, na noite passada, não consegui dormir. De alguma forma, eu sabia que o senhor precisaria de pão esta manhã. Levantei-me e assei três fornadas para o senhor."</em></li>
+               <li>2️⃣ <strong>Na batida seguinte, um leiteiro:</strong><br/>
+               Seu carrinho havia quebrado em frente ao orfanato. O leite iria estragar. Ele perguntou se as crianças gostariam de um pouco de leite de graça.</li>
+             </ul>
+             
+             <p>Deus não apenas proveu. Proveu no momento exato, de formas que Müller não poderia ter planejado.</p>
+
+             <hr />
+             
+             <h2>👜 A Despedida: Bíblia na Direita, Dinheiro na Esquerda</h2>
+             
+             <p>Quando as crianças atingiam a idade suficiente para serem independentes, Müller tinha um ritual significativo:</p>
+             
+             <blockquote style={{borderLeft: '4px solid #722F37', background: '#fff9f9', padding: '1.2rem 1.5rem', margin: '1.5rem 0', borderRadius: '4px'}}>
+               <p><em>"Muller orava com cada uma individualmente, colocando uma Bíblia em sua mão direita e dinheiro em sua esquerda. Ele explicava às crianças que, se elas se apegassem ao que estava em sua mão direita, Deus sempre se encarregaria de providenciar algo para a esquerda."</em></p>
+             </blockquote>
+             
+             <p>Essa imagem resume a filosofia de vida de Müller:</p>
+             <ul>
+               <li>A Palavra de Deus primeiro — a âncora eterna</li>
+               <li>A provisão material depois — o cuidado diário do Pai</li>
+             </ul>
+             
+             <p>Todas as crianças se formavam com emprego garantido. Alguns de fora acusavam Müller de "elevar os pobres acima de sua posição natural". Mas Müller sabia: em Cristo, não há posição "inferior". Há filhos amados pelo Pai.</p>
+
+             <hr />
+             
+             <h2>🙏 O Que Mateus 6:25-34 Realmente Ensina</h2>
+             
+             <p>Muitos citam Mateus 6:25-34 como a passagem do "não se preocupem". Mas há um detalhe frequentemente negligenciado: Jesus não nos exorta a não nos preocuparmos porque nossas necessidades são pequenas. Ele nos exorta porque o Pai conhece nossas necessidades e se importa com elas.</p>
+             
+             <p>Jesus reconhece que precisamos de comida, roupa, abrigo. Ele não minimiza nossas lutas. Ele as valida — e então nos convida a buscar primeiro o Reino. O filósofo cristão Dallas Willard escreve:</p>
+             
+             <blockquote style={{borderLeft: '4px solid #722F37', background: '#fff9f9', padding: '1.2rem 1.5rem', margin: '1.5rem 0', borderRadius: '4px'}}>
+               <p><em>"Deus não se preocupa com a possibilidade de lhe faltar algo. É muito importante lembrar disso quando nos angustiamos com uma necessidade imaginária. Nesses momentos, podemos ser tentados a pensar que talvez Deus seja tão mesquinho e insignificante quanto nós. Ele não é. Deus ama dar. Deus ama perdoar."</em></p>
+             </blockquote>
+
+             <hr />
+             
+             <h2>💭 Quando o Medo Bate: A Lição de Müller para Hoje</h2>
+             
+             <p>Quando os medos começam a se acumular, torna-se tentador reprimi-los, ignorá-los, ou buscar soluções ansiosamente. Müller nos ensina outro caminho: <strong>sentar e observar.</strong></p>
+             
+             <p>Isso não é passividade. É confiança ativa. É crer que o Pai vê, ouve e age — mesmo quando a resposta não vem da forma que esperamos. Em Filipenses 4, Paulo escreve que aprendeu o segredo da satisfação:</p>
+             
+             <blockquote style={{borderLeft: '4px solid #722F37', background: '#fff9f9', padding: '1.2rem 1.5rem', margin: '1.5rem 0', borderRadius: '4px'}}>
+               <p><em>"Sua paz está enraizada na certeza reconfortante de que Deus reconhece suas necessidades e cuidará dele segundo Seus planos, que são maiores que os nossos e para o nosso bem."</em></p>
+             </blockquote>
+             
+             <p>Assim como Paulo, podemos estar contentes porque o Senhor é o nosso Pastor, e tudo o que precisamos pode ser encontrado nEle.</p>
+
+             <hr />
+             
+             <h2>🌍 Além de Nós: A Generosidade que Nasce da Confiança</h2>
+             
+             <p>Talvez Mateus 6:25-34 nos tenha sido dado não apenas para nosso próprio conforto, mas como uma motivação para olharmos além de nós mesmos. O pastor Dave Lomas, da Reality San Francisco, pergunta:</p>
+             
+             <blockquote style={{borderLeft: '4px solid #722F37', background: '#fff9f9', padding: '1.2rem 1.5rem', margin: '1.5rem 0', borderRadius: '4px'}}>
+               <p><em>"Por que não somos generosos? Porque pensamos que vai acabar. Deus nunca tem essa preocupação — ele é capaz de fazer muito mais do que podemos pedir ou imaginar. E não se trata apenas de dinheiro… na verdade, vai muito além disso."</em></p>
+             </blockquote>
+             
+             <p>Quando confiamos que Deus proverá para nós, somos libertos para prover para outros.</p>
+
+             <hr />
+             
+             <h2>✨ O Eco do Evangelho: Müller e a Multiplicação dos Pães</h2>
+             
+             <p>A história de Müller sobre Deus provendo pão para 300 pessoas ecoa algo familiar: a multiplicação dos pães e peixes por Jesus para mais de 5.000 pessoas (Mateus 14:13-21).</p>
+             
+             <p>Em ambos os casos:</p>
+             <ul>
+               <li>A necessidade era real e urgente</li>
+               <li>Os recursos humanos eram insuficientes</li>
+               <li>A resposta começou com ação de graças antes da provisão visível</li>
+               <li>Deus proveu além do esperado</li>
+             </ul>
+             
+             <p>Müller talvez não soubesse como Deus pretendia prover. Mas levou a sério a promessa de Jesus: <em>"Peçam, e lhes será dado."</em> E o mesmo Deus que graciosamente respondeu às orações de Müller nos convida a fazer o mesmo.</p>
+
+             <hr />
+             
+             <h2>🎯 Aplicação Prática: Como Viver Como Müller Hoje</h2>
+             
+             <ul style={{listStyleType: 'none', paddingLeft: 0}}>
+               <li style={{marginBottom: '15px'}}>✅ <strong>Comece pequeno:</strong> Se Müller começou com dois xelins, você pode começar com uma necessidade específica. Anote-a. Ore por ela. Espere.</li>
+               <li style={{marginBottom: '15px'}}>✅ <strong>Memorize promessas:</strong> Escolha um versículo sobre provisão (Mateus 6:25-34, Filipenses 4:19, Salmo 37:25). Repita-o diariamente.</li>
+               <li style={{marginBottom: '15px'}}>✅ <strong>Pratique a ação de graças antecipada:</strong> Antes de ver a resposta, agradeça. Como Müller no refeitório vazio.</li>
+               <li style={{marginBottom: '15px'}}>✅ <strong>Compartilhe o que você recebe:</strong> A generosidade de Müller nasceu da confiança de que Deus proveria mais. Quando você crê nisso, pode dar com liberdade.</li>
+               <li>✅ <strong>Registre as respostas:</strong> Müller mantinha registros detalhados de cada provisão. Isso fortalecia sua fé e a de outros. Faça o mesmo.</li>
+             </ul>
+
+             <blockquote style={{borderLeft: '4px solid #722F37', background: '#fff9f9', padding: '1.5rem', margin: '3rem 0', fontStyle: 'italic', borderRadius: '4px'}}>
+               <p style={{margin: '0 0 10px 0'}}>Pai Celestial,</p>
+               <p style={{margin: '0 0 10px 0'}}>Obrigado porque Tu conheces cada uma de minhas necessidades.</p>
+               <p style={{margin: '0 0 10px 0'}}>Perdoa-me pelas vezes em que tentei resolver tudo sozinho, ansioso e sem confiar em Ti.</p>
+               <p style={{margin: '0 0 10px 0'}}>Ensina-me a orar como Müller: com ousadia, com paciência, com gratidão antecipada.</p>
+               <p style={{margin: '0 0 10px 0'}}>Ajuda-me a buscar primeiro o Teu Reino, crendo que o resto me será acrescentado.</p>
+               <p style={{margin: '0 0 10px 0'}}>Liberta-me do medo da escassez, para que eu possa ser generoso com os que me cercam.</p>
+               <p style={{margin: '0 0 10px 0'}}>E quando a resposta demorar, lembra-me: Tu não falhas. Tu amas dar. Tu és fiel.</p>
+               <p style={{margin: 0}}>Em nome de Jesus, amém.</p>
+             </blockquote>
+
+             <div style={{background: '#f8f9fa', borderLeft: '4px solid #0066cc', padding: '1.5rem', borderRadius: '0 8px 8px 0', margin: '2rem 0'}}>
+               <h3 style={{marginTop: 0, color: '#0066cc'}}>📖 Versículos para Meditar</h3>
+               <p style={{margin: '10px 0'}}><strong>Mateus 6:33</strong> — "Busquem, pois, em primeiro lugar o Reino de Deus e a sua justiça, e todas essas coisas lhes serão acrescentadas."</p>
+               <p style={{margin: '10px 0'}}><strong>Filipenses 4:19</strong> — "O meu Deus suprirá todas as necessidades de vocês, de acordo com as suas gloriosas riquezas em Cristo Jesus."</p>
+               <p style={{margin: '10px 0'}}><strong>Salmo 37:25</strong> — "Fui moço e agora sou velho, mas nunca vi o justo desamparado, nem seus filhos mendigando o pão."</p>
+               <p style={{margin: '10px 0'}}><strong>João 14:13-14</strong> — "E eu farei tudo o que vocês pedirem em meu nome, para que o Pai seja glorificado no Filho."</p>
+               <p style={{margin: '0'}}><strong>1 Timóteo 2:13</strong> — "Se somos infiéis, ele permanece fiel, pois não pode negar-se a si mesmo."</p>
+             </div>
+
+             <div style={{background: '#f8f9fa', border: '1px solid #e2e4e7', borderRadius: '12px', padding: '24px', margin: '30px 0'}}>
+               <h3 style={{marginTop: 0}}>📚 Leituras Recomendadas</h3>
+               <ul>
+                 <li><em>"George Müller: A Vida de Oração"</em> — Roger Steer</li>
+                 <li><em>"A Arte da Confiança"</em> — Oswald Chambers</li>
+                 <li><em>"O Deus que Provê"</em> — John Piper</li>
+                 <li><em>"Histórias de Fé que Transformaram o Mundo"</em> — Vários autores</li>
+                 <li><em>"A Generosidade Radical"</em> — David Platt</li>
+               </ul>
+             </div>
+
+             <p style={{textAlign: 'center', fontStyle: 'italic', color: '#555', marginTop: '30px'}}>
+               "O Senhor é o meu pastor; nada me faltará." — <strong>Salmo 23:1</strong><br/><br/>
+               <strong>Soli Deo Gloria. 🙏🍞✨</strong>
+             </p>
+
+             <div className="tags" style={{marginTop: '30px'}}>
+               <span className="cat-tag" style={{marginRight: '10px'}}>#GeorgeMüller</span>
+               <span className="cat-tag" style={{marginRight: '10px'}}>#oração</span>
+               <span className="cat-tag" style={{marginRight: '10px'}}>#provisão</span>
+               <span className="cat-tag" style={{marginRight: '10px'}}>#fé</span>
+               <span className="cat-tag" style={{marginRight: '10px'}}>#órfãos</span>
+               <span className="cat-tag" style={{marginRight: '10px'}}>#confiançaemDeus</span>
+               <span className="cat-tag">#Mateus6</span>
+             </div>
+
+             <ShareBar title="Pão para 100.000 Crianças: A Vida de Oração de George Müller" url="/pao-para-100000-criancas-vida-oracao-george-muller" />
+             <RelatedArticles currentLink="/pao-para-100000-criancas-vida-oracao-george-muller" category="Testemunhos" />
+             
+             <div style={{marginTop: '40px', paddingTop: '30px', borderTop: '1px solid #eee'}}>
+               <h3>Deixe seu comentário</h3>
+               <p style={{color: '#666', fontSize: '0.9rem', marginBottom: '20px'}}>Você já viu Deus prover de forma inesperada? Compartilhe seu testemunho abaixo e edifique outros irmãos!</p>
+               <div style={{background: '#f9f9f9', padding: '20px', borderRadius: '8px', textAlign: 'center'}}>
+                 <p><em>Os comentários estão temporariamente desativados. Envie seu testemunho para nosso e-mail ou redes sociais!</em></p>
+                 <button style={{background: '#722F37', color: 'white', border: 'none', padding: '10px 20px', borderRadius: '4px', marginTop: '10px', cursor: 'pointer'}}>📥 Baixe nosso Guia de Oração por Provisão</button>
+               </div>
+             </div>
            </main>
         ) : isTestemunhoDeusEBom ? (
           <main className="article-content section-mb">
