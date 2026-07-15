@@ -828,9 +828,11 @@ function App() {
              <div className="article-header">
                <span className="cat-tag">Personagens Bíblicos</span>
                <h1>Paulo de Tarso: O Perseguidor Chamado para Ser Apóstolo das Nações</h1>
-               <div className="article-meta">📖 <strong>Texto Base:</strong> Ester 4:14</div>
-             
-               <ArticleInfo date="23 de Junho de 2026" readingTime={10} />
+               <div className="article-meta">
+                 📖 <strong>PERSONAGENS BÍBLICOS | Soli Deo Gloria</strong><br/>
+                 <span style={{fontSize: '0.9rem', color: '#666'}}><em>Baseado em conteúdo do YouTube | 25 Jun, 2026</em></span>
+               </div>
+               <ArticleInfo readingTime={10} />
               </div>
              <img src="/paulo_de_tarso.png" alt="Paulo de Tarso" className="article-hero-img" loading="lazy" />
              <div className="article-body">
@@ -864,9 +866,11 @@ function App() {
              <div className="article-header">
                <span className="cat-tag">Personagens Bíblicos</span>
                <h1>Samuel: O Profeta que Foi a Voz de Deus nas Trevas de Israel</h1>
-               <div className="article-meta">📖 <strong>Texto Base:</strong> Ester 4:14</div>
-             
-               <ArticleInfo date="23 de Junho de 2026" readingTime={9} />
+               <div className="article-meta">
+                 📖 <strong>PERSONAGENS BÍBLICOS | Soli Deo Gloria</strong><br/>
+                 <span style={{fontSize: '0.9rem', color: '#666'}}><em>Baseado em conteúdo do YouTube | 25 Jun, 2026</em></span>
+               </div>
+               <ArticleInfo readingTime={9} />
               </div>
              <img src="/samuel_profeta.png" alt="Samuel: O Profeta" className="article-hero-img" loading="lazy" />
              <div className="article-body">
@@ -926,9 +930,11 @@ function App() {
              <div className="article-header">
                <span className="cat-tag">Personagens Bíblicos</span>
                <h1>Jó: O Homem que Perdeu Tudo, Mas Não Perdeu a Deus — A Soberania Divina no Meio do Sofrimento</h1>
-               <div className="article-meta">📖 <strong>Texto Base:</strong> 1 Samuel 1</div>
-             
-               <ArticleInfo date="23 de Junho de 2026" readingTime={11} />
+               <div className="article-meta">
+                 📖 <strong>PERSONAGENS BÍBLICOS | Soli Deo Gloria</strong><br/>
+                 <span style={{fontSize: '0.9rem', color: '#666'}}><em>Baseado em conteúdo do YouTube | 25 Jun, 2026</em></span>
+               </div>
+               <ArticleInfo readingTime={11} />
               </div>
              <img src="/jo_patriarca.png" alt="Jó" className="article-hero-img" loading="lazy" />
              <div className="article-body">
@@ -1241,9 +1247,11 @@ function App() {
                <span className="cat-tag">Testemunhos</span>
                <h1>Deus É Bom — Uma História de Fé e Transformação</h1>
                <h2 style={{fontSize: '1.2rem', fontWeight: 'normal', color: '#555', margin: '15px 0'}}>Como três palavras simples despertaram uma vida do sono da morte para a vida em Cristo</h2>
-               <div className="article-meta">📖 <strong>Texto Base:</strong> Hebreus 11</div>
-             
-               <ArticleInfo date="25 de Junho de 2026" readingTime={12} />
+               <div className="article-meta">
+                 📖 <strong>TESTEMUNHOS | Soli Deo Gloria</strong><br/>
+                 <span style={{fontSize: '0.9rem', color: '#666'}}><em>Baseado em conteúdo do YouTube | 25 Jun, 2026</em></span>
+               </div>
+               <ArticleInfo readingTime={12} />
               </div>
              
              <div style={{maxWidth: '900px', margin: '2.5rem auto 3rem'}}>
@@ -1493,9 +1501,11 @@ function App() {
                <span className="cat-tag">Testemunhos</span>
                <h1>É Ele: A Canção que Nasceu no Deserto e Ecoou nas Nações</h1>
                <h2 style={{fontSize: '1.2rem', fontWeight: 'normal', color: '#555', margin: '15px 0'}}>Como Paulo Vicente ouviu do Senhor e compôs um hino sobre João Batista que atravessou fronteiras</h2>
-               <div className="article-meta">📖 <strong>Texto Base:</strong> Hebreus 11</div>
-             
-               <ArticleInfo date="25 de Junho de 2026" readingTime={9} />
+               <div className="article-meta">
+                 📖 <strong>TESTEMUNHOS | Soli Deo Gloria</strong><br/>
+                 <span style={{fontSize: '0.9rem', color: '#666'}}><em>Baseado em conteúdo do YouTube | 25 Jun, 2026</em></span>
+               </div>
+               <ArticleInfo readingTime={9} />
               </div>
              
              <div style={{maxWidth: '900px', margin: '2.5rem auto 3rem'}}>
@@ -1641,9 +1651,11 @@ function App() {
                <span className="cat-tag">Testemunhos</span>
                <h1>Da Epilepsia à Adoração: Como a Música se Tornou a Voz da Cura de Thamires</h1>
                <h2 style={{fontSize: '1.2rem', fontWeight: 'normal', color: '#555', margin: '15px 0'}}>Uma jornada de dor, revelação e canções que nasceram do encontro entre sofrimento e graça</h2>
-               <div className="article-meta">📖 <strong>Texto Base:</strong> Hebreus 11</div>
-             
-               <ArticleInfo date="25 de Junho de 2026" readingTime={8} />
+               <div className="article-meta">
+                 📖 <strong>TESTEMUNHOS | Soli Deo Gloria</strong><br/>
+                 <span style={{fontSize: '0.9rem', color: '#666'}}><em>Baseado em conteúdo do YouTube | 25 Jun, 2026</em></span>
+               </div>
+               <ArticleInfo readingTime={8} />
               </div>
              
              <div style={{maxWidth: '900px', margin: '2.5rem auto 3rem'}}>
@@ -1777,14 +1789,11 @@ function App() {
                <span className="cat-tag">Testemunhos</span>
                <h1>A Voz que Quebrou Correntes: O Chamado de Julliany Souza no Quarto do Pai</h1>
                <h2 style={{fontSize: '1.2rem', fontWeight: 'normal', color: '#555', margin: '15px 0'}}>Como uma adolescente usou o louvor como arma espiritual e viu Deus transformar uma família</h2>
-               <div className="article-meta">📖 <strong>Texto Base:</strong> Hebreus 11</div>
-               <div className="share-buttons" style={{display: 'flex', gap: '10px', marginTop: '15px', justifyContent: 'center'}}>
-                 <button className="share-btn">📘 Facebook</button>
-                 <button className="share-btn">📱 WhatsApp</button>
-                 <button className="share-btn">🐦 Twitter</button>
-                 <button className="share-btn">📸 Instagram</button>
-               
-               <ArticleInfo date="25 de Junho de 2026" readingTime={9} />
+               <div className="article-meta">
+                 📖 <strong>TESTEMUNHOS | Soli Deo Gloria</strong><br/>
+                 <span style={{fontSize: '0.9rem', color: '#666'}}><em>Baseado em conteúdo do YouTube | 25 Jun, 2026</em></span>
+               </div>
+               <ArticleInfo readingTime={9} />
               </div>
              </div>
              
@@ -2279,9 +2288,11 @@ function App() {
              <div className="article-header">
                <span className="cat-tag">Estudos Bíblicos</span>
                <h1>A Carta aos Gálatas e a Liberdade Cristã: O Evangelho da Graça Contra o Legalismo</h1>
-               <div className="article-meta">📖 <strong>Texto Base:</strong> 1 Samuel 3:10</div>
-             
-               <ArticleInfo date="11 de Junho de 2026" readingTime={12} />
+               <div className="article-meta">
+                 📖 <strong>ESTUDOS BÍBLICOS | Soli Deo Gloria</strong><br/>
+                 <span style={{fontSize: '0.9rem', color: '#666'}}><em>Baseado em conteúdo do YouTube | 14 Mar, 2026</em></span>
+               </div>
+               <ArticleInfo readingTime={12} />
               </div>
              
              <img src="/galatas.png" alt="A Carta aos Gálatas e a Liberdade Cristã" className="article-hero-img" loading="lazy" />
@@ -2679,9 +2690,11 @@ function App() {
                <span className="cat-tag red">Mulheres da Bíblia / Estudos Bíblicos</span>
                <h1>Ana: A Mãe que Orou, Chorou e Gerou um Profeta</h1>
                <p className="article-subtitle" style={{fontSize: '1.2rem', color: '#555', marginTop: '0.5rem'}}>Sua história nos ensina que Deus ouve o clamor dos humildes, que a oração persistente move o céu e que um filho dedicado a Deus pode transformar uma nação.</p>
-               <div className="article-meta">📖 <strong>Texto Base:</strong> 1 Samuel 16</div>
-             
-               <ArticleInfo date="23 de Junho de 2026" readingTime={9} />
+               <div className="article-meta">
+                 📖 <strong>PERSONAGENS BÍBLICOS | Soli Deo Gloria</strong><br/>
+                 <span style={{fontSize: '0.9rem', color: '#666'}}><em>Baseado em conteúdo do YouTube | 25 Jun, 2026</em></span>
+               </div>
+               <ArticleInfo readingTime={9} />
               </div>
              
              <img src="/ana_orando.png" alt="Ana Orando no Tabernáculo" className="article-hero-img" loading="lazy" />
@@ -2830,9 +2843,11 @@ function App() {
                <span className="cat-tag red">História Bíblica / Mulheres da Bíblia</span>
                <h1>Ester: A Rainha que Salvou um Povo e o Deus que Age nas Sombras</h1>
                <p className="article-subtitle" style={{fontSize: '1.2rem', color: '#555', marginTop: '0.5rem'}}>Uma jornada que ecoa através dos séculos e nos ensina como Deus age quando tudo parece perdido.</p>
-               <div className="article-meta">📖 <strong>Texto Base:</strong> Ester 4:14</div>
-             
-               <ArticleInfo date="23 de Junho de 2026" readingTime={10} />
+               <div className="article-meta">
+                 📖 <strong>PERSONAGENS BÍBLICOS | Soli Deo Gloria</strong><br/>
+                 <span style={{fontSize: '0.9rem', color: '#666'}}><em>Baseado em conteúdo do YouTube | 25 Jun, 2026</em></span>
+               </div>
+               <ArticleInfo readingTime={10} />
               </div>
              
              <img src="/ester_rainha.png" alt="Rainha Ester" className="article-hero-img" loading="lazy" />
@@ -2984,9 +2999,11 @@ function App() {
                <span className="cat-tag red">História Bíblica / Liderança</span>
                <h1>O Pastor que Conquistou um Trono: A Jornada de Davi, do Curral de Belém ao Palácio de Jerusalém</h1>
                <p className="article-subtitle" style={{fontSize: '1.2rem', color: '#555', marginTop: '0.5rem'}}>A história não é um conto de fadas; é um testemunho vivo de como Deus escolhe, prepara e exalta aqueles que confiam nEle em meio à obscuridade.</p>
-               <div className="article-meta">📖 <strong>Texto Base:</strong> Ester 4:14</div>
-             
-               <ArticleInfo date="23 de Junho de 2026" readingTime={10} />
+               <div className="article-meta">
+                 📖 <strong>PERSONAGENS BÍBLICOS | Soli Deo Gloria</strong><br/>
+                 <span style={{fontSize: '0.9rem', color: '#666'}}><em>Baseado em conteúdo do YouTube | 25 Jun, 2026</em></span>
+               </div>
+               <ArticleInfo readingTime={10} />
               </div>
              
              <img src="/davi_pastor.png" alt="Davi o Jovem Pastor" className="article-hero-img" loading="lazy" />
@@ -3506,8 +3523,11 @@ function App() {
                <span className="cat-tag">Notícias</span>
                <h1>14 Estrelas da Copa do Mundo 2026 que Seguem Jesus: Craques que Glorificam a Deus em Campo</h1>
                <p className="article-subtitle" style={{fontSize: '1.1rem', color: '#555', marginTop: '8px', lineHeight: '1.6'}}>De Alisson a Bukayo Saka, conheça os atletas que entram na maior competição do futebol mundial para exaltar o nome de Cristo</p>
-               <div className="article-meta">📰 <strong>Cody Benjamin</strong> (Tradução e Adaptação: João Calvino)</div>
-               <ArticleInfo date="25 de Junho de 2026" readingTime={18} />
+               <div className="article-meta">
+                 📖 <strong>NOTÍCIAS | Soli Deo Gloria</strong><br/>
+                 <span style={{fontSize: '0.9rem', color: '#666'}}><em>Adaptado de fonte externa | 25 Jun, 2026</em></span>
+               </div>
+               <ArticleInfo readingTime={18} />
               </div>
 
               <img src="/copa_mundo_fe.png" alt="Copa do Mundo 2026 e Fé Cristã" className="article-hero-img" loading="lazy" />
@@ -3838,8 +3858,11 @@ function App() {
                <span className="cat-tag">Estudos Bíblicos</span>
                <h1>Para Onde Vai a Alma do Cristão Após a Morte? O Estado Intermediário e a Esperança da Ressurreição</h1>
                <p style={{fontSize: '1.1rem', color: '#555', marginTop: '8px', lineHeight: '1.6'}}>Uma análise exegética de 1 Tessalonicenses 4, 2 Coríntios 5 e Filipenses 1 sobre o que acontece com os crentes entre a morte e a segunda vinda de Cristo.</p>
-               <div className="article-meta">📖 <strong>João Calvino</strong></div>
-               <ArticleInfo date="25 de Junho de 2026" readingTime={16} />
+               <div className="article-meta">
+                 📖 <strong>ESTUDOS BÍBLICOS | Soli Deo Gloria</strong><br/>
+                 <span style={{fontSize: '0.9rem', color: '#666'}}><em>Baseado em conteúdo do YouTube | 25 Jun, 2026</em></span>
+               </div>
+               <ArticleInfo readingTime={16} />
               </div>
 
               <img src="/estado_intermediario.png" alt="O Estado Intermediário e a Esperança da Ressurreição" className="article-hero-img" loading="lazy" />
@@ -4052,8 +4075,11 @@ function App() {
                <span className="cat-tag">Estudos Bíblicos</span>
                <h1>Multidão, Oposição ou Discípulo? Quem Realmente Segue a Jesus em Marcos 3</h1>
                <p style={{fontSize: '1.1rem', color: '#555', marginTop: '8px', lineHeight: '1.6'}}>Uma análise exegética sobre o chamado, a identidade de Cristo e o custo do verdadeiro discipulado.</p>
-               <div className="article-meta">📖 <strong>João Calvino</strong> (Adaptação Teológica)</div>
-               <ArticleInfo date="25 de Junho de 2026" readingTime={12} />
+               <div className="article-meta">
+                 📖 <strong>INÍCIO / ESTUDOS BÍBLICOS | Soli Deo Gloria</strong><br/>
+                 <span style={{fontSize: '0.9rem', color: '#666'}}><em>Baseado em conteúdo do YouTube | 25 Jun, 2026</em></span>
+               </div>
+               <ArticleInfo readingTime={12} />
               </div>
 
               <img src="/marcos3_discipulos.png" alt="Jesus e seus discípulos" className="article-hero-img" loading="lazy" />
@@ -4186,9 +4212,9 @@ function App() {
                <p style={{fontSize: '1.1rem', color: '#555', marginTop: '8px', lineHeight: '1.6'}}>Um chamado para resgatar a responsabilidade pessoal no estudo das Escrituras e usar ativamente a mente que Deus nos deu.</p>
                <div className="article-meta">
                  📖 <strong>DEVOCIONAIS / VIDA CRISTÃ | Soli Deo Gloria</strong><br/>
-                 <span style={{fontSize: '0.9rem', color: '#666'}}><em>Nota: Baseado em conteúdo do YouTube</em></span>
+                 <span style={{fontSize: '0.9rem', color: '#666'}}><em>Baseado em conteúdo do YouTube | 25 Jun, 2026</em></span>
                </div>
-               <ArticleInfo date="25 de Junho de 2026" readingTime={14} />
+               <ArticleInfo readingTime={14} />
               </div>
 
               <img src="/estudo_biblico_reflexao.png" alt="Pessoa lendo a Bíblia e fazendo anotações" className="article-hero-img" loading="lazy" />
