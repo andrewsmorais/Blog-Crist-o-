@@ -4184,7 +4184,10 @@ function App() {
                <span className="cat-tag">Devocionais</span>
                <h1>Antes de Ler o Comentário: Por Que Você Precisa Pensar por Si Mesmo ao Estudar a Bíblia</h1>
                <p style={{fontSize: '1.1rem', color: '#555', marginTop: '8px', lineHeight: '1.6'}}>Um chamado para resgatar a responsabilidade pessoal no estudo das Escrituras e usar ativamente a mente que Deus nos deu.</p>
-               <div className="article-meta">📖 <strong>João Calvino</strong></div>
+               <div className="article-meta">
+                 📖 <strong>DEVOCIONAIS / VIDA CRISTÃ | Soli Deo Gloria</strong><br/>
+                 <span style={{fontSize: '0.9rem', color: '#666'}}><em>Nota: Baseado em conteúdo do YouTube</em></span>
+               </div>
                <ArticleInfo date="25 de Junho de 2026" readingTime={14} />
               </div>
 
