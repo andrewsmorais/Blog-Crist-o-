@@ -681,6 +681,21 @@ function App() {
               <h2>Estudos Bíblicos</h2>
             </div>
             <div className="grid-2" style={{marginTop: '2rem'}}>
+
+              <div className="grid-2-item">
+                <a href="/multidao-oposicao-ou-discipulo-quem-segue-jesus-marcos-3" style={{textDecoration: 'none', color: 'inherit'}}>
+                  <img src="/marcos3_discipulos.png" alt="Multidão, Oposição ou Discípulo?" className="img-ph" loading="lazy" style={{objectFit: 'cover'}} />
+                  <h3 style={{fontSize: '1.1rem', marginBottom: '8px', lineHeight: '1.4'}}>Multidão, Oposição ou Discípulo? Quem Realmente Segue a Jesus em Marcos 3</h3>
+                  <div className="meta">📖 <strong>Texto Base:</strong> Marcos 3</div>
+                </a>
+              </div>
+              <div className="grid-2-item">
+                <a href="/para-onde-vai-alma-cristao-apos-morte-estado-intermediario-ressurreicao" style={{textDecoration: 'none', color: 'inherit'}}>
+                  <img src="/estado_intermediario.png" alt="Para Onde Vai a Alma do Cristão Após a Morte?" className="img-ph" loading="lazy" style={{objectFit: 'cover'}} />
+                  <h3 style={{fontSize: '1.1rem', marginBottom: '8px', lineHeight: '1.4'}}>Para Onde Vai a Alma do Cristão Após a Morte? O Estado Intermediário</h3>
+                  <div className="meta">📖 <strong>Texto Base:</strong> 1 Tessalonicenses 4</div>
+                </a>
+              </div>
               <div className="grid-2-item">
                 <a href="/cinco-solas-relevancia-hoje-reforma-protestante" style={{textDecoration: 'none', color: 'inherit'}}>
                   <img src="/cinco_solas.png" alt="As Cinco Solas e Sua Relevância Hoje" className="img-ph" loading="lazy" style={{objectFit: 'cover'}} />
@@ -1089,6 +1104,15 @@ function App() {
             </div>
             <div className="grid-3" style={{marginTop: '2rem'}}>
               
+
+              <div className="grid-3-item">
+                <a href="/deus-honrou-fe-testemunho-milagres-provisao-divina" style={{textDecoration: 'none', color: 'inherit'}}>
+                  <img src="/provisao.png" alt="Deus Honrou a Fé Dela" className="img-ph" loading="lazy" style={{objectFit: 'cover'}} />
+                  <span className="cat-tag" style={{display: 'inline-block', marginBottom: '8px', marginTop: '12px'}}>TESTEMUNHOS</span>
+                  <h3 style={{fontSize: '1.1rem', marginBottom: '8px', lineHeight: '1.4'}}>Deus Honrou a Fé Dela — Provisão Divina</h3>
+                  <p style={{fontSize: '0.9rem', color: '#666', marginTop: '8px', marginBottom: '12px'}}>Milagres e provisão na jornada de fé e obediência.</p>
+                </a>
+              </div>
               <div className="grid-3-item">
                 <a href="/pao-para-100000-criancas-vida-oracao-george-muller" style={{textDecoration: 'none', color: 'inherit'}}>
                   <img src="/george_muller_pao.png" alt="George Müller" className="img-ph" loading="lazy" style={{objectFit: 'cover'}} />
@@ -1170,6 +1194,31 @@ function App() {
               <h2>Devocionais</h2>
             </div>
             <div className="grid-3" style={{marginTop: '2rem'}}>
+
+              <div className="grid-3-item">
+                <a href="/antes-ler-comentario-pensar-por-si-mesmo-estudo-biblico" style={{textDecoration: 'none', color: 'inherit'}}>
+                  <img src="/estudo_biblico_reflexao.png" alt="Antes de Ler o Comentário" className="img-ph" loading="lazy" />
+                  <span className="cat-tag" style={{display: 'inline-block', marginBottom: '8px', marginTop: '12px'}}>DEVOCIONAIS</span>
+                  <h3 style={{fontSize: '1.1rem', marginBottom: '8px', lineHeight: '1.4'}}>Antes de Ler o Comentário: Pensar por Si Mesmo ao Estudar a Bíblia</h3>
+                  <p style={{fontSize: '0.9rem', color: '#666', marginTop: '8px', marginBottom: '12px'}}>Um chamado para resgatar a responsabilidade pessoal no estudo das Escrituras e usar ativamente a mente que Deus nos deu.</p>
+                </a>
+              </div>
+              <div className="grid-3-item">
+                <a href="/meus-planos-e-a-graca-de-deus-arquiteto-do-lar" style={{textDecoration: 'none', color: 'inherit'}}>
+                  <img src="/arquiteto_do_lar.png" alt="Meus Planos e a Graça de Deus" className="img-ph" loading="lazy" />
+                  <span className="cat-tag" style={{display: 'inline-block', marginBottom: '8px', marginTop: '12px'}}>DEVOCIONAIS</span>
+                  <h3 style={{fontSize: '1.1rem', marginBottom: '8px', lineHeight: '1.4'}}>Meus Planos e a Graça de Deus</h3>
+                  <p style={{fontSize: '0.9rem', color: '#666', marginTop: '8px', marginBottom: '12px'}}>Deus, Arquiteto do lar — Em tudo isso, porém, é a graça de Deus que nos dirige e nos capacita a avançar.</p>
+                </a>
+              </div>
+              <div className="grid-3-item">
+                <a href="/custo-real-do-discipulado-caminhar-na-fe" style={{textDecoration: 'none', color: 'inherit'}}>
+                  <img src="/discipulado_custo.png" alt="O Custo Real do Discipulado" className="img-ph" loading="lazy" />
+                  <span className="cat-tag" style={{display: 'inline-block', marginBottom: '8px', marginTop: '12px'}}>DEVOCIONAIS</span>
+                  <h3 style={{fontSize: '1.1rem', marginBottom: '8px', lineHeight: '1.4'}}>O Custo Real do Discipulado</h3>
+                  <p style={{fontSize: '0.9rem', color: '#666', marginTop: '8px', marginBottom: '12px'}}>Reflexão profunda sobre o que realmente significa caminhar na fé e tomar a cruz.</p>
+                </a>
+              </div>
               <div className="grid-3-item">
                 <a href="/artigo/sermao-do-monte" style={{textDecoration: 'none', color: 'inherit'}}>
                   <img src="/sermao-do-monte.png" alt="Sermão do Monte" className="img-ph" loading="lazy" />
