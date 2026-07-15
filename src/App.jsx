@@ -1090,6 +1090,14 @@ function App() {
             <div className="grid-3" style={{marginTop: '2rem'}}>
               
               <div className="grid-3-item">
+                <a href="/pao-para-100000-criancas-vida-oracao-george-muller" style={{textDecoration: 'none', color: 'inherit'}}>
+                  <img src="/george_muller_pao.png" alt="George Müller" className="img-ph" loading="lazy" style={{objectFit: 'cover'}} />
+                  <span className="cat-tag" style={{display: 'inline-block', marginBottom: '8px', marginTop: '12px'}}>TESTEMUNHOS</span>
+                  <h3 style={{fontSize: '1.1rem', marginBottom: '8px', lineHeight: '1.4'}}>Pão para 100.000 Crianças: A Vida de Oração de George Müller</h3>
+                  <p style={{fontSize: '0.9rem', color: '#666', marginTop: '8px', marginBottom: '12px'}}>Como um homem que começou com dois xelins no bolso sustentou mais de dez mil órfãos apenas pela oração — e o que isso nos ensina sobre confiar no Pai que conhece nossas necessidades.</p>
+                </a>
+              </div>
+              <div className="grid-3-item">
                 <a href="/testemunho-deus-e-bom-historia-fe-transformacao" style={{textDecoration: 'none', color: 'inherit'}}>
                   <img src="/deus_e_bom.png" alt="Deus É Bom" className="img-ph" loading="lazy" style={{objectFit: 'cover'}} />
                   <span className="cat-tag" style={{display: 'inline-block', marginBottom: '8px', marginTop: '12px'}}>TESTEMUNHOS</span>
