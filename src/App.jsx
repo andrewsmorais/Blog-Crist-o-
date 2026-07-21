@@ -127,6 +127,7 @@ const allArticlesData = [
   { link: '/multidao-oposicao-ou-discipulo-quem-segue-jesus-marcos-3', image: '/marcos3_discipulos.png', tag: 'Estudos Bíblicos', title: 'Multidão, Oposição ou Discípulo?' },
   { link: '/papel-da-mae-segundo-a-biblia-estudo-completo', image: '/maternidade_biblica.png', tag: 'Estudos Bíblicos', title: 'O Papel da Mãe Segundo a Bíblia: Fundamentos e Exemplos' },
   { link: '/proverbios-prosperidade-financeira-sabedoria-mordomia-contentamento', image: '/proverbios_financas.png', tag: 'Estudos Bíblicos', title: 'Provérbios e a Prosperidade Financeira' },
+  { link: '/5-tipos-pessoas-biblia-orienta-nao-ajudar-limites-saudaveis', image: '/limites_biblicos.png', tag: 'Estudos Bíblicos', title: '5 Tipos de Pessoas que a Bíblia Orienta Não Ajudar' },
 ];
 
 function RelatedArticles({ currentLink, category }) {
@@ -244,7 +245,8 @@ function App() {
   const isNoticias = path === '/noticias';
   const isCopaJesus = path === '/14-estrelas-copa-mundo-2026-seguem-jesus-jogadores-cristaos';
   const isDiscipulado = path === '/custo-real-do-discipulado-caminhar-na-fe';
-      const isProverbiosFinancas = path === '/proverbios-prosperidade-financeira-sabedoria-mordomia-contentamento';
+        const isLimitesBiblicos = path === '/5-tipos-pessoas-biblia-orienta-nao-ajudar-limites-saudaveis';
+  const isProverbiosFinancas = path === '/proverbios-prosperidade-financeira-sabedoria-mordomia-contentamento';
   const isMaternidadeBiblica = path === '/papel-da-mae-segundo-a-biblia-estudo-completo';
   const isEstadoIntermediario = path === '/para-onde-vai-alma-cristao-apos-morte-estado-intermediario-ressurreicao';
   const isArquitetoDoLar = path === '/meus-planos-e-a-graca-de-deus-arquiteto-do-lar';
@@ -685,6 +687,15 @@ function App() {
               <h2>Estudos Bíblicos</h2>
             </div>
             <div className="grid-2" style={{marginTop: '2rem'}}>
+
+              <div className="grid-2-item">
+                <a href="/5-tipos-pessoas-biblia-orienta-nao-ajudar-limites-saudaveis" style={{textDecoration: 'none', color: 'inherit'}}>
+                  <img src="/limites_biblicos.png" alt="5 Tipos de Pessoas que a Bíblia Orienta Não Ajudar" className="img-ph" loading="lazy" style={{objectFit: 'cover'}} />
+                  <h3 style={{fontSize: '1.1rem', marginBottom: '8px', lineHeight: '1.4'}}>5 Tipos de Pessoas que a Bíblia Orienta Não Ajudar: Limites Saudáveis</h3>
+                  <p style={{fontSize: '0.9rem', color: '#666', marginTop: '8px'}}>Descubra como estabelecer fronteiras bíblicas sem perder o amor e como discernir entre ajudar e habilitar.</p>
+                  <div className="meta">📖 <strong>Texto Base:</strong> Mateus 10:16</div>
+                </a>
+              </div>
 
               <div className="grid-2-item">
                 <a href="/proverbios-prosperidade-financeira-sabedoria-mordomia-contentamento" style={{textDecoration: 'none', color: 'inherit'}}>
@@ -4206,7 +4217,216 @@ function App() {
               <RelatedArticles currentLink="/custo-real-do-discipulado-caminhar-na-fe" category="Devocionais" />
            </main>
 
-                         ) : isProverbiosFinancas ? (
+                                 ) : isLimitesBiblicos ? (
+          <main className="article-content section-mb">
+             <Breadcrumb category="Estudos Bíblicos" categoryLink="/estudos-biblicos" title="Limites Bíblicos" />
+             <div className="article-header">
+               <span className="cat-tag">Estudos Bíblicos</span>
+               <h1>5 Tipos de Pessoas que a Bíblia Orienta Não Ajudar: Sabedoria Divina para Limites Saudáveis</h1>
+               <div className="article-meta">
+                 📖 <strong>ESTUDOS BÍBLICOS | Soli Deo Gloria</strong><br/>
+                 <span style={{fontSize: '0.9rem', color: '#666'}}><em>Baseado em conteúdo do YouTube | 25 Jun, 2026</em></span>
+               </div>
+             
+               <ArticleInfo date="25 de Junho de 2026" readingTime={8} />
+              </div>
+             <img src="/limites_biblicos.png" alt="Limites Bíblicos e Sabedoria" className="article-hero-img" loading="lazy" style={{maxHeight: '450px', width: '100%', objectFit: 'cover', borderRadius: '12px'}} />
+             <div className="article-body">
+               
+               <h2>A Exaustão de Ajudar Sem Limites</h2>
+               <p>Você já ajudou alguém com todo o coração e, no final, se viu exausto, machucado e até arrependido de ter dado tanto de si? Já sentiu que quanto mais oferecia, mais era drenado, como se houvesse algo errado — não na generosidade, mas em quem você escolheu ajudar?</p>
+               
+               <p>Essa pergunta pode parecer estranha para um cristão. Afinal, não fomos chamados a amar o próximo? Sim, e é exatamente por isso que precisamos conversar sobre uma verdade que a maioria das pessoas evita: ajudar é sagrado, mas ajudar da maneira errada, à pessoa errada, no momento errado, pode se tornar um ato que alimenta o mal, adoece o bem e desonra a Deus.</p>
+               
+               <p>A Bíblia é mais clara sobre isso do que muitos gostariam. O que você vai ler aqui não é frio, não é cruel — é sábio. E sabedoria, na linguagem de Deus, sempre soa como amor, mesmo quando dói um pouco.</p>
+
+               <p>Neste estudo, exploraremos cinco tipos de pessoas que as Escrituras orientam a não ajudar sem limites, baseados em princípios de Provérbios, Gálatas, Romanos, 2 Tessalonicenses e Mateus. Descubra como estabelecer fronteiras saudáveis sem perder a compaixão, e como amar com discernimento, não com ingenuidade.</p>
+
+               <h2>📖 O Equilíbrio Bíblico: Amar com Sabedoria, Não com Ingenuidade</h2>
+               <p>Jesus nos chamou para amar (João 13:34), mas também para sermos <em>"prudentes como serpentes e simples como pombas"</em> (Mateus 10:16). O amor sem sabedoria pode se tornar cumplicidade. A generosidade sem discernimento pode habilitar a destruição.</p>
+               
+               <p>A Bíblia não nos chama para sermos exploradores emocionais ou financeiros, mas mordomos sábios dos recursos, do tempo e das energias que Deus nos confiou. Estabelecer limites não é egoísmo; é mordomia responsável.</p>
+
+               <div className="quote-box">
+                 "Sobre tudo o que se deve guardar, guarda o teu coração, porque dele procedem as fontes da vida." — Provérbios 4:23
+               </div>
+               
+               <p>Guardar o coração inclui saber a quem, como e quando ajudar.</p>
+
+               <h2>1️⃣ A Pessoa que Rejeita a Correção Repetidamente</h2>
+               <p><em>"Não repreendas o escarnecedor, para que ele não te odeie; repreende o sábio, e ele te amará."</em> — Provérbios 9:8</p>
+               
+               <h3>O Que as Escrituras Ensinam</h3>
+               <p>Há pessoas que vivem em padrões destrutivos, recebem conselho, acenam com a cabeça e voltam ao mesmo lugar. Não é falta de inteligência; é escolha deliberada. O escarnecedor, segundo Provérbios, não é simplesmente alguém ignorante — é alguém que conhece a verdade e a despreza ativamente.</p>
+               <p>O pastor Hernandes Dias Lopes, em seus estudos sobre Provérbios, ensina que o escarnecedor é incurável por escolha própria. Ele não quer mudar; quer apenas validação para continuar como está.</p>
+
+               <h3>Por Que Não Insistir?</h3>
+               <p>Ajudar esse tipo de pessoa sem limites é como lançar pérolas aos porcos (Mateus 7:6) — não porque ela não tenha valor, mas porque, naquele momento, não está preparada para receber o que é precioso.</p>
+               <p>Jesus mesmo agiu assim. Quando os fariseus testavam e zombavam, Ele não Se explicava indefinidamente. Havia momentos em que Ele simplesmente Se calava ou Se afastava com tranquilidade. Isso não era indiferença; era discernimento.</p>
+
+               <h3>Como Agir com Sabedoria</h3>
+               <ul style={{lineHeight: '1.8', marginBottom: '2rem'}}>
+                 <li>✅ <strong>Ore por ela:</strong> A intercessão é sempre eficaz</li>
+                 <li>✅ <strong>Ame de longe:</strong> Não precisa cortar o relacionamento, mas estabeleça limites</li>
+                 <li>✅ <strong>Não se esvazie:</strong> Você não pode continuar dando o que a pessoa rejeita ativamente</li>
+                 <li>✅ <strong>Espere o tempo de Deus:</strong> Às vezes, só o fundo do poço traz arrependimento genuíno</li>
+               </ul>
+               <p>O amor de Cristo nunca foi cego; foi sempre claro, firme e cheio de propósito. E se o próprio Filho de Deus sabia a hora de parar de falar, você também precisa aprender essa hora.</p>
+
+               <h2>2️⃣ A Pessoa que Usa sua Ajuda para Continuar no Pecado</h2>
+               <p><em>"Não vos enganeis: de Deus não se zomba; pois aquilo que o homem semear, isso também ceifará."</em> — Gálatas 6:7</p>
+
+               <h3>A Diferença Crucial</h3>
+               <p>Existe uma diferença enorme entre:</p>
+               <ul style={{lineHeight: '1.8', marginBottom: '1rem'}}>
+                 <li>✅ Ajudar alguém que caiu — e quer se levantar</li>
+                 <li>❌ Ajudar alguém que prefere ficar no chão — e usa sua ajuda para não levantar</li>
+               </ul>
+               <p>Quando você sustenta financeiramente um vício, encobre mentiras de quem não quer mudar, ou paga as consequências dos erros de quem não quer assumir responsabilidade, você não está sendo o amor de Deus. Você está sendo um obstáculo entre essa pessoa e a transformação que ela precisa.</p>
+
+               <h3>O Princípio da Semeadura e Colheita</h3>
+               <p>Paulo foi direto: Deus não Se deixa escarnecer. Quando você remove as consequências antes de elas ensinarem, você interfere no processo que Deus usa para transformar corações.</p>
+               <p>Isso exige amor maduro — não o amor que quer ser amado de volta, mas o que quer o bem real do outro. É difícil dizer isso a um filho, a um irmão, a um amigo querido. Mas há momentos em que o maior ato de amor é recuar, dobrar os joelhos e entregar aquela pessoa à graça de Deus. Sua ajuda, nesse caso, pode estar atrasando justamente o que Deus quer fazer.</p>
+
+               <h3>Aplicação Prática</h3>
+               <ul style={{lineHeight: '1.8', marginBottom: '2rem'}}>
+                 <li>✅ <strong>Deixe as consequências naturais agirem:</strong> Elas são professoras divinas</li>
+                 <li>✅ <strong>Ofereça apoio para mudança, não para manutenção do pecado</strong></li>
+                 <li>✅ <strong>Diga "não" ao que destrói:</strong> Mesmo que a pessoa não entenda agora</li>
+                 <li>✅ <strong>Ore e confie:</strong> Só Deus pode transformar corações endurecidos</li>
+               </ul>
+
+               <h2>3️⃣ A Pessoa que Rejeita a Paz e Espalha Divisão</h2>
+               <p><em>"Rogo-vos, irmãos, que noteis os que promovem divisões e escândalos contra a doutrina que aprendestes. Desviai-vos deles."</em> — Romanos 16:17</p>
+
+               <h3>O Padrão Destrutivo</h3>
+               <p>Há pessoas que, onde chegam, trazem confusão — não por acidente, mas por padrão persistente. Elas se alimentam do conflito, prosperam na discórdia e se ofendem quando encontram harmonia.</p>
+               <p>O teólogo John MacArthur, ao comentar Romanos 16:17, destaca que Paulo não estava sendo cruel ao instruir os cristãos a se desviarem dessas pessoas. Ele estava protegendo o corpo. Uma ferida inflamada, se não tratada, contamina o organismo todo.</p>
+
+               <h3>Por Que Estabelecer Limites?</h3>
+               <p>Ignorar isso por medo de parecer frio é uma forma de irresponsabilidade espiritual que cobra um preço alto depois. Isso não significa abandonar alguém para sempre sem olhar para trás. Significa estabelecer limites saudáveis e proteger o que é sagrado ao seu redor. Entenda que nem toda abertura de porta é um ato de fé. Às vezes, fechar uma porta com sabedoria é o ato mais corajoso que você pode praticar.</p>
+
+               <h3>Como Agir</h3>
+               <ul style={{lineHeight: '1.8', marginBottom: '2rem'}}>
+                 <li>✅ <strong>Continue intercedendo em oração:</strong> Oração nunca é abandono</li>
+                 <li>✅ <strong>Torça pelo bem dela de longe:</strong> Amor não precisa de proximidade tóxica</li>
+                 <li>✅ <strong>Não permita que a divisão destrua o que Deus construiu:</strong> Proteja sua família, ministério, paz</li>
+                 <li>✅ <strong>Esteja aberto à reconciliação:</strong> Se houver arrependimento genuíno, restaure com sabedoria (Gálatas 6:1)</li>
+               </ul>
+
+               <h2>4️⃣ A Pessoa que Não Quer Trabalhar, mas Quer Colher</h2>
+               <p><em>"Se alguém não quiser trabalhar, também não coma."</em> — 2 Tessalonicenses 3:10</p>
+
+               <h3>A Instrução Apostólica Direta</h3>
+               <p>Paulo estava falando para uma comunidade real, com pessoas reais, que aprenderam a depender dos outros sem contribuir com nada. E a instrução foi clara: não alimente essa dinâmica.</p>
+               <p>Há uma diferença enorme entre:</p>
+               <ul style={{lineHeight: '1.8', marginBottom: '1rem'}}>
+                 <li>✅ <strong>Pessoa em dificuldade genuína:</strong> merece toda solidariedade e ajuda</li>
+                 <li>❌ <strong>Pessoa que fez da dependência um estilo de vida:</strong> encontrou no coração generoso alheio um conforto para a própria omissão</li>
+               </ul>
+
+               <h3>A Dignidade do Trabalho</h3>
+               <p>Ajudar a segunda não é misericórdia; é participar de uma ilusão que a impede de crescer. O livro de Provérbios está cheio de advertências sobre o preguiçoso — não com desprezo, mas com sabedoria prática: <em>"O formigo trabalha sem que ninguém mande. O preguiçoso sempre encontra uma razão nova para não fazer o que precisa ser feito."</em> (Provérbios 6:6-11, paráfrase).</p>
+               <p>Enquanto você continua sendo a muleta de quem poderia caminhar sozinho, você está roubando dessa pessoa a chance de descobrir a dignidade do próprio esforço.</p>
+
+               <h3>Aplicação Prática</h3>
+               <ul style={{lineHeight: '1.8', marginBottom: '2rem'}}>
+                 <li>✅ <strong>Ajude quem está em crise temporária:</strong> Isso é misericórdia</li>
+                 <li>❌ <strong>Não sustente a preguiça crônica:</strong> Isso é conivência</li>
+                 <li>✅ <strong>Ofereça oportunidades, não esmolas:</strong> Ensine a pescar, não apenas dê o peixe</li>
+                 <li>✅ <strong>Estabeleça condições para ajuda:</strong> "Eu te ajudo se você fizer sua parte"</li>
+               </ul>
+
+               <h2>5️⃣ A Pessoa que Rejeita o Evangelho com Consciência</h2>
+               <p><em>"E se alguém não vos receber, nem ouvir as vossas palavras, saindo daquela casa ou cidade, sacudi o pó dos vossos pés."</em> — Mateus 10:14</p>
+
+               <h3>O Tipo Mais Delicado</h3>
+               <p>Este é o mais delicado de todos e precisa ser dito com muito cuidado e muita oração no coração. Há pessoas que conhecem o Evangelho, já ouviram a mensagem da salvação mais de uma vez, viram o amor de Deus em ação e, com plena consciência, o rejeitaram.</p>
+
+               <h3>O Que Significa "Sacudir o Pó dos Pés"?</h3>
+               <p>Para essas pessoas, Jesus deu uma instrução desconcertante: sacuda o pó dos pés. Isso não é indiferença ou abandono. É uma declaração silenciosa de que você fez o que podia, a mensagem foi entregue, e a responsabilidade agora pertence ao outro.</p>
+               <p>Você não pode salvar quem não quer ser salvo. Você não pode amar na força quem fechou todas as portas por dentro.</p>
+
+               <h3>Como Agir</h3>
+               <ul style={{lineHeight: '1.8', marginBottom: '2rem'}}>
+                 <li>✅ <strong>Continue orando:</strong> A intercessão sempre tem poder</li>
+                 <li>✅ <strong>Viva de tal maneira que sua vida seja testemunho:</strong> Às vezes, o exemplo silencioso fala mais que palavras</li>
+                 <li>✅ <strong>Não force o que só a pessoa pode escolher receber:</strong> A graça é dom, não imposição</li>
+                 <li>✅ <strong>Reconheça seus limites:</strong> Isso não é fraqueza; é humildade diante do único que verdadeiramente salva</li>
+               </ul>
+
+               <h2>🔄 A Virada: Discernimento Não é o Oposto do Amor</h2>
+               <p>Tudo o que foi dito aqui não é um chamado à dureza de coração. Não é uma licença para o egoísmo disfarçado de espiritualidade. É um convite à maturidade espiritual.</p>
+               
+               <p>A fé adulta aprendeu que amar não é o mesmo que se destruir. Amor sem discernimento é emoção, não virtude. Emoção, por mais bonita que pareça, não transforma ninguém — só desgasta quem a oferece.</p>
+               
+               <p>Talvez você esteja exausto porque deu de si muito mais do que Deus pediu que desse. Tentou ser o salvador de alguém — e esse lugar já está ocupado desde sempre. Assumiu responsabilidades que pertencem a Deus. Há um único que pode salvar, restaurar e transformar de dentro para fora. Seu papel é ser instrumento fiel nas mãos dEle, não fonte inesgotável nas mãos de todo mundo.</p>
+
+               <h3>A Verdade Libertadora</h3>
+               <ul style={{lineHeight: '1.8', marginBottom: '2rem'}}>
+                 <li>✅ <strong>Você não precisa ajudar todo mundo.</strong></li>
+                 <li>✅ <strong>Você precisa ouvir a quem Deus está te mandando ajudar.</strong></li>
+                 <li>✅ <strong>Confie que Ele cuida daqueles que Ele, por hora, não colocou em suas mãos.</strong></li>
+               </ul>
+               <p>Isso é fé. Isso é paz. Isso é sabedoria que só vem do alto, derramada sobre quem tem humildade de pedir.</p>
+
+               <h2>🛠️ Aplicação Prática: Como Estabelecer Limites Bíblicos Hoje</h2>
+               <ul style={{lineHeight: '1.8', marginBottom: '2rem'}}>
+                 <li>✅ <strong>Avalie seus relacionamentos:</strong> Quem você tem ajudado? Com que resultado?</li>
+                 <li>✅ <strong>Ore por discernimento:</strong> Peça sabedoria a Deus (Tiago 1:5)</li>
+                 <li>✅ <strong>Estabeleça limites claros:</strong> Diga "não" quando for necessário</li>
+                 <li>✅ <strong>Ofereça ajuda que edifica, não que habilita:</strong> Ajude pessoas a crescer, não a depender</li>
+                 <li>✅ <strong>Proteja sua família e ministério:</strong> Não permita que pessoas divisivas destruam o que Deus construiu</li>
+                 <li>✅ <strong>Descanse na soberania de Deus:</strong> Você não é o Salvador; apenas um instrumento</li>
+               </ul>
+
+               <h2>🙏 Oração por Sabedoria e Limites Saudáveis</h2>
+               <blockquote style={{borderLeft: '4px solid #722F37', background: '#fff9f9', padding: '1.5rem', margin: '2rem 0', fontStyle: 'italic'}}>
+                 Senhor Jesus,<br/>
+                 Obrigado porque Teu amor é perfeito, sábio e cheio de graça.<br/>
+                 Perdoa-nos pelas vezes em que confundimos amor com ingenuidade, generosidade com falta de limites.<br/>
+                 Dá-nos sabedoria para saber a quem, como e quando ajudar.<br/>
+                 Ensina-nos a amar com discernimento, não com emoção cega.<br/>
+                 Protege-nos de pessoas que usam nossa bondade para o mal.<br/>
+                 Dá-nos coragem para dizer "não" quando for necessário.<br/>
+                 E ensina-nos a descansar em Ti, sabendo que não somos o Salvador — Tu és.<br/>
+                 Que nosso amor seja reflexo do Teu: claro, firme, cheio de propósito.<br/>
+                 Em nome de Jesus, amém.
+               </blockquote>
+
+               <h2>📖 Versículos para Meditação</h2>
+               <div style={{background: '#f8f9fa', borderLeft: '4px solid #0066cc', padding: '1.5rem', borderRadius: '0 8px 8px 0', margin: '2rem 0'}}>
+                 <p><strong>Provérbios 9:8</strong> — "Não repreendas o escarnecedor, para que ele não te odeie."</p>
+                 <p><strong>Gálatas 6:7</strong> — "Aquilo que o homem semear, isso também ceifará."</p>
+                 <p><strong>Romanos 16:17</strong> — "Notai os que promovem divisões. Desviai-vos deles."</p>
+                 <p><strong>2 Tessalonicenses 3:10</strong> — "Se alguém não quiser trabalhar, também não coma."</p>
+                 <p><strong>Mateus 10:14</strong> — "Se alguém não vos receber, sacudi o pó dos vossos pés."</p>
+                 <p><strong>Provérbios 4:23</strong> — "Guarda o teu coração, porque dele procedem as fontes da vida."</p>
+                 <p><strong>Tiago 1:5</strong> — "Se alguém tem falta de sabedoria, peça a Deus."</p>
+               </div>
+
+               <h2>📚 Leituras Recomendadas</h2>
+               <ul style={{lineHeight: '1.8', marginBottom: '2rem'}}>
+                 <li><strong>"Limites"</strong> — Henry Cloud e John Townsend (clássico sobre limites saudáveis à luz da Bíblia)</li>
+                 <li><strong>"Provérbios: Sabedoria para o Dia a Dia"</strong> — Hernandes Dias Lopes (comentário exegético e prático)</li>
+                 <li><strong>"O Amor que Discerne"</strong> — Paul David Tripp (como amar com sabedoria, não com ingenuidade)</li>
+                 <li><strong>"Mordomia Cristã"</strong> — Wayne Grudem (administração fiel de recursos, tempo e relacionamentos)</li>
+                 <li><strong>"A Arte de Dizer Não"</strong> — Vários autores (perspectiva bíblica sobre limites)</li>
+               </ul>
+
+               <p style={{fontSize: '1.1rem', fontStyle: 'italic', color: '#555', textAlign: 'center', margin: '2rem 0'}}>
+                 "Descanse no que Deus disse, aja com discernimento. Ame com limites saudáveis e coração aberto. E deixe que Ele seja Deus, porque Ele é muito bom nisso e sempre foi."
+               </p>
+               
+               <p style={{textAlign: 'center', fontWeight: 'bold', marginTop: '2rem'}}>Soli Deo Gloria. 🙏✨</p>
+
+             </div>
+
+             <ShareBar title="5 Tipos de Pessoas que a Bíblia Orienta Não Ajudar" url="/5-tipos-pessoas-biblia-orienta-nao-ajudar-limites-saudaveis" />
+             <RelatedArticles currentLink="/5-tipos-pessoas-biblia-orienta-nao-ajudar-limites-saudaveis" category="Estudos Bíblicos" />
+           </main>
+
+        ) : isProverbiosFinancas ? (
           <main className="article-content section-mb">
              <Breadcrumb category="Estudos Bíblicos" categoryLink="/estudos-biblicos" title="Provérbios e a Prosperidade" />
              <div className="article-header">
