@@ -126,6 +126,7 @@ const allArticlesData = [
   { link: '/antes-ler-comentario-pensar-por-si-mesmo-estudo-biblico', image: '/estudo_biblico_reflexao.png', tag: 'Devocionais', title: 'Antes de Ler o Comentário: Pensar por Si Mesmo ao Estudar a Bíblia' },
   { link: '/multidao-oposicao-ou-discipulo-quem-segue-jesus-marcos-3', image: '/marcos3_discipulos.png', tag: 'Estudos Bíblicos', title: 'Multidão, Oposição ou Discípulo?' },
   { link: '/papel-da-mae-segundo-a-biblia-estudo-completo', image: '/maternidade_biblica.png', tag: 'Estudos Bíblicos', title: 'O Papel da Mãe Segundo a Bíblia: Fundamentos e Exemplos' },
+  { link: '/proverbios-prosperidade-financeira-sabedoria-mordomia-contentamento', image: '/proverbios_financas.png', tag: 'Estudos Bíblicos', title: 'Provérbios e a Prosperidade Financeira' },
 ];
 
 function RelatedArticles({ currentLink, category }) {
@@ -243,7 +244,8 @@ function App() {
   const isNoticias = path === '/noticias';
   const isCopaJesus = path === '/14-estrelas-copa-mundo-2026-seguem-jesus-jogadores-cristaos';
   const isDiscipulado = path === '/custo-real-do-discipulado-caminhar-na-fe';
-    const isMaternidadeBiblica = path === '/papel-da-mae-segundo-a-biblia-estudo-completo';
+      const isProverbiosFinancas = path === '/proverbios-prosperidade-financeira-sabedoria-mordomia-contentamento';
+  const isMaternidadeBiblica = path === '/papel-da-mae-segundo-a-biblia-estudo-completo';
   const isEstadoIntermediario = path === '/para-onde-vai-alma-cristao-apos-morte-estado-intermediario-ressurreicao';
   const isArquitetoDoLar = path === '/meus-planos-e-a-graca-de-deus-arquiteto-do-lar';
   const isMarcos3 = path === '/multidao-oposicao-ou-discipulo-quem-segue-jesus-marcos-3';
@@ -683,6 +685,15 @@ function App() {
               <h2>Estudos Bíblicos</h2>
             </div>
             <div className="grid-2" style={{marginTop: '2rem'}}>
+
+              <div className="grid-2-item">
+                <a href="/proverbios-prosperidade-financeira-sabedoria-mordomia-contentamento" style={{textDecoration: 'none', color: 'inherit'}}>
+                  <img src="/proverbios_financas.png" alt="Provérbios e a Prosperidade Financeira" className="img-ph" loading="lazy" style={{objectFit: 'cover'}} />
+                  <h3 style={{fontSize: '1.1rem', marginBottom: '8px', lineHeight: '1.4'}}>Provérbios e a Prosperidade Financeira: Sabedoria Bíblica</h3>
+                  <p style={{fontSize: '0.9rem', color: '#666', marginTop: '8px'}}>Descubra como os princípios de Salomão redefinem riqueza, dívidas e generosidade à luz do Reino.</p>
+                  <div className="meta">📖 <strong>Texto Base:</strong> Provérbios 10:22</div>
+                </a>
+              </div>
 
               <div className="grid-2-item">
                 <a href="/papel-da-mae-segundo-a-biblia-estudo-completo" style={{textDecoration: 'none', color: 'inherit'}}>
@@ -4195,7 +4206,142 @@ function App() {
               <RelatedArticles currentLink="/custo-real-do-discipulado-caminhar-na-fe" category="Devocionais" />
            </main>
 
-                 ) : isMaternidadeBiblica ? (
+                         ) : isProverbiosFinancas ? (
+          <main className="article-content section-mb">
+             <Breadcrumb category="Estudos Bíblicos" categoryLink="/estudos-biblicos" title="Provérbios e a Prosperidade" />
+             <div className="article-header">
+               <span className="cat-tag">Estudos Bíblicos</span>
+               <h1>Provérbios e a Prosperidade Financeira: Sabedoria Bíblica para Uma Vida de Mordomia e Contentamento</h1>
+               <div className="article-meta">
+                 📖 <strong>ESTUDOS BÍBLICOS | Soli Deo Gloria</strong><br/>
+                 <span style={{fontSize: '0.9rem', color: '#666'}}><em>Adaptado para publicação | 25 Jun, 2026</em></span>
+               </div>
+             
+               <ArticleInfo date="25 de Junho de 2026" readingTime={7} />
+              </div>
+             <img src="/proverbios_financas.png" alt="Provérbios e a Prosperidade Financeira" className="article-hero-img" loading="lazy" style={{maxHeight: '450px', width: '100%', objectFit: 'cover', borderRadius: '12px'}} />
+             <div className="article-body">
+               
+               <h2>A Ilusão Moderna e a Sabedoria Antiga</h2>
+               <p>A busca por prosperidade financeira domina manchetes, cursos online e redes sociais. Promessas de "fórmulas milagrosas", "mentes milionárias" e "decretos de abundância" ecoam por todos os lados. Mas a Bíblia oferece um caminho radicalmente diferente: não atalhos mágicos, mas sabedoria prática moldada pelo caráter de Deus.</p>
+               
+               <p>O livro de Provérbios, escrito principalmente por Salomão, é o manual divino para a vida cotidiana. E as finanças não são exceção. Longe de ser um tema secundário, a maneira como lidamos com dinheiro revela o estado do nosso coração, nossa confiança em Deus e nossa compreensão de mordomia.</p>
+               
+               <p>Neste estudo, exploraremos os princípios bíblicos sobre trabalho, planejamento, dívidas, generosidade e contentamento. Descubra como a verdadeira prosperidade não é acúmulo egoísta, mas administração fiel do que Deus confiou.</p>
+
+               <h2>O Fundamento Bíblico: Prosperidade ≠ Riqueza por Riqueza</h2>
+               <p>Provérbios não promete riqueza automática para os justos, nem condena a pobreza como castigo divino. Ele revela padrões de sabedoria que levam a uma vida estável, honrosa e abençoada.</p>
+               
+               <p>A prosperidade bíblica é multifacetada:</p>
+               <ul style={{lineHeight: '1.8', marginBottom: '2rem'}}>
+                 <li>✅ Paz interior e contentamento</li>
+                 <li>✅ Trabalho digno e fruto do esforço</li>
+                 <li>✅ Relacionamentos saudáveis</li>
+                 <li>✅ Capacidade de abençoar outros</li>
+                 <li>✅ Confiança inabalável na provisão de Deus</li>
+               </ul>
+
+               <div className="quote-box">
+                 "A bênção do SENHOR é que enriquece, e ele não acrescenta dores." — Provérbios 10:22
+               </div>
+               
+               <p>Riqueza sem sabedoria é armadilha (Pv 28:20). Riqueza com temor do Senhor é bênção que não corrompe.</p>
+
+               <h2>6 Princípios de Provérbios para Uma Vida Financeira Sábia</h2>
+               
+               <h3>1. 🛠️ Diligência &gt; Preguiça</h3>
+               <p><em>"As mãos preguiçosas empobrecem o homem, porém as mãos dos diligentes lhe trazem riqueza."</em> — Provérbios 10:4</p>
+               <p>O trabalho honesto e consistente é o meio ordenado por Deus para o sustento. A preguiça não é apenas falta de ação; é negligência espiritual que ignora o chamado para ser mordomo fiel (Gn 2:15). Excelência no trabalho é adoração prática (Cl 3:23).</p>
+
+               <h3>2. 📊 Planejamento e Orçamento</h3>
+               <p><em>"Os planos do diligente tendem à abundância, mas todo o que é apressado empobrece."</em> — Provérbios 21:5</p>
+               <p><em>"Procura conhecer o estado das tuas ovelhas; põe o teu coração sobre os teus rebanhos."</em> — Provérbios 27:23</p>
+               <p>Salomão não fala de "investimentos mágicos", mas de gestão intencional. Conhecer entradas e saídas, evitar impulsividade, planejar com calma. Orar não substitui planilha; a sabedoria une os dois.</p>
+
+               <h3>3. 🚫 Fuga das Dívidas e da Riqueza Rápida</h3>
+               <p><em>"O rico domina sobre os pobres, e o que toma emprestado é servo do que empresta."</em> — Provérbios 22:7</p>
+               <p><em>"A riqueza obtida com facilidade diminui, mas a colhida com trabalho cresce."</em> — Provérbios 13:11</p>
+               <p>Dívidas de consumo escravizam. "Ficar rico rápido" é ilusão que gera ansiedade e queda moral. A Bíblia honra o crescimento gradual, fruto de paciência, integridade e trabalho consistente.</p>
+
+               <h3>4. 🤲 Generosidade como Investimento do Reino</h3>
+               <p><em>"Há quem distribua e ainda lhe aumenta; e há quem retém mais do que é justo, e empobrece."</em> — Provérbios 11:24</p>
+               <p><em>"Ao SENHOR empresta o que se compadece do pobre, e ele lhe pagará o seu benefício."</em> — Provérbios 19:17</p>
+               <p>Dar não é perda; é confiança declarada. A generosidade bíblica não esmola por culpa; é gratidão em ação. Deus não é cobrado; Ele é honrado. E Ele cuida de quem reparte (2Co 9:8).</p>
+
+               <h3>5. ⚖️ Integridade nos Negócios</h3>
+               <p><em>"Balança enganosa é abominação para o SENHOR, mas o peso justo é o seu prazer."</em> — Provérbios 11:1</p>
+               <p><em>"Melhor é o pouco com justiça do que a abundância de frutos com injustiça."</em> — Provérbios 16:8</p>
+               <p>Fraude, sonegação, exploração ou "jeitinhos" podem trazer ganho imediato, mas corroem a alma e afastam a bênção de Deus. Integridade financeira é testemunho público do Reino.</p>
+
+               <h3>6. ☮️ Contentamento e Confiança em Deus</h3>
+               <p><em>"Confia no SENHOR de todo o teu coração... e Ele endireitará as tuas veredas."</em> — Provérbios 3:5-6</p>
+               <p><em>"Não me dês nem a pobreza nem a riqueza; mantém-me do pão da minha porção."</em> — Provérbios 30:8</p>
+               <p>O contentamento não é conformismo; é paz ativa. É crer que Deus sabe o que precisamos, quando precisamos e como precisamos. A ganância nasce da desconfiança; o contentamento nasce da comunhão.</p>
+
+               <h2>🌍 Correção Teológica: Prosperidade Bíblica vs. "Evangelho da Riqueza"</h2>
+               <p>É crucial distinguir as diferentes visões de riqueza que circulam hoje:</p>
+               <ul style={{lineHeight: '1.8', marginBottom: '2rem'}}>
+                 <li>❌ <strong>Prosperidade distorcida:</strong> Deus existe para me enriquecer; fé é moeda de troca; pobreza é falta de fé.</li>
+                 <li>✅ <strong>Prosperidade bíblica:</strong> Deus é soberano; riqueza é mordomia; pobreza pode ser temporada de refino; contentamento é fruto do Espírito.</li>
+               </ul>
+               <p>Jesus não prometeu conta bancária cheia, mas um Pai que provê (Mt 6:33). Paulo aprendeu a viver na abundância e na escassez (Fp 4:12-13). A verdadeira riqueza é Cristo (Fp 3:8).</p>
+
+               <h2>📋 Aplicação Prática: 7 Passos para Viver a Sabedoria de Provérbios Hoje</h2>
+               <ul style={{lineHeight: '1.8', marginBottom: '2rem'}}>
+                 <li>✅ <strong>Faça um orçamento mensal:</strong> Conheça para onde vai cada real</li>
+                 <li>✅ <strong>Elimine dívidas de consumo:</strong> Pague cartões, evite parcelas desnecessárias</li>
+                 <li>✅ <strong>Trabalhe com excelência:</strong> Seja fiel no pouco; Deus confia mais</li>
+                 <li>✅ <strong>Dê com propósito:</strong> Dízimo, oferta, caridade: tudo como ato de adoração</li>
+                 <li>✅ <strong>Poupe para emergências:</strong> Sabedoria é preparar-se para o inesperado</li>
+                 <li>✅ <strong>Ore sobre decisões financeiras:</strong> Busque direção antes de assinar, investir ou gastar</li>
+                 <li>✅ <strong>Cultive contentamento:</strong> Compare-se com a graça de Deus, não com o Instagram alheio</li>
+               </ul>
+
+               <h2>🙏 Oração pela Mordomia Financeira</h2>
+               <blockquote style={{borderLeft: '4px solid #722F37', background: '#fff9f9', padding: '1.5rem', margin: '2rem 0', fontStyle: 'italic'}}>
+                 Senhor Jesus,<br/>
+                 Obrigado porque Tu és o dono de tudo, e nós somos mordomos.<br/>
+                 Perdoa-nos pela ganância, pela ansiedade financeira e pela confiança em contas bancárias em vez de Ti.<br/>
+                 Ensina-nos a trabalhar com diligência, planejar com sabedoria, dar com generosidade e descansar em contentamento.<br/>
+                 Liberta-nos do jugo das dívidas e da escravidão do consumismo.<br/>
+                 Que nossas finanças glorifiquem Teu nome, sustentem nossa família e abençoem Teu Reino.<br/>
+                 Confiamos: Tu provês. Tu guardas. Tu satisfazes.<br/>
+                 Em nome de Jesus, amém.
+               </blockquote>
+
+               <h2>📖 Versículos para Meditação</h2>
+               <div style={{background: '#f8f9fa', borderLeft: '4px solid #0066cc', padding: '1.5rem', borderRadius: '0 8px 8px 0', margin: '2rem 0'}}>
+                 <p><strong>Provérbios 10:22</strong> — "A bênção do SENHOR é que enriquece, e ele não acrescenta dores."</p>
+                 <p><strong>Provérbios 22:7</strong> — "O que toma emprestado é servo do que empresta."</p>
+                 <p><strong>Provérbios 11:25</strong> — "A alma generosa prosperará; e o que rega também será regado."</p>
+                 <p><strong>Provérbios 3:5-6</strong> — "Confia no SENHOR de todo o teu coração... e Ele endireitará as tuas veredas."</p>
+                 <p><strong>Provérbios 30:8-9</strong> — "Não me dês nem a pobreza nem a riqueza; mantém-me do pão da minha porção."</p>
+                 <p><strong>Mateus 6:33</strong> — "Buscai, pois, em primeiro lugar, o seu Reino e a sua justiça, e todas estas coisas vos serão acrescentadas."</p>
+                 <p><strong>2 Coríntios 9:8</strong> — "Deus é poderoso para fazer abundar em vós toda a graça."</p>
+               </div>
+
+               <h2>📚 Leituras Recomendadas</h2>
+               <ul style={{lineHeight: '1.8', marginBottom: '2rem'}}>
+                 <li><strong>"O Cristão e o Dinheiro"</strong> — Randy Alcorn (teologia bíblica sobre finanças e eternidade)</li>
+                 <li><strong>"Mordomia Cristã"</strong> — Wayne Grudem (fundamentos reformados de administração fiel)</li>
+                 <li><strong>"Finanças à Luz da Bíblia"</strong> — Pr. Hernandes Dias Lopes (aplicação pastoral e prática)</li>
+                 <li><strong>"Contentamento"</strong> — Jerry Bridges (como viver em paz em meio à escassez ou abundância)</li>
+                 <li><strong>"O Homem Mais Rico da Babilônia"</strong> — George S. Clason (sabedoria prática alinhada aos princípios de Provérbios)</li>
+               </ul>
+
+               <p style={{fontSize: '1.1rem', fontStyle: 'italic', color: '#555', textAlign: 'center', margin: '2rem 0'}}>
+                 "A verdadeira prosperidade não é medida pelo quanto você acumula, mas pelo quanto você administra com fidelidade, reparte com generosidade e descansa em confiança."
+               </p>
+               
+               <p style={{textAlign: 'center', fontWeight: 'bold', marginTop: '2rem'}}>Soli Deo Gloria. 💰📖✨</p>
+
+             </div>
+
+             <ShareBar title="Provérbios e a Prosperidade Financeira" url="/proverbios-prosperidade-financeira-sabedoria-mordomia-contentamento" />
+             <RelatedArticles currentLink="/proverbios-prosperidade-financeira-sabedoria-mordomia-contentamento" category="Estudos Bíblicos" />
+           </main>
+
+        ) : isMaternidadeBiblica ? (
           <main className="article-content section-mb">
              <Breadcrumb category="Estudos Bíblicos" categoryLink="/estudos-biblicos" title="O Papel da Mãe" />
              <div className="article-header">
