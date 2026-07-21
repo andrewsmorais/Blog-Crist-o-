@@ -686,6 +686,7 @@ function App() {
                 <a href="/multidao-oposicao-ou-discipulo-quem-segue-jesus-marcos-3" style={{textDecoration: 'none', color: 'inherit'}}>
                   <img src="/marcos3_discipulos.png" alt="Multidão, Oposição ou Discípulo?" className="img-ph" loading="lazy" style={{objectFit: 'cover'}} />
                   <h3 style={{fontSize: '1.1rem', marginBottom: '8px', lineHeight: '1.4'}}>Multidão, Oposição ou Discípulo? Quem Realmente Segue a Jesus em Marcos 3</h3>
+                  <p style={{fontSize: '0.9rem', color: '#666', marginTop: '8px'}}>Descubra por que estar perto de Jesus nem sempre significa segui-Lo de verdade. Uma análise que desafia sua postura diante do Mestre.</p>
                   <div className="meta">📖 <strong>Texto Base:</strong> Marcos 3</div>
                 </a>
               </div>
@@ -693,6 +694,7 @@ function App() {
                 <a href="/para-onde-vai-alma-cristao-apos-morte-estado-intermediario-ressurreicao" style={{textDecoration: 'none', color: 'inherit'}}>
                   <img src="/estado_intermediario.png" alt="Para Onde Vai a Alma do Cristão Após a Morte?" className="img-ph" loading="lazy" style={{objectFit: 'cover'}} />
                   <h3 style={{fontSize: '1.1rem', marginBottom: '8px', lineHeight: '1.4'}}>Para Onde Vai a Alma do Cristão Após a Morte? O Estado Intermediário</h3>
+                  <p style={{fontSize: '0.9rem', color: '#666', marginTop: '8px'}}>Entenda o que as Escrituras realmente ensinam sobre o destino da alma entre a morte e a ressurreição final.</p>
                   <div className="meta">📖 <strong>Texto Base:</strong> 1 Tessalonicenses 4</div>
                 </a>
               </div>
@@ -700,6 +702,7 @@ function App() {
                 <a href="/cinco-solas-relevancia-hoje-reforma-protestante" style={{textDecoration: 'none', color: 'inherit'}}>
                   <img src="/cinco_solas.png" alt="As Cinco Solas e Sua Relevância Hoje" className="img-ph" loading="lazy" style={{objectFit: 'cover'}} />
                   <h3 style={{fontSize: '1.1rem', marginBottom: '8px', lineHeight: '1.4'}}>As Cinco Solas e Sua Relevância Hoje: Os Pilares da Reforma que Ainda Transformam Vidas</h3>
+                  <p style={{fontSize: '0.9rem', color: '#666', marginTop: '8px'}}>Conheça os cinco pilares que sacudiram a cristandade no século XVI e entenda por que continuam moldando a fé bíblica até hoje.</p>
                   <div className="meta">📖 <strong>Texto Base:</strong> Jó 42:2</div>
                 </a>
               </div>
@@ -708,6 +711,7 @@ function App() {
                 <a href="/artigo/sarca-ardente" style={{textDecoration: 'none', color: 'inherit'}}>
                   <img src="/sarca-ardente.jpg" alt="A Sarça Ardente" className="img-ph" loading="lazy" style={{objectFit: 'cover'}} />
                   <h3 style={{fontSize: '1.1rem', marginBottom: '8px', lineHeight: '1.4'}}>A Sarça Ardente: Quando Deus Encontrou Moisés no Deserto</h3>
+                  <p style={{fontSize: '0.9rem', color: '#666', marginTop: '8px'}}>Descubra como Deus transforma um fugitivo em libertador e o que a sarça que ardia sem se consumir revela sobre a presença divina.</p>
                   <div className="meta">📖 <strong>Texto Base:</strong> Gálatas 5:1</div>
                 </a>
               </div>
@@ -718,6 +722,7 @@ function App() {
                 <a href="/carta-galatas-liberdade-crista-estudo-completo" style={{textDecoration: 'none', color: 'inherit'}}>
                   <img src="/galatas.png" alt="A Carta aos Gálatas e a Liberdade Cristã" className="img-ph" loading="lazy" style={{objectFit: 'cover'}} />
                   <h3 style={{fontSize: '1.1rem', marginBottom: '8px', lineHeight: '1.4'}}>A Carta aos Gálatas e a Liberdade Cristã: O Evangelho da Graça Contra o Legalismo</h3>
+                  <p style={{fontSize: '0.9rem', color: '#666', marginTop: '8px'}}>Aprenda como Paulo confrontou o legalismo que ameaçava sufocar o Evangelho e descubra a liberdade que só a graça pode oferecer.</p>
                   <div className="meta">📖 <strong>Texto Base:</strong> 1 Samuel 3:10</div>
                 </a>
               </div>
@@ -746,6 +751,7 @@ function App() {
                 <a href="/como-ler-biblia-inteira-2026-metodos-praticos" style={{textDecoration: 'none', color: 'inherit'}}>
                   <img src="/metodos_biblia.png" alt="5 Métodos Práticos para Ler a Bíblia Inteira em 2026" className="img-ph" loading="lazy" style={{objectFit: 'cover'}} />
                   <h3 style={{fontSize: '1.1rem', marginBottom: '8px', lineHeight: '1.4'}}>5 Métodos Práticos para Ler a Bíblia Inteira em 2026</h3>
+                  <p style={{fontSize: '0.9rem', color: '#666', marginTop: '8px'}}>Aprenda técnicas práticas e flexíveis para ler toda a Bíblia em um ano, mesmo com a rotina mais corrida. Inclui aplicativos recomendados.</p>
                   <div className="meta">📖 <strong>Texto Base:</strong> Atos 9:15</div>
                 </a>
               </div>
@@ -754,6 +760,7 @@ function App() {
                 <a href="/doutrina-eleicao-incondicional-efesios-romanos" style={{textDecoration: 'none', color: 'inherit'}}>
                   <img src="/eleicao.png" alt="A Doutrina da Eleição Incondicional" className="img-ph" loading="lazy" style={{objectFit: 'cover'}} />
                   <h3 style={{fontSize: '1.1rem', marginBottom: '8px', lineHeight: '1.4'}}>A Doutrina da Eleição Incondicional</h3>
+                  <p style={{fontSize: '0.9rem', color: '#666', marginTop: '8px'}}>Entenda uma das doutrinas mais debatidas da teologia reformada: a escolha soberana de Deus antes da fundação do mundo.</p>
                   <div className="meta">📖 <strong>Texto Base:</strong> Romanos 1:17</div>
                 </a>
               </div>
@@ -764,6 +771,7 @@ function App() {
                 <a href="/trindade-um-so-deus-tres-pessoas-estudo-completo" style={{textDecoration: 'none', color: 'inherit'}}>
                   <img src="/trindade.png" alt="A Trindade: Um só Deus em Três Pessoas" className="img-ph" loading="lazy" style={{objectFit: 'cover'}} />
                   <h3 style={{fontSize: '1.1rem', marginBottom: '8px', lineHeight: '1.4'}}>A Trindade: Um só Deus em Três Pessoas</h3>
+                  <p style={{fontSize: '0.9rem', color: '#666', marginTop: '8px'}}>Mergulhe no mistério central da fé cristã: como o Pai, o Filho e o Espírito Santo são um só Deus em três Pessoas distintas.</p>
                   <div className="meta">📖 <strong>Texto Base:</strong> Gênesis 1</div>
                 </a>
               </div>
@@ -772,6 +780,7 @@ function App() {
                 <a href="/santificacao-obra-vida-inteira-estudo" style={{textDecoration: 'none', color: 'inherit'}}>
                   <img src="/santificacao.png" alt="Santificação: Uma obra de uma vida inteira" className="img-ph" loading="lazy" style={{objectFit: 'cover'}} />
                   <h3 style={{fontSize: '1.1rem', marginBottom: '8px', lineHeight: '1.4'}}>Santificação: Uma obra de uma vida inteira</h3>
+                  <p style={{fontSize: '0.9rem', color: '#666', marginTop: '8px'}}>Descubra por que a santificação não acontece da noite para o dia e como Deus nos transforma progressivamente à imagem de Cristo.</p>
                   <div className="meta">📖 <strong>Texto Base:</strong> Filipenses 4:19</div>
                 </a>
               </div>
@@ -788,6 +797,7 @@ function App() {
                 <a href="/ana-mae-orou-chorou-gerou-profeta-samuel" style={{textDecoration: 'none', color: 'inherit'}}>
                   <img src="/ana_orando.png" alt="Ana: A Mãe que Orou, Chorou e Gerou um Profeta" className="img-ph" loading="lazy" style={{objectFit: 'cover'}} />
                   <h3 style={{fontSize: '1.1rem', marginBottom: '8px', lineHeight: '1.4'}}>Ana: A Mãe que Orou, Chorou e Gerou um Profeta</h3>
+                  <p style={{fontSize: '0.9rem', color: '#666', marginTop: '8px'}}>Conheça a mulher que transformou lágrimas em oração e dor em propósito, entregando seu filho ao serviço do Senhor.</p>
                   <div className="meta">📖 <strong>Texto Base:</strong> Ester 4:14</div>
                 </a>
               </div>
@@ -796,6 +806,7 @@ function App() {
                 <a href="/ester-rainha-salvou-povo-deus-age-sombras" style={{textDecoration: 'none', color: 'inherit'}}>
                   <img src="/ester_rainha.png" alt="Rainha Ester" className="img-ph" loading="lazy" style={{objectFit: 'cover'}} />
                   <h3 style={{fontSize: '1.1rem', marginBottom: '8px', lineHeight: '1.4'}}>Ester: A Rainha que Salvou um Povo</h3>
+                  <p style={{fontSize: '0.9rem', color: '#666', marginTop: '8px'}}>Descubra como uma jovem judia chegou ao trono persa e arriscou a vida para salvar seu povo da destruição.</p>
                   <div className="meta">📖 <strong>Texto Base:</strong> 1 Samuel 1</div>
                 </a>
               </div>
@@ -817,6 +828,7 @@ function App() {
                 <a href="/paulo-tarso-apostolo-nacoes" style={{textDecoration: 'none', color: 'inherit'}}>
                   <img src="/paulo_de_tarso.png" alt="Paulo de Tarso" className="img-ph" loading="lazy" style={{objectFit: 'cover'}} />
                   <h3 style={{fontSize: '1.1rem', marginBottom: '8px', lineHeight: '1.4'}}>Paulo de Tarso: O Perseguidor Chamado para Ser Apóstolo das Nações</h3>
+                  <p style={{fontSize: '0.9rem', color: '#666', marginTop: '8px'}}>Conheça a história do homem que respirava ameaças e foi transformado pelo encontro com Cristo na estrada de Damasco.</p>
                   <div className="meta">📖 <strong>Texto Base:</strong> Hebreus 11</div>
                 </a>
               </div>
@@ -825,6 +837,7 @@ function App() {
                 <a href="/samuel-profeta-voz-deus-trevas-israel" style={{textDecoration: 'none', color: 'inherit'}}>
                   <img src="/samuel_profeta.png" alt="Samuel: O Profeta" className="img-ph" loading="lazy" style={{objectFit: 'cover'}} />
                   <h3 style={{fontSize: '1.1rem', marginBottom: '8px', lineHeight: '1.4'}}>Samuel: O Profeta que Foi a Voz de Deus nas Trevas de Israel</h3>
+                  <p style={{fontSize: '0.9rem', color: '#666', marginTop: '8px'}}>Entenda como um menino consagrado desde o ventre se tornou a voz profética que guiou Israel em seus dias mais sombrios.</p>
                   <div className="meta">📖 <strong>Texto Base:</strong> Hebreus 11</div>
                 </a>
               </div>
@@ -833,6 +846,7 @@ function App() {
                 <a href="/jo-homem-perdeu-tudo-soberania-divina" style={{textDecoration: 'none', color: 'inherit'}}>
                   <img src="/jo_patriarca.png" alt="Jó: O Patriarca" className="img-ph" loading="lazy" style={{objectFit: 'cover'}} />
                   <h3 style={{fontSize: '1.1rem', marginBottom: '8px', lineHeight: '1.4'}}>Jó: O Homem que Perdeu Tudo, Mas Não Perdeu a Deus</h3>
+                  <p style={{fontSize: '0.9rem', color: '#666', marginTop: '8px'}}>Aprenda com Jó como manter a fé inabalável quando tudo desmorona e a soberania de Deus parece silenciosa.</p>
                   <div className="meta">📖 <strong>Texto Base:</strong> Hebreus 11</div>
                 </a>
               </div>
