@@ -125,6 +125,7 @@ const allArticlesData = [
   { link: '/meus-planos-e-a-graca-de-deus-arquiteto-do-lar', image: '/arquiteto_do_lar.png', tag: 'Devocionais', title: 'Meus Planos e a Graça de Deus' },
   { link: '/antes-ler-comentario-pensar-por-si-mesmo-estudo-biblico', image: '/estudo_biblico_reflexao.png', tag: 'Devocionais', title: 'Antes de Ler o Comentário: Pensar por Si Mesmo ao Estudar a Bíblia' },
   { link: '/multidao-oposicao-ou-discipulo-quem-segue-jesus-marcos-3', image: '/marcos3_discipulos.png', tag: 'Estudos Bíblicos', title: 'Multidão, Oposição ou Discípulo?' },
+  { link: '/papel-da-mae-segundo-a-biblia-estudo-completo', image: '/maternidade_biblica.png', tag: 'Estudos Bíblicos', title: 'O Papel da Mãe Segundo a Bíblia: Fundamentos e Exemplos' },
 ];
 
 function RelatedArticles({ currentLink, category }) {
@@ -242,6 +243,7 @@ function App() {
   const isNoticias = path === '/noticias';
   const isCopaJesus = path === '/14-estrelas-copa-mundo-2026-seguem-jesus-jogadores-cristaos';
   const isDiscipulado = path === '/custo-real-do-discipulado-caminhar-na-fe';
+    const isMaternidadeBiblica = path === '/papel-da-mae-segundo-a-biblia-estudo-completo';
   const isEstadoIntermediario = path === '/para-onde-vai-alma-cristao-apos-morte-estado-intermediario-ressurreicao';
   const isArquitetoDoLar = path === '/meus-planos-e-a-graca-de-deus-arquiteto-do-lar';
   const isMarcos3 = path === '/multidao-oposicao-ou-discipulo-quem-segue-jesus-marcos-3';
@@ -681,6 +683,15 @@ function App() {
               <h2>Estudos Bíblicos</h2>
             </div>
             <div className="grid-2" style={{marginTop: '2rem'}}>
+
+              <div className="grid-2-item">
+                <a href="/papel-da-mae-segundo-a-biblia-estudo-completo" style={{textDecoration: 'none', color: 'inherit'}}>
+                  <img src="/maternidade_biblica.png" alt="O Papel da Mãe Segundo a Bíblia" className="img-ph" loading="lazy" style={{objectFit: 'cover'}} />
+                  <h3 style={{fontSize: '1.1rem', marginBottom: '8px', lineHeight: '1.4'}}>O Papel da Mãe Segundo a Bíblia: Fundamentos e Exemplos</h3>
+                  <p style={{fontSize: '0.9rem', color: '#666', marginTop: '8px'}}>Descubra como as Escrituras redefinem a maternidade não como busca por perfeição, mas como presença fiel e ensino intencional.</p>
+                  <div className="meta">📖 <strong>Texto Base:</strong> Deuteronômio 6</div>
+                </a>
+              </div>
 
               <div className="grid-2-item">
                 <a href="/multidao-oposicao-ou-discipulo-quem-segue-jesus-marcos-3" style={{textDecoration: 'none', color: 'inherit'}}>
@@ -4184,7 +4195,159 @@ function App() {
               <RelatedArticles currentLink="/custo-real-do-discipulado-caminhar-na-fe" category="Devocionais" />
            </main>
 
-         ) : isEstadoIntermediario ? (
+                 ) : isMaternidadeBiblica ? (
+          <main className="article-content section-mb">
+             <Breadcrumb category="Estudos Bíblicos" categoryLink="/estudos-biblicos" title="O Papel da Mãe" />
+             <div className="article-header">
+               <span className="cat-tag">Estudos Bíblicos</span>
+               <h1>O Papel da Mãe Segundo a Bíblia: Fundamentos, Exemplos e Chamado à Fidelidade</h1>
+               <div className="article-meta">
+                 📖 <strong>ESTUDOS BÍBLICOS | Soli Deo Gloria</strong><br/>
+                 <span style={{fontSize: '0.9rem', color: '#666'}}><em>Adaptado para publicação | 25 Jun, 2026</em></span>
+               </div>
+             
+               <ArticleInfo date="25 de Junho de 2026" readingTime={7} />
+              </div>
+             <img src="/maternidade_biblica.png" alt="O Papel da Mãe Segundo a Bíblia" className="article-hero-img" loading="lazy" style={{maxHeight: '450px', width: '100%', objectFit: 'cover', borderRadius: '12px'}} />
+             <div className="article-body">
+               
+               <h2>A Maternidade Moderna e a Culpa</h2>
+               <p>A maternidade moderna carrega pesos invisíveis: a culpa silenciosa, a comparação constante, a exaustão emocional e a sensação de que, por mais que se faça, nunca é o suficiente. Em meio a rotinas aceleradas e expectativas irreais, muitas mães se perguntam: "Estou no caminho certo? Será que estou fazendo o melhor?"</p>
+               
+               <p>A Bíblia não ignora essa tensão. Pelo contrário, ela a ilumina com uma verdade libertadora: o chamado materno não depende de perfeição, mas de <strong>fidelidade</strong>. Não se trata de executar tarefas com excelência humana, mas de caminhar com Deus na formação espiritual dos filhos. Mais do que um conjunto de regras, as Escrituras apresentam a maternidade como uma missão de graça, presença e entrega.</p>
+               
+               <p>Neste estudo, exploraremos os fundamentos bíblicos do papel da mãe, os pilares do discipulado familiar, exemplos reais de mulheres que viveram esse chamado em meio a desafios, e como aplicar essas verdades em meio aos desafios contemporâneos.</p>
+
+               <h2>O Fundamento Bíblico: Mais que Tarefas, uma Missão Espiritual</h2>
+               <p>O papel da mãe segundo a Bíblia transcende a logística doméstica. Envolve a formação do coração, a transmissão de valores eternos e o cultivo de uma fé viva no cotidiano.</p>
+               
+               <p>Deuteronômio 6:6-7 estabelece o padrão divino para o ensino familiar:</p>
+               <div className="quote-box">
+                 "Estas palavras que, hoje, te ordeno estarão no teu coração; tu as inculcarás a teus filhos, e delas falarás assentado em tua casa, e andando pelo caminho, e ao deitar-te, e ao levantar-te."
+               </div>
+               
+               <p>Note o que o texto revela:</p>
+               <ul style={{lineHeight: '1.8', marginBottom: '2rem'}}>
+                 <li>✅ O ensino não exige momentos perfeitos ou planejamentos complexos</li>
+                 <li>✅ Acontece nas conversas comuns, nas correções cotidianas, nas crises transformadas em aprendizado</li>
+                 <li>✅ A mãe não precisa ser teóloga; precisa ser testemunha constante da verdade</li>
+               </ul>
+               <p>A maternidade bíblica não é sobre controlar resultados, mas sobre semear com fidelidade e confiar que Deus dará o crescimento (1 Coríntios 3:6-7).</p>
+
+               <h2>Três Pilares do Chamado Materno nas Escrituras</h2>
+               
+               <h3>A. Ensino Intencional: Vida que Ensina Vida</h3>
+               <p>Ensinar não é apenas transmitir informação; é ajudar o filho a enxergar a realidade à luz da fé. Não se trata apenas de dizer o que é certo, mas de mostrar por que é certo, como Deus age e onde encontrar refúgio.</p>
+               <p>Uma mãe que ora com o filho antes de dormir, que explica o perdão após um erro, ou que transforma um momento de frustração em oportunidade de confiar em Deus, está cumprindo Deuteronômio 6 na prática.</p>
+
+               <h3>B. Exemplo que Fala Mais que Palavras</h3>
+               <p>Os filhos aprendem mais pelo que veem do que pelo que ouvem. A coerência entre fé e prática é o alicerce do discipulado familiar.</p>
+               <ul style={{lineHeight: '1.8', marginBottom: '2rem'}}>
+                 <li>Quando uma mãe pede perdão, ensina humildade e arrependimento</li>
+                 <li>Quando age com paciência na tensão, ensina domínio próprio</li>
+                 <li>Quando espera em Deus na dificuldade, ensina fé concreta</li>
+               </ul>
+               <p>Esses exemplos ficam gravados na memória emocional e espiritual dos filhos de um modo que discursos sozinhos não alcançam.</p>
+
+               <h3>C. Correção com Amor e Direção</h3>
+               <p>Hebreus 12:11 nos lembra: <em>"Toda disciplina, com efeito, no momento não parece ser de alegria, mas de tristeza; ao depois, porém, produz fruto pacífico aos que têm sido por ela exercitados."</em></p>
+               <p>Corrigir não é afastar; é orientar com amor. Envolve:</p>
+               <ul style={{lineHeight: '1.8', marginBottom: '2rem'}}>
+                 <li>Firmeza sem humilhação</li>
+                 <li>Explicação sem imposição arrogante</li>
+                 <li>Direção sem endurecer o coração</li>
+               </ul>
+               <p>A criança aprende não apenas o que fez de errado, mas como crescer a partir disso, entendendo que a correção é expressão de cuidado, não de rejeição.</p>
+
+               <h2>👩 Mulheres da Bíblia: Modelos de Fé na Maternidade</h2>
+               <p>As Escrituras não apresentam mães perfeitas, mas mulheres reais que caminharam com Deus em meio a dúvidas, medos e decisões difíceis.</p>
+
+               <h3>Maria: Confiar Mesmo sem Entender Tudo</h3>
+               <p>Maria era uma jovem comum quando recebeu a notícia que mudaria sua vida, seus planos e sua reputação. Ela não tinha todas as respostas, mas respondeu: <em>"Faça-se em mim conforme a tua palavra"</em> (Lucas 1:38).</p>
+               <p>Ao longo da vida de Jesus, Maria viveu esse lugar de entrega. Acompanhou o crescimento do Filho, experimentou alegria, mas também enfrentou a dor da cruz. Sua história ensina que a maternidade bíblica envolve confiar em Deus mesmo quando não se compreende o caminho. Nem sempre é possível proteger os filhos de todas as dores, mas é possível caminhar com fé em cada etapa.</p>
+
+               <h3>Ana: Entregar a Deus Aquilo que Mais Ama</h3>
+               <p>Ana enfrentou anos de esterilidade, dor e pressão social. Em vez de guardar a angústia, levou-a a Deus em oração sincera. Fez um voto: se recebesse um filho, o dedicaria ao Senhor (1 Samuel 1:11).</p>
+               <p>Quando Samuel nasceu, ela cumpriu a promessa, permitindo que ele fosse criado no templo. Ana nos ensina que amar um filho não é segurá-lo por medo, mas confiar que Deus cuida dele de forma perfeita. A entrega não é abandono; é fé ativa.</p>
+
+               <h3>Joquebede: Agir com Fé em Meio ao Medo</h3>
+               <p>Em um decreto de morte contra os meninos hebreus, Joquebede escondeu Moisés por três meses. Quando não pôde mais escondê-lo, colocou-o no rio, confiando na providência divina (Êxodo 2:1-10).</p>
+               <p>Sua história mostra que a fé não elimina o medo, mas capacita a agir mesmo com o coração inseguro. Ela fez tudo que estava ao seu alcance e entregou o resto a Deus. Isso é maternidade bíblica: esforço humano aliado à confiança divina.</p>
+
+               <h3>Eunice: Construir a Fé no Dia a Dia</h3>
+               <p>Pouco se sabe sobre Eunice, mas seu legado foi eterno. Paulo escreve a Timóteo: <em>"Trazendo à memória a fé não fingida que há em ti, a qual habitou primeiro em tua avó Loide e em tua mãe Eunice"</em> (2 Timóteo 1:5).</p>
+               <p>Não há grandes feitos registrados sobre ela. Apenas constância. Ela ensinou, repetiu, viveu e perseverou. Sua história prova que o discipulado familiar se constrói no cotidiano. Não são apenas os momentos extraordinários que marcam; é a soma de pequenas atitudes feitas com amor e fidelidade.</p>
+
+               <h2>🌍 Maternidade Moderna vs. Padrão Bíblico</h2>
+               <p>A maternidade hoje enfrenta desafios reais:</p>
+               <ul style={{lineHeight: '1.8', marginBottom: '2rem'}}>
+                 <li>Sobrecarga emocional e física</li>
+                 <li>Sensação de insuficiência</li>
+                 <li>Falta de tempo e apoio</li>
+                 <li>Comparação constante alimentada por redes sociais</li>
+               </ul>
+               <p>Nesse cenário, o padrão bíblico oferece um antídoto de graça:</p>
+               <ul style={{lineHeight: '1.8', marginBottom: '2rem'}}>
+                 <li>❌ Não compete; cuida</li>
+                 <li>❌ Não exige desempenho perfeito; chama à fidelidade</li>
+                 <li>❌ Não mede valor por resultados visíveis; valoriza presença e oração</li>
+               </ul>
+               <p>A Bíblia não chama a mãe para carregar o peso da perfeição, mas para descansar na soberania de Deus enquanto semeia com amor. A graça cobre as falhas; o Espírito capacita o chamado.</p>
+
+               <h2>🛠️ Aplicação Prática: Vivendo o Chamado com Graça</h2>
+               <ul style={{lineHeight: '1.8', marginBottom: '2rem'}}>
+                 <li>✅ <strong>Priorize presença sobre perfeição:</strong> Seu filho precisa mais de você disponível do que de você impecável</li>
+                 <li>✅ <strong>Ensine através da vida:</strong> Transforme conversas cotidianas em oportunidades de discipulado</li>
+                 <li>✅ <strong>Modele arrependimento:</strong> Peça perdão quando errar; isso ensina humildade e restauração</li>
+                 <li>✅ <strong>Corrija com amor:</strong> Firmeza + explicação + escuta = direção que edifica</li>
+                 <li>✅ <strong>Ore consistentemente:</strong> A intercessão materna é uma das armas mais poderosas do Reino</li>
+                 <li>✅ <strong>Descanse na soberania:</strong> Você semeia; Deus dá o crescimento. Sua fidelidade já é sucesso aos olhos dEle</li>
+               </ul>
+
+               <h2>📚 Leituras Recomendadas</h2>
+               <ul style={{lineHeight: '1.8', marginBottom: '2rem'}}>
+                 <li><strong>"O Poder da Mãe que Ora"</strong> — Stormie Omartian (guia prático de intercessão maternal)</li>
+                 <li><strong>"A Mulher Sábia Edifica o Lar"</strong> — Autoras diversas (princípios bíblicos para educação e relacionamento familiar)</li>
+                 <li><strong>"Discipulando Seus Filhos"</strong> — Voddie Baucham Jr. (visão reformada e prática do ensino familiar)</li>
+                 <li><strong>"Graça para a Mãe Cansada"</strong> — Sally Clarkson (reflexão pastoral sobre maternidade e graça)</li>
+                 <li><strong>"O Chamado da Maternidade"</strong> — Nancy Wilson (fundamentos bíblicos e aplicação contemporânea)</li>
+               </ul>
+
+               <h2>🙏 Oração pela Mãe que Caminha com Deus</h2>
+               <blockquote style={{borderLeft: '4px solid #722F37', background: '#fff9f9', padding: '1.5rem', margin: '2rem 0', fontStyle: 'italic'}}>
+                 Senhor Jesus,<br/>
+                 Obrigado pelo chamado sagrado da maternidade.<br/>
+                 Perdoa-nos pelas vezes em que confundimos perfeição com fidelidade.<br/>
+                 Ensina-nos a ensinar com paciência, corrigir com amor e descansar na Tua soberania.<br/>
+                 Usa nossa presença, nossas palavras e nossas orações para formar corações que Te amem.<br/>
+                 Quando o cansaço bater, lembra-nos: Tua graça nos basta.<br/>
+                 Quando a dúvida surgir, firma-nos na Tua Palavra.<br/>
+                 Que nossos filhos vejam em nós não mães perfeitas, mas mulheres que caminham Contigo.<br/>
+                 Em nome de Jesus, amém.
+               </blockquote>
+
+               <h2>📖 Versículos para Meditação</h2>
+               <div style={{background: '#f8f9fa', borderLeft: '4px solid #0066cc', padding: '1.5rem', borderRadius: '0 8px 8px 0', margin: '2rem 0'}}>
+                 <p><strong>Deuteronômio 6:6-7</strong> — "Inculcarás a teus filhos... falando assentado em tua casa, andando pelo caminho..."</p>
+                 <p><strong>Provérbios 22:6</strong> — "Instrui o menino no caminho em que deve andar..."</p>
+                 <p><strong>Hebreus 12:11</strong> — "A disciplina produz fruto pacífico aos que têm sido por ela exercitados."</p>
+                 <p><strong>2 Timóteo 1:5</strong> — "A fé não fingida que habitou primeiro em tua avó Loide e em tua mãe Eunice."</p>
+                 <p><strong>Salmo 127:3</strong> — "Herança do SENHOR são os filhos; o fruto do ventre, seu galardão."</p>
+               </div>
+
+               <p style={{fontSize: '1.1rem', fontStyle: 'italic', color: '#555', textAlign: 'center', margin: '2rem 0'}}>
+                 "O papel da mãe segundo a Bíblia não é um peso difícil de carregar, mas um chamado cheio de significado. Ele se constrói nos dias comuns, nas escolhas simples e na decisão de continuar caminhando com Deus."
+               </p>
+               
+               <p style={{textAlign: 'center', fontWeight: 'bold', marginTop: '2rem'}}>Soli Deo Gloria. 🙏👧✨</p>
+
+             </div>
+
+             <ShareBar title="O Papel da Mãe Segundo a Bíblia" url="/papel-da-mae-segundo-a-biblia-estudo-completo" />
+             <RelatedArticles currentLink="/papel-da-mae-segundo-a-biblia-estudo-completo" category="Estudos Bíblicos" />
+           </main>
+
+        ) : isEstadoIntermediario ? (
           <main className="article-content section-mb">
              <Breadcrumb category="Estudos Bíblicos" categoryLink="/estudos-biblicos" title="Para Onde Vai a Alma do Cristão Após a Morte?" />
              <div className="article-header">
