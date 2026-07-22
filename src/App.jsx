@@ -129,6 +129,7 @@ const allArticlesData = [
   { link: '/proverbios-prosperidade-financeira-sabedoria-mordomia-contentamento', image: '/proverbios_financas.png', tag: 'Estudos Bíblicos', title: 'Provérbios e a Prosperidade Financeira' },
   { link: '/5-tipos-pessoas-biblia-orienta-nao-ajudar-limites-saudaveis', image: '/limites_biblicos.png', tag: 'Estudos Bíblicos', title: '5 Tipos de Pessoas que a Bíblia Orienta Não Ajudar' },
   { link: '/5-sinais-biblicos-identificar-falsos-lideres-discernimento', image: '/falsos_lideres.png', tag: 'Estudos Bíblicos', title: '5 Sinais Bíblicos para Identificar Falsos Líderes' },
+  { link: '/israel-celebrara-2-mil-anos-batismo-jesus-2030-rio-jordao', image: '/batismo_jesus_2030.jpg', tag: 'Notícias', title: 'Israel Celebrará 2 Mil Anos do Batismo de Jesus em 2030' },
 ];
 
 function RelatedArticles({ currentLink, category }) {
@@ -243,6 +244,7 @@ function App() {
   const isDevocionais = path === '/devocionais';
   const isTrindade = path === '/trindade-um-so-deus-tres-pessoas-estudo-completo';
   const isSantificacao = path === '/santificacao-obra-vida-inteira-estudo';
+    const isIsraelBatismo = path === '/israel-celebrara-2-mil-anos-batismo-jesus-2030-rio-jordao';
   const isNoticias = path === '/noticias';
   const isCopaJesus = path === '/14-estrelas-copa-mundo-2026-seguem-jesus-jogadores-cristaos';
   const isDiscipulado = path === '/custo-real-do-discipulado-caminhar-na-fe';
@@ -1086,12 +1088,183 @@ function App() {
                </div>
              </div>
           </main>
+                ) : isIsraelBatismo ? (
+          <main className="article-content section-mb">
+             <Breadcrumb category="Notícias" categoryLink="/noticias" title="Celebrações do Batismo de Jesus 2030" />
+             <div className="article-header">
+               <span className="cat-tag">Notícias</span>
+               <h1>Israel Celebrará 2 Mil Anos do Batismo de Jesus em 2030: O Marco Histórico e Espiritual do Início do Ministério de Cristo</h1>
+               <div className="article-meta">
+                 📖 <strong>NOTÍCIAS | Soli Deo Gloria</strong><br/>
+                 <span style={{fontSize: '0.9rem', color: '#666'}}><em>Adaptado de fonte externa | 20 Jul, 2026</em></span>
+               </div>
+             
+               <ArticleInfo date="20 de Julho de 2026" readingTime={6} />
+              </div>
+             <img src="/batismo_jesus_2030.jpg" alt="O batismo de Jesus — Mateus 3:16-17" className="article-hero-img" loading="lazy" style={{maxHeight: '450px', width: '100%', objectFit: 'cover', borderRadius: '12px'}} />
+             <div className="article-body">
+               
+               <h2>Uma Celebração Histórica a Caminho</h2>
+               <p>O governo de Israel anunciou oficialmente a formação de uma força-tarefa especial para coordenar os preparativos das comemorações dos 2 mil anos do batismo de Jesus, que acontecerão na Terra Santa em 2030.</p>
+               
+               <p>A iniciativa, liderada pelo ministro das Relações Exteriores, Gideon Sa'ar, e comandada pelo embaixador George Deek (enviado especial de Israel para o Mundo Cristão), representa um marco histórico sem precedentes para o cristianismo mundial.</p>
+               
+               <p>O objetivo é dialogar com igrejas, comunidades cristãs e lideranças religiosas de diferentes países, além de organizar a recepção dos milhões de peregrinos esperados para o evento no rio Jordão.</p>
+
+               <div className="quote-box">
+                 "O ano de 2030 será um marco único para o mundo cristão, e Israel já está começando os preparativos. Fortalecer nosso relacionamento com o mundo cristão e garantir que a Terra Santa permaneça acessível aos milhões de fiéis que desejam visitá-la estão entre as maiores prioridades de Israel." — Gideon Sa'ar
+               </div>
+
+               <h2>📖 O Batismo de Jesus: O Momento que Mudou a História</h2>
+               
+               <h3>O Contexto Bíblico</h3>
+               <p>O batismo de Jesus é narrado em todos os quatro Evangelhos (Mateus 3:13-17; Marcos 1:9-11; Lucas 3:21-22; João 1:29-34), demonstrando sua importância central na narrativa cristã.</p>
+               <ul style={{lineHeight: '1.8', marginBottom: '2rem'}}>
+                 <li><strong>Local:</strong> Rio Jordão, próximo a Betânia além-Jordão</li>
+                 <li>João Batista pregava arrependimento e batizava como preparação para o Messias</li>
+                 <li>Jesus, com cerca de 30 anos, deixa Nazaré e viaja à Galileia para ser batizado</li>
+               </ul>
+
+               <h3>O Evento</h3>
+               <p><em>"Batizado Jesus, saiu logo da água, e eis que se lhe abriram os céus, e viu o Espírito de Deus descendo como pomba e vindo sobre ele. E eis que uma voz dos céus dizia: Este é o meu Filho amado, em quem me comprazo."</em> — Mateus 3:16-17</p>
+
+               <h3>A Revelação da Trindade</h3>
+               <p>O batismo de Jesus é um dos momentos mais claros da revelação trinitária nas Escrituras:</p>
+               <ul style={{lineHeight: '1.8', marginBottom: '2rem'}}>
+                 <li>✅ <strong>O Filho:</strong> Jesus, sendo batizado nas águas</li>
+                 <li>✅ <strong>O Espírito Santo:</strong> Descendo como pomba sobre Ele</li>
+                 <li>✅ <strong>O Pai:</strong> Declarando do céu: "Este é o meu Filho amado"</li>
+               </ul>
+               <p>Pela primeira vez na história da redenção, as três Pessoas da Trindade são manifestas simultaneamente de forma visível e audível.</p>
+
+               <h2>🌊 A Importância Teológica do Batismo de Jesus</h2>
+               
+               <h3>1. Início do Ministério Público</h3>
+               <p>O batismo marcou a transição oficial de Jesus da vida privada (carpinteiro em Nazaré) para o ministério público. A partir desse momento Ele começou a pregar, ensinar e curar; reuniu os primeiros discípulos e inaugurou o Reino de Deus na Terra.</p>
+
+               <h3>2. Identificação com a Humanidade</h3>
+               <p>Jesus não precisava se arrepender — Ele era sem pecado (Hebreus 4:15). Mas foi batizado para se identificar com os pecadores que Ele veio salvar, cumprir toda a justiça (Mateus 3:15), validar o ministério de João Batista e estabelecer o exemplo para todos os que O seguiriam.</p>
+
+               <h3>3. Unção pelo Espírito Santo</h3>
+               <p>O batismo foi o momento da unção messiânica de Jesus. O Espírito desceu sobre Ele em forma visível, Jesus foi "ungido" para Sua missão (Atos 10:38) e começou a operar em poder do Espírito (Lucas 4:14, 18).</p>
+
+               <h3>4. Confirmação Divina da Identidade de Cristo</h3>
+               <p>A voz do Pai declarou publicamente Sua filiação divina e aprovação total da missão. Essa declaração ecoou o Salmo 2:7 e Isaías 42:1, confirmando Jesus como o Messias prometido.</p>
+
+               <h2> O Significado do Batismo para os Cristãos Hoje</h2>
+               
+               <h3>O Batismo como Ordenança</h3>
+               <p>Jesus instituiu o batismo como ordenança para a igreja: <em>"Ide, portanto, fazei discípulos de todas as nações, batizando-os em nome do Pai, e do Filho, e do Espírito Santo."</em> (Mateus 28:19)</p>
+
+               <h3>O Que o Batismo Representa</h3>
+               <ul style={{lineHeight: '1.8', marginBottom: '2rem'}}>
+                 <li>✅ <strong>Morte para o pecado:</strong> Mergulho nas águas (Romanos 6:4)</li>
+                 <li>✅ <strong>Ressurreição para nova vida:</strong> Emergência das águas (Colossenses 2:12)</li>
+                 <li>✅ <strong>Identificação com Cristo:</strong> União com Sua morte e ressurreição</li>
+                 <li>✅ <strong>Testemunho público:</strong> Declaração de fé perante a comunidade</li>
+                 <li>✅ <strong>Entrada na comunidade da fé:</strong> Integração ao corpo de Cristo</li>
+               </ul>
+
+               <h3>Por Que os Cristãos Devem Ser Batizados?</h3>
+               <ol style={{lineHeight: '1.8', marginBottom: '2rem', paddingLeft: '1.5rem'}}>
+                 <li>Obediência ao mandamento de Cristo — Não é opcional</li>
+                 <li>Identificação pública com Jesus — Testemunho de conversão</li>
+                 <li>Símbolo da regeneração — Nova criatura em Cristo (2 Coríntios 5:17)</li>
+                 <li>Participação na Grande Comissão — Parte do processo de discipulado</li>
+               </ol>
+
+               <h2>🗺️ O Rio Jordão: Local Histórico e Sagrado</h2>
+               
+               <h3>A Importância Geográfica</h3>
+               <p>O rio Jordão é um dos rios mais mencionados na Bíblia: Local da travessia dos israelitas para a Terra Prometida (Josué 3), cenário do ministério de Elias e Eliseu (2 Reis 2) e local do batismo de Jesus.</p>
+
+               <h3>O Local Exato</h3>
+               <p>Arqueólogos e estudiosos identificaram Betânia além-Jordão (Al-Maghtas) como o local provável do batismo de Jesus. Em 2015, a UNESCO declarou o local como Patrimônio Mundial.</p>
+
+               <h3>Peregrinação e Significado Espiritual</h3>
+               <p>Milhões de cristãos visitam o rio Jordão anualmente para renovar votos batismais, serem batizados pela primeira vez, orar no local sagrado e conectar-se com as raízes históricas da fé.</p>
+
+               <h2>🎉 2030: Um Ano de Celebração Global</h2>
+               
+               <h3>O Que Esperar</h3>
+               <p>As celebrações de 2030 prometem ser um marco histórico com peregrinação mundial, eventos ecumênicos, reflexão teológica e celebrações litúrgicas no rio Jordão.</p>
+
+               <h3>O Convite de Israel</h3>
+               <div className="quote-box">
+                 "Israel está comprometido com a proteção da liberdade de culto e com o acesso aos santuários para pessoas de todas as religiões. A celebração permitirá que milhões de cristãos conheçam os lugares onde ocorreram os episódios narrados nos Evangelhos e possam fortalecer sua fé." — George Deek
+               </div>
+
+               <h3>Preparação Espiritual</h3>
+               <ul style={{lineHeight: '1.8', marginBottom: '2rem'}}>
+                 <li>✅ Estudar as Escrituras sobre o batismo de Jesus</li>
+                 <li>🙏 Orar pela unidade da igreja e pela peregrinação</li>
+                 <li>🌍 Planejar visitas à Terra Santa, se possível</li>
+                 <li>💧 Refletir sobre o próprio batismo e seu significado</li>
+               </ul>
+
+               <h2>💭 Reflexão: O Que o Batismo de Jesus Significa para Você?</h2>
+               <p><strong>Se você já foi batizado:</strong> lembre-se do significado do seu batismo, renove seu compromisso com Cristo e viva em novidade de vida (Romanos 6:4).</p>
+               <p><strong>Se você ainda não foi batizado:</strong> considere a importância da ordenança, converse com seu pastor e dê este passo de obediência e testemunho público.</p>
+               
+               <p>O batismo não salva — a salvação é pela graça mediante a fé (Efésios 2:8-9). Mas o batismo é o primeiro passo de obediência após a conversão, um ato público de identificação com Cristo e Sua igreja.</p>
+
+               <h2>🙏 Oração</h2>
+               <blockquote style={{borderLeft: '4px solid #722F37', background: '#fff9f9', padding: '1.5rem', margin: '2rem 0', fontStyle: 'italic'}}>
+                 Senhor Jesus,<br/>
+                 Obrigado pelo Teu batismo, que marcou o início do Teu ministério de redenção.<br/>
+                 Obrigado por Te identificares conosco, pecadores, para nos levar ao Pai.<br/>
+                 Renova em nós o significado do nosso batismo.<br/>
+                 Que vivamos em novidade de vida, mortos para o pecado e vivos para Ti.<br/>
+                 Abençoa os preparativos para 2030 e usa esse momento para fortalecer a fé de milhões.<br/>
+                 Que muitos sejam batizados e declarados publicamente: "Jesus é o Senhor!"<br/>
+                 Em nome de Jesus, amém.
+               </blockquote>
+
+               <h2>📖 Versículos para Meditação</h2>
+               <div style={{background: '#f8f9fa', borderLeft: '4px solid #0066cc', padding: '1.5rem', borderRadius: '0 8px 8px 0', margin: '2rem 0'}}>
+                 <p><strong>Mateus 3:16-17</strong> — "Batizado Jesus, saiu logo da água, e eis que se lhe abriram os céus, e viu o Espírito de Deus descendo como pomba e vindo sobre ele."</p>
+                 <p><strong>Mateus 28:19</strong> — "Ide, portanto, fazei discípulos de todas as nações, batizando-os em nome do Pai, e do Filho, e do Espírito Santo."</p>
+                 <p><strong>Romanos 6:4</strong> — "Fomos, pois, sepultados com ele na morte pelo batismo; para que, como Cristo foi ressuscitado dentre os mortos pela glória do Pai, assim também andemos nós em novidade de vida."</p>
+                 <p><strong>Atos 2:38</strong> — "Arrependei-vos, e cada um de vós seja batizado em nome de Jesus Cristo para remissão dos vossos pecados, e recebereis o dom do Espírito Santo."</p>
+                 <p><strong>Gálatas 3:27</strong> — "Porque todos quantos fostes batizados em Cristo, de Cristo vos revestistes."</p>
+               </div>
+
+               <div style={{marginTop: '2rem', padding: '1.5rem', border: '1px solid #eee', borderRadius: '8px', background: '#fcfcfc', fontSize: '0.9rem', color: '#555'}}>
+                 <strong>📰 Fonte da Notícia:</strong> Governo de Israel | Ministério das Relações Exteriores<br/>
+                 <strong>📅 Data do Anúncio:</strong> Julho de 2026<br/>
+                 <strong>🎯 Evento:</strong> Celebrações dos 2 mil anos do batismo de Jesus em 2030
+               </div>
+
+               <p style={{fontSize: '1.1rem', fontStyle: 'italic', color: '#555', textAlign: 'center', margin: '2rem 0'}}>
+                 "O batismo de Jesus não foi apenas um evento histórico — foi a revelação pública do Messias, a unção pelo Espírito e a declaração divina que mudou o curso da história. Em 2030, o mundo cristão celebrará esse marco. Que nosso coração celebre todos os dias."
+               </p>
+               
+               <p style={{textAlign: 'center', fontWeight: 'bold', marginTop: '2rem'}}>Soli Deo Gloria. 🙏💧✨</p>
+
+             </div>
+
+             <ShareBar title="Israel Celebrará 2 Mil Anos do Batismo de Jesus em 2030" url="/israel-celebrara-2-mil-anos-batismo-jesus-2030-rio-jordao" />
+             <RelatedArticles currentLink="/israel-celebrara-2-mil-anos-batismo-jesus-2030-rio-jordao" category="Notícias" />
+           </main>
+
         ) : isNoticias ? (
           <main className="section-mb">
             <div className="section-title">
               <h2>Notícias</h2>
             </div>
             <div className="grid-3" style={{marginTop: '2rem'}}>
+
+              <div className="grid-3-item">
+                <a href="/israel-celebrara-2-mil-anos-batismo-jesus-2030-rio-jordao" style={{textDecoration: 'none', color: 'inherit'}}>
+                  <img src="/batismo_jesus_2030.jpg" alt="Batismo de Jesus" className="img-ph" loading="lazy" style={{objectFit: 'cover', aspectRatio: '16/9'}} />
+                  <span className="cat-tag" style={{display: 'inline-block', marginBottom: '8px', marginTop: '12px'}}>NOTÍCIAS</span>
+                  <h3 style={{fontSize: '1.1rem', marginBottom: '8px', lineHeight: '1.4'}}>Israel Celebrará 2 Mil Anos do Batismo de Jesus em 2030</h3>
+                  <p style={{fontSize: '0.9rem', color: '#666', marginTop: '8px', marginBottom: '12px'}}>Governo israelense anuncia força-tarefa para preparar celebrações no rio Jordão.</p>
+                  <div style={{marginTop: '15px', color: '#722F37', fontWeight: 'bold', fontSize: '0.9rem'}}>
+                    → Ler Notícia
+                  </div>
+                </a>
+              </div>
               
               <div className="grid-3-item">
                 <a href="/14-estrelas-copa-mundo-2026-seguem-jesus-jogadores-cristaos" style={{textDecoration: 'none', color: 'inherit'}}>
