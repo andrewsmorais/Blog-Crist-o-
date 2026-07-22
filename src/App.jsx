@@ -130,6 +130,7 @@ const allArticlesData = [
   { link: '/5-tipos-pessoas-biblia-orienta-nao-ajudar-limites-saudaveis', image: '/limites_biblicos.png', tag: 'Estudos Bíblicos', title: '5 Tipos de Pessoas que a Bíblia Orienta Não Ajudar' },
   { link: '/5-sinais-biblicos-identificar-falsos-lideres-discernimento', image: '/falsos_lideres.png', tag: 'Estudos Bíblicos', title: '5 Sinais Bíblicos para Identificar Falsos Líderes' },
   { link: '/israel-celebrara-2-mil-anos-batismo-jesus-2030-rio-jordao', image: '/batismo_jesus_2030.jpg', tag: 'Notícias', title: 'Israel Celebrará 2 Mil Anos do Batismo de Jesus em 2030' },
+  { link: '/ipb-debate-veto-movimento-legendarios-origem-preocupacoes-teologicas', image: '/ipb_legendarios.jpg', tag: 'Notícias', title: 'IPB Debate Veto ao Movimento Legendários' },
 ];
 
 function RelatedArticles({ currentLink, category }) {
@@ -245,6 +246,7 @@ function App() {
   const isTrindade = path === '/trindade-um-so-deus-tres-pessoas-estudo-completo';
   const isSantificacao = path === '/santificacao-obra-vida-inteira-estudo';
     const isIsraelBatismo = path === '/israel-celebrara-2-mil-anos-batismo-jesus-2030-rio-jordao';
+    const isIPBLegendarios = path === '/ipb-debate-veto-movimento-legendarios-origem-preocupacoes-teologicas';
   const isNoticias = path === '/noticias';
   const isCopaJesus = path === '/14-estrelas-copa-mundo-2026-seguem-jesus-jogadores-cristaos';
   const isDiscipulado = path === '/custo-real-do-discipulado-caminhar-na-fe';
@@ -1247,12 +1249,167 @@ function App() {
              <RelatedArticles currentLink="/israel-celebrara-2-mil-anos-batismo-jesus-2030-rio-jordao" category="Notícias" />
            </main>
 
+                ) : isIPBLegendarios ? (
+          <main className="article-content section-mb">
+             <Breadcrumb category="Notícias" categoryLink="/noticias" title="IPB e o Movimento Legendários" />
+             <div className="article-header">
+               <span className="cat-tag">Notícias</span>
+               <h1>Igreja Presbiteriana do Brasil Debate Veto ao Movimento Legendários: Origem, Práticas e Preocupações Teológicas</h1>
+               <div className="article-meta">
+                 📖 <strong>NOTÍCIAS | Soli Deo Gloria</strong><br/>
+                 <span style={{fontSize: '0.9rem', color: '#666'}}><em>Adaptado de fonte externa | 22 Jul, 2026</em></span>
+               </div>
+             
+               <ArticleInfo date="22 de Julho de 2026" readingTime={8} />
+              </div>
+             <img src="/ipb_legendarios.jpg" alt="Discernimento à luz das Escrituras — 1 João 4:1" className="article-hero-img" loading="lazy" style={{maxHeight: '450px', width: '100%', objectFit: 'cover', borderRadius: '12px'}} />
+             <div className="article-body">
+               
+               <h2>Uma Decisão Histórica</h2>
+               <p>A Igreja Presbiteriana do Brasil (IPB) realizará, entre os dias 26 e 31 de julho em Manaus (AM), uma discussão histórica em seu Supremo Concílio — a instância máxima da denominação, com mais de 1.600 representantes de 404 presbitérios.</p>
+               
+               <p>O tema: um documento que recomenda que pastores, presbíteros, diáconos e demais membros não participem nem promovam o movimento Legendários, por entender que suas práticas não estão alinhadas com a tradição reformada.</p>
+               
+               <p>A proposta, originada no Sínodo de Tocantins, aponta preocupações teológicas sérias: uso de técnicas de coaching com forte impacto emocional, práticas que podem relativizar a suficiência das Escrituras, e uma abordagem que transforma a piedade em "produto de consumo grupal e performático".</p>
+
+               <p>Mas o que é, afinal, o movimento Legendários? De onde ele veio? E por que gera tanto debate no meio cristão reformado? Neste artigo, exploramos a origem do movimento, suas práticas, as preocupações teológicas levantadas pela IPB e o que as Escrituras nos ensinam sobre discernimento em movimentos cristãos contemporâneos.</p>
+
+               <h2>🌎 A Origem do Movimento Legendários</h2>
+               
+               <h3>Raízes na Guatemala</h3>
+               <p>O movimento Legendários foi criado na Guatemala por Carlos "Charly" Reynoso, um líder cristão que desenvolveu o projeto como uma iniciativa voltada exclusivamente para homens.</p>
+               <p>A proposta central é resgatar a "configuração bíblica original" da masculinidade e o "instinto caçador" masculino por meio de desafios de sobrevivência na natureza, mensagens cristãs sobre identidade e liderança, e dinâmicas de grupo com forte apelo emocional.</p>
+
+               <h3>Chegada ao Brasil</h3>
+               <p>O Legendários chegou ao Brasil em 2018 e rapidamente ganhou popularidade, especialmente entre homens cristãos em busca de identidade masculina definida, comunidade, irmandade e experiências intensas de "transformação".</p>
+               <p>Entre participantes de edições anteriores estão nomes de grande visibilidade, como Pablo Marçal (coach e palestrante), Thiago Nigro (influenciador financeiro, o Primo Rico) e Deive Leonardo (evangelista e escritor).</p>
+
+               <h3>Estrutura e Práticas</h3>
+               <p>O movimento é organizado em "expedições" ou "treinamentos" que geralmente incluem:</p>
+               <ul style={{lineHeight: '1.8', marginBottom: '2rem'}}>
+                 <li>✅ Retiros em áreas naturais com desafios físicos</li>
+                 <li>✅ Privação de alimento e desgaste físico controlado</li>
+                 <li>✅ Técnicas de coaching e dinâmicas de impacto emocional</li>
+                 <li>✅ Uso de "gritos de guerra", camisetas padronizadas e numeração dos participantes</li>
+                 <li>✅ Referências a Jesus como "Legendário 001"</li>
+               </ul>
+               <p>Para os organizadores, essas práticas são ferramentas para "despertar" o homem cristão. Para críticos, representam um desvio do Evangelho histórico.</p>
+
+               <h2>⚠️ As Preocupações Teológicas da IPB</h2>
+               <p>O documento analisado pelo Supremo Concílio da IPB aponta cinco preocupações centrais:</p>
+
+               <h3>1. Relativização da Suficiência das Escrituras</h3>
+               <p><em>"O programa utiliza práticas ligadas ao coaching, como técnicas de forte impacto emocional, que poderiam relativizar a suficiência das Escrituras e da obra de Jesus Cristo."</em></p>
+               <p>A tradição reformada afirma que as Escrituras são suficientes para fé e prática (2 Timóteo 3:16-17). Quando técnicas psicológicas ou emocionais são usadas para produzir "experiências espirituais", há o risco de substituir a obra do Espírito Santo por manipulação humana.</p>
+
+               <h3>2. Transformação da Piedade em Espetáculo</h3>
+               <p><em>"Nítido desvio do Evangelho, transformando a piedade em um produto de consumo grupal e performático."</em></p>
+               <p>A fé cristã não é performance. Jesus alertou: <em>"E, quando orardes, não sereis como os hipócritas; porque gostam de orar em pé nas sinagogas e nos cantos das praças, para serem vistos pelos homens."</em> (Mateus 6:5)</p>
+
+               <h3>3. Confusão entre Emoção e Experiência Espiritual</h3>
+               <p><em>"A privação de alimento, o desgaste físico e a pressão psicológica podem levar participantes a interpretar emoções intensas como experiências espirituais."</em></p>
+               <p>A Bíblia reconhece a dimensão emocional da fé, mas alerta que o coração é enganoso (Jeremias 17:9). Emoções não são critério confiável para discernir a verdade espiritual.</p>
+
+               <h3>4. Criação de Elitismo e Divisão</h3>
+               <p><em>"O movimento pode criar divisão entre os 'legendários' e os demais membros da igreja, enfraquecendo a unidade das congregações e a autoridade pastoral."</em></p>
+               <p>Movimentos que criam "círculos internos" de "iluminados" ameaçam a unidade do corpo de Cristo (Romanos 16:17).</p>
+
+               <h3>5. Uso Inadequado da Figura de Cristo</h3>
+               <p><em>"Referindo-se, em alguns casos, ao Senhor Jesus de forma inadequada como o 'Legendário 001'."</em></p>
+               <p>Títulos humanos aplicados a Cristo podem banalizar Sua divindade. Jesus é o Filho Unigênito, o Cordeiro, o Rei dos reis. Reduzi-Lo a um "título de grupo" pode ser uma forma sutil de domesticar o Senhor soberano.</p>
+
+               <h2>📜 A Tradição Reformada e o Discernimento</h2>
+               
+               <h3>Os Pilares da Fé Reformada</h3>
+               <p>A Igreja Presbiteriana do Brasil segue a tradição reformada, que se fundamenta nos Cinco Solas:</p>
+               <ul style={{lineHeight: '1.8', marginBottom: '2rem'}}>
+                 <li><strong>Sola Scriptura</strong> — Somente a Escritura é autoridade final</li>
+                 <li><strong>Solus Christus</strong> — Somente Cristo é mediador e salvador</li>
+                 <li><strong>Sola Gratia</strong> — Somente a graça salva, não mérito humano</li>
+                 <li><strong>Sola Fide</strong> — Somente a fé recebe a salvação</li>
+                 <li><strong>Soli Deo Gloria</strong> — Toda glória pertence a Deus</li>
+               </ul>
+               <p>Qualquer movimento que, na prática, desloque o foco desses pilares merece exame cuidadoso.</p>
+
+               <h3>O Papel do Discernimento</h3>
+               <p>O apóstolo João exorta: <em>"Amados, não creiais em qualquer espírito, mas provai se os espíritos são de Deus, porque já muitos falsos profetas se têm levantado no mundo."</em> (1 João 4:1). Discernir não é ser crítico por natureza; é amar a verdade o suficiente para protegê-la.</p>
+
+               <h3>A Importância da Autoridade Pastoral</h3>
+               <p>O documento da IPB menciona que, caso a recomendação seja aprovada, conselhos regionais poderão exercer "vigilância pastoral" e "orientar, em amor, os irmãos que tenham aderido a tais movimentos". Isso reflete o modelo bíblico de cuidado (Hebreus 13:17). A autoridade pastoral não é controle; é proteção espiritual.</p>
+
+               <h2>💭 Reflexão: Como Discernir Movimentos Cristãos Hoje?</h2>
+               <p>Ao encontrar um novo movimento, ministério ou prática cristã, pergunte:</p>
+               <ul style={{lineHeight: '1.8', marginBottom: '2rem'}}>
+                 <li>✅ A mensagem central exalta Cristo ou técnicas humanas?</li>
+                 <li>✅ As Escrituras são a autoridade final ou são complementadas por métodos externos?</li>
+                 <li>✅ As experiências emocionais são validadas por frutos duradouros ou apenas por intensidade momentânea?</li>
+                 <li>✅ O movimento promove unidade na igreja ou cria elitismo e divisão?</li>
+                 <li>✅ Os líderes prestam contas a uma estrutura eclesiástica ou operam sem supervisão?</li>
+               </ul>
+               <p>O equilíbrio bíblico não é rejeitar tudo que é novo, mas testar tudo e reter o que é bom (1 Tessalonicenses 5:21), a exemplo dos bereanos (Atos 17:11).</p>
+
+               <h2>🗓️ O Que Esperar do Supremo Concílio da IPB</h2>
+               <p>O encontro em Manaus, de 26 a 31 de julho, reunirá mais de 1.600 representantes. Os desfechos possíveis incluem a aprovação da recomendação, modificação do texto, encaminhamento para estudo adicional ou o seu arquivamento.</p>
+               <p>Independentemente do resultado, o debate já cumpre um papel importante: conscientizar a igreja sobre a necessidade constante de discernimento.</p>
+
+               <h2>🙏 Oração por Discernimento e Unidade</h2>
+               <blockquote style={{borderLeft: '4px solid #722F37', background: '#fff9f9', padding: '1.5rem', margin: '2rem 0', fontStyle: 'italic'}}>
+                 Senhor Jesus,<br/>
+                 Obrigado pela Tua Palavra, que é lâmpada para os nossos pés e luz para o nosso caminho.<br/>
+                 Dá-nos discernimento para distinguir a verdade do engano, a piedade genuína da performance religiosa.<br/>
+                 Protege a Tua igreja de movimentos que, com boas intenções, desviam o foco de Cristo.<br/>
+                 Unifica Teu povo em torno da Tua Palavra, não de técnicas ou experiências.<br/>
+                 Usa este momento de debate na IPB para edificar, não para dividir.<br/>
+                 Que todo conselho, toda decisão, toda palavra seja guiada pelo Teu Espírito.<br/>
+                 Em nome de Jesus, amém.
+               </blockquote>
+
+               <h2>📖 Versículos para Meditação</h2>
+               <div style={{background: '#f8f9fa', borderLeft: '4px solid #0066cc', padding: '1.5rem', borderRadius: '0 8px 8px 0', margin: '2rem 0'}}>
+                 <p><strong>2 Timóteo 3:16-17</strong> — "Toda a Escritura é inspirada por Deus e útil para o ensino, para a repreensão, para a correção, para a educação na justiça."</p>
+                 <p><strong>1 João 4:1</strong> — "Amados, não creiais em qualquer espírito, mas provai se os espíritos são de Deus."</p>
+                 <p><strong>Atos 17:11</strong> — "Examinando nas Escrituras se estas coisas eram, de fato, assim."</p>
+                 <p><strong>Mateus 7:15-16</strong> — "Acautelai-vos, porém, dos falsos profetas... Pelos seus frutos os conhecereis."</p>
+                 <p><strong>Romanos 16:17</strong> — "Rogo-vos, irmãos, que noteis os que promovem divisões e escândalos contra a doutrina que aprendestes."</p>
+                 <p><strong>Hebreus 13:17</strong> — "Obedecei a vossos pastores e sujeitai-vos a eles; porque velam por vossas almas."</p>
+               </div>
+
+               <div style={{marginTop: '2rem', padding: '1.5rem', border: '1px solid #eee', borderRadius: '8px', background: '#fcfcfc', fontSize: '0.9rem', color: '#555'}}>
+                 <strong>📰 Fonte da Notícia:</strong> Jornalismo cristão brasileiro | Publicado em 22/07/2026<br/>
+                 <strong>🎯 Evento:</strong> Supremo Concílio da Igreja Presbiteriana do Brasil em Manaus<br/>
+                 <strong>📋 Tema:</strong> Recomendação sobre não participação no movimento Legendários
+               </div>
+
+               <p style={{fontSize: '1.1rem', fontStyle: 'italic', color: '#555', textAlign: 'center', margin: '2rem 0'}}>
+                 "Que a igreja de Cristo seja sempre guardada pela verdade, unida no amor e guiada pelo Espírito. Que todo movimento, toda prática, toda mensagem seja examinada à luz das Escrituras — e que Cristo seja exaltado acima de tudo."
+               </p>
+               
+               <p style={{textAlign: 'center', fontWeight: 'bold', marginTop: '2rem'}}>Soli Deo Gloria. 🙏📖✨</p>
+
+             </div>
+
+             <ShareBar title="IPB Debate Veto ao Movimento Legendários" url="/ipb-debate-veto-movimento-legendarios-origem-preocupacoes-teologicas" />
+             <RelatedArticles currentLink="/ipb-debate-veto-movimento-legendarios-origem-preocupacoes-teologicas" category="Notícias" />
+           </main>
+
         ) : isNoticias ? (
           <main className="section-mb">
             <div className="section-title">
               <h2>Notícias</h2>
             </div>
             <div className="grid-3" style={{marginTop: '2rem'}}>
+
+              <div className="grid-3-item">
+                <a href="/ipb-debate-veto-movimento-legendarios-origem-preocupacoes-teologicas" style={{textDecoration: 'none', color: 'inherit'}}>
+                  <img src="/ipb_legendarios.jpg" alt="Discernimento à luz das Escrituras" className="img-ph" loading="lazy" style={{objectFit: 'cover', aspectRatio: '16/9'}} />
+                  <span className="cat-tag" style={{display: 'inline-block', marginBottom: '8px', marginTop: '12px'}}>NOTÍCIAS</span>
+                  <h3 style={{fontSize: '1.1rem', marginBottom: '8px', lineHeight: '1.4'}}>Igreja Presbiteriana do Brasil Debate Veto ao Movimento Legendários</h3>
+                  <p style={{fontSize: '0.9rem', color: '#666', marginTop: '8px', marginBottom: '12px'}}>Supremo Concílio analisa documento que recomenda não participação no projeto voltado para homens.</p>
+                  <div style={{marginTop: '15px', color: '#722F37', fontWeight: 'bold', fontSize: '0.9rem'}}>
+                    → Ler Notícia
+                  </div>
+                </a>
+              </div>
 
               <div className="grid-3-item">
                 <a href="/israel-celebrara-2-mil-anos-batismo-jesus-2030-rio-jordao" style={{textDecoration: 'none', color: 'inherit'}}>
