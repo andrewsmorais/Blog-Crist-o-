@@ -131,6 +131,7 @@ const allArticlesData = [
   { link: '/5-sinais-biblicos-identificar-falsos-lideres-discernimento', image: '/falsos_lideres.png', tag: 'Estudos Bíblicos', title: '5 Sinais Bíblicos para Identificar Falsos Líderes' },
   { link: '/israel-celebrara-2-mil-anos-batismo-jesus-2030-rio-jordao', image: '/batismo_jesus_2030.jpg', tag: 'Notícias', title: 'Israel Celebrará 2 Mil Anos do Batismo de Jesus em 2030' },
   { link: '/ipb-debate-veto-movimento-legendarios-origem-preocupacoes-teologicas', image: '/ipb_legendarios.jpg', tag: 'Notícias', title: 'IPB Debate Veto ao Movimento Legendários' },
+  { link: '/seja-seu-sim-sim-verdade-radical-jesus-integridade-juramentos', image: '/sim_sim_nao_nao.jpg', tag: 'Estudos Bíblicos', title: '\'Seja o Seu Sim, Sim\': A Verdade Radical de Jesus sobre Integridade' },
 ];
 
 function RelatedArticles({ currentLink, category }) {
@@ -250,7 +251,8 @@ function App() {
   const isNoticias = path === '/noticias';
   const isCopaJesus = path === '/14-estrelas-copa-mundo-2026-seguem-jesus-jogadores-cristaos';
   const isDiscipulado = path === '/custo-real-do-discipulado-caminhar-na-fe';
-          const isFalsosLideres = path === '/5-sinais-biblicos-identificar-falsos-lideres-discernimento';
+            const isSimSimNaoNao = path === '/seja-seu-sim-sim-verdade-radical-jesus-integridade-juramentos';
+  const isFalsosLideres = path === '/5-sinais-biblicos-identificar-falsos-lideres-discernimento';
   const isLimitesBiblicos = path === '/5-tipos-pessoas-biblia-orienta-nao-ajudar-limites-saudaveis';
   const isProverbiosFinancas = path === '/proverbios-prosperidade-financeira-sabedoria-mordomia-contentamento';
   const isMaternidadeBiblica = path === '/papel-da-mae-segundo-a-biblia-estudo-completo';
@@ -693,6 +695,15 @@ function App() {
               <h2>Estudos Bíblicos</h2>
             </div>
             <div className="grid-2" style={{marginTop: '2rem'}}>
+
+              <div className="grid-2-item">
+                <a href="/seja-seu-sim-sim-verdade-radical-jesus-integridade-juramentos" style={{textDecoration: 'none', color: 'inherit'}}>
+                  <img src="/sim_sim_nao_nao.jpg" alt="A Verdade Radical de Jesus" className="img-ph" loading="lazy" style={{objectFit: 'cover'}} />
+                  <h3 style={{fontSize: '1.1rem', marginBottom: '8px', lineHeight: '1.4'}}>'Seja o Seu Sim, Sim': A Verdade Radical de Jesus sobre Integridade</h3>
+                  <p style={{fontSize: '0.9rem', color: '#666', marginTop: '8px'}}>No Sermão do Monte, Cristo desmascara a hipocrisia e chama seus discípulos a viver com integridade absoluta.</p>
+                  <div className="meta">📖 <strong>Texto Base:</strong> Mateus 5:33-37</div>
+                </a>
+              </div>
 
               <div className="grid-2-item">
                 <a href="/5-sinais-biblicos-identificar-falsos-lideres-discernimento" style={{textDecoration: 'none', color: 'inherit'}}>
@@ -4558,7 +4569,157 @@ function App() {
               <RelatedArticles currentLink="/custo-real-do-discipulado-caminhar-na-fe" category="Devocionais" />
            </main>
 
-                                         ) : isFalsosLideres ? (
+                                                 ) : isSimSimNaoNao ? (
+          <main className="article-content section-mb">
+             <Breadcrumb category="Estudos Bíblicos" categoryLink="/estudos-biblicos" title="A Verdade Radical de Jesus" />
+             <div className="article-header">
+               <span className="cat-tag">Estudos Bíblicos</span>
+               <h1>'Seja o Seu Sim, Sim': A Verdade Radical de Jesus sobre Integridade e Juramentos</h1>
+               <div className="article-meta">
+                 📖 <strong>ESTUDOS BÍBLICOS | Soli Deo Gloria</strong><br/>
+                 <span style={{fontSize: '0.9rem', color: '#666'}}><em>Baseado em conteúdo do YouTube | 25 Jun, 2026</em></span>
+               </div>
+             
+               <ArticleInfo date="25 de Junho de 2026" readingTime={8} />
+              </div>
+             <img src="/sim_sim_nao_nao.jpg" alt="Balança da justiça sobre Bíblia" className="article-hero-img" loading="lazy" style={{maxHeight: '450px', width: '100%', objectFit: 'cover', borderRadius: '12px'}} />
+             <div className="article-body">
+               
+               <h2>A Cultura das Meias-Verdades</h2>
+               <p>Vivemos em uma cultura onde "meias-verdades" se tornaram a norma. Onde o "sim" muitas vezes significa "talvez", e o "não" precisa ser embalado em justificativas elaboradas para não soar rude. Onde juramos, prometemos e garantimos — não porque nossa palavra tem valor, mas porque ela perdeu credibilidade.</p>
+               
+               <p>Nesse contexto de relativização da verdade, as palavras de Jesus em Mateus 5:33-37 soam como um trovão em dia de céu limpo:</p>
+
+               <div className="quote-box">
+                 "Ouvistes também que foi dito aos antigos: Não perjurarás, mas cumprirás os teus juramentos ao Senhor. Eu, porém, vos digo: de modo algum jureis; nem pelo céu, pois é o trono de Deus; nem pela terra, pois é o estrado dos seus pés; nem por Jerusalém, pois é a cidade do grande Rei; nem jurarás pela tua cabeça, porque não poderás tornar branco ou preto um único fio de cabelo. Seja, porém, a vossa palavra: Sim, sim; Não, não. O que passar disto vem do maligno."
+               </div>
+               
+               <p>Esta não é apenas uma regra sobre não fazer juramentos. É um chamado radical para uma vida de integridade tão transparente que nossas palavras não precisem de reforços, nossas promessas não precisem de garantias extras, e nossa honestidade seja tão evidente que jurar se torne desnecessário.</p>
+
+               <h2>📖 O Contexto: Quando a Palavra Perdeu o Valor</h2>
+               
+               <h3>A Prática dos Juramentos no Tempo de Jesus</h3>
+               <p>Para entender a profundidade do ensino de Cristo, precisamos compreender o cenário religioso do primeiro século. Os escribas e fariseus haviam desenvolvido uma teologia complexa sobre juramentos. Eles ensinavam que jurar pelo nome de Deus era obrigatório e vinculativo, mas jurar pelo céu, pela terra, por Jerusalém ou pela própria cabeça não era obrigatório.</p>
+               <p>Resultado? Eles evitavam jurar por Deus para terem uma "saída" caso não quisessem cumprir a promessa. Juravam por outras coisas, criando uma hierarquia de compromissos onde alguns podiam ser quebrados sem "pecado".</p>
+
+               <h3>A Hipocrisia Exposta</h3>
+               <p>Jesus desmascara essa manipulação religiosa: <em>"Nem pelo céu... nem pela terra... nem por Jerusalém"</em>. Ele está dizendo: Vocês não podem separar as coisas de Deus das próprias coisas de Deus. Tudo pertence a Ele. Não existe "juramento menor" ou "promessa descartável".</p>
+               <p>Os fariseus usavam esses artifícios para:</p>
+               <ul style={{lineHeight: '1.8', marginBottom: '2rem'}}>
+                 <li>✅ Parecerem sinceros (fazendo juramentos)</li>
+                 <li>❌ Mas manterem uma "porta de saída" (não jurando por Deus diretamente)</li>
+               </ul>
+               <p>Isso não era piedade. Era hipocrisia calculada.</p>
+
+               <h2>🎯 O Ensino de Jesus: Integridade Radical</h2>
+               
+               <h3>"De Modo Algum Jureis"</h3>
+               <p>Quando Jesus diz "de modo algum jureis", Ele não está proibindo juramentos solenes em tribunais (como veremos, o próprio Jesus jurou diante do sumo sacerdote em Mateus 26:63, e Paulo fez juramentos em suas cartas — 2 Coríntios 1:23, Gálatas 1:20).</p>
+               <p>Ele está condenando o uso casual e manipulador de juramentos para dar credibilidade ao que não é verdade, comprometer-se com algo que não se pretende cumprir, ou impressionar os outros com "garantias" vazias.</p>
+
+               <h3>A Raiz do Problema: Falta de Integridade</h3>
+               <p>Por que alguém sente necessidade de jurar? Porque sua palavra não é confiável. Quando você precisa dizer "juro por Deus", você está admitindo implicitamente: "Minha palavra sozinha não basta. Você não pode confiar em mim sem um juramento."</p>
+               <p>Jesus inverte essa lógica: <em>"Seja, porém, a vossa palavra: Sim, sim; Não, não."</em></p>
+               <p>Sua vida deve ser tão íntegra, suas ações tão coerentes com suas palavras, que um simples "sim" ou "não" seja suficiente.</p>
+
+               <h2>⚠️ "O Que Passar Disso Vem do Maligno"</h2>
+               <p>Esta é uma das declarações mais fortes de Jesus sobre honestidade. Ele não diz que é "exagero". Ele diz: "vem do maligno". Por quê?</p>
+               <ul style={{lineHeight: '1.8', marginBottom: '2rem'}}>
+                 <li>✅ <strong>Deus é verdade</strong> (João 14:6 — "Eu sou a verdade")</li>
+                 <li>❌ <strong>Satanás é pai da mentira</strong> (João 8:44 — "quando profere mentira, fala do que lhe é próprio")</li>
+               </ul>
+               <p>A mentira "inofensiva" não existe. Jesus não faz distinção entre mentira grave e mentira leve. Isso inclui:</p>
+               <ul style={{lineHeight: '1.8', marginBottom: '2rem'}}>
+                 <li>❌ Prometer o que não vai cumprir para "sair da situação"</li>
+                 <li>❌ Exagerar fatos para parecer melhor</li>
+                 <li>❌ Omitir informações importantes para manipular</li>
+                 <li>❌ Dizer "sim" quando quer dizer "não" para agradar</li>
+               </ul>
+
+               <h2>💡 Aplicação Prática: Vivendo com "Sim, Sim" e "Não, Não"</h2>
+               
+               <h3>1. Pare de Usar "Jeitinhos" para Suavizar o Não</h3>
+               <p>Dizer "não" com amor, clareza e honestidade é melhor do que dizer um "sim" falso ("vou ver se posso", "talvez") que gera frustração, quebra de confiança e ressentimento.</p>
+
+               <h3>2. Cumpra o que Promete</h3>
+               <p>Pare de fazer promessas que você sabe que não vai cumprir (como "vou orar por você" e nunca ora, ou "te ajudo nisso" e desaparece). Se não vai fazer, não prometa.</p>
+
+               <h3>3. Não Precisa "Enfeitar" a Verdade</h3>
+               <p>Jesus diz: Simplesmente fale a verdade. Sua vida, seu caráter, sua coerência devem ser o "enfeite" da sua palavra — não artifícios verbais.</p>
+
+               <h3>4. Reconheça que Deus Vê Tudo</h3>
+               <p><em>"E não há criatura que não seja manifesta na sua presença; antes, todas as coisas estão nuas e patentes aos olhos daquele com quem temos de tratar."</em> — Hebreus 4:13</p>
+
+               <h3>5. Construa uma Reputação de Integridade</h3>
+               <p>O que você tem nessa terra é o seu nome. Como cristãos, carregamos o nome de Cristo. Quando vivemos com integridade, honramos o nome dEle.</p>
+
+               <h2>🌟 A Verdade que Liberta</h2>
+               <p>Viver com "sim, sim" e "não, não" é um caminho de liberdade. Pense em quantas promessas vazias já pesaram na sua consciência. Jesus oferece um caminho diferente: viver em verdade (João 8:32).</p>
+               <p>A verdade liberta porque:</p>
+               <ul style={{lineHeight: '1.8', marginBottom: '2rem'}}>
+                 <li>✅ Você não precisa lembrar o que disse para quem</li>
+                 <li>✅ Você não vive com medo de ser exposto</li>
+                 <li>✅ Sua consciência está limpa e as pessoas confiam em você</li>
+               </ul>
+
+               <h2>💭 Reflexão Final: Qual Tem Sido Sua Palavra?</h2>
+               <p>Pare e reflita:</p>
+               <ul style={{lineHeight: '1.8', marginBottom: '2rem', listStyleType: 'none', paddingLeft: 0}}>
+                 <li>□ Quando você diz "sim", as pessoas podem confiar?</li>
+                 <li>□ Quando você diz "não", você é direto e honesto?</li>
+                 <li>□ Quantas vezes esta semana você prometeu algo e não cumpriu?</li>
+                 <li>□ Você tem usado "meias-verdades" para evitar conflitos?</li>
+                 <li>□ Suas ações correspondem às suas palavras?</li>
+                 <li>□ Você vive de modo que Deus seja glorificado pela sua integridade?</li>
+               </ul>
+               <p>Se suas respostas revelam inconsistência, arrependa-se. Peça perdão a Deus e comece hoje a viver de forma diferente.</p>
+
+               <h2>🙏 Oração por Integridade</h2>
+               <blockquote style={{borderLeft: '4px solid #722F37', background: '#fff9f9', padding: '1.5rem', margin: '2rem 0', fontStyle: 'italic'}}>
+                 Senhor Jesus,<br/>
+                 Tu és a Verdade. Perdoa-nos pelas vezes em que mentimos, manipulamos, prometemos e não cumprimos.<br/>
+                 Limpa nosso coração de toda hipocrisia.<br/>
+                 Dá-nos coragem para dizer "não" quando for "não".<br/>
+                 Dá-nos fidelidade para cumprir o "sim" que dizemos.<br/>
+                 Que nossa vida seja tão íntegra que nossa palavra seja suficiente.<br/>
+                 Que carregamos Teu nome com honra, não com vergonha.<br/>
+                 Que sejamos conhecidos não por nossos juramentos, mas por nossa verdade.<br/>
+                 Em Teu nome, amém.
+               </blockquote>
+
+               <h2>📖 Versículos para Meditação</h2>
+               <div style={{background: '#f8f9fa', borderLeft: '4px solid #0066cc', padding: '1.5rem', borderRadius: '0 8px 8px 0', margin: '2rem 0'}}>
+                 <p><strong>Mateus 5:37</strong> — "Seja, porém, a vossa palavra: Sim, sim; Não, não. O que passar disto vem do maligno."</p>
+                 <p><strong>Provérbios 12:22</strong> — "Os lábios mentirosos são abominação para o SENHOR, mas os que agem fielmente são o seu prazer."</p>
+                 <p><strong>Efésios 4:25</strong> — "Por isso, deixando a mentira, fale cada um a verdade com o seu próximo, porque somos membros uns dos outros."</p>
+                 <p><strong>Colossenses 3:9-10</strong> — "Não mintais uns aos outros, uma vez que vos despistes do velho homem com os seus feitos e vos revestistes do novo homem."</p>
+                 <p><strong>Tiago 5:12</strong> — "Acima de tudo, porém, meus irmãos, não jureis... mas que o vosso sim seja sim, e o vosso não, não, para não cairdes em juízo."</p>
+                 <p><strong>João 8:32</strong> — "E conhecereis a verdade, e a verdade vos libertará."</p>
+                 <p><strong>Provérbios 10:9</strong> — "Quem anda em integridade anda seguro, mas o que perverte os seus caminhos será conhecido."</p>
+               </div>
+
+               <h2>📚 Leituras Recomendadas</h2>
+               <ul style={{lineHeight: '1.8', marginBottom: '2rem'}}>
+                 <li><strong>"O Sermão do Monte"</strong> — John Stott (exposição clássica de Mateus 5-7)</li>
+                 <li><strong>"A Hipocrisia e a Graça"</strong> — Jerry Bridges (sobre viver com autenticidade)</li>
+                 <li><strong>"Mentiras que as Pessoas Boas Contam"</strong> — Charles Swindoll (sobre honestidade radical)</li>
+                 <li><strong>"Integridade"</strong> — John Bevere (sobre caráter cristão)</li>
+                 <li><strong>"Verdade e Graça"</strong> — Vários autores (equilíbrio bíblico entre verdade e amor)</li>
+               </ul>
+
+               <p style={{fontSize: '1.1rem', fontStyle: 'italic', color: '#555', textAlign: 'center', margin: '2rem 0'}}>
+                 "Que nossa vida seja tão transparente que não precisemos jurar. Que nosso caráter seja tão forte que nossa palavra seja suficiente. Que Cristo seja glorificado em nossa integridade."
+               </p>
+               
+               <p style={{textAlign: 'center', fontWeight: 'bold', marginTop: '2rem'}}>Soli Deo Gloria. 🙏✨</p>
+
+             </div>
+
+             <ShareBar title="'Seja o Seu Sim, Sim': A Verdade Radical de Jesus" url="/seja-seu-sim-sim-verdade-radical-jesus-integridade-juramentos" />
+             <RelatedArticles currentLink="/seja-seu-sim-sim-verdade-radical-jesus-integridade-juramentos" category="Estudos Bíblicos" />
+           </main>
+
+        ) : isFalsosLideres ? (
           <main className="article-content section-mb">
              <Breadcrumb category="Estudos Bíblicos" categoryLink="/estudos-biblicos" title="Falsos Líderes" />
              <div className="article-header">
