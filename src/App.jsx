@@ -132,6 +132,7 @@ const allArticlesData = [
   { link: '/israel-celebrara-2-mil-anos-batismo-jesus-2030-rio-jordao', image: '/batismo_jesus_2030.jpg', tag: 'Notícias', title: 'Israel Celebrará 2 Mil Anos do Batismo de Jesus em 2030' },
   { link: '/ipb-debate-veto-movimento-legendarios-origem-preocupacoes-teologicas', image: '/ipb_legendarios.jpg', tag: 'Notícias', title: 'IPB Debate Veto ao Movimento Legendários' },
   { link: '/seja-seu-sim-sim-verdade-radical-jesus-integridade-juramentos', image: '/sim_sim_nao_nao.jpg', tag: 'Estudos Bíblicos', title: '\'Seja o Seu Sim, Sim\': A Verdade Radical de Jesus sobre Integridade' },
+  { link: '/5-sinais-biblicos-presenca-anjos-sua-casa-ministerio-invisivel', image: '/presenca_anjos.jpg', tag: 'Devocionais', title: '5 Sinais Bíblicos da Presença dos Anjos em Sua Casa' },
 ];
 
 function RelatedArticles({ currentLink, category }) {
@@ -243,6 +244,7 @@ function App() {
   const isEster = path === '/ester-rainha-salvou-povo-deus-age-sombras';
   const isSobre = path === '/sobre';
   const isContato = path === '/contato';
+    const isAnjos = path === '/5-sinais-biblicos-presenca-anjos-sua-casa-ministerio-invisivel';
   const isDevocionais = path === '/devocionais';
   const isTrindade = path === '/trindade-um-so-deus-tres-pessoas-estudo-completo';
   const isSantificacao = path === '/santificacao-obra-vida-inteira-estudo';
@@ -1587,12 +1589,184 @@ function App() {
 
             </div>
           </main>
+                ) : isAnjos ? (
+          <main className="article-content section-mb">
+             <Breadcrumb category="Devocionais" categoryLink="/devocionais" title="A Presença dos Anjos" />
+             <div className="article-header">
+               <span className="cat-tag">Devocionais</span>
+               <h1>5 Sinais Bíblicos da Presença dos Anjos em Sua Casa: O Ministério Invisível ao Redor dos que Temem ao Senhor</h1>
+               <div className="article-meta">
+                 📖 <strong>DEVOCIONAIS | Soli Deo Gloria</strong><br/>
+                 <span style={{fontSize: '0.9rem', color: '#666'}}><em>Baseado em conteúdo do YouTube | 25 Jun, 2026</em></span>
+               </div>
+             
+               <ArticleInfo date="25 de Junho de 2026" readingTime={8} />
+              </div>
+             <img src="/presenca_anjos.jpg" alt="O anjo do SENHOR acampa-se ao redor dos que o temem — Salmo 34:7" className="article-hero-img" loading="lazy" style={{maxHeight: '450px', width: '100%', objectFit: 'cover', borderRadius: '12px'}} />
+             <div className="article-body">
+               
+               <h2>Você Não Está Sozinho</h2>
+               <p>E se eu te dissesse que você não está sozinho neste momento? Que enquanto lê estas palavras, algo invisível ao olho humano pode estar bem ao seu lado?</p>
+               
+               <p>Não é misticismo. Não é fantasia. É o que a própria Palavra de Deus declara com sobriedade e clareza. Desde as primeiras páginas do Gênesis até as últimas do Apocalipse, há uma realidade que vai além do que os olhos conseguem ver — uma dimensão onde o sagrado e o cotidiano se encontram, onde o eterno toca o temporal de maneiras que mal conseguimos compreender.</p>
+               
+               <p>E os anjos estão no meio disso tudo. Não como figuras decorativas de presépio, mas como seres criados por Deus para cumprir propósitos específicos, muitas vezes dentro dos lares mais simples desta terra.</p>
+
+               <p>A Bíblia nunca tratou os anjos com leveza. Quando eles aparecem nas Escrituras, as pessoas caem com o rosto em terra. Quando falam, a primeira palavra quase sempre é: "Não temas". Isso diz muito sobre a natureza desses seres. Eles não são suaves como a cultura popular tenta nos fazer crer. São mensageiros do Deus vivo, guerreiros espirituais, servos do Altíssimo. E eles podem estar em sua casa agora mesmo.</p>
+
+               <h2>📖 Fundamento Bíblico: Anjos como Espíritos Ministradores</h2>
+               <p>O livro de Hebreus faz uma pergunta retórica que deveria nos parar por alguns instantes:</p>
+               
+               <div className="quote-box">
+                 "Não são todos eles espíritos ministradores enviados para servir a favor dos que hão de herdar a salvação?" — Hebreus 1:14
+               </div>
+
+               <p>Esta pergunta não é apenas poética. É teológica. É uma afirmação embrulhada em forma de pergunta. Ela estabelece três verdades inegociáveis:</p>
+               <ul style={{lineHeight: '1.8', marginBottom: '2rem'}}>
+                 <li>✅ Os anjos servem</li>
+                 <li>✅ Os anjos são enviados</li>
+                 <li>✅ Eles são enviados em favor de quem pertence a Deus</li>
+               </ul>
+
+               <p>Então, se você é filho de Deus, se caminha debaixo do senhorio de Cristo, se sua vida foi entregue a Ele, então há uma verdade que precisa ser carregada no coração: você não está desamparado. Você não está sozinho em sua casa, em seus momentos silenciosos, nem nas madrugadas em que o peso parece maior do que as forças.</p>
+
+               <h2>⚠️ Um Alerta Importante: Busque a Deus, Não os Anjos</h2>
+               <p>Mas vamos falar com honestidade. A presença angélica não é um tema para nos tornar pessoas dependentes de experiências sobrenaturais. A fé que agrada a Deus é aquela que acredita sem ver, que confia mesmo quando o céu parece silencioso.</p>
+               <p>Não buscamos os anjos. Buscamos a Deus. E ao buscar a Deus com sinceridade, passamos a perceber as marcas do Seu cuidado ao redor de nós.</p>
+               <p>É nesse espírito que exploraremos cinco sinais que a Bíblia nos mostra como possíveis indicações da presença angélica. Não para alimentar curiosidade, mas para alimentar gratidão. Não para desviar o olhar de Cristo, mas para enxergar com mais clareza o quanto o Pai nos ama.</p>
+
+               <h2>1️⃣ Sinal 1: Paz Inexplicável</h2>
+               <p>Há momentos em que uma calma que não tem origem humana toma conta do ambiente. Você estava ansioso, preocupado, talvez com o coração apertado. E de repente, sem explicação racional, a paz simplesmente chega.</p>
+               <p>Paulo escreveu: <em>"E a paz de Deus, que excede todo o entendimento, guardará o vosso coração e a vossa mente em Cristo Jesus."</em> (Filipenses 4:7). Os anjos são instrumentos dessa paz.</p>
+               <p><strong>O Exemplo de Elias:</strong> Quando Elias estava exausto no deserto, pronto para morrer, foi um anjo que o tocou duas vezes, preparou comida e disse: <em>"Levanta-te e come, porque o caminho é longo demais para ti."</em> (1 Reis 19:7). A paz que o profeta sentiu não veio de dentro dele. Veio do alto.</p>
+               <div style={{background: '#fcfcfc', padding: '1rem', borderLeft: '3px solid #ccc', margin: '1rem 0'}}>
+                 <strong>💭 Para refletir:</strong> Quantas vezes você experimentou uma paz que "não faz sentido" diante das circunstâncias? Isso pode ser mais do que resiliência emocional. Pode ser ministério angélico.
+               </div>
+
+               <h2>2️⃣ Sinal 2: Proteção nos Momentos de Perigo</h2>
+               <p>Quantas vezes você passou por uma situação onde, olhando para trás, percebeu que algo o protegeu sem que você soubesse? O Salmo 91:11 declara: <em>"Porque a seus anjos dará ordens a teu respeito, para te guardarem em todos os teus caminhos."</em></p>
+               <p>Isso não é promessa de uma vida sem dificuldades. É promessa de que Deus ordena guardas espirituais ao redor de quem está sob Sua proteção. Exemplos bíblicos não faltam: Daniel sobreviveu na cova dos leões porque Deus enviou Seu anjo (Daniel 6:22), e Pedro foi solto da prisão por um anjo que o despertou e o guiou para fora (Atos 12:7-10). A proteção sobrenatural é bíblica, é real e opera em sua vida bem mais do que você imagina.</p>
+               <div style={{background: '#fcfcfc', padding: '1rem', borderLeft: '3px solid #ccc', margin: '1rem 0'}}>
+                 <strong>💭 Para refletir:</strong> Quantas vezes você escapou de um acidente "por pouco"? Quantas vezes algo deu "errado" e você percebeu depois que foi um livramento?
+               </div>
+
+               <h2>3️⃣ Sinal 3: Lembrança Repentina de uma Palavra de Deus</h2>
+               <p>Você está no meio de uma situação difícil, em um momento de decisão ou de tentação. E de repente, um versículo que você leu há anos surge com clareza na sua mente. Isso pode ser obra do Espírito Santo — e certamente é Ele quem age primariamente. Mas os anjos também são enviados para ministrar, e uma das formas de ministração é o reforço da Palavra.</p>
+               <p>O pastor Hernandes Dias Lopes lembra que: <em>"A Palavra de Deus é uma lâmpada que ilumina o caminho do justo, e Deus usa meios visíveis e invisíveis para manter essa luz acesa em nossa caminhada."</em> Fique atento às Escrituras que surgem no seu coração nos momentos certos.</p>
+               <div style={{background: '#fcfcfc', padding: '1rem', borderLeft: '3px solid #ccc', margin: '1rem 0'}}>
+                 <strong>💭 Para refletir:</strong> Quantas vezes uma passagem bíblica "veio à sua mente" exatamente quando você precisava dela? Isso pode ser mais do que memória — pode ser ministério celestial.
+               </div>
+
+               <h2>4️⃣ Sinal 4: Desvio Providencial de um Perigo</h2>
+               <p>Há histórias de pessoas que perderam o avião que caiu, de quem chegou tarde demais a um lugar onde houve um acidente, de quem mudou de rota por um impulso que não sabe explicar.</p>
+               <p>A Bíblia registra que Deus enviou um anjo para guiar o povo de Israel pelo deserto (Êxodo 13:21). Em Êxodo 23:20, Deus diz: <em>"Eis que eu envio um anjo diante de ti para te guardar pelo caminho e para te levar ao lugar que te preparei."</em></p>
+               <p>Esse guiar pode acontecer de forma sutil: em decisões cotidianas, em pequenos desvios aparentemente irrelevantes, ou em "intuições" que você não sabe explicar, mas que protegem a sua vida.</p>
+               <div style={{background: '#fcfcfc', padding: '1rem', borderLeft: '3px solid #ccc', margin: '1rem 0'}}>
+                 <strong>💭 Para refletir:</strong> Olhe para trás com os olhos da fé. Quantos "desvios" você teve na sua história que, na época, pareceram frustrações, mas depois se revelaram proteções?
+               </div>
+
+               <h2>5️⃣ Sinal 5: Sensação de Não Estar Sozinho</h2>
+               <p>Há uma diferença entre imaginar que não está sozinho e genuinamente sentir que uma presença santa preenche o ambiente.</p>
+               <p>O profeta Eliseu pediu a Deus que abrisse os olhos de seu servo: <em>"Senhor, peço-te que lhe abras os olhos para que veja."</em> O jovem olhou e viu: <em>"Os montes estavam cheios de cavalos e carros de fogo ao redor de Eliseu."</em> (2 Reis 6:17).</p>
+               <p>O que já estava lá, o jovem simplesmente não enxergava. Às vezes, o que sentimos durante a oração ou adoração não é apenas emoção. É o véu se tornando um pouco mais fino. É a realidade invisível se aproximando da percepção do coração.</p>
+               <div style={{background: '#fcfcfc', padding: '1rem', borderLeft: '3px solid #ccc', margin: '1rem 0'}}>
+                 <strong>💭 Para refletir:</strong> Quantas vezes, em oração ou adoração, você sentiu uma "presença" que não consegue explicar? Isso pode ser mais do que sentimento — pode ser percepção espiritual.
+               </div>
+
+               <h2>🎯 O Que Fazer com Tudo Isso?</h2>
+               <p>A resposta não está em buscar sinais o tempo todo, nem em tentar provocar experiências sobrenaturais. O pastor John MacArthur advertiu: <em>"O fascínio excessivo com os anjos pode se tornar uma distração da adoração genuína a Cristo."</em> E ele tem razão.</p>
+               <p>Os anjos nunca apontam para si mesmos. Sempre que alguém tenta adorar um anjo na Bíblia, o anjo rejeita. Eles sempre apontam para Deus.</p>
+               
+               <h3>Aplicação Prática</h3>
+               <p>A aplicação prática desse conhecimento é viver de tal maneira que a presença de Deus seja convidada e honrada:</p>
+               <ul style={{lineHeight: '1.8', marginBottom: '2rem'}}>
+                 <li>✅ Viva de tal maneira que a presença de Deus seja buscada em cada cômodo da sua casa</li>
+                 <li>✅ Ore com seus filhos</li>
+                 <li>✅ Leia a Bíblia em voz alta no lar</li>
+                 <li>✅ Cante ao Senhor, mesmo que sua voz não seja perfeita</li>
+                 <li>✅ Crie um ambiente de santidade — não por superstição, mas por amor</li>
+                 <li>✅ Lembre-se: onde Deus é honrado, onde a Palavra é respeitada, onde o pecado é confrontado com arrependimento genuíno — ali é terra fértil para o ministério angélico</li>
+               </ul>
+
+               <h2> A Promessa Final: "O Anjo do Senhor Acampa"</h2>
+               <p>Antes de terminar, há uma promessa que quero deixar com você:</p>
+               <div className="quote-box">
+                 "O anjo do SENHOR acampa-se ao redor dos que o temem e os livra." — Salmo 34:7
+               </div>
+               <p>A palavra "acampa" não é casual. Significa permanência (não é visita de passagem), guarda estabelecida (um acampamento posicionado) e proteção ativa ao redor da sua vida.</p>
+               <p>Você pode estar passando por uma situação que parece grande demais. Pode estar com medo do amanhã, cansado de lutar, com o coração partido. Mas a Palavra diz que há um acampamento ao seu redor.</p>
+               <p>Não olhe apenas para o que você vê. Há mais na sua história do que seus olhos alcançam. O Deus que criou os anjos é o mesmo Deus que conhece o número dos cabelos da sua cabeça e se importa com cada detalhe da sua vida. Confie nEle, busque-O, e observe com olhos de fé os sinais do Seu cuidado ao seu redor.</p>
+
+               <h2>🙏 Oração</h2>
+               <blockquote style={{borderLeft: '4px solid #722F37', background: '#fff9f9', padding: '1.5rem', margin: '2rem 0', fontStyle: 'italic'}}>
+                 Senhor Jesus,<br/>
+                 Obrigado porque não nos deixaste sozinhos.<br/>
+                 Obrigado pelos anjos que envias para nos guardar, nos proteger e nos ministrar.<br/>
+                 Mas, acima de tudo, obrigado pelo Teu Espírito Santo, que habita em nós.<br/>
+                 Ajuda-nos a buscar-Te acima de todas as coisas.<br/>
+                 A confiar em Ti, mesmo quando não vemos.<br/>
+                 A perceber Teu cuidado, mesmo quando o céu parece silencioso.<br/>
+                 Que nossa fé não dependa de experiências, mas da Tua Palavra.<br/>
+                 E que, ao buscar-Te, possamos enxergar as marcas do Teu amor ao nosso redor.<br/>
+                 Em nome de Jesus, amém.
+               </blockquote>
+
+               <h2>📖 Versículos para Meditação</h2>
+               <div style={{background: '#f8f9fa', borderLeft: '4px solid #0066cc', padding: '1.5rem', borderRadius: '0 8px 8px 0', margin: '2rem 0'}}>
+                 <p><strong>Salmo 34:7</strong> — "O anjo do SENHOR acampa-se ao redor dos que o temem e os livra."</p>
+                 <p><strong>Hebreus 1:14</strong> — "Não são todos eles espíritos ministradores enviados para servir a favor dos que hão de herdar a salvação?"</p>
+                 <p><strong>Salmo 91:11</strong> — "Porque a seus anjos dará ordens a teu respeito, para te guardarem em todos os teus caminhos."</p>
+                 <p><strong>Filipenses 4:7</strong> — "E a paz de Deus, que excede todo o entendimento, guardará o vosso coração e a vossa mente em Cristo Jesus."</p>
+                 <p><strong>2 Reis 6:17</strong> — "Senhor, peço-te que lhe abras os olhos para que veja. E abriu o SENHOR os olhos do moço, e ele viu que o monte estava cheio de cavalos e carros de fogo ao redor de Eliseu."</p>
+                 <p><strong>Êxodo 23:20</strong> — "Eis que eu envio um anjo diante de ti para te guardar pelo caminho e para te levar ao lugar que te preparei."</p>
+                 <p><strong>Mateus 18:10</strong> — "Vede, não desprezeis a qualquer destes pequeninos; porque eu vos afirmo que os seus anjos nos céus veem continuamente a face de meu Pai que está nos céus."</p>
+               </div>
+
+               <h2>📚 Leituras Recomendadas</h2>
+               <ul style={{lineHeight: '1.8', marginBottom: '2rem'}}>
+                 <li><strong>"Angelologia"</strong> — John MacArthur (estudo bíblico completo sobre os anjos)</li>
+                 <li><strong>"Anjos: Mensageiros do Céu"</strong> — Billy Graham (perspectiva bíblica e pastoral)</li>
+                 <li><strong>"O Mundo Invisível"</strong> — Hernandes Dias Lopes (sobre a realidade espiritual)</li>
+                 <li><strong>"Anjos e Demônios"</strong> — C.S. Lewis (reflexões teológicas sobre o sobrenatural)</li>
+                 <li><strong>"A Guerra Invisível"</strong> — Vários autores (sobre batalha espiritual e proteção divina)</li>
+               </ul>
+
+               <div style={{marginTop: '2rem', padding: '1.5rem', border: '1px solid #eee', borderRadius: '8px', background: '#fcfcfc', fontSize: '0.9rem', color: '#555'}}>
+                 <strong>📺 Fonte e Inspiração:</strong><br/>
+                 Este artigo foi desenvolvido como uma versão escrita e expandida baseada no conteúdo do canal <strong>Fé sem Limites</strong> no YouTube.<br/><br/>
+                 Se você deseja assistir ao vídeo original e complementar seu estudo, confira:<br/>
+                 🔗 <a href="https://www.youtube.com/watch?v=oU0XHZ6qO44" target="_blank" rel="noopener noreferrer" style={{color: '#0066cc'}}>5 Sinais da Presença dos Anjos em Sua Casa</a><br/><br/>
+                 Agradecemos ao canal Fé sem Limites por compartilhar verdades bíblicas tão necessárias para nossos dias.
+               </div>
+
+               <p style={{fontSize: '1.1rem', fontStyle: 'italic', color: '#555', textAlign: 'center', margin: '2rem 0'}}>
+                 "Não olhe apenas para o que você vê. Há mais na sua história do que seus olhos alcançam."
+               </p>
+               
+               <p style={{textAlign: 'center', fontWeight: 'bold', marginTop: '2rem'}}>Soli Deo Gloria. ✨</p>
+
+             </div>
+
+             <ShareBar title="5 Sinais Bíblicos da Presença dos Anjos em Sua Casa" url="/5-sinais-biblicos-presenca-anjos-sua-casa-ministerio-invisivel" />
+             <RelatedArticles currentLink="/5-sinais-biblicos-presenca-anjos-sua-casa-ministerio-invisivel" category="Devocionais" />
+           </main>
+
         ) : isDevocionais ? (
           <main className="section-mb">
             <div className="section-title" style={{marginBottom: '2rem'}}>
               <h2>Devocionais</h2>
             </div>
             <div className="grid-3" style={{marginTop: '2rem'}}>
+
+              <div className="grid-3-item">
+                <a href="/5-sinais-biblicos-presenca-anjos-sua-casa-ministerio-invisivel" style={{textDecoration: 'none', color: 'inherit'}}>
+                  <img src="/presenca_anjos.jpg" alt="Presença dos Anjos" className="img-ph" loading="lazy" style={{objectFit: 'cover', aspectRatio: '16/9'}} />
+                  <span className="cat-tag" style={{display: 'inline-block', marginBottom: '8px', marginTop: '12px'}}>DEVOCIONAIS</span>
+                  <h3 style={{fontSize: '1.1rem', marginBottom: '8px', lineHeight: '1.4'}}>5 Sinais Bíblicos da Presença dos Anjos em Sua Casa</h3>
+                  <p style={{fontSize: '0.9rem', color: '#666', marginTop: '8px', marginBottom: '12px'}}>Descubra como as Escrituras revelam o cuidado sobrenatural de Deus através de seus mensageiros celestiais.</p>
+                  <div className="meta">📖 <strong>Texto Base:</strong> Salmo 34:7</div>
+                </a>
+              </div>
 
               <div className="grid-3-item">
                 <a href="/antes-ler-comentario-pensar-por-si-mesmo-estudo-biblico" style={{textDecoration: 'none', color: 'inherit'}}>
