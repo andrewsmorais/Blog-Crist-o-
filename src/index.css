@@ -924,3 +924,35 @@ img {
   color: #fff;
 }
 
+/* Responsividade Global para Títulos H1 */
+
+/* Títulos em Desktop (Base) */
+h1, .article-content h1, .privacy-policy-content h1, .hero-main h1 {
+  line-height: 1.2;
+}
+
+/* Títulos em Tablet */
+@media (max-width: 1024px) {
+  h1, .article-content h1, .privacy-policy-content h1, .hero-main h1 {
+    font-size: 2.2rem;
+  }
+}
+
+/* Títulos em Mobile */
+@media (max-width: 768px) {
+  h1, .article-content h1, .privacy-policy-content h1, .hero-main h1 {
+    font-size: 1.8rem; /* Reduzido para melhor leitura em mobile */
+    line-height: 1.3;
+    word-wrap: break-word; /* Quebra palavras longas se necessário */
+  }
+}
+
+/* Títulos em Mobile Pequeno */
+@media (max-width: 480px) {
+  h1, .article-content h1, .privacy-policy-content h1, .hero-main h1 {
+    font-size: 1.5rem; /* Ainda menor para telas muito pequenas */
+    line-height: 1.4;
+  }
+}
+
+
