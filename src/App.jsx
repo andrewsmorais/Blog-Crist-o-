@@ -133,6 +133,7 @@ const allArticlesData = [
   { link: '/ipb-debate-veto-movimento-legendarios-origem-preocupacoes-teologicas', image: '/ipb_legendarios.jpg', tag: 'Notícias', title: 'IPB Debate Veto ao Movimento Legendários' },
   { link: '/seja-seu-sim-sim-verdade-radical-jesus-integridade-juramentos', image: '/sim_sim_nao_nao.jpg', tag: 'Estudos Bíblicos', title: '\'Seja o Seu Sim, Sim\': A Verdade Radical de Jesus sobre Integridade' },
   { link: '/5-sinais-biblicos-presenca-anjos-sua-casa-ministerio-invisivel', image: '/presenca_anjos.jpg', tag: 'Devocionais', title: '5 Sinais Bíblicos da Presença dos Anjos em Sua Casa' },
+  { link: '/voce-esta-no-limite-mas-deus-nao-te-abandonou-forca-na-fraqueza', image: '/forca_na_fraqueza.jpg', tag: 'Devocionais', title: 'Você Está no Limite, Mas Deus Não Te Abandonou' },
 ];
 
 function RelatedArticles({ currentLink, category }) {
@@ -244,7 +245,8 @@ function App() {
   const isEster = path === '/ester-rainha-salvou-povo-deus-age-sombras';
   const isSobre = path === '/sobre';
   const isContato = path === '/contato';
-    const isAnjos = path === '/5-sinais-biblicos-presenca-anjos-sua-casa-ministerio-invisivel';
+      const isForcaNaFraqueza = path === '/voce-esta-no-limite-mas-deus-nao-te-abandonou-forca-na-fraqueza';
+  const isAnjos = path === '/5-sinais-biblicos-presenca-anjos-sua-casa-ministerio-invisivel';
   const isDevocionais = path === '/devocionais';
   const isTrindade = path === '/trindade-um-so-deus-tres-pessoas-estudo-completo';
   const isSantificacao = path === '/santificacao-obra-vida-inteira-estudo';
@@ -1589,7 +1591,148 @@ function App() {
 
             </div>
           </main>
-                ) : isAnjos ? (
+                        ) : isForcaNaFraqueza ? (
+          <main className="article-content section-mb">
+             <Breadcrumb category="Devocionais" categoryLink="/devocionais" title="Força na Fraqueza" />
+             <div className="article-header">
+               <span className="cat-tag">Devocionais</span>
+               <h1>Você Está no Limite, Mas Deus Não Te Abandonou: Encontrando Força na Fraqueza</h1>
+               <div className="article-meta">
+                 📖 <strong>DEVOCIONAIS | Soli Deo Gloria</strong><br/>
+                 <span style={{fontSize: '0.9rem', color: '#666'}}><em>Baseado em conteúdo do YouTube | 25 Jun, 2026</em></span>
+               </div>
+             
+               <ArticleInfo date="25 de Junho de 2026" readingTime={8} />
+              </div>
+             <img src="/forca_na_fraqueza.jpg" alt="O meu poder se aperfeiçoa na fraqueza — 2 Coríntios 12:9" className="article-hero-img" loading="lazy" style={{maxHeight: '450px', width: '100%', objectFit: 'cover', borderRadius: '12px'}} />
+             <div className="article-body">
+               
+               <h2>O Limite Humano e a Graça Divina</h2>
+               <p>Algumas manhãs parecem pesar uma eternidade. O corpo desperta, mas a alma reluta, como se estivesse ancorada em um mar de incertezas e angústias invisíveis.</p>
+               
+               <p>Você abre os olhos e o silêncio do quarto ecoa mais alto do que qualquer palavra que pudesse ser dita naquele momento. Não é cansaço físico — é uma exaustão profunda que nasce nas profundezas do ser.</p>
+               
+               <p>É aquela sensação de que as forças estão se esvaindo como areia escorrendo por entre os dedos. E você não sabe como segurar. O peito aperta com perguntas que parecem não ter respostas: Por que tudo está tão difícil? Quando essa tempestade vai passar?</p>
+               
+               <p>O Salmo 143:7 traduz esse clamor com perfeição: <em>"Responde-me depressa, SENHOR. O meu espírito desfalece. Não escondas de mim o teu rosto, para que eu não seja como os que descem à cova."</em></p>
+               
+               <p>Essa é a voz de alguém que chegou ao limite, que já não encontra recursos em si mesmo para continuar lutando. É a constatação dolorosa de que a nossa força humana tem um fim. E quando esse fim chega, o que nos resta? Resta a fé, por menor que seja, de que não fomos abandonados no meio do caminho.</p>
+
+               <h2>🌑 A Solidão da Dor e a Promessa de Presença</h2>
+               <p>É muito comum, nos dias difíceis, sentirmos que estamos caminhando sozinhos em um deserto. A solidão emocional é um dos fardos mais pesados de carregar.</p>
+               <p>Você pode estar rodeado de pessoas e ainda assim se sentir completamente isolado. A dor tem essa capacidade cruel de nos fechar em nós mesmos, criando muros invisíveis entre nós e o mundo. E nesse isolamento, a voz do desespero tenta nos convencer de que:</p>
+               <ul style={{lineHeight: '1.8', marginBottom: '2rem'}}>
+                 <li>❌ A batalha já está perdida</li>
+                 <li>❌ Não há luz no fim desse túnel escuro e interminável</li>
+                 <li>❌ Você está sozinho</li>
+               </ul>
+               <p>Mas eu quero que você preste muita atenção: essa dor não é o seu destino final. É apenas um capítulo. Uma vírgula na história maravilhosa que o Criador está escrevendo para você.</p>
+               <div className="quote-box">
+                 "Você é importante. A sua vida tem um propósito que vai muito além das dificuldades que você está enfrentando hoje."
+               </div>
+               <p>Não permita que o peso do momento roube a visão do seu futuro. Há um amanhã preparado para você, cheio de promessas e de renovação.</p>
+
+               <h2>🌱 A Semente que Precisa se Romper</h2>
+               <p>Pense por um instante em uma pequena semente que é lançada na terra escura e úmida. Para crescer e se transformar em uma árvore, ela precisa passar por um processo doloroso: romper a própria casca, enfrentar a escuridão do solo e buscar a luz do sol.</p>
+               <p>Esse rompimento não é o fim da semente. É o começo de uma nova vida. Assim também somos nós. Os dias difíceis são como essa terra escura, e a dor que sentimos é a nossa casca se rompendo para que possamos alcançar nosso verdadeiro potencial.</p>
+
+               <h2>💪 "O Meu Poder se Aperfeiçoa na Fraqueza"</h2>
+               <p>É exatamente nesses momentos de maior fragilidade que a força de Deus se manifesta. O apóstolo Paulo revelou um segredo profundo: <em>"A minha graça te basta, porque o meu poder se aperfeiçoa na fraqueza."</em> (2 Coríntios 12:9).</p>
+               <p>Isso significa que:</p>
+               <ul style={{lineHeight: '1.8', marginBottom: '2rem'}}>
+                 <li>✅ Você não precisa ser forte o tempo todo</li>
+                 <li>✅ Você não precisa carregar o mundo nas costas</li>
+                 <li>✅ Você não precisa fingir que está tudo bem quando o seu coração está sangrando</li>
+               </ul>
+               <p>Deus não espera que você seja invencível. Ele espera que você seja sincero e entregue a Ele a sua fraqueza, para que Ele a preencha com Sua força inesgotável.</p>
+
+               <h2>🛠️ Bezalel: Quando Deus Capacita o Comum</h2>
+               <p>Há uma história poderosa sobre um homem chamado Bezalel. Ele não era um rei famoso, nem um guerreiro, nem um profeta. Ele era um artesão comum. Mas a Bíblia diz: <em>"Deus encheu Bezalel com o seu Espírito, dando-lhe habilidade, inteligência e conhecimento..."</em> (Êxodo 31:3).</p>
+               <p>Deus não exigiu que Bezalel fosse extraordinário por si só. Ele capacitou um homem comum para uma obra extraordinária. Da mesma forma, Deus quer capacitar você hoje. Ele conhece as suas limitações e promete: <em>"Eis que estou convosco todos os dias..."</em> (Mateus 28:20). Quando você sente que não pode mais dar um passo, é Ele quem lhe carrega no colo.</p>
+
+               <h2>🌾 Rute: Deus Não Desperdiça o Sofrimento</h2>
+               <p>A história de Rute (viúva, estrangeira e pobre) nos ensina sobre a fidelidade de Deus nos dias sombrios. Ela escolheu confiar, trabalhou nos campos de Boaz, e o seu resgate a levou a se tornar bisavó de Davi e entrar na genealogia de Jesus.</p>
+               <p>Deus não desperdiça o nosso sofrimento. Ele pode transformar as nossas tragédias em testemunhos de vitória. Ele é o Deus das reviravoltas.</p>
+
+               <h2>🎯 Como Receber a Força de Deus nos Dias Difíceis</h2>
+               
+               <ol style={{lineHeight: '1.8', marginBottom: '2rem', paddingLeft: '1.5rem'}}>
+                 <li>
+                   <strong>Reconhecimento</strong><br/>
+                   Reconheça a sua fraqueza e necessidade de Deus. Não esconda as suas cicatrizes; elas são a prova de que você sobreviveu às batalhas anteriores. Use a sua vulnerabilidade como uma ponte para se conectar com o Criador.
+                 </li>
+                 <li style={{marginTop: '1rem'}}>
+                   <strong>Entrega</strong><br/>
+                   <em>"Lançando sobre ele toda a vossa ansiedade, porque ele tem cuidado de vós."</em> (1 Pedro 5:7). Solte o controle e experimente uma paz que excede todo o entendimento.
+                 </li>
+                 <li style={{marginTop: '1rem'}}>
+                   <strong>Perseverança</strong><br/>
+                   A caminhada cristã é uma maratona. A força de Deus se renova a cada manhã. A Sua graça é suficiente para cada dia.
+                 </li>
+               </ol>
+
+               <h2>👗 A Mulher do Fluxo de Sangue: Um Toque de Fé</h2>
+               <p>Lembre-se da mulher que sofreu por 12 anos. Ela havia gastado tudo e estava pior. Mas quando ouviu falar de Jesus, a esperança renasceu. Ela não precisou de uma oração elaborada; apenas tocou na orla de Suas vestes com uma fé simples e profunda, e foi curada.</p>
+               <p>Você também pode tocar em Jesus hoje. Não importa quanto tempo você está sofrendo ou quantas vezes já falhou. Estenda a mão da sua fé.</p>
+
+               <h2>🌊 Seja Como o Rio: Persistência que Vence a Rocha</h2>
+               <p>A verdadeira força não reside na ausência de fraqueza, mas na capacidade de prosseguir apesar dela. Seja como o rio que contorna os obstáculos, esculpindo as pedras. A água parece frágil, mas a sua persistência vence a rocha mais dura. Continue fluindo e avançando.</p>
+
+               <h2>🌅 Hoje É o Dia de Renovar a Esperança</h2>
+               <p>Hoje é o dia de deixar para trás o peso do passado e a ansiedade do futuro. Abrace a vida que Ele lhe deu. A força de Deus é uma realidade tangível que o sustenta quando você não pode mais, o ilumina na escuridão e o acolhe quando o mundo o rejeita.</p>
+
+               <h2>📖 O Clamor do Salmo 143</h2>
+               <p>E quando os dias difíceis chegarem, clame ao Senhor. Ele não se esconderá. Ele estenderá a mão e lhe dará asas como as águias para voar acima das tempestades.</p>
+               <p>A sua história é uma história de vitória, e o melhor de Deus ainda está por vir. <em>"O SENHOR é a minha força e o meu escudo; nele o meu coração confiou e dele recebi ajuda."</em> (Salmo 28:7).</p>
+
+               <h2>🙏 Oração</h2>
+               <blockquote style={{borderLeft: '4px solid #722F37', background: '#fff9f9', padding: '1.5rem', margin: '2rem 0', fontStyle: 'italic'}}>
+                 Senhor Jesus,<br/>
+                 Eu estou no limite. Meu espírito desfalece.<br/>
+                 Mas eu creio que Tu não me abandonaste.<br/>
+                 Enche-me com a Tua força quando a minha fraqueza me vencer.<br/>
+                 Assim como capacitaste Bezalel, capacita-me para a obra que tens para mim.<br/>
+                 Assim como restauraste Rute, restaura a minha história.<br/>
+                 Assim como curaste a mulher do fluxo de sangue, toca-me com a Tua virtude.<br/>
+                 Eu lanço sobre Ti toda a minha ansiedade, porque sei que Tu tens cuidado de mim.<br/>
+                 Renova as minhas forças como as da águia.<br/>
+                 Faz-me voar acima das tempestades.<br/>
+                 Em nome de Jesus, amém.
+               </blockquote>
+
+               <h2>📖 Versículos para Meditação</h2>
+               <div style={{background: '#f8f9fa', borderLeft: '4px solid #0066cc', padding: '1.5rem', borderRadius: '0 8px 8px 0', margin: '2rem 0'}}>
+                 <p><strong>Salmo 143:7</strong> — "Responde-me depressa, SENHOR. O meu espírito desfalece."</p>
+                 <p><strong>2 Coríntios 12:9</strong> — "A minha graça te basta, porque o meu poder se aperfeiçoa na fraqueza."</p>
+                 <p><strong>Êxodo 31:3</strong> — "Deus encheu Bezalel com o seu Espírito, dando-lhe habilidade, inteligência e conhecimento."</p>
+                 <p><strong>1 Pedro 5:7</strong> — "Lançando sobre ele toda a vossa ansiedade, porque ele tem cuidado de vós."</p>
+                 <p><strong>Isaías 40:31</strong> — "Mas os que esperam no SENHOR renovam as suas forças e sobem com asas como águias."</p>
+                 <p><strong>Mateus 11:28</strong> — "Vinde a mim, todos os que estais cansados e oprimidos, e eu vos aliviarei."</p>
+                 <p><strong>Filipenses 4:13</strong> — "Posso todas as coisas naquele que me fortalece."</p>
+                 <p><strong>Salmo 28:7</strong> — "O SENHOR é a minha força e o meu escudo; nele o meu coração confiou."</p>
+               </div>
+
+               <div style={{marginTop: '2rem', padding: '1.5rem', border: '1px solid #eee', borderRadius: '8px', background: '#fcfcfc', fontSize: '0.9rem', color: '#555'}}>
+                 <strong>📺 Fonte e Inspiração:</strong><br/>
+                 Este artigo foi desenvolvido como uma versão escrita e expandida baseada no conteúdo do canal <strong>Fé sem Limites</strong> no YouTube.<br/><br/>
+                 Se você deseja assistir ao vídeo original e complementar seu estudo, confira:<br/>
+                 🔗 <a href="https://www.youtube.com/watch?v=U4IF93NRGu8" target="_blank" rel="noopener noreferrer" style={{color: '#0066cc'}}>Você Está no Limite, Mas Deus Não Te Abandonou</a><br/><br/>
+                 Agradecemos ao canal Fé sem Limites por compartilhar verdades bíblicas tão necessárias para nossos dias.
+               </div>
+
+               <p style={{fontSize: '1.1rem', fontStyle: 'italic', color: '#555', textAlign: 'center', margin: '2rem 0'}}>
+                 "O choro pode durar uma noite, mas a alegria vem pela manhã. E essa manhã vai chegar."
+               </p>
+               
+               <p style={{textAlign: 'center', fontWeight: 'bold', marginTop: '2rem'}}>Soli Deo Gloria. 🙏✨</p>
+
+             </div>
+
+             <ShareBar title="Você Está no Limite, Mas Deus Não Te Abandonou" url="/voce-esta-no-limite-mas-deus-nao-te-abandonou-forca-na-fraqueza" />
+             <RelatedArticles currentLink="/voce-esta-no-limite-mas-deus-nao-te-abandonou-forca-na-fraqueza" category="Devocionais" />
+           </main>
+
+        ) : isAnjos ? (
           <main className="article-content section-mb">
              <Breadcrumb category="Devocionais" categoryLink="/devocionais" title="A Presença dos Anjos" />
              <div className="article-header">
@@ -1757,6 +1900,16 @@ function App() {
               <h2>Devocionais</h2>
             </div>
             <div className="grid-3" style={{marginTop: '2rem'}}>
+
+              <div className="grid-3-item">
+                <a href="/voce-esta-no-limite-mas-deus-nao-te-abandonou-forca-na-fraqueza" style={{textDecoration: 'none', color: 'inherit'}}>
+                  <img src="/forca_na_fraqueza.jpg" alt="Força na Fraqueza" className="img-ph" loading="lazy" style={{objectFit: 'cover', aspectRatio: '16/9'}} />
+                  <span className="cat-tag" style={{display: 'inline-block', marginBottom: '8px', marginTop: '12px'}}>DEVOCIONAIS</span>
+                  <h3 style={{fontSize: '1.1rem', marginBottom: '8px', lineHeight: '1.4'}}>Você Está no Limite, Mas Deus Não Te Abandonou</h3>
+                  <p style={{fontSize: '0.9rem', color: '#666', marginTop: '8px', marginBottom: '12px'}}>Descubra como a graça de Deus se aperfeiçoa exatamente onde você está mais fraco.</p>
+                  <div className="meta">📖 <strong>Texto Base:</strong> 2 Coríntios 12:9</div>
+                </a>
+              </div>
 
               <div className="grid-3-item">
                 <a href="/5-sinais-biblicos-presenca-anjos-sua-casa-ministerio-invisivel" style={{textDecoration: 'none', color: 'inherit'}}>
