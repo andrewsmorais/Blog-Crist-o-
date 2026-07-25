@@ -135,6 +135,7 @@ const allArticlesData = [
   { link: '/5-sinais-biblicos-presenca-anjos-sua-casa-ministerio-invisivel', image: '/presenca_anjos.jpg', tag: 'Devocionais', title: '5 Sinais Bíblicos da Presença dos Anjos em Sua Casa' },
   { link: '/voce-esta-no-limite-mas-deus-nao-te-abandonou-forca-na-fraqueza', image: '/forca_na_fraqueza.jpg', tag: 'Devocionais', title: 'Você Está no Limite, Mas Deus Não Te Abandonou' },
   { link: '/descansando-na-justica-de-deus-nao-precisamos-fazer-vinganca', image: '/descansando_justica.jpg', tag: 'Estudos Bíblicos', title: 'Descansando na Justiça de Deus: Por Que Não Precisamos Fazer Vingança' },
+  { link: '/como-saber-vontade-de-deus-3-principios-praticos', image: '/vontade_de_deus.jpg', tag: 'Estudos Bíblicos', title: 'Como Saber a Vontade de Deus: 3 Princípios Práticos que Ninguém Te Contou' },
 ];
 
 function RelatedArticles({ currentLink, category }) {
@@ -246,7 +247,8 @@ function App() {
   const isEster = path === '/ester-rainha-salvou-povo-deus-age-sombras';
   const isSobre = path === '/sobre';
   const isContato = path === '/contato';
-        const isDescansandoJustica = path === '/descansando-na-justica-de-deus-nao-precisamos-fazer-vinganca';
+          const isVontadeDeus = path === '/como-saber-vontade-de-deus-3-principios-praticos';
+  const isDescansandoJustica = path === '/descansando-na-justica-de-deus-nao-precisamos-fazer-vinganca';
   const isForcaNaFraqueza = path === '/voce-esta-no-limite-mas-deus-nao-te-abandonou-forca-na-fraqueza';
   const isAnjos = path === '/5-sinais-biblicos-presenca-anjos-sua-casa-ministerio-invisivel';
   const isDevocionais = path === '/devocionais';
@@ -701,6 +703,15 @@ function App() {
               <h2>Estudos Bíblicos</h2>
             </div>
             <div className="grid-2" style={{marginTop: '2rem'}}>
+
+              <div className="grid-2-item">
+                <a href="/como-saber-vontade-de-deus-3-principios-praticos" style={{textDecoration: 'none', color: 'inherit'}}>
+                  <img src="/vontade_de_deus.jpg" alt="Vontade de Deus" className="img-ph" loading="lazy" style={{objectFit: 'cover'}} />
+                  <h3 style={{fontSize: '1.1rem', marginBottom: '8px', lineHeight: '1.4'}}>Como Saber a Vontade de Deus: 3 Princípios Práticos</h3>
+                  <p style={{fontSize: '0.9rem', color: '#666', marginTop: '8px'}}>Pare de romantizar e descubra como natureza, oportunidades e necessidades ao seu redor revelam o que Deus tem para você.</p>
+                  <div className="meta">📖 <strong>Texto Base:</strong> Salmo 139:13-14</div>
+                </a>
+              </div>
 
               <div className="grid-2-item">
                 <a href="/descansando-na-justica-de-deus-nao-precisamos-fazer-vinganca" style={{textDecoration: 'none', color: 'inherit'}}>
@@ -1602,7 +1613,157 @@ function App() {
 
             </div>
           </main>
-                                ) : isDescansandoJustica ? (
+                                        ) : isVontadeDeus ? (
+          <main className="article-content section-mb">
+             <Breadcrumb category="Estudos Bíblicos" categoryLink="/estudos-biblicos" title="A Vontade de Deus" />
+             <div className="article-header">
+               <span className="cat-tag">Estudos Bíblicos</span>
+               <h1>Como Saber a Vontade de Deus: 3 Princípios Práticos que Ninguém Te Contou</h1>
+               <div className="article-meta">
+                 📖 <strong>ESTUDOS BÍBLICOS | Soli Deo Gloria</strong><br/>
+                 <span style={{fontSize: '0.9rem', color: '#666'}}><em>Baseado em conteúdo do YouTube | 25 Jun, 2026</em></span>
+               </div>
+             
+               <ArticleInfo date="25 de Junho de 2026" readingTime={10} />
+              </div>
+             <img src="/vontade_de_deus.jpg" alt="Confia no SENHOR de todo o teu coração — Provérbios 3:5" className="article-hero-img" loading="lazy" style={{maxHeight: '450px', width: '100%', objectFit: 'cover', borderRadius: '12px'}} />
+             <div className="article-body">
+               
+               <h2>Qual é a Vontade de Deus para Mim?</h2>
+               <p>Quantas vezes você já fez essa pergunta? Talvez esteja fazendo agora mesmo.</p>
+               
+               <p>Muita gente está ali, fazendo a vontade de Deus, mas com dúvida se isso é realmente o que deveria fazer. Estão frustradas e se perguntam constantemente: <em>"Será que eu tô fazendo a vontade de Deus?"</em> E eu creio que elas não estão entendendo o que, de fato, é a vontade do Senhor.</p>
+               
+               <p>Hoje você vai aprender que saber a vontade de Deus pode ser muito mais simples do que parece. Pare de romantizar e vamos olhar para o que a vida real e as Escrituras nos dizem. A resposta pode ser mais óbvia do que você imagina.</p>
+
+               <h2>🌿 Princípio 1: A Natureza Revela Propósito</h2>
+               
+               <h3>A Natureza Denota Moralidade e Propósito</h3>
+               <p>A nossa natureza — e também a natureza que nos cerca — é a primeira indicação daquilo que é a vontade de Deus para você. O peixe foi feito para a água e a ave foi feita para o ar. Se foi "feito para", foi feito por Alguém: Deus. O modo como nós somos feitos tem tudo a ver com Deus.</p>
+
+               <h3>O Exemplo dos Sidônios</h3>
+               <p>Em 1 Reis 5:6, lemos sobre o rei Salomão contratando os sidônios para cortar madeira: <em>"Porque tu sabes que entre nós ninguém há que saiba cortar madeira como os sidônios."</em></p>
+               <p>Por que os sidônios eram especialistas? Será que eles passaram a vida angustiados perguntando "qual é o nosso propósito espiritual"? Talvez não. Eles simplesmente olharam para a natureza do lugar deles, que era propício para a madeira, e fizeram o melhor com o que tinham em mãos. Eles não criaram o clima favorável, mas aproveitaram a natureza determinada por Deus. Tornaram-se experts e ganharam dinheiro com isso.</p>
+               
+               <h3>Aplicação Prática</h3>
+               <p>Imagine um homem muito pequeno dizendo: <em>"Eu nasci para jogar basquete"</em>. Ou um homem enorme dizendo: <em>"Eu nasci para ser jóquei"</em>. Se ele é grande, não dá para isso. Inúmeras vezes estamos ignorando como Deus nos fez.</p>
+               <p>O jeito que Deus te fez é uma grande dica do que você deve fazer. Negar a sua natureza é negar o modo como Deus o formou. Portanto, ao invés de reclamar (<em>"Gostaria de ter nascido de outro jeito ou em outro lugar"</em>), submeta-se a Deus.</p>
+               <p>Olhe pela janela e diga: <em>"Ali está a minha oportunidade"</em>.</p>
+
+               <h2>🚪 Princípio 2: Oportunidade é Vontade de Deus</h2>
+               
+               <h3>Relação com o Primeiro Princípio</h3>
+               <p>O sidônio via a natureza do local, propícia à produção de madeira, o que providenciava uma oportunidade. Muitos crentes ficam angustiados diante de várias portas: <em>"Ó meu Deus, em qual entrar?"</em> Faça como o apóstolo Paulo: simplesmente entre na porta que estiver aberta! A oportunidade que Deus lhe dá é a vontade de Deus para você.</p>
+               
+               <h3>O Exemplo de Paulo</h3>
+               <p>Paulo disse: <em>"Ficarei, porém, em Éfeso... porque uma porta grande e oportuna para o trabalho se me abriu, e há muitos adversários."</em> (1 Coríntios 16:8-9).</p>
+
+               <h3>Exemplo Prático: Curso de Homeschooling</h3>
+               <p>O Pr. Rodrigo Mocellin criou um curso de homeschooling. Por que ele fez isso? Ele tinha uma paixão estrondosa pelo assunto? Não. Ele simplesmente viu uma oportunidade e uma necessidade. Evangélicos estavam consumindo material que os fazia flertar com o catolicismo, e ele viu ali uma porta aberta. Ele diz: <em>"Eu não gosto de nada. Eu gosto daquilo que Deus me dá."</em> E esse curso virou uma bênção para milhares.</p>
+
+               <h3>Exemplo: A Bicicleta</h3>
+               <p>Sua região pode ser propícia para andar de bicicleta. Se você mora lá, por que não aproveitar? Não adianta passar a vida frustrado dizendo: <em>"Ah, eu queria tanto esquiar na neve"</em> se você nunca terá essa oportunidade onde vive. Olhe pela janela, veja as oportunidades que Deus te deu e passe a gostar delas.</p>
+
+               <h3>Submissão a Deus</h3>
+               <p>Qual é a vontade de Deus?</p>
+               <ul style={{lineHeight: '1.8', marginBottom: '2rem'}}>
+                 <li>✅ A natureza que Ele determinou</li>
+                 <li>✅ As oportunidades que Ele me deu</li>
+               </ul>
+               <p>Rejeitar a natureza e as oportunidades é a raiz de muita frustração. Pessoas que ficam reclamando "quero saber a vontade de Deus" muitas vezes são, na verdade, ingratas e rebeldes contra aquilo que o Senhor já providenciou.</p>
+
+               <h2>🤝 Princípio 3: Necessidade é Chamado</h2>
+               
+               <h3>A Necessidade Como Vontade de Deus</h3>
+               <p>Se você vê alguém passando necessidade e não ajuda, você está pecando. Portanto, a necessidade ao seu redor é o seu chamado! Lembra do rapaz que orou: <em>"Senhor, faz alguma coisa?"</em> E Deus respondeu: <em>"Eu já fiz. Eu fiz você."</em> Pare de romantizar. A necessidade ao seu redor pode ser a exata vontade de Deus para você.</p>
+               
+               <h3>Aplicação ao Comércio</h3>
+               <p>Tem gente que diz: <em>"Estou fazendo bolo, mas não é isso que gosto. Acho que não nasci para isso."</em> A maioria das pessoas que dizem isso parecem piedosas, mas muitas vezes são ingratas. Se mudarem de ramo, provavelmente ficarão insatisfeitas também.</p>
+               <p>Qual é o princípio básico do comércio? Oferecer aquilo que o povo QUER e PRECISA, não aquilo que você quer. Isso é colocar o próximo em primeiro lugar. Se sua família tem tradição em queijo, mas o povo precisa de figo... venda figo!</p>
+               <p>Foque nos OUTROS. Pare de focar em você. Ao invés de gostar de alguma "coisa", goste de PESSOAS e mude quantas vezes for necessário para servi-las.</p>
+
+               <h2>📋 Resumo Prático: Como Saber a Vontade de Deus</h2>
+               <p>Dificilmente Deus vai falar diretamente com você como fez com alguns homens bíblicos. Logo, siga estes 3 passos:</p>
+               <ol style={{lineHeight: '1.8', marginBottom: '2rem', paddingLeft: '1.5rem'}}>
+                 <li>
+                   <strong>Olhe para a Natureza</strong><br/>
+                   Analise a sua constituição, seus talentos e a natureza ao seu redor.
+                 </li>
+                 <li style={{marginTop: '1rem'}}>
+                   <strong>Olhe as Oportunidades</strong><br/>
+                   O que está acontecendo na sua cidade? Quais portas estão abertas hoje?
+                 </li>
+                 <li style={{marginTop: '1rem'}}>
+                   <strong>Olhe as Necessidades</strong><br/>
+                   Foque no que as pessoas precisam. Não estamos aqui para fazer nossa vontade, mas para servir, seja na igreja ou através de uma empresa.
+                 </li>
+               </ol>
+
+               <h2>💡 Não Seja Ingrato</h2>
+               
+               <h3>O Exemplo do Empresário</h3>
+               <p>Um empresário estava chateado: <em>"Ai, nasci para outra coisa..."</em> Mas sua empresa estava indo super bem e o trabalho era lícito. A resposta pastoral foi: <em>"Rapaz, Deus deu essa oportunidade para você. Pare de ser ingrato."</em> Ao mudar de perspectiva e começar a agradecer pela oportunidade, a empresa explodiu.</p>
+
+               <h3>Meu Próprio Exemplo</h3>
+               <p>O Pr. Rodrigo relata que também relutava: <em>"Não nasci para morar no interior"</em>. Ele tentou mudar e não conseguiu. Mas quando passou a ser GRATO com a cidade, a igreja e as oportunidades que tinha, o seu ministério no YouTube explodiu. Tudo porque ele fez o melhor com as oportunidades que Deus havia lhe dado.</p>
+
+               <h2>🎯 Conclusão: Aprenda a Gostar do Que Deus Lhe Dá</h2>
+               <p>Não fique romantizando e esperando sinais mirabolantes. Olhe para a sua natureza, observe as oportunidades abertas e atenda às necessidades ao seu redor. Esses são três bons princípios para você ser próspero e realizado.</p>
+               <p>Aprenda a gostar do que Deus lhe dá. Ao invés de ficar focado em <em>"eu gosto disso, eu gosto daquilo"</em>, diga: <em>"Eu gosto é daquilo que Deus me dá."</em></p>
+
+               <h2>🙏 Oração</h2>
+               <blockquote style={{borderLeft: '4px solid #722F37', background: '#fff9f9', padding: '1.5rem', margin: '2rem 0', fontStyle: 'italic'}}>
+                 Senhor Jesus,<br/>
+                 Obrigado porque Tu me fizeste de um jeito único e especial.<br/>
+                 Obrigado pelas oportunidades que Tu tens colocado no meu caminho.<br/>
+                 Perdoa-me pelas vezes em que fui ingrato com o que me deste.<br/>
+                 Ajuda-me a enxergar a Tua vontade na minha natureza, nas oportunidades e nas necessidades ao meu redor.<br/>
+                 Dá-me gratidão pelo que tenho, ao invés de frustração pelo que não tenho.<br/>
+                 Ensina-me a gostar daquilo que Tu me dás.<br/>
+                 Que eu possa Te servir com alegria onde Tu me colocaste.<br/>
+                 Em nome de Jesus, amém.
+               </blockquote>
+
+               <h2>📖 Versículos para Meditação</h2>
+               <div style={{background: '#f8f9fa', borderLeft: '4px solid #0066cc', padding: '1.5rem', borderRadius: '0 8px 8px 0', margin: '2rem 0'}}>
+                 <p><strong>Salmo 139:13-14</strong> — "Pois tu formaste o meu interior e me teceste no ventre de minha mãe. Graças te dou, visto que por modo assombrosamente maravilhoso me formaste; as tuas obras são admiráveis e a minha alma o sabe muito bem."</p>
+                 <p><strong>1 Coríntios 16:9</strong> — "Porque uma porta grande e oportuna para o trabalho se me abriu, e há muitos adversários."</p>
+                 <p><strong>Efésios 2:10</strong> — "Porque somos feitura sua, criados em Cristo Jesus para boas obras, as quais Deus de antemão preparou para que andássemos nelas."</p>
+                 <p><strong>Tiago 4:15</strong> — "Em vez disso, devíeis dizer: Se o Senhor quiser, não só viveremos como também faremos isto ou aquilo."</p>
+                 <p><strong>1 Tessalonicenses 5:18</strong> — "Em tudo dai graças, porque esta é a vontade de Deus em Cristo Jesus para convosco."</p>
+                 <p><strong>Provérbios 16:9</strong> — "O coração do homem traça o seu caminho, mas o SENHOR lhe dirige os passos."</p>
+               </div>
+
+               <h2>📚 Leituras Recomendadas</h2>
+               <ul style={{lineHeight: '1.8', marginBottom: '2rem'}}>
+                 <li><strong>"A Vontade de Deus"</strong> — G. F. Hawthorne (entendimento bíblico sobre a vontade divina)</li>
+                 <li><strong>"Descobrindo a Vontade de Deus"</strong> — Henry Blackaby (abordagem prática e devocional)</li>
+                 <li><strong>"Propósito Eterno"</strong> — Vários autores (sobre propósito e chamado)</li>
+                 <li><strong>"Gratidão"</strong> — Vários autores (sobre contentamento e gratidão)</li>
+                 <li><strong>"O Chamado"</strong> — Vários autores (sobre chamado e ministério)</li>
+               </ul>
+
+               <div style={{marginTop: '2rem', padding: '1.5rem', border: '1px solid #eee', borderRadius: '8px', background: '#fcfcfc', fontSize: '0.9rem', color: '#555'}}>
+                 <strong>📺 Fonte e Inspiração:</strong><br/>
+                 Este artigo foi desenvolvido como uma versão escrita e expandida baseada no conteúdo do canal <strong>Pastor Rodrigo Mocellin</strong> no YouTube.<br/><br/>
+                 Se você deseja assistir ao vídeo original e complementar seu estudo, confira:<br/>
+                 🔗 <a href="https://www.youtube.com/watch?v=RnwMYLVZ-78" target="_blank" rel="noopener noreferrer" style={{color: '#0066cc'}}>Pare! Você está romantizando isso</a><br/><br/>
+                 Agradecemos ao Pastor Rodrigo Mocellin por compartilhar verdades bíblicas tão necessárias para nossos dias.
+               </div>
+
+               <p style={{fontSize: '1.1rem', fontStyle: 'italic', color: '#555', textAlign: 'center', margin: '2rem 0'}}>
+                 "Aprenda a gostar do que Deus lhe dá. Ao invés de olhar 'eu gosto disso, daquilo', eu gosto é daquilo que Deus me dá."
+               </p>
+               
+               <p style={{textAlign: 'center', fontWeight: 'bold', marginTop: '2rem'}}>Soli Deo Gloria. 🙏✨</p>
+
+             </div>
+
+             <ShareBar title="Como Saber a Vontade de Deus: 3 Princípios Práticos que Ninguém Te Contou" url="/como-saber-vontade-de-deus-3-principios-praticos" />
+             <RelatedArticles currentLink="/como-saber-vontade-de-deus-3-principios-praticos" category="Estudos Bíblicos" />
+           </main>
+
+        ) : isDescansandoJustica ? (
           <main className="article-content section-mb">
              <Breadcrumb category="Estudos Bíblicos" categoryLink="/estudos-biblicos" title="A Justiça de Deus" />
              <div className="article-header">
