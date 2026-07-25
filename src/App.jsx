@@ -134,6 +134,7 @@ const allArticlesData = [
   { link: '/seja-seu-sim-sim-verdade-radical-jesus-integridade-juramentos', image: '/sim_sim_nao_nao.jpg', tag: 'Estudos Bíblicos', title: '\'Seja o Seu Sim, Sim\': A Verdade Radical de Jesus sobre Integridade' },
   { link: '/5-sinais-biblicos-presenca-anjos-sua-casa-ministerio-invisivel', image: '/presenca_anjos.jpg', tag: 'Devocionais', title: '5 Sinais Bíblicos da Presença dos Anjos em Sua Casa' },
   { link: '/voce-esta-no-limite-mas-deus-nao-te-abandonou-forca-na-fraqueza', image: '/forca_na_fraqueza.jpg', tag: 'Devocionais', title: 'Você Está no Limite, Mas Deus Não Te Abandonou' },
+  { link: '/descansando-na-justica-de-deus-nao-precisamos-fazer-vinganca', image: '/descansando_justica.jpg', tag: 'Estudos Bíblicos', title: 'Descansando na Justiça de Deus: Por Que Não Precisamos Fazer Vingança' },
 ];
 
 function RelatedArticles({ currentLink, category }) {
@@ -245,7 +246,8 @@ function App() {
   const isEster = path === '/ester-rainha-salvou-povo-deus-age-sombras';
   const isSobre = path === '/sobre';
   const isContato = path === '/contato';
-      const isForcaNaFraqueza = path === '/voce-esta-no-limite-mas-deus-nao-te-abandonou-forca-na-fraqueza';
+        const isDescansandoJustica = path === '/descansando-na-justica-de-deus-nao-precisamos-fazer-vinganca';
+  const isForcaNaFraqueza = path === '/voce-esta-no-limite-mas-deus-nao-te-abandonou-forca-na-fraqueza';
   const isAnjos = path === '/5-sinais-biblicos-presenca-anjos-sua-casa-ministerio-invisivel';
   const isDevocionais = path === '/devocionais';
   const isTrindade = path === '/trindade-um-so-deus-tres-pessoas-estudo-completo';
@@ -699,6 +701,15 @@ function App() {
               <h2>Estudos Bíblicos</h2>
             </div>
             <div className="grid-2" style={{marginTop: '2rem'}}>
+
+              <div className="grid-2-item">
+                <a href="/descansando-na-justica-de-deus-nao-precisamos-fazer-vinganca" style={{textDecoration: 'none', color: 'inherit'}}>
+                  <img src="/descansando_justica.jpg" alt="Justiça de Deus" className="img-ph" loading="lazy" style={{objectFit: 'cover'}} />
+                  <h3 style={{fontSize: '1.1rem', marginBottom: '8px', lineHeight: '1.4'}}>Descansando na Justiça de Deus: Por Que Não Precisamos Fazer Vingança</h3>
+                  <p style={{fontSize: '0.9rem', color: '#666', marginTop: '8px'}}>Jesus nos chama a trocar a vingança pela confiança na justiça divina — e a viver pela graça, não pelos nossos direitos.</p>
+                  <div className="meta">📖 <strong>Texto Base:</strong> Mateus 5:38-42</div>
+                </a>
+              </div>
 
               <div className="grid-2-item">
                 <a href="/seja-seu-sim-sim-verdade-radical-jesus-integridade-juramentos" style={{textDecoration: 'none', color: 'inherit'}}>
@@ -1591,7 +1602,176 @@ function App() {
 
             </div>
           </main>
-                        ) : isForcaNaFraqueza ? (
+                                ) : isDescansandoJustica ? (
+          <main className="article-content section-mb">
+             <Breadcrumb category="Estudos Bíblicos" categoryLink="/estudos-biblicos" title="A Justiça de Deus" />
+             <div className="article-header">
+               <span className="cat-tag">Estudos Bíblicos</span>
+               <h1>Descansando na Justiça de Deus: Por Que Não Precisamos Fazer Vingança</h1>
+               <div className="article-meta">
+                 📖 <strong>ESTUDOS BÍBLICOS | Soli Deo Gloria</strong><br/>
+                 <span style={{fontSize: '0.9rem', color: '#666'}}><em>Baseado em conteúdo do YouTube | 25 Jun, 2026</em></span>
+               </div>
+             
+               <ArticleInfo date="25 de Junho de 2026" readingTime={10} />
+              </div>
+             <img src="/descansando_justica.jpg" alt="Descansai no SENHOR e esperai nele — Salmo 37:7" className="article-hero-img" loading="lazy" style={{maxHeight: '450px', width: '100%', objectFit: 'cover', borderRadius: '12px'}} />
+             <div className="article-body">
+               
+               <h2>A Vingança Inconsciente do Dia a Dia</h2>
+               <p>Vingança pode parecer um tema muito distante de nós. Afinal, como cristãos, não vivemos constantemente tramando planos mirabolantes de como prejudicar alguém e como nos vingar — eu espero que não!</p>
+               
+               <p>Mas, muitas vezes, nós podemos fazer uma vingança inconsciente no nosso dia a dia:</p>
+               <ul style={{lineHeight: '1.8', marginBottom: '2rem'}}>
+                 <li>❌ Quando um amigo não nos convida para fazer algo, nós também não o convidamos: <em>"Se ele não me convida, eu não convido"</em></li>
+                 <li>❌ Em um conflito dentro de um casamento: <em>"Se ele não vem pedir desculpas, eu também não vou"</em></li>
+                 <li>❌ Na frase clássica: <em>"Eu não levo desaforo para casa"</em></li>
+                 <li>❌ <em>"Eu faço o que eu quero, eu vou tirar quando eu bem entender"</em></li>
+               </ul>
+               
+               <p>Isso não se parece nada com o chamado de Jesus para que a gente dê a outra face. Por mais que vingança possa parecer um assunto distante para você, hoje olharemos com mais profundidade para Mateus 5:38-42, buscando compreender onde podemos melhorar e quais os momentos em que estamos, mesmo sem desejar, buscando vingança.</p>
+
+               <h2>📖 O Contexto: Jesus Dá a Plena Interpretação da Lei</h2>
+               
+               <h3>Texto Fora de Contexto</h3>
+               <p>Esse é um dos textos bíblicos mais usados fora de contexto, especialmente por não cristãos. Muitas pessoas falam sobre "dar a outra face", "olho por olho, dente por dente", justificando fazer justiça com as próprias mãos. Para entendermos corretamente, precisamos lembrar que esse texto segue no contexto do Sermão do Monte, onde Jesus está dando a Sua perfeita e plena interpretação sobre a Lei.</p>
+
+               <h3>A Lei do "Olho por Olho"</h3>
+               <p>O texto sobre as delimitações da vingança aparece em Levítico, Deuteronômio e Êxodo. Essa lei servia para DELIMITAR como a vingança aconteceria, e não era uma normativa que exigia que você fizesse vingança. Ela evitava que uma pessoa ferida praticasse uma vingança ainda maior, garantindo que a retaliação fosse coerente com os danos sofridos.</p>
+               
+               <h3>A Graça Substitui a Retaliação</h3>
+               <p>Jesus nos ensina: <em>"Não faça do seu direito — por mais que ele fosse legítimo — a base das suas relações."</em> Por mais que esse direito exista, não o pratique, porque você recebeu graça; logo, retribua com graça. Jesus nos chama a um novo comportamento.</p>
+
+               <h2>⚖️ "Olho por Olho, Dente por Dente" — Mateus 5:38</h2>
+               
+               <h3>O Padrão de Jesus</h3>
+               <p>Jesus diz: <em>"Vocês ouviram que foi dito: olho por olho, dente por dente."</em> Jesus segue o mesmo padrão de ensinamentos anteriores (sobre juramentos, divórcio). Ele aponta que "foi dito", mas a maneira como as pessoas estavam vivendo essa lei não era a mais excelente.</p>
+
+               <h3>A Nossa Pecaminosidade</h3>
+               <p>Se o vizinho machucasse a sua cabra, você teria direito a retaliar uma cabra. Mas a nossa natureza caída frequentemente nos impulsiona a incendiar a plantação inteira do vizinho! Isso torna evidente a nossa pecaminosidade. Nós não conseguimos fazer justiça dentro de padrões perfeitos. O juízo perfeito somente vem de Deus.</p>
+               
+               <h3>Exemplos Práticos</h3>
+               <div style={{background: '#fcfcfc', padding: '1rem', borderLeft: '3px solid #ccc', margin: '1rem 0'}}>
+                 <strong>💭 Para refletir:</strong> Quantas vezes nos excedemos em argumentos só para provar que temos razão numa briga de trânsito ou no casamento? Basta olhar para a nossa própria vida para perceber o quão difícil é sermos perfeitamente justos.
+               </div>
+
+               <h3>A Graça Substitui a Lei</h3>
+               <p>A lei antiga não era injusta; ela pagava na mesma moeda. Mas com Jesus, essa lei é substituída por uma atitude de graça para aqueles que nos ofendem — uma atitude correspondente àquela que nós mesmos recebemos do Senhor.</p>
+
+               <h2>✋ "Não Resistam ao Perverso" — Mateus 5:39</h2>
+               
+               <h3>O Texto e o Contexto Histórico</h3>
+               <p>Jesus continua: <em>"Mas eu lhes digo: não resistam ao perverso. Se alguém o ferir na face direita, ofereça-lhe também a esquerda."</em></p>
+               <p>Nos tempos de Jesus, um tapa no rosto era um insulto gigantesco. Era extremamente ofensivo, uma agressão para humilhar e demonstrar desprezo. Dar a outra face era praticamente o maior insulto que alguém poderia receber na época.</p>
+
+               <h3>O Chamado de Jesus</h3>
+               <p>O que Jesus pede é radical: se te fizerem esse insulto, NÃO REVIDE. Ofereça o outro lado, mostrando que:</p>
+               <ul style={{lineHeight: '1.8', marginBottom: '2rem'}}>
+                 <li>✅ Não somos iguais ao ofensor</li>
+                 <li>✅ Vivemos com base em outro Reino</li>
+                 <li>✅ Nosso Reino tem um Deus justo, e nele nós descansamos</li>
+               </ul>
+
+               <h3>A Lógica do "Eu Não Levo Desaforo"</h3>
+               <p>Quando dizemos "eu não levo desaforo para casa", não estamos agindo como Deus ensina. Se nos movemos de vingança em vingança:</p>
+               <ul style={{lineHeight: '1.8', marginBottom: '2rem'}}>
+                 <li>❌ Machucamos a nós mesmos mais do que ao ofensor</li>
+                 <li>❌ Gastamos nosso tempo e nossa vida alimentando o orgulho</li>
+                 <li>❌ Nos transformamos em pessoas piores</li>
+               </ul>
+               <p>É melhor ser ferido por fora do que nos ferirmos por dentro e nos afastarmos do que o Senhor nos chama a viver.</p>
+
+               <h2>🎒 "Dê Também a Capa" e "Caminhe Duas Milhas" — Mateus 5:40-42</h2>
+               
+               <h3>Contexto Histórico e de Opressão</h3>
+               <p><em>"E se alguém quiser processá-lo e tirar a sua túnica, deixe que leve também a capa. Se alguém o obrigar a caminhar uma milha, vá com ele duas."</em></p>
+               <p>Este era um contexto de humilhação e opressão romana. Os soldados romanos tinham a prerrogativa de obrigar judeus a realizar tarefas braçais, como aconteceu com Simão Cireneu. Era algo profundamente depreciativo.</p>
+               
+               <h3>A Reação de Graça</h3>
+               <p>A resposta de Jesus é revolucionária: se te mandarem caminhar uma milha, faça ALÉM disso. Isso provará a quem você realmente se submete. Caminhar a segunda milha significa dizer: <em>"Você pode me mandar aqui na terra, mas eu me submito ao meu Senhor, e por causa da graça dEle, reajo com amor."</em> O insulto perde o impacto quando a graça prevalece.</p>
+               
+               <h3>Viver Baseado na Graça, Não nos Direitos</h3>
+               <p>A sociedade diz: <em>"É meu direito, eu faço o que quero"</em>. Jesus diz: NÃO. Você recebeu graça, então viva com base na graça. Precisamos abrir mão de alguns direitos temporais para amarmos nossos agressores e demonstrarmos nossa cidadania celestial.</p>
+
+               <h2>⚠️ Um Alerta Importante: Não Justificar Abuso</h2>
+               <p>É fundamental ressaltar: NÃO use esse texto para justificar a permanência em relações de abuso, onde a vida de alguém está em risco. Este texto trata de humilhações do cotidiano, ofensas menores, brigas por orgulho e do nosso desejo de responder ao mal com o mal. Não podemos usar as Escrituras fora de contexto para justificar o injustificável e permanecer onde estamos em perigo contínuo.</p>
+
+               <h2>🙏 Descansando na Justiça de Deus</h2>
+               
+               <h3>Deus é Nosso Justo Juiz</h3>
+               <p>Nós conseguimos viver de forma não vingativa quando compreendemos que temos um Deus que é o nosso Justo Juiz. Somente assim podemos realmente descansar.</p>
+
+               <h3>Exemplo Prático</h3>
+               <p>Quando recebemos críticas destrutivas ou ofensas na internet — não opiniões contrárias respeitosas, mas ataques pessoais diretos —, a nossa carne tem muita vontade de revidar. Minha carne deseja falar coisas afiadas de volta. MAS, pelo Espírito Santo, lembro que Deus é o meu Justo Juiz.</p>
+               <p>Se a pessoa tenta despejar uma condenação que Deus não me deu, ela está falando para a própria condenação dela. Por isso, abençoar essa pessoa nos protege, e a ofensa perde o poder de penetrar nossa alma.</p>
+               
+               <h3>A Nossa Cidadania Celestial e o Descanso Final</h3>
+               <p>Não retribuir mal com mal, mas vencer o mal com o bem, é provar que não somos daqui. Nossa cidadania é de um governo que transborda amor e justiça. A justiça não precisa acontecer através das nossas mãos. Ela acontecerá pelas mãos do Senhor.</p>
+               <p>Se essa justiça não for vista no momento presente, certamente acontecerá na eternidade. E você pode repousar nisso. Que privilégio dar a outra face sabendo que a justiça perfeita provirá do nosso Deus!</p>
+
+               <h2>💭 Reflexão Final</h2>
+               <p>Esse texto maravilhoso do Sermão do Monte nos ensina que:</p>
+               <ul style={{lineHeight: '1.8', marginBottom: '2rem'}}>
+                 <li>✅ Nós não vivemos com base nos nossos direitos — nós vivemos com base na graça</li>
+                 <li>✅ Nós não fazemos justiça com as próprias mãos — nós descansamos na justiça de Deus</li>
+                 <li>✅ Nós retribuímos mal com bem — não mal com mal</li>
+                 <li>✅ Nós provamos nossa cidadania celestial — ao amar quem nos agride</li>
+                 <li>✅ Nós confiamos no justo Juiz — que vê tudo e julgará com perfeição</li>
+               </ul>
+
+               <h2>🙏 Oração</h2>
+               <blockquote style={{borderLeft: '4px solid #722F37', background: '#fff9f9', padding: '1.5rem', margin: '2rem 0', fontStyle: 'italic'}}>
+                 Senhor Jesus,<br/>
+                 Tu és o nosso justo Juiz.<br/>
+                 Perdoa-nos pelas vezes em que buscamos vingança, em que fizemos justiça com as nossas próprias mãos.<br/>
+                 Ensina-nos a descansar na Tua justiça.<br/>
+                 Dá-nos graça para reagir com graça àqueles que nos ofendem.<br/>
+                 Ajuda-nos a confiar que Tu vês tudo e que Tu julgas com perfeição.<br/>
+                 Que nós não precisemos retribuir mal com mal, mas que possamos retribuir mal com bem.<br/>
+                 Que a nossa cidadania celestial seja evidente em nossas atitudes.<br/>
+                 Em nome de Jesus, amém.
+               </blockquote>
+
+               <h2>📖 Versículos para Meditação</h2>
+               <div style={{background: '#f8f9fa', borderLeft: '4px solid #0066cc', padding: '1.5rem', borderRadius: '0 8px 8px 0', margin: '2rem 0'}}>
+                 <p><strong>Mateus 5:38-39</strong> — "Vocês ouviram que foi dito: 'Olho por olho e dente por dente'. Mas eu lhes digo: não resistam ao perverso."</p>
+                 <p><strong>Mateus 5:44</strong> — "Mas eu lhes digo: amem os seus inimigos e orem por aqueles que os perseguem."</p>
+                 <p><strong>Romanos 12:17-19</strong> — "Não retribuam a ninguém mal por mal... Não se vinguem... mas deixem lugar para a ira de Deus."</p>
+                 <p><strong>1 Tessalonicenses 5:15</strong> — "Vede que ninguém retribua mal por mal, mas segui sempre o bem, uns para com os outros e para com todos."</p>
+                 <p><strong>1 Pedro 2:23</strong> — "Quando insultado, ele não revidava; quando sofria, não ameaçava, mas entregava-se àquele que julga com justiça."</p>
+                 <p><strong>Romanos 12:21</strong> — "Não se deixem vencer pelo mal, mas vençam o mal com o bem."</p>
+               </div>
+
+               <h2>📚 Leituras Recomendadas</h2>
+               <ul style={{lineHeight: '1.8', marginBottom: '2rem'}}>
+                 <li><strong>"O Sermão do Monte"</strong> — John Stott (exposição clássica de Mateus 5-7)</li>
+                 <li><strong>"Perdão: A Chave para a Liberdade"</strong> — Vários autores (sobre perdão e justiça)</li>
+                 <li><strong>"Justiça Divina"</strong> — Vários autores (sobre confiar na justiça de Deus)</li>
+                 <li><strong>"Amem os Seus Inimigos"</strong> — Vários autores (sobre amar quem nos ofende)</li>
+                 <li><strong>"A Graça que Transforma"</strong> — Vários autores (sobre viver pela graça)</li>
+               </ul>
+
+               <div style={{marginTop: '2rem', padding: '1.5rem', border: '1px solid #eee', borderRadius: '8px', background: '#fcfcfc', fontSize: '0.9rem', color: '#555'}}>
+                 <strong>📺 Fonte e Inspiração:</strong><br/>
+                 Este artigo foi desenvolvido como uma versão escrita e expandida baseada no conteúdo do canal <strong>Dani Cadore</strong> no YouTube.<br/><br/>
+                 Se você deseja assistir ao vídeo original e complementar seu estudo, confira:<br/>
+                 🔗 <a href="https://www.youtube.com/watch?v=RnwMYLVZ-78" target="_blank" rel="noopener noreferrer" style={{color: '#0066cc'}}>DESCANSANDO NA JUSTIÇA DE DEUS | estudo bíblico | Sermão do Monte | Mateus 5:38-42</a><br/><br/>
+                 Agradecemos à Dani Cadore por compartilhar verdades bíblicas tão necessárias para nossos dias.
+               </div>
+
+               <p style={{fontSize: '1.1rem', fontStyle: 'italic', color: '#555', textAlign: 'center', margin: '2rem 0'}}>
+                 "Descansar na justiça de Deus é um privilégio. É justamente isso que nos permite não viver em constante busca por vingança."
+               </p>
+               
+               <p style={{textAlign: 'center', fontWeight: 'bold', marginTop: '2rem'}}>Soli Deo Gloria. ✨</p>
+
+             </div>
+
+             <ShareBar title="Descansando na Justiça de Deus: Por Que Não Precisamos Fazer Vingança" url="/descansando-na-justica-de-deus-nao-precisamos-fazer-vinganca" />
+             <RelatedArticles currentLink="/descansando-na-justica-de-deus-nao-precisamos-fazer-vinganca" category="Estudos Bíblicos" />
+           </main>
+
+        ) : isForcaNaFraqueza ? (
           <main className="article-content section-mb">
              <Breadcrumb category="Devocionais" categoryLink="/devocionais" title="Força na Fraqueza" />
              <div className="article-header">
