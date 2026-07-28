@@ -136,6 +136,7 @@ const allArticlesData = [
   { link: '/voce-esta-no-limite-mas-deus-nao-te-abandonou-forca-na-fraqueza', image: '/forca_na_fraqueza.jpg', tag: 'Devocionais', title: 'Você Está no Limite, Mas Deus Não Te Abandonou' },
   { link: '/descansando-na-justica-de-deus-nao-precisamos-fazer-vinganca', image: '/descansando_justica.jpg', tag: 'Estudos Bíblicos', title: 'Descansando na Justiça de Deus: Por Que Não Precisamos Fazer Vingança' },
   { link: '/como-saber-vontade-de-deus-3-principios-praticos', image: '/vontade_de_deus.jpg', tag: 'Estudos Bíblicos', title: 'Como Saber a Vontade de Deus: 3 Princípios Práticos que Ninguém Te Contou' },
+  { link: '/justin-bieber-copa-elogio-ou-ilusao-diferenca-falar-deus-ser-deus', image: '/justin_bieber_copa.jpg', tag: 'Notícias', title: 'Justin Bieber na Copa: Elogio ou Ilusão? A Diferença Entre Falar de Deus e Ser de Deus' },
 ];
 
 function RelatedArticles({ currentLink, category }) {
@@ -247,7 +248,8 @@ function App() {
   const isEster = path === '/ester-rainha-salvou-povo-deus-age-sombras';
   const isSobre = path === '/sobre';
   const isContato = path === '/contato';
-          const isVontadeDeus = path === '/como-saber-vontade-de-deus-3-principios-praticos';
+            const isJustinBieberCopa = path === '/justin-bieber-copa-elogio-ou-ilusao-diferenca-falar-deus-ser-deus';
+  const isVontadeDeus = path === '/como-saber-vontade-de-deus-3-principios-praticos';
   const isDescansandoJustica = path === '/descansando-na-justica-de-deus-nao-precisamos-fazer-vinganca';
   const isForcaNaFraqueza = path === '/voce-esta-no-limite-mas-deus-nao-te-abandonou-forca-na-fraqueza';
   const isAnjos = path === '/5-sinais-biblicos-presenca-anjos-sua-casa-ministerio-invisivel';
@@ -1437,6 +1439,16 @@ function App() {
             <div className="grid-3" style={{marginTop: '2rem'}}>
 
               <div className="grid-3-item">
+                <a href="/justin-bieber-copa-elogio-ou-ilusao-diferenca-falar-deus-ser-deus" style={{textDecoration: 'none', color: 'inherit'}}>
+                  <img src="/justin_bieber_copa.jpg" alt="Justin Bieber na Copa" className="img-ph" loading="lazy" style={{objectFit: 'cover', aspectRatio: '16/9'}} />
+                  <span className="cat-tag" style={{display: 'inline-block', marginBottom: '8px', marginTop: '12px'}}>NOTÍCIAS</span>
+                  <h3 style={{fontSize: '1.1rem', marginBottom: '8px', lineHeight: '1.4'}}>Justin Bieber na Copa: Elogio ou Ilusão? A Diferença Entre Falar de Deus e Ser de Deus</h3>
+                  <p style={{fontSize: '0.9rem', color: '#666', marginTop: '8px', marginBottom: '12px'}}>Análise sobre a performance de Justin Bieber na Copa e a linha tênue entre gratidão genuína e fé cultural.</p>
+                  <div className="meta">📖 <strong>Análise Bíblica:</strong> Discernimento &amp; Fé Cultural</div>
+                </a>
+              </div>
+
+              <div className="grid-3-item">
                 <a href="/ipb-debate-veto-movimento-legendarios-origem-preocupacoes-teologicas" style={{textDecoration: 'none', color: 'inherit'}}>
                   <img src="/ipb_legendarios.jpg" alt="Discernimento à luz das Escrituras" className="img-ph" loading="lazy" style={{objectFit: 'cover', aspectRatio: '16/9'}} />
                   <span className="cat-tag" style={{display: 'inline-block', marginBottom: '8px', marginTop: '12px'}}>NOTÍCIAS</span>
@@ -1613,7 +1625,124 @@ function App() {
 
             </div>
           </main>
-                                        ) : isVontadeDeus ? (
+                                                ) : isJustinBieberCopa ? (
+          <main className="article-content section-mb">
+             <Breadcrumb category="Notícias" categoryLink="/noticias" title="Justin Bieber na Copa" />
+             <div className="article-header">
+               <span className="cat-tag">Notícias</span>
+               <h1>Justin Bieber na Copa: Elogio ou Ilusão? A Diferença Entre Falar de Deus e Ser de Deus</h1>
+               <div className="article-meta">
+                 📖 <strong>NOTÍCIAS | Soli Deo Gloria</strong><br/>
+                 <span style={{fontSize: '0.9rem', color: '#666'}}><em>Baseado em conteúdo do YouTube | 25 Jun, 2026</em></span>
+               </div>
+             
+               <ArticleInfo date="25 de Junho de 2026" readingTime={9} />
+              </div>
+             <img src="/justin_bieber_copa.jpg" alt="Nem todo o que me diz: Senhor, Senhor! entrará no reino dos céus — Mateus 7:21" className="article-hero-img" loading="lazy" style={{maxHeight: '450px', width: '100%', objectFit: 'cover', borderRadius: '12px'}} />
+             <div className="article-body">
+               
+               <h2>A Euforia e a Necessidade de Discernimento</h2>
+               <p>A quantidade de crentes dizendo que Justin Bieber glorificou a Deus na Copa não está escrita. Mas será que foi isso mesmo o que aconteceu? Talvez você tenha sido enganado pelo entusiasmo do momento.</p>
+               
+               <p>Antes de pegar pedras para atirar, vamos analisar com calma e à luz do Evangelho. O que difere uma gratidão superficial de uma fé salvadora e coerente?</p>
+
+               <h2>🎵 A Música "Everything Aleluia"</h2>
+               <p>Na sua apresentação, Justin Bieber cantou a canção <em>"Everything Aleluia"</em>, que traz trechos como: <em>"Estou beijando você, aleluia. Sonho com você, aleluia... Olha, tudo é aleluia, estou amando. Aleluia! Tudo é aleluia."</em></p>
+               <p>O resumo da música é uma mensagem de gratidão: dar graças a Deus por cada aspecto da existência, onde cada detalhe da vida, com gratidão a Deus, se torna gigante. Nesse aspecto isolado, a letra é interessante e não haveria nada a declarar em contrário.</p>
+
+               <h2>⚠️ A Contradição do Álbum: O Problema da Incoerência</h2>
+               
+               <h3>Sweet Spot (Ponto Certo)</h3>
+               <p>O grande problema surge quando olhamos para o contexto da obra. A canção <em>"Everything Aleluia"</em> faz parte do álbum <em>Swag</em>. No mesmo álbum, encontramos a faixa <em>"Sweet Spot"</em>, com uma letra carregada de sensualidade explícita e referências sexuais profanas.</p>
+               <p>Como se não bastasse, a música conta com a participação de uma rapper americana conhecida por músicas com linguagem sexual extremamente explícita. E em suas próprias redes sociais, imagens recentes promovendo sensualidade constrangedora contradizem a mensagem de santidade do Evangelho.</p>
+               
+               <h3>A Linha Tênue da Incoerência</h3>
+               <p>Agradecer a Deus em uma música e cantar sensualidade explícita na faixa seguinte não representa amadurecimento ou liberdade cristã; isso é contradição. É um retrato claro do que chamamos de <strong>fé cultural</strong>.</p>
+
+               <h2>⚽ A Fé dos Famosos e a Religião Utilitária</h2>
+               
+               <h3>O Padrão Comum</h3>
+               <p>O que parece é que Justin Bieber compartilha da mesma fé de muitos artistas, jogadores de futebol e até de anônimos: um "Jesus" que serve apenas para abençoar, proteger e dar vitórias em um mundo perigoso, sem exigir arrependimento ou transformação de vida.</p>
+
+               <h3>O Exemplo no Futebol</h3>
+               <p>Vemos constantemente jogadores que vivem uma rotina completamente anticristã, mas antes de um jogo decisivo publicam versículos bíblicos. Em um stories promovem casas de apostas (Bets) que destroem famílias; no stories seguinte, postam: <em>"Pois o Senhor, meu Deus, luta as minhas guerras"</em>.</p>
+               
+               <h3>Albert Camus e a Criação de Deus</h3>
+               <p>O filósofo ateu Albert Camus escreveu que, sem Deus, a vida não tem propósito. Por isso, dizia ele, as pessoas "criam Deus". Embora Camus falasse de uma perspectiva descrente, há uma verdade nisso: muitas pessoas não querem caminhar sem esperança e sem consolo, então <strong>inventam um Jesus</strong> à sua própria imagem — um Cristo que aceita tudo e não confronta o pecado.</p>
+
+               <h2>👑 O Exemplo de Constantino: Fé Salvadora ou Conveniência?</h2>
+               
+               <h3>A Visão da Ponte Mílvia</h3>
+               <p>O imperador romano Constantino, antes da famosa batalha da Ponte Mílvia, teria tido uma visão da cruz com a mensagem: <em>"Neste sinal, vencerás"</em>. Ele venceu a batalha. Mas será que ele se tornou um cristão genuíno?</p>
+
+               <h3>Qual Tipo de Fé?</h3>
+               <p>Alguns historiadores apontam que ele continuou adorando o Sol Invicto e outros deuses pagãos ao lado de Jesus. Ele provavelmente acreditava em Jesus, mas em um Jesus adaptado e culturalmente aceitável. Era uma fé semelhante à descrita por Tiago: <em>"Crês tu que é um só Deus? Fazes bem. Até os demônios creem e tremem."</em> (Tiago 2:19).</p>
+
+               <h2>💭 Por Que Essas Coisas Acontecem?</h2>
+               
+               <h3>Pastores Falsos ou Falsos Convertidos?</h3>
+               <p>Muitos dizem: <em>"Ah, o problema são os pastores deles"</em>. É verdade que existem maus pastores. Mas o apóstolo Paulo foi o fundador da igreja de Corinto — pregando o Evangelho puro — e ainda assim havia pessoas vivendo em profunda desordem moral ali. O fato mais triste é que <strong>um falso evangelho gera falsos convertidos</strong>.</p>
+
+               <h3>O Lado "Bom" e o Lado Ruim</h3>
+               <p>Por um lado, podemos dizer como Paulo em Filipenses 1:18: de alguma maneira, o nome de Cristo foi proclamado em um evento global (com mensagens como <em>"Jesus é o caminho"</em> visíveis). Mas o lado negativo é terrível: associar o Evangelho de Cristo a um estilo de vida mundano faz com que o nome de Deus seja blasfemado entre os descrentes (Romanos 2:24).</p>
+
+               <h2>🌱 Torcendo pela Conversão Verdadeira</h2>
+               
+               <h3>A Euforia dos Crentes vs. A Realidade</h3>
+               <p>Nós verdadeiramente torcemos e oramos para que Justin Bieber — e qualquer outra pessoa — tenha um encontro real e salvador com Jesus Cristo. A diferença entre o anônimo e o famoso é que os erros e pecado do anônimo não saem nas notícias, enquanto os do famoso são amplificados para milhões.</p>
+               <p>Ainda assim, é difícil acreditar em uma conversão genuína quando se constata uma dualidade tão gritante no mesmo álbum. Que Deus tenha misericórdia e conceda verdadeiro arrependimento.</p>
+
+               <h2>📊 Análise: Fé Verdadeira vs. Fé Cultural</h2>
+               <p>O que podemos aprender com tudo isso para a nossa própria caminhada?</p>
+               <ul style={{lineHeight: '1.8', marginBottom: '2rem'}}>
+                 <li>✅ <strong>Nem tudo que parece cristão é cristão:</strong> Falar "aleluia" ou cantar sobre Deus não é sinônimo de regeneração.</li>
+                 <li>✅ <strong>A contradição revela o coração:</strong> Uma fonte não pode jorrar água doce e água amarga ao mesmo tempo (Tiago 3:11).</li>
+                 <li>✅ <strong>Fé dos demônios vs. Fé salvadora:</strong> Crer nos fatos sobre Deus não basta; é preciso render-se ao Seu Senhorio.</li>
+                 <li>✅ <strong>O perigo do sincretismo:</strong> Tentar somar Jesus com uma vida de pecados de estimação é pura hipocrisia.</li>
+                 <li>✅ <strong>A responsabilidade da influência:</strong> Quem tem visibilidade deve ter um temor ainda maior de não envergonhar o Evangelho.</li>
+               </ul>
+
+               <h2>🙏 Oração por Discernimento</h2>
+               <blockquote style={{borderLeft: '4px solid #722F37', background: '#fff9f9', padding: '1.5rem', margin: '2rem 0', fontStyle: 'italic'}}>
+                 Senhor Jesus,<br/>
+                 Dá-nos discernimento para distinguir entre fé verdadeira e fé cultural.<br/>
+                 Livra-nos da tentação de Te usar como amuleto para vitória.<br/>
+                 Que nossa fé não seja apenas palavras, mas transformação de vida.<br/>
+                 Ora por aqueles que estão confundindo gratidão superficial com conversão genuína.<br/>
+                 Que o Teu nome não seja blasfemado por nossa incoerência.<br/>
+                 Em nome de Jesus, amém.
+               </blockquote>
+
+               <h2>📖 Versículos para Meditação</h2>
+               <div style={{background: '#f8f9fa', borderLeft: '4px solid #0066cc', padding: '1.5rem', borderRadius: '0 8px 8px 0', margin: '2rem 0'}}>
+                 <p><strong>Tiago 2:19</strong> — "Crês tu que é um só Deus? Fazes bem. Até os demônios creem."</p>
+                 <p><strong>Mateus 7:21-23</strong> — "Nem todo o que me diz: Senhor, Senhor! entrará no reino dos céus, mas aquele que faz a vontade de meu Pai, que está nos céus."</p>
+                 <p><strong>Filipenses 1:18</strong> — "Que importa? Desde que Cristo seja anunciado de toda a maneira, quer com fingimento, quer em verdade, nisto me regozijo e me regozijarei ainda."</p>
+                 <p><strong>Romanos 2:24</strong> — "Porque, como está escrito, o nome de Deus é blasfemado entre os gentios por causa de vós."</p>
+                 <p><strong>1 João 2:4</strong> — "Aquele que diz: Eu o conheço e não guarda os seus mandamentos é mentiroso, e nele não está a verdade."</p>
+               </div>
+
+               <div style={{marginTop: '2rem', padding: '1.5rem', border: '1px solid #eee', borderRadius: '8px', background: '#fcfcfc', fontSize: '0.9rem', color: '#555'}}>
+                 <strong>📺 Fonte e Inspiração:</strong><br/>
+                 Este artigo foi desenvolvido como uma versão escrita e expandida baseada no conteúdo do canal <strong>Pastor Rodrigo Mocellin</strong> no YouTube.<br/><br/>
+                 Se você deseja assistir ao vídeo original e complementar seu estudo, confira:<br/>
+                 🔗 <a href="https://www.youtube.com/watch?v=RnwMYLVZ-78" target="_blank" rel="noopener noreferrer" style={{color: '#0066cc'}}>Cristãos elogiaram Justin sem saber isto...</a><br/><br/>
+                 Agradecemos ao Pastor Rodrigo Mocellin por compartilhar verdades bíblicas tão necessárias para nossos dias.
+               </div>
+
+               <p style={{fontSize: '1.1rem', fontStyle: 'italic', color: '#555', textAlign: 'center', margin: '2rem 0'}}>
+                 "Difícil acreditar na conversão de um cara que agradece a Deus num instante e no outro canta uma música de sexo explícito."
+               </p>
+               
+               <p style={{textAlign: 'center', fontWeight: 'bold', marginTop: '2rem'}}>Soli Deo Gloria. ✨</p>
+
+             </div>
+
+             <ShareBar title="Justin Bieber na Copa: Elogio ou Ilusão? A Diferença Entre Falar de Deus e Ser de Deus" url="/justin-bieber-copa-elogio-ou-ilusao-diferenca-falar-deus-ser-deus" />
+             <RelatedArticles currentLink="/justin-bieber-copa-elogio-ou-ilusao-diferenca-falar-deus-ser-deus" category="Notícias" />
+           </main>
+
+        ) : isVontadeDeus ? (
           <main className="article-content section-mb">
              <Breadcrumb category="Estudos Bíblicos" categoryLink="/estudos-biblicos" title="A Vontade de Deus" />
              <div className="article-header">
