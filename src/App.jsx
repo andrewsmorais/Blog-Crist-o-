@@ -139,6 +139,7 @@ const allArticlesData = [
   { link: '/justin-bieber-copa-elogio-ou-ilusao-diferenca-falar-deus-ser-deus', image: '/justin_bieber_copa.jpg', tag: 'Notícias', title: 'Justin Bieber na Copa: Elogio ou Ilusão? A Diferença Entre Falar de Deus e Ser de Deus' },
   { link: '/teologia-prosperidade-vs-miseria-equilibrio-biblico', image: '/prosperidade_vs_miseria.jpg', tag: 'Notícias', title: 'Teologia da Prosperidade vs. Teologia da Miséria: Encontrando o Equilíbrio Bíblico' },
   { link: '/salvacao-nao-se-perde-advertencias-paulo-galatas-5', image: '/salvacao_nao_se_perde.jpg', tag: 'Estudos Bíblicos', title: 'Salvação Não Se Perde: Entendendo as Advertências de Paulo em Gálatas 5' },
+  { link: '/batismo-infantil-certo-confianca-em-cristo-vs-ritual', image: '/batismo_infantil_certo.jpg', tag: 'Estudos Bíblicos', title: 'Batismo Infantil é Certo? A Confiança em Cristo vs. A Confiança no Ritual' },
 ];
 
 function RelatedArticles({ currentLink, category }) {
@@ -250,7 +251,8 @@ function App() {
   const isEster = path === '/ester-rainha-salvou-povo-deus-age-sombras';
   const isSobre = path === '/sobre';
   const isContato = path === '/contato';
-                const isSalvacaoNaoSePerde = path === '/salvacao-nao-se-perde-advertencias-paulo-galatas-5';
+                  const isBatismoInfantilCerto = path === '/batismo-infantil-certo-confianca-em-cristo-vs-ritual';
+  const isSalvacaoNaoSePerde = path === '/salvacao-nao-se-perde-advertencias-paulo-galatas-5';
   const isProsperidadeVsMiseria = path === '/teologia-prosperidade-vs-miseria-equilibrio-biblico';
   const isJustinBieberCopa = path === '/justin-bieber-copa-elogio-ou-ilusao-diferenca-falar-deus-ser-deus';
   const isVontadeDeus = path === '/como-saber-vontade-de-deus-3-principios-praticos';
@@ -709,6 +711,15 @@ function App() {
               <h2>Estudos Bíblicos</h2>
             </div>
             <div className="grid-2" style={{marginTop: '2rem'}}>
+
+              <div className="grid-2-item">
+                <a href="/batismo-infantil-certo-confianca-em-cristo-vs-ritual" style={{textDecoration: 'none', color: 'inherit'}}>
+                  <img src="/batismo_infantil_certo.jpg" alt="Batismo Infantil é Certo?" className="img-ph" loading="lazy" style={{objectFit: 'cover'}} />
+                  <h3 style={{fontSize: '1.1rem', marginBottom: '8px', lineHeight: '1.4'}}>Batismo Infantil é Certo? A Confiança em Cristo vs. A Confiança no Ritual</h3>
+                  <p style={{fontSize: '0.9rem', color: '#666', marginTop: '8px'}}>Uma análise de Gálatas 5 sobre a perigosa tendência de depositar fé em rituais, nascimentos ou tradições, em vez de exclusivamente em Jesus.</p>
+                  <div className="meta">📖 <strong>Análise Teológica:</strong> Sola Fide &amp; Batismo</div>
+                </a>
+              </div>
 
               <div className="grid-2-item">
                 <a href="/salvacao-nao-se-perde-advertencias-paulo-galatas-5" style={{textDecoration: 'none', color: 'inherit'}}>
@@ -1648,7 +1659,128 @@ function App() {
 
             </div>
           </main>
-                                                                ) : isSalvacaoNaoSePerde ? (
+                                                                        ) : isBatismoInfantilCerto ? (
+          <main className="article-content section-mb">
+             <Breadcrumb category="Estudos Bíblicos" categoryLink="/estudos-biblicos" title="Batismo Infantil é Certo?" />
+             <div className="article-header">
+               <span className="cat-tag">Estudos Bíblicos</span>
+               <h1>Batismo Infantil é Certo? A Confiança em Cristo vs. A Confiança no Ritual</h1>
+               <div className="article-meta">
+                 📖 <strong>ESTUDOS BÍBLICOS | Soli Deo Gloria</strong><br/>
+                 <span style={{fontSize: '0.9rem', color: '#666'}}><em>Baseado em conteúdo do YouTube | 25 Jun, 2026</em></span>
+               </div>
+             
+               <ArticleInfo date="25 de Junho de 2026" readingTime={11} />
+              </div>
+             <img src="/batismo_infantil_certo.jpg" alt="Quem crer e for batizado será salvo — Marcos 16:16" className="article-hero-img" loading="lazy" style={{maxHeight: '450px', width: '100%', objectFit: 'cover', borderRadius: '12px'}} />
+             <div className="article-body">
+               
+               <h2>"Não Confie na Carne"</h2>
+               <p>Em Gálatas 5:5-6, o apóstolo Paulo enuncia uma das diretrizes teológicas mais libertadoras e cortantes de todo o Novo Testamento: <em>"Mas nós, pelo Espírito, mediante a fé, aguardamos a justiça, que é nossa esperança. Porque em Cristo Jesus, nem a circuncisão, nem a incircuncisão valem coisa alguma, mas sim a fé que atua pelo amor."</em></p>
+               
+               <p>A linguagem teológica <strong>"não confie na carne"</strong> significa simplesmente: <em>não confie em si mesmo, nas suas obras ou em rituais humanos</em>. O tempo todo, a Escritura declara que nosso maior concorrente não é Baal nem nenhum ídolo de pedra: <strong>somos nós mesmos</strong>. É a nossa tendência caída de buscar segurança salvífica em nós, em nossos pais, na estrutura de uma congregação ou na realização física de cerimônias litúrgicas.</p>
+
+               <h2>🌬️ Aguardar no Espírito vs. Confiar na Carne</h2>
+               
+               <h3>O Contraste Paulino</h3>
+               <p>Paulo confrontou frontalmente os mestres judaizantes que ensinavam a igreja a confiar em rituais da carne (como a circuncisão). Para o apóstolo, confiar na carne e confiar no Espírito são pólos opostos e irreconciliáveis.</p>
+               
+               <h3>Caindo da Graça (Gálatas 1:6)</h3>
+               <p>Logo no início de sua carta, Paulo alerta: <em>"Estou admirado de que estejais vos desviando tão depressa daquele que vos chamou pela graça de Cristo para outro evangelho."</em> O que é a verdadeira graça? É a confiança total e absoluta nos méritos de Cristo, sem qualquer confiança em nós. Afastar-se disso para confiar em cerimônias humanas é cair da graça.</p>
+               
+               <h3>A Verdadeira Circuncisão (Filipenses 3:3)</h3>
+               <p>Os judaizantes afirmavam que o cumprimento do ritual cerimonial era indispensável para a salvação. Paulo retruca: <em>"Porque nós é que somos a circuncisão, nós que cultuamos a Deus no Espírito, e nos gloriamos em Cristo Jesus, e não confiamos na carne."</em> Ninguém é salvo por carregar marca em sua pele ou cumprir protocolo litúrgico, mas exclusivamente pela fé em Jesus.</p>
+
+               <h2>⚔️ As Circunstâncias Impossíveis: Deus Quebrando Nossa Autoconfiança</h2>
+               
+               <h3>O Exemplo de Gideão</h3>
+               <p>Por que Deus mandou Gideão reduzir seu exército de milhares para apenas 300 homens? A Bíblia diz o motivo: para que Israel não se gloriasse dizendo <em>"a minha própria mão me livrou"</em>. Deus esvazia nossas garantias humanas para que a glória seja só dEle.</p>
+               
+               <h3>A Sentença de Morte em 2 Coríntios 1:8-9</h3>
+               <p>O próprio Paulo enfrentou tribulações na Ásia muito acima de suas forças, a ponto de desesperar da vida: <em>"Contudo, em nós mesmos tivemos a sentença de morte, para que não confiassemos em nós, e sim no Deus que ressuscita os mortos."</em> Só experimenta o poder da ressurreição aquele que já aprendeu a estar "morto" para a sua própria autoconfiança.</p>
+               
+               <h3>A Benção de Depender de Deus</h3>
+               <p>Muitas vezes olhamos para circunstâncias difíceis — a perda de um emprego, o orgulho quebrado, uma crise sem saída — como se Deus nos houvesse abandonado. Não! A prosperidade ininterrupta do rico (da parábola do rico e Lázaro) foi sua ruína, pois ele nunca precisou clamar a Deus. As provações são Deus dizendo: <em>"Pare de confiar nas suas forças; Eu sou a sua salvação."</em></p>
+
+               <h2>📜 A Lei: O Espelho da Nossa Incapacidade</h2>
+               <p>Outro instrumento que Deus usa para nos humilhar e mostrar que não podemos confiar na carne é a Lei. A Lei divina exige perfeição absoluta em todos os mandamentos, todos os dias. Quem pode olhar para a Lei e dizer: <em>"Eu posso me salvar"</em>? Ninguém.</p>
+               <p>É por isso que <strong>aguardamos pela fé a justiça</strong>. Nós fomos justificados, mas a plena consumação da nossa justiça — quando seremos livres até da presença do pecado em corpos glorificados — ocorrerá no dia em que Cristo voltar. Até lá, como Paulo afirmou em 1 Timóteo 1:15, somos pecadores salvos unicamente pela misericórdia de Cristo.</p>
+
+               <h2>💧 O Perigo do Ritualismo: Batismo Salva?</h2>
+               
+               <h3>Rituais Não Têm Poder em Si Mesmos</h3>
+               <p>O texto de Gálatas 5:6 parece ter sido escrito hoje de manhã: <em>"em Cristo Jesus nem a circuncisão, nem a incircuncisão valem alguma coisa"</em>. Ainda existem milhões de pessoas — católicos e evangélicos — acreditando que o ritual de água tem poder regenerador em si mesmo.</p>
+
+               <h3>A Visão Católica (Ex Opere Operato)</h3>
+               <p>A teologia católica afirma que os sacramentos operam a regeneração <em>ex opere operato</em> ("pelo próprio ato operado"), ou seja, ao batizar um bebê, ele seria automaticamente regenerado e salvo, independentemente de fé. A refutação empírica é simples: quantos batizados vivem em devassidão e perversidade? A Bíblia garante que o verdadeiro nascido de novo não vive na prática do pecado (1 João 3:9).</p>
+
+               <h3>A Confusão no Meio Reformado e Presbiteriano</h3>
+               <p>Muitos reformados repudiam a ideia católica de que a água regenera, mas subscrevem fórmulas que soam contraditórias. A Confissão de Westminster afirma que o batismo é <em>"selo do pacto da graça, de nossa união com Cristo, da regeneração, da remissão de pecados"</em>. Isso é teologicamente exato <strong>para um adulto que creu</strong>, mas inaplicável a bebês.</p>
+               <p>Se o batismo cela a união com Cristo e regenera, como explicar filhos batizados em igrejas calvinistas que crescem, apostatam da fé e morrem ímpios? Como nós calvinistas cremos na <strong>perseverança dos santos</strong> (que o verdadeiro regenerado jamais perde a salvação), a apostasia dessas pessoas prova uma única coisa: <strong>elas nunca nasceram de novo</strong>, apesar de terem sido batizadas na infância.</p>
+
+               <h3>O Significado Bíblico: Fé Precede Batismo</h3>
+               <ul style={{lineHeight: '1.8', marginBottom: '2rem'}}>
+                 <li>✅ <strong>Romanos 6:4:</strong> O batismo significa sepultamento e ressurreição (a própria palavra grega <em>baptizo</em> significa imergir/mergulhar).</li>
+                 <li>✅ <strong>Atos 8:36-37:</strong> Quando o eunuco perguntou o que o impedia de ser batizado, Filipe respondeu: <em>"É permitido, se crês de todo o coração."</em></li>
+                 <li>✅ <strong>Marcos 16:16:</strong> <em>"Quem crer e for batizado será salvo."</em> A fé <strong>sempre</strong> vem primeiro no Novo Testamento.</li>
+               </ul>
+               <p>Como ensinou o dr. Martyn Lloyd-Jones, no Novo Testamento as pessoas são batizadas porque <strong>já deram evidências da regeneração</strong> mediante a profissão de fé. Não é o batismo que torna alguém crente; o crente é batizado como sinal público de que já crê.</p>
+
+               <h2>✅ Conclusão: A Confiança Exclusiva em Cristo</h2>
+               <p>A grande disputa sobre o batismo e os rituais é, no fundo, uma disputa sobre a <strong>FÉ (Sola Fide)</strong>. Nós somos salvos unicamente pela fé que Deus nos concede — não pelo nosso nascimento biológico, não pela fé dos nossos pais e não pela água de um ritual.</p>
+               <p>Os fariseus acreditavam estar salvos pelo sangue biológico: <em>"Temos por pai a Abraão"</em>. João Batista os advertiu: <em>"Destas pedras Deus pode suscitar filhos a Abraão"</em> (Mateus 3:9). No Antigo Testamento, entrava-se em Israel por nascimento natural; na Igreja da Nova Aliança, entra-se exclusivamente pelo novo nascimento pela fé.</p>
+
+               <h2>🙏 Oração</h2>
+               <blockquote style={{borderLeft: '4px solid #722F37', background: '#fff9f9', padding: '1.5rem', margin: '2rem 0', fontStyle: 'italic'}}>
+                 Senhor Jesus,<br/>
+                 Livra-nos da confiança na carne, nos rituais e em nós mesmos.<br/>
+                 Que a nossa fé esteja firmada exclusivamente em Ti.<br/>
+                 Que não busquemos segurança em cerimônias, mas na Tua obra consumada na cruz.<br/>
+                 Ensina-nos a depender do Teu Espírito em todas as circunstâncias, especialmente nas impossíveis.<br/>
+                 Que possamos aguardar pela fé a justiça que virá, sem confiar em nossas próprias forças.<br/>
+                 Em nome de Jesus, amém.
+               </blockquote>
+
+               <h2>📖 Versículos para Meditação</h2>
+               <div style={{background: '#f8f9fa', borderLeft: '4px solid #0066cc', padding: '1.5rem', borderRadius: '0 8px 8px 0', margin: '2rem 0'}}>
+                 <p><strong>Gálatas 5:5-6</strong> — "Mas nós, pelo Espírito, mediante a fé, aguardamos a justiça, que é nossa esperança. Porque em Cristo Jesus, nem a circuncisão, nem a incircuncisão valem coisa alguma, mas sim a fé que atua pelo amor."</p>
+                 <p><strong>2 Coríntios 1:9</strong> — "Contudo, em nós mesmos tivemos a sentença de morte, para que não confiassemos em nós, e sim no Deus que ressuscita os mortos."</p>
+                 <p><strong>Marcos 16:16</strong> — "Quem crer e for batizado será salvo; quem, porém, não crer será condenado."</p>
+                 <p><strong>Romanos 6:4</strong> — "Fomos, portanto, sepultados com ele pelo batismo na morte, para que, assim como Cristo foi ressuscitado dentre os mortos pela glória do Pai, assim também andemos em novidade de vida."</p>
+                 <p><strong>1 Timóteo 1:15</strong> — "Fiel é a palavra e digna de toda aceitação: que Cristo Jesus veio ao mundo salvar os pecadores, dos quais eu sou o principal."</p>
+                 <p><strong>Mateus 3:9</strong> — "E não penseis que dentro de vós mesmos: Temos por pai a Abraão; porque eu vos digo que mesmo destas pedras Deus pode suscitar filhos a Abraão."</p>
+               </div>
+
+               <h2>📚 Leituras Recomendadas</h2>
+               <ul style={{lineHeight: '1.8', marginBottom: '2rem'}}>
+                 <li><strong>"Gálatas: Comentário Exegético"</strong> — Vários autores (análise profunda de Gálatas 5)</li>
+                 <li><strong>"O Batismo Cristão"</strong> — Vários autores (debate histórico e teológico)</li>
+                 <li><strong>"A Confiança em Cristo"</strong> — Vários autores (sola fide)</li>
+                 <li><strong>"Os Sacramentos"</strong> — Vários autores (visão reformada vs. católica)</li>
+                 <li><strong>"Fé e Rituais"</strong> — Vários autores (distinção entre sinal e realidade)</li>
+               </ul>
+
+               <div style={{marginTop: '2rem', padding: '1.5rem', border: '1px solid #eee', borderRadius: '8px', background: '#fcfcfc', fontSize: '0.9rem', color: '#555'}}>
+                 <strong>📺 Fonte e Inspiração:</strong><br/>
+                 Este artigo foi desenvolvido como uma versão escrita e expandida baseada no conteúdo do canal <strong>Pastor Rodrigo Mocellin</strong> no YouTube.<br/><br/>
+                 Se você deseja assistir ao vídeo original e complementar seu estudo, confira:<br/>
+                 🔗 <a href="https://www.youtube.com/watch?v=-a1epzI4MOE" target="_blank" rel="noopener noreferrer" style={{color: '#0066cc'}}>Batismo infantil é certo?</a><br/><br/>
+                 Agradecemos ao Pastor Rodrigo Mocellin por compartilhar verdades bíblicas tão necessárias para nossos dias.
+               </div>
+
+               <p style={{fontSize: '1.1rem', fontStyle: 'italic', color: '#555', textAlign: 'center', margin: '2rem 0'}}>
+                 "A nossa confiança está exclusivamente em Cristo. Somos salvos exclusivamente pela nossa fé, fé que Ele nos deu, fé em Cristo. Não pela fé dos nossos pais, da igreja, de ninguém, por meio de um ritual ou por termos nascido no lugar certo."
+               </p>
+               
+               <p style={{textAlign: 'center', fontWeight: 'bold', marginTop: '2rem'}}>Soli Deo Gloria. ✨</p>
+
+             </div>
+
+             <ShareBar title="Batismo Infantil é Certo? A Confiança em Cristo vs. A Confiança no Ritual" url="/batismo-infantil-certo-confianca-em-cristo-vs-ritual" />
+             <RelatedArticles currentLink="/batismo-infantil-certo-confianca-em-cristo-vs-ritual" category="Estudos Bíblicos" />
+           </main>
+
+        ) : isSalvacaoNaoSePerde ? (
           <main className="article-content section-mb">
              <Breadcrumb category="Estudos Bíblicos" categoryLink="/estudos-biblicos" title="Salvação Não Se Perde" />
              <div className="article-header">
