@@ -137,6 +137,7 @@ const allArticlesData = [
   { link: '/descansando-na-justica-de-deus-nao-precisamos-fazer-vinganca', image: '/descansando_justica.jpg', tag: 'Estudos Bíblicos', title: 'Descansando na Justiça de Deus: Por Que Não Precisamos Fazer Vingança' },
   { link: '/como-saber-vontade-de-deus-3-principios-praticos', image: '/vontade_de_deus.jpg', tag: 'Estudos Bíblicos', title: 'Como Saber a Vontade de Deus: 3 Princípios Práticos que Ninguém Te Contou' },
   { link: '/justin-bieber-copa-elogio-ou-ilusao-diferenca-falar-deus-ser-deus', image: '/justin_bieber_copa.jpg', tag: 'Notícias', title: 'Justin Bieber na Copa: Elogio ou Ilusão? A Diferença Entre Falar de Deus e Ser de Deus' },
+  { link: '/teologia-prosperidade-vs-miseria-equilibrio-biblico', image: '/prosperidade_vs_miseria.jpg', tag: 'Notícias', title: 'Teologia da Prosperidade vs. Teologia da Miséria: Encontrando o Equilíbrio Bíblico' },
 ];
 
 function RelatedArticles({ currentLink, category }) {
@@ -248,7 +249,8 @@ function App() {
   const isEster = path === '/ester-rainha-salvou-povo-deus-age-sombras';
   const isSobre = path === '/sobre';
   const isContato = path === '/contato';
-            const isJustinBieberCopa = path === '/justin-bieber-copa-elogio-ou-ilusao-diferenca-falar-deus-ser-deus';
+              const isProsperidadeVsMiseria = path === '/teologia-prosperidade-vs-miseria-equilibrio-biblico';
+  const isJustinBieberCopa = path === '/justin-bieber-copa-elogio-ou-ilusao-diferenca-falar-deus-ser-deus';
   const isVontadeDeus = path === '/como-saber-vontade-de-deus-3-principios-praticos';
   const isDescansandoJustica = path === '/descansando-na-justica-de-deus-nao-precisamos-fazer-vinganca';
   const isForcaNaFraqueza = path === '/voce-esta-no-limite-mas-deus-nao-te-abandonou-forca-na-fraqueza';
@@ -1439,6 +1441,16 @@ function App() {
             <div className="grid-3" style={{marginTop: '2rem'}}>
 
               <div className="grid-3-item">
+                <a href="/teologia-prosperidade-vs-miseria-equilibrio-biblico" style={{textDecoration: 'none', color: 'inherit'}}>
+                  <img src="/prosperidade_vs_miseria.jpg" alt="Teologia da Prosperidade vs Teologia da Miséria" className="img-ph" loading="lazy" style={{objectFit: 'cover', aspectRatio: '16/9'}} />
+                  <span className="cat-tag" style={{display: 'inline-block', marginBottom: '8px', marginTop: '12px'}}>NOTÍCIAS</span>
+                  <h3 style={{fontSize: '1.1rem', marginBottom: '8px', lineHeight: '1.4'}}>Teologia da Prosperidade vs. Teologia da Miséria: Encontrando o Equilíbrio Bíblico</h3>
+                  <p style={{fontSize: '0.9rem', color: '#666', marginTop: '8px', marginBottom: '12px'}}>Como combater o erro da prosperidade sem romantizar a pobreza e negar promessas bíblicas de provisão.</p>
+                  <div className="meta">📖 <strong>Análise Teológica:</strong> Provisão &amp; Equilíbrio</div>
+                </a>
+              </div>
+
+              <div className="grid-3-item">
                 <a href="/justin-bieber-copa-elogio-ou-ilusao-diferenca-falar-deus-ser-deus" style={{textDecoration: 'none', color: 'inherit'}}>
                   <img src="/justin_bieber_copa.jpg" alt="Justin Bieber na Copa" className="img-ph" loading="lazy" style={{objectFit: 'cover', aspectRatio: '16/9'}} />
                   <span className="cat-tag" style={{display: 'inline-block', marginBottom: '8px', marginTop: '12px'}}>NOTÍCIAS</span>
@@ -1625,7 +1637,171 @@ function App() {
 
             </div>
           </main>
-                                                ) : isJustinBieberCopa ? (
+                                                        ) : isProsperidadeVsMiseria ? (
+          <main className="article-content section-mb">
+             <Breadcrumb category="Notícias" categoryLink="/noticias" title="Prosperidade vs. Miséria" />
+             <div className="article-header">
+               <span className="cat-tag">Notícias</span>
+               <h1>Teologia da Prosperidade vs. Teologia da Miséria: Encontrando o Equilíbrio Bíblico</h1>
+               <div className="article-meta">
+                 📖 <strong>NOTÍCIAS | Soli Deo Gloria</strong><br/>
+                 <span style={{fontSize: '0.9rem', color: '#666'}}><em>Baseado em conteúdo do YouTube | 25 Jun, 2026</em></span>
+               </div>
+             
+               <ArticleInfo date="25 de Junho de 2026" readingTime={10} />
+              </div>
+             <img src="/prosperidade_vs_miseria.jpg" alt="Buscai primeiro o Reino... e todas estas coisas vos serão acrescentadas — Mateus 6:33" className="article-hero-img" loading="lazy" style={{maxHeight: '450px', width: '100%', objectFit: 'cover', borderRadius: '12px'}} />
+             <div className="article-body">
+               
+               <h2>O Dilema Entre os Dois Extremos</h2>
+               <p>Você que combate a teologia da prosperidade — e nós temos a obrigação bíblica de combatê-la —, como lida com promessas como as de Efésios 6:2-3 (<em>"Honra teu pai e a tua mãe... para que tudo te vá bem e sejas de longa vida sobre a terra"</em>) ou o Salmo 1, que promete que o justo é bem-sucedido em tudo o que faz?</p>
+               
+               <p>Muitos cristãos, tanto reformados quanto pentecostais, caem em um erro reacionário: a <strong>romantização da pobreza</strong> ou "teologia da miséria". Essa ideia não tem origem protestante, mas católica. Combater o erro da prosperidade negando as promessas de provisão que o próprio Deus fez ao Seu povo é cair em um abismo oposto.</p>
+
+               <h2>❌ Por Que a Teologia da Prosperidade é Heresia?</h2>
+               
+               <h3>Heresia por Ênfase, Não por Negação</h3>
+               <p>As heresias tradicionais negavam verdades centrais do Evangelho (como a Trindade, a divindade ou humanidade de Jesus). Já a teologia da prosperidade é perigosa porque ela pega promessas bíblicas reais, distorce o contexto e <strong>só fala disso</strong>.</p>
+
+               <h3>Os Três Erros Principais da Teologia da Prosperidade</h3>
+               <ul style={{lineHeight: '1.8', marginBottom: '2rem'}}>
+                 <li>❌ <strong>Foco exclusivo em dinheiro e contribuição:</strong> Reduz o culto cristão a trocas comerciais com Deus.</li>
+                 <li>❌ <strong>Uso do dinheiro como isca de evangelização:</strong> A ordem do Evangelho aos descrentes é o arrependimento, não promessas de riqueza temporal.</li>
+                 <li>❌ <strong>Ignorar que crentes fiéis sofrem e passam por escassez:</strong> Os apóstolos e homens de fé viveram perseguições e penúria. Achar que todo sofrimento é sinal de pecado oculto ou falta de fé é incorrer no mesmo erro dos amigos de Jó.</li>
+               </ul>
+
+               <h2>⚠️ O Erro Reacionário: Romantizando a Pobreza</h2>
+               
+               <h3>Pastores Reacionários, Não Bíblicos</h3>
+               <p>Com a melhor das intenções para combater os excessos de pregadores como Edir Macedo, muitos pastores se tornaram reacionários antibíblicos. Eles passaram a romantizar a pobreza como se a miséria material fosse, em si, um atestado de santidade.</p>
+               
+               <h3>A Origem Católica da "Teologia da Miséria"</h3>
+               <p>A romantização da pobreza sempre foi marca do monasticismo católico romano, não da Reforma Protestante:</p>
+               <ol style={{lineHeight: '1.8', marginBottom: '2rem', paddingLeft: '1.5rem'}}>
+                 <li>
+                   <strong>Agostinho e a Influência Platônica:</strong> Com seu dualismo platônico, o mundo material e os sentidos eram vistos como essencialmente inferiores ao mundo espiritual, gerando desconfiança sobre a provisão material.
+                 </li>
+                 <li style={{marginTop: '1rem'}}>
+                   <strong>Justificação pelas Obras:</strong> A pobreza voluntária era tida como mérito para salvação. O dinheiro era considerado "sujo" nas mãos dos fiéis, mas "bênção" na mão das ordens monásticas.
+                 </li>
+                 <li style={{marginTop: '1rem'}}>
+                   <strong>Ordens Mendicantes:</strong> Francisco de Assis declarou: <em>"Casei-me com a pobreza"</em>, elevando a mendicância a um status moral superior.
+                 </li>
+               </ol>
+               
+               <h3>Max Weber e a Prosperidade Protestante</h3>
+               <p>O sociólogo Max Weber notou que nações tocadas pela Reforma Protestante prosperaram de forma extraordinária. A ética protestante valorizava o trabalho digno, a honestidade e a boa administração da criação divina. Dizer que "a igreja só é pura quando é miserável e sem influência" seria chamar a Reforma de um movimento maléfico, o que é um absurdo histórico.</p>
+
+               <h2>✅ As Promessas Bíblicas de Provisão</h2>
+               
+               <h3>Verdades que Não Podem Ser Negadas</h3>
+               <p>O fato de falsos mestres abusarem da Bíblia não nos dá o direito de rasgar as páginas que falam sobre a bênção de Deus sobre o trabalho honesto.</p>
+
+               <h3>Promessas do Novo Testamento</h3>
+               <ul style={{lineHeight: '1.8', marginBottom: '2rem'}}>
+                 <li>✅ <strong>Efésios 6:2-3:</strong> <em>"Honra teu pai e tua mãe... para que tudo te vá bem e tenhas vida longa sobre a terra."</em> Muitos pastores entram em pane ao tentar explicar o "tudo te vá bem".</li>
+                 <li>✅ <strong>3 João 1:2:</strong> <em>"Amado, acima de tudo, faço votos por tua prosperidade e saúde, assim como é próspera a tua alma."</em> O apóstolo João desejava progresso material e saúde corporal para Gaio, justamente porque sua alma já era próspera!</li>
+               </ul>
+
+               <h3>Soberania de Deus, Sofrimento e Fé</h3>
+               <p>Deus é soberano. Ele pode permitir aprovações e perdas para moldar nosso caráter e nos aproximar dEle, como fez com Jó. Mas isso é uma exceção pedagógica da providência, não a regra da criação: Deus prometeu suprir o Seu povo e abençoar o fruto do trabalho justo.</p>
+               <p>Sem crer que Deus abençoa e supre, que fé um pai de família teria para abrir um pequeno comércio, ou um jovem para estudar para um concurso público?</p>
+
+               <h2>💰 O Erro de Negar a Prosperidade Bíblica</h2>
+               <p>Há pastores bem assalariados que dizem à sua congregação: <em>"Eu não me importo com o quanto você ganha, só com a sua salvação."</em> Isso soa piedoso, mas não reflete o coração pastoral dos apóstolos, que desejavam o bem-estar integral dos irmãos.</p>
+               <p>Imagine o irmão João, trabalhando duro na lavoura ou no comércio para dar uma vida digna aos filhos. Acusá-lo de "ímpio materialista" por desejar prosperar com honestidade é uma perversidade teológica. Pobreza não é virtude em si. Romantizá-la é atitude de quem vive no conforto ou de quem perdeu a esperança bíblica.</p>
+
+               <h2>🎯 O Equilíbrio Bíblico: A Terceira Via</h2>
+               <p>A nossa esperança em Cristo é eterna, mas Deus cuida de nós também no tempo presente. Eis o equilíbrio prático da Escritura:</p>
+               <ul style={{lineHeight: '1.8', marginBottom: '2rem'}}>
+                 <li>✅ Confie em Deus e viva em obediência à Palavra;</li>
+                 <li>✅ Trabalhe com afinco, excelência e sem preguiça;</li>
+                 <li>✅ Aja com prudência financeira e não gaste em futilidades;</li>
+                 <li>✅ Não busque dinheiro para ostentação ou vaidade;</li>
+                 <li>✅ Confie na provisão sobrenatural do Senhor, sabendo que <em>"aos Seus amados Ele dá enquanto dormem"</em> (Salmo 127:2).</li>
+               </ul>
+
+               <h2>📊 Resumo: Os Três Caminhos</h2>
+               <div style={{overflowX: 'auto', margin: '2rem 0'}}>
+                 <table style={{width: '100%', borderCollapse: 'collapse', textAlign: 'left', fontSize: '0.95rem'}}>
+                   <thead>
+                     <tr style={{background: '#f1f3f5', borderBottom: '2px solid #ddd'}}>
+                       <th style={{padding: '12px'}}>Abordagem</th>
+                       <th style={{padding: '12px'}}>Visão do Dinheiro</th>
+                       <th style={{padding: '12px'}}>Erro Principal</th>
+                     </tr>
+                   </thead>
+                   <tbody>
+                     <tr style={{borderBottom: '1px solid #eee'}}>
+                       <td style={{padding: '12px', fontWeight: 'bold', color: '#c92a2a'}}>❌ Teologia da Prosperidade</td>
+                       <td style={{padding: '12px'}}>Dinheiro como fim e moeda de barganha com Deus.</td>
+                       <td style={{padding: '12px'}}>Ignora o sofrimento, distorce a graça e promove ganância.</td>
+                     </tr>
+                     <tr style={{borderBottom: '1px solid #eee', background: '#fafafa'}}>
+                       <td style={{padding: '12px', fontWeight: 'bold', color: '#e67700'}}>❌ Teologia da Miséria</td>
+                       <td style={{padding: '12px'}}>Dinheiro como mal inerente; pobreza como virtude.</td>
+                       <td style={{padding: '12px'}}>Nega promessas bíblicas de provisão e gera culpa legalista.</td>
+                     </tr>
+                     <tr style={{borderBottom: '1px solid #eee'}}>
+                       <td style={{padding: '12px', fontWeight: 'bold', color: '#2b8a3e'}}>✅ Equilíbrio Bíblico</td>
+                       <td style={{padding: '12px'}}>Dinheiro como bênção e instrumento de mordomia.</td>
+                       <td style={{padding: '12px'}}>Nenhum. Confia na soberania divina, trabalhando com afinco e retidão.</td>
+                     </tr>
+                   </tbody>
+                 </table>
+               </div>
+
+               <h2>🙏 Oração</h2>
+               <blockquote style={{borderLeft: '4px solid #722F37', background: '#fff9f9', padding: '1.5rem', margin: '2rem 0', fontStyle: 'italic'}}>
+                 Senhor Jesus,<br/>
+                 Dá-nos sabedoria para discernir entre a verdade e os extremos.<br/>
+                 Livra-nos da teologia da prosperidade e da teologia da miséria.<br/>
+                 Ajuda-nos a confiar nas Tuas promessas de provisão sem idolatrar o dinheiro.<br/>
+                 Que trabalhemos com afinco, ajamos com sabedoria e confiemos na Tua provisão sobrenatural.<br/>
+                 Que usemos os recursos que nos dás para Tua glória e o bem do próximo.<br/>
+                 Em nome de Jesus, amém.
+               </blockquote>
+
+               <h2>📖 Versículos para Meditação</h2>
+               <div style={{background: '#f8f9fa', borderLeft: '4px solid #0066cc', padding: '1.5rem', borderRadius: '0 8px 8px 0', margin: '2rem 0'}}>
+                 <p><strong>Efésios 6:2-3</strong> — "Honra o teu pai e a tua mãe, para que te vá bem, e tenhas vida longa sobre a terra."</p>
+                 <p><strong>3 João 1:2</strong> — "Amado, acima de tudo, faço votos por tua prosperidade e saúde, assim como é próspera a tua alma."</p>
+                 <p><strong>Salmo 1:3</strong> — "É como árvore plantada junto a corrente de águas, que, no devido tempo, dá o seu fruto, e cuja folhagem não murcha; e tudo quanto ele faz será bem-sucedido."</p>
+                 <p><strong>Filipenses 4:19</strong> — "O meu Deus suprirá todas as necessidades de vocês, de acordo com as suas gloriosas riquezas em Cristo Jesus."</p>
+                 <p><strong>Provérbios 10:22</strong> — "A bênção do SENHOR é que enriquece, e ele não acrescenta dores."</p>
+                 <p><strong>Mateus 6:33</strong> — "Buscai, pois, em primeiro lugar, o seu Reino e a sua justiça, e todas estas coisas vos serão acrescentadas."</p>
+               </div>
+
+               <h2>📚 Leituras Recomendadas</h2>
+               <ul style={{lineHeight: '1.8', marginBottom: '2rem'}}>
+                 <li><strong>"A Teologia da Prosperidade: Uma Análise Bíblica"</strong> — Vários autores (crítica equilibrada)</li>
+                 <li><strong>"Trabalho e Prosperidade na Perspectiva Bíblica"</strong> — Vários autores (visão reformada)</li>
+                 <li><strong>"A Ética Protestante e o Espírito do Capitalismo"</strong> — Max Weber (análise sociológica)</li>
+                 <li><strong>"Mordomia Cristã"</strong> — Vários autores (uso bíblico dos recursos)</li>
+                 <li><strong>"Contentamento e Generosidade"</strong> — Vários autores (equilíbrio bíblico)</li>
+               </ul>
+
+               <div style={{marginTop: '2rem', padding: '1.5rem', border: '1px solid #eee', borderRadius: '8px', background: '#fcfcfc', fontSize: '0.9rem', color: '#555'}}>
+                 <strong>📺 Fonte e Inspiração:</strong><br/>
+                 Este artigo foi desenvolvido como uma versão escrita e expandida baseada no conteúdo do canal <strong>Pastor Rodrigo Mocellin</strong> no YouTube.<br/><br/>
+                 Se você deseja assistir ao vídeo original e complementar seu estudo, confira:<br/>
+                 🔗 <a href="https://www.youtube.com/watch?v=hoBLRegpD8c" target="_blank" rel="noopener noreferrer" style={{color: '#0066cc'}}>Erro de reformados e pentecostais</a><br/><br/>
+                 Agradecemos ao Pastor Rodrigo Mocellin por compartilhar verdades bíblicas tão necessárias para nossos dias.
+               </div>
+
+               <p style={{fontSize: '1.1rem', fontStyle: 'italic', color: '#555', textAlign: 'center', margin: '2rem 0'}}>
+                 "Confie em Deus, trabalhe com afinco, aja com sabedoria e confie na provisão sobrenatural de Deus, porque aos seus amados Deus dá enquanto dormem."
+               </p>
+               
+               <p style={{textAlign: 'center', fontWeight: 'bold', marginTop: '2rem'}}>Soli Deo Gloria. ✨</p>
+
+             </div>
+
+             <ShareBar title="Teologia da Prosperidade vs. Teologia da Miséria: Encontrando o Equilíbrio Bíblico" url="/teologia-prosperidade-vs-miseria-equilibrio-biblico" />
+             <RelatedArticles currentLink="/teologia-prosperidade-vs-miseria-equilibrio-biblico" category="Notícias" />
+           </main>
+
+        ) : isJustinBieberCopa ? (
           <main className="article-content section-mb">
              <Breadcrumb category="Notícias" categoryLink="/noticias" title="Justin Bieber na Copa" />
              <div className="article-header">
