@@ -138,6 +138,7 @@ const allArticlesData = [
   { link: '/como-saber-vontade-de-deus-3-principios-praticos', image: '/vontade_de_deus.jpg', tag: 'Estudos Bíblicos', title: 'Como Saber a Vontade de Deus: 3 Princípios Práticos que Ninguém Te Contou' },
   { link: '/justin-bieber-copa-elogio-ou-ilusao-diferenca-falar-deus-ser-deus', image: '/justin_bieber_copa.jpg', tag: 'Notícias', title: 'Justin Bieber na Copa: Elogio ou Ilusão? A Diferença Entre Falar de Deus e Ser de Deus' },
   { link: '/teologia-prosperidade-vs-miseria-equilibrio-biblico', image: '/prosperidade_vs_miseria.jpg', tag: 'Notícias', title: 'Teologia da Prosperidade vs. Teologia da Miséria: Encontrando o Equilíbrio Bíblico' },
+  { link: '/salvacao-nao-se-perde-advertencias-paulo-galatas-5', image: '/salvacao_nao_se_perde.jpg', tag: 'Estudos Bíblicos', title: 'Salvação Não Se Perde: Entendendo as Advertências de Paulo em Gálatas 5' },
 ];
 
 function RelatedArticles({ currentLink, category }) {
@@ -249,7 +250,8 @@ function App() {
   const isEster = path === '/ester-rainha-salvou-povo-deus-age-sombras';
   const isSobre = path === '/sobre';
   const isContato = path === '/contato';
-              const isProsperidadeVsMiseria = path === '/teologia-prosperidade-vs-miseria-equilibrio-biblico';
+                const isSalvacaoNaoSePerde = path === '/salvacao-nao-se-perde-advertencias-paulo-galatas-5';
+  const isProsperidadeVsMiseria = path === '/teologia-prosperidade-vs-miseria-equilibrio-biblico';
   const isJustinBieberCopa = path === '/justin-bieber-copa-elogio-ou-ilusao-diferenca-falar-deus-ser-deus';
   const isVontadeDeus = path === '/como-saber-vontade-de-deus-3-principios-praticos';
   const isDescansandoJustica = path === '/descansando-na-justica-de-deus-nao-precisamos-fazer-vinganca';
@@ -707,6 +709,15 @@ function App() {
               <h2>Estudos Bíblicos</h2>
             </div>
             <div className="grid-2" style={{marginTop: '2rem'}}>
+
+              <div className="grid-2-item">
+                <a href="/salvacao-nao-se-perde-advertencias-paulo-galatas-5" style={{textDecoration: 'none', color: 'inherit'}}>
+                  <img src="/salvacao_nao_se_perde.jpg" alt="Salvação Não Se Perde" className="img-ph" loading="lazy" style={{objectFit: 'cover'}} />
+                  <h3 style={{fontSize: '1.1rem', marginBottom: '8px', lineHeight: '1.4'}}>Salvação Não Se Perde: Entendendo as Advertências de Paulo em Gálatas 5</h3>
+                  <p style={{fontSize: '0.9rem', color: '#666', marginTop: '8px'}}>Como a doutrina da perseverança dos santos se harmoniza com as severas advertências bíblicas contra a apostasia.</p>
+                  <div className="meta">📖 <strong>Teologia Reformada:</strong> Perseverança &amp; Segurança Eterna</div>
+                </a>
+              </div>
 
               <div className="grid-2-item">
                 <a href="/como-saber-vontade-de-deus-3-principios-praticos" style={{textDecoration: 'none', color: 'inherit'}}>
@@ -1637,7 +1648,165 @@ function App() {
 
             </div>
           </main>
-                                                        ) : isProsperidadeVsMiseria ? (
+                                                                ) : isSalvacaoNaoSePerde ? (
+          <main className="article-content section-mb">
+             <Breadcrumb category="Estudos Bíblicos" categoryLink="/estudos-biblicos" title="Salvação Não Se Perde" />
+             <div className="article-header">
+               <span className="cat-tag">Estudos Bíblicos</span>
+               <h1>Salvação Não Se Perde: Entendendo as Advertências de Paulo em Gálatas 5</h1>
+               <div className="article-meta">
+                 📖 <strong>ESTUDOS BÍBLICOS | Soli Deo Gloria</strong><br/>
+                 <span style={{fontSize: '0.9rem', color: '#666'}}><em>Baseado em conteúdo do YouTube | 25 Jun, 2026</em></span>
+               </div>
+             
+               <ArticleInfo date="25 de Junho de 2026" readingTime={10} />
+              </div>
+             <img src="/salvacao_nao_se_perde.jpg" alt="Aquele que começou boa obra em vós há de completá-la — Filipenses 1:6" className="article-hero-img" loading="lazy" style={{maxHeight: '450px', width: '100%', objectFit: 'cover', borderRadius: '12px'}} />
+             <div className="article-body">
+               
+               <h2>A Corrida Cristã e a Tensão Teológica</h2>
+               <p>Em Gálatas 5:7, o apóstolo Paulo lança uma pergunta que ecoa profundamente na alma de qualquer cristão: <em>"Corríeis bem. Quem vos impediu de obedecer à verdade?"</em></p>
+               
+               <p>Paulo costumava olhar para as corridas romanas e para as maratonas como uma perfeita ilustração da nossa caminhada espiritual e da salvação. Ele diz aos gálatas: <em>"Vocês começaram com ardor, como maratonistas que largam com tudo, mas logo perderam o fôlego e o rumo."</em></p>
+               
+               <p>Ao longo da carta, Paulo faz severas advertências de que se eles continuassem a dar ouvidos aos falsos mestres, estariam decaídos da graça. Mas afinal: <strong>nós podemos perder a nossa salvação?</strong> A resposta bíblica e categórica é: <strong>não</strong>. Como veremos, Deus promete que não perderá nenhum dos Seus, mas Ele utiliza as próprias advertências bíblicas como o <em>meio</em> pelo qual preserva os Seus santos na corrida até o fim.</p>
+
+               <h2>🏃 A Metáfora da Corrida e a Promessa de Deus</h2>
+               
+               <h3>A Promessa e o Caminho</h3>
+               <p>Imagine um pai amoroso e responsável que olha para o seu filho pequeno e garante: <em>"Eu prometo que você vai chegar em segurança à escola."</em> Contudo, ao longo do trajeto, o pai adverte severamente: <em>"Olhe para os dois lados antes de atravessar a rua! Se você correr sem olhar, será atropelado e morrerá."</em></p>
+               
+               <p>A advertência do pai anula a promessa de que o filho chegará ao destino? De modo nenhum! A advertência é precisamente o instrumento, o <strong>meio da graça</strong> pelo qual o pai mantém o filho vigilante para que ele chegue salvo à escola.</p>
+               
+               <h3>A Confiança de Paulo em Gálatas 5:10</h3>
+               <p>É exatamente isso que Paulo faz com a igreja na Galácia. Ele os alerta sobre o perigo fatal dos falsos mestres, mas no versículo 10 ele demonstra sua inabalável confiança na soberania de Deus sobre os verdadeiros crentes: <em>"Quanto a vós, confio no Senhor que não pensareis de outra forma."</em> Paulo sabia que o Senhor capacitaria o verdadeiro rebanho a recuperar o discernimento e perseverar.</p>
+
+               <h2>🛡️ A Doutrina da Perseverança Final dos Santos</h2>
+               
+               <h3>1. A Garantia de Jesus (João 10:28)</h3>
+               <p>Jesus declarou com autoridade absoluta: <em>"Eu lhes dou a vida eterna; jamais perecerão, e ninguém as arrebatará da minha mão."</em> Observe a palavra <strong>ninguém</strong> — isso inclui a sua própria vontade falha!</p>
+               <p>Alguns dizem: <em>"Ah, mas Deus quer que eu fique, porém eu posso decidir sair"</em>. Isso é supor que a vontade humana caída tem mais poder do que o decreto do Todo-Poderoso. Não existe "motivo de força maior" que possa subjugar a vontade de Deus. Quem o Pai deu ao Filho permanecerá seguro até a consumação dos séculos.</p>
+
+               <h3>2. Jesus é Autor e Consumador (João 6:39)</h3>
+               <p>A salvação não é uma obra mista onde Deus começa e nós terminamos com nossa força. Em Hebreus 12:2, Cristo é revelado como <strong>autor e consumador da fé</strong>: Ele gera e mantém a fé nos Seus eleitos.</p>
+               <p>Em João 6:39, Jesus afirma: <em>"E a vontade do que me enviou é esta: que nenhum eu perca de todos os que me deu; pelo contrário, eu o ressuscitarei no último dia."</em> Essa é a vontade soberana do Seu decreto eterno; e Deus no céu faz tudo o que lhe agrada.</p>
+
+               <h3>3. A Certeza de Paulo (Filipenses 1:6)</h3>
+               <p>Paulo expressa essa mesma verdade de forma gloriosa: <em>"Estou plenamente certo de que aquele que começou boa obra em vós há de completá-la até ao Dia de Cristo Jesus."</em> Quem começou a obra não foi você; portanto, quem a completa também não depende de você, mas do poder fidelíssimo do Redentor.</p>
+
+               <h2>🌾 Falsos Crentes: A Parábola do Semeador</h2>
+               <p>Se a salvação não se perde, como explicar pessoas que pareciam crentes ferventes e depois abandonam a fé? A Bíblia é clara ao mostrar que existem <strong>falsos crentes</strong> ou pessoas com convicções superficiais.</p>
+               
+               <h3>Os Solos Sem Raiz</h3>
+               <p>Na Parábola do Semeador, a semente que cai em solo rochoso representa quem recebe a Palavra com alegria e euforia imediata, mas sem raiz profunda; vindo a tribulação, logo se escandaliza. A semente entre espinhos é sufocada pelas seduções e riquezas do mundo. Nunca houve conversão genuína, apenas emoção ou conveniência.</p>
+               
+               <h3>Dons Não São Sinal Inefável de Salvação</h3>
+               <p>Saul chegou a profetizar, mas não era regenerado. Judas Iscariotes andou três anos com Cristo, curou enfermos e expulsou demônios, mas era <em>"o filho da perdição"</em>. Em Mateus 7:21-23, Jesus não dirá aos falsos mestres no juízo: <em>"Vocês perderam a salvação"</em>, mas sim: <strong>"Nunca vos conheci"</strong>.</p>
+               
+               <h3>O Sinal do Crente Verdadeiro: 1 João 2:19</h3>
+               <p>O apóstolo João esclarece definitivamente o fenômeno da apostasia visível: <em>"Saíram do nosso meio, entretanto, não eram dos nossos; porque, se tivessem sido dos nossos, teriam permanecido conosco."</em></p>
+               <p>O crente verdadeiro pode vacilar, cair em pecado temporariamente e sofrer disciplina (como Davi e os próprios Gálatas), mas ele <strong>sempre se arrepende e volta</strong>, porque a semente divina permanece nele.</p>
+
+               <h2>⚠️ Advertência: O Meio da Graça</h2>
+               
+               <h3>O Exemplo de Atos 27</h3>
+               <p>Em Atos 27, durante uma terrível tempestade no mar, Deus revelou a Paulo que <strong>ninguém morreria</strong> na viagem (v. 22). Contudo, momentos depois, quando os marinheiros tentaram fugir do navio em um bote, Paulo advertiu o centurião: <em>"Se estes não permanecerem a bordo, vós não podereis salvar-vos!"</em> (v. 31).</p>
+               <p>Havia contradição entre a promessa soberana e o alerta severo? Nenhuma! O alerta de Paulo foi o meio providencial usado por Deus para que os marinheiros ficassem no barco e a promessa se cumprisse.</p>
+
+               <h3>Segurança com Responsabilidade</h3>
+               <p>As promessas divinas nos dão paz e segurança inabalável nos dias de crise. Já as advertências nos arrancam da letargia, esmagam a presunção e estimulam nosso temor santo de nos mantermos longe do pecado.</p>
+               <p>O crente eleito ouve a advertência bíblica e estremece com reverência, perseverando. O ímpio ouve a mesma advertência e a despreza com soberba: <em>"Estou garantido, posso viver como quiser."</em></p>
+
+               <h2> CONCLUSÃO: O Deus que Exige é o Deus que Capacita</h2>
+               <p>O nosso empenho de lutar contra o pecado, congregar e fugir da apostasia não é uma tentativa carnal de "manter a salvação" por mérito. É, na verdade, a própria evidência e o cumprimento da obra soberana de Deus em nós.</p>
+               <p>O mesmo Pai celestial que faz a exigência — <em>"Aquele que perseverar até o fim será salvo"</em> — é Aquele que concede o dom da fé, do arrependimento e da perseverança aos Seus santos. Ele não apenas nos aponta a linha de chegada; Ele nos sustenta em cada passo da maratona.</p>
+
+               <h2>📊 Resumo: Promessa vs. Advertência</h2>
+               <div style={{overflowX: 'auto', margin: '2rem 0'}}>
+                 <table style={{width: '100%', borderCollapse: 'collapse', textAlign: 'left', fontSize: '0.95rem'}}>
+                   <thead>
+                     <tr style={{background: '#f1f3f5', borderBottom: '2px solid #ddd'}}>
+                       <th style={{padding: '12px'}}>Aspecto</th>
+                       <th style={{padding: '12px'}}>Promessa de Deus</th>
+                       <th style={{padding: '12px'}}>Advertência de Deus</th>
+                     </tr>
+                   </thead>
+                   <tbody>
+                     <tr style={{borderBottom: '1px solid #eee'}}>
+                       <td style={{padding: '12px', fontWeight: 'bold'}}>Função</td>
+                       <td style={{padding: '12px'}}>Dar segurança, consolo e garantia à alma.</td>
+                       <td style={{padding: '12px'}}>Servir como meio providencial de preservação e vigilância.</td>
+                     </tr>
+                     <tr style={{borderBottom: '1px solid #eee', background: '#fafafa'}}>
+                       <td style={{padding: '12px', fontWeight: 'bold'}}>Base Teológica</td>
+                       <td style={{padding: '12px'}}>Vontade de Decreto (Soberania Divina).</td>
+                       <td style={{padding: '12px'}}>Vontade Revelada (Responsabilidade Humana).</td>
+                     </tr>
+                     <tr style={{borderBottom: '1px solid #eee'}}>
+                       <td style={{padding: '12px', fontWeight: 'bold'}}>Resultado no Crente</td>
+                       <td style={{padding: '12px'}}>O eleito descansa e jamais será envergonhado.</td>
+                       <td style={{padding: '12px'}}>O eleito ouve, arrepende-se e persevera no caminho.</td>
+                     </tr>
+                     <tr style={{borderBottom: '1px solid #eee', background: '#fafafa'}}>
+                       <td style={{padding: '12px', fontWeight: 'bold'}}>Exemplo Bíblico</td>
+                       <td style={{padding: '12px'}}><em>"Ninguém as arrebatará da minha mão"</em> (João 10:28)</td>
+                       <td style={{padding: '12px'}}><em>"Se estes não permanecerem a bordo..."</em> (Atos 27:31)</td>
+                     </tr>
+                   </tbody>
+                 </table>
+               </div>
+
+               <h2>🙏 Oração</h2>
+               <blockquote style={{borderLeft: '4px solid #722F37', background: '#fff9f9', padding: '1.5rem', margin: '2rem 0', fontStyle: 'italic'}}>
+                 Senhor Jesus,<br/>
+                 Obrigado pela segurança da salvação que não depende da minha força, mas da Tua graça.<br/>
+                 Ajuda-nos a ouvir as Tuas advertências não com medo de perder a salvação, mas com temor santo para permanecer no caminho.<br/>
+                 Capacita-nos a perseverar, sabendo que és Tu quem começa e quem completa a boa obra em nós.<br/>
+                 Livra-nos da presunção e do desespero.<br/>
+                 Que possamos correr a carreira com paciência, olhando para Ti, autor e consumador da nossa fé.<br/>
+                 Em nome de Jesus, amém.
+               </blockquote>
+
+               <h2>📖 Versículos para Meditação</h2>
+               <div style={{background: '#f8f9fa', borderLeft: '4px solid #0066cc', padding: '1.5rem', borderRadius: '0 8px 8px 0', margin: '2rem 0'}}>
+                 <p><strong>João 10:28-29</strong> — "Eu lhes dou a vida eterna; jamais perecerão, e ninguém as arrebatará da minha mão."</p>
+                 <p><strong>Filipenses 1:6</strong> — "Estou plenamente certo de que aquele que começou boa obra em vós há de completá-la até o dia de Cristo Jesus."</p>
+                 <p><strong>1 João 2:19</strong> — "Saíram do nosso meio, entretanto, não eram dos nossos; porque, se tivessem sido dos nossos, teriam permanecido conosco."</p>
+                 <p><strong>Mateus 7:21-23</strong> — "Nem todo que me diz: Senhor, Senhor! entrará no reino dos céus... Nunca vos conheci."</p>
+                 <p><strong>Atos 27:22, 31</strong> — "Ninguém aqui vai morrer... Se estes permanecerem a bordo, vós não podereis salvar-vos."</p>
+                 <p><strong>Hebreus 12:2</strong> — "Olhando firmemente para Jesus, autor e consumador da fé."</p>
+               </div>
+
+               <h2>📚 Leituras Recomendadas</h2>
+               <ul style={{lineHeight: '1.8', marginBottom: '2rem'}}>
+                 <li><strong>"A Perseverança dos Santos"</strong> — R.C. Sproul (defesa clássica da doutrina)</li>
+                 <li><strong>"Segurança Eterna"</strong> — Vários autores (estudos sobre a garantia da salvação)</li>
+                 <li><strong>"Gálatas: Comentário Exegético"</strong> — Vários autores (análise profunda de Gálatas 5)</li>
+                 <li><strong>"A Soberania de Deus"</strong> — Vários autores (vontade de decreto vs. vontade revelada)</li>
+                 <li><strong>"Verdadeiros Crentes"</strong> — Vários autores (como distinguir fé genuína de falsa)</li>
+               </ul>
+
+               <div style={{marginTop: '2rem', padding: '1.5rem', border: '1px solid #eee', borderRadius: '8px', background: '#fcfcfc', fontSize: '0.9rem', color: '#555'}}>
+                 <strong>📺 Fonte e Inspiração:</strong><br/>
+                 Este artigo foi desenvolvido como uma versão escrita e expandida baseada no conteúdo do canal <strong>Pastor Rodrigo Mocellin</strong> no YouTube.<br/><br/>
+                 Se você deseja assistir ao vídeo original e complementar seu estudo, confira:<br/>
+                 🔗 <a href="https://www.youtube.com/@PastorRodrigoMocellin" target="_blank" rel="noopener noreferrer" style={{color: '#0066cc'}}>Salvação não se perde</a><br/><br/>
+                 Agradecemos ao Pastor Rodrigo Mocellin por compartilhar verdades bíblicas tão necessárias para nossos dias.
+               </div>
+
+               <p style={{fontSize: '1.1rem', fontStyle: 'italic', color: '#555', textAlign: 'center', margin: '2rem 0'}}>
+                 "O mesmo Deus que faz a exigência 'tem que perseverar até o fim', Ele também capacita o seu povo a cumprir a exigência, a perseverar."
+               </p>
+               
+               <p style={{textAlign: 'center', fontWeight: 'bold', marginTop: '2rem'}}>Soli Deo Gloria. ✨</p>
+
+             </div>
+
+             <ShareBar title="Salvação Não Se Perde: Entendendo as Advertências de Paulo em Gálatas 5" url="/salvacao-nao-se-perde-advertencias-paulo-galatas-5" />
+             <RelatedArticles currentLink="/salvacao-nao-se-perde-advertencias-paulo-galatas-5" category="Estudos Bíblicos" />
+           </main>
+
+        ) : isProsperidadeVsMiseria ? (
           <main className="article-content section-mb">
              <Breadcrumb category="Notícias" categoryLink="/noticias" title="Prosperidade vs. Miséria" />
              <div className="article-header">
