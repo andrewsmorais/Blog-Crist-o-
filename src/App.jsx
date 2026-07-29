@@ -140,6 +140,7 @@ const allArticlesData = [
   { link: '/teologia-prosperidade-vs-miseria-equilibrio-biblico', image: '/prosperidade_vs_miseria.jpg', tag: 'Notícias', title: 'Teologia da Prosperidade vs. Teologia da Miséria: Encontrando o Equilíbrio Bíblico' },
   { link: '/salvacao-nao-se-perde-advertencias-paulo-galatas-5', image: '/salvacao_nao_se_perde.jpg', tag: 'Estudos Bíblicos', title: 'Salvação Não Se Perde: Entendendo as Advertências de Paulo em Gálatas 5' },
   { link: '/batismo-infantil-certo-confianca-em-cristo-vs-ritual', image: '/batismo_infantil_certo.jpg', tag: 'Estudos Bíblicos', title: 'Batismo Infantil é Certo? A Confiança em Cristo vs. A Confiança no Ritual' },
+  { link: '/do-berco-cristao-ao-encontro-pessoal-jornada-lara-santana-jesus', image: '/lara_santana_jesus.jpg', tag: 'Testemunhos', title: 'Do Berço Cristão ao Encontro Pessoal: A Jornada de Lara Santana com Jesus' },
 ];
 
 function RelatedArticles({ currentLink, category }) {
@@ -251,7 +252,8 @@ function App() {
   const isEster = path === '/ester-rainha-salvou-povo-deus-age-sombras';
   const isSobre = path === '/sobre';
   const isContato = path === '/contato';
-                  const isBatismoInfantilCerto = path === '/batismo-infantil-certo-confianca-em-cristo-vs-ritual';
+                    const isLaraSantanaJesus = path === '/do-berco-cristao-ao-encontro-pessoal-jornada-lara-santana-jesus';
+  const isBatismoInfantilCerto = path === '/batismo-infantil-certo-confianca-em-cristo-vs-ritual';
   const isSalvacaoNaoSePerde = path === '/salvacao-nao-se-perde-advertencias-paulo-galatas-5';
   const isProsperidadeVsMiseria = path === '/teologia-prosperidade-vs-miseria-equilibrio-biblico';
   const isJustinBieberCopa = path === '/justin-bieber-copa-elogio-ou-ilusao-diferenca-falar-deus-ser-deus';
@@ -1574,6 +1576,16 @@ function App() {
               <h2>Testemunhos</h2>
             </div>
             <div className="grid-3" style={{marginTop: '2rem'}}>
+
+              <div className="grid-3-item">
+                <a href="/do-berco-cristao-ao-encontro-pessoal-jornada-lara-santana-jesus" style={{textDecoration: 'none', color: 'inherit'}}>
+                  <img src="/lara_santana_jesus.jpg" alt="A Jornada de Lara Santana com Jesus" className="img-ph" loading="lazy" style={{objectFit: 'cover', aspectRatio: '16/9'}} />
+                  <span className="cat-tag" style={{display: 'inline-block', marginBottom: '8px', marginTop: '12px'}}>TESTEMUNHOS</span>
+                  <h3 style={{fontSize: '1.1rem', marginBottom: '8px', lineHeight: '1.4'}}>Do Berço Cristão ao Encontro Pessoal: A Jornada de Lara Santana com Jesus</h3>
+                  <p style={{fontSize: '0.9rem', color: '#666', marginTop: '8px', marginBottom: '12px'}}>Como uma jovem criada na igreja descobriu que o verdadeiro encontro com Deus acontece no quarto, às 6h da manhã.</p>
+                  <div className="meta">📖 <strong>Testemunho:</strong> Vida de Oração &amp; Constância</div>
+                </a>
+              </div>
               
 
               <div className="grid-3-item">
@@ -1659,7 +1671,164 @@ function App() {
 
             </div>
           </main>
-                                                                        ) : isBatismoInfantilCerto ? (
+                                                                                ) : isLaraSantanaJesus ? (
+          <main className="article-content section-mb">
+             <Breadcrumb category="Testemunhos" categoryLink="/testemunhos" title="Jornada de Lara Santana" />
+             <div className="article-header">
+               <span className="cat-tag">Testemunhos</span>
+               <h1>Do Berço Cristão ao Encontro Pessoal: A Jornada de Lara Santana com Jesus</h1>
+               <div className="article-meta">
+                 📖 <strong>TESTEMUNHOS | Soli Deo Gloria</strong><br/>
+                 <span style={{fontSize: '0.9rem', color: '#666'}}><em>Baseado em conteúdo do YouTube | 25 Jun, 2026</em></span>
+               </div>
+             
+               <ArticleInfo date="25 de Junho de 2026" readingTime={10} />
+              </div>
+             <img src="/lara_santana_jesus.jpg" alt="Mas quando você orar, vá para seu quarto — Mateus 6:6" className="article-hero-img" loading="lazy" style={{maxHeight: '450px', width: '100%', objectFit: 'cover', borderRadius: '12px'}} />
+             <div className="article-body">
+               
+               <h2>"As maiores experiências que eu já tive com Deus foram no meu quarto"</h2>
+               <p>Quando <strong>Lara Santana</strong> fala sobre o seu encontro pessoal com Jesus, ela não descreve uma conversão dramática de resgate do mundo do crime ou de vícios extremos. Em vez disso, ela testemunha algo extremamente belo e profundo: uma jornada progressiva de fé e intimidade construída no secreto, na constância diária e na perseverança.</p>
+               
+               <p>Nascida na Primeira Igreja Presbiteriana de Vitória (ES), sob o abençoado pastorado do Rev. Hernandes Dias Lopes, Lara cresceu em um lar genuinamente cristão onde o estudo da Bíblia, a reverência teológica e a leitura da Palavra eram altamente valorizados. No entanto, mesmo criada dentro de uma família cristã admirável, ela precisou viver o seu <em>próprio</em> encontro e relacionamento pessoal com Deus.</p>
+
+               <h2>🏰 Da Igreja Tradicional à Renovada</h2>
+               <p>A trajetória congregacional de Lara passou por três fases ricas e formativas em sua espiritualidade:</p>
+               <ul style={{lineHeight: '1.8', marginBottom: '2rem'}}>
+                 <li><strong>Primeira Fase (Igreja Presbiteriana):</strong> Cresceu em um ambiente reformado tradicional, com alta valorização da Bíblia e do estudo. Embora tenha "aceitado a Jesus" ainda criança, sentia que precisava compreender de maneira mais plena e experimental essa salvação.</li>
+                 <li><strong>Segunda Fase (Igreja Pentecostal):</strong> Viveu uma transição cultural significativa. Confessa que no início achou o ambiente <em>"muito diferente, muito estranho"</em>, passando pelo choque cultural típico de quem migra de um formato litúrgico sóbrio para o fervor pentecostal.</li>
+                 <li><strong>Terceira Fase (Igreja Renovada - desde 2015):</strong> Encontrou o que define como um "mix" equilibrado, que une o amor profundo e reverente pela Palavra à intensidade de uma vida diária de oração e devoção no Espírito Santo. <em>"Sou muito apaixonada pela minha igreja hoje"</em>, conta.</li>
+               </ul>
+
+               <h2>🌅 O Encontro Real: Adolescência e a Convicção no Espírito</h2>
+               <p>Foi durante a adolescência que Lara experimentou suas primeiras vivências espirituais transformadoras com a Pessoa do Espírito Santo. Esses momentos geraram nela uma certeza que nenhum argumento cético poderia abalar:</p>
+               <p style={{fontSize: '1.1rem', fontStyle: 'italic', color: '#555', margin: '1.5rem 0'}}>
+                 "Caraca, hoje eu não consigo falar que Deus não é real. Não tem como depois do que eu tô vivendo na minha vida."
+               </p>
+               <p>Porém, o que verdadeiramente consolidou essa convicção não foi a euforia dos encontros de jovens, mas o desenvolvimento diário e inegociável de uma disciplina prática: o <strong>TSD (Tempo Só Deus)</strong>.</p>
+
+               <h2>📖 TSD: Tempo Só Deus — A Chave da Transformação</h2>
+               
+               <h3>O Que é o TSD?</h3>
+               <p>Na comunidade em que congrega desde 2015, o <strong>TSD (Tempo Só Deus)</strong> é um pilar da vida cristã. Trata-se de um tempo diário, inegociável e tratado como prioridade absoluta para a leitura das Escrituras e oração.</p>
+
+               <h3>O Secreto é o Lugar do Poder</h3>
+               <p>Lara aprendeu que a intimidade duradoura não se firma diante dos holofotes, mas a portas fechadas:</p>
+               <p style={{fontStyle: 'italic', background: '#fcfcfc', borderLeft: '3px solid #722F37', padding: '1rem', margin: '1.5rem 0'}}>
+                 "As maiores experiências que eu já tive com Deus foram no meu quarto. É muito maneiro, né? Só que a forma como Deus fala com a gente no secreto, quando você tá ali..."
+               </p>
+               <ul style={{lineHeight: '1.8', marginBottom: '2rem'}}>
+                 <li>✅ Tem dia que Deus não vai falar nada visível;</li>
+                 <li>✅ Tem dia que você fecha a Bíblia e mal se lembra dos detalhes que leu;</li>
+                 <li>✅ <strong>Mas o simples fato de você estar ali, dia após dia, constrói relacionamento e molda o seu coração.</strong></li>
+               </ul>
+
+               <h2>⏰ Terça-Feira, 6h da Manhã</h2>
+               <p>Muitas pessoas condicionam seu fervor a eventos espetaculares ou conferências anuais. Para Lara, no entanto, as experiências espirituais mais marcantes e duradouras aconteceram na rotina comum: <strong>numa terça-feira, às 6 horas da manhã, no seu quarto</strong>, em silêncio, oração e meditação na Palavra.</p>
+               <p><em>"Os encontros mais marcantes que eu já tive com Deus assim foram no meu quarto, depois que eu comecei a desenvolver esse hábito de leitura da Palavra e de oração"</em>, testifica ela.</p>
+
+               <h2>🌿 O Princípio Bíblico do Permanecer</h2>
+               <p>Durante a conversa, o pastor Douglas Gonçalves (do <em>JesusCopy</em>) fez uma observação pastoral profunda: <em>"Existe um prêmio do Senhor para a constância. Existe uma recompensa de Deus no permanecer."</em></p>
+               <p>Em João 15, Jesus reitera essa ordem fundamental aos Seus discípulos: <em>"Permaneçam em mim"</em>, <em>"Se as minhas palavras permanecerem em vocês"</em>, <em>"Permaneçam no meu amor"</em>. A vitória da vida cristã não reside no ímpeto inicial, mas no permanecer constante.</p>
+
+               <h3>A Lição de Tomé e a "Célula"</h3>
+               <p>Com leveza, o pastor brincou sobre o apóstolo Tomé, que esteve ausente quando o Jesus ressuscitado apareceu pela primeira vez no cenáculo: <em>"Faltou na célula nesse dia! [risadas] A galera ficou assistindo jogo e aí os caras mandaram mensagem: 'Você não vai acreditar quem veio!'"</em> Brincadeiras à parte, a lição é preciosa: Deus nos visita na constância de estarmos onde devemos estar.</p>
+
+               <h2>💎 O Testemunho "Ex-Nada": A Beleza do Legado</h2>
+               <p>Muitas vezes, jovens criados na igreja sentem que seus testemunhos "não são impactantes" por não terem um passado de destruição. O pastor Douglas desmistificou esse pensamento:</p>
+               <p style={{fontStyle: 'italic', background: '#fcfcfc', borderLeft: '3px solid #0066cc', padding: '1rem', margin: '1.5rem 0'}}>
+                 "Esse é o testemunho mais lindo, porque tem a ver com uma família que está passando um legado. Poxa, eu quero muito que meus filhos tenham esse testemunho: de serem 'ex-nada' nesse sentido. De se entenderem como pecadores desesperados que precisam de Jesus como todos os outros, mas que não precisaram se afundar no pecado para O encontrarem. Encontraram ali, em casa, na igreja local."
+               </p>
+               <p>Esse tipo de testemunho revela a força da graça pactual e confere uma solidez extraordinária à caminhada cristã.</p>
+
+               <h2>🔥 Quando a Constância Encontra a Experiência</h2>
+               <p>Lara compartilhou uma descoberta fundamental sobre as disciplinas espirituais: <em>"Quando você desenvolve um hábito de oração e de leitura da Bíblia, você aprende a permanecer quando nada está acontecendo."</em></p>
+               
+               <h3>A Semente Silenciosa de Provérbios</h3>
+               <p>Ela lembrou de certa ocasião lendo o livro de Provérbios: ao ler um versículo sobre sabedoria no seu TSD da manhã, aparentemente "nada mudou" de forma imediata ou dramática. Porém, dias depois, durante uma conversa desafiadora com uma amiga não cristã, o Espírito Santo trouxe exatamente aquele versículo à sua memória: <em>"Eu lembro de um versículo que eu li hoje!"</em> É a constância da leitura que vai moldando, preparando e santificando em silêncio.</p>
+
+               <h2>💑 A Analogia do Casamento: O Magia da Rotina</h2>
+               <p>Para ilustrar a relação entre constância e fervor, Lara fez uma analogia brilhante com o matrimônio:</p>
+               <p style={{fontStyle: 'italic', background: '#fff9f9', borderLeft: '3px solid #722F37', padding: '1rem', margin: '1.5rem 0'}}>
+                 "É igual a qualquer relacionamento que a gente tem. Por exemplo, é todo dia que eu tô no meu casamento, que é incrível, que é mágico? Não, tem dia que é normal! Tem dia que a gente tá em casa conversando, trocando ideia. E mesmo se tudo fosse mágico, nada seria mágico... Às vezes você viaja para um lugar extraordinário e fala: 'Nossa, queria morar aqui'. Aí você mora ali e fica comum. Vai desaparecer toda a magia."
+               </p>
+               <p>A verdadeira intimidade não se sustenta no extraordinário ininterrupto, mas no amor fiel que floresce nos dias comuns.</p>
+
+               <h2>🎯 Criando Conteúdo com Autenticidade</h2>
+               <p>Como criadora de conteúdo que alcançou milhões nas redes sociais, Lara revelou sua filosofia de trabalho e integridade:</p>
+               <ul style={{lineHeight: '1.8', marginBottom: '2rem'}}>
+                 <li><strong>O Princípio de Ouro:</strong> <em>"Desde o começo, eu sempre quis fazer um conteúdo que eu mesma iria querer assistir. Cara, eu me seguiria se visse meu perfil, eu ia ouvir meu podcast."</em></li>
+                 <li><strong>O Ponto de Equilíbrio:</strong> Existem dois conjuntos — o que as pessoas querem ver e o que você gosta de fazer. O segredo da relevância autêntica é encontrar a intersecção entre ambos.</li>
+                 <li><strong>O Perigo do Utilitarismo:</strong> ✅ Fazer apenas o que dá visualização fácil pode funcionar no início, mas ❌ no longo prazo trará frustração e vazio. <em>"Tem coisa pior do que você ficar fazendo um conteúdo que você mesmo não assistiria?"</em></li>
+               </ul>
+
+               <h2>🌟 7 Lições da Jornada de Lara</h2>
+               <ul style={{lineHeight: '1.8', marginBottom: '2rem'}}>
+                 <li>1️⃣ <strong>Crescer na Igreja Não Substitui o Encontro Pessoal:</strong> O legado familiar é uma bênção, mas cada crente precisa desenvolver seu próprio relacionamento com Jesus.</li>
+                 <li>2️⃣ <strong>O Secreto é o Lugar do Poder:</strong> As experiências espirituais mais duradouras nascem no quarto de oração, não diante de multidões.</li>
+                 <li>3️⃣ <strong>Constância &gt; Dramaticidade:</strong> Uma terça-feira comum às 6h da manhã diante da Palavra vale mais do que anos de eventos emocionais sem raiz.</li>
+                 <li>4️⃣ <strong>TSD é Inegociável:</strong> Reservar o "Tempo Só Deus" diário é a âncora da saúde espiritual do cristão.</li>
+                 <li>5️⃣ <strong>Permanecer é a Chave:</strong> O verdadeiro teste da fé é permanecer fiel e adorando quando a rotina não traz arrepios.</li>
+                 <li>6️⃣ <strong>O Extraordinário se Torna Comum:</strong> Amar a Deus nos dias normais é o segredo para enxergar o Seu agir silencioso.</li>
+                 <li>7️⃣ <strong>Autenticidade em Tudo:</strong> Seja na sua profissão, vocação ou nas redes: sirva a Cristo com excelência e sem máscaras.</li>
+               </ul>
+
+               <h2>🙏 Reflexão Final</h2>
+               <p>O testemunho de Lara Santana nos desafia a ressignificar o que entendemos por "encontro com Deus". Ele não precisa ser marcado por tragédias prévias, pirotecnias ou emoções repentinas. Pode ser construído gota a gota, página a página, oração após oração.</p>
+               <p>O importante não é a estética do início da sua corrida, mas a constância do seu permanecer. Como o próprio Senhor Jesus prometeu em João 15: <em>"Permaneça em mim, e eu permanecerei em você."</em> Lara encontrou essa verdade de portas fechadas no seu quarto. E você, onde tem investido o seu tempo com Deus?</p>
+
+               <h2>🙏 Oração</h2>
+               <blockquote style={{borderLeft: '4px solid #722F37', background: '#fff9f9', padding: '1.5rem', margin: '2rem 0', fontStyle: 'italic'}}>
+                 Senhor Jesus,<br/>
+                 Obrigado por nos ensinares que o encontro Contigo pode ser construído dia após dia.<br/>
+                 Ajuda-nos a valorizar o secreto, a constância, o permanecer.<br/>
+                 Que possamos desenvolver o hábito inegociável do TSD.<br/>
+                 Que nossas maiores experiências sejam no nosso quarto, contigo.<br/>
+                 Ensina-nos a permanecer mesmo quando nada parece acontecer.<br/>
+                 Que o extraordinário se torne comum em nosso caminhar Contigo.<br/>
+                 Em nome de Jesus, amém.
+               </blockquote>
+
+               <h2>📖 Versículos para Meditação</h2>
+               <div style={{background: '#f8f9fa', borderLeft: '4px solid #0066cc', padding: '1.5rem', borderRadius: '0 8px 8px 0', margin: '2rem 0'}}>
+                 <p><strong>João 15:4-7</strong> — "Permaneçam em mim, e eu permanecerei em vocês... Se permanecerem em mim e as minhas palavras permanecerem em vocês, peçam o que quiserem, e lhes será concedido."</p>
+                 <p><strong>Salmo 57:8</strong> — "Desperta, minha alma! Despertem, harpa e lira! Acordarei a aurora."</p>
+                 <p><strong>Mateus 6:6</strong> — "Mas quando você orar, vá para seu quarto e, fechando a porta, ore a seu Pai, que está no lugar secreto."</p>
+                 <p><strong>Tiago 4:8</strong> — "Cheguem-se para Deus, e ele se chegará a vocês."</p>
+                 <p><strong>Salmo 119:105</strong> — "Lâmpada para os meus pés é a tua palavra e luz para os meus caminhos."</p>
+                 <p><strong>Josué 1:8</strong> — "Não deixe de falar as palavras deste Livro da Lei e de meditar nelas de dia e de noite, para que você cumpra fielmente tudo o que nele está escrito. Só então os seus caminhos prosperarão e você será bem-sucedido."</p>
+               </div>
+
+               <h2>📚 Leituras Recomendadas</h2>
+               <ul style={{lineHeight: '1.8', marginBottom: '2rem'}}>
+                 <li><strong>"Tempo com Deus"</strong> — Vários autores (sobre TSD e vida devocional)</li>
+                 <li><strong>"O Quarto Secreto"</strong> — Vários autores (oração no secreto)</li>
+                 <li><strong>"Permanecendo em Cristo"</strong> — Vários autores (João 15 e permanência)</li>
+                 <li><strong>"Hábitos Espirituais"</strong> — Vários autores (disciplinas espirituais)</li>
+                 <li><strong>"A Vida Devocional"</strong> — Vários autores (constância na fé)</li>
+               </ul>
+
+               <div style={{marginTop: '2rem', padding: '1.5rem', border: '1px solid #eee', borderRadius: '8px', background: '#fcfcfc', fontSize: '0.9rem', color: '#555'}}>
+                 <strong>📺 Fonte e Inspiração:</strong><br/>
+                 Este artigo foi desenvolvido como uma versão escrita e expandida baseada no conteúdo do canal <strong>JesusCopy</strong> no YouTube.<br/><br/>
+                 Se você deseja assistir ao vídeo original e complementar seu estudo, confira:<br/>
+                 🔗 <a href="https://www.youtube.com/@JesusCopy" target="_blank" rel="noopener noreferrer" style={{color: '#0066cc'}}>TESTEMUNHO DE CONVERSÃO DE LARA SANTANA | Podcast JesusCopy</a><br/><br/>
+                 Agradecemos ao JesusCopy por compartilhar testemunhos tão edificantes e necessários para nossos dias.
+               </div>
+
+               <p style={{fontSize: '1.1rem', fontStyle: 'italic', color: '#555', textAlign: 'center', margin: '2rem 0'}}>
+                 "As maiores experiências que eu já tive com Deus foram no meu quarto, numa terça-feira às 6h da manhã."
+               </p>
+               
+               <p style={{textAlign: 'center', fontWeight: 'bold', marginTop: '2rem'}}>Soli Deo Gloria. 🙏✨</p>
+
+             </div>
+
+             <ShareBar title="Do Berço Cristão ao Encontro Pessoal: A Jornada de Lara Santana com Jesus" url="/do-berco-cristao-ao-encontro-pessoal-jornada-lara-santana-jesus" />
+             <RelatedArticles currentLink="/do-berco-cristao-ao-encontro-pessoal-jornada-lara-santana-jesus" category="Testemunhos" />
+           </main>
+
+        ) : isBatismoInfantilCerto ? (
           <main className="article-content section-mb">
              <Breadcrumb category="Estudos Bíblicos" categoryLink="/estudos-biblicos" title="Batismo Infantil é Certo?" />
              <div className="article-header">
