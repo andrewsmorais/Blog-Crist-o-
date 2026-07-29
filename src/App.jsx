@@ -141,6 +141,7 @@ const allArticlesData = [
   { link: '/salvacao-nao-se-perde-advertencias-paulo-galatas-5', image: '/salvacao_nao_se_perde.jpg', tag: 'Estudos Bíblicos', title: 'Salvação Não Se Perde: Entendendo as Advertências de Paulo em Gálatas 5' },
   { link: '/batismo-infantil-certo-confianca-em-cristo-vs-ritual', image: '/batismo_infantil_certo.jpg', tag: 'Estudos Bíblicos', title: 'Batismo Infantil é Certo? A Confiança em Cristo vs. A Confiança no Ritual' },
   { link: '/do-berco-cristao-ao-encontro-pessoal-jornada-lara-santana-jesus', image: '/lara_santana_jesus.jpg', tag: 'Testemunhos', title: 'Do Berço Cristão ao Encontro Pessoal: A Jornada de Lara Santana com Jesus' },
+  { link: '/cuidado-com-que-deus-desaprova-7-atitudes-proverbios-6', image: '/proverbios_6_deus_desaprova.jpg', tag: 'Estudos Bíblicos', title: 'Cuidado com o que Deus Desaprova: As 7 Atitudes que o Senhor Detesta (Provérbios 6)' },
 ];
 
 function RelatedArticles({ currentLink, category }) {
@@ -252,7 +253,8 @@ function App() {
   const isEster = path === '/ester-rainha-salvou-povo-deus-age-sombras';
   const isSobre = path === '/sobre';
   const isContato = path === '/contato';
-                    const isLaraSantanaJesus = path === '/do-berco-cristao-ao-encontro-pessoal-jornada-lara-santana-jesus';
+                      const isProverbios6DeusDesaprova = path === '/cuidado-com-que-deus-desaprova-7-atitudes-proverbios-6';
+  const isLaraSantanaJesus = path === '/do-berco-cristao-ao-encontro-pessoal-jornada-lara-santana-jesus';
   const isBatismoInfantilCerto = path === '/batismo-infantil-certo-confianca-em-cristo-vs-ritual';
   const isSalvacaoNaoSePerde = path === '/salvacao-nao-se-perde-advertencias-paulo-galatas-5';
   const isProsperidadeVsMiseria = path === '/teologia-prosperidade-vs-miseria-equilibrio-biblico';
@@ -713,6 +715,15 @@ function App() {
               <h2>Estudos Bíblicos</h2>
             </div>
             <div className="grid-2" style={{marginTop: '2rem'}}>
+
+              <div className="grid-2-item">
+                <a href="/cuidado-com-que-deus-desaprova-7-atitudes-proverbios-6" style={{textDecoration: 'none', color: 'inherit'}}>
+                  <img src="/proverbios_6_deus_desaprova.jpg" alt="Cuidado com o que Deus Desaprova (Provérbios 6)" className="img-ph" loading="lazy" style={{objectFit: 'cover'}} />
+                  <h3 style={{fontSize: '1.1rem', marginBottom: '8px', lineHeight: '1.4'}}>Cuidado com o que Deus Desaprova: As 7 Atitudes que o Senhor Detesta</h3>
+                  <p style={{fontSize: '0.9rem', color: '#666', marginTop: '8px'}}>Um alerta urgente sobre maldade, perversidade e as atitudes sutis que destroem relacionamentos e desagradam ao Senhor.</p>
+                  <div className="meta">📖 <strong>Sabedoria Bíblica:</strong> Discernimento &amp; Provérbios 6</div>
+                </a>
+              </div>
 
               <div className="grid-2-item">
                 <a href="/batismo-infantil-certo-confianca-em-cristo-vs-ritual" style={{textDecoration: 'none', color: 'inherit'}}>
@@ -1671,7 +1682,144 @@ function App() {
 
             </div>
           </main>
-                                                                                ) : isLaraSantanaJesus ? (
+                                                                                        ) : isProverbios6DeusDesaprova ? (
+          <main className="article-content section-mb">
+             <Breadcrumb category="Estudos Bíblicos" categoryLink="/estudos-biblicos" title="7 Atitudes que o Senhor Detesta" />
+             <div className="article-header">
+               <span className="cat-tag">Estudos Bíblicos</span>
+               <h1>Cuidado com o que Deus Desaprova: As 7 Atitudes que o Senhor Detesta (Provérbios 6)</h1>
+               <div className="article-meta">
+                 📖 <strong>ESTUDOS BÍBLICOS | Soli Deo Gloria</strong><br/>
+                 <span style={{fontSize: '0.9rem', color: '#666'}}><em>Baseado em conteúdo do YouTube | 25 Jun, 2026</em></span>
+               </div>
+             
+               <ArticleInfo date="25 de Junho de 2026" readingTime={12} />
+              </div>
+             <img src="/proverbios_6_deus_desaprova.jpg" alt="Seis coisas o Senhor odeia — Provérbios 6:16" className="article-hero-img" loading="lazy" style={{maxHeight: '450px', width: '100%', objectFit: 'cover', borderRadius: '12px'}} />
+             <div className="article-body">
+               
+               <h2>Um Alerta Urgente Contra a Maldade</h2>
+               <p>Em Provérbios 6:16, a Palavra de Deus enuncia um alerta urgente e solene: <em>"Seis coisas o Senhor odeia, e a sétima a sua alma detesta."</em> É um chamado severo ao discernimento: cuidado com a maldade — tanto para que você não esteja agindo de maneira maldosa, quanto com a maldade das pessoas que o cercam.</p>
+               
+               <p>Vivemos em uma época perigosa na qual diversos comportamentos condenados pelas Escrituras recebem uma "nova roupagem", um nome moderno ou são pura e simplesmente normalizados. Sem perceber, muitas vezes acabamos tolerando essas atitudes em nosso próprio coração ou convivendo imprudentemente com pessoas que agem com perversidade contínua.</p>
+
+               <h2>🎭 A Pessoa Perversa: Sutil e Perigosa</h2>
+               <p>O texto bíblico descreve o comportamento do perverso com detalhes precisos:</p>
+               <p style={{fontStyle: 'italic', background: '#fcfcfc', borderLeft: '3px solid #722F37', padding: '1rem', margin: '1.5rem 0'}}>
+                 "O perverso e vil é o que anda com a iniquidade na boca. Pisca os olhos, arrasta os pés e faz sinais com os dedos. No seu coração há perversidade; está sempre planejando mal e semeando discórdias. Por isso, a sua destruição virá repentinamente; de um momento para o outro ficará irremediavelmente arruinado." — Provérbios 6:12-15
+               </p>
+               
+               <h3>Quem é a Pessoa Perversa?</h3>
+               <p>É aquela que trama o mal intencionalmente, planejando continuamente que o mal aconteça ao seu próximo.</p>
+               
+               <h3>Como Essa Pessoa Age? De Maneira Sutil</h3>
+               <p>Observe que o texto não descreve um agressor escancarado, mas alguém que <em>"pisca os olhos, arrasta os pés e faz sinais com os dedos"</em>. Essa linguagem figurada aponta para a <strong>dissimulação</strong>. As pessoas mais perigosas não são aquelas que declaram abertamente que são suas inimigas; são as que se aproximam disfarçadas, ocultando suas reais intenções por trás de gestos sutis e conversas aparentemente inofensivas.</p>
+
+               <h2>🔍 O Perigo de Não Discernir</h2>
+               <p>Muitos cristãos caem no engano sentimental de achar que "todas as pessoas são boas no fundo" e que devemos confiar em todos sem distinção. Essa postura é tratada por Provérbios como <strong>tolice</strong>.</p>
+               
+               <h3>Julgamento Condenado vs. Discernimento Orientado</h3>
+               <p>Existe uma imensa diferença entre o julgamento hipócrita condenado por Jesus e o <strong>discernimento espiritual</strong> ordenado pelas Escrituras. Somos chamados pelo Espírito Santo a observar os frutos e as atitudes das pessoas (Mateus 7:16). Evitar o discernimento por "medo de julgar" fará com que você entregue tesouros e confianças a quem só deseja semear discórdia.</p>
+
+               <h2>💔 Um Exemplo Prático de Traição e Responsabilidade</h2>
+               <p>Para ilustrar a importância da vigilância, considere uma situação real: imagine que uma pessoa considerada sua amiga começa a falar mal e caluniar outra amiga em comum — alguém que nunca lhe fez nada de mal.</p>
+               <p>Mesmo que aquele ataque não seja dirigido diretamente contra você, esse comportamento revela o caráter da pessoa. A questão lógica é: <strong>se ela trai a confiança de quem confia nela, como você poderá confiar nela?</strong></p>
+               <p>Precisamos nos responsabilizar também pelas nossas escolhas de amizade. Quando confiamos segredos a pessoas perversas e imprudentes, não basta apenas culpar o traidor; precisamos reconhecer nossa parcela de falta de vigilância e discernimento.</p>
+
+               <h2>⚖️ A Justiça Infallível de Deus</h2>
+               <p>Para os crentes que buscam viver em integridade, o versículo 15 traz um consolo libertador: <em>"A sua destruição virá repentinamente; de um momento para o outro ficará irremediavelmente arruinado."</em></p>
+               <p>O Senhor observa tudo e todos com perfeita justiça. Aquele que vive na perversidade e na maldade não ficará impune: pagará as suas consequências aqui na terra ou no juízo eterno. A justiça de Deus nunca falha.</p>
+
+               <h2> As 7 Coisas que o Senhor Odeia (Provérbios 6:16-19)</h2>
+               <p>Na segunda parte de Provérbios 6, encontramos a lista das sete atitudes que o Senhor abomina explicitamente:</p>
+               <p style={{fontStyle: 'italic', background: '#f8f9fa', borderLeft: '4px solid #0066cc', padding: '1.2rem', margin: '1.5rem 0'}}>
+                 "Seis coisas o Senhor Deus odeia, e a sétima a sua alma detesta: olhos cheios de orgulho, língua mentirosa, mãos que derramam sangue inocente, coração que faz planos perversos, pés que se apressam a fazer o mal, testemunha falsa que profere mentiras, e o que semeia a discórdia entre irmãos." — Provérbios 6:16-19
+               </p>
+               <p>Esta não é uma lista exaustiva de todos os pecados existentes, mas representa sete raízes perversas que destroem relacionamentos e são contrárias à santidade de Deus.</p>
+
+               <h2>🔎 Análise Prática das 7 Atitudes</h2>
+               
+               <h3>1️⃣ Olhos Cheios de Orgulho (Soberba)</h3>
+               <p>A soberba é a atitude do coração que se considera superior aos outros — seja por status, conhecimento ou até mesmo por suposta "santidade". Muitas vezes a soberba é normalizada no meio cristão quando tratamos com favoritismo um pregador famoso em detrimento de quem limpa os bancos da congregação. O Senhor odeia a altivez de espírito.</p>
+
+               <h3>2️⃣ Língua Mentirosa</h3>
+               <p>É a manipulação da verdade, a omissão ou a "meia-verdade" contada com o intuito de enganar o próximo ou obter vantagem própria. Um Deus que é a própria Verdade não tolera a falsidade em Seus filhos.</p>
+
+               <h3>3️⃣ Mãos que Derramam Sangue Inocente</h3>
+               <p>Trata-se da violência direta, injustiça e agressão contra aqueles que não têm como se defender, ferindo a imagem de Deus na humanidade.</p>
+
+               <h3>4️⃣ Coração que Faz Planos Perversos</h3>
+               <p>Todos nós já falhamos com alguém acidentalmente — como fechar um carro no trânsito por distração. O que Deus abomina aqui, no entanto, é a <strong>intencionalidade do mal</strong>: o coração que passa horas maquinando, calculando e planejando prejuízo ao próximo.</p>
+
+               <h3>5️⃣ Pés que se Apressam a Fazer o Mal</h3>
+               <p>Descreve a pessoa que sente prazer mórbido na iniquidade; que corre com ansiedade e entusiasmo para participar de fofocas, vinganças, destruição de reputações e contendas.</p>
+
+               <h3>6️⃣ Testemunha Falsa que Profere Mentiras</h3>
+               <p>A calúnia no tribunal ou nas conversas cotidianas. Inventar ou propagar falsidades que destroem a honra de outra pessoa é uma abominação direta contra o nono mandamento.</p>
+
+               <h3>7️⃣ O que Semeia a Discórdia Entre Irmãos</h3>
+               <p>Por que a sétima é descrita como aquilo que "a alma do Senhor detesta"? Porque é o ápice da destrutividade comunitária. É a pessoa que onde chega gera intriga, divisão, suspeita e contenda entre irmãos na fé ou na família. Os filhos de Deus são pacificadores (Mateus 5:9); os filhos das trevas são semeadores de discórdias.</p>
+
+               <h2>✅ Autoavaliação: Você Está Vivendo Assim?</h2>
+               <p>Diante desta luz das Escrituras, o nosso papel não é apenas apontar o dedo para os outros, mas fazermos uma autoavaliação sóbria:</p>
+               <ul style={{lineHeight: '1.8', marginBottom: '2rem'}}>
+                 <li>✅ Você tem tolerado ou normalizado alguma dessas 7 atitudes em seu próprio comportamento?</li>
+                 <li>✅ Você tem convivido sem discernimento com pessoas que semeiam contendas e mentiras ao seu redor?</li>
+               </ul>
+               <p>Se você identificou alguma debilidade em sua caminhada, saiba que a resposta não é se esconder do Senhor, mas <strong>correr para Ele em arrependimento</strong>. O mesmo Deus que nos exorta e condena o pecado é O que nos concede graça, perdão e o poder transformador do Espírito Santo para vivermos em integridade.</p>
+
+               <h2>🙏 Oração</h2>
+               <blockquote style={{borderLeft: '4px solid #722F37', background: '#fff9f9', padding: '1.5rem', margin: '2rem 0', fontStyle: 'italic'}}>
+                 Senhor Jesus,<br/>
+                 Sonda o meu coração e revela se há em mim algum caminho mau.<br/>
+                 Livra-me da soberba, da mentira e da perversidade.<br/>
+                 Dá-me discernimento para identificar pessoas perversas e não confiar imprudentemente.<br/>
+                 Transforma o meu coração para que eu seja um pacificador, não um semeador de discórdia.<br/>
+                 Que eu ame a verdade e fuja do mal.<br/>
+                 Ajuda-me a viver de maneira reta, justa e agradável a Ti.<br/>
+                 Em nome de Jesus, amém.
+               </blockquote>
+
+               <h2>📖 Versículos para Meditação</h2>
+               <div style={{background: '#f8f9fa', borderLeft: '4px solid #0066cc', padding: '1.5rem', borderRadius: '0 8px 8px 0', margin: '2rem 0'}}>
+                 <p><strong>Provérbios 6:16-19</strong> — "Seis coisas o Senhor odeia, e a sétima a sua alma detesta: olhos altivos, e língua mentirosa, e mãos que derramam sangue inocente, e coração que maquina pensamentos viciosos, e pés que se apressam a correr para o mal, e testemunha falsa que profere mentiras, e o que semeia contendas entre irmãos."</p>
+                 <p><strong>Provérbios 6:12-15</strong> — "O homem perverso anda com a boca perversa; acena com os olhos, fala com os pés e faz sinais com os dedos... Por isso, a sua ruína virá de repente; num momento será quebrado, sem que haja cura."</p>
+                 <p><strong>Mateus 7:15-16</strong> — "Acautelai-vos, porém, dos falsos profetas, que vêm até vós vestidos como ovelhas, mas, interiormente, são lobos devoradores. Por seus frutos os conhecereis."</p>
+                 <p><strong>Tiago 3:14-16</strong> — "Mas, se tendes amarga inveja e sentimento faccioso em vosso coração... essa não é a sabedoria que vem do alto, mas é terrena, animal e diabólica."</p>
+                 <p><strong>Romanos 12:18</strong> — "Se for possível, quanto depender de vós, tende paz com todos os homens."</p>
+                 <p><strong>Provérbios 16:18</strong> — "A soberba precede a ruína, e a altivez do espírito precede a queda."</p>
+               </div>
+
+               <h2>📚 Leituras Recomendadas</h2>
+               <ul style={{lineHeight: '1.8', marginBottom: '2rem'}}>
+                 <li><strong>"Provérbios: Comentário Exegético"</strong> — Vários autores (análise profunda de Provérbios 6)</li>
+                 <li><strong>"Discernimento Bíblico"</strong> — Vários autores (como identificar pessoas perversas)</li>
+                 <li><strong>"Soberba e Humildade"</strong> — Vários autores (combate ao orgulho)</li>
+                 <li><strong>"A Língua que Edifica"</strong> — Vários autores (sobre verdade e mentira)</li>
+                 <li><strong>"Pacificadores"</strong> — Vários autores (sobre promover unidade)</li>
+               </ul>
+
+               <div style={{marginTop: '2rem', padding: '1.5rem', border: '1px solid #eee', borderRadius: '8px', background: '#fcfcfc', fontSize: '0.9rem', color: '#555'}}>
+                 <strong>📺 Fonte e Inspiração:</strong><br/>
+                 Este artigo foi desenvolvido como uma versão escrita e expandida baseada no conteúdo do canal <strong>Dani Cadore</strong> no YouTube.<br/><br/>
+                 Se você deseja assistir ao vídeo original e complementar seu estudo, confira:<br/>
+                 🔗 <a href="https://www.youtube.com/@DaniCadore" target="_blank" rel="noopener noreferrer" style={{color: '#0066cc'}}>Cuidado com o que Deus desaprova | Provérbios 6</a><br/><br/>
+                 Agradecemos à Dani Cadore por compartilhar verdades bíblicas tão necessárias para nossos dias.
+               </div>
+
+               <p style={{fontSize: '1.1rem', fontStyle: 'italic', color: '#555', textAlign: 'center', margin: '2rem 0'}}>
+                 "Seis coisas o Senhor odeia, e a sétima a sua alma detesta."
+               </p>
+               
+               <p style={{textAlign: 'center', fontWeight: 'bold', marginTop: '2rem'}}>Soli Deo Gloria. ✨</p>
+
+             </div>
+
+             <ShareBar title="Cuidado com o que Deus Desaprova: As 7 Atitudes que o Senhor Detesta (Provérbios 6)" url="/cuidado-com-que-deus-desaprova-7-atitudes-proverbios-6" />
+             <RelatedArticles currentLink="/cuidado-com-que-deus-desaprova-7-atitudes-proverbios-6" category="Estudos Bíblicos" />
+           </main>
+
+        ) : isLaraSantanaJesus ? (
           <main className="article-content section-mb">
              <Breadcrumb category="Testemunhos" categoryLink="/testemunhos" title="Jornada de Lara Santana" />
              <div className="article-header">
