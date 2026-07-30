@@ -57,6 +57,67 @@ function ShareBar({ title, url }) {
   );
 }
 
+// Cookie & LGPD Consent Bar (Google AdSense Compliance)
+function CookieConsentBar() {
+  const [visible, setVisible] = useState(false);
+
+  useEffect(() => {
+    const consent = localStorage.getItem('sdg_cookie_consent_2026');
+    if (!consent) {
+      setVisible(true);
+    }
+  }, []);
+
+  const handleAccept = () => {
+    localStorage.setItem('sdg_cookie_consent_2026', 'true');
+    setVisible(false);
+  };
+
+  if (!visible) return null;
+
+  return (
+    <div className="cookie-consent-bar" style={{
+      position: 'fixed',
+      bottom: '0',
+      left: '0',
+      right: '0',
+      background: '#1a1a1a',
+      color: '#fff',
+      padding: '1rem 1.5rem',
+      display: 'flex',
+      flexWrap: 'wrap',
+      alignItems: 'center',
+      justifyContent: 'space-between',
+      gap: '1rem',
+      zIndex: 9999,
+      boxShadow: '0 -4px 20px rgba(0,0,0,0.25)',
+      fontSize: '0.9rem'
+    }}>
+      <div style={{ flex: '1 1 300px', lineHeight: '1.5' }}>
+        <span>🍪 <strong>LGPD e Cookies:</strong> Nós utilizamos cookies e anúncios geridos pelo <strong>Google AdSense</strong> para personalizar publicidade e analisar o tráfego do portal. Ao navegar em nosso site, você aceita nossa </span>
+        <a href="/politica-de-privacidade" style={{ color: '#ffcc00', textDecoration: 'underline' }}>Política de Privacidade</a>.
+      </div>
+      <div style={{ display: 'flex', gap: '0.75rem', alignItems: 'center' }}>
+        <button
+          onClick={handleAccept}
+          style={{
+            background: '#ffcc00',
+            color: '#1a1a1a',
+            border: 'none',
+            padding: '0.6rem 1.25rem',
+            borderRadius: '6px',
+            fontWeight: 'bold',
+            cursor: 'pointer',
+            fontSize: '0.9rem'
+          }}
+        >
+          Aceitar Cookies
+        </button>
+      </div>
+    </div>
+  );
+}
+
 // Newsletter Section
 function Newsletter() {
   const [email, setEmail] = useState('');
@@ -355,6 +416,11 @@ function App() {
             <p>Alguns dos anunciantes em nosso site podem usar cookies e web beacons. Nosso principal parceiro de publicidade é o <strong>Google AdSense</strong>.</p>
             <p>Os servidores de anúncios de terceiros ou redes de anúncios utilizam tecnologias como cookies, JavaScript ou Web Beacons em seus respectivos anúncios e links que aparecem no Soli Deo Gloria, os quais são enviados diretamente para o navegador dos usuários. Eles recebem automaticamente o seu endereço IP quando isso ocorre. Essas tecnologias são usadas para medir a eficácia de suas campanhas publicitárias e/ou para personalizar o conteúdo publicitário que você vê nos sites que visita.</p>
             <p><em>Importante:</em> O Soli Deo Gloria não tem acesso ou controle sobre esses cookies que são usados por anunciantes de terceiros.</p>
+            <div style={{ background: '#f8f9fa', borderLeft: '4px solid #0066cc', padding: '1.25rem 1.5rem', marginTop: '1.5rem', marginBottom: '1.5rem', borderRadius: '0 8px 8px 0' }}>
+              <p style={{ margin: 0, fontSize: '0.95rem', lineHeight: '1.6' }}>
+                <strong>🛡️ Conformidade e Desativação de Anúncios Google:</strong> Os usuários podem optar por recusar ou personalizar o uso do cookie DART e anúncios direcionados visitando a <a href="https://policies.google.com/technologies/ads" target="_blank" rel="noreferrer" style={{ color: '#0066cc', textDecoration: 'underline', fontWeight: 'bold' }}>Política de Privacidade da rede de anúncios do Google</a> ou através da página de gerenciamento de consentimento do consumidor em <a href="https://www.aboutads.info/choices/" target="_blank" rel="noreferrer" style={{ color: '#0066cc', textDecoration: 'underline', fontWeight: 'bold' }}>aboutads.info</a>. Nosso site opera de acordo com a Lei Geral de Proteção de Dados (LGPD - Lei nº 13.709/2018).
+              </p>
+            </div>
 
             <h2>6. Políticas de Privacidade de Terceiros</h2>
             <p>A Política de Privacidade do Soli Deo Gloria não se aplica a outros anunciantes ou sites. Portanto, aconselhamos você a consultar as respectivas Políticas de Privacidade desses servidores de anúncios de terceiros para obter informações mais detalhadas. Ela pode incluir suas práticas e instruções sobre como optar por sair de certas opções.</p>
@@ -1545,8 +1611,22 @@ function App() {
               <p style={{color: '#666', marginTop: '0.5rem'}}>Dúvidas, sugestões ou pedidos de oração? Entre em contato conosco!</p>
             </div>
             
+            <div style={{ background: '#f8f9fa', borderLeft: '4px solid #0066cc', padding: '1.25rem 1.5rem', marginBottom: '2rem', borderRadius: '0 8px 8px 0', display: 'flex', alignItems: 'center', justifyContent: 'space-between', flexWrap: 'wrap', gap: '1rem' }}>
+              <div>
+                <p style={{ margin: 0, fontWeight: 'bold', color: '#111', fontSize: '1.05rem' }}>✉️ E-mail Direto do Suporte e Redação</p>
+                <p style={{ margin: '4px 0 0 0', fontSize: '0.95rem', color: '#555' }}>Para dúvidas teológicas, parcerias editoriais, anúncios AdSense ou imprensa, escreva diretamente para nós:</p>
+              </div>
+              <a href="mailto:contato@sdgloria.com.br" style={{ background: '#0066cc', color: '#fff', padding: '0.6rem 1.25rem', borderRadius: '6px', textDecoration: 'none', fontWeight: 'bold', fontSize: '0.95rem', whiteSpace: 'nowrap' }}>
+                contato@sdgloria.com.br
+              </a>
+            </div>
+
             <div style={{background: '#fff', padding: '2.5rem', borderRadius: '12px', boxShadow: '0 4px 20px rgba(0,0,0,0.05)', border: '1px solid #eee'}}>
-              <form onSubmit={(e) => { e.preventDefault(); alert('Mensagem enviada com sucesso! Em breve entraremos em contato.'); e.target.reset(); }}>
+              <form onSubmit={(e) => { 
+                e.preventDefault(); 
+                alert('Mensagem enviada com sucesso ao nosso sistema de suporte (contato@sdgloria.com.br)! Em breve nossa equipe entrará em contato.'); 
+                e.target.reset(); 
+              }}>
                 <div style={{marginBottom: '1.5rem'}}>
                   <label htmlFor="name" style={{display: 'block', fontWeight: '600', marginBottom: '0.5rem', fontSize: '0.9rem'}}>Nome Completo</label>
                   <input type="text" id="name" required style={{width: '100%', padding: '0.75rem', border: '1px solid #ddd', borderRadius: '6px', fontSize: '1rem'}} />
@@ -7820,6 +7900,7 @@ function App() {
           </div>
         </div>
       </footer>
+      <CookieConsentBar />
     </>
   );
 }
