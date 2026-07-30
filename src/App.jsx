@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import './index.css';
+import Newsletter from './components/Newsletter';
 
 /* ===== COMPONENTES PROFISSIONAIS REUTILIZÁVEIS ===== */
 
@@ -118,42 +119,7 @@ function CookieConsentBar() {
   );
 }
 
-// Newsletter Section
-function Newsletter() {
-  const [email, setEmail] = useState('');
-  const [subscribed, setSubscribed] = useState(false);
-  
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    if (email) {
-      setSubscribed(true);
-      setEmail('');
-    }
-  };
-  
-  return (
-    <section className="newsletter-section">
-      <h3>📬 Receba Nossos Estudos por E-mail</h3>
-      <p>Toda semana enviamos um novo estudo bíblico direto na sua caixa de entrada. Grátis, sem spam.</p>
-      {subscribed ? (
-        <p style={{color: '#25D366', fontWeight: 'bold', fontSize: '1.1rem'}}>
-          ✅ Obrigado! Você receberá nossos estudos em breve.
-        </p>
-      ) : (
-        <form className="newsletter-form" onSubmit={handleSubmit}>
-          <input 
-            type="email" 
-            placeholder="Seu melhor e-mail" 
-            value={email} 
-            onChange={(e) => setEmail(e.target.value)} 
-            required 
-          />
-          <button type="submit">Quero Receber</button>
-        </form>
-      )}
-    </section>
-  );
-}
+// Newsletter Component imported from ./components/Newsletter.jsx
 
 // Related Articles
 const allArticlesData = [
