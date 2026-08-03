@@ -168,6 +168,7 @@ const allArticlesData = [
   { link: '/salvacao-nao-se-perde-advertencias-paulo-galatas-5', image: '/salvacao_nao_se_perde.jpg', tag: 'Estudos Bíblicos', title: 'Salvação Não Se Perde: Entendendo as Advertências de Paulo em Gálatas 5' },
   { link: '/batismo-infantil-certo-confianca-em-cristo-vs-ritual', image: '/batismo_infantil_certo.jpg', tag: 'Estudos Bíblicos', title: 'Batismo Infantil é Certo? A Confiança em Cristo vs. A Confiança no Ritual' },
   { link: '/do-berco-cristao-ao-encontro-pessoal-jornada-lara-santana-jesus', image: '/lara_santana_jesus.jpg', tag: 'Testemunhos', title: 'Do Berço Cristão ao Encontro Pessoal: A Jornada de Lara Santana com Jesus' },
+  { link: '/quando-deus-quebra-artista-formar-pastor-testemunho-samuel-mariano', image: '/samuel_mariano_testemunho.jpg', tag: 'Testemunhos', title: 'Quando Deus Quebra o Artista para Formar um Pastor: O Testemunho de Samuel Mariano' },
   { link: '/cuidado-com-que-deus-desaprova-7-atitudes-proverbios-6', image: '/proverbios_6_deus_desaprova.jpg', tag: 'Estudos Bíblicos', title: 'Cuidado com o que Deus Desaprova: As 7 Atitudes que o Senhor Detesta (Provérbios 6)' },
 ];
 
@@ -208,6 +209,14 @@ function NotFoundPage() {
 }
 
 const heroArticles = [
+  {
+    link: "/quando-deus-quebra-artista-formar-pastor-testemunho-samuel-mariano",
+    image: "/samuel_mariano_testemunho.jpg",
+    tag: "Testemunhos",
+    title: "Quando Deus Quebra o Artista para Formar um Pastor: O Testemunho de Samuel Mariano",
+    excerpt: "Como acusações falsas, dor e quebrantamento se tornaram o caminho para maturidade espiritual e um ministério mais profundo. Uma lição sobre justiça divina e restauração.",
+    meta: "Romanos 8:28"
+  },
   {
     link: "/multidao-oposicao-ou-discipulo-quem-segue-jesus-marcos-3",
     image: "/marcos3_discipulos.png",
@@ -282,6 +291,7 @@ function App() {
   const isContato = path === '/contato';
                       const isProverbios6DeusDesaprova = path === '/cuidado-com-que-deus-desaprova-7-atitudes-proverbios-6';
   const isLaraSantanaJesus = path === '/do-berco-cristao-ao-encontro-pessoal-jornada-lara-santana-jesus';
+  const isSamuelMarianoTestemunho = path === '/quando-deus-quebra-artista-formar-pastor-testemunho-samuel-mariano';
   const isBatismoInfantilCerto = path === '/batismo-infantil-certo-confianca-em-cristo-vs-ritual';
   const isSalvacaoNaoSePerde = path === '/salvacao-nao-se-perde-advertencias-paulo-galatas-5';
   const isProsperidadeVsMiseria = path === '/teologia-prosperidade-vs-miseria-equilibrio-biblico';
@@ -874,6 +884,16 @@ function App() {
             </div>
 
             <div className="grid-3" style={{marginTop: '2rem'}}>
+
+              <div className="grid-3-item">
+                <a href="/quando-deus-quebra-artista-formar-pastor-testemunho-samuel-mariano" style={{textDecoration: 'none', color: 'inherit'}}>
+                  <img src="/samuel_mariano_testemunho.jpg" alt="Quando Deus Quebra o Artista para Formar um Pastor: O Testemunho de Samuel Mariano" className="img-ph" loading="lazy" style={{objectFit: 'cover', aspectRatio: '16/9'}} />
+                  <span className="cat-tag" style={{display: 'inline-block', marginBottom: '8px', marginTop: '12px'}}>TESTEMUNHOS</span>
+                  <h3 style={{fontSize: '1.1rem', marginBottom: '8px', lineHeight: '1.4'}}>Quando Deus Quebra o Artista para Formar um Pastor: O Testemunho de Samuel Mariano</h3>
+                  <p style={{fontSize: '0.9rem', color: '#666', marginTop: '8px', marginBottom: '12px'}}>Como acusações falsas, dor e quebrantamento se tornaram o caminho para maturidade espiritual e um ministério mais profundo.</p>
+                  <div className="meta">📖 <strong>Testemunho:</strong> Quebrantamento &amp; Maturidade</div>
+                </a>
+              </div>
               <div className="grid-3-item">
                 <a href="/carta-galatas-liberdade-crista-estudo-completo" style={{textDecoration: 'none', color: 'inherit'}}>
                   <img src="/galatas.png" alt="A Carta aos Gálatas e a Liberdade Cristã" className="img-ph" loading="lazy" style={{objectFit: 'cover'}} />
@@ -2020,6 +2040,248 @@ function App() {
 
              <ShareBar title="Do Berço Cristão ao Encontro Pessoal: A Jornada de Lara Santana com Jesus" url="/do-berco-cristao-ao-encontro-pessoal-jornada-lara-santana-jesus" />
              <RelatedArticles currentLink="/do-berco-cristao-ao-encontro-pessoal-jornada-lara-santana-jesus" category="Testemunhos" />
+           </main>
+
+        ) : isSamuelMarianoTestemunho ? (
+          <main className="article-content section-mb">
+             <Breadcrumb category="Testemunhos" categoryLink="/testemunhos" title="O Testemunho de Samuel Mariano" />
+             <div className="article-header">
+               <span className="cat-tag">Testemunhos</span>
+               <h1>Quando Deus Quebra o Artista para Formar um Pastor: O Testemunho de Samuel Mariano</h1>
+               <div className="article-meta">
+                 📖 <strong>TESTEMUNHOS | Soli Deo Gloria</strong><br/>
+                 <span style={{fontSize: '0.9rem', color: '#666'}}><em>Baseado em conteúdo do YouTube | 25 Jun, 2026</em></span>
+               </div>
+             
+               <ArticleInfo date="25 de Junho de 2026" readingTime={12} />
+              </div>
+             <img src="/samuel_mariano_testemunho.jpg" alt="O Testemunho de Samuel Mariano — Quando Deus Quebra o Artista para Formar um Pastor" className="article-hero-img" loading="lazy" style={{maxHeight: '450px', width: '100%', objectFit: 'cover', borderRadius: '12px'}} />
+             <div className="article-body">
+               
+               <blockquote style={{borderLeft: '4px solid #722F37', background: '#fff9f9', padding: '1.5rem', margin: '2rem 0', fontStyle: 'italic', borderRadius: '0 8px 8px 0'}}>
+                 &quot;Deus me quebrou. Quebrou o artista. Quebrou. Tinha em algum momento da sua vida algum sentimento de vaidade? Quebrou o Samuel. Deus me quebrou todo e precisava ser quebrado.&quot; — <strong>Samuel Mariano</strong>
+               </blockquote>
+
+               <p>Você já foi alvo de acusações falsas? Já sentiu a dor de ser julgado por algo que não fez? Já experimentou o peso de pessoas que se decepcionaram com você sem sequer conhecer sua história?</p>
+               <p>Samuel Mariano, cantor e pastor, passou por isso. Em um podcast recente, ele abriu o coração sobre o momento mais delicado de sua carreira e ministério — e revelou como Deus usou a dor para transformá-lo.</p>
+               <p>Este não é apenas um testemunho sobre superação. É uma lição profunda sobre quebrantamento, justiça divina e o processo de Deus em nossas vidas.</p>
+
+               <h2>A Dor das Acusações Falsas</h2>
+               <p>Samuel foi alvo de críticas severas e acusações públicas. Como muitos cristãos que já passaram por situações semelhantes, ele conheceu a dor de ser mal compreendido:</p>
+               
+               <p><em>&quot;Eu queria pedir perdão a pessoas que se decepcionaram comigo por uma coisa que eles não ouviram da minha boca, por uma coisa que eles sequer foram atrás dos fatos.&quot;</em></p>
+               
+               <p>Essa frase revela algo profundo: o poder destrutivo das narrativas. Vivemos em uma época onde:</p>
+               <ul>
+                 <li>❌ As pessoas julgam sem conhecer</li>
+                 <li>❌ Compartilham sem verificar</li>
+                 <li>❌ Condenam sem ouvir</li>
+               </ul>
+
+               <p>Samuel poderia ter se defendido publicamente. Poderia ter apresentado documentos, provas, a sentença judicial que o inocentou. Mas ele escolheu um caminho diferente:</p>
+               <p><em>&quot;Por que eu vou apresentar para levantar um assunto? Não quero mais. Eu vou viver. Eu tô em paz.&quot;</em></p>
+
+               <h2>O Processo de Quebrantamento</h2>
+               <p>A pergunta do entrevistador foi direta: <em>&quot;Te quebrou?&quot;</em></p>
+               <p>A resposta de Samuel foi ainda mais direta:</p>
+               <p><em>&quot;Deus me quebrou. Quebrou o artista. Quebrou. Eu precisava ser quebrado para ser moldado, para virar pastor.&quot;</em></p>
+
+               <h3>O Que Significa Ser &quot;Quebrado&quot; por Deus?</h3>
+               <p>O quebrantamento bíblico não é sobre destruição, mas sobre transformação. É o processo pelo qual Deus:</p>
+               <ul>
+                 <li>✅ <strong>Remove a vaidade</strong> — <em>&quot;Eu não sinto diferença da minha carreira de antes para hoje, eu viajo do mesmo jeito, eu canto do mesmo jeito. Mas o que quebrou foi o Samuel.&quot;</em></li>
+                 <li>✅ <strong>Ensina dependência</strong> — <em>&quot;Você hoje tá entrevistando um cara quebrado, um cara que teve que aprender que o evangelho é um evangelho de perdão, um evangelho de renúncias.&quot;</em></li>
+                 <li>✅ <strong>Produz maturidade</strong> — <em>&quot;Como aquilo me fez crescer e amadurecer, parar de confiar em muita gente, vigiar muito, ter muito cuidado.&quot;</em></li>
+                 <li>✅ <strong>Molda o caráter</strong> — <em>&quot;Eu sou mais assustado, né? Eu tenho todo um cuidado com o que falo.&quot;</em></li>
+               </ul>
+
+               <h2>🎵 Canções Nascidas da Dor</h2>
+               <p><em>&quot;Os maiores hinos e poesias foram escritos em tribulações.&quot;</em></p>
+               <p>Samuel revelou que algumas de suas canções mais marcantes nasceram exatamente no meio da turbulência:</p>
+
+               <div style={{background: '#f8f9fa', padding: '1.25rem', borderRadius: '10px', margin: '1.5rem 0', borderLeft: '4px solid #b91c1c'}}>
+                 <h4 style={{marginTop: 0, color: '#b91c1c', marginBottom: '0.5rem'}}>&quot;Respira&quot;</h4>
+                 <p style={{margin: 0, fontStyle: 'italic'}}>
+                   &quot;Foi absurdo. Foi no tempo pandêmico também. Ninguém sabe o que eu colho dessas canções, mas essas canções eu escrevi todo quebrado, chorando. Deus escrevendo. Eu lembro que o pingo da lágrima caiu em cima do caderno.&quot;
+                 </p>
+               </div>
+
+               <div style={{background: '#f8f9fa', padding: '1.25rem', borderRadius: '10px', margin: '1.5rem 0', borderLeft: '4px solid #b91c1c'}}>
+                 <h4 style={{marginTop: 0, color: '#b91c1c', marginBottom: '0.5rem'}}>&quot;Fala Comigo, Deus&quot;</h4>
+                 <p style={{margin: 0, fontStyle: 'italic'}}>
+                   &quot;A que mais me marcou, que eu amo, é: 'Fala comigo, Deus, antes que a lâmpada se apague, que eu não queira mais ouvir a tua voz.'&quot;
+                 </p>
+               </div>
+
+               <div style={{background: '#f8f9fa', padding: '1.25rem', borderRadius: '10px', margin: '1.5rem 0', borderLeft: '4px solid #b91c1c'}}>
+                 <h4 style={{marginTop: 0, color: '#b91c1c', marginBottom: '0.5rem'}}>&quot;O que Haverá de Vir&quot;</h4>
+                 <p style={{margin: 0, fontStyle: 'italic'}}>
+                   &quot;Por que ela tá pegando tanto? Por que todo mundo tá gostando? Simples. Ela foi uma música feita com eu em pedaços. Eu tava em pedaços.&quot;
+                 </p>
+               </div>
+
+               <p>Há algo poderoso em adoração que nasce da dor. Não é apenas música — é oração transformada em melodia, é lágrima transformada em louvor.</p>
+
+               <h2>⚖️ Justiça Divina vs. Vingança Humana</h2>
+               <p>Uma das perguntas mais profundas do podcast foi:</p>
+               <p><em>&quot;Frase: 'Deus é justo' — te dá esperança ou te agoniza?&quot;</em></p>
+               <p>A resposta de Samuel revela um coração curado:</p>
+               <p><em>&quot;Eu não tenho esperança de punição para ninguém. Eu tô tão bem que eu não ligo com quem me fez mal. Eu não fico perguntando sobre absolutamente ninguém. Eu acredito num Deus que é justo.&quot;</em></p>
+
+               <h3>O Que a Bíblia Diz Sobre Isso?</h3>
+               <div style={{background: '#f8f9fa', borderLeft: '4px solid #0066cc', padding: '1.25rem', borderRadius: '0 8px 8px 0', margin: '1.5rem 0'}}>
+                 <p style={{margin: 0, fontWeight: '500'}}>
+                   <strong>Romanos 12:17-19:</strong> &quot;Não tornem a ninguém mal por mal. Procurem fazer o que é correto aos olhos de todos. Não se vinguem, meus amados, mas deixem espaço para a ira de Deus, pois está escrito: 'A mim me pertence a vingança; eu retribuirei', diz o Senhor.&quot;
+                 </p>
+               </div>
+
+               <p>Samuel entendeu isso. Ele tinha:</p>
+               <ul>
+                 <li>✅ Documentos que o inocentavam</li>
+                 <li>✅ Sentença judicial favorável</li>
+                 <li>✅ Relatório do delegado</li>
+                 <li>✅ Gravações de celulares</li>
+               </ul>
+               <p>Mas escolheu não usar como arma. Por quê?</p>
+               <p><em>&quot;Porque já não me interessa mais. Eu tô bem.&quot;</em></p>
+
+               <h2>🙏 O Pedido de Perdão que Liberta</h2>
+               <p>Em um momento emocionante, Samuel fez algo raro: pediu perdão publicamente.</p>
+               <p><em>&quot;Eu queria pedir perdão a pessoas que se decepcionaram comigo. Me perdoe porque nunca foi minha intenção decepcionar você.&quot;</em></p>
+               <p>Mas ele também estabeleceu um limite importante:</p>
+               <p><em>&quot;Agora, se você conseguiu ficar decepcionado comigo sem sequer me conhecer, sem sequer me ouvir, ah, eu não consigo fazer nada.&quot;</em></p>
+
+               <div style={{background: '#fff9f9', borderLeft: '4px solid #722F37', padding: '1.25rem', borderRadius: '0 8px 8px 0', margin: '1.5rem 0'}}>
+                 <h4 style={{marginTop: 0, color: '#722F37', marginBottom: '0.75rem'}}>Lição Importante:</h4>
+                 <p style={{margin: '0 0 0.5rem 0'}}>Você não pode controlar o que outros pensam de você. Você só pode:</p>
+                 <ul style={{marginBottom: 0}}>
+                   <li>✅ Viver com integridade</li>
+                   <li>✅ Pedir perdão quando necessário</li>
+                   <li>✅ Confiar que Deus conhece sua verdade</li>
+                 </ul>
+               </div>
+
+               <h2>A Igreja que Conhece de Perto</h2>
+               <p>Samuel revelou algo precioso:</p>
+               <p><em>&quot;A igreja que eu sou pastor me conhece, cara. A igreja que eu sou pastor conhece meu caráter, vive o dia todo comigo. E a igreja brasileira, aonde eu chegava, irmãs de ciclo de oração me abraçando: 'Meu filho, estou orando por você.'&quot;</em></p>
+
+               <h3>O Poder do Relacionamento Verdadeiro</h3>
+               <p>Quando as acusações vieram, quem conhecia Samuel de perto:</p>
+               <ul>
+                 <li>✅ Não acreditou nas narrativas</li>
+                 <li>✅ Continuou apoiando</li>
+                 <li>✅ Orava por ele</li>
+                 <li>✅ O acolheu de volta após a vitória judicial</li>
+               </ul>
+               <p>Isso nos ensina: Construa relacionamentos verdadeiros. Pessoas que te conhecem de verdade não serão enganadas por narrativas falsas.</p>
+
+               <h2>💔 Saudade dos Lugares que Não Pode Mais Ir</h2>
+               <p>Samuel compartilhou uma dor real:</p>
+               <p><em>&quot;Tenho saudade de alguns lugares que eu já não vou mais. Mas os pastores sabem quem sou eu. Eles me levaram na igreja deles. Eles nunca me viram beber, farrar, sair de madrugada. Eles sabem quem sou eu.&quot;</em></p>
+
+               <h3>O Preço das Acusações Falsas</h3>
+               <p>Mesmo sendo inocentado, mesmo tendo documentos, algumas portas se fecharam. Isso dói. Mas Samuel aprendeu:</p>
+               <p><em>&quot;Se você sabe o que Deus te deu, se você sabe quem você é, liga com isso.&quot;</em></p>
+
+               <h2>A Transição de Artista para Pastor</h2>
+               <p>Uma profecia marcou Samuel:</p>
+               <p><em>&quot;Eu recebi uma profecia da irmã Ângela. Ela me sacudiu assim e disse: 'Homem, eu quebrei o artista para formar um pastor.' E naquele dia eu chorei e falei: 'Deus, tô na tua mão.'&quot;</em></p>
+
+               <h3>Por Que Deus Precisa Nos Quebrar?</h3>
+               <p>Às vezes, Deus permite que passemos por:</p>
+               <ul>
+                 <li>• <strong>Acusações falsas</strong> — para aprendermos a depender dEle, não da aprovação humana</li>
+                 <li>• <strong>Dor do julgamento</strong> — para desenvolvermos compaixão pelos outros</li>
+                 <li>• <strong>Portas fechadas</strong> — para nos direcionar ao propósito verdadeiro</li>
+                 <li>• <strong>Quebrantamento</strong> — para nos moldar conforme a imagem de Cristo</li>
+               </ul>
+               <p>Samuel reconheceu:</p>
+               <p><em>&quot;Talvez como artista, como cantor, talvez eu desse certo ser do jeito que eu era. Mas como pastor, não. Precisei ser quebrado.&quot;</em></p>
+
+               <h2>🎯 Mensagem Para Quem Está Sendo Quebrado</h2>
+               <p>Samuel deixou uma palavra poderosa para quem está passando por situações semelhantes:</p>
+               <p><em>&quot;Se você não fez, acredite nesse Deus que é justo. Deus vai se levantar.&quot;</em></p>
+
+               <h3>Conselhos Práticos:</h3>
+               <ul>
+                 <li>• <strong>Não se vingue</strong> — Confie na justiça de Deus</li>
+                 <li>• <strong>Não viva procurando saber de quem te fez mal</strong> — Foque em viver bem</li>
+                 <li>• <strong>Mantenha-se em paz</strong> — Sua consciência limpa é sua maior defesa</li>
+                 <li>• <strong>Continue orando</strong> — Samuel disse: <em>&quot;Foi o tempo que eu mais orei&quot;</em></li>
+                 <li>• <strong>Não esfrie espiritualmente</strong> — <em>&quot;Não saí de dentro da igreja, tava aqui o tempo todo&quot;</em></li>
+               </ul>
+
+               <h3>✅ A Vida Continua (e é Boa!)</h3>
+               <p>Samuel terminou o podcast com um testemunho de vitória:</p>
+               <p><em>&quot;Completei 22 anos de casado com a mesma mulher. Meu filho é presbítero da igreja. Minha filha diaconisa e cantora. Minha igreja tá bem. Sou pastor de uma linda igreja. Tô bem. Tô em paz.&quot;</em></p>
+               <p>Isso é graça. Isso é restauração. Isso é Deus sendo justo.</p>
+
+               <h2>📖 Lições Para Nossa Vida</h2>
+               <ol style={{paddingLeft: '1.25rem', lineHeight: '1.8'}}>
+                 <li><strong>Deus Usa a Dor para Nos Moldar:</strong> O quebrantamento não é punição — é preparação.</li>
+                 <li><strong>Você Não Precisa Se Defender Sempre:</strong> Às vezes, o silêncio é a melhor defesa.</li>
+                 <li><strong>Relacionamentos Verdadeiros Importam:</strong> Quem te conhece de verdade não acreditará em mentiras.</li>
+                 <li><strong>A Justiça de Deus é Perfeita:</strong> Ele vê tudo. Ele sabe de tudo. Ele agirá no tempo certo.</li>
+                 <li><strong>Canções de Vitória Nascem no Vale:</strong> Suas maiores composições espirituais virão dos momentos mais difíceis.</li>
+                 <li><strong>Pedir Perdão Liberta:</strong> Mesmo quando não fizemos errado, pedir perdão por ter ferido (mesmo sem intenção) mostra maturidade.</li>
+                 <li><strong>Deus Quebra para Reconstruir:</strong> O artista foi quebrado. O pastor foi formado.</li>
+               </ol>
+
+               <h2>🙏 Oração</h2>
+               <blockquote style={{borderLeft: '4px solid #722F37', background: '#fff9f9', padding: '1.5rem', margin: '2rem 0', fontStyle: 'italic', borderRadius: '0 8px 8px 0'}}>
+                 Senhor Jesus,<br/>
+                 Obrigado pelo testemunho de Samuel Mariano.<br/>
+                 Ensina-nos a confiar em Ti quando formos injustamente acusados.<br/>
+                 Dá-nos graça para sermos quebrantados sem sermos destruídos.<br/>
+                 Ajuda-nos a perdoar aqueles que nos feriram.<br/>
+                 Livra-nos da necessidade de vingança.<br/>
+                 Que possamos encontrar em Ti nossa justiça, nossa paz, nossa identidade.<br/>
+                 Usa nossas dores para nos moldar conforme a Tua vontade.<br/>
+                 Em nome de Jesus, amém.
+               </blockquote>
+
+               <h2>📖 Versículos para Meditação</h2>
+               <div style={{background: '#f8f9fa', borderLeft: '4px solid #0066cc', padding: '1.5rem', borderRadius: '0 8px 8px 0', margin: '2rem 0'}}>
+                 <p style={{marginBottom: '1rem'}}>
+                   <strong>Salmo 37:5-6:</strong> &quot;Entregue o seu caminho ao SENHOR; confie nele, e ele tudo fará. Ele fará brilhar a sua justiça como a luz, e o seu direito, como o sol ao meio-dia.&quot;
+                 </p>
+                 <p style={{marginBottom: '1rem'}}>
+                   <strong>1 Pedro 2:23:</strong> &quot;Quando insultado, ele não revidava; quando sofria, não ameaçava, mas continuava a confiar naquele que julga com justiça.&quot;
+                 </p>
+                 <p style={{marginBottom: '1rem'}}>
+                   <strong>Romanos 8:28:</strong> &quot;Sabemos que em todas as coisas Deus trabalha para o bem daqueles que o amam, dos que foram chamados de acordo com o seu propósito.&quot;
+                 </p>
+                 <p style={{marginBottom: '1rem'}}>
+                   <strong>Salmo 34:18:</strong> &quot;O SENHOR está perto dos que têm o coração quebrantado e salva os de espírito abatido.&quot;
+                 </p>
+                 <p style={{marginBottom: 0}}>
+                   <strong>2 Coríntios 1:3-4:</strong> &quot;Bendito seja o Deus e Pai de nosso Senhor Jesus Cristo, Pai das misericórdias e Deus de toda consolação, que nos consola em toda a nossa tribulação, para que também possamos consolar os que estiverem em alguma tribulação, com a consolação com que nós mesmos somos consolados por Deus.&quot;
+                 </p>
+               </div>
+
+               <div style={{background: '#f8f9fa', padding: '1.5rem', borderRadius: '12px', marginTop: '2.5rem', border: '1px solid #e9ecef'}}>
+                 <h3 style={{marginTop: 0, marginBottom: '0.8rem', fontSize: '1.2rem'}}>📺 Fonte e Inspiração:</h3>
+                 <p style={{marginBottom: '1rem', lineHeight: '1.6'}}>
+                   Este artigo foi baseado no testemunho de Samuel Mariano no podcast <strong>TV Debates</strong>, onde ele compartilhou abertamente sobre acusações falsas, quebrantamento e restauração.
+                 </p>
+                 <p style={{marginBottom: 0}}>
+                   📺 <strong>Assista ao vídeo completo:</strong> <br/>
+                   <a href="https://www.youtube.com/watch?v=UsGv2rZhD1s" target="_blank" rel="noreferrer" style={{color: '#0066cc', fontWeight: 'bold', textDecoration: 'underline'}}>
+                     Samuel Mariano fala sobre escândalos e quebrantamento — TV Debates (Eu Acredito Podcast)
+                   </a>
+                 </p>
+               </div>
+
+               <p style={{fontSize: '1.1rem', fontStyle: 'italic', color: '#555', textAlign: 'center', margin: '2rem 0'}}>
+                 &quot;Deus me quebrou. E precisava ser quebrado.&quot; — Que essas palavras ecoem em nossos corações. Às vezes, o caminho para nos tornarmos quem Deus nos chamou para ser passa pelo vale do quebrantamento. Mas no fim desse vale, há restauração, propósito e paz.
+               </p>
+               
+               <p style={{textAlign: 'center', fontWeight: 'bold', marginTop: '2rem'}}>Soli Deo Gloria. 🙏✨</p>
+
+             </div>
+
+             <ShareBar title="Quando Deus Quebra o Artista para Formar um Pastor: O Testemunho de Samuel Mariano" url="/quando-deus-quebra-artista-formar-pastor-testemunho-samuel-mariano" />
+             <RelatedArticles currentLink="/quando-deus-quebra-artista-formar-pastor-testemunho-samuel-mariano" category="Testemunhos" />
            </main>
 
         ) : isBatismoInfantilCerto ? (
