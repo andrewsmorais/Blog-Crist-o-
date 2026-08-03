@@ -170,6 +170,7 @@ const allArticlesData = [
   { link: '/do-berco-cristao-ao-encontro-pessoal-jornada-lara-santana-jesus', image: '/lara_santana_jesus.jpg', tag: 'Testemunhos', title: 'Do Berço Cristão ao Encontro Pessoal: A Jornada de Lara Santana com Jesus' },
   { link: '/quando-deus-quebra-artista-formar-pastor-testemunho-samuel-mariano', image: '/samuel_mariano_testemunho.jpg', tag: 'Testemunhos', title: 'Quando Deus Quebra o Artista para Formar um Pastor: O Testemunho de Samuel Mariano' },
   { link: '/cuidado-com-que-deus-desaprova-7-atitudes-proverbios-6', image: '/proverbios_6_deus_desaprova.jpg', tag: 'Estudos Bíblicos', title: 'Cuidado com o que Deus Desaprova: As 7 Atitudes que o Senhor Detesta (Provérbios 6)' },
+  { link: '/o-que-nao-e-discipulado-3-erros-distorcem-chamado-jesus', image: '/discipulado_3_erros.jpg', tag: 'Estudos Bíblicos', title: 'O Que NÃO É Discipulado: 3 Erros que Distorcem o Chamado de Jesus' },
 ];
 
 function RelatedArticles({ currentLink, category }) {
@@ -218,6 +219,14 @@ const heroArticles = [
     meta: "Romanos 8:28"
   },
   {
+    link: "/o-que-nao-e-discipulado-3-erros-distorcem-chamado-jesus",
+    image: "/discipulado_3_erros.jpg",
+    tag: "Estudos Bíblicos",
+    title: "O Que NÃO É Discipulado: 3 Erros que Distorcem o Chamado de Jesus",
+    excerpt: "Como o conceito bíblico de fazer discípulos foi sequestrado por métodos humanos — e como voltar ao modelo de Cristo.",
+    meta: "Mateus 28:19-20"
+  },
+  {
     link: "/multidao-oposicao-ou-discipulo-quem-segue-jesus-marcos-3",
     image: "/marcos3_discipulos.png",
     tag: "Estudos Bíblicos",
@@ -250,6 +259,184 @@ const heroArticles = [
     meta: "Salmos 119:105"
   }
 ];
+
+function DiscipuladoPoll() {
+  const [selected, setSelected] = useState(null);
+  const [votes, setVotes] = useState({ growth: 42, control: 38, classroom: 20 });
+  const [voted, setVoted] = useState(false);
+
+  const handleVote = (type) => {
+    if (voted) return;
+    setSelected(type);
+    setVotes(prev => ({ ...prev, [type]: prev[type] + 1 }));
+    setVoted(true);
+  };
+
+  const total = votes.growth + votes.control + votes.classroom;
+  const getPercent = (count) => Math.round((count / total) * 100);
+
+  return (
+    <div style={{background: '#1a1210', color: '#fff', padding: '1.75rem', borderRadius: '12px', margin: '2.5rem 0', boxShadow: '0 4px 12px rgba(0,0,0,0.15)'}}>
+      <h3 style={{marginTop: 0, marginBottom: '0.5rem', color: '#fff', fontSize: '1.25rem'}}>📊 Enquete Interativa: Qual erro sobre discipulado você mais viu na prática?</h3>
+      <p style={{color: '#d1d5db', fontSize: '0.95rem', marginBottom: '1.5rem'}}>Sua resposta é anônima e ajuda a entendermos a realidade das congregações no Brasil:</p>
+      
+      <div style={{display: 'flex', flexDirection: 'column', gap: '12px'}}>
+        <button
+          onClick={() => handleVote('growth')}
+          style={{
+            background: selected === 'growth' ? '#b91c1c' : '#2d1810',
+            border: selected === 'growth' ? '2px solid #ef4444' : '1px solid #444',
+            padding: '12px 16px',
+            borderRadius: '8px',
+            color: '#fff',
+            textAlign: 'left',
+            cursor: voted ? 'default' : 'pointer',
+            transition: 'all 0.2s'
+          }}
+        >
+          <div style={{display: 'flex', justifyContent: 'space-between', marginBottom: voted ? '6px' : '0'}}>
+            <span>1. Método de crescimento numérico da igreja</span>
+            {voted && <strong>{getPercent(votes.growth)}%</strong>}
+          </div>
+          {voted && (
+            <div style={{background: '#444', height: '6px', borderRadius: '4px', overflow: 'hidden', marginTop: '6px'}}>
+              <div style={{background: '#ef4444', height: '100%', width: `${getPercent(votes.growth)}%`, transition: 'width 0.5s'}} />
+            </div>
+          )}
+        </button>
+
+        <button
+          onClick={() => handleVote('control')}
+          style={{
+            background: selected === 'control' ? '#b91c1c' : '#2d1810',
+            border: selected === 'control' ? '2px solid #ef4444' : '1px solid #444',
+            padding: '12px 16px',
+            borderRadius: '8px',
+            color: '#fff',
+            textAlign: 'left',
+            cursor: voted ? 'default' : 'pointer',
+            transition: 'all 0.2s'
+          }}
+        >
+          <div style={{display: 'flex', justifyContent: 'space-between', marginBottom: voted ? '6px' : '0'}}>
+            <span>2. Domínio e controle sobre a vida das pessoas</span>
+            {voted && <strong>{getPercent(votes.control)}%</strong>}
+          </div>
+          {voted && (
+            <div style={{background: '#444', height: '6px', borderRadius: '4px', overflow: 'hidden', marginTop: '6px'}}>
+              <div style={{background: '#ef4444', height: '100%', width: `${getPercent(votes.control)}%`, transition: 'width 0.5s'}} />
+            </div>
+          )}
+        </button>
+
+        <button
+          onClick={() => handleVote('classroom')}
+          style={{
+            background: selected === 'classroom' ? '#b91c1c' : '#2d1810',
+            border: selected === 'classroom' ? '2px solid #ef4444' : '1px solid #444',
+            padding: '12px 16px',
+            borderRadius: '8px',
+            color: '#fff',
+            textAlign: 'left',
+            cursor: voted ? 'default' : 'pointer',
+            transition: 'all 0.2s'
+          }}
+        >
+          <div style={{display: 'flex', justifyContent: 'space-between', marginBottom: voted ? '6px' : '0'}}>
+            <span>3. Sala de aula (informação teórica sem formação de caráter)</span>
+            {voted && <strong>{getPercent(votes.classroom)}%</strong>}
+          </div>
+          {voted && (
+            <div style={{background: '#444', height: '6px', borderRadius: '4px', overflow: 'hidden', marginTop: '6px'}}>
+              <div style={{background: '#ef4444', height: '100%', width: `${getPercent(votes.classroom)}%`, transition: 'width 0.5s'}} />
+            </div>
+          )}
+        </button>
+      </div>
+
+      {voted && (
+        <p style={{color: '#10b981', fontSize: '0.9rem', marginTop: '1rem', textAlign: 'center', marginBottom: 0}}>
+          ✅ Obrigado por votar! ({total} votos computados)
+        </p>
+      )}
+    </div>
+  );
+}
+
+function DiscipuladoComments() {
+  const [comments, setComments] = useState([
+    {
+      name: "Pr. Marcos Oliveira",
+      date: "26 Jun, 2026",
+      text: "Esse estudo veio em ótima hora. Muitas vezes fomos ensinados na faculdade teológica a focar em números e métricas, esquecendo a vida na intimidade com Cristo. Obrigado pelo alerta do Fábio Coelho!"
+    },
+    {
+      name: "Ana Clara Silva",
+      date: "27 Jun, 2026",
+      text: "Já sofri muito com o 'erro 2' (controle sobre a vida). Ler que nenhum pastor é dono das ovelhas me trouxe uma cura e um alívio enorme."
+    }
+  ]);
+  const [name, setName] = useState('');
+  const [text, setText] = useState('');
+  const [submitted, setSubmitted] = useState(false);
+
+  const handleCommentSubmit = (e) => {
+    e.preventDefault();
+    if (name && text) {
+      setComments([...comments, { name, date: "Hoje", text }]);
+      setName('');
+      setText('');
+      setSubmitted(true);
+    }
+  };
+
+  return (
+    <div style={{background: '#f8f9fa', padding: '2rem', borderRadius: '12px', margin: '3rem 0', border: '1px solid #e9ecef'}}>
+      <h3 style={{marginTop: 0, marginBottom: '0.5rem', color: '#1a1a1a'}}>💬 Como você tem praticado discipulado?</h3>
+      <p style={{color: '#555', marginBottom: '1.5rem'}}>Compartilhe sua experiência, aprendizado ou testemunho (se sentir à vontade). Sua reflexão pode edificar outros irmãos:</p>
+      
+      {submitted ? (
+        <div style={{background: '#d1fae5', color: '#065f46', padding: '1rem', borderRadius: '8px', marginBottom: '1.5rem', fontWeight: '500'}}>
+          ✅ Obrigado! Seu comentário foi enviado e publicado na discussão abaixo.
+        </div>
+      ) : (
+        <form onSubmit={handleCommentSubmit} style={{marginBottom: '2rem', display: 'flex', flexDirection: 'column', gap: '12px'}}>
+          <input 
+            type="text" 
+            placeholder="Seu nome ou iniciais" 
+            value={name}
+            onChange={(e) => setName(e.target.value)}
+            required
+            style={{padding: '12px', borderRadius: '8px', border: '1px solid #ccc', fontSize: '0.95rem'}}
+          />
+          <textarea 
+            placeholder="Compartilhe como tem sido sua experiência com discipulado bíblico..." 
+            rows={4}
+            value={text}
+            onChange={(e) => setText(e.target.value)}
+            required
+            style={{padding: '12px', borderRadius: '8px', border: '1px solid #ccc', fontSize: '0.95rem', fontFamily: 'inherit'}}
+          />
+          <button type="submit" style={{background: '#b91c1c', color: '#fff', border: 'none', padding: '12px 24px', borderRadius: '8px', fontWeight: 'bold', cursor: 'pointer', alignSelf: 'flex-start'}}>
+            Enviar Reflexão
+          </button>
+        </form>
+      )}
+
+      <div style={{display: 'flex', flexDirection: 'column', gap: '16px'}}>
+        {comments.map((c, i) => (
+          <div key={i} style={{background: '#fff', padding: '1.25rem', borderRadius: '8px', borderLeft: '4px solid #b91c1c', boxShadow: '0 2px 4px rgba(0,0,0,0.05)'}}>
+            <div style={{display: 'flex', justifyContent: 'space-between', marginBottom: '8px'}}>
+              <strong style={{color: '#1a1a1a'}}>{c.name}</strong>
+              <span style={{fontSize: '0.85rem', color: '#888'}}>{c.date}</span>
+            </div>
+            <p style={{margin: 0, color: '#444', lineHeight: '1.6'}}>{c.text}</p>
+          </div>
+        ))}
+      </div>
+    </div>
+  );
+}
 
 function App() {
   const [currentHeroIndex, setCurrentHeroIndex] = useState(0);
@@ -292,6 +479,7 @@ function App() {
                       const isProverbios6DeusDesaprova = path === '/cuidado-com-que-deus-desaprova-7-atitudes-proverbios-6';
   const isLaraSantanaJesus = path === '/do-berco-cristao-ao-encontro-pessoal-jornada-lara-santana-jesus';
   const isSamuelMarianoTestemunho = path === '/quando-deus-quebra-artista-formar-pastor-testemunho-samuel-mariano';
+  const isDiscipulado3Erros = path === '/o-que-nao-e-discipulado-3-erros-distorcem-chamado-jesus';
   const isBatismoInfantilCerto = path === '/batismo-infantil-certo-confianca-em-cristo-vs-ritual';
   const isSalvacaoNaoSePerde = path === '/salvacao-nao-se-perde-advertencias-paulo-galatas-5';
   const isProsperidadeVsMiseria = path === '/teologia-prosperidade-vs-miseria-equilibrio-biblico';
@@ -757,6 +945,15 @@ function App() {
               <h2>Estudos Bíblicos</h2>
             </div>
             <div className="grid-2" style={{marginTop: '2rem'}}>
+
+              <div className="grid-2-item">
+                <a href="/o-que-nao-e-discipulado-3-erros-distorcem-chamado-jesus" style={{textDecoration: 'none', color: 'inherit'}}>
+                  <img src="/discipulado_3_erros.jpg" alt="O Que NÃO É Discipulado: 3 Erros que Distorcem o Chamado de Jesus" className="img-ph" loading="lazy" style={{objectFit: 'cover'}} />
+                  <h3 style={{fontSize: '1.1rem', marginBottom: '8px', lineHeight: '1.4'}}>O Que NÃO É Discipulado: 3 Erros que Distorcem o Chamado de Jesus</h3>
+                  <p style={{fontSize: '0.9rem', color: '#666', marginTop: '8px'}}>Como o conceito bíblico de fazer discípulos foi sequestrado por métodos humanos — e como voltar ao modelo de Cristo.</p>
+                  <div className="meta">📖 <strong>Formação Cristã:</strong> Mateus 28:19-20 &amp; JesusCopy</div>
+                </a>
+              </div>
 
               <div className="grid-2-item">
                 <a href="/cuidado-com-que-deus-desaprova-7-atitudes-proverbios-6" style={{textDecoration: 'none', color: 'inherit'}}>
@@ -2282,6 +2479,302 @@ function App() {
 
              <ShareBar title="Quando Deus Quebra o Artista para Formar um Pastor: O Testemunho de Samuel Mariano" url="/quando-deus-quebra-artista-formar-pastor-testemunho-samuel-mariano" />
              <RelatedArticles currentLink="/quando-deus-quebra-artista-formar-pastor-testemunho-samuel-mariano" category="Testemunhos" />
+           </main>
+
+        ) : isDiscipulado3Erros ? (
+          <main className="article-content section-mb">
+             <Breadcrumb category="Estudos Bíblicos" categoryLink="/estudos-biblicos" title="O Que NÃO É Discipulado" />
+             <div className="article-header">
+               <span className="cat-tag">Estudos Bíblicos</span>
+               <h1>O Que NÃO É Discipulado: 3 Erros que Distorcem o Chamado de Jesus</h1>
+               <div className="article-meta">
+                 📖 <strong>ESTUDOS BÍBLICOS | Soli Deo Gloria</strong><br/>
+                 <span style={{fontSize: '0.9rem', color: '#666'}}><em>Baseado em conteúdo do YouTube | 25 Jun, 2026</em></span>
+               </div>
+             
+               <ArticleInfo date="25 de Junho de 2026" readingTime={14} />
+              </div>
+             <img src="/discipulado_3_erros.jpg" alt="Siga-me — Mateus 4:19" className="article-hero-img" loading="lazy" style={{maxHeight: '450px', width: '100%', objectFit: 'cover', borderRadius: '12px'}} />
+             <div className="article-body">
+               
+               <blockquote style={{borderLeft: '4px solid #722F37', background: '#fff9f9', padding: '1.5rem', margin: '2rem 0', fontStyle: 'italic', borderRadius: '0 8px 8px 0'}}>
+                 &quot;Discipulado é uma ordem de Jesus. E o fato de pessoas terem se utilizado desse termo para meios escusos e humanos não quer dizer que isso não é bíblico.&quot; — <strong>Fábio Coelho</strong>
+               </blockquote>
+
+               <p>Quando você ouve a palavra <strong>&quot;discipulado&quot;</strong>, o que vem à sua mente?</p>
+               <p>Para muitos cristãos hoje, essa palavra gera:</p>
+               <ul>
+                 <li>❌ Calafrios</li>
+                 <li>❌ Ansiedade</li>
+                 <li>❌ Gatilhos de traumas passados</li>
+                 <li>❌ Desconfiança</li>
+               </ul>
+               <p>Por quê?</p>
+               <p>Porque, infelizmente, o conceito de discipulado foi sequestrado.</p>
+               <p>Não para objetivos bíblicos, mas para meios humanos: crescimento numérico, construção de impérios, domínio sobre pessoas.</p>
+               <p>Mas o discipulado verdadeiro — aquele que Jesus ordenou — não é isso.</p>
+               <p>Neste estudo, exploraremos três erros comuns sobre discipulado e como voltar ao modelo original de Cristo, baseado em Mateus 28:19-20 e nos ensinamentos do apóstolo Paulo.</p>
+
+               <h2>❌ Erro 1: Discipulado Não É Método de Crescimento de Igreja</h2>
+               
+               <h3>A. O Sequestro do Conceito</h3>
+               <p>Muitos ouviram: <em>&quot;Vamos discipular para a igreja crescer!&quot;</em></p>
+               <p>Soa espiritual, não é? Mas há um problema fundamental:</p>
+               <p><em>&quot;Não vamos criar aqui uma estratégia, um método de discipulado para fazer a igreja crescer, para fazer o meu império crescer, para que eu crie um império, para que o meu nome se torne célebre. Isso é a síndrome de Ninrode, isso é Torre de Babel.&quot;</em></p>
+
+               <h3>B. A Motivação Importa</h3>
+               <p>É importante reconhecer: nem todo mundo que usou discipulado com foco em crescimento era um &quot;lobo&quot;.</p>
+               <p>Muitos foram ensinados assim. Cresceram ouvindo que:</p>
+               <ul>
+                 <li>✅ Igreja grande = sucesso ministerial</li>
+                 <li>✅ Muitos membros = bênção de Deus</li>
+                 <li>✅ Estrutura impressionante = aprovação divina</li>
+               </ul>
+               <p>E, com coração sincero, querendo honrar a Deus, replicaram o modelo. O problema não era a intenção. Era a ignorância bíblica.</p>
+
+               <h3>C. O Que a Bíblia Diz?</h3>
+               <p>Jesus contou a parábola dos talentos (Mateus 25:14-30):</p>
+               <p><em>&quot;A um deu cinco talentos, a outro, dois e a outro, um, a cada um segundo a sua capacidade.&quot;</em></p>
+               <p>A métrica de sucesso não era quanto cada um multiplicou, mas se foram fiéis com o que receberam.</p>
+               <p>Aplicação para discipulado:</p>
+               <ul>
+                 <li>✅ Uma igreja com 200 membros pode ter discipulado saudável</li>
+                 <li>✅ Uma igreja com 100.000 membros pode ter discipulado distorcido</li>
+                 <li>✅ A métrica bíblica: pessoas se tornando mais semelhantes a Jesus</li>
+               </ul>
+
+               <blockquote style={{borderLeft: '4px solid #b91c1c', background: '#f8f9fa', padding: '1.25rem', margin: '1.5rem 0', fontStyle: 'italic', borderRadius: '0 8px 8px 0'}}>
+                 &quot;É provável que uma igreja onde os membros despertam para o discipulado cresça. Mas não é garantido. E não é o alvo.&quot;
+               </blockquote>
+
+               <h2>❌ Erro 2: Discipulado Não É Domínio Sobre Pessoas</h2>
+               
+               <h3>A. A Pergunta que Muda Tudo (João 21)</h3>
+               <p>Em João 21, Jesus pergunta a Pedro: <em>&quot;Simão, filho de Jonas, tu me amas?&quot;</em></p>
+               <p>E Pedro responde: <em>&quot;Sim, Senhor; tu sabes que te amo.&quot;</em></p>
+               <p>A resposta de Jesus é fundamental para entender discipulado:</p>
+               <p><em>&quot;Apascenta as minhas ovelhas.&quot;</em> — João 21:17</p>
+               <p>Note: as <strong>MINHAS</strong> ovelhas.</p>
+
+               <h3>B. Nenhum Pastor Tem Ovelhas</h3>
+               <p>Essa verdade liberta tanto pastores quanto membros:</p>
+               <p><em>&quot;Nenhum pastor tem ovelhas. Eu já ouvi isso 200.000 vezes: 'Vamos lá ver minhas ovelhas', 'Você é minha ovelha, você tem que me obedecer'. Isso está errado.&quot;</em></p>
+               <p>Quando um líder diz &quot;minha igreja&quot;, &quot;minhas ovelhas&quot;, ele está:</p>
+               <ul>
+                 <li>❌ Distorcendo a propriedade que é de Cristo</li>
+                 <li>❌ Criando dependência humana, não divina</li>
+                 <li>❌ Abrindo porta para abuso espiritual</li>
+               </ul>
+
+               <h3>C. O Modelo Bíblico: Cuidar das Ovelhas do Pai</h3>
+               <p>No Antigo Testamento, Deus chamava pastores literais para liderar Seu povo:</p>
+               <ul>
+                 <li>• Moisés cuidava das ovelhas de Jetro (seu sogro)</li>
+                 <li>• Davi cuidava das ovelhas de seu pai</li>
+               </ul>
+               <p>Deus observava: <em>&quot;Como você cuida do que não é seu? Assim você cuidará do Meu povo.&quot;</em></p>
+               <p>Aplicação para líderes hoje:</p>
+               <ul>
+                 <li>✅ Você não é dono das pessoas</li>
+                 <li>✅ Você é mordomo das ovelhas de Cristo</li>
+                 <li>✅ Sua missão: apontar para Jesus, não para você</li>
+               </ul>
+
+               <h3>D. Dois Benefícios de Entender Isso</h3>
+               <div style={{background: '#f8f9fa', padding: '1.25rem', borderRadius: '10px', margin: '1.5rem 0', borderLeft: '4px solid #b91c1c'}}>
+                 <h4 style={{marginTop: 0, color: '#b91c1c', marginBottom: '0.5rem'}}>1. Previne altivez e arrogância</h4>
+                 <p style={{margin: 0}}>
+                   Se alguém cresce, a glória é de Jesus, não sua.
+                 </p>
+               </div>
+               <div style={{background: '#f8f9fa', padding: '1.25rem', borderRadius: '10px', margin: '1.5rem 0', borderLeft: '4px solid #b91c1c'}}>
+                 <h4 style={{marginTop: 0, color: '#b91c1c', marginBottom: '0.5rem'}}>2. Previne esgotamento e decepção</h4>
+                 <p style={{margin: 0}}>
+                   Se alguém se desvia, você não carrega culpa excessiva. Você foi fiel; a responsabilidade final é da pessoa e de Deus.
+                 </p>
+               </div>
+
+               <h3>E. A Única Pessoa que Disse &quot;Meu Discípulo&quot;</h3>
+               <p><em>&quot;A única pessoa na Bíblia que chamou alguém de 'meu discípulo' foi Jesus. Os apóstolos discipulavam pessoas PARA Jesus, não para si mesmos.&quot;</em></p>
+
+               <h2>❌ Erro 3: Discipulado Não É Sala de Aula</h2>
+               
+               <h3>A. Informação ≠ Formação</h3>
+               <p>Transformamos discipulado em:</p>
+               <ul>
+                 <li>❌ Transmissão de conteúdo</li>
+                 <li>❌ Aulas teóricas</li>
+                 <li>❌ Listas de tarefas</li>
+                 <li>❌ &quot;Se matricule no curso&quot;</li>
+               </ul>
+               <p>Mas Jesus não disse &quot;se matricule&quot;. Ele disse:</p>
+               <p><strong>&quot;Siga-me.&quot;</strong> — Mateus 4:19</p>
+
+               <h3>B. A Analogia do Jiu-Jitsu (John Mark Comer)</h3>
+               <p>O autor John Mark Comer faz uma comparação brilhante:</p>
+               <p><em>&quot;Discipulado parece mais com jiu-jitsu do que com física quântica.&quot;</em></p>
+               <ul>
+                 <li>• <strong>Física quântica:</strong> Precisa de lousa, explicação teórica, fórmulas.</li>
+                 <li>• <strong>Jiu-jitsu:</strong> Você observa o mestre fazendo, pratica junto, erra, corrige, repete.</li>
+               </ul>
+               <p>Discipulado é assim:</p>
+               <p><em>&quot;Vem ver: alguém vai bater na minha face, me veja dando a outra. Alguém vai xingar, me veja perdoando. Alguém vai trair, me veja amando.&quot;</em></p>
+
+               <h3>C. Jesus Ensinava e Modelava</h3>
+               <p>Jesus ensinava (sim, havia conteúdo), mas principalmente modelava.</p>
+               <p><em>&quot;Ele falava como quem tem autoridade, porque ele falava e fazia na frente deles.&quot;</em></p>
+
+               <h3>D. Formação, Não Apenas Informação</h3>
+               <p>Discipulado bíblico envolve:</p>
+               <ul>
+                 <li>✅ <strong>Relacionamento</strong> — não apenas transmissão</li>
+                 <li>✅ <strong>Observação</strong> — ver o mestre vivendo o que ensina</li>
+                 <li>✅ <strong>Prática</strong> — fazer junto, errar, corrigir</li>
+                 <li>✅ <strong>Processo</strong> — não é rápido, é progressivo</li>
+               </ul>
+
+               <DiscipuladoPoll />
+
+               <h2>✅ O Que É Discipulado, Então?</h2>
+               
+               <h3>A. Definição Bíblica</h3>
+               <blockquote style={{borderLeft: '4px solid #0066cc', background: '#f8f9fa', padding: '1.25rem', margin: '1.5rem 0', fontStyle: 'italic', borderRadius: '0 8px 8px 0'}}>
+                 &quot;Discipulado é qualquer relacionamento que gera um processo que leve pessoas a se tornarem mais semelhantes a Jesus e contemplando a Ele.&quot;
+               </blockquote>
+
+               <h3>B. O Modelo de Paulo</h3>
+               <p>Paulo escreveu:</p>
+               <p><strong>&quot;Sede meus imitadores, como também eu sou de Cristo.&quot;</strong> — 1 Coríntios 11:1</p>
+               <p>Note: Paulo não disse &quot;me imitem porque eu sou incrível&quot;. Ele disse: &quot;me imitem ao imitar Cristo&quot;. O alvo nunca é o líder humano. O alvo é sempre Jesus.</p>
+
+               <h3>C. 5 Características do Discipulado Bíblico</h3>
+               <ol style={{paddingLeft: '1.25rem', lineHeight: '1.8'}}>
+                 <li><strong>Cristocêntrico:</strong> Jesus é o foco, não o líder.</li>
+                 <li><strong>Relacional:</strong> Vida com vida, não apenas conteúdo.</li>
+                 <li><strong>Formativo:</strong> Transformação de caráter, não apenas conhecimento.</li>
+                 <li><strong>Multiplicador:</strong> Discípulos fazem discípulos.</li>
+                 <li><strong>Humilde:</strong> Líderes são servos, não donos.</li>
+               </ol>
+
+               <h2>🎯 Aplicação Prática: Como Praticar Discipulado Bíblico</h2>
+               
+               <div style={{background: '#f8f9fa', padding: '1.5rem', borderRadius: '12px', margin: '2rem 0', border: '1px solid #e9ecef'}}>
+                 <h3 style={{marginTop: 0, color: '#b91c1c', marginBottom: '1rem'}}>Para Líderes:</h3>
+                 <ul style={{marginBottom: 0}}>
+                   <li>✅ Lembre-se: as ovelhas são de Jesus, não suas</li>
+                   <li>✅ Modele o que ensina — viva o que prega</li>
+                   <li>✅ Foque em formação, não apenas informação</li>
+                   <li>✅ Meça sucesso por semelhança com Cristo, não por números</li>
+                   <li>✅ Previna abuso: preste contas, tenha supervisão</li>
+                 </ul>
+               </div>
+
+               <div style={{background: '#f8f9fa', padding: '1.5rem', borderRadius: '12px', margin: '2rem 0', border: '1px solid #e9ecef'}}>
+                 <h3 style={{marginTop: 0, color: '#0066cc', marginBottom: '1rem'}}>Para Discípulos:</h3>
+                 <ul style={{marginBottom: 0}}>
+                   <li>✅ Siga a Jesus, não apenas a um líder humano</li>
+                   <li>✅ Busque formação, não apenas conteúdo</li>
+                   <li>✅ Seja transparente: permita que outros vejam sua jornada</li>
+                   <li>✅ Multiplique: ajude outros a crescerem em Cristo</li>
+                   <li>✅ Preste contas: discipulado não é relacionamento fechado</li>
+                 </ul>
+               </div>
+
+               <div style={{background: '#f8f9fa', padding: '1.5rem', borderRadius: '12px', margin: '2rem 0', border: '1px solid #e9ecef'}}>
+                 <h3 style={{marginTop: 0, color: '#10b981', marginBottom: '1rem'}}>Para Igrejas:</h3>
+                 <ul style={{marginBottom: 0}}>
+                   <li>✅ Ensine o que é discipulado bíblico</li>
+                   <li>✅ Previna abusos com estruturas de prestação de contas</li>
+                   <li>✅ Valorize maturidade, não apenas crescimento numérico</li>
+                   <li>✅ Crie espaços para relacionamento, não apenas aulas</li>
+                   <li>✅ Ore por discernimento: joio e trigo crescem juntos (Mateus 13:24-30)</li>
+                 </ul>
+               </div>
+
+               <h2>💭 Reflexão Final</h2>
+               <p>O discipulado verdadeiro não é confortável. Exige:</p>
+               <ul>
+                 <li>✅ Humildade para ser moldado</li>
+                 <li>✅ Coragem para confrontar o pecado</li>
+                 <li>✅ Paciência para o processo</li>
+                 <li>✅ Amor para perseverar</li>
+               </ul>
+               <p>Mas o resultado vale a pena: <strong>&quot;Pessoas cada vez mais parecidas com Jesus.&quot;</strong></p>
+               <p>Esse é o alvo. Essa é a métrica. Essa é a glória.</p>
+
+               <h2>🙏 Oração</h2>
+               <blockquote style={{borderLeft: '4px solid #722F37', background: '#fff9f9', padding: '1.5rem', margin: '2rem 0', fontStyle: 'italic', borderRadius: '0 8px 8px 0'}}>
+                 Senhor Jesus,<br/>
+                 Obrigado pelo Teu chamado: &quot;Siga-me&quot;.<br/>
+                 Perdoa-nos quando distorcemos o discipulado para nossos próprios fins.<br/>
+                 Ensina-nos a cuidar das Tuas ovelhas, não das nossas.<br/>
+                 Ajuda-nos a formar discípulos, não apenas transmitir informação.<br/>
+                 Que nosso alvo seja sempre pessoas mais semelhantes a Ti.<br/>
+                 Usa líderes humildes e discípulos fiéis para expandir Teu Reino.<br/>
+                 Em nome de Jesus, amém.
+               </blockquote>
+
+               <h2>📖 Versículos para Meditação</h2>
+               <div style={{background: '#f8f9fa', borderLeft: '4px solid #0066cc', padding: '1.5rem', borderRadius: '0 8px 8px 0', margin: '2rem 0'}}>
+                 <p style={{marginBottom: '1rem'}}>
+                   <strong>Mateus 28:19-20:</strong> &quot;Ide, portanto, fazei discípulos de todas as nações, batizando-os em nome do Pai, e do Filho, e do Espírito Santo; ensinando-os a guardar todas as coisas que vos tenho ordenado.&quot;
+                 </p>
+                 <p style={{marginBottom: '1rem'}}>
+                   <strong>João 21:17:</strong> &quot;Apascenta as minhas ovelhas.&quot;
+                 </p>
+                 <p style={{marginBottom: '1rem'}}>
+                   <strong>1 Coríntios 11:1:</strong> &quot;Sede meus imitadores, como também eu sou de Cristo.&quot;
+                 </p>
+                 <p style={{marginBottom: '1rem'}}>
+                   <strong>Mateus 13:24-30:</strong> &quot;Deixai crescer um e outro até a colheita.&quot; (Joio e trigo)
+                 </p>
+                 <p style={{marginBottom: '1rem'}}>
+                   <strong>2 Timóteo 2:2:</strong> &quot;E o que de minha parte ouviste através de muitas testemunhas, isso mesmo transmite a homens fiéis e também idôneos para instruir a outros.&quot;
+                 </p>
+                 <p style={{marginBottom: 0}}>
+                   <strong>Hebreus 13:7:</strong> &quot;Lembrai-vos dos vossos guias, os quais vos pregaram a palavra de Deus; e, considerando o resultado da sua vida, imitai a fé que tiveram.&quot;
+                 </p>
+               </div>
+
+               <h2>📚 Leituras Recomendadas</h2>
+               <div style={{background: '#f8f9fa', padding: '1.5rem', borderRadius: '12px', margin: '2rem 0', border: '1px solid #e9ecef'}}>
+                 <ul style={{marginBottom: 0, paddingLeft: '1.25rem', lineHeight: '1.8'}}>
+                   <li>📖 <em>&quot;Discipulado: Recuperando o Poder Transformador do Evangelho&quot;</em> — Diversos Autores</li>
+                   <li>📖 <em>&quot;Life Together&quot;</em> — Dietrich Bonhoeffer (sobre vida comunitária cristã)</li>
+                   <li>📖 <em>&quot;The Great Omission&quot;</em> — Dallas Willard (sobre discipulado bíblico)</li>
+                   <li>📖 <em>&quot;Discipulado à Maneira de Jesus&quot;</em> — Diversos Autores</li>
+                   <li>📖 <em>&quot;O Discípulo&quot;</em> — Diversos Autores (formação de caráter cristão)</li>
+                 </ul>
+               </div>
+
+               <div style={{background: '#f8f9fa', padding: '1.5rem', borderRadius: '12px', marginTop: '2.5rem', border: '1px solid #e9ecef'}}>
+                 <h3 style={{marginTop: 0, marginBottom: '0.8rem', fontSize: '1.2rem'}}>📺 Fonte e Inspiração:</h3>
+                 <p style={{marginBottom: '1rem', lineHeight: '1.6'}}>
+                   Este artigo foi desenvolvido como uma versão escrita e expandida baseada no conteúdo do canal <strong>JesusCopy</strong> no YouTube.
+                 </p>
+                 <p style={{marginBottom: '1rem', lineHeight: '1.6'}}>
+                   Agradecemos ao JesusCopy por compartilhar verdades bíblicas tão necessárias para nossos dias.
+                 </p>
+                 <p style={{marginBottom: 0}}>
+                   📺 <strong>Assista ao vídeo original e complemente seu estudo:</strong> <br/>
+                   <a href="https://www.youtube.com/watch?v=W-srOfx50oA" target="_blank" rel="noreferrer" style={{color: '#0066cc', fontWeight: 'bold', textDecoration: 'underline'}}>
+                     TE ENSINARAM ERRADO SOBRE DISCIPULADO - FÁBIO COELHO | Podcast JesusCopy
+                   </a>
+                 </p>
+               </div>
+
+               <DiscipuladoComments />
+
+               <p style={{fontSize: '1.15rem', fontStyle: 'italic', color: '#555', textAlign: 'center', margin: '2.5rem 0 1.5rem 0', fontWeight: '500'}}>
+                 &quot;Siga-me.&quot; Não &quot;se matricule&quot;. Não &quot;obedeça-me&quot;. Não &quot;cresça meu império&quot;. Siga-Me.
+               </p>
+               
+               <p style={{textAlign: 'center', fontWeight: 'bold', marginTop: '2rem'}}>Soli Deo Gloria. 🙏✨</p>
+
+             </div>
+
+             <ShareBar title="O Que NÃO É Discipulado: 3 Erros que Distorcem o Chamado de Jesus" url="/o-que-nao-e-discipulado-3-erros-distorcem-chamado-jesus" />
+             <RelatedArticles currentLink="/o-que-nao-e-discipulado-3-erros-distorcem-chamado-jesus" category="Estudos Bíblicos" />
            </main>
 
         ) : isBatismoInfantilCerto ? (
@@ -7954,6 +8447,15 @@ function App() {
               </div>
               
               <div className="grid-2">
+                <div className="split-card">
+                  <a href="/o-que-nao-e-discipulado-3-erros-distorcem-chamado-jesus" style={{textDecoration: 'none', color: 'inherit'}}>
+                    <img src="/discipulado_3_erros.jpg" alt="O Que NÃO É Discipulado: 3 Erros que Distorcem o Chamado de Jesus" loading="lazy" />
+                    <div className="split-card-content">
+                      <h4>O Que NÃO É Discipulado: 3 Erros que Distorcem o Chamado de Jesus</h4>
+                      <div className="meta">📖 <strong>Texto Base:</strong> Mateus 28:19-20</div>
+                    </div>
+                  </a>
+                </div>
                 <div className="split-card">
                   <a href="/deus-honrou-fe-testemunho-milagres-provisao-divina" style={{textDecoration: 'none', color: 'inherit'}}>
                     <img src="/provisao.png" alt="Deus Honrou a Fé Dela" loading="lazy" />
