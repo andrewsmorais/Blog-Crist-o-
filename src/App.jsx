@@ -171,6 +171,7 @@ const allArticlesData = [
   { link: '/quando-deus-quebra-artista-formar-pastor-testemunho-samuel-mariano', image: '/samuel_mariano_testemunho.jpg', tag: 'Testemunhos', title: 'Quando Deus Quebra o Artista para Formar um Pastor: O Testemunho de Samuel Mariano' },
   { link: '/cuidado-com-que-deus-desaprova-7-atitudes-proverbios-6', image: '/proverbios_6_deus_desaprova.jpg', tag: 'Estudos Bíblicos', title: 'Cuidado com o que Deus Desaprova: As 7 Atitudes que o Senhor Detesta (Provérbios 6)' },
   { link: '/o-que-nao-e-discipulado-3-erros-distorcem-chamado-jesus', image: '/discipulado_3_erros.jpg', tag: 'Estudos Bíblicos', title: 'O Que NÃO É Discipulado: 3 Erros que Distorcem o Chamado de Jesus' },
+  { link: '/amor-aos-inimigos-chamado-radical-jesus-sermao-monte-mateus-5-43-48', image: '/amor_aos_inimigos.jpg', tag: 'Estudos Bíblicos', title: 'O Amor aos Inimigos: O Chamado Radical de Jesus no Sermão do Monte (Mateus 5:43-48)' },
 ];
 
 function RelatedArticles({ currentLink, category }) {
@@ -225,6 +226,14 @@ const heroArticles = [
     title: "O Que NÃO É Discipulado: 3 Erros que Distorcem o Chamado de Jesus",
     excerpt: "Como o conceito bíblico de fazer discípulos foi sequestrado por métodos humanos — e como voltar ao modelo de Cristo.",
     meta: "Mateus 28:19-20"
+  },
+  {
+    link: "/amor-aos-inimigos-chamado-radical-jesus-sermao-monte-mateus-5-43-48",
+    image: "/amor_aos_inimigos.jpg",
+    tag: "Estudos Bíblicos",
+    title: "O Amor aos Inimigos: O Chamado Radical de Jesus no Sermão do Monte (Mateus 5:43-48)",
+    excerpt: "Como amar quem nos persegue não é emoção, mas ação — e por que esse mandamento revela a maturidade espiritual e o testemunho do Reino.",
+    meta: "Mateus 5:44"
   },
   {
     link: "/multidao-oposicao-ou-discipulo-quem-segue-jesus-marcos-3",
@@ -438,6 +447,184 @@ function DiscipuladoComments() {
   );
 }
 
+function AmorInimigosPoll() {
+  const [selected, setSelected] = useState(null);
+  const [votes, setVotes] = useState({ pray: 45, forgive: 32, control: 23 });
+  const [voted, setVoted] = useState(false);
+
+  const handleVote = (type) => {
+    if (voted) return;
+    setSelected(type);
+    setVotes(prev => ({ ...prev, [type]: prev[type] + 1 }));
+    setVoted(true);
+  };
+
+  const total = votes.pray + votes.forgive + votes.control;
+  const getPercent = (count) => Math.round((count / total) * 100);
+
+  return (
+    <div style={{background: '#1a1210', color: '#fff', padding: '1.75rem', borderRadius: '12px', margin: '2.5rem 0', boxShadow: '0 4px 12px rgba(0,0,0,0.15)'}}>
+      <h3 style={{marginTop: 0, marginBottom: '0.5rem', color: '#fff', fontSize: '1.25rem'}}>📊 Enquete Interativa: Qual é o maior desafio para amar quem nos feriu?</h3>
+      <p style={{color: '#d1d5db', fontSize: '0.95rem', marginBottom: '1.5rem'}}>Sua resposta é anônima e ajuda a refletirmos sobre a aplicação prática do Sermão do Monte:</p>
+      
+      <div style={{display: 'flex', flexDirection: 'column', gap: '12px'}}>
+        <button
+          onClick={() => handleVote('pray')}
+          style={{
+            background: selected === 'pray' ? '#b91c1c' : '#2d1810',
+            border: selected === 'pray' ? '2px solid #ef4444' : '1px solid #444',
+            padding: '12px 16px',
+            borderRadius: '8px',
+            color: '#fff',
+            textAlign: 'left',
+            cursor: voted ? 'default' : 'pointer',
+            transition: 'all 0.2s'
+          }}
+        >
+          <div style={{display: 'flex', justifyContent: 'space-between', marginBottom: voted ? '6px' : '0'}}>
+            <span>1. Orar sinceramente pela bênção e transformação de quem nos machucou</span>
+            {voted && <strong>{getPercent(votes.pray)}%</strong>}
+          </div>
+          {voted && (
+            <div style={{background: '#444', height: '6px', borderRadius: '4px', overflow: 'hidden', marginTop: '6px'}}>
+              <div style={{background: '#ef4444', height: '100%', width: `${getPercent(votes.pray)}%`, transition: 'width 0.5s'}} />
+            </div>
+          )}
+        </button>
+
+        <button
+          onClick={() => handleVote('forgive')}
+          style={{
+            background: selected === 'forgive' ? '#b91c1c' : '#2d1810',
+            border: selected === 'forgive' ? '2px solid #ef4444' : '1px solid #444',
+            padding: '12px 16px',
+            borderRadius: '8px',
+            color: '#fff',
+            textAlign: 'left',
+            cursor: voted ? 'default' : 'pointer',
+            transition: 'all 0.2s'
+          }}
+        >
+          <div style={{display: 'flex', justifyContent: 'space-between', marginBottom: voted ? '6px' : '0'}}>
+            <span>2. Perdoar e liberar o coração sem exigir um pedido de desculpas</span>
+            {voted && <strong>{getPercent(votes.forgive)}%</strong>}
+          </div>
+          {voted && (
+            <div style={{background: '#444', height: '6px', borderRadius: '4px', overflow: 'hidden', marginTop: '6px'}}>
+              <div style={{background: '#ef4444', height: '100%', width: `${getPercent(votes.forgive)}%`, transition: 'width 0.5s'}} />
+            </div>
+          )}
+        </button>
+
+        <button
+          onClick={() => handleVote('control')}
+          style={{
+            background: selected === 'control' ? '#b91c1c' : '#2d1810',
+            border: selected === 'control' ? '2px solid #ef4444' : '1px solid #444',
+            padding: '12px 16px',
+            borderRadius: '8px',
+            color: '#fff',
+            textAlign: 'left',
+            cursor: voted ? 'default' : 'pointer',
+            transition: 'all 0.2s'
+          }}
+        >
+          <div style={{display: 'flex', justifyContent: 'space-between', marginBottom: voted ? '6px' : '0'}}>
+            <span>3. Controlar o desejo natural de retribuir com a mesma moeda</span>
+            {voted && <strong>{getPercent(votes.control)}%</strong>}
+          </div>
+          {voted && (
+            <div style={{background: '#444', height: '6px', borderRadius: '4px', overflow: 'hidden', marginTop: '6px'}}>
+              <div style={{background: '#ef4444', height: '100%', width: `${getPercent(votes.control)}%`, transition: 'width 0.5s'}} />
+            </div>
+          )}
+        </button>
+      </div>
+
+      {voted && (
+        <p style={{color: '#10b981', fontSize: '0.9rem', marginTop: '1rem', textAlign: 'center', marginBottom: 0}}>
+          ✅ Obrigado por votar! ({total} votos computados)
+        </p>
+      )}
+    </div>
+  );
+}
+
+function AmorInimigosComments() {
+  const [comments, setComments] = useState([
+    {
+      name: "Pr. Ricardo Mendes",
+      date: "26 Jun, 2026",
+      text: "Esse mandamento do Sermão do Monte sempre nos quebra. Muitas vezes tentamos justificar nossa mágoa com 'justiça', mas Jesus nos lembra que o amor cristão é uma escolha diária do Reino, não emoção. Excelente estudo!"
+    },
+    {
+      name: "Helena Souza",
+      date: "27 Jun, 2026",
+      text: "A citação do C.S. Lewis tirou um peso enorme das minhas costas. Eu achava que perdoar era fingir que a pessoa era maravilhosa. Saber que é desejar o bem sem ter que sentir afeto mudou minha vida de oração!"
+    }
+  ]);
+  const [name, setName] = useState('');
+  const [text, setText] = useState('');
+  const [submitted, setSubmitted] = useState(false);
+
+  const handleCommentSubmit = (e) => {
+    e.preventDefault();
+    if (name && text) {
+      setComments([...comments, { name, date: "Hoje", text }]);
+      setName('');
+      setText('');
+      setSubmitted(true);
+    }
+  };
+
+  return (
+    <div style={{background: '#f8f9fa', padding: '2rem', borderRadius: '12px', margin: '3rem 0', border: '1px solid #e9ecef'}}>
+      <h3 style={{marginTop: 0, marginBottom: '0.5rem', color: '#1a1a1a'}}>💬 Você tem alguém por quem precisa orar hoje?</h3>
+      <p style={{color: '#555', marginBottom: '1.5rem'}}>Compartilhe como você tem lidado com o desafio de perdoar e amar inimigos, ou deixe seu testemunho (se sentir à vontade):</p>
+      
+      {submitted ? (
+        <div style={{background: '#d1fae5', color: '#065f46', padding: '1rem', borderRadius: '8px', marginBottom: '1.5rem', fontWeight: '500'}}>
+          ✅ Obrigado! Seu comentário foi enviado e publicado na discussão abaixo.
+        </div>
+      ) : (
+        <form onSubmit={handleCommentSubmit} style={{marginBottom: '2rem', display: 'flex', flexDirection: 'column', gap: '12px'}}>
+          <input 
+            type="text" 
+            placeholder="Seu nome ou iniciais" 
+            value={name}
+            onChange={(e) => setName(e.target.value)}
+            required
+            style={{padding: '12px', borderRadius: '8px', border: '1px solid #ccc', fontSize: '0.95rem'}}
+          />
+          <textarea 
+            placeholder="Compartilhe sua reflexão, aprendizado ou testemunho sobre o amor aos inimigos..." 
+            rows={4}
+            value={text}
+            onChange={(e) => setText(e.target.value)}
+            required
+            style={{padding: '12px', borderRadius: '8px', border: '1px solid #ccc', fontSize: '0.95rem', fontFamily: 'inherit'}}
+          />
+          <button type="submit" style={{background: '#b91c1c', color: '#fff', border: 'none', padding: '12px 24px', borderRadius: '8px', fontWeight: 'bold', cursor: 'pointer', alignSelf: 'flex-start'}}>
+            Enviar Reflexão
+          </button>
+        </form>
+      )}
+
+      <div style={{display: 'flex', flexDirection: 'column', gap: '16px'}}>
+        {comments.map((c, i) => (
+          <div key={i} style={{background: '#fff', padding: '1.25rem', borderRadius: '8px', borderLeft: '4px solid #b91c1c', boxShadow: '0 2px 4px rgba(0,0,0,0.05)'}}>
+            <div style={{display: 'flex', justifyContent: 'space-between', marginBottom: '8px'}}>
+              <strong style={{color: '#1a1a1a'}}>{c.name}</strong>
+              <span style={{fontSize: '0.85rem', color: '#888'}}>{c.date}</span>
+            </div>
+            <p style={{margin: 0, color: '#444', lineHeight: '1.6'}}>{c.text}</p>
+          </div>
+        ))}
+      </div>
+    </div>
+  );
+}
+
 function App() {
   const [currentHeroIndex, setCurrentHeroIndex] = useState(0);
 
@@ -480,6 +667,7 @@ function App() {
   const isLaraSantanaJesus = path === '/do-berco-cristao-ao-encontro-pessoal-jornada-lara-santana-jesus';
   const isSamuelMarianoTestemunho = path === '/quando-deus-quebra-artista-formar-pastor-testemunho-samuel-mariano';
   const isDiscipulado3Erros = path === '/o-que-nao-e-discipulado-3-erros-distorcem-chamado-jesus';
+  const isAmorAosInimigos = path === '/amor-aos-inimigos-chamado-radical-jesus-sermao-monte-mateus-5-43-48';
   const isBatismoInfantilCerto = path === '/batismo-infantil-certo-confianca-em-cristo-vs-ritual';
   const isSalvacaoNaoSePerde = path === '/salvacao-nao-se-perde-advertencias-paulo-galatas-5';
   const isProsperidadeVsMiseria = path === '/teologia-prosperidade-vs-miseria-equilibrio-biblico';
@@ -945,6 +1133,15 @@ function App() {
               <h2>Estudos Bíblicos</h2>
             </div>
             <div className="grid-2" style={{marginTop: '2rem'}}>
+
+              <div className="grid-2-item">
+                <a href="/amor-aos-inimigos-chamado-radical-jesus-sermao-monte-mateus-5-43-48" style={{textDecoration: 'none', color: 'inherit'}}>
+                  <img src="/amor_aos_inimigos.jpg" alt="O Amor aos Inimigos: O Chamado Radical de Jesus no Sermão do Monte" className="img-ph" loading="lazy" style={{objectFit: 'cover'}} />
+                  <h3 style={{fontSize: '1.1rem', marginBottom: '8px', lineHeight: '1.4'}}>O Amor aos Inimigos: O Chamado Radical de Jesus no Sermão do Monte</h3>
+                  <p style={{fontSize: '0.9rem', color: '#666', marginTop: '8px'}}>Como amar quem nos persegue não é emoção, mas ação — e por que esse mandamento revela a maturidade espiritual e o testemunho do Reino.</p>
+                  <div className="meta">📖 <strong>Sermão do Monte:</strong> Mateus 5:43-48 &amp; JesusCopy</div>
+                </a>
+              </div>
 
               <div className="grid-2-item">
                 <a href="/o-que-nao-e-discipulado-3-erros-distorcem-chamado-jesus" style={{textDecoration: 'none', color: 'inherit'}}>
@@ -2479,6 +2676,326 @@ function App() {
 
              <ShareBar title="Quando Deus Quebra o Artista para Formar um Pastor: O Testemunho de Samuel Mariano" url="/quando-deus-quebra-artista-formar-pastor-testemunho-samuel-mariano" />
              <RelatedArticles currentLink="/quando-deus-quebra-artista-formar-pastor-testemunho-samuel-mariano" category="Testemunhos" />
+           </main>
+
+        ) : isAmorAosInimigos ? (
+          <main className="article-content section-mb">
+             <Breadcrumb category="Estudos Bíblicos" categoryLink="/estudos-biblicos" title="O Amor aos Inimigos" />
+             <div className="article-header">
+               <span className="cat-tag">Estudos Bíblicos</span>
+               <h1>O Amor aos Inimigos: O Chamado Radical de Jesus no Sermão do Monte (Mateus 5:43-48)</h1>
+               <div className="article-meta">
+                 📖 <strong>ESTUDOS BÍBLICOS | Soli Deo Gloria</strong><br/>
+                 <span style={{fontSize: '0.9rem', color: '#666'}}><em>Baseado em conteúdo do YouTube | 25 Jun, 2026</em></span>
+               </div>
+             
+               <ArticleInfo date="25 de Junho de 2026" readingTime={13} />
+              </div>
+             <img src="/amor_aos_inimigos.jpg" alt="Amai os vossos inimigos — Mateus 5:44" className="article-hero-img" loading="lazy" style={{maxHeight: '450px', width: '100%', objectFit: 'cover', borderRadius: '12px'}} />
+             <div className="article-body">
+               
+               <blockquote style={{borderLeft: '4px solid #722F37', background: '#fff9f9', padding: '1.5rem', margin: '2rem 0', fontStyle: 'italic', borderRadius: '0 8px 8px 0'}}>
+                 &quot;Como seguidores de Jesus, nós devemos trilhar um caminho distinto daqueles que não seguem. E isso inclui amar os nossos inimigos.&quot;
+               </blockquote>
+
+               <p>Quando Jesus disse <em>&quot;Amai os vossos inimigos e orai pelos que vos perseguem&quot;</em> (Mateus 5:44), Ele não estava propondo um conselho opcional para cristãos &quot;avançados&quot;.</p>
+               <p>Estava estabelecendo um <strong>marcador essencial do Reino de Deus</strong>.</p>
+               <p>Neste estudo, exploraremos o que Jesus realmente ensinou sobre amar inimigos em <strong>Mateus 5:43-48</strong>, desmontando interpretações erradas e revelando como esse mandamento radical é:</p>
+               <ul>
+                 <li>✅ Um sinal de maturidade espiritual</li>
+                 <li>✅ Um reflexo do caráter de Deus</li>
+                 <li>✅ Um testemunho poderoso ao mundo</li>
+               </ul>
+
+               <h2>📖 O Contexto: Jesus Corrige uma Interpretação Errada</h2>
+               
+               <h3>A. &quot;Vocês Ouviram que Foi Dito...&quot;</h3>
+               <p>Jesus continua a lógica que já vinha usando no Sermão do Monte:</p>
+               <p><em>&quot;Vocês ouviram que foi dito: Amarás o teu próximo e odiarás o teu inimigo. Eu, porém, vos digo: Amai os vossos inimigos e orai pelos que vos perseguem.&quot;</em> — <strong>Mateus 5:43-44</strong></p>
+
+               <h3>B. &quot;Odeia o Teu Inimigo&quot; Não Está na Bíblia</h3>
+               <p>Um detalhe crucial: a frase <em>&quot;odia o teu inimigo&quot;</em> <strong>não está na Bíblia</strong>.</p>
+               <p>Não aparece no Antigo Testamento. Não foi um mandamento divino.</p>
+               <p>Era uma má interpretação cultural da época — uma lógica humana que dizia:</p>
+               <p><em>&quot;Se eu amo quem me ama, automaticamente odeio quem me odeia.&quot;</em></p>
+               <p>Jesus não está corrigindo a Lei de Deus. Está combatendo uma distorção humana que transformou amor em tribalismo.</p>
+
+               <h3>C. Quem Era o &quot;Inimigo&quot; para os Ouvintes de Jesus?</h3>
+               <p>Naquele contexto, &quot;inimigo&quot; incluía:</p>
+               <ul>
+                 <li>❌ Romanos que ocupavam a terra</li>
+                 <li>❌ Samaritanos considerados hereges</li>
+                 <li>❌ Perseguidores religiosos</li>
+                 <li>❌ Qualquer pessoa que nos odeia, persegue, diminui ou amaldiçoa</li>
+               </ul>
+               <p><strong>Aplicação hoje:</strong> Inimigo é quem nos fere, nos rejeita, nos difama, nos persegue.</p>
+               <p>E Jesus diz: <strong>Ame-os.</strong></p>
+
+               <h2>💭 Amor Cristão: Ação, Não Emoção</h2>
+               
+               <h3>A. A Confusão Moderna Sobre Amor</h3>
+               <p>Vivemos em uma cultura que define amor como:</p>
+               <ul>
+                 <li>❌ Sentimento (frio na barriga, paixão, euforia)</li>
+                 <li>❌ Atração natural (gostar de quem nos faz bem)</li>
+                 <li>❌ Emoção espontânea (amar porque &quot;sinto&quot;)</li>
+               </ul>
+               <p>Mas Jesus redefine amor como <strong>ação intencional</strong>.</p>
+
+               <h3>B. 1 Coríntios 13: Comportamentos, Não Sentimentos</h3>
+               <p><em>&quot;O amor é paciente, o amor é bondoso... não se irrita facilmente, não guarda rancor.&quot;</em> — <strong>1 Coríntios 13:4-7</strong></p>
+               <p>Note: Paulo descreve comportamentos, não sentimentos.</p>
+
+               <h3>C. Por Que Isso Importa Para Amar Inimigos?</h3>
+               <p>Porque:</p>
+               <ul>
+                 <li>✅ Você não controla como se sente quando alguém te fere</li>
+                 <li>✅ Mas você controla como age em resposta</li>
+                 <li>✅ Amor cristão é escolher o bem, mesmo quando a emoção diz o contrário</li>
+               </ul>
+
+               <blockquote style={{borderLeft: '4px solid #b91c1c', background: '#f8f9fa', padding: '1.25rem', margin: '1.5rem 0', fontStyle: 'italic', borderRadius: '0 8px 8px 0'}}>
+                 &quot;Uma pessoa pode sentir 'amor', mas agir de maneira grosseira. Então não está agindo em amor.&quot;
+               </blockquote>
+
+               <p>Amar o inimigo não é sentir afeto por ele.</p>
+               <p>É agir com gentileza, orar por ele, desejar o bem dele — mesmo quando o coração dói.</p>
+
+               <h2>🎯 3 Motivos Para Amar os Inimigos</h2>
+               
+               <h3>1️⃣ Mostra Nossa Maturidade Espiritual</h3>
+               <p><em>&quot;Somente quem tem maturidade no Senhor consegue amar os inimigos. Quem é imaturo na fé só ama aqueles que convém.&quot;</em></p>
+               <p>Amar quem nos ama é natural. Até os &quot;publicanos&quot; (coletores de impostos desprezados) faziam isso (Mateus 5:46).</p>
+               <p>Amar quem nos persegue? Isso exige:</p>
+               <ul>
+                 <li>✅ Compreensão do evangelho da graça</li>
+                 <li>✅ Dependência do Espírito Santo</li>
+                 <li>✅ Obediência que supera a emoção</li>
+               </ul>
+               <p>Maturidade espiritual não é saber muito. É amar como Jesus amou.</p>
+
+               <h3>2️⃣ Reflete o Caráter de Deus</h3>
+               <p><em>&quot;Ele faz raiar o sol sobre maus e bons e derrama chuva sobre justos e injustos.&quot;</em> — <strong>Mateus 5:45</strong></p>
+               <p>Deus é bom com todos — inclusive com quem O rejeita:</p>
+               <ul>
+                 <li>✅ O sol nasce para o crente e para o ateu</li>
+                 <li>✅ A chuva cai sobre o justo e o injusto</li>
+                 <li>✅ A graça comum beneficia a todos</li>
+               </ul>
+               <p>Quando amamos inimigos, espelhamos esse caráter divino. Não porque eles merecem. Mas porque Deus é assim.</p>
+
+               <h3>3️⃣ É Um Testemunho Poderoso</h3>
+               <p><em>&quot;Para que venham a ser filhos do vosso Pai que está nos céus.&quot;</em> — <strong>Mateus 5:45</strong></p>
+               <p>Amar inimigos não é sobre &quot;ser bonzinho&quot;. É sobre dar testemunho de quem é o nosso Deus.</p>
+               <p>Quando o mundo vê:</p>
+               <ul>
+                 <li>✅ Um cristão perdoando quem o feriu</li>
+                 <li>✅ Um seguidor de Jesus orando por quem o persegue</li>
+                 <li>✅ Um discípulo estendendo a mão a quem o rejeitou</li>
+               </ul>
+               <p>...eles veem algo sobrenatural.</p>
+               <p><em>&quot;Nisso conhecerão todos que sois meus discípulos: se tiverdes amor uns aos outros.&quot;</em> — <strong>João 13:35</strong></p>
+
+               <h2>🙏 Amar e Orar: Uma Conexão Transformadora</h2>
+               
+               <p>Jesus une duas ações: <em>&quot;Amai os vossos inimigos e orai pelos que vos perseguem.&quot;</em> — <strong>Mateus 5:44</strong></p>
+
+               <h3>Por Que Orar Pelo Inimigo?</h3>
+               <div style={{background: '#f8f9fa', padding: '1.25rem', borderRadius: '10px', margin: '1.5rem 0', borderLeft: '4px solid #b91c1c'}}>
+                 <h4 style={{marginTop: 0, color: '#b91c1c', marginBottom: '0.5rem'}}>1. A oração nos molda</h4>
+                 <p style={{margin: 0}}>
+                   Quando oramos por alguém que nos feriu, nosso coração começa a mudar. Paramos de desumanizar a pessoa e passamos a vê-la como imagem e semelhança de Deus.
+                 </p>
+               </div>
+               <div style={{background: '#f8f9fa', padding: '1.25rem', borderRadius: '10px', margin: '1.5rem 0', borderLeft: '4px solid #b91c1c'}}>
+                 <h4 style={{marginTop: 0, color: '#b91c1c', marginBottom: '0.5rem'}}>2. A oração confronta nosso ego</h4>
+                 <p style={{margin: 0}}>
+                   Orar por quem tem algo que invejamos nos lembra: &quot;Deus é quem dá. Não sou eu.&quot;
+                 </p>
+               </div>
+               <div style={{background: '#f8f9fa', padding: '1.25rem', borderRadius: '10px', margin: '1.5rem 0', borderLeft: '4px solid #b91c1c'}}>
+                 <h4 style={{marginTop: 0, color: '#b91c1c', marginBottom: '0.5rem'}}>3. A oração libera perdão</h4>
+                 <p style={{margin: 0}}>
+                   Não é fácil. Mas é libertador.
+                 </p>
+               </div>
+
+               <h3>Um Exercício Prático</h3>
+               <p>Se você tem dificuldade com alguém:</p>
+               <ol style={{paddingLeft: '1.25rem', lineHeight: '1.8'}}>
+                 <li><strong>Escreva o nome da pessoa</strong></li>
+                 <li><strong>Ore especificamente por ela:</strong>
+                   <ul style={{marginTop: '0.5rem'}}>
+                     <li>• Pela conversão dela</li>
+                     <li>• Pela cura das feridas dela</li>
+                     <li>• Pelas bênçãos de Deus na vida dela</li>
+                   </ul>
+                 </li>
+                 <li><strong>Repita diariamente</strong>, mesmo sem &quot;sentir&quot;</li>
+               </ol>
+
+               <blockquote style={{borderLeft: '4px solid #722F37', background: '#fff9f9', padding: '1.25rem', margin: '1.5rem 0', fontStyle: 'italic', borderRadius: '0 8px 8px 0'}}>
+                 &quot;No primeiro momento, pode soar como hipocrisia. Mas o amor é atitude, não sentir.&quot;
+               </blockquote>
+
+               <h2>❌ O Que Amar Inimigos NÃO É</h2>
+               
+               <blockquote style={{borderLeft: '4px solid #0066cc', background: '#f8f9fa', padding: '1.5rem', margin: '2rem 0', fontStyle: 'italic', borderRadius: '0 8px 8px 0'}}>
+                 &quot;Amar meus inimigos não é o mesmo que considerá-los boas pessoas... Amar o próximo é desejar o seu bem, sem ter de sentir afeto nem dizer que ele é gentil quando ele não é.&quot; — <strong>C.S. Lewis, em &quot;Cristianismo Puro e Simples&quot;</strong>
+               </blockquote>
+
+               <h3>Amar Inimigos Não Significa:</h3>
+               <ul>
+                 <li>❌ Fingir que a pessoa não nos feriu</li>
+                 <li>❌ Dizer &quot;não foi nada&quot; quando foi</li>
+                 <li>❌ Justificar comportamentos abusivos</li>
+                 <li>❌ Permitir que continuem nos machucando</li>
+                 <li>❌ Criar uma narrativa falsa sobre quem eles são</li>
+               </ul>
+
+               <h3>Amar Inimigos Significa:</h3>
+               <ul>
+                 <li>✅ Reconhecer a ferida, mas escolher não retribuir com mal</li>
+                 <li>✅ Desejar o bem eterno da pessoa (salvação, transformação)</li>
+                 <li>✅ Agir com gentileza quando possível e seguro</li>
+                 <li>✅ Orar pela vida dela, mesmo sem sentir afeto</li>
+                 <li>✅ Confiar que Deus é o justo Juiz (Romanos 12:19)</li>
+               </ul>
+
+               <p><em>&quot;Não precisamos tapar o sol com a peneira para amar. Precisamos confiar que Deus nos capacita a amar quem não merece — porque nós também fomos amados sem merecer.&quot;</em></p>
+
+               <AmorInimigosPoll />
+
+               <h2>🎯 &quot;Sede Perfeitos Como Perfeito É o Vosso Pai&quot;</h2>
+               
+               <p><em>&quot;Portanto, sede perfeitos como perfeito é o vosso Pai celeste.&quot;</em> — <strong>Mateus 5:48</strong></p>
+
+               <h3>A. Uma Meta, Não Uma Conquista Imediata</h3>
+               <p>Sim, é impossível alcançar a perfeição moral de Deus nesta vida.</p>
+               <p>Mas Jesus não está dizendo: &quot;Sejam perfeitos agora ou desistam.&quot;</p>
+               <p>Está dizendo: <strong>&quot;Tenham esse alvo. Vivam em direção a isso.&quot;</strong></p>
+
+               <h3>B. Uma Marca do Cristão Maduro</h3>
+               <p>Uma das marcas de quem busca essa perfeição é:</p>
+               <ul>
+                 <li>✅ Amar quem não convém amar</li>
+                 <li>✅ Ser gentil com quem não merece gentileza</li>
+                 <li>✅ Orar por quem nos persegue</li>
+                 <li>✅ Viver diferente do mundo</li>
+               </ul>
+               <p>Isso não é tolice. É <strong>sabedoria do Reino</strong>.</p>
+
+               <h2>🛠️ Aplicação Prática: Como Amar Inimigos Hoje</h2>
+               
+               <div style={{background: '#f8f9fa', padding: '1.5rem', borderRadius: '12px', margin: '2rem 0', border: '1px solid #e9ecef'}}>
+                 <h3 style={{marginTop: 0, color: '#b91c1c', marginBottom: '1rem'}}>Para Quem Tem &quot;Inimigos&quot; Reais:</h3>
+                 <ul style={{marginBottom: 0, paddingLeft: '1.25rem', lineHeight: '1.8'}}>
+                   <li>• <strong>Identifique</strong> — Quem é a pessoa que desperta ressentimento em você?</li>
+                   <li>• <strong>Ore</strong> — Comece orando 1 minuto por dia por ela</li>
+                   <li>• <strong>Aja</strong> — Se houver oportunidade segura, estenda gentileza</li>
+                   <li>• <strong>Confie</strong> — Seu compromisso é com Deus, não com a resposta da pessoa</li>
+                 </ul>
+               </div>
+
+               <div style={{background: '#f8f9fa', padding: '1.5rem', borderRadius: '12px', margin: '2rem 0', border: '1px solid #e9ecef'}}>
+                 <h3 style={{marginTop: 0, color: '#0066cc', marginBottom: '1rem'}}>Para Quem Luta Com Sentimentos:</h3>
+                 <ul style={{marginBottom: 0, paddingLeft: '1.25rem', lineHeight: '1.8'}}>
+                   <li>• <strong>Reconheça</strong> — É normal sentir mágoa, raiva, tristeza</li>
+                   <li>• <strong>Escolha</strong> — Amor é ação; decida agir bem, mesmo sentindo mal</li>
+                   <li>• <strong>Repita</strong> — A prática transforma o coração ao longo do tempo</li>
+                 </ul>
+               </div>
+
+               <div style={{background: '#f8f9fa', padding: '1.5rem', borderRadius: '12px', margin: '2rem 0', border: '1px solid #e9ecef'}}>
+                 <h3 style={{marginTop: 0, color: '#10b981', marginBottom: '1rem'}}>Para Quem Questiona &quot;Por Que Eu?&quot;:</h3>
+                 <ul style={{marginBottom: 0, paddingLeft: '1.25rem', lineHeight: '1.8'}}>
+                   <li>• <strong>Lembre-se</strong> — Você foi amado por Deus sem merecer</li>
+                   <li>• <strong>Confie</strong> — O Espírito Santo capacita o que a carne não consegue</li>
+                   <li>• <strong>Testemunhe</strong> — Seu amor incomum aponta para um Deus incomum</li>
+                 </ul>
+               </div>
+
+               <h2>💭 Reflexão Final</h2>
+               <p>Jesus não nos chamou para uma fé confortável. Chamou-nos para viver diferente.</p>
+               <p><em>&quot;Se vocês amarem aqueles que os amam, que recompensa receberão? Até os publicanos fazem isso.&quot;</em> — <strong>Mateus 5:46</strong></p>
+               <p>Amar quem nos ama é fácil. Amar quem nos persegue? Isso é Reino de Deus em ação.</p>
+               <p>Não é sobre ser tolo. É sobre ser sábio.</p>
+               <p>Não é sobre ignorar a dor. É sobre confiar que Deus vê, julga com justiça e nos capacita a amar além do natural.</p>
+               <p>Se hoje você tem alguém que considera &quot;inimigo&quot;:</p>
+               <p><strong>Ore por essa pessoa.</strong> Não fantasie sobre quem ela é. Não finja que a ferida não existe. Mas escolha, com Deus, agir em amor.</p>
+               <p>Porque esse é o caminho que Jesus trilhou. E é o caminho que nos torna filhos do Pai celestial.</p>
+
+               <h2>🙏 Oração</h2>
+               <blockquote style={{borderLeft: '4px solid #722F37', background: '#fff9f9', padding: '1.5rem', margin: '2rem 0', fontStyle: 'italic', borderRadius: '0 8px 8px 0'}}>
+                 Senhor Jesus,<br/>
+                 Tu amaste teus inimigos até a cruz.<br/>
+                 Ensina-nos a amar como Tu amaste.<br/>
+                 Quando a mágoa bater, lembra-nos: amor é ação, não emoção.<br/>
+                 Quando a raiva surgir, ajuda-nos a orar por quem nos feriu.<br/>
+                 Quando a tentação de retribuir vier, fortalece-nos para escolher o bem.<br/>
+                 Que nosso amor incomum aponte para Ti, o Deus que faz o sol nascer sobre justos e injustos.<br/>
+                 Que sejamos perfeitos em direção à Tua perfeição.<br/>
+                 Em nome de Jesus, amém.
+               </blockquote>
+
+               <h2>📖 Versículos para Meditação</h2>
+               <div style={{background: '#f8f9fa', borderLeft: '4px solid #0066cc', padding: '1.5rem', borderRadius: '0 8px 8px 0', margin: '2rem 0'}}>
+                 <p style={{marginBottom: '1rem'}}>
+                   <strong>Mateus 5:43-48:</strong> &quot;Ouvistes que foi dito: Amarás o teu próximo e odiarás o teu inimigo. Eu, porém, vos digo: Amai os vossos inimigos e orai pelos que vos perseguem...&quot;
+                 </p>
+                 <p style={{marginBottom: '1rem'}}>
+                   <strong>Lucas 6:27-28:</strong> &quot;Amai os vossos inimigos, fazei o bem aos que vos odeiam, bendizei os que vos maldizem, orai pelos que vos caluniam.&quot;
+                 </p>
+                 <p style={{marginBottom: '1rem'}}>
+                   <strong>Romanos 12:17-21:</strong> &quot;Não torneis a ninguém mal por mal... Se o teu inimigo tiver fome, dá-lhe de comer... Não te deixes vencer do mal, mas vence o mal com o bem.&quot;
+                 </p>
+                 <p style={{marginBottom: '1rem'}}>
+                   <strong>1 Pedro 3:9:</strong> &quot;Não tornando mal por mal ou injúria por injúria; antes, pelo contrário, bendizendo; sabendo que para isto fostes chamados, para que por herança alcanceis a bênção.&quot;
+                 </p>
+                 <p style={{marginBottom: 0}}>
+                   <strong>Provérbios 25:21-22:</strong> &quot;Se o teu inimigo tiver fome, dá-lhe pão para comer e, se tiver sede, dá-lhe água para beber; porque assim amontoarás brasas sobre a sua cabeça, e o SENHOR te galarduará.&quot;
+                 </p>
+               </div>
+
+               <h2>📚 Leituras Recomendadas</h2>
+               <div style={{background: '#f8f9fa', padding: '1.5rem', borderRadius: '12px', margin: '2rem 0', border: '1px solid #e9ecef'}}>
+                 <ul style={{marginBottom: 0, paddingLeft: '1.25rem', lineHeight: '1.8'}}>
+                   <li>📖 <em>&quot;Cristianismo Puro e Simples&quot;</em> — C.S. Lewis (capítulo sobre perdão e amor)</li>
+                   <li>📖 <em>&quot;O Sermão do Monte&quot;</em> — John Stott (exposição clássica de Mateus 5-7)</li>
+                   <li>📖 <em>&quot;Perdão: A Chave para a Liberdade&quot;</em> — Diversos autores (sobre amar quem nos feriu)</li>
+                   <li>📖 <em>&quot;A Imitação de Cristo&quot;</em> — Thomas à Kempis (sobre seguir Jesus em tudo)</li>
+                   <li>📖 <em>&quot;Amor Radical&quot;</em> — Diversos autores (sobre amar como Jesus amou)</li>
+                 </ul>
+               </div>
+
+               <div style={{background: '#f8f9fa', padding: '1.5rem', borderRadius: '12px', marginTop: '2.5rem', border: '1px solid #e9ecef'}}>
+                 <h3 style={{marginTop: 0, marginBottom: '0.8rem', fontSize: '1.2rem'}}>📺 Fonte e Inspiração:</h3>
+                 <p style={{marginBottom: '1rem', lineHeight: '1.6'}}>
+                   Este artigo foi desenvolvido como uma versão escrita e expandida baseada no conteúdo do canal <strong>JesusCopy</strong> no YouTube.
+                 </p>
+                 <p style={{marginBottom: '1rem', lineHeight: '1.6'}}>
+                   Agradecemos à <strong>Dani Cadore</strong> por compartilhar verdades bíblicas tão necessárias para nossos dias.
+                 </p>
+                 <p style={{marginBottom: 0}}>
+                   📺 <strong>Assista ao vídeo original e complemente seu estudo:</strong> <br/>
+                   <a href="https://www.youtube.com/watch?v=wpkboK5-xBs" target="_blank" rel="noreferrer" style={{color: '#0066cc', fontWeight: 'bold', textDecoration: 'underline'}}>
+                     O AMOR AOS INIMIGOS | estudo bíblico | Sermão do Monte | Mateus 5:43-48
+                   </a>
+                 </p>
+               </div>
+
+               <AmorInimigosComments />
+
+               <p style={{fontSize: '1.15rem', fontStyle: 'italic', color: '#555', textAlign: 'center', margin: '2.5rem 0 1.5rem 0', fontWeight: '500'}}>
+                 &quot;Amar quem nos ama é natural. Amar quem nos persegue é Reino de Deus em ação.&quot;
+               </p>
+               
+               <p style={{textAlign: 'center', fontWeight: 'bold', marginTop: '2rem'}}>Soli Deo Gloria. 🙏✨</p>
+
+             </div>
+
+             <ShareBar title="O Amor aos Inimigos: O Chamado Radical de Jesus no Sermão do Monte (Mateus 5:43-48)" url="/amor-aos-inimigos-chamado-radical-jesus-sermao-monte-mateus-5-43-48" />
+             <RelatedArticles currentLink="/amor-aos-inimigos-chamado-radical-jesus-sermao-monte-mateus-5-43-48" category="Estudos Bíblicos" />
            </main>
 
         ) : isDiscipulado3Erros ? (
@@ -8447,6 +8964,15 @@ function App() {
               </div>
               
               <div className="grid-2">
+                <div className="split-card">
+                  <a href="/amor-aos-inimigos-chamado-radical-jesus-sermao-monte-mateus-5-43-48" style={{textDecoration: 'none', color: 'inherit'}}>
+                    <img src="/amor_aos_inimigos.jpg" alt="O Amor aos Inimigos (Mateus 5:43-48)" loading="lazy" />
+                    <div className="split-card-content">
+                      <h4>O Amor aos Inimigos: O Chamado Radical de Jesus no Sermão do Monte</h4>
+                      <div className="meta">📖 <strong>Texto Base:</strong> Mateus 5:44</div>
+                    </div>
+                  </a>
+                </div>
                 <div className="split-card">
                   <a href="/o-que-nao-e-discipulado-3-erros-distorcem-chamado-jesus" style={{textDecoration: 'none', color: 'inherit'}}>
                     <img src="/discipulado_3_erros.jpg" alt="O Que NÃO É Discipulado: 3 Erros que Distorcem o Chamado de Jesus" loading="lazy" />
