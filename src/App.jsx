@@ -172,6 +172,7 @@ const allArticlesData = [
   { link: '/cuidado-com-que-deus-desaprova-7-atitudes-proverbios-6', image: '/proverbios_6_deus_desaprova.jpg', tag: 'Estudos Bíblicos', title: 'Cuidado com o que Deus Desaprova: As 7 Atitudes que o Senhor Detesta (Provérbios 6)' },
   { link: '/o-que-nao-e-discipulado-3-erros-distorcem-chamado-jesus', image: '/discipulado_3_erros.jpg', tag: 'Estudos Bíblicos', title: 'O Que NÃO É Discipulado: 3 Erros que Distorcem o Chamado de Jesus' },
   { link: '/amor-aos-inimigos-chamado-radical-jesus-sermao-monte-mateus-5-43-48', image: '/amor_aos_inimigos.jpg', tag: 'Estudos Bíblicos', title: 'O Amor aos Inimigos: O Chamado Radical de Jesus no Sermão do Monte (Mateus 5:43-48)' },
+  { link: '/elias-jornada-completa-profeta-de-fogo-gileade-carro-de-fogo', image: '/elias_fogo_ceu.jpg', tag: 'Personagens Bíblicos', title: 'Elias: A Jornada Completa do Profeta de Fogo — De Gileade ao Carro de Fogo' },
 ];
 
 function RelatedArticles({ currentLink, category }) {
@@ -234,6 +235,14 @@ const heroArticles = [
     title: "O Amor aos Inimigos: O Chamado Radical de Jesus no Sermão do Monte (Mateus 5:43-48)",
     excerpt: "Como amar quem nos persegue não é emoção, mas ação — e por que esse mandamento revela a maturidade espiritual e o testemunho do Reino.",
     meta: "Mateus 5:44"
+  },
+  {
+    link: "/elias-jornada-completa-profeta-de-fogo-gileade-carro-de-fogo",
+    image: "/elias_fogo_ceu.jpg",
+    tag: "Personagens Bíblicos",
+    title: "Elias: A Jornada Completa do Profeta de Fogo — De Gileade ao Carro de Fogo",
+    excerpt: "Origem, milagres, depressão, legado e as promessas que apontam para Cristo: a história do homem que não viu a morte.",
+    meta: "1 Reis 18:39"
   },
   {
     link: "/multidao-oposicao-ou-discipulo-quem-segue-jesus-marcos-3",
@@ -668,6 +677,7 @@ function App() {
   const isSamuelMarianoTestemunho = path === '/quando-deus-quebra-artista-formar-pastor-testemunho-samuel-mariano';
   const isDiscipulado3Erros = path === '/o-que-nao-e-discipulado-3-erros-distorcem-chamado-jesus';
   const isAmorAosInimigos = path === '/amor-aos-inimigos-chamado-radical-jesus-sermao-monte-mateus-5-43-48';
+  const isEliasProfetaDeFogo = path === '/elias-jornada-completa-profeta-de-fogo-gileade-carro-de-fogo';
   const isBatismoInfantilCerto = path === '/batismo-infantil-certo-confianca-em-cristo-vs-ritual';
   const isSalvacaoNaoSePerde = path === '/salvacao-nao-se-perde-advertencias-paulo-galatas-5';
   const isProsperidadeVsMiseria = path === '/teologia-prosperidade-vs-miseria-equilibrio-biblico';
@@ -1362,6 +1372,15 @@ function App() {
               <h2>Personagens Bíblicos</h2>
             </div>
             <div className="grid-3" style={{marginTop: '2rem'}}>
+
+              <div className="grid-3-item">
+                <a href="/elias-jornada-completa-profeta-de-fogo-gileade-carro-de-fogo" style={{textDecoration: 'none', color: 'inherit'}}>
+                  <img src="/elias_fogo_ceu.jpg" alt="Elias: A Jornada Completa do Profeta de Fogo" className="img-ph" loading="lazy" style={{objectFit: 'cover'}} />
+                  <h3 style={{fontSize: '1.1rem', marginBottom: '8px', lineHeight: '1.4'}}>Elias: A Jornada Completa do Profeta de Fogo — De Gileade ao Carro de Fogo</h3>
+                  <p style={{fontSize: '0.9rem', color: '#666', marginTop: '8px'}}>Origem, milagres, depressão, legado e as promessas que apontam para Cristo: a história do homem que não viu a morte.</p>
+                  <div className="meta">📖 <strong>Texto Base:</strong> 1 Reis 17-19; 2 Reis 2</div>
+                </a>
+              </div>
               
               <div className="grid-3-item">
                 <a href="/ana-mae-orou-chorou-gerou-profeta-samuel" style={{textDecoration: 'none', color: 'inherit'}}>
@@ -1423,6 +1442,294 @@ function App() {
 
             </div>
           </main>
+        ) : isEliasProfetaDeFogo ? (
+          <main className="article-content section-mb">
+             <Breadcrumb category="Personagens Bíblicos" categoryLink="/personagens-biblicos" title="Elias: O Profeta de Fogo" />
+             <div className="article-header">
+               <span className="cat-tag">Personagens Bíblicos</span>
+               <h1>Elias: A Jornada Completa do Profeta de Fogo — De Gileade ao Carro de Fogo</h1>
+               <div className="article-meta">
+                 📖 <strong>PERSONAGENS BÍBLICOS | Soli Deo Gloria</strong><br/>
+                 <span style={{fontSize: '0.9rem', color: '#666'}}><em>Adaptado para publicação | 25 Jun, 2026</em></span>
+               </div>
+             
+               <ArticleInfo date="25 de Junho de 2026" readingTime={18} />
+              </div>
+             <img src="/elias_gileade.jpg" alt="Elias, o tisbita, dos moradores de Gileade" className="article-hero-img" loading="lazy" style={{maxHeight: '450px', width: '100%', objectFit: 'cover', borderRadius: '12px'}} />
+             <div className="article-body">
+
+               <h2>🏜️ 1. A Origem: Quem Era Elias?</h2>
+
+               <blockquote style={{borderLeft: '4px solid #722F37', background: '#fff9f9', padding: '1.5rem', margin: '2rem 0', fontStyle: 'italic', borderRadius: '0 8px 8px 0'}}>
+                 &quot;Então Elias, o tisbita, dos moradores de Gileade, disse a Acabe: Vive o SENHOR, Deus de Israel, em cuja presença estou, que nestes anos não haverá orvalho nem chuva, senão segundo a minha palavra.&quot; — <strong>1 Reis 17:1</strong>
+               </blockquote>
+
+               <p>Elias aparece na Bíblia sem introdução. Sem genealogia. Sem história de chamado detalhada.</p>
+               <p>Apenas: <em>&quot;Elias, o tisbita, dos moradores de Gileade.&quot;</em></p>
+               <p>Seu nome significa <strong>&quot;Yahweh é o meu Deus&quot;</strong> — e toda a sua vida foi uma declaração desse nome.</p>
+               <p>Ele era:</p>
+               <ul>
+                 <li>✅ Um homem do campo, rude e simples</li>
+                 <li>✅ Vestido com peles e cinto de couro (2 Reis 1:8)</li>
+                 <li>✅ Um homem &quot;sujeito às mesmas paixões que nós&quot; (Tiago 5:17)</li>
+                 <li>✅ Usado por um Deus extraordinário</li>
+               </ul>
+
+               <h2>👑 2. O Contexto: Israel em Apostasia</h2>
+
+               <p>Elias ministrou no reinado de <strong>Acabe</strong>, o pior rei de Israel até então.</p>
+               <p>Acabe casou-se com <strong>Jezabel</strong>, princesa fenícia, que trouxe o culto a Baal e Aserá como religião oficial:</p>
+               <ul>
+                 <li>❌ 450 profetas de Baal sustentados pela corte</li>
+                 <li>❌ 400 profetas de Aserá à mesa da rainha</li>
+                 <li>❌ Altares pagãos por toda a nação</li>
+                 <li>❌ O povo &quot;coxeando entre dois pensamentos&quot;</li>
+               </ul>
+               <p>Foi nesse cenário de trevas que Deus levantou <strong>um homem só</strong>.</p>
+
+               <h2>🌵 3. A Profecia da Seca: Três Anos e Meio de Silêncio</h2>
+
+               <p>Elias entra diante de Acabe e declara:</p>
+               <p><em>&quot;Vive o SENHOR... que nestes anos não haverá orvalho nem chuva, senão segundo a minha palavra.&quot;</em></p>
+               <p>O céu se fechou.</p>
+               <p>Por <strong>três anos e meio</strong> (Tiago 5:17), não caiu uma gota de chuva sobre Israel.</p>
+               <p>A seca era o julgamento de Deus contra Baal — o falso deus da fertilidade e da chuva.</p>
+
+               <img src="/elias_confronta_acabe.jpg" alt="Elias profetiza a seca diante do rei Acabe" loading="lazy" style={{maxHeight: '400px', width: '100%', objectFit: 'cover', borderRadius: '12px', margin: '2rem 0'}} />
+
+               <h2>🐦 4. Milagre 1: Os Corvos no Ribeiro de Querite</h2>
+
+               <p>Deus enviou Elias para o ribeiro de Querite e deu uma ordem improvável:</p>
+               <p><em>&quot;E os corvos lhe traziam pão e carne pela manhã, como também pão e carne à noite; e bebia do ribeiro.&quot;</em> — <strong>1 Reis 17:6</strong></p>
+               <p>Corvos — aves de rapina, símbolo de impureza — tornaram-se garçons do profeta.</p>
+               <p><strong>Deus usa o improvável para sustentar os Seus.</strong></p>
+
+               <img src="/elias_corvos_querite.jpg" alt="Corvos alimentam Elias no ribeiro de Querite" loading="lazy" style={{maxHeight: '400px', width: '100%', objectFit: 'cover', borderRadius: '12px', margin: '2rem 0'}} />
+
+               <h2>🫙 5. Milagre 2: A Farinha e o Azeite da Viúva de Sarepta</h2>
+
+               <p>Quando o ribeiro secou, Deus enviou Elias a <strong>Sarepta, em terra de gentios</strong>, para uma viúva pobre.</p>
+               <p>Ela tinha apenas um punhado de farinha e um pouco de azeite para a última refeição.</p>
+               <p>Elias disse:</p>
+               <p><em>&quot;Não temas... porque a panela de farinha não se esgotará, e a botija de azeite não faltará, até ao dia em que o SENHOR dê chuva sobre a terra.&quot;</em> — <strong>1 Reis 17:14</strong></p>
+               <p>E assim foi. <strong>A farinha não acabou. O azeite não secou.</strong></p>
+
+               <img src="/elias_viuva_sarepta.jpg" alt="A viúva de Sarepta com farinha e azeite que não acabaram" loading="lazy" style={{maxHeight: '400px', width: '100%', objectFit: 'cover', borderRadius: '12px', margin: '2rem 0'}} />
+
+               <h2>💫 6. Milagre 3: A Ressurreição do Filho da Viúva</h2>
+
+               <p>O filho da viúva adoeceu e morreu.</p>
+               <p>Ela clamou: <em>&quot;Que tenho eu contigo, homem de Deus?&quot;</em></p>
+               <p>Elias tomou o menino, levou-o ao cenáculo, estendeu-se sobre ele três vezes e clamou:</p>
+               <p><em>&quot;Ó SENHOR, meu Deus, rogo-te que torne a alma deste menino a entrar nele.&quot;</em> — <strong>1 Reis 17:21</strong></p>
+               <p>O menino reviveu.</p>
+               <p>Foi a <strong>primeira ressurreição registrada por um profeta na Bíblia</strong>.</p>
+
+               <img src="/elias_ressurreicao_menino.jpg" alt="Elias ora e o filho da viúva volta a viver" loading="lazy" style={{maxHeight: '400px', width: '100%', objectFit: 'cover', borderRadius: '12px', margin: '2rem 0'}} />
+
+               <h2>⚔️ 7. O Confronto no Monte Carmelo</h2>
+
+               <p>No terceiro ano, Deus mandou Elias se apresentar a Acabe.</p>
+               <p>Todo o Israel e os 450 profetas de Baal se reuniram no <strong>Monte Carmelo</strong>.</p>
+               <p>Elias lançou o desafio:</p>
+
+               <blockquote style={{borderLeft: '4px solid #b91c1c', background: '#f8f9fa', padding: '1.25rem', margin: '1.5rem 0', fontStyle: 'italic', borderRadius: '0 8px 8px 0'}}>
+                 &quot;Até quando coxeareis entre dois pensamentos? Se o SENHOR é Deus, segui-o; e se Baal, segui-o.&quot; — <strong>1 Reis 18:21</strong>
+               </blockquote>
+
+               <p>O povo ficou em silêncio.</p>
+
+               <img src="/elias_monte_carmelo.jpg" alt="Elias sozinho contra 450 profetas de Baal no Monte Carmelo" loading="lazy" style={{maxHeight: '400px', width: '100%', objectFit: 'cover', borderRadius: '12px', margin: '2rem 0'}} />
+
+               <h2>🔥 8. O Fogo Desce do Céu</h2>
+
+               <p>Os profetas de Baal clamaram da manhã até a tarde: <em>&quot;Ó Baal, responde-nos!&quot;</em></p>
+               <p>Cortaram-se com facas e lanças. Sangue jorrou. Mas não houve resposta.</p>
+               <p>Elias zombou: <em>&quot;Clamai em altas vozes, porque ele é um deus; talvez esteja dormindo.&quot;</em></p>
+               <p>Então Elias preparou seu altar. E fez o impensável: <strong>derramou doze cântaros de água sobre o sacrifício</strong>, encharcando tudo.</p>
+               <p>E orou:</p>
+
+               <blockquote style={{borderLeft: '4px solid #722F37', background: '#fff9f9', padding: '1.5rem', margin: '2rem 0', fontStyle: 'italic', borderRadius: '0 8px 8px 0'}}>
+                 &quot;Responde-me, SENHOR, responde-me, para que este povo conheça que tu és o SENHOR Deus.&quot; — <strong>1 Reis 18:37</strong>
+               </blockquote>
+
+               <p><strong>E caiu fogo do céu.</strong></p>
+               <p>Consumiu o holocausto, a lenha, as pedras, o pó — e lambeu a água do rego.</p>
+               <p>O povo caiu com o rosto em terra:</p>
+
+               <blockquote style={{borderLeft: '4px solid #b91c1c', background: '#f8f9fa', padding: '1.25rem', margin: '1.5rem 0', fontStyle: 'italic', borderRadius: '0 8px 8px 0', fontSize: '1.15rem', fontWeight: '600'}}>
+                 &quot;Só o SENHOR é Deus! Só o SENHOR é Deus!&quot; — <strong>1 Reis 18:39</strong>
+               </blockquote>
+
+               <img src="/elias_fogo_ceu.jpg" alt="Fogo divino descendo do céu sobre o altar encharcado no Monte Carmelo" loading="lazy" style={{maxHeight: '450px', width: '100%', objectFit: 'cover', borderRadius: '12px', margin: '2rem 0'}} />
+
+               <h2>🌧️ 9. A Chuva Volta</h2>
+
+               <p>Elias subiu ao topo do Carmelo e orou sete vezes.</p>
+               <p>Na sétima, uma pequena nuvem, do tamanho da mão de um homem, subiu do mar.</p>
+               <p>Em minutos, o céu escureceu. E <strong>caiu grande chuva</strong>.</p>
+               <p>O julgamento terminou. A terra reviveu.</p>
+
+               <img src="/elias_chuva_volta.jpg" alt="Elias recebe as primeiras gotas de chuva após três anos de seca" loading="lazy" style={{maxHeight: '400px', width: '100%', objectFit: 'cover', borderRadius: '12px', margin: '2rem 0'}} />
+
+               <h2>😢 10. O Momento de Tristeza: Debaixo do Zimbro</h2>
+
+               <p>Jezabel jurou matar Elias.</p>
+               <p>E o profeta que havia enfrentado 450 <strong>fugiu</strong>.</p>
+               <p>Sentou-se debaixo de um zimbro no deserto e pediu a morte:</p>
+
+               <blockquote style={{borderLeft: '4px solid #722F37', background: '#fff9f9', padding: '1.5rem', margin: '2rem 0', fontStyle: 'italic', borderRadius: '0 8px 8px 0'}}>
+                 &quot;Já basta, ó SENHOR; toma agora a minha vida, pois não sou melhor do que meus pais.&quot; — <strong>1 Reis 19:4</strong>
+               </blockquote>
+
+               <p><strong>Depressão real. Exaustão real. Medo real.</strong></p>
+               <p>E Deus não o repreendeu com dureza. Deus:</p>
+               <ul>
+                 <li>✅ Deixou-o dormir</li>
+                 <li>✅ Enviou um anjo com pão e água</li>
+                 <li>✅ Cuidou do corpo antes de tratar da alma</li>
+               </ul>
+
+               <img src="/elias_zimbro_deserto.jpg" alt="Elias exausto debaixo do zimbro e o anjo trazendo pão e água" loading="lazy" style={{maxHeight: '400px', width: '100%', objectFit: 'cover', borderRadius: '12px', margin: '2rem 0'}} />
+
+               <h2>🌬️ 11. A Voz Mansa e Delicada em Horebe</h2>
+
+               <p>Elias caminhou <strong>40 dias</strong> até Horebe, o monte de Deus.</p>
+               <p>Deus passou:</p>
+               <ul>
+                 <li>❌ Um vento forte que fendia montes — Deus não estava no vento</li>
+                 <li>❌ Um terremoto — Deus não estava no terremoto</li>
+                 <li>❌ Um fogo — Deus não estava no fogo</li>
+                 <li>✅ E depois, <strong>uma voz mansa e delicada</strong></li>
+               </ul>
+               <p>Elias cobriu o rosto com o manto.</p>
+               <p>Deus revelou: <em>&quot;Também conservei em Israel sete mil, todos os joelhos que não se dobraram a Baal.&quot;</em></p>
+               <p><strong>Elias não estava sozinho.</strong></p>
+
+               <img src="/elias_voz_mansa_horebe.jpg" alt="Elias na caverna de Horebe cobrindo o rosto diante da voz mansa de Deus" loading="lazy" style={{maxHeight: '400px', width: '100%', objectFit: 'cover', borderRadius: '12px', margin: '2rem 0'}} />
+
+               <h2>🧥 12. Passando o Bastão: Eliseu</h2>
+
+               <p>Deus ordenou a Elias:</p>
+               <p><em>&quot;Ungirás também a Eliseu... para profeta em teu lugar.&quot;</em> — <strong>1 Reis 19:16</strong></p>
+               <p>Elias encontrou Eliseu lavrando com doze juntas de bois. E <strong>lançou o seu manto sobre ele</strong>.</p>
+               <p>Eliseu entendeu o chamado. Deixou os bois, queimou o arado, cozinhou a carne, serviu ao povo — e seguiu Elias.</p>
+               <p>O bastão foi passado. O discípulo foi formado.</p>
+
+               <img src="/elias_manto_eliseu.jpg" alt="Elias lança o manto sobre Eliseu no campo" loading="lazy" style={{maxHeight: '400px', width: '100%', objectFit: 'cover', borderRadius: '12px', margin: '2rem 0'}} />
+
+               <h2>⚡ 13. Outros Milagres e Confrontos</h2>
+
+               <div style={{background: '#f8f9fa', padding: '1.25rem', borderRadius: '10px', margin: '1.5rem 0', borderLeft: '4px solid #b91c1c'}}>
+                 <h4 style={{marginTop: 0, color: '#b91c1c', marginBottom: '0.5rem'}}>A Vinha de Nabote</h4>
+                 <p style={{margin: 0}}>Acabe e Jezabel mataram Nabote para roubar sua vinha. Elias confrontou: <em>&quot;No lugar em que os cães lamberam o sangue de Nabote, lamberão também o teu próprio sangue.&quot;</em> — 1 Reis 21:19</p>
+               </div>
+               <div style={{background: '#f8f9fa', padding: '1.25rem', borderRadius: '10px', margin: '1.5rem 0', borderLeft: '4px solid #b91c1c'}}>
+                 <h4 style={{marginTop: 0, color: '#b91c1c', marginBottom: '0.5rem'}}>O Fogo Sobre os Capitães de Acazias</h4>
+                 <p style={{margin: 0}}>Acazias consultou Baal-Zebube. Elias desceu e declarou: <em>&quot;Se eu sou homem de Deus, desça fogo do céu e te consuma a ti e aos teus cinquenta.&quot;</em> — 2 Reis 1:12. E o fogo desceu duas vezes.</p>
+               </div>
+               <div style={{background: '#f8f9fa', padding: '1.25rem', borderRadius: '10px', margin: '1.5rem 0', borderLeft: '4px solid #b91c1c'}}>
+                 <h4 style={{marginTop: 0, color: '#b91c1c', marginBottom: '0.5rem'}}>A Divisão do Jordão</h4>
+                 <p style={{margin: 0}}>Elias feriu as águas com o manto, e o Jordão se abriu — como nos dias de Moisés.</p>
+               </div>
+
+               <h2>🌪️ 14. A Partida: O Carro de Fogo e o Redemoinho</h2>
+
+               <p><strong>Elias não morreu.</strong></p>
+               <p>Ele é um dos únicos na Bíblia (com Enoque) que não viu a morte.</p>
+               <p>Caminhando com Eliseu, de repente:</p>
+
+               <blockquote style={{borderLeft: '4px solid #722F37', background: '#fff9f9', padding: '1.5rem', margin: '2rem 0', fontStyle: 'italic', borderRadius: '0 8px 8px 0'}}>
+                 &quot;Eis que um carro de fogo, com cavalos de fogo, os separou um do outro; e Elias subiu ao céu num redemoinho.&quot; — <strong>2 Reis 2:11</strong>
+               </blockquote>
+
+               <p>Eliseu clamou: <em>&quot;Meu pai, meu pai, carros de Israel e seus cavaleiros!&quot;</em></p>
+               <p>E o manto de Elias caiu. Eliseu o tomou, feriu o Jordão, e as águas se abriram.</p>
+               <p><strong>O bastão foi recebido. A unção foi dobrada.</strong></p>
+
+               <img src="/elias_carro_fogo.jpg" alt="Elias subindo ao céu no carro de fogo enquanto Eliseu recebe o manto" loading="lazy" style={{maxHeight: '450px', width: '100%', objectFit: 'cover', borderRadius: '12px', margin: '2rem 0'}} />
+
+               <h2>✝️ 15. As Promessas que Apontam para Cristo</h2>
+
+               <p>A história de Elias não termina no redemoinho. Ela aponta para Jesus.</p>
+
+               <div style={{background: '#f8f9fa', padding: '1.25rem', borderRadius: '10px', margin: '1.5rem 0', borderLeft: '4px solid #0066cc'}}>
+                 <h4 style={{marginTop: 0, color: '#0066cc', marginBottom: '0.5rem'}}>1. A Promessa de Malaquias</h4>
+                 <p style={{margin: 0}}><em>&quot;Eis que eu vos enviarei o profeta Elias, antes que venha o grande e terrível dia do SENHOR.&quot;</em> — Malaquias 4:5</p>
+               </div>
+               <div style={{background: '#f8f9fa', padding: '1.25rem', borderRadius: '10px', margin: '1.5rem 0', borderLeft: '4px solid #0066cc'}}>
+                 <h4 style={{marginTop: 0, color: '#0066cc', marginBottom: '0.5rem'}}>2. João Batista: O Elias que Viria</h4>
+                 <p style={{margin: 0}}><em>&quot;E irá adiante dele no espírito e virtude de Elias... para preparar ao Senhor um povo bem disposto.&quot;</em> — Lucas 1:17. Jesus confirmou: João Batista veio &quot;no espírito de Elias&quot; (Mateus 11:14).</p>
+               </div>
+               <div style={{background: '#f8f9fa', padding: '1.25rem', borderRadius: '10px', margin: '1.5rem 0', borderLeft: '4px solid #0066cc'}}>
+                 <h4 style={{marginTop: 0, color: '#0066cc', marginBottom: '0.5rem'}}>3. A Transfiguração</h4>
+                 <p style={{margin: 0}}>No monte da transfiguração, Elias apareceu ao lado de Jesus: <em>&quot;E eis que lhes apareceram Moisés e Elias, falando com ele.&quot;</em> — Mateus 17:3. Moisés (a Lei) e Elias (os Profetas) testemunharam que Jesus é o cumprimento de tudo.</p>
+               </div>
+               <div style={{background: '#f8f9fa', padding: '1.25rem', borderRadius: '10px', margin: '1.5rem 0', borderLeft: '4px solid #0066cc'}}>
+                 <h4 style={{marginTop: 0, color: '#0066cc', marginBottom: '0.5rem'}}>4. As Duas Testemunhas do Apocalipse</h4>
+                 <p style={{margin: 0}}>Em Apocalipse 11, as duas testemunhas: 🔥 Têm poder para fechar o céu (como Elias), 🔥 Têm fogo que sai da boca (como Elias). Muitos veem ali um eco do ministério de Elias nos últimos dias.</p>
+               </div>
+
+               <h2>💭 16. Lições da Jornada de Elias</h2>
+
+               <div style={{background: '#f8f9fa', padding: '1.5rem', borderRadius: '12px', margin: '2rem 0', border: '1px solid #e9ecef'}}>
+                 <ol style={{paddingLeft: '1.25rem', lineHeight: '2', marginBottom: 0}}>
+                   <li><strong>Deus usa pessoas comuns</strong> — Elias tinha as mesmas paixões que nós</li>
+                   <li><strong>Um homem pode mudar uma nação</strong> — quando anda com Deus</li>
+                   <li><strong>Depressão não é falta de fé</strong> — e Deus cuida do exausto com ternura</li>
+                   <li><strong>Deus fala no silêncio</strong> — não só no fogo e no terremoto</li>
+                   <li><strong>Ninguém luta sozinho</strong> — havia sete mil que não dobraram os joelhos</li>
+                   <li><strong>O legado importa</strong> — Elias formou Eliseu antes de partir</li>
+                   <li><strong>A vida com Deus termina em glória</strong> — o carro de fogo prova isso</li>
+                 </ol>
+               </div>
+
+               <h2>🙏 Oração</h2>
+               <blockquote style={{borderLeft: '4px solid #722F37', background: '#fff9f9', padding: '1.5rem', margin: '2rem 0', fontStyle: 'italic', borderRadius: '0 8px 8px 0'}}>
+                 Senhor, Deus de Elias,<br/>
+                 Levanta profetas como ele nesta geração.<br/>
+                 Dá-nos coragem para confrontar a idolatria.<br/>
+                 Dá-nos ternura para cuidar dos deprimidos, como cuidaste de Elias.<br/>
+                 Ensina-nos a ouvir Tua voz mansa e delicada.<br/>
+                 Ajuda-nos a passar o bastão e formar discípulos.<br/>
+                 E que um dia vejamos, como Elias, a glória que nos espera.<br/>
+                 Em nome de Jesus, amém.
+               </blockquote>
+
+               <h2>📖 Versículos para Meditação</h2>
+               <div style={{background: '#f8f9fa', borderLeft: '4px solid #0066cc', padding: '1.5rem', borderRadius: '0 8px 8px 0', margin: '2rem 0'}}>
+                 <p style={{marginBottom: '1rem'}}>
+                   <strong>1 Reis 17:1:</strong> &quot;Vive o SENHOR, Deus de Israel, em cuja presença estou, que nestes anos não haverá orvalho nem chuva, senão segundo a minha palavra.&quot;
+                 </p>
+                 <p style={{marginBottom: '1rem'}}>
+                   <strong>1 Reis 18:39:</strong> &quot;Só o SENHOR é Deus! Só o SENHOR é Deus!&quot;
+                 </p>
+                 <p style={{marginBottom: '1rem'}}>
+                   <strong>1 Reis 19:12:</strong> &quot;E depois do fogo um sussurro tranquilo e suave.&quot; (voz mansa e delicada)
+                 </p>
+                 <p style={{marginBottom: '1rem'}}>
+                   <strong>2 Reis 2:11:</strong> &quot;Elias subiu ao céu num redemoinho.&quot;
+                 </p>
+                 <p style={{marginBottom: '1rem'}}>
+                   <strong>Malaquias 4:5:</strong> &quot;Eis que eu vos enviarei o profeta Elias, antes que venha o grande e terrível dia do SENHOR.&quot;
+                 </p>
+                 <p style={{marginBottom: 0}}>
+                   <strong>Tiago 5:17-18:</strong> &quot;Elias era homem sujeito às mesmas paixões que nós e, orando, pediu que não chovesse...&quot;
+                 </p>
+               </div>
+
+               <p style={{fontSize: '1.15rem', fontStyle: 'italic', color: '#555', textAlign: 'center', margin: '2.5rem 0 1.5rem 0', fontWeight: '500'}}>
+                 &quot;Elias não viu a morte porque viveu para Aquele que é a Vida. Sua jornada — do deserto ao carro de fogo — nos ensina que uma vida entregue a Deus termina em glória.&quot;
+               </p>
+               
+               <p style={{textAlign: 'center', fontWeight: 'bold', marginTop: '2rem'}}>Soli Deo Gloria. 🔥✨</p>
+
+             </div>
+
+             <ShareBar title="Elias: A Jornada Completa do Profeta de Fogo — De Gileade ao Carro de Fogo" url="/elias-jornada-completa-profeta-de-fogo-gileade-carro-de-fogo" />
+             <RelatedArticles currentLink="/elias-jornada-completa-profeta-de-fogo-gileade-carro-de-fogo" category="Personagens Bíblicos" />
+           </main>
+
         ) : isPauloTarso ? (
           <main className="article-content section-mb">
              <Breadcrumb category="Personagens Bíblicos" categoryLink="/personagens-biblicos" title="Paulo de Tarso" />
