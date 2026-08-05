@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import './index.css';
 import Newsletter from './components/Newsletter';
+import VideoEmbed from './components/VideoEmbed';
 
 /* ===== COMPONENTES PROFISSIONAIS REUTILIZÁVEIS ===== */
 
