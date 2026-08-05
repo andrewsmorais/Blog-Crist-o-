@@ -123,6 +123,14 @@ function CookieConsentBar() {
 
 // Related Articles
 const allArticlesData = [
+  {
+    category: 'estudos-biblicos',
+    title: 'O Tabernáculo: O Evangelho Inteiro Desenhado em Pano, Ouro e Sangue',
+    excerpt: 'Por que Deus gastou 13 capítulos com uma tenda no deserto — e como cada peça dela aponta para Jesus.',
+    image: '/tabernaculo_deserto.jpg',
+    date: '25 Jun, 2026',
+    path: '/tabernaculo-evangelho-inteiro-desenhado-pano-ouro-sangue'
+  },
   { link: '/artigo/sarca-ardente', image: '/sarca-ardente.jpg', tag: 'Estudos Bíblicos', title: 'A Sarça Ardente: Quando Deus Encontrou Moisés' },
   { link: '/artigo/sermao-do-monte', image: '/sermao-do-monte.png', tag: 'Estudos Bíblicos', title: 'Sermão do Monte: As Bem-Aventuranças' },
   { link: '/como-ler-biblia-inteira-2026-metodos-praticos', image: '/metodos_biblia.png', tag: 'Vida Cristã', title: '5 Métodos Práticos para Ler a Bíblia em 2026' },
@@ -212,6 +220,13 @@ function NotFoundPage() {
 }
 
 const heroArticles = [
+  {
+    category: 'Estudos Bíblicos',
+    title: 'O Tabernáculo: O Evangelho Inteiro Desenhado em Pano, Ouro e Sangue',
+    excerpt: 'Por que Deus gastou 13 capítulos com uma tenda no deserto — e como cada peça dela aponta para Jesus.',
+    image: '/tabernaculo_deserto.jpg',
+    path: '/tabernaculo-evangelho-inteiro-desenhado-pano-ouro-sangue'
+  },
   {
     link: "/quando-deus-quebra-artista-formar-pastor-testemunho-samuel-mariano",
     image: "/samuel_mariano_testemunho.jpg",
@@ -676,6 +691,7 @@ function App() {
   const isLaraSantanaJesus = path === '/do-berco-cristao-ao-encontro-pessoal-jornada-lara-santana-jesus';
   const isSamuelMarianoTestemunho = path === '/quando-deus-quebra-artista-formar-pastor-testemunho-samuel-mariano';
   const isDiscipulado3Erros = path === '/o-que-nao-e-discipulado-3-erros-distorcem-chamado-jesus';
+    const isTabernaculo = path === '/tabernaculo-evangelho-inteiro-desenhado-pano-ouro-sangue';
   const isAmorAosInimigos = path === '/amor-aos-inimigos-chamado-radical-jesus-sermao-monte-mateus-5-43-48';
   const isEliasProfetaDeFogo = path === '/elias-jornada-completa-profeta-de-fogo-gileade-carro-de-fogo';
   const isBatismoInfantilCerto = path === '/batismo-infantil-certo-confianca-em-cristo-vs-ritual';
