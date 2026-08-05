@@ -1669,6 +1669,8 @@ function App() {
                  <h4 style={{marginTop: 0, color: '#0066cc', marginBottom: '0.5rem'}}>4. As Duas Testemunhas do Apocalipse</h4>
                  <p style={{margin: 0}}>Em Apocalipse 11, as duas testemunhas: 🔥 Têm poder para fechar o céu (como Elias), 🔥 Têm fogo que sai da boca (como Elias). Muitos veem ali um eco do ministério de Elias nos últimos dias.</p>
                </div>
+               
+               <img src="/elias_transfiguracao.jpg" alt="Elias e Jesus na Transfiguração" loading="lazy" style={{maxHeight: '400px', width: '100%', objectFit: 'cover', borderRadius: '12px', margin: '2rem 0'}} />
 
                <h2>💭 16. Lições da Jornada de Elias</h2>
 
