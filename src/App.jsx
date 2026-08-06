@@ -125,6 +125,14 @@ function CookieConsentBar() {
 // Related Articles
 const allArticlesData = [
   {
+    title: "Deus Determina ou o Homem Toma Atitude? O Que a Bíblia Ensina Sobre os Heróis da Fé",
+    category: "Estudos Bíblicos",
+    date: "25 Jun, 2026",
+    link: "/deus-determina-ou-homem-toma-atitude-herois-da-fe",
+    excerpt: "Soberania de Deus e responsabilidade humana: analisando, versículo por versículo, se os heróis da fé agiram sozinhos ou foram movidos pela graça.",
+    author: "Soli Deo Gloria"
+  },
+  {
     category: 'estudos-biblicos',
     title: 'O Tabernáculo: O Evangelho Inteiro Desenhado em Pano, Ouro e Sangue',
     excerpt: 'Por que Deus gastou 13 capítulos com uma tenda no deserto — e como cada peça dela aponta para Jesus.',
@@ -646,6 +654,296 @@ function AmorInimigosComments() {
           </div>
         ))}
       </div>
+      {isDeusDetermina && (
+        <article style={{background: '#fff', minHeight: '100vh', padding: '4rem 2rem', fontFamily: "'Georgia', serif"}}>
+          <header style={{textAlign: 'center', marginBottom: '3rem'}}>
+            <h1 style={{fontSize: '3rem', color: '#1a1210', lineHeight: 1.2, margin: '0 auto 1.5rem', maxWidth: '900px', fontWeight: 'bold'}}>
+              Deus Determina ou o Homem Toma Atitude? O Que a Bíblia Ensina Sobre os Heróis da Fé
+            </h1>
+            <h2 style={{fontSize: '1.5rem', color: '#555', fontWeight: 'normal', margin: '0 auto 2rem', maxWidth: '800px', lineHeight: 1.6}}>
+              Soberania de Deus e responsabilidade humana: analisando, versículo por versículo, se os heróis da fé agiram sozinhos ou foram movidos pela graça
+            </h2>
+            <div style={{display: 'flex', justifyContent: 'center', gap: '1rem', fontSize: '0.9rem', color: '#777', flexWrap: 'wrap', marginBottom: '1rem'}}>
+              <span style={{background: '#b91c1c', color: 'white', padding: '4px 12px', borderRadius: '4px', fontWeight: 'bold', letterSpacing: '1px'}}>ESTUDOS BÍBLICOS</span>
+              <span style={{display: 'flex', alignItems: 'center', gap: '5px'}}>✍️ Soli Deo Gloria</span>
+              <span style={{display: 'flex', alignItems: 'center', gap: '5px'}}>📅 25 Jun, 2026</span>
+            </div>
+            <div style={{fontSize: '0.85rem', color: '#888', fontStyle: 'italic', marginBottom: '2rem'}}>
+              Baseado em conteúdo do YouTube | Tags: #soberaniaDeDeus #graça #heróisdaFé #predestinação #livrearbítrio #SoliDeoGloria
+            </div>
+          </header>
+
+          <main className="article-content section-mb" style={{fontSize: '1.15rem', lineHeight: 1.8, color: '#444', maxWidth: '800px', margin: '0 auto'}}>
+            <p>&quot;Eu te provo pela Bíblia que os heróis da fé foram o que foram, não por uma escolha da soberania de Deus determinando sobre a vida deles, mas sim porque eles tomaram uma atitude.&quot;</p>
+            
+            <p>Essa frase, defendida recentemente pelo pastor Silas Malafaia, parece poderosa. Parece bíblica. Parece honrar o esforço humano.</p>
+            
+            <p>Mas ela está parcialmente certa — e o erro escondido nela é um problema absurdo.</p>
+            
+            <p>Sim, os heróis da fé tomaram atitudes. Ninguém nega isso. A pergunta que este estudo responde, versículo por versículo, é outra:</p>
+            
+            <p><strong>Eles tomaram essas atitudes sozinhos — ou foi Deus quem moveu o coração deles primeiro?</strong></p>
+            
+            <p>Pegue sua Bíblia. Vamos abrir cada referência.</p>
+
+            <VideoEmbed videoId="LbOOYt0HEGc" title="Deus não determina, o homem toma atitude | Pastor Rodrigo Mocellin" channel="Pastor Rodrigo Mocellin" channelUrl="https://www.youtube.com/@PastorRodrigoMocellin" />
+
+            <h2 style={{color: '#b91c1c', marginTop: '3rem', borderBottom: '2px solid #eee', paddingBottom: '0.5rem'}}>🦸 Os Heróis da Fé e Suas Atitudes (O Argumento Inicial)</h2>
+            
+            <p>O argumento de que &quot;o homem toma atitude&quot; usa os heróis de Hebreus 11:</p>
+            
+            <ul style={{listStyleType: 'none', paddingLeft: 0}}>
+              <li style={{marginBottom: '0.5rem'}}>✅ <strong>Noé</strong> — não participou de um mundo corrompido; tornou-se &quot;herdeiro da justiça&quot; (Hebreus 11:7)</li>
+              <li style={{marginBottom: '0.5rem'}}>✅ <strong>Abraão</strong> — saiu sem saber para onde ia; tornou-se o pai da fé (Hebreus 11:8)</li>
+              <li style={{marginBottom: '0.5rem'}}>✅ <strong>Moisés</strong> — deixou de ser chamado filho da filha de Faraó; tornou-se o maior profeta (Hebreus 11:24-27)</li>
+              <li style={{marginBottom: '0.5rem'}}>✅ <strong>Davi</strong> — enfrentou Golias e conquistou notoriedade; do seu trono vem o Messias (1 Samuel 17)</li>
+              <li style={{marginBottom: '0.5rem'}}>✅ <strong>Isaías</strong> — respondeu &quot;eis-me aqui, envia-me a mim&quot; (Isaías 6:8)</li>
+              <li style={{marginBottom: '0.5rem'}}>✅ <strong>Daniel</strong> — não se contaminou na Babilônia (Daniel 1:8)</li>
+              <li style={{marginBottom: '0.5rem'}}>✅ <strong>Paulo</strong> — abandonou tudo e se tornou o apóstolo dos gentios (Gálatas 2:20)</li>
+            </ul>
+            
+            <p>Tudo verdade. Todos tomaram atitudes.</p>
+            
+            <p>Mas aqui está a pergunta que muda tudo: <strong>de onde veio a atitude?</strong></p>
+
+            <h2 style={{color: '#b91c1c', marginTop: '3rem', borderBottom: '2px solid #eee', paddingBottom: '0.5rem'}}>📖 Referências que Mostram: Deus Move Primeiro</h2>
+            
+            <h3 style={{color: '#1a1210', marginTop: '2rem'}}>1️⃣ Os Dias Determinados Antes de Existirem</h3>
+            <div style={{background: '#f8f9fa', padding: '1.25rem', borderRadius: '10px', margin: '1.5rem 0', borderLeft: '4px solid #0066cc'}}>
+              <p style={{margin: 0, fontStyle: 'italic', fontWeight: 'bold'}}>
+                &quot;Os teus olhos me viram a substância ainda informe, e no teu livro foram escritos todos os meus dias, cada um deles escrito e determinado, quando nenhum deles havia ainda.&quot; — Salmo 139:16
+              </p>
+            </div>
+            <p>Se todos os dias já estavam determinados no livro de Deus, como as atitudes que definiram esses dias escapam da determinação divina?</p>
+
+            <h3 style={{color: '#1a1210', marginTop: '2rem'}}>2️⃣ Deus Efetua o Querer e o Realizar</h3>
+            <div style={{background: '#f8f9fa', padding: '1.25rem', borderRadius: '10px', margin: '1.5rem 0', borderLeft: '4px solid #0066cc'}}>
+              <p style={{margin: 0, fontStyle: 'italic', fontWeight: 'bold'}}>
+                &quot;Porque Deus é o que opera em vós tanto o querer como o efetuar, segundo a sua boa vontade.&quot; — Filipenses 2:13
+              </p>
+            </div>
+            <p>Somos nós que agimos. Mas porque primeiro Deus agiu em nós. Até o querer tomar a atitude é obra dEle.</p>
+
+            <h3 style={{color: '#1a1210', marginTop: '2rem'}}>3️⃣ O Coração Novo e o Espírito que Faz Andar</h3>
+            <div style={{background: '#f8f9fa', padding: '1.25rem', borderRadius: '10px', margin: '1.5rem 0', borderLeft: '4px solid #0066cc'}}>
+              <p style={{margin: 0, fontStyle: 'italic', fontWeight: 'bold'}}>
+                &quot;E dar-vos-ei um coração novo, e porei dentro de vós um espírito novo... E porei dentro de vós o meu Espírito, e farei que andeis nos meus estatutos.&quot; — Ezequiel 36:26-27
+              </p>
+            </div>
+            <p>Note o sujeito da ação: &quot;EU porei... EU farei que andeis.&quot;</p>
+            <p>Quando cada herói da fé se moveu para obedecer, quem os moveu primeiro? O texto responde: Deus.</p>
+
+            <h3 style={{color: '#1a1210', marginTop: '2rem'}}>4️⃣ Dele, Por Ele e Para Ele</h3>
+            <div style={{background: '#f8f9fa', padding: '1.25rem', borderRadius: '10px', margin: '1.5rem 0', borderLeft: '4px solid #0066cc'}}>
+              <p style={{margin: 0, fontStyle: 'italic', fontWeight: 'bold'}}>
+                &quot;Porque dele, e por ele, e para ele, são todas as coisas; glória, pois, a ele eternamente. Amém.&quot; — Romanos 11:36
+              </p>
+            </div>
+            <p>Deus é a origem de tudo. Se algo existisse independente de Deus, esse algo seria Deus. O homem não é autônomo — nem para o bem, nem para o mal.</p>
+
+            <h2 style={{color: '#b91c1c', marginTop: '3rem', borderBottom: '2px solid #eee', paddingBottom: '0.5rem'}}>👑 O Caso de Ciro: A Atitude que Deus Despertou</h2>
+            
+            <p>Ciro era um rei ímpio. Mesmo assim, veja o que a Bíblia diz:</p>
+            
+            <div style={{background: '#f8f9fa', padding: '1.25rem', borderRadius: '10px', margin: '1.5rem 0', borderLeft: '4px solid #0066cc'}}>
+              <p style={{margin: 0, fontStyle: 'italic', fontWeight: 'bold'}}>
+                &quot;No primeiro ano de Ciro, rei da Pérsia (para que se cumprisse a palavra do SENHOR)... despertou o SENHOR o espírito de Ciro, rei da Pérsia.&quot; — Esdras 1:1
+              </p>
+            </div>
+            
+            <p>E o povo obedeceu. Por quê?</p>
+            
+            <div style={{background: '#f8f9fa', padding: '1.25rem', borderRadius: '10px', margin: '1.5rem 0', borderLeft: '4px solid #0066cc'}}>
+              <p style={{margin: 0, fontStyle: 'italic', fontWeight: 'bold'}}>
+                &quot;Então se levantaram os chefes dos pais de Judá e Benjamim, e os sacerdotes e os levitas, com todos aqueles cujo espírito Deus despertou, para subirem a edificar a casa do SENHOR.&quot; — Esdras 1:5
+              </p>
+            </div>
+            
+            <p>Todo mundo viu Ciro tomando atitude. Todo mundo viu o povo se levantando.</p>
+            <p>Mas por trás da atitude visível, havia um despertar invisível: Deus moveu o coração.</p>
+            <p>Deus não ficou esperando o homem agir. Ele despertou o espírito — e então o homem agiu, livremente.</p>
+
+            <h2 style={{color: '#b91c1c', marginTop: '3rem', borderBottom: '2px solid #eee', paddingBottom: '0.5rem'}}>🐴 O Caso de Paulo: A Atitude que Não Queria Ter</h2>
+            
+            <p>Paulo é o exemplo favorito de quem defende &quot;a atitude humana&quot;. Ele mesmo disse:</p>
+            
+            <div style={{background: '#f8f9fa', padding: '1.25rem', borderRadius: '10px', margin: '1.5rem 0', borderLeft: '4px solid #0066cc'}}>
+              <p style={{margin: 0, fontStyle: 'italic', fontWeight: 'bold'}}>
+                &quot;Já não vivo eu, mas Cristo vive em mim.&quot; — Gálatas 2:20
+              </p>
+            </div>
+            
+            <p>Mas repare na contradição de usar esse versículo para defender autonomia:</p>
+            <p>&quot;Não mais eu, mas Cristo... e logo em seguida afirmar: 'tomei a atitude sozinho'?&quot;</p>
+            
+            <p>Paulo não queria se converter. Ele ia a caminho de perseguir crentes. Foi Jesus quem o derrubou no caminho de Damasco (Atos 9).</p>
+            <p>A atitude de Paulo nasceu de uma intervenção soberana — não de uma decisão autônoma.</p>
+
+            <h2 style={{color: '#b91c1c', marginTop: '3rem', borderBottom: '2px solid #eee', paddingBottom: '0.5rem'}}>✝️ O Caso de Jesus: Atitudes em Submissão ao Pai</h2>
+            
+            <p>Até as atitudes de Cristo estavam submetidas ao Pai:</p>
+            
+            <div style={{background: '#f8f9fa', padding: '1.25rem', borderRadius: '10px', margin: '1.5rem 0', borderLeft: '4px solid #0066cc'}}>
+              <p style={{marginBottom: '0.5rem', fontStyle: 'italic', fontWeight: 'bold'}}>
+                &quot;O Filho nada pode fazer de si mesmo, senão somente aquilo que vir fazer o Pai.&quot; — João 5:19
+              </p>
+              <p style={{marginBottom: '0.5rem', fontStyle: 'italic', fontWeight: 'bold'}}>
+                &quot;A este Jesus, entregue pelo determinado conselho e presciência de Deus, vós crucificastes.&quot; — Atos 2:23
+              </p>
+              <p style={{margin: 0, fontStyle: 'italic', fontWeight: 'bold'}}>
+                &quot;Todavia, ao SENHOR agradou moê-lo, fazendo-o enfermar.&quot; — Isaías 53:10
+              </p>
+            </div>
+            
+            <p>As atitudes de Jesus (Filipenses 2:5-8 — humilhar-se, obedecer até a morte) foram reais e voluntárias. Mas não foram independentes do Pai. A cruz foi atitude de Cristo e determinado conselho de Deus — ao mesmo tempo.</p>
+
+            <h2 style={{color: '#b91c1c', marginTop: '3rem', borderBottom: '2px solid #eee', paddingBottom: '0.5rem'}}>🧱 O Caso de Faraó: Soberano Até Sobre o Mal</h2>
+            
+            <p>Deus ordenou: &quot;Vai, pois, agora, e eu te enviarei a Faraó&quot; (Êxodo 3:10). E ao mesmo tempo declarou:</p>
+            
+            <div style={{background: '#f8f9fa', padding: '1.25rem', borderRadius: '10px', margin: '1.5rem 0', borderLeft: '4px solid #0066cc'}}>
+              <p style={{margin: 0, fontStyle: 'italic', fontWeight: 'bold'}}>
+                &quot;Eu endurecerei o coração de Faraó, para que multiplique os meus sinais e as minhas maravilhas na terra do Egito.&quot; — Êxodo 7:3
+              </p>
+            </div>
+            
+            <p>Isso não significa que Deus colocou maldade no coração de Faraó — a maldade já estava lá. Significa que Deus é soberano sobre o coração do homem, até no mal.</p>
+            
+            <p>Como diz o provérbio:</p>
+            <div style={{background: '#f8f9fa', padding: '1.25rem', borderRadius: '10px', margin: '1.5rem 0', borderLeft: '4px solid #0066cc'}}>
+              <p style={{margin: 0, fontStyle: 'italic', fontWeight: 'bold'}}>
+                &quot;Como ribeiros de águas assim é o coração do rei na mão do SENHOR, que o inclina a todo o seu querer.&quot; — Provérbios 21:1
+              </p>
+            </div>
+
+            <h2 style={{color: '#b91c1c', marginTop: '3rem', borderBottom: '2px solid #eee', paddingBottom: '0.5rem'}}>⚖️ Graça Não É Dívida: Por Que Um Escolhe e o Outro Não?</h2>
+            
+            <p>Se todos nascem mortos em pecado, por que alguns escolhem a Cristo e outros não?</p>
+            
+            <p>Porque Deus abriu o coração de uns, como fez com Lídia:</p>
+            <div style={{background: '#f8f9fa', padding: '1.25rem', borderRadius: '10px', margin: '1.5rem 0', borderLeft: '4px solid #0066cc'}}>
+              <p style={{margin: 0, fontStyle: 'italic', fontWeight: 'bold'}}>
+                &quot;E uma certa mulher, chamada Lídia... estava ouvindo, e o Senhor lhe abriu o coração.&quot; — Atos 16:14
+              </p>
+            </div>
+            
+            <p>E porque a graça é favor imerecido, não obrigação:</p>
+            <div style={{background: '#f8f9fa', padding: '1.25rem', borderRadius: '10px', margin: '1.5rem 0', borderLeft: '4px solid #0066cc'}}>
+              <p style={{margin: 0, fontStyle: 'italic', fontWeight: 'bold'}}>
+                &quot;Não me é lícito fazer o que quiser do que é meu?&quot; — Mateus 20:15
+              </p>
+            </div>
+            
+            <p>Deus não deve graça a ninguém. Ele é sempre justo com todos — e misericordioso com quem Lhe apraz.</p>
+            <div style={{background: '#f8f9fa', padding: '1.25rem', borderRadius: '10px', margin: '1.5rem 0', borderLeft: '4px solid #0066cc'}}>
+              <p style={{margin: 0, fontStyle: 'italic', fontWeight: 'bold'}}>
+                &quot;Porque diz a Moisés: Compadecer-me-ei de quem me compadecer, e terei misericórdia de quem eu tiver misericórdia.&quot; — Romanos 9:15
+              </p>
+            </div>
+
+            <h2 style={{color: '#b91c1c', marginTop: '3rem', borderBottom: '2px solid #eee', paddingBottom: '0.5rem'}}>📜 Até Armínio Concordava: A Providência Sobre o Livre-Arbítrio</h2>
+            
+            <p>É comum acusar a visão reformada de extremismo. Mas ouça o próprio Jacó Armínio:</p>
+            
+            <div style={{background: '#f8f9fa', padding: '1.5rem', borderRadius: '10px', margin: '1.5rem 0', borderLeft: '4px solid #555', fontStyle: 'italic'}}>
+              <p style={{margin: 0}}>
+                &quot;Os meus sentimentos a respeito da providência de Deus são os seguintes: Ele está presente em todas as coisas e as preside... Não excetuo nenhuma coisa particular, terrena, nem contingente, nem mesmo o livre-arbítrio de homens ou anjos... E não tiro do controle da divina providência nem mesmo os próprios pecados.&quot;
+              </p>
+            </div>
+            
+            <p>Nem o livre-arbítrio escapa da providência de Deus — segundo o próprio Armínio.</p>
+            
+            <p>A ideia de que &quot;Deus não pode mover o coração do homem&quot; não é arminianismo clássico. É deísmo (Deus deu corda no relógio e foi embora) e pelagianismo (o homem nasce bom e se salva por esforço).</p>
+            
+            <p>E a ironia final: quem ora pedindo que Deus mova o coração de um parente ímpio para vir a Jesus... já admitiu, na prática, que Deus pode, sim, inclinar o coração do homem.</p>
+
+            <h2 style={{color: '#b91c1c', marginTop: '3rem', borderBottom: '2px solid #eee', paddingBottom: '0.5rem'}}>🤝 A Síntese Bíblica: Deus Move, o Homem Age</h2>
+            
+            <p>A Bíblia não apresenta um Deus impotente nem um robô humano. Apresenta os dois lados:</p>
+            
+            <ul style={{listStyleType: 'none', paddingLeft: 0, marginBottom: '2rem'}}>
+              <li style={{marginBottom: '0.5rem'}}>✅ Deus determina e desperta (Salmo 139:16; Esdras 1:1; Filipenses 2:13)</li>
+              <li style={{marginBottom: '0.5rem'}}>✅ O homem age livremente e é responsável (Hebreus 11; Isaías 6:8)</li>
+              <li style={{marginBottom: '0.5rem'}}>✅ A atitude humana é real — mas a graça que a desperta é anterior (Ezequiel 36:27; Atos 16:14)</li>
+            </ul>
+            
+            <p><strong>Ilustração:</strong> diante de R$ 2 e R$ 2 bilhões, o homem cego e caído escolhe livremente os R$ 2. Por que alguns escolhem os bilhões? Porque Deus abriu os olhos de uns. A escolha é livre — a capacitação é graça.</p>
+            
+            <p>Os heróis da fé tomaram atitudes? Sim. Mas foi a graça soberana que despertou o coração deles para agir.</p>
+
+            <h2 style={{color: '#b91c1c', marginTop: '3rem', borderBottom: '2px solid #eee', paddingBottom: '0.5rem'}}>📚 Box de Referências Completas</h2>
+            
+            <div style={{background: '#f8f9fa', borderLeft: '4px solid #0066cc', padding: '1.5rem', borderRadius: '0 8px 8px 0', margin: '2rem 0', fontSize: '0.95rem'}}>
+              <ul style={{listStyleType: 'none', paddingLeft: 0, margin: 0}}>
+                <li style={{marginBottom: '0.75rem'}}><strong>Salmo 139:16</strong> — &quot;No teu livro foram escritos todos os meus dias, cada um deles escrito e determinado.&quot;</li>
+                <li style={{marginBottom: '0.75rem'}}><strong>Filipenses 2:13</strong> — &quot;Deus é o que opera em vós tanto o querer como o efetuar.&quot;</li>
+                <li style={{marginBottom: '0.75rem'}}><strong>Ezequiel 36:26-27</strong> — &quot;Porei dentro de vós o meu Espírito, e farei que andeis nos meus estatutos.&quot;</li>
+                <li style={{marginBottom: '0.75rem'}}><strong>Romanos 11:36</strong> — &quot;Dele, e por ele, e para ele, são todas as coisas.&quot;</li>
+                <li style={{marginBottom: '0.75rem'}}><strong>Esdras 1:1, 5</strong> — &quot;Despertou o SENHOR o espírito de Ciro... todos aqueles cujo espírito Deus despertou.&quot;</li>
+                <li style={{marginBottom: '0.75rem'}}><strong>Atos 2:23</strong> — &quot;Entregue pelo determinado conselho e presciência de Deus.&quot;</li>
+                <li style={{marginBottom: '0.75rem'}}><strong>João 5:19</strong> — &quot;O Filho nada pode fazer de si mesmo.&quot;</li>
+                <li style={{marginBottom: '0.75rem'}}><strong>Isaías 53:10</strong> — &quot;Ao SENHOR agradou moê-lo.&quot;</li>
+                <li style={{marginBottom: '0.75rem'}}><strong>Êxodo 7:3</strong> — &quot;Eu endurecerei o coração de Faraó.&quot;</li>
+                <li style={{marginBottom: '0.75rem'}}><strong>Provérbios 21:1</strong> — &quot;O coração do rei na mão do SENHOR, que o inclina a todo o seu querer.&quot;</li>
+                <li style={{marginBottom: '0.75rem'}}><strong>Atos 16:14</strong> — &quot;O Senhor lhe abriu o coração.&quot;</li>
+                <li style={{marginBottom: '0.75rem'}}><strong>Mateus 20:15</strong> — &quot;Não me é lícito fazer o que quiser do que é meu?&quot;</li>
+                <li style={{marginBottom: '0.75rem'}}><strong>Romanos 9:15</strong> — &quot;Compadecer-me-ei de quem me compadecer.&quot;</li>
+                <li style={{marginBottom: 0}}><strong>Gálatas 2:20</strong> — &quot;Já não vivo eu, mas Cristo vive em mim.&quot;</li>
+              </ul>
+            </div>
+
+            <div style={{background: '#e9ecef', padding: '1.5rem', borderRadius: '12px', margin: '3rem 0'}}>
+              <h3 style={{marginTop: 0, color: '#1a1210'}}>📺 Fonte e Inspiração</h3>
+              <p style={{fontSize: '0.95rem'}}>Este artigo foi desenvolvido como uma versão escrita e expandida do vídeo <strong>"Deus não determina, o homem toma atitude"</strong>, do canal Pastor Rodrigo Mocellin no YouTube.</p>
+              <p style={{fontSize: '0.95rem'}}>Se você prefere assistir ou quer complementar o estudo com o vídeo original, confira:</p>
+              
+              <ul style={{listStyleType: 'none', paddingLeft: 0, fontSize: '0.95rem'}}>
+                <li style={{marginBottom: '0.5rem'}}>🔗 <a href="https://www.youtube.com/watch?v=LbOOYt0HEGc" target="_blank" rel="noopener noreferrer" style={{color: '#b91c1c', fontWeight: 'bold'}}>https://www.youtube.com/watch?v=LbOOYt0HEGc</a></li>
+                <li style={{marginBottom: '0.5rem'}}>📺 <a href="https://www.youtube.com/@PastorRodrigoMocellin" target="_blank" rel="noopener noreferrer" style={{color: '#1a1210', fontWeight: 'bold'}}>Canal Pastor Rodrigo Mocellin — https://www.youtube.com/@PastorRodrigoMocellin</a></li>
+              </ul>
+              
+              <p style={{fontSize: '0.95rem', margin: 0, fontStyle: 'italic', marginTop: '1rem'}}>Agradecemos ao Pastor Rodrigo Mocellin por ensinar com profundidade e clareza as doutrinas da graça. "A atitude do homem é real. Mas a graça que a desperta é soberana."</p>
+            </div>
+
+            <blockquote style={{borderLeft: '4px solid #722F37', background: '#fff9f9', padding: '1.5rem', margin: '2rem 0', fontStyle: 'italic', borderRadius: '0 8px 8px 0'}}>
+              <p style={{fontWeight: 'bold', marginBottom: '1rem'}}>🙏 Oração</p>
+              <p>Senhor, Deus soberano,</p>
+              <p>Obrigado porque a minha salvação não depende da minha força, mas da Tua graça.</p>
+              <p>Obrigado porque Tu despertaste o meu coração quando eu não Te buscava.</p>
+              <p>Ensina-me a agir com responsabilidade, sabendo que és Tu quem opera em mim o querer e o efetuar.</p>
+              <p>Dá-me humildade para examinar as Escrituras e amor por todos os que buscam a Tua verdade.</p>
+              <p>Inclina o meu coração aos Teus testemunhos.</p>
+              <p>Em nome de Jesus, amém.</p>
+            </blockquote>
+            
+            <p style={{textAlign: 'center', fontWeight: 'bold', marginTop: '2rem'}}>Soli Deo Gloria. ✨</p>
+          </main>
+
+          <section style={{maxWidth: '800px', margin: '0 auto 3rem', background: '#f8f9fa', padding: '2rem', borderRadius: '12px', borderTop: '4px solid #0066cc'}}>
+            <h2 style={{color: '#1a1210', marginTop: 0, display: 'flex', alignItems: 'center', gap: '8px'}}>💬 E Você, O Que Acha?</h2>
+            <p style={{color: '#555'}}>Agora queremos ouvir você, que leu até aqui:</p>
+            <ul style={{color: '#444', marginBottom: '1.5rem', paddingLeft: '1.5rem'}}>
+              <li style={{marginBottom: '0.5rem'}}>Você acredita que os heróis da fé agiram por atitude própria, ou que a graça de Deus moveu o coração deles primeiro?</li>
+              <li style={{marginBottom: '0.5rem'}}>Como você entende o equilíbrio entre a soberania de Deus e a responsabilidade humana?</li>
+              <li style={{marginBottom: '0.5rem'}}>Você já orou pedindo que Deus mudasse o coração de alguém? Se sim, isso não é admitir que Deus pode inclinar o coração do homem?</li>
+              <li>Qual das referências acima mais falou ao seu coração?</li>
+            </ul>
+            <p style={{color: '#666', fontStyle: 'italic'}}>👇 Deixe sua opinião nos comentários. Queremos aprender juntos, com respeito e amor pela Palavra. Não estamos aqui para vencer debates — estamos aqui para buscar o que a Bíblia ensina.</p>
+            <p style={{fontWeight: 'bold', color: '#1a1210'}}>&quot;Examinai tudo. Retende o bem.&quot; — 1 Tessalonicenses 5:21</p>
+            
+            <div style={{marginTop: '2rem'}}>
+              <Poll 
+                question="Deus move o coração ou o homem age sozinho?" 
+                options={["A graça de Deus move primeiro", "O homem decide sozinho", "Deus previu a escolha do homem", "Ambos atuam em paralelo (sinergismo)"]}
+              />
+            </div>
+          </section>
+
+          <ShareBar title="Deus Determina ou o Homem Toma Atitude? O Que a Bíblia Ensina Sobre os Heróis da Fé" url="/deus-determina-ou-homem-toma-atitude-herois-da-fe" />
+          <Comments articleId="deus-determina-ou-homem-toma-atitude-herois-da-fe" />
+          <RelatedArticles currentLink="/deus-determina-ou-homem-toma-atitude-herois-da-fe" category="Estudos Bíblicos" />
+        </article>
+      )}
     </div>
   );
 }
@@ -693,6 +991,7 @@ function App() {
   const isSamuelMarianoTestemunho = path === '/quando-deus-quebra-artista-formar-pastor-testemunho-samuel-mariano';
   const isDiscipulado3Erros = path === '/o-que-nao-e-discipulado-3-erros-distorcem-chamado-jesus';
     const isTabernaculo = path === '/tabernaculo-evangelho-inteiro-desenhado-pano-ouro-sangue';
+  const isDeusDetermina = path === '/deus-determina-ou-homem-toma-atitude-herois-da-fe';
   const isAmorAosInimigos = path === '/amor-aos-inimigos-chamado-radical-jesus-sermao-monte-mateus-5-43-48';
   const isEliasProfetaDeFogo = path === '/elias-jornada-completa-profeta-de-fogo-gileade-carro-de-fogo';
   const isBatismoInfantilCerto = path === '/batismo-infantil-certo-confianca-em-cristo-vs-ritual';
