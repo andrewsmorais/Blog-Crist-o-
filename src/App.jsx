@@ -2484,7 +2484,11 @@ function App() {
              <img src="/proverbios_6_deus_desaprova.jpg" alt="Seis coisas o Senhor odeia — Provérbios 6:16" className="article-hero-img" loading="lazy" style={{maxHeight: '450px', width: '100%', objectFit: 'cover', borderRadius: '12px'}} />
              <div className="article-body">
                
-               <h2>Um Alerta Urgente Contra a Maldade</h2>
+               
+
+            <VideoEmbed videoId="UsGv2rZhD1s" title="Vídeo Original" channel="TV Debates" />
+
+            <h2>Um Alerta Urgente Contra a Maldade</h2>
                <p>Em Provérbios 6:16, a Palavra de Deus enuncia um alerta urgente e solene: <em>"Seis coisas o Senhor odeia, e a sétima a sua alma detesta."</em> É um chamado severo ao discernimento: cuidado com a maldade — tanto para que você não esteja agindo de maneira maldosa, quanto com a maldade das pessoas que o cercam.</p>
                
                <p>Vivemos em uma época perigosa na qual diversos comportamentos condenados pelas Escrituras recebem uma "nova roupagem", um nome moderno ou são pura e simplesmente normalizados. Sem perceber, muitas vezes acabamos tolerando essas atitudes em nosso próprio coração ou convivendo imprudentemente com pessoas que agem com perversidade contínua.</p>
@@ -2585,412 +2589,18 @@ function App() {
                  <li><strong>"Pacificadores"</strong> — Vários autores (sobre promover unidade)</li>
                </ul>
 
-               <div style={{marginTop: '2rem', padding: '1.5rem', border: '1px solid #eee', borderRadius: '8px', background: '#fcfcfc', fontSize: '0.9rem', color: '#555'}}>
-                 <strong>📺 Fonte e Inspiração:</strong><br/>
-                 Este artigo foi desenvolvido como uma versão escrita e expandida baseada no conteúdo do canal <strong>Dani Cadore</strong> no YouTube.<br/><br/>
-                 Se você deseja assistir ao vídeo original e complementar seu estudo, confira:<br/>
-                 🔗 <a href="https://www.youtube.com/@DaniCadore" target="_blank" rel="noopener noreferrer" style={{color: '#0066cc'}}>Cuidado com o que Deus desaprova | Provérbios 6</a><br/><br/>
-                 Agradecemos à Dani Cadore por compartilhar verdades bíblicas tão necessárias para nossos dias.
-               </div>
-
-               <p style={{fontSize: '1.1rem', fontStyle: 'italic', color: '#555', textAlign: 'center', margin: '2rem 0'}}>
-                 "Seis coisas o Senhor odeia, e a sétima a sua alma detesta."
-               </p>
-               
-               <p style={{textAlign: 'center', fontWeight: 'bold', marginTop: '2rem'}}>Soli Deo Gloria. ✨</p>
-
-             </div>
-
-             <ShareBar title="Cuidado com o que Deus Desaprova: As 7 Atitudes que o Senhor Detesta (Provérbios 6)" url="/cuidado-com-que-deus-desaprova-7-atitudes-proverbios-6" />
-             <RelatedArticles currentLink="/cuidado-com-que-deus-desaprova-7-atitudes-proverbios-6" category="Estudos Bíblicos" />
-           </main>
-
-        ) : isLaraSantanaJesus ? (
-          <main className="article-content section-mb">
-             <Breadcrumb category="Testemunhos" categoryLink="/testemunhos" title="Jornada de Lara Santana" />
-             <div className="article-header">
-               <span className="cat-tag">Testemunhos</span>
-               <h1>Do Berço Cristão ao Encontro Pessoal: A Jornada de Lara Santana com Jesus</h1>
-               <div className="article-meta">
-                 📖 <strong>TESTEMUNHOS | Soli Deo Gloria</strong><br/>
-                 <span style={{fontSize: '0.9rem', color: '#666'}}><em>Baseado em conteúdo do YouTube | 25 Jun, 2026</em></span>
-               </div>
-             
-               <ArticleInfo date="25 de Junho de 2026" readingTime={10} />
-              </div>
-             <img src="/lara_santana_jesus.jpg" alt="Mas quando você orar, vá para seu quarto — Mateus 6:6" className="article-hero-img" loading="lazy" style={{maxHeight: '450px', width: '100%', objectFit: 'cover', borderRadius: '12px'}} />
-             <div className="article-body">
-               
-               <h2>"As maiores experiências que eu já tive com Deus foram no meu quarto"</h2>
-               <p>Quando <strong>Lara Santana</strong> fala sobre o seu encontro pessoal com Jesus, ela não descreve uma conversão dramática de resgate do mundo do crime ou de vícios extremos. Em vez disso, ela testemunha algo extremamente belo e profundo: uma jornada progressiva de fé e intimidade construída no secreto, na constância diária e na perseverança.</p>
-               
-               <p>Nascida na Primeira Igreja Presbiteriana de Vitória (ES), sob o abençoado pastorado do Rev. Hernandes Dias Lopes, Lara cresceu em um lar genuinamente cristão onde o estudo da Bíblia, a reverência teológica e a leitura da Palavra eram altamente valorizados. No entanto, mesmo criada dentro de uma família cristã admirável, ela precisou viver o seu <em>próprio</em> encontro e relacionamento pessoal com Deus.</p>
-
-               <h2>🏰 Da Igreja Tradicional à Renovada</h2>
-               <p>A trajetória congregacional de Lara passou por três fases ricas e formativas em sua espiritualidade:</p>
-               <ul style={{lineHeight: '1.8', marginBottom: '2rem'}}>
-                 <li><strong>Primeira Fase (Igreja Presbiteriana):</strong> Cresceu em um ambiente reformado tradicional, com alta valorização da Bíblia e do estudo. Embora tenha "aceitado a Jesus" ainda criança, sentia que precisava compreender de maneira mais plena e experimental essa salvação.</li>
-                 <li><strong>Segunda Fase (Igreja Pentecostal):</strong> Viveu uma transição cultural significativa. Confessa que no início achou o ambiente <em>"muito diferente, muito estranho"</em>, passando pelo choque cultural típico de quem migra de um formato litúrgico sóbrio para o fervor pentecostal.</li>
-                 <li><strong>Terceira Fase (Igreja Renovada - desde 2015):</strong> Encontrou o que define como um "mix" equilibrado, que une o amor profundo e reverente pela Palavra à intensidade de uma vida diária de oração e devoção no Espírito Santo. <em>"Sou muito apaixonada pela minha igreja hoje"</em>, conta.</li>
-               </ul>
-
-               <h2>🌅 O Encontro Real: Adolescência e a Convicção no Espírito</h2>
-               <p>Foi durante a adolescência que Lara experimentou suas primeiras vivências espirituais transformadoras com a Pessoa do Espírito Santo. Esses momentos geraram nela uma certeza que nenhum argumento cético poderia abalar:</p>
-               <p style={{fontSize: '1.1rem', fontStyle: 'italic', color: '#555', margin: '1.5rem 0'}}>
-                 "Caraca, hoje eu não consigo falar que Deus não é real. Não tem como depois do que eu tô vivendo na minha vida."
-               </p>
-               <p>Porém, o que verdadeiramente consolidou essa convicção não foi a euforia dos encontros de jovens, mas o desenvolvimento diário e inegociável de uma disciplina prática: o <strong>TSD (Tempo Só Deus)</strong>.</p>
-
-               <h2>📖 TSD: Tempo Só Deus — A Chave da Transformação</h2>
-               
-               <h3>O Que é o TSD?</h3>
-               <p>Na comunidade em que congrega desde 2015, o <strong>TSD (Tempo Só Deus)</strong> é um pilar da vida cristã. Trata-se de um tempo diário, inegociável e tratado como prioridade absoluta para a leitura das Escrituras e oração.</p>
-
-               <h3>O Secreto é o Lugar do Poder</h3>
-               <p>Lara aprendeu que a intimidade duradoura não se firma diante dos holofotes, mas a portas fechadas:</p>
-               <p style={{fontStyle: 'italic', background: '#fcfcfc', borderLeft: '3px solid #722F37', padding: '1rem', margin: '1.5rem 0'}}>
-                 "As maiores experiências que eu já tive com Deus foram no meu quarto. É muito maneiro, né? Só que a forma como Deus fala com a gente no secreto, quando você tá ali..."
-               </p>
-               <ul style={{lineHeight: '1.8', marginBottom: '2rem'}}>
-                 <li>✅ Tem dia que Deus não vai falar nada visível;</li>
-                 <li>✅ Tem dia que você fecha a Bíblia e mal se lembra dos detalhes que leu;</li>
-                 <li>✅ <strong>Mas o simples fato de você estar ali, dia após dia, constrói relacionamento e molda o seu coração.</strong></li>
-               </ul>
-
-               <h2>⏰ Terça-Feira, 6h da Manhã</h2>
-               <p>Muitas pessoas condicionam seu fervor a eventos espetaculares ou conferências anuais. Para Lara, no entanto, as experiências espirituais mais marcantes e duradouras aconteceram na rotina comum: <strong>numa terça-feira, às 6 horas da manhã, no seu quarto</strong>, em silêncio, oração e meditação na Palavra.</p>
-               <p><em>"Os encontros mais marcantes que eu já tive com Deus assim foram no meu quarto, depois que eu comecei a desenvolver esse hábito de leitura da Palavra e de oração"</em>, testifica ela.</p>
-
-               <h2>🌿 O Princípio Bíblico do Permanecer</h2>
-               <p>Durante a conversa, o pastor Douglas Gonçalves (do <em>JesusCopy</em>) fez uma observação pastoral profunda: <em>"Existe um prêmio do Senhor para a constância. Existe uma recompensa de Deus no permanecer."</em></p>
-               <p>Em João 15, Jesus reitera essa ordem fundamental aos Seus discípulos: <em>"Permaneçam em mim"</em>, <em>"Se as minhas palavras permanecerem em vocês"</em>, <em>"Permaneçam no meu amor"</em>. A vitória da vida cristã não reside no ímpeto inicial, mas no permanecer constante.</p>
-
-               <h3>A Lição de Tomé e a "Célula"</h3>
-               <p>Com leveza, o pastor brincou sobre o apóstolo Tomé, que esteve ausente quando o Jesus ressuscitado apareceu pela primeira vez no cenáculo: <em>"Faltou na célula nesse dia! [risadas] A galera ficou assistindo jogo e aí os caras mandaram mensagem: 'Você não vai acreditar quem veio!'"</em> Brincadeiras à parte, a lição é preciosa: Deus nos visita na constância de estarmos onde devemos estar.</p>
-
-               <h2>💎 O Testemunho "Ex-Nada": A Beleza do Legado</h2>
-               <p>Muitas vezes, jovens criados na igreja sentem que seus testemunhos "não são impactantes" por não terem um passado de destruição. O pastor Douglas desmistificou esse pensamento:</p>
-               <p style={{fontStyle: 'italic', background: '#fcfcfc', borderLeft: '3px solid #0066cc', padding: '1rem', margin: '1.5rem 0'}}>
-                 "Esse é o testemunho mais lindo, porque tem a ver com uma família que está passando um legado. Poxa, eu quero muito que meus filhos tenham esse testemunho: de serem 'ex-nada' nesse sentido. De se entenderem como pecadores desesperados que precisam de Jesus como todos os outros, mas que não precisaram se afundar no pecado para O encontrarem. Encontraram ali, em casa, na igreja local."
-               </p>
-               <p>Esse tipo de testemunho revela a força da graça pactual e confere uma solidez extraordinária à caminhada cristã.</p>
-
-               <h2>🔥 Quando a Constância Encontra a Experiência</h2>
-               <p>Lara compartilhou uma descoberta fundamental sobre as disciplinas espirituais: <em>"Quando você desenvolve um hábito de oração e de leitura da Bíblia, você aprende a permanecer quando nada está acontecendo."</em></p>
-               
-               <h3>A Semente Silenciosa de Provérbios</h3>
-               <p>Ela lembrou de certa ocasião lendo o livro de Provérbios: ao ler um versículo sobre sabedoria no seu TSD da manhã, aparentemente "nada mudou" de forma imediata ou dramática. Porém, dias depois, durante uma conversa desafiadora com uma amiga não cristã, o Espírito Santo trouxe exatamente aquele versículo à sua memória: <em>"Eu lembro de um versículo que eu li hoje!"</em> É a constância da leitura que vai moldando, preparando e santificando em silêncio.</p>
-
-               <h2>💑 A Analogia do Casamento: O Magia da Rotina</h2>
-               <p>Para ilustrar a relação entre constância e fervor, Lara fez uma analogia brilhante com o matrimônio:</p>
-               <p style={{fontStyle: 'italic', background: '#fff9f9', borderLeft: '3px solid #722F37', padding: '1rem', margin: '1.5rem 0'}}>
-                 "É igual a qualquer relacionamento que a gente tem. Por exemplo, é todo dia que eu tô no meu casamento, que é incrível, que é mágico? Não, tem dia que é normal! Tem dia que a gente tá em casa conversando, trocando ideia. E mesmo se tudo fosse mágico, nada seria mágico... Às vezes você viaja para um lugar extraordinário e fala: 'Nossa, queria morar aqui'. Aí você mora ali e fica comum. Vai desaparecer toda a magia."
-               </p>
-               <p>A verdadeira intimidade não se sustenta no extraordinário ininterrupto, mas no amor fiel que floresce nos dias comuns.</p>
-
-               <h2>🎯 Criando Conteúdo com Autenticidade</h2>
-               <p>Como criadora de conteúdo que alcançou milhões nas redes sociais, Lara revelou sua filosofia de trabalho e integridade:</p>
-               <ul style={{lineHeight: '1.8', marginBottom: '2rem'}}>
-                 <li><strong>O Princípio de Ouro:</strong> <em>"Desde o começo, eu sempre quis fazer um conteúdo que eu mesma iria querer assistir. Cara, eu me seguiria se visse meu perfil, eu ia ouvir meu podcast."</em></li>
-                 <li><strong>O Ponto de Equilíbrio:</strong> Existem dois conjuntos — o que as pessoas querem ver e o que você gosta de fazer. O segredo da relevância autêntica é encontrar a intersecção entre ambos.</li>
-                 <li><strong>O Perigo do Utilitarismo:</strong> ✅ Fazer apenas o que dá visualização fácil pode funcionar no início, mas ❌ no longo prazo trará frustração e vazio. <em>"Tem coisa pior do que você ficar fazendo um conteúdo que você mesmo não assistiria?"</em></li>
-               </ul>
-
-               <h2>🌟 7 Lições da Jornada de Lara</h2>
-               <ul style={{lineHeight: '1.8', marginBottom: '2rem'}}>
-                 <li>1️⃣ <strong>Crescer na Igreja Não Substitui o Encontro Pessoal:</strong> O legado familiar é uma bênção, mas cada crente precisa desenvolver seu próprio relacionamento com Jesus.</li>
-                 <li>2️⃣ <strong>O Secreto é o Lugar do Poder:</strong> As experiências espirituais mais duradouras nascem no quarto de oração, não diante de multidões.</li>
-                 <li>3️⃣ <strong>Constância &gt; Dramaticidade:</strong> Uma terça-feira comum às 6h da manhã diante da Palavra vale mais do que anos de eventos emocionais sem raiz.</li>
-                 <li>4️⃣ <strong>TSD é Inegociável:</strong> Reservar o "Tempo Só Deus" diário é a âncora da saúde espiritual do cristão.</li>
-                 <li>5️⃣ <strong>Permanecer é a Chave:</strong> O verdadeiro teste da fé é permanecer fiel e adorando quando a rotina não traz arrepios.</li>
-                 <li>6️⃣ <strong>O Extraordinário se Torna Comum:</strong> Amar a Deus nos dias normais é o segredo para enxergar o Seu agir silencioso.</li>
-                 <li>7️⃣ <strong>Autenticidade em Tudo:</strong> Seja na sua profissão, vocação ou nas redes: sirva a Cristo com excelência e sem máscaras.</li>
-               </ul>
-
-               <h2>🙏 Reflexão Final</h2>
-               <p>O testemunho de Lara Santana nos desafia a ressignificar o que entendemos por "encontro com Deus". Ele não precisa ser marcado por tragédias prévias, pirotecnias ou emoções repentinas. Pode ser construído gota a gota, página a página, oração após oração.</p>
-               <p>O importante não é a estética do início da sua corrida, mas a constância do seu permanecer. Como o próprio Senhor Jesus prometeu em João 15: <em>"Permaneça em mim, e eu permanecerei em você."</em> Lara encontrou essa verdade de portas fechadas no seu quarto. E você, onde tem investido o seu tempo com Deus?</p>
-
-               <h2>🙏 Oração</h2>
-               <blockquote style={{borderLeft: '4px solid #722F37', background: '#fff9f9', padding: '1.5rem', margin: '2rem 0', fontStyle: 'italic'}}>
-                 Senhor Jesus,<br/>
-                 Obrigado por nos ensinares que o encontro Contigo pode ser construído dia após dia.<br/>
-                 Ajuda-nos a valorizar o secreto, a constância, o permanecer.<br/>
-                 Que possamos desenvolver o hábito inegociável do TSD.<br/>
-                 Que nossas maiores experiências sejam no nosso quarto, contigo.<br/>
-                 Ensina-nos a permanecer mesmo quando nada parece acontecer.<br/>
-                 Que o extraordinário se torne comum em nosso caminhar Contigo.<br/>
-                 Em nome de Jesus, amém.
-               </blockquote>
-
-               <h2>📖 Versículos para Meditação</h2>
-               <div style={{background: '#f8f9fa', borderLeft: '4px solid #0066cc', padding: '1.5rem', borderRadius: '0 8px 8px 0', margin: '2rem 0'}}>
-                 <p><strong>João 15:4-7</strong> — "Permaneçam em mim, e eu permanecerei em vocês... Se permanecerem em mim e as minhas palavras permanecerem em vocês, peçam o que quiserem, e lhes será concedido."</p>
-                 <p><strong>Salmo 57:8</strong> — "Desperta, minha alma! Despertem, harpa e lira! Acordarei a aurora."</p>
-                 <p><strong>Mateus 6:6</strong> — "Mas quando você orar, vá para seu quarto e, fechando a porta, ore a seu Pai, que está no lugar secreto."</p>
-                 <p><strong>Tiago 4:8</strong> — "Cheguem-se para Deus, e ele se chegará a vocês."</p>
-                 <p><strong>Salmo 119:105</strong> — "Lâmpada para os meus pés é a tua palavra e luz para os meus caminhos."</p>
-                 <p><strong>Josué 1:8</strong> — "Não deixe de falar as palavras deste Livro da Lei e de meditar nelas de dia e de noite, para que você cumpra fielmente tudo o que nele está escrito. Só então os seus caminhos prosperarão e você será bem-sucedido."</p>
-               </div>
-
-               <h2>📚 Leituras Recomendadas</h2>
-               <ul style={{lineHeight: '1.8', marginBottom: '2rem'}}>
-                 <li><strong>"Tempo com Deus"</strong> — Vários autores (sobre TSD e vida devocional)</li>
-                 <li><strong>"O Quarto Secreto"</strong> — Vários autores (oração no secreto)</li>
-                 <li><strong>"Permanecendo em Cristo"</strong> — Vários autores (João 15 e permanência)</li>
-                 <li><strong>"Hábitos Espirituais"</strong> — Vários autores (disciplinas espirituais)</li>
-                 <li><strong>"A Vida Devocional"</strong> — Vários autores (constância na fé)</li>
-               </ul>
-
-               <div style={{marginTop: '2rem', padding: '1.5rem', border: '1px solid #eee', borderRadius: '8px', background: '#fcfcfc', fontSize: '0.9rem', color: '#555'}}>
-                 <strong>📺 Fonte e Inspiração:</strong><br/>
-                 Este artigo foi desenvolvido como uma versão escrita e expandida baseada no conteúdo do canal <strong>JesusCopy</strong> no YouTube.<br/><br/>
-                 Se você deseja assistir ao vídeo original e complementar seu estudo, confira:<br/>
-                 🔗 <a href="https://www.youtube.com/@JesusCopy" target="_blank" rel="noopener noreferrer" style={{color: '#0066cc'}}>TESTEMUNHO DE CONVERSÃO DE LARA SANTANA | Podcast JesusCopy</a><br/><br/>
-                 Agradecemos ao JesusCopy por compartilhar testemunhos tão edificantes e necessários para nossos dias.
-               </div>
-
-               <p style={{fontSize: '1.1rem', fontStyle: 'italic', color: '#555', textAlign: 'center', margin: '2rem 0'}}>
-                 "As maiores experiências que eu já tive com Deus foram no meu quarto, numa terça-feira às 6h da manhã."
-               </p>
-               
-               <p style={{textAlign: 'center', fontWeight: 'bold', marginTop: '2rem'}}>Soli Deo Gloria. 🙏✨</p>
-
-             </div>
-
-             <ShareBar title="Do Berço Cristão ao Encontro Pessoal: A Jornada de Lara Santana com Jesus" url="/do-berco-cristao-ao-encontro-pessoal-jornada-lara-santana-jesus" />
-             <RelatedArticles currentLink="/do-berco-cristao-ao-encontro-pessoal-jornada-lara-santana-jesus" category="Testemunhos" />
-           </main>
-
-        ) : isSamuelMarianoTestemunho ? (
-          <main className="article-content section-mb">
-             <Breadcrumb category="Testemunhos" categoryLink="/testemunhos" title="O Testemunho de Samuel Mariano" />
-             <div className="article-header">
-               <span className="cat-tag">Testemunhos</span>
-               <h1>Quando Deus Quebra o Artista para Formar um Pastor: O Testemunho de Samuel Mariano</h1>
-               <div className="article-meta">
-                 📖 <strong>TESTEMUNHOS | Soli Deo Gloria</strong><br/>
-                 <span style={{fontSize: '0.9rem', color: '#666'}}><em>Baseado em conteúdo do YouTube | 25 Jun, 2026</em></span>
-               </div>
-             
-               <ArticleInfo date="25 de Junho de 2026" readingTime={12} />
-              </div>
-             <img src="/samuel_mariano_testemunho.jpg" alt="O Testemunho de Samuel Mariano — Quando Deus Quebra o Artista para Formar um Pastor" className="article-hero-img" loading="lazy" style={{maxHeight: '450px', width: '100%', objectFit: 'cover', borderRadius: '12px'}} />
-             <div className="article-body">
-               
-               <blockquote style={{borderLeft: '4px solid #722F37', background: '#fff9f9', padding: '1.5rem', margin: '2rem 0', fontStyle: 'italic', borderRadius: '0 8px 8px 0'}}>
-                 &quot;Deus me quebrou. Quebrou o artista. Quebrou. Tinha em algum momento da sua vida algum sentimento de vaidade? Quebrou o Samuel. Deus me quebrou todo e precisava ser quebrado.&quot; — <strong>Samuel Mariano</strong>
-               </blockquote>
-
-               <p>Você já foi alvo de acusações falsas? Já sentiu a dor de ser julgado por algo que não fez? Já experimentou o peso de pessoas que se decepcionaram com você sem sequer conhecer sua história?</p>
-               <p>Samuel Mariano, cantor e pastor, passou por isso. Em um podcast recente, ele abriu o coração sobre o momento mais delicado de sua carreira e ministério — e revelou como Deus usou a dor para transformá-lo.</p>
-               <p>Este não é apenas um testemunho sobre superação. É uma lição profunda sobre quebrantamento, justiça divina e o processo de Deus em nossas vidas.</p>
-
-               <h2>A Dor das Acusações Falsas</h2>
-               <p>Samuel foi alvo de críticas severas e acusações públicas. Como muitos cristãos que já passaram por situações semelhantes, ele conheceu a dor de ser mal compreendido:</p>
-               
-               <p><em>&quot;Eu queria pedir perdão a pessoas que se decepcionaram comigo por uma coisa que eles não ouviram da minha boca, por uma coisa que eles sequer foram atrás dos fatos.&quot;</em></p>
-               
-               <p>Essa frase revela algo profundo: o poder destrutivo das narrativas. Vivemos em uma época onde:</p>
-               <ul>
-                 <li>❌ As pessoas julgam sem conhecer</li>
-                 <li>❌ Compartilham sem verificar</li>
-                 <li>❌ Condenam sem ouvir</li>
-               </ul>
-
-               <p>Samuel poderia ter se defendido publicamente. Poderia ter apresentado documentos, provas, a sentença judicial que o inocentou. Mas ele escolheu um caminho diferente:</p>
-               <p><em>&quot;Por que eu vou apresentar para levantar um assunto? Não quero mais. Eu vou viver. Eu tô em paz.&quot;</em></p>
-
-               <h2>O Processo de Quebrantamento</h2>
-               <p>A pergunta do entrevistador foi direta: <em>&quot;Te quebrou?&quot;</em></p>
-               <p>A resposta de Samuel foi ainda mais direta:</p>
-               <p><em>&quot;Deus me quebrou. Quebrou o artista. Quebrou. Eu precisava ser quebrado para ser moldado, para virar pastor.&quot;</em></p>
-
-               <h3>O Que Significa Ser &quot;Quebrado&quot; por Deus?</h3>
-               <p>O quebrantamento bíblico não é sobre destruição, mas sobre transformação. É o processo pelo qual Deus:</p>
-               <ul>
-                 <li>✅ <strong>Remove a vaidade</strong> — <em>&quot;Eu não sinto diferença da minha carreira de antes para hoje, eu viajo do mesmo jeito, eu canto do mesmo jeito. Mas o que quebrou foi o Samuel.&quot;</em></li>
-                 <li>✅ <strong>Ensina dependência</strong> — <em>&quot;Você hoje tá entrevistando um cara quebrado, um cara que teve que aprender que o evangelho é um evangelho de perdão, um evangelho de renúncias.&quot;</em></li>
-                 <li>✅ <strong>Produz maturidade</strong> — <em>&quot;Como aquilo me fez crescer e amadurecer, parar de confiar em muita gente, vigiar muito, ter muito cuidado.&quot;</em></li>
-                 <li>✅ <strong>Molda o caráter</strong> — <em>&quot;Eu sou mais assustado, né? Eu tenho todo um cuidado com o que falo.&quot;</em></li>
-               </ul>
-
-               <h2>🎵 Canções Nascidas da Dor</h2>
-               <p><em>&quot;Os maiores hinos e poesias foram escritos em tribulações.&quot;</em></p>
-               <p>Samuel revelou que algumas de suas canções mais marcantes nasceram exatamente no meio da turbulência:</p>
-
-               <div style={{background: '#f8f9fa', padding: '1.25rem', borderRadius: '10px', margin: '1.5rem 0', borderLeft: '4px solid #b91c1c'}}>
-                 <h4 style={{marginTop: 0, color: '#b91c1c', marginBottom: '0.5rem'}}>&quot;Respira&quot;</h4>
-                 <p style={{margin: 0, fontStyle: 'italic'}}>
-                   &quot;Foi absurdo. Foi no tempo pandêmico também. Ninguém sabe o que eu colho dessas canções, mas essas canções eu escrevi todo quebrado, chorando. Deus escrevendo. Eu lembro que o pingo da lágrima caiu em cima do caderno.&quot;
-                 </p>
-               </div>
-
-               <div style={{background: '#f8f9fa', padding: '1.25rem', borderRadius: '10px', margin: '1.5rem 0', borderLeft: '4px solid #b91c1c'}}>
-                 <h4 style={{marginTop: 0, color: '#b91c1c', marginBottom: '0.5rem'}}>&quot;Fala Comigo, Deus&quot;</h4>
-                 <p style={{margin: 0, fontStyle: 'italic'}}>
-                   &quot;A que mais me marcou, que eu amo, é: 'Fala comigo, Deus, antes que a lâmpada se apague, que eu não queira mais ouvir a tua voz.'&quot;
-                 </p>
-               </div>
-
-               <div style={{background: '#f8f9fa', padding: '1.25rem', borderRadius: '10px', margin: '1.5rem 0', borderLeft: '4px solid #b91c1c'}}>
-                 <h4 style={{marginTop: 0, color: '#b91c1c', marginBottom: '0.5rem'}}>&quot;O que Haverá de Vir&quot;</h4>
-                 <p style={{margin: 0, fontStyle: 'italic'}}>
-                   &quot;Por que ela tá pegando tanto? Por que todo mundo tá gostando? Simples. Ela foi uma música feita com eu em pedaços. Eu tava em pedaços.&quot;
-                 </p>
-               </div>
-
-               <p>Há algo poderoso em adoração que nasce da dor. Não é apenas música — é oração transformada em melodia, é lágrima transformada em louvor.</p>
-
-               <h2>⚖️ Justiça Divina vs. Vingança Humana</h2>
-               <p>Uma das perguntas mais profundas do podcast foi:</p>
-               <p><em>&quot;Frase: 'Deus é justo' — te dá esperança ou te agoniza?&quot;</em></p>
-               <p>A resposta de Samuel revela um coração curado:</p>
-               <p><em>&quot;Eu não tenho esperança de punição para ninguém. Eu tô tão bem que eu não ligo com quem me fez mal. Eu não fico perguntando sobre absolutamente ninguém. Eu acredito num Deus que é justo.&quot;</em></p>
-
-               <h3>O Que a Bíblia Diz Sobre Isso?</h3>
-               <div style={{background: '#f8f9fa', borderLeft: '4px solid #0066cc', padding: '1.25rem', borderRadius: '0 8px 8px 0', margin: '1.5rem 0'}}>
-                 <p style={{margin: 0, fontWeight: '500'}}>
-                   <strong>Romanos 12:17-19:</strong> &quot;Não tornem a ninguém mal por mal. Procurem fazer o que é correto aos olhos de todos. Não se vinguem, meus amados, mas deixem espaço para a ira de Deus, pois está escrito: 'A mim me pertence a vingança; eu retribuirei', diz o Senhor.&quot;
-                 </p>
-               </div>
-
-               <p>Samuel entendeu isso. Ele tinha:</p>
-               <ul>
-                 <li>✅ Documentos que o inocentavam</li>
-                 <li>✅ Sentença judicial favorável</li>
-                 <li>✅ Relatório do delegado</li>
-                 <li>✅ Gravações de celulares</li>
-               </ul>
-               <p>Mas escolheu não usar como arma. Por quê?</p>
-               <p><em>&quot;Porque já não me interessa mais. Eu tô bem.&quot;</em></p>
-
-               <h2>🙏 O Pedido de Perdão que Liberta</h2>
-               <p>Em um momento emocionante, Samuel fez algo raro: pediu perdão publicamente.</p>
-               <p><em>&quot;Eu queria pedir perdão a pessoas que se decepcionaram comigo. Me perdoe porque nunca foi minha intenção decepcionar você.&quot;</em></p>
-               <p>Mas ele também estabeleceu um limite importante:</p>
-               <p><em>&quot;Agora, se você conseguiu ficar decepcionado comigo sem sequer me conhecer, sem sequer me ouvir, ah, eu não consigo fazer nada.&quot;</em></p>
-
-               <div style={{background: '#fff9f9', borderLeft: '4px solid #722F37', padding: '1.25rem', borderRadius: '0 8px 8px 0', margin: '1.5rem 0'}}>
-                 <h4 style={{marginTop: 0, color: '#722F37', marginBottom: '0.75rem'}}>Lição Importante:</h4>
-                 <p style={{margin: '0 0 0.5rem 0'}}>Você não pode controlar o que outros pensam de você. Você só pode:</p>
-                 <ul style={{marginBottom: 0}}>
-                   <li>✅ Viver com integridade</li>
-                   <li>✅ Pedir perdão quando necessário</li>
-                   <li>✅ Confiar que Deus conhece sua verdade</li>
-                 </ul>
-               </div>
-
-               <h2>A Igreja que Conhece de Perto</h2>
-               <p>Samuel revelou algo precioso:</p>
-               <p><em>&quot;A igreja que eu sou pastor me conhece, cara. A igreja que eu sou pastor conhece meu caráter, vive o dia todo comigo. E a igreja brasileira, aonde eu chegava, irmãs de ciclo de oração me abraçando: 'Meu filho, estou orando por você.'&quot;</em></p>
-
-               <h3>O Poder do Relacionamento Verdadeiro</h3>
-               <p>Quando as acusações vieram, quem conhecia Samuel de perto:</p>
-               <ul>
-                 <li>✅ Não acreditou nas narrativas</li>
-                 <li>✅ Continuou apoiando</li>
-                 <li>✅ Orava por ele</li>
-                 <li>✅ O acolheu de volta após a vitória judicial</li>
-               </ul>
-               <p>Isso nos ensina: Construa relacionamentos verdadeiros. Pessoas que te conhecem de verdade não serão enganadas por narrativas falsas.</p>
-
-               <h2>💔 Saudade dos Lugares que Não Pode Mais Ir</h2>
-               <p>Samuel compartilhou uma dor real:</p>
-               <p><em>&quot;Tenho saudade de alguns lugares que eu já não vou mais. Mas os pastores sabem quem sou eu. Eles me levaram na igreja deles. Eles nunca me viram beber, farrar, sair de madrugada. Eles sabem quem sou eu.&quot;</em></p>
-
-               <h3>O Preço das Acusações Falsas</h3>
-               <p>Mesmo sendo inocentado, mesmo tendo documentos, algumas portas se fecharam. Isso dói. Mas Samuel aprendeu:</p>
-               <p><em>&quot;Se você sabe o que Deus te deu, se você sabe quem você é, liga com isso.&quot;</em></p>
-
-               <h2>A Transição de Artista para Pastor</h2>
-               <p>Uma profecia marcou Samuel:</p>
-               <p><em>&quot;Eu recebi uma profecia da irmã Ângela. Ela me sacudiu assim e disse: 'Homem, eu quebrei o artista para formar um pastor.' E naquele dia eu chorei e falei: 'Deus, tô na tua mão.'&quot;</em></p>
-
-               <h3>Por Que Deus Precisa Nos Quebrar?</h3>
-               <p>Às vezes, Deus permite que passemos por:</p>
-               <ul>
-                 <li>• <strong>Acusações falsas</strong> — para aprendermos a depender dEle, não da aprovação humana</li>
-                 <li>• <strong>Dor do julgamento</strong> — para desenvolvermos compaixão pelos outros</li>
-                 <li>• <strong>Portas fechadas</strong> — para nos direcionar ao propósito verdadeiro</li>
-                 <li>• <strong>Quebrantamento</strong> — para nos moldar conforme a imagem de Cristo</li>
-               </ul>
-               <p>Samuel reconheceu:</p>
-               <p><em>&quot;Talvez como artista, como cantor, talvez eu desse certo ser do jeito que eu era. Mas como pastor, não. Precisei ser quebrado.&quot;</em></p>
-
-               <h2>🎯 Mensagem Para Quem Está Sendo Quebrado</h2>
-               <p>Samuel deixou uma palavra poderosa para quem está passando por situações semelhantes:</p>
-               <p><em>&quot;Se você não fez, acredite nesse Deus que é justo. Deus vai se levantar.&quot;</em></p>
-
-               <h3>Conselhos Práticos:</h3>
-               <ul>
-                 <li>• <strong>Não se vingue</strong> — Confie na justiça de Deus</li>
-                 <li>• <strong>Não viva procurando saber de quem te fez mal</strong> — Foque em viver bem</li>
-                 <li>• <strong>Mantenha-se em paz</strong> — Sua consciência limpa é sua maior defesa</li>
-                 <li>• <strong>Continue orando</strong> — Samuel disse: <em>&quot;Foi o tempo que eu mais orei&quot;</em></li>
-                 <li>• <strong>Não esfrie espiritualmente</strong> — <em>&quot;Não saí de dentro da igreja, tava aqui o tempo todo&quot;</em></li>
-               </ul>
-
-               <h3>✅ A Vida Continua (e é Boa!)</h3>
-               <p>Samuel terminou o podcast com um testemunho de vitória:</p>
-               <p><em>&quot;Completei 22 anos de casado com a mesma mulher. Meu filho é presbítero da igreja. Minha filha diaconisa e cantora. Minha igreja tá bem. Sou pastor de uma linda igreja. Tô bem. Tô em paz.&quot;</em></p>
-               <p>Isso é graça. Isso é restauração. Isso é Deus sendo justo.</p>
-
-               <h2>📖 Lições Para Nossa Vida</h2>
-               <ol style={{paddingLeft: '1.25rem', lineHeight: '1.8'}}>
-                 <li><strong>Deus Usa a Dor para Nos Moldar:</strong> O quebrantamento não é punição — é preparação.</li>
-                 <li><strong>Você Não Precisa Se Defender Sempre:</strong> Às vezes, o silêncio é a melhor defesa.</li>
-                 <li><strong>Relacionamentos Verdadeiros Importam:</strong> Quem te conhece de verdade não acreditará em mentiras.</li>
-                 <li><strong>A Justiça de Deus é Perfeita:</strong> Ele vê tudo. Ele sabe de tudo. Ele agirá no tempo certo.</li>
-                 <li><strong>Canções de Vitória Nascem no Vale:</strong> Suas maiores composições espirituais virão dos momentos mais difíceis.</li>
-                 <li><strong>Pedir Perdão Liberta:</strong> Mesmo quando não fizemos errado, pedir perdão por ter ferido (mesmo sem intenção) mostra maturidade.</li>
-                 <li><strong>Deus Quebra para Reconstruir:</strong> O artista foi quebrado. O pastor foi formado.</li>
-               </ol>
-
-               <h2>🙏 Oração</h2>
-               <blockquote style={{borderLeft: '4px solid #722F37', background: '#fff9f9', padding: '1.5rem', margin: '2rem 0', fontStyle: 'italic', borderRadius: '0 8px 8px 0'}}>
-                 Senhor Jesus,<br/>
-                 Obrigado pelo testemunho de Samuel Mariano.<br/>
-                 Ensina-nos a confiar em Ti quando formos injustamente acusados.<br/>
-                 Dá-nos graça para sermos quebrantados sem sermos destruídos.<br/>
-                 Ajuda-nos a perdoar aqueles que nos feriram.<br/>
-                 Livra-nos da necessidade de vingança.<br/>
-                 Que possamos encontrar em Ti nossa justiça, nossa paz, nossa identidade.<br/>
-                 Usa nossas dores para nos moldar conforme a Tua vontade.<br/>
-                 Em nome de Jesus, amém.
-               </blockquote>
-
-               <h2>📖 Versículos para Meditação</h2>
-               <div style={{background: '#f8f9fa', borderLeft: '4px solid #0066cc', padding: '1.5rem', borderRadius: '0 8px 8px 0', margin: '2rem 0'}}>
-                 <p style={{marginBottom: '1rem'}}>
-                   <strong>Salmo 37:5-6:</strong> &quot;Entregue o seu caminho ao SENHOR; confie nele, e ele tudo fará. Ele fará brilhar a sua justiça como a luz, e o seu direito, como o sol ao meio-dia.&quot;
-                 </p>
-                 <p style={{marginBottom: '1rem'}}>
-                   <strong>1 Pedro 2:23:</strong> &quot;Quando insultado, ele não revidava; quando sofria, não ameaçava, mas continuava a confiar naquele que julga com justiça.&quot;
-                 </p>
-                 <p style={{marginBottom: '1rem'}}>
-                   <strong>Romanos 8:28:</strong> &quot;Sabemos que em todas as coisas Deus trabalha para o bem daqueles que o amam, dos que foram chamados de acordo com o seu propósito.&quot;
-                 </p>
-                 <p style={{marginBottom: '1rem'}}>
-                   <strong>Salmo 34:18:</strong> &quot;O SENHOR está perto dos que têm o coração quebrantado e salva os de espírito abatido.&quot;
-                 </p>
-                 <p style={{marginBottom: 0}}>
-                   <strong>2 Coríntios 1:3-4:</strong> &quot;Bendito seja o Deus e Pai de nosso Senhor Jesus Cristo, Pai das misericórdias e Deus de toda consolação, que nos consola em toda a nossa tribulação, para que também possamos consolar os que estiverem em alguma tribulação, com a consolação com que nós mesmos somos consolados por Deus.&quot;
-                 </p>
-               </div>
-
-               <div style={{background: '#f8f9fa', padding: '1.5rem', borderRadius: '12px', marginTop: '2.5rem', border: '1px solid #e9ecef'}}>
-                 <h3 style={{marginTop: 0, marginBottom: '0.8rem', fontSize: '1.2rem'}}>📺 Fonte e Inspiração:</h3>
-                 <p style={{marginBottom: '1rem', lineHeight: '1.6'}}>
-                   Este artigo foi baseado no testemunho de Samuel Mariano no podcast <strong>TV Debates</strong>, onde ele compartilhou abertamente sobre acusações falsas, quebrantamento e restauração.
-                 </p>
-                 <p style={{marginBottom: 0}}>
-                   📺 <strong>Assista ao vídeo completo:</strong> <br/>
-                   <a href="https://www.youtube.com/watch?v=UsGv2rZhD1s" target="_blank" rel="noreferrer" style={{color: '#0066cc', fontWeight: 'bold', textDecoration: 'underline'}}>
-                     Samuel Mariano fala sobre escândalos e quebrantamento — TV Debates (Eu Acredito Podcast)
-                   </a>
-                 </p>
-               </div>
+               <div style={{background: '#e9ecef', padding: '1.5rem', borderRadius: '12px', margin: '3rem 0'}}>
+              <h3 style={{marginTop: 0, color: '#1a1210'}}>📺 Fonte e Inspiração</h3>
+              <p style={{fontSize: '0.95rem'}}>Este artigo foi desenvolvido como uma versão escrita e expandida do vídeo <strong>"Vídeo Original"</strong>, do canal TV Debates no YouTube.</p>
+              <p style={{fontSize: '0.95rem'}}>Se você prefere assistir ou quer complementar o estudo com o vídeo original, confira:</p>
+              
+              <ul style={{listStyleType: 'none', paddingLeft: 0, fontSize: '0.95rem'}}>
+                <li style={{marginBottom: '0.5rem'}}>🔗 <a href="https://www.youtube.com/watch?v=UsGv2rZhD1s" target="_blank" rel="noopener noreferrer" style={{color: '#b91c1c', fontWeight: 'bold'}}>https://www.youtube.com/watch?v=UsGv2rZhD1s</a></li>
+                <li style={{marginBottom: '0.5rem'}}>📺 <strong style={{color: '#1a1210'}}>Canal TV Debates</strong></li>
+              </ul>
+              
+              <p style={{fontSize: '0.95rem', margin: 0, fontStyle: 'italic', marginTop: '1rem'}}>Agradecemos ao canal TV Debates por produzir conteúdos bíblicos tão profundos e bem narrados, que edificam a Igreja.</p>
+            </div>
 
                <p style={{fontSize: '1.1rem', fontStyle: 'italic', color: '#555', textAlign: 'center', margin: '2rem 0'}}>
                  &quot;Deus me quebrou. E precisava ser quebrado.&quot; — Que essas palavras ecoem em nossos corações. Às vezes, o caminho para nos tornarmos quem Deus nos chamou para ser passa pelo vale do quebrantamento. Mas no fim desse vale, há restauração, propósito e paz.
@@ -3033,7 +2643,11 @@ function App() {
                  <li>✅ Um testemunho poderoso ao mundo</li>
                </ul>
 
-               <h2>📖 O Contexto: Jesus Corrige uma Interpretação Errada</h2>
+               
+
+            <VideoEmbed videoId="wpkboK5-xBs" title="Vídeo Original" channel="Dani Cadore" />
+
+            <h2>📖 O Contexto: Jesus Corrige uma Interpretação Errada</h2>
                
                <h3>A. &quot;Vocês Ouviram que Foi Dito...&quot;</h3>
                <p>Jesus continua a lógica que já vinha usando no Sermão do Monte:</p>
@@ -3294,21 +2908,18 @@ function App() {
                  </ul>
                </div>
 
-               <div style={{background: '#f8f9fa', padding: '1.5rem', borderRadius: '12px', marginTop: '2.5rem', border: '1px solid #e9ecef'}}>
-                 <h3 style={{marginTop: 0, marginBottom: '0.8rem', fontSize: '1.2rem'}}>📺 Fonte e Inspiração:</h3>
-                 <p style={{marginBottom: '1rem', lineHeight: '1.6'}}>
-                   Este artigo foi desenvolvido como uma versão escrita e expandida baseada no conteúdo do canal <strong>JesusCopy</strong> no YouTube.
-                 </p>
-                 <p style={{marginBottom: '1rem', lineHeight: '1.6'}}>
-                   Agradecemos à <strong>Dani Cadore</strong> por compartilhar verdades bíblicas tão necessárias para nossos dias.
-                 </p>
-                 <p style={{marginBottom: 0}}>
-                   📺 <strong>Assista ao vídeo original e complemente seu estudo:</strong> <br/>
-                   <a href="https://www.youtube.com/watch?v=wpkboK5-xBs" target="_blank" rel="noreferrer" style={{color: '#0066cc', fontWeight: 'bold', textDecoration: 'underline'}}>
-                     O AMOR AOS INIMIGOS | estudo bíblico | Sermão do Monte | Mateus 5:43-48
-                   </a>
-                 </p>
-               </div>
+               <div style={{background: '#e9ecef', padding: '1.5rem', borderRadius: '12px', margin: '3rem 0'}}>
+              <h3 style={{marginTop: 0, color: '#1a1210'}}>📺 Fonte e Inspiração</h3>
+              <p style={{fontSize: '0.95rem'}}>Este artigo foi desenvolvido como uma versão escrita e expandida do vídeo <strong>"Vídeo Original"</strong>, do canal Dani Cadore no YouTube.</p>
+              <p style={{fontSize: '0.95rem'}}>Se você prefere assistir ou quer complementar o estudo com o vídeo original, confira:</p>
+              
+              <ul style={{listStyleType: 'none', paddingLeft: 0, fontSize: '0.95rem'}}>
+                <li style={{marginBottom: '0.5rem'}}>🔗 <a href="https://www.youtube.com/watch?v=wpkboK5-xBs" target="_blank" rel="noopener noreferrer" style={{color: '#b91c1c', fontWeight: 'bold'}}>https://www.youtube.com/watch?v=wpkboK5-xBs</a></li>
+                <li style={{marginBottom: '0.5rem'}}>📺 <strong style={{color: '#1a1210'}}>Canal Dani Cadore</strong></li>
+              </ul>
+              
+              <p style={{fontSize: '0.95rem', margin: 0, fontStyle: 'italic', marginTop: '1rem'}}>Agradecemos ao canal Dani Cadore por produzir conteúdos bíblicos tão profundos e bem narrados, que edificam a Igreja.</p>
+            </div>
 
                <AmorInimigosComments />
 
@@ -3358,7 +2969,11 @@ function App() {
                <p>Mas o discipulado verdadeiro — aquele que Jesus ordenou — não é isso.</p>
                <p>Neste estudo, exploraremos três erros comuns sobre discipulado e como voltar ao modelo original de Cristo, baseado em Mateus 28:19-20 e nos ensinamentos do apóstolo Paulo.</p>
 
-               <h2>❌ Erro 1: Discipulado Não É Método de Crescimento de Igreja</h2>
+               
+
+            <VideoEmbed videoId="W-srOfx50oA" title="Vídeo Original" channel="JesusCopy" />
+
+            <h2>❌ Erro 1: Discipulado Não É Método de Crescimento de Igreja</h2>
                
                <h3>A. O Sequestro do Conceito</h3>
                <p>Muitos ouviram: <em>&quot;Vamos discipular para a igreja crescer!&quot;</em></p>
@@ -3590,21 +3205,18 @@ function App() {
                  </ul>
                </div>
 
-               <div style={{background: '#f8f9fa', padding: '1.5rem', borderRadius: '12px', marginTop: '2.5rem', border: '1px solid #e9ecef'}}>
-                 <h3 style={{marginTop: 0, marginBottom: '0.8rem', fontSize: '1.2rem'}}>📺 Fonte e Inspiração:</h3>
-                 <p style={{marginBottom: '1rem', lineHeight: '1.6'}}>
-                   Este artigo foi desenvolvido como uma versão escrita e expandida baseada no conteúdo do canal <strong>JesusCopy</strong> no YouTube.
-                 </p>
-                 <p style={{marginBottom: '1rem', lineHeight: '1.6'}}>
-                   Agradecemos ao JesusCopy por compartilhar verdades bíblicas tão necessárias para nossos dias.
-                 </p>
-                 <p style={{marginBottom: 0}}>
-                   📺 <strong>Assista ao vídeo original e complemente seu estudo:</strong> <br/>
-                   <a href="https://www.youtube.com/watch?v=W-srOfx50oA" target="_blank" rel="noreferrer" style={{color: '#0066cc', fontWeight: 'bold', textDecoration: 'underline'}}>
-                     TE ENSINARAM ERRADO SOBRE DISCIPULADO - FÁBIO COELHO | Podcast JesusCopy
-                   </a>
-                 </p>
-               </div>
+               <div style={{background: '#e9ecef', padding: '1.5rem', borderRadius: '12px', margin: '3rem 0'}}>
+              <h3 style={{marginTop: 0, color: '#1a1210'}}>📺 Fonte e Inspiração</h3>
+              <p style={{fontSize: '0.95rem'}}>Este artigo foi desenvolvido como uma versão escrita e expandida do vídeo <strong>"Vídeo Original"</strong>, do canal JesusCopy no YouTube.</p>
+              <p style={{fontSize: '0.95rem'}}>Se você prefere assistir ou quer complementar o estudo com o vídeo original, confira:</p>
+              
+              <ul style={{listStyleType: 'none', paddingLeft: 0, fontSize: '0.95rem'}}>
+                <li style={{marginBottom: '0.5rem'}}>🔗 <a href="https://www.youtube.com/watch?v=W-srOfx50oA" target="_blank" rel="noopener noreferrer" style={{color: '#b91c1c', fontWeight: 'bold'}}>https://www.youtube.com/watch?v=W-srOfx50oA</a></li>
+                <li style={{marginBottom: '0.5rem'}}>📺 <strong style={{color: '#1a1210'}}>Canal JesusCopy</strong></li>
+              </ul>
+              
+              <p style={{fontSize: '0.95rem', margin: 0, fontStyle: 'italic', marginTop: '1rem'}}>Agradecemos ao canal JesusCopy por produzir conteúdos bíblicos tão profundos e bem narrados, que edificam a Igreja.</p>
+            </div>
 
                <DiscipuladoComments />
 
@@ -3636,7 +3248,11 @@ function App() {
              <img src="/batismo_infantil_certo.jpg" alt="Quem crer e for batizado será salvo — Marcos 16:16" className="article-hero-img" loading="lazy" style={{maxHeight: '450px', width: '100%', objectFit: 'cover', borderRadius: '12px'}} />
              <div className="article-body">
                
-               <h2>"Não Confie na Carne"</h2>
+               
+
+            <VideoEmbed videoId="-a1epzI4MOE" title="Vídeo Original" channel="Pastor Rodrigo Mocellin" />
+
+            <h2>"Não Confie na Carne"</h2>
                <p>Em Gálatas 5:5-6, o apóstolo Paulo enuncia uma das diretrizes teológicas mais libertadoras e cortantes de todo o Novo Testamento: <em>"Mas nós, pelo Espírito, mediante a fé, aguardamos a justiça, que é nossa esperança. Porque em Cristo Jesus, nem a circuncisão, nem a incircuncisão valem coisa alguma, mas sim a fé que atua pelo amor."</em></p>
                
                <p>A linguagem teológica <strong>"não confie na carne"</strong> significa simplesmente: <em>não confie em si mesmo, nas suas obras ou em rituais humanos</em>. O tempo todo, a Escritura declara que nosso maior concorrente não é Baal nem nenhum ídolo de pedra: <strong>somos nós mesmos</strong>. É a nossa tendência caída de buscar segurança salvífica em nós, em nossos pais, na estrutura de uma congregação ou na realização física de cerimônias litúrgicas.</p>
@@ -3721,13 +3337,18 @@ function App() {
                  <li><strong>"Fé e Rituais"</strong> — Vários autores (distinção entre sinal e realidade)</li>
                </ul>
 
-               <div style={{marginTop: '2rem', padding: '1.5rem', border: '1px solid #eee', borderRadius: '8px', background: '#fcfcfc', fontSize: '0.9rem', color: '#555'}}>
-                 <strong>📺 Fonte e Inspiração:</strong><br/>
-                 Este artigo foi desenvolvido como uma versão escrita e expandida baseada no conteúdo do canal <strong>Pastor Rodrigo Mocellin</strong> no YouTube.<br/><br/>
-                 Se você deseja assistir ao vídeo original e complementar seu estudo, confira:<br/>
-                 🔗 <a href="https://www.youtube.com/watch?v=-a1epzI4MOE" target="_blank" rel="noopener noreferrer" style={{color: '#0066cc'}}>Batismo infantil é certo?</a><br/><br/>
-                 Agradecemos ao Pastor Rodrigo Mocellin por compartilhar verdades bíblicas tão necessárias para nossos dias.
-               </div>
+               <div style={{background: '#e9ecef', padding: '1.5rem', borderRadius: '12px', margin: '3rem 0'}}>
+              <h3 style={{marginTop: 0, color: '#1a1210'}}>📺 Fonte e Inspiração</h3>
+              <p style={{fontSize: '0.95rem'}}>Este artigo foi desenvolvido como uma versão escrita e expandida do vídeo <strong>"Batismo infantil é certo?"</strong>, do canal Pastor Rodrigo Mocellin no YouTube.</p>
+              <p style={{fontSize: '0.95rem'}}>Se você prefere assistir ou quer complementar o estudo com o vídeo original, confira:</p>
+              
+              <ul style={{listStyleType: 'none', paddingLeft: 0, fontSize: '0.95rem'}}>
+                <li style={{marginBottom: '0.5rem'}}>🔗 <a href="https://www.youtube.com/watch?v=-a1epzI4MOE" target="_blank" rel="noopener noreferrer" style={{color: '#b91c1c', fontWeight: 'bold'}}>https://www.youtube.com/watch?v=-a1epzI4MOE</a></li>
+                <li style={{marginBottom: '0.5rem'}}>📺 <strong style={{color: '#1a1210'}}>Canal Pastor Rodrigo Mocellin</strong></li>
+              </ul>
+              
+              <p style={{fontSize: '0.95rem', margin: 0, fontStyle: 'italic', marginTop: '1rem'}}>Agradecemos ao canal Pastor Rodrigo Mocellin por produzir conteúdos bíblicos tão profundos e bem narrados, que edificam a Igreja.</p>
+            </div>
 
                <p style={{fontSize: '1.1rem', fontStyle: 'italic', color: '#555', textAlign: 'center', margin: '2rem 0'}}>
                  "A nossa confiança está exclusivamente em Cristo. Somos salvos exclusivamente pela nossa fé, fé que Ele nos deu, fé em Cristo. Não pela fé dos nossos pais, da igreja, de ninguém, por meio de um ritual ou por termos nascido no lugar certo."
@@ -3757,7 +3378,11 @@ function App() {
              <img src="/salvacao_nao_se_perde.jpg" alt="Aquele que começou boa obra em vós há de completá-la — Filipenses 1:6" className="article-hero-img" loading="lazy" style={{maxHeight: '450px', width: '100%', objectFit: 'cover', borderRadius: '12px'}} />
              <div className="article-body">
                
-               <h2>A Corrida Cristã e a Tensão Teológica</h2>
+               
+
+            <VideoEmbed videoId="hoBLRegpD8c" title="Vídeo Original" channel="Pastor Rodrigo Mocellin" />
+
+            <h2>A Corrida Cristã e a Tensão Teológica</h2>
                <p>Em Gálatas 5:7, o apóstolo Paulo lança uma pergunta que ecoa profundamente na alma de qualquer cristão: <em>"Corríeis bem. Quem vos impediu de obedecer à verdade?"</em></p>
                
                <p>Paulo costumava olhar para as corridas romanas e para as maratonas como uma perfeita ilustração da nossa caminhada espiritual e da salvação. Ele diz aos gálatas: <em>"Vocês começaram com ardor, como maratonistas que largam com tudo, mas logo perderam o fôlego e o rumo."</em></p>
@@ -3879,177 +3504,18 @@ function App() {
                  <li><strong>"Verdadeiros Crentes"</strong> — Vários autores (como distinguir fé genuína de falsa)</li>
                </ul>
 
-               <div style={{marginTop: '2rem', padding: '1.5rem', border: '1px solid #eee', borderRadius: '8px', background: '#fcfcfc', fontSize: '0.9rem', color: '#555'}}>
-                 <strong>📺 Fonte e Inspiração:</strong><br/>
-                 Este artigo foi desenvolvido como uma versão escrita e expandida baseada no conteúdo do canal <strong>Pastor Rodrigo Mocellin</strong> no YouTube.<br/><br/>
-                 Se você deseja assistir ao vídeo original e complementar seu estudo, confira:<br/>
-                 🔗 <a href="https://www.youtube.com/@PastorRodrigoMocellin" target="_blank" rel="noopener noreferrer" style={{color: '#0066cc'}}>Salvação não se perde</a><br/><br/>
-                 Agradecemos ao Pastor Rodrigo Mocellin por compartilhar verdades bíblicas tão necessárias para nossos dias.
-               </div>
-
-               <p style={{fontSize: '1.1rem', fontStyle: 'italic', color: '#555', textAlign: 'center', margin: '2rem 0'}}>
-                 "O mesmo Deus que faz a exigência 'tem que perseverar até o fim', Ele também capacita o seu povo a cumprir a exigência, a perseverar."
-               </p>
-               
-               <p style={{textAlign: 'center', fontWeight: 'bold', marginTop: '2rem'}}>Soli Deo Gloria. ✨</p>
-
-             </div>
-
-             <ShareBar title="Salvação Não Se Perde: Entendendo as Advertências de Paulo em Gálatas 5" url="/salvacao-nao-se-perde-advertencias-paulo-galatas-5" />
-             <RelatedArticles currentLink="/salvacao-nao-se-perde-advertencias-paulo-galatas-5" category="Estudos Bíblicos" />
-           </main>
-
-        ) : isProsperidadeVsMiseria ? (
-          <main className="article-content section-mb">
-             <Breadcrumb category="Notícias" categoryLink="/noticias" title="Prosperidade vs. Miséria" />
-             <div className="article-header">
-               <span className="cat-tag">Notícias</span>
-               <h1>Teologia da Prosperidade vs. Teologia da Miséria: Encontrando o Equilíbrio Bíblico</h1>
-               <div className="article-meta">
-                 📖 <strong>NOTÍCIAS | Soli Deo Gloria</strong><br/>
-                 <span style={{fontSize: '0.9rem', color: '#666'}}><em>Baseado em conteúdo do YouTube | 25 Jun, 2026</em></span>
-               </div>
-             
-               <ArticleInfo date="25 de Junho de 2026" readingTime={10} />
-              </div>
-             <img src="/prosperidade_vs_miseria.jpg" alt="Buscai primeiro o Reino... e todas estas coisas vos serão acrescentadas — Mateus 6:33" className="article-hero-img" loading="lazy" style={{maxHeight: '450px', width: '100%', objectFit: 'cover', borderRadius: '12px'}} />
-             <div className="article-body">
-               
-               <h2>O Dilema Entre os Dois Extremos</h2>
-               <p>Você que combate a teologia da prosperidade — e nós temos a obrigação bíblica de combatê-la —, como lida com promessas como as de Efésios 6:2-3 (<em>"Honra teu pai e a tua mãe... para que tudo te vá bem e sejas de longa vida sobre a terra"</em>) ou o Salmo 1, que promete que o justo é bem-sucedido em tudo o que faz?</p>
-               
-               <p>Muitos cristãos, tanto reformados quanto pentecostais, caem em um erro reacionário: a <strong>romantização da pobreza</strong> ou "teologia da miséria". Essa ideia não tem origem protestante, mas católica. Combater o erro da prosperidade negando as promessas de provisão que o próprio Deus fez ao Seu povo é cair em um abismo oposto.</p>
-
-               <h2>❌ Por Que a Teologia da Prosperidade é Heresia?</h2>
-               
-               <h3>Heresia por Ênfase, Não por Negação</h3>
-               <p>As heresias tradicionais negavam verdades centrais do Evangelho (como a Trindade, a divindade ou humanidade de Jesus). Já a teologia da prosperidade é perigosa porque ela pega promessas bíblicas reais, distorce o contexto e <strong>só fala disso</strong>.</p>
-
-               <h3>Os Três Erros Principais da Teologia da Prosperidade</h3>
-               <ul style={{lineHeight: '1.8', marginBottom: '2rem'}}>
-                 <li>❌ <strong>Foco exclusivo em dinheiro e contribuição:</strong> Reduz o culto cristão a trocas comerciais com Deus.</li>
-                 <li>❌ <strong>Uso do dinheiro como isca de evangelização:</strong> A ordem do Evangelho aos descrentes é o arrependimento, não promessas de riqueza temporal.</li>
-                 <li>❌ <strong>Ignorar que crentes fiéis sofrem e passam por escassez:</strong> Os apóstolos e homens de fé viveram perseguições e penúria. Achar que todo sofrimento é sinal de pecado oculto ou falta de fé é incorrer no mesmo erro dos amigos de Jó.</li>
-               </ul>
-
-               <h2>⚠️ O Erro Reacionário: Romantizando a Pobreza</h2>
-               
-               <h3>Pastores Reacionários, Não Bíblicos</h3>
-               <p>Com a melhor das intenções para combater os excessos de pregadores como Edir Macedo, muitos pastores se tornaram reacionários antibíblicos. Eles passaram a romantizar a pobreza como se a miséria material fosse, em si, um atestado de santidade.</p>
-               
-               <h3>A Origem Católica da "Teologia da Miséria"</h3>
-               <p>A romantização da pobreza sempre foi marca do monasticismo católico romano, não da Reforma Protestante:</p>
-               <ol style={{lineHeight: '1.8', marginBottom: '2rem', paddingLeft: '1.5rem'}}>
-                 <li>
-                   <strong>Agostinho e a Influência Platônica:</strong> Com seu dualismo platônico, o mundo material e os sentidos eram vistos como essencialmente inferiores ao mundo espiritual, gerando desconfiança sobre a provisão material.
-                 </li>
-                 <li style={{marginTop: '1rem'}}>
-                   <strong>Justificação pelas Obras:</strong> A pobreza voluntária era tida como mérito para salvação. O dinheiro era considerado "sujo" nas mãos dos fiéis, mas "bênção" na mão das ordens monásticas.
-                 </li>
-                 <li style={{marginTop: '1rem'}}>
-                   <strong>Ordens Mendicantes:</strong> Francisco de Assis declarou: <em>"Casei-me com a pobreza"</em>, elevando a mendicância a um status moral superior.
-                 </li>
-               </ol>
-               
-               <h3>Max Weber e a Prosperidade Protestante</h3>
-               <p>O sociólogo Max Weber notou que nações tocadas pela Reforma Protestante prosperaram de forma extraordinária. A ética protestante valorizava o trabalho digno, a honestidade e a boa administração da criação divina. Dizer que "a igreja só é pura quando é miserável e sem influência" seria chamar a Reforma de um movimento maléfico, o que é um absurdo histórico.</p>
-
-               <h2>✅ As Promessas Bíblicas de Provisão</h2>
-               
-               <h3>Verdades que Não Podem Ser Negadas</h3>
-               <p>O fato de falsos mestres abusarem da Bíblia não nos dá o direito de rasgar as páginas que falam sobre a bênção de Deus sobre o trabalho honesto.</p>
-
-               <h3>Promessas do Novo Testamento</h3>
-               <ul style={{lineHeight: '1.8', marginBottom: '2rem'}}>
-                 <li>✅ <strong>Efésios 6:2-3:</strong> <em>"Honra teu pai e tua mãe... para que tudo te vá bem e tenhas vida longa sobre a terra."</em> Muitos pastores entram em pane ao tentar explicar o "tudo te vá bem".</li>
-                 <li>✅ <strong>3 João 1:2:</strong> <em>"Amado, acima de tudo, faço votos por tua prosperidade e saúde, assim como é próspera a tua alma."</em> O apóstolo João desejava progresso material e saúde corporal para Gaio, justamente porque sua alma já era próspera!</li>
-               </ul>
-
-               <h3>Soberania de Deus, Sofrimento e Fé</h3>
-               <p>Deus é soberano. Ele pode permitir aprovações e perdas para moldar nosso caráter e nos aproximar dEle, como fez com Jó. Mas isso é uma exceção pedagógica da providência, não a regra da criação: Deus prometeu suprir o Seu povo e abençoar o fruto do trabalho justo.</p>
-               <p>Sem crer que Deus abençoa e supre, que fé um pai de família teria para abrir um pequeno comércio, ou um jovem para estudar para um concurso público?</p>
-
-               <h2>💰 O Erro de Negar a Prosperidade Bíblica</h2>
-               <p>Há pastores bem assalariados que dizem à sua congregação: <em>"Eu não me importo com o quanto você ganha, só com a sua salvação."</em> Isso soa piedoso, mas não reflete o coração pastoral dos apóstolos, que desejavam o bem-estar integral dos irmãos.</p>
-               <p>Imagine o irmão João, trabalhando duro na lavoura ou no comércio para dar uma vida digna aos filhos. Acusá-lo de "ímpio materialista" por desejar prosperar com honestidade é uma perversidade teológica. Pobreza não é virtude em si. Romantizá-la é atitude de quem vive no conforto ou de quem perdeu a esperança bíblica.</p>
-
-               <h2>🎯 O Equilíbrio Bíblico: A Terceira Via</h2>
-               <p>A nossa esperança em Cristo é eterna, mas Deus cuida de nós também no tempo presente. Eis o equilíbrio prático da Escritura:</p>
-               <ul style={{lineHeight: '1.8', marginBottom: '2rem'}}>
-                 <li>✅ Confie em Deus e viva em obediência à Palavra;</li>
-                 <li>✅ Trabalhe com afinco, excelência e sem preguiça;</li>
-                 <li>✅ Aja com prudência financeira e não gaste em futilidades;</li>
-                 <li>✅ Não busque dinheiro para ostentação ou vaidade;</li>
-                 <li>✅ Confie na provisão sobrenatural do Senhor, sabendo que <em>"aos Seus amados Ele dá enquanto dormem"</em> (Salmo 127:2).</li>
-               </ul>
-
-               <h2>📊 Resumo: Os Três Caminhos</h2>
-               <div style={{overflowX: 'auto', margin: '2rem 0'}}>
-                 <table style={{width: '100%', borderCollapse: 'collapse', textAlign: 'left', fontSize: '0.95rem'}}>
-                   <thead>
-                     <tr style={{background: '#f1f3f5', borderBottom: '2px solid #ddd'}}>
-                       <th style={{padding: '12px'}}>Abordagem</th>
-                       <th style={{padding: '12px'}}>Visão do Dinheiro</th>
-                       <th style={{padding: '12px'}}>Erro Principal</th>
-                     </tr>
-                   </thead>
-                   <tbody>
-                     <tr style={{borderBottom: '1px solid #eee'}}>
-                       <td style={{padding: '12px', fontWeight: 'bold', color: '#c92a2a'}}>❌ Teologia da Prosperidade</td>
-                       <td style={{padding: '12px'}}>Dinheiro como fim e moeda de barganha com Deus.</td>
-                       <td style={{padding: '12px'}}>Ignora o sofrimento, distorce a graça e promove ganância.</td>
-                     </tr>
-                     <tr style={{borderBottom: '1px solid #eee', background: '#fafafa'}}>
-                       <td style={{padding: '12px', fontWeight: 'bold', color: '#e67700'}}>❌ Teologia da Miséria</td>
-                       <td style={{padding: '12px'}}>Dinheiro como mal inerente; pobreza como virtude.</td>
-                       <td style={{padding: '12px'}}>Nega promessas bíblicas de provisão e gera culpa legalista.</td>
-                     </tr>
-                     <tr style={{borderBottom: '1px solid #eee'}}>
-                       <td style={{padding: '12px', fontWeight: 'bold', color: '#2b8a3e'}}>✅ Equilíbrio Bíblico</td>
-                       <td style={{padding: '12px'}}>Dinheiro como bênção e instrumento de mordomia.</td>
-                       <td style={{padding: '12px'}}>Nenhum. Confia na soberania divina, trabalhando com afinco e retidão.</td>
-                     </tr>
-                   </tbody>
-                 </table>
-               </div>
-
-               <h2>🙏 Oração</h2>
-               <blockquote style={{borderLeft: '4px solid #722F37', background: '#fff9f9', padding: '1.5rem', margin: '2rem 0', fontStyle: 'italic'}}>
-                 Senhor Jesus,<br/>
-                 Dá-nos sabedoria para discernir entre a verdade e os extremos.<br/>
-                 Livra-nos da teologia da prosperidade e da teologia da miséria.<br/>
-                 Ajuda-nos a confiar nas Tuas promessas de provisão sem idolatrar o dinheiro.<br/>
-                 Que trabalhemos com afinco, ajamos com sabedoria e confiemos na Tua provisão sobrenatural.<br/>
-                 Que usemos os recursos que nos dás para Tua glória e o bem do próximo.<br/>
-                 Em nome de Jesus, amém.
-               </blockquote>
-
-               <h2>📖 Versículos para Meditação</h2>
-               <div style={{background: '#f8f9fa', borderLeft: '4px solid #0066cc', padding: '1.5rem', borderRadius: '0 8px 8px 0', margin: '2rem 0'}}>
-                 <p><strong>Efésios 6:2-3</strong> — "Honra o teu pai e a tua mãe, para que te vá bem, e tenhas vida longa sobre a terra."</p>
-                 <p><strong>3 João 1:2</strong> — "Amado, acima de tudo, faço votos por tua prosperidade e saúde, assim como é próspera a tua alma."</p>
-                 <p><strong>Salmo 1:3</strong> — "É como árvore plantada junto a corrente de águas, que, no devido tempo, dá o seu fruto, e cuja folhagem não murcha; e tudo quanto ele faz será bem-sucedido."</p>
-                 <p><strong>Filipenses 4:19</strong> — "O meu Deus suprirá todas as necessidades de vocês, de acordo com as suas gloriosas riquezas em Cristo Jesus."</p>
-                 <p><strong>Provérbios 10:22</strong> — "A bênção do SENHOR é que enriquece, e ele não acrescenta dores."</p>
-                 <p><strong>Mateus 6:33</strong> — "Buscai, pois, em primeiro lugar, o seu Reino e a sua justiça, e todas estas coisas vos serão acrescentadas."</p>
-               </div>
-
-               <h2>📚 Leituras Recomendadas</h2>
-               <ul style={{lineHeight: '1.8', marginBottom: '2rem'}}>
-                 <li><strong>"A Teologia da Prosperidade: Uma Análise Bíblica"</strong> — Vários autores (crítica equilibrada)</li>
-                 <li><strong>"Trabalho e Prosperidade na Perspectiva Bíblica"</strong> — Vários autores (visão reformada)</li>
-                 <li><strong>"A Ética Protestante e o Espírito do Capitalismo"</strong> — Max Weber (análise sociológica)</li>
-                 <li><strong>"Mordomia Cristã"</strong> — Vários autores (uso bíblico dos recursos)</li>
-                 <li><strong>"Contentamento e Generosidade"</strong> — Vários autores (equilíbrio bíblico)</li>
-               </ul>
-
-               <div style={{marginTop: '2rem', padding: '1.5rem', border: '1px solid #eee', borderRadius: '8px', background: '#fcfcfc', fontSize: '0.9rem', color: '#555'}}>
-                 <strong>📺 Fonte e Inspiração:</strong><br/>
-                 Este artigo foi desenvolvido como uma versão escrita e expandida baseada no conteúdo do canal <strong>Pastor Rodrigo Mocellin</strong> no YouTube.<br/><br/>
-                 Se você deseja assistir ao vídeo original e complementar seu estudo, confira:<br/>
-                 🔗 <a href="https://www.youtube.com/watch?v=hoBLRegpD8c" target="_blank" rel="noopener noreferrer" style={{color: '#0066cc'}}>Erro de reformados e pentecostais</a><br/><br/>
-                 Agradecemos ao Pastor Rodrigo Mocellin por compartilhar verdades bíblicas tão necessárias para nossos dias.
-               </div>
+               <div style={{background: '#e9ecef', padding: '1.5rem', borderRadius: '12px', margin: '3rem 0'}}>
+              <h3 style={{marginTop: 0, color: '#1a1210'}}>📺 Fonte e Inspiração</h3>
+              <p style={{fontSize: '0.95rem'}}>Este artigo foi desenvolvido como uma versão escrita e expandida do vídeo <strong>"Erro de reformados e pentecostais"</strong>, do canal Pastor Rodrigo Mocellin no YouTube.</p>
+              <p style={{fontSize: '0.95rem'}}>Se você prefere assistir ou quer complementar o estudo com o vídeo original, confira:</p>
+              
+              <ul style={{listStyleType: 'none', paddingLeft: 0, fontSize: '0.95rem'}}>
+                <li style={{marginBottom: '0.5rem'}}>🔗 <a href="https://www.youtube.com/watch?v=hoBLRegpD8c" target="_blank" rel="noopener noreferrer" style={{color: '#b91c1c', fontWeight: 'bold'}}>https://www.youtube.com/watch?v=hoBLRegpD8c</a></li>
+                <li style={{marginBottom: '0.5rem'}}>📺 <strong style={{color: '#1a1210'}}>Canal Pastor Rodrigo Mocellin</strong></li>
+              </ul>
+              
+              <p style={{fontSize: '0.95rem', margin: 0, fontStyle: 'italic', marginTop: '1rem'}}>Agradecemos ao canal Pastor Rodrigo Mocellin por produzir conteúdos bíblicos tão profundos e bem narrados, que edificam a Igreja.</p>
+            </div>
 
                <p style={{fontSize: '1.1rem', fontStyle: 'italic', color: '#555', textAlign: 'center', margin: '2rem 0'}}>
                  "Confie em Deus, trabalhe com afinco, aja com sabedoria e confie na provisão sobrenatural de Deus, porque aos seus amados Deus dá enquanto dormem."
@@ -4079,7 +3545,11 @@ function App() {
              <img src="/justin_bieber_copa.jpg" alt="Nem todo o que me diz: Senhor, Senhor! entrará no reino dos céus — Mateus 7:21" className="article-hero-img" loading="lazy" style={{maxHeight: '450px', width: '100%', objectFit: 'cover', borderRadius: '12px'}} />
              <div className="article-body">
                
-               <h2>A Euforia e a Necessidade de Discernimento</h2>
+               
+
+            <VideoEmbed videoId="RnwMYLVZ-78" title="Vídeo Original" channel="Pastor Rodrigo Mocellin" />
+
+            <h2>A Euforia e a Necessidade de Discernimento</h2>
                <p>A quantidade de crentes dizendo que Justin Bieber glorificou a Deus na Copa não está escrita. Mas será que foi isso mesmo o que aconteceu? Talvez você tenha sido enganado pelo entusiasmo do momento.</p>
                
                <p>Antes de pegar pedras para atirar, vamos analisar com calma e à luz do Evangelho. O que difere uma gratidão superficial de uma fé salvadora e coerente?</p>
@@ -4160,13 +3630,18 @@ function App() {
                  <p><strong>1 João 2:4</strong> — "Aquele que diz: Eu o conheço e não guarda os seus mandamentos é mentiroso, e nele não está a verdade."</p>
                </div>
 
-               <div style={{marginTop: '2rem', padding: '1.5rem', border: '1px solid #eee', borderRadius: '8px', background: '#fcfcfc', fontSize: '0.9rem', color: '#555'}}>
-                 <strong>📺 Fonte e Inspiração:</strong><br/>
-                 Este artigo foi desenvolvido como uma versão escrita e expandida baseada no conteúdo do canal <strong>Pastor Rodrigo Mocellin</strong> no YouTube.<br/><br/>
-                 Se você deseja assistir ao vídeo original e complementar seu estudo, confira:<br/>
-                 🔗 <a href="https://www.youtube.com/watch?v=RnwMYLVZ-78" target="_blank" rel="noopener noreferrer" style={{color: '#0066cc'}}>Cristãos elogiaram Justin sem saber isto...</a><br/><br/>
-                 Agradecemos ao Pastor Rodrigo Mocellin por compartilhar verdades bíblicas tão necessárias para nossos dias.
-               </div>
+               <div style={{background: '#e9ecef', padding: '1.5rem', borderRadius: '12px', margin: '3rem 0'}}>
+              <h3 style={{marginTop: 0, color: '#1a1210'}}>📺 Fonte e Inspiração</h3>
+              <p style={{fontSize: '0.95rem'}}>Este artigo foi desenvolvido como uma versão escrita e expandida do vídeo <strong>"Cristãos elogiaram Justin sem saber isto..."</strong>, do canal Pastor Rodrigo Mocellin no YouTube.</p>
+              <p style={{fontSize: '0.95rem'}}>Se você prefere assistir ou quer complementar o estudo com o vídeo original, confira:</p>
+              
+              <ul style={{listStyleType: 'none', paddingLeft: 0, fontSize: '0.95rem'}}>
+                <li style={{marginBottom: '0.5rem'}}>🔗 <a href="https://www.youtube.com/watch?v=RnwMYLVZ-78" target="_blank" rel="noopener noreferrer" style={{color: '#b91c1c', fontWeight: 'bold'}}>https://www.youtube.com/watch?v=RnwMYLVZ-78</a></li>
+                <li style={{marginBottom: '0.5rem'}}>📺 <strong style={{color: '#1a1210'}}>Canal Pastor Rodrigo Mocellin</strong></li>
+              </ul>
+              
+              <p style={{fontSize: '0.95rem', margin: 0, fontStyle: 'italic', marginTop: '1rem'}}>Agradecemos ao canal Pastor Rodrigo Mocellin por produzir conteúdos bíblicos tão profundos e bem narrados, que edificam a Igreja.</p>
+            </div>
 
                <p style={{fontSize: '1.1rem', fontStyle: 'italic', color: '#555', textAlign: 'center', margin: '2rem 0'}}>
                  "Difícil acreditar na conversão de um cara que agradece a Deus num instante e no outro canta uma música de sexo explícito."
@@ -4196,7 +3671,11 @@ function App() {
              <img src="/vontade_de_deus.jpg" alt="Confia no SENHOR de todo o teu coração — Provérbios 3:5" className="article-hero-img" loading="lazy" style={{maxHeight: '450px', width: '100%', objectFit: 'cover', borderRadius: '12px'}} />
              <div className="article-body">
                
-               <h2>Qual é a Vontade de Deus para Mim?</h2>
+               
+
+            <VideoEmbed videoId="RnwMYLVZ-78" title="Vídeo Original" channel="Pastor Rodrigo Mocellin" />
+
+            <h2>Qual é a Vontade de Deus para Mim?</h2>
                <p>Quantas vezes você já fez essa pergunta? Talvez esteja fazendo agora mesmo.</p>
                
                <p>Muita gente está ali, fazendo a vontade de Deus, mas com dúvida se isso é realmente o que deveria fazer. Estão frustradas e se perguntam constantemente: <em>"Será que eu tô fazendo a vontade de Deus?"</em> E eu creio que elas não estão entendendo o que, de fato, é a vontade do Senhor.</p>
@@ -4310,13 +3789,18 @@ function App() {
                  <li><strong>"O Chamado"</strong> — Vários autores (sobre chamado e ministério)</li>
                </ul>
 
-               <div style={{marginTop: '2rem', padding: '1.5rem', border: '1px solid #eee', borderRadius: '8px', background: '#fcfcfc', fontSize: '0.9rem', color: '#555'}}>
-                 <strong>📺 Fonte e Inspiração:</strong><br/>
-                 Este artigo foi desenvolvido como uma versão escrita e expandida baseada no conteúdo do canal <strong>Pastor Rodrigo Mocellin</strong> no YouTube.<br/><br/>
-                 Se você deseja assistir ao vídeo original e complementar seu estudo, confira:<br/>
-                 🔗 <a href="https://www.youtube.com/watch?v=RnwMYLVZ-78" target="_blank" rel="noopener noreferrer" style={{color: '#0066cc'}}>Pare! Você está romantizando isso</a><br/><br/>
-                 Agradecemos ao Pastor Rodrigo Mocellin por compartilhar verdades bíblicas tão necessárias para nossos dias.
-               </div>
+               <div style={{background: '#e9ecef', padding: '1.5rem', borderRadius: '12px', margin: '3rem 0'}}>
+              <h3 style={{marginTop: 0, color: '#1a1210'}}>📺 Fonte e Inspiração</h3>
+              <p style={{fontSize: '0.95rem'}}>Este artigo foi desenvolvido como uma versão escrita e expandida do vídeo <strong>"Pare! Você está romantizando isso"</strong>, do canal Pastor Rodrigo Mocellin no YouTube.</p>
+              <p style={{fontSize: '0.95rem'}}>Se você prefere assistir ou quer complementar o estudo com o vídeo original, confira:</p>
+              
+              <ul style={{listStyleType: 'none', paddingLeft: 0, fontSize: '0.95rem'}}>
+                <li style={{marginBottom: '0.5rem'}}>🔗 <a href="https://www.youtube.com/watch?v=RnwMYLVZ-78" target="_blank" rel="noopener noreferrer" style={{color: '#b91c1c', fontWeight: 'bold'}}>https://www.youtube.com/watch?v=RnwMYLVZ-78</a></li>
+                <li style={{marginBottom: '0.5rem'}}>📺 <strong style={{color: '#1a1210'}}>Canal Pastor Rodrigo Mocellin</strong></li>
+              </ul>
+              
+              <p style={{fontSize: '0.95rem', margin: 0, fontStyle: 'italic', marginTop: '1rem'}}>Agradecemos ao canal Pastor Rodrigo Mocellin por produzir conteúdos bíblicos tão profundos e bem narrados, que edificam a Igreja.</p>
+            </div>
 
                <p style={{fontSize: '1.1rem', fontStyle: 'italic', color: '#555', textAlign: 'center', margin: '2rem 0'}}>
                  "Aprenda a gostar do que Deus lhe dá. Ao invés de olhar 'eu gosto disso, daquilo', eu gosto é daquilo que Deus me dá."
@@ -4346,7 +3830,11 @@ function App() {
              <img src="/descansando_justica.jpg" alt="Descansai no SENHOR e esperai nele — Salmo 37:7" className="article-hero-img" loading="lazy" style={{maxHeight: '450px', width: '100%', objectFit: 'cover', borderRadius: '12px'}} />
              <div className="article-body">
                
-               <h2>A Vingança Inconsciente do Dia a Dia</h2>
+               
+
+            <VideoEmbed videoId="RnwMYLVZ-78" title="Vídeo Original" channel="Dani Cadore" />
+
+            <h2>A Vingança Inconsciente do Dia a Dia</h2>
                <p>Vingança pode parecer um tema muito distante de nós. Afinal, como cristãos, não vivemos constantemente tramando planos mirabolantes de como prejudicar alguém e como nos vingar — eu espero que não!</p>
                
                <p>Mas, muitas vezes, nós podemos fazer uma vingança inconsciente no nosso dia a dia:</p>
@@ -4479,13 +3967,18 @@ function App() {
                  <li><strong>"A Graça que Transforma"</strong> — Vários autores (sobre viver pela graça)</li>
                </ul>
 
-               <div style={{marginTop: '2rem', padding: '1.5rem', border: '1px solid #eee', borderRadius: '8px', background: '#fcfcfc', fontSize: '0.9rem', color: '#555'}}>
-                 <strong>📺 Fonte e Inspiração:</strong><br/>
-                 Este artigo foi desenvolvido como uma versão escrita e expandida baseada no conteúdo do canal <strong>Dani Cadore</strong> no YouTube.<br/><br/>
-                 Se você deseja assistir ao vídeo original e complementar seu estudo, confira:<br/>
-                 🔗 <a href="https://www.youtube.com/watch?v=RnwMYLVZ-78" target="_blank" rel="noopener noreferrer" style={{color: '#0066cc'}}>DESCANSANDO NA JUSTIÇA DE DEUS | estudo bíblico | Sermão do Monte | Mateus 5:38-42</a><br/><br/>
-                 Agradecemos à Dani Cadore por compartilhar verdades bíblicas tão necessárias para nossos dias.
-               </div>
+               <div style={{background: '#e9ecef', padding: '1.5rem', borderRadius: '12px', margin: '3rem 0'}}>
+              <h3 style={{marginTop: 0, color: '#1a1210'}}>📺 Fonte e Inspiração</h3>
+              <p style={{fontSize: '0.95rem'}}>Este artigo foi desenvolvido como uma versão escrita e expandida do vídeo <strong>"DESCANSANDO NA JUSTIÇA DE DEUS | estudo bíblico | Sermão do Monte | Mateus 5:38-42"</strong>, do canal Dani Cadore no YouTube.</p>
+              <p style={{fontSize: '0.95rem'}}>Se você prefere assistir ou quer complementar o estudo com o vídeo original, confira:</p>
+              
+              <ul style={{listStyleType: 'none', paddingLeft: 0, fontSize: '0.95rem'}}>
+                <li style={{marginBottom: '0.5rem'}}>🔗 <a href="https://www.youtube.com/watch?v=RnwMYLVZ-78" target="_blank" rel="noopener noreferrer" style={{color: '#b91c1c', fontWeight: 'bold'}}>https://www.youtube.com/watch?v=RnwMYLVZ-78</a></li>
+                <li style={{marginBottom: '0.5rem'}}>📺 <strong style={{color: '#1a1210'}}>Canal Dani Cadore</strong></li>
+              </ul>
+              
+              <p style={{fontSize: '0.95rem', margin: 0, fontStyle: 'italic', marginTop: '1rem'}}>Agradecemos ao canal Dani Cadore por produzir conteúdos bíblicos tão profundos e bem narrados, que edificam a Igreja.</p>
+            </div>
 
                <p style={{fontSize: '1.1rem', fontStyle: 'italic', color: '#555', textAlign: 'center', margin: '2rem 0'}}>
                  "Descansar na justiça de Deus é um privilégio. É justamente isso que nos permite não viver em constante busca por vingança."
@@ -4515,7 +4008,11 @@ function App() {
              <img src="/forca_na_fraqueza.jpg" alt="O meu poder se aperfeiçoa na fraqueza — 2 Coríntios 12:9" className="article-hero-img" loading="lazy" style={{maxHeight: '450px', width: '100%', objectFit: 'cover', borderRadius: '12px'}} />
              <div className="article-body">
                
-               <h2>O Limite Humano e a Graça Divina</h2>
+               
+
+            <VideoEmbed videoId="U4IF93NRGu8" title="Vídeo Original" channel="Fé sem Limites" />
+
+            <h2>O Limite Humano e a Graça Divina</h2>
                <p>Algumas manhãs parecem pesar uma eternidade. O corpo desperta, mas a alma reluta, como se estivesse ancorada em um mar de incertezas e angústias invisíveis.</p>
                
                <p>Você abre os olhos e o silêncio do quarto ecoa mais alto do que qualquer palavra que pudesse ser dita naquele momento. Não é cansaço físico — é uma exaustão profunda que nasce nas profundezas do ser.</p>
@@ -4620,13 +4117,18 @@ function App() {
                  <p><strong>Salmo 28:7</strong> — "O SENHOR é a minha força e o meu escudo; nele o meu coração confiou."</p>
                </div>
 
-               <div style={{marginTop: '2rem', padding: '1.5rem', border: '1px solid #eee', borderRadius: '8px', background: '#fcfcfc', fontSize: '0.9rem', color: '#555'}}>
-                 <strong>📺 Fonte e Inspiração:</strong><br/>
-                 Este artigo foi desenvolvido como uma versão escrita e expandida baseada no conteúdo do canal <strong>Fé sem Limites</strong> no YouTube.<br/><br/>
-                 Se você deseja assistir ao vídeo original e complementar seu estudo, confira:<br/>
-                 🔗 <a href="https://www.youtube.com/watch?v=U4IF93NRGu8" target="_blank" rel="noopener noreferrer" style={{color: '#0066cc'}}>Você Está no Limite, Mas Deus Não Te Abandonou</a><br/><br/>
-                 Agradecemos ao canal Fé sem Limites por compartilhar verdades bíblicas tão necessárias para nossos dias.
-               </div>
+               <div style={{background: '#e9ecef', padding: '1.5rem', borderRadius: '12px', margin: '3rem 0'}}>
+              <h3 style={{marginTop: 0, color: '#1a1210'}}>📺 Fonte e Inspiração</h3>
+              <p style={{fontSize: '0.95rem'}}>Este artigo foi desenvolvido como uma versão escrita e expandida do vídeo <strong>"Você Está no Limite, Mas Deus Não Te Abandonou"</strong>, do canal Fé sem Limites no YouTube.</p>
+              <p style={{fontSize: '0.95rem'}}>Se você prefere assistir ou quer complementar o estudo com o vídeo original, confira:</p>
+              
+              <ul style={{listStyleType: 'none', paddingLeft: 0, fontSize: '0.95rem'}}>
+                <li style={{marginBottom: '0.5rem'}}>🔗 <a href="https://www.youtube.com/watch?v=U4IF93NRGu8" target="_blank" rel="noopener noreferrer" style={{color: '#b91c1c', fontWeight: 'bold'}}>https://www.youtube.com/watch?v=U4IF93NRGu8</a></li>
+                <li style={{marginBottom: '0.5rem'}}>📺 <strong style={{color: '#1a1210'}}>Canal Fé sem Limites</strong></li>
+              </ul>
+              
+              <p style={{fontSize: '0.95rem', margin: 0, fontStyle: 'italic', marginTop: '1rem'}}>Agradecemos ao canal Fé sem Limites por produzir conteúdos bíblicos tão profundos e bem narrados, que edificam a Igreja.</p>
+            </div>
 
                <p style={{fontSize: '1.1rem', fontStyle: 'italic', color: '#555', textAlign: 'center', margin: '2rem 0'}}>
                  "O choro pode durar uma noite, mas a alegria vem pela manhã. E essa manhã vai chegar."
@@ -4656,7 +4158,11 @@ function App() {
              <img src="/presenca_anjos.jpg" alt="O anjo do SENHOR acampa-se ao redor dos que o temem — Salmo 34:7" className="article-hero-img" loading="lazy" style={{maxHeight: '450px', width: '100%', objectFit: 'cover', borderRadius: '12px'}} />
              <div className="article-body">
                
-               <h2>Você Não Está Sozinho</h2>
+               
+
+            <VideoEmbed videoId="oU0XHZ6qO44" title="Vídeo Original" channel="Fé sem Limites" />
+
+            <h2>Você Não Está Sozinho</h2>
                <p>E se eu te dissesse que você não está sozinho neste momento? Que enquanto lê estas palavras, algo invisível ao olho humano pode estar bem ao seu lado?</p>
                
                <p>Não é misticismo. Não é fantasia. É o que a própria Palavra de Deus declara com sobriedade e clareza. Desde as primeiras páginas do Gênesis até as últimas do Apocalipse, há uma realidade que vai além do que os olhos conseguem ver — uma dimensão onde o sagrado e o cotidiano se encontram, onde o eterno toca o temporal de maneiras que mal conseguimos compreender.</p>
@@ -4782,13 +4288,18 @@ function App() {
                  <li><strong>"A Guerra Invisível"</strong> — Vários autores (sobre batalha espiritual e proteção divina)</li>
                </ul>
 
-               <div style={{marginTop: '2rem', padding: '1.5rem', border: '1px solid #eee', borderRadius: '8px', background: '#fcfcfc', fontSize: '0.9rem', color: '#555'}}>
-                 <strong>📺 Fonte e Inspiração:</strong><br/>
-                 Este artigo foi desenvolvido como uma versão escrita e expandida baseada no conteúdo do canal <strong>Fé sem Limites</strong> no YouTube.<br/><br/>
-                 Se você deseja assistir ao vídeo original e complementar seu estudo, confira:<br/>
-                 🔗 <a href="https://www.youtube.com/watch?v=oU0XHZ6qO44" target="_blank" rel="noopener noreferrer" style={{color: '#0066cc'}}>5 Sinais da Presença dos Anjos em Sua Casa</a><br/><br/>
-                 Agradecemos ao canal Fé sem Limites por compartilhar verdades bíblicas tão necessárias para nossos dias.
-               </div>
+               <div style={{background: '#e9ecef', padding: '1.5rem', borderRadius: '12px', margin: '3rem 0'}}>
+              <h3 style={{marginTop: 0, color: '#1a1210'}}>📺 Fonte e Inspiração</h3>
+              <p style={{fontSize: '0.95rem'}}>Este artigo foi desenvolvido como uma versão escrita e expandida do vídeo <strong>"5 Sinais da Presença dos Anjos em Sua Casa"</strong>, do canal Fé sem Limites no YouTube.</p>
+              <p style={{fontSize: '0.95rem'}}>Se você prefere assistir ou quer complementar o estudo com o vídeo original, confira:</p>
+              
+              <ul style={{listStyleType: 'none', paddingLeft: 0, fontSize: '0.95rem'}}>
+                <li style={{marginBottom: '0.5rem'}}>🔗 <a href="https://www.youtube.com/watch?v=oU0XHZ6qO44" target="_blank" rel="noopener noreferrer" style={{color: '#b91c1c', fontWeight: 'bold'}}>https://www.youtube.com/watch?v=oU0XHZ6qO44</a></li>
+                <li style={{marginBottom: '0.5rem'}}>📺 <strong style={{color: '#1a1210'}}>Canal Fé sem Limites</strong></li>
+              </ul>
+              
+              <p style={{fontSize: '0.95rem', margin: 0, fontStyle: 'italic', marginTop: '1rem'}}>Agradecemos ao canal Fé sem Limites por produzir conteúdos bíblicos tão profundos e bem narrados, que edificam a Igreja.</p>
+            </div>
 
                <p style={{fontSize: '1.1rem', fontStyle: 'italic', color: '#555', textAlign: 'center', margin: '2rem 0'}}>
                  "Não olhe apenas para o que você vê. Há mais na sua história do que seus olhos alcançam."
