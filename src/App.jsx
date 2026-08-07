@@ -125,6 +125,14 @@ function CookieConsentBar() {
 // Related Articles
 const allArticlesData = [
   {
+    title: "Você Não Esfriou... Você Está Dividido! O Diagnóstico Bíblico da Inconstância Espiritual",
+    category: "Devocionais",
+    date: "25 Jun, 2026",
+    link: "/voce-nao-esfriou-voce-esta-dividido-inconstancia-espiritual",
+    excerpt: "Por que perdemos a alegria, a disposição e a força espiritual — e como voltar ao primeiro amor.",
+    author: "Soli Deo Gloria"
+  },
+  {
     title: "Deus Determina ou o Homem Toma Atitude? O Que a Bíblia Ensina Sobre os Heróis da Fé",
     category: "Estudos Bíblicos",
     date: "25 Jun, 2026",
@@ -944,6 +952,255 @@ function AmorInimigosComments() {
           <RelatedArticles currentLink="/deus-determina-ou-homem-toma-atitude-herois-da-fe" category="Estudos Bíblicos" />
         </article>
       )}
+      {isInconstancia && (
+        <article style={{background: '#fff', minHeight: '100vh', padding: '4rem 2rem', fontFamily: "'Georgia', serif"}}>
+          <header style={{textAlign: 'center', marginBottom: '3rem'}}>
+            <h1 style={{fontSize: '3rem', color: '#1a1210', lineHeight: 1.2, margin: '0 auto 1.5rem', maxWidth: '900px', fontWeight: 'bold'}}>
+              Você Não Esfriou... Você Está Dividido! O Diagnóstico Bíblico da Inconstância Espiritual
+            </h1>
+            <h2 style={{fontSize: '1.5rem', color: '#555', fontWeight: 'normal', margin: '0 auto 2rem', maxWidth: '800px', lineHeight: 1.6}}>
+              Por que perdemos a alegria, a disposição e a força espiritual — e como voltar ao primeiro amor
+            </h2>
+            <div style={{display: 'flex', justifyContent: 'center', gap: '1rem', fontSize: '0.9rem', color: '#777', flexWrap: 'wrap', marginBottom: '1rem'}}>
+              <span style={{background: '#15803d', color: 'white', padding: '4px 12px', borderRadius: '4px', fontWeight: 'bold', letterSpacing: '1px'}}>DEVOCIONAIS</span>
+              <span style={{display: 'flex', alignItems: 'center', gap: '5px'}}>✍️ Soli Deo Gloria</span>
+              <span style={{display: 'flex', alignItems: 'center', gap: '5px'}}>📅 25 Jun, 2026</span>
+            </div>
+            <div style={{fontSize: '0.85rem', color: '#888', fontStyle: 'italic', marginBottom: '2rem'}}>
+              Baseado em conteúdo do YouTube | Tags: #inconstância #primeiroamor #santificação #vidaespiritual #PauloJunior #SoliDeoGloria
+            </div>
+          </header>
+
+          <main className="article-content section-mb" style={{fontSize: '1.15rem', lineHeight: 1.8, color: '#444', maxWidth: '800px', margin: '0 auto'}}>
+            <p>&quot;O homem de ânimo dobre é inconstante em todos os seus caminhos.&quot; — <strong>Tiago 1:8</strong></p>
+            
+            <p>Você já se perguntou por que perdeu a alegria de ir ao culto? Por que não tem mais disposição para ler a Bíblia? Por que a oração virou um peso?</p>
+            
+            <p>Muitos cristãos acham que esfriaram espiritualmente. Mas o diagnóstico bíblico é mais preciso:</p>
+            
+            <p><strong>Você não esfriou. Você está dividido.</strong></p>
+            
+            <p>Seu coração, que antes tinha olhos só para Cristo, agora está voltado para muitas coisas. E um coração dividido gera inconstância — aquela oscilação entre &quot;hora estou bem, hora estou mal; hora oro, hora não oro; hora vou ao culto, hora não vou&quot;.</p>
+
+            <VideoEmbed videoId="I-72bLdKA6g" title="VOCÊ NÃO ESFRIOU... VOCÊ ESTÁ DIVIDIDO! | Pr. Paulo Junior" channel="Pastor Paulo Junior" channelUrl="https://www.youtube.com/watch?v=I-72bLdKA6g" />
+
+            <h2 style={{color: '#15803d', marginTop: '3rem', borderBottom: '2px solid #eee', paddingBottom: '0.5rem'}}>💔 O Que É um Coração Dividido?</h2>
+            
+            <p>A palavra grega para &quot;ânimo dobre&quot; em Tiago 1:8 é <em>dípsychos</em> — literalmente &quot;dupla alma&quot;, &quot;duplo coração&quot;.</p>
+            
+            <p>Não é alguém com duas personalidades. É alguém com duas lealdades, dois amores, dois focos.</p>
+            
+            <p>Quando nos convertemos, nosso ritmo com Cristo é intenso porque temos olhos só para Ele. Mas à medida que o tempo passa, nossos olhos vão se voltando para outras coisas:</p>
+            <ul style={{listStyleType: 'none', paddingLeft: 0}}>
+              <li style={{marginBottom: '0.5rem'}}>❌ Trabalho excessivo</li>
+              <li style={{marginBottom: '0.5rem'}}>❌ Academia e cursos</li>
+              <li style={{marginBottom: '0.5rem'}}>❌ Mídias sociais e plataformas digitais</li>
+              <li style={{marginBottom: '0.5rem'}}>❌ Compromissos sociais em excesso</li>
+              <li style={{marginBottom: '0.5rem'}}>❌ Entretenimento constante</li>
+            </ul>
+            
+            <p>Olhe para sua agenda desta semana. Veja com quantas coisas você está envolvido.</p>
+            <p>Ao longo do tempo, você vai dividindo o espaço que era só de Cristo — as afeições destinadas só para Ele, o apreço só por Ele — e vai colocando no trabalho, nos filhos, na carga horária, na esposa, nas redes sociais, na natação, nas provas.</p>
+            <p>E seu coração fica dividido.</p>
+
+            <h2 style={{color: '#15803d', marginTop: '3rem', borderBottom: '2px solid #eee', paddingBottom: '0.5rem'}}>🔄 O Ciclo da Inconstância</h2>
+            
+            <p>Quando o coração fica dividido, ele se torna inconstante:</p>
+            
+            <ul style={{listStyleType: 'none', paddingLeft: 0}}>
+              <li style={{marginBottom: '0.5rem'}}>❌ Hora dá alguma coisa para o Senhor, hora não dá</li>
+              <li style={{marginBottom: '0.5rem'}}>❌ Hora tem disposição para o culto, hora não tem</li>
+              <li style={{marginBottom: '0.5rem'}}>❌ Está cansado demais para ler a Bíblia</li>
+              <li style={{marginBottom: '0.5rem'}}>❌ Quando não está cansado, não consegue orar porque a mente está cheia de pensamentos</li>
+              <li style={{marginBottom: '0.5rem'}}>❌ Deus fica sempre em segundo plano</li>
+            </ul>
+            
+            <p>Você está lutando em muitas frentes e perdendo sua característica cristã. Perdeu a alegria. Perdeu a disposição. Perdeu a força.</p>
+            <p>Por quê? Porque está dividindo as coisas essenciais com as secundárias. Está cansado demais, disperso demais, tenso demais, aflito demais, ansioso demais.</p>
+            <p>E por que está ansioso? Porque está dividido com muitas tarefas. Tem coisa demais.</p>
+
+            <h2 style={{color: '#15803d', marginTop: '3rem', borderBottom: '2px solid #eee', paddingBottom: '0.5rem'}}>🎯 As Soluções Bíblicas para a Inconstância</h2>
+            
+            <h3 style={{color: '#1a1210', marginTop: '2rem'}}>1️⃣ Simplifique Sua Vida</h3>
+            <p>Será que sua agenda precisa de tanta parafernália? Será que você não precisa voltar a viver uma vida simples?</p>
+            <p>Talvez você precise:</p>
+            <ul style={{listStyleType: 'none', paddingLeft: 0}}>
+              <li style={{marginBottom: '0.5rem'}}>✅ Ter só um trabalho e ficar mais em casa</li>
+              <li style={{marginBottom: '0.5rem'}}>✅ Gastar tempo com a família e com o devocional</li>
+              <li style={{marginBottom: '0.5rem'}}>✅ Diminuir visitas e compromissos sociais</li>
+              <li style={{marginBottom: '0.5rem'}}>✅ Cortar o tempo excessivo no celular</li>
+              <li style={{marginBottom: '0.5rem'}}>✅ Reduzir o consumo de mídias digitais</li>
+              <li style={{marginBottom: '0.5rem'}}>✅ Diminuir a agenda</li>
+            </ul>
+            <p>Para quê? Para que seus olhos voltem a estar no Salvador.</p>
+
+            <h3 style={{color: '#1a1210', marginTop: '2rem'}}>2️⃣ Seja Constante nos Cultos</h3>
+            <div style={{background: '#f8f9fa', padding: '1.25rem', borderRadius: '10px', margin: '1.5rem 0', borderLeft: '4px solid #15803d'}}>
+              <p style={{margin: 0, fontStyle: 'italic', fontWeight: 'bold'}}>
+                &quot;Não deixando a nossa congregação, como é costume de alguns.&quot; — Hebreus 10:25
+              </p>
+            </div>
+            <p>Não deixemos de congregar. É uma ordem, não uma sugestão.</p>
+            <p>Muitos dizem: &quot;Pastor, eu não venho porque sou fraco.&quot; Mas você é fraco porque não vem. É uma reação em cadeia.</p>
+            <p><strong>Não venho porque sou fraco → sou fraco porque não venho → vou continuar fraco.</strong></p>
+            <p>Sejamos constantes no culto público: culto de oração, vigília, escola dominical, culto dominical. Você precisa ser constante.</p>
+
+            <h3 style={{color: '#1a1210', marginTop: '2rem'}}>3️⃣ Frequência e Intensidade na Oração</h3>
+            <div style={{background: '#f8f9fa', padding: '1.25rem', borderRadius: '10px', margin: '1.5rem 0', borderLeft: '4px solid #15803d'}}>
+              <p style={{margin: 0, fontStyle: 'italic', fontWeight: 'bold'}}>
+                &quot;Orai sem cessar.&quot; — 1 Tessalonicenses 5:17
+              </p>
+            </div>
+            <p>Você não precisa apenas ser frequente nas orações — precisa ser intenso.</p>
+            <p>&quot;Orai sem cessar&quot; não significa ficar de joelho 24 horas. Significa estar constantemente em espírito de oração. Não abandone o lugar da oração. Não deixe de orar.</p>
+            <p>E lembre-se: quando EU oro, EU fico santo. Você não pode depender da oração dos outros. Você precisa praticar a oração, senão nunca será um crente forte.</p>
+
+            <h3 style={{color: '#1a1210', marginTop: '2rem'}}>4️⃣ Constância na Leitura Bíblica</h3>
+            <div style={{background: '#f8f9fa', padding: '1.25rem', borderRadius: '10px', margin: '1.5rem 0', borderLeft: '4px solid #15803d'}}>
+              <p style={{margin: 0, fontStyle: 'italic', fontWeight: 'bold'}}>
+                &quot;Não se aparte da tua boca o livro desta lei; antes medita nele dia e noite...&quot; — Josué 1:8
+              </p>
+            </div>
+            <p>Não saia de casa sem ler pelo menos um capítulo da Bíblia. É seu café da manhã. Na hora do almoço, medite em alguns versículos. À noite, antes de dormir, medite em outros.</p>
+            <p>Coma constantemente da Palavra.</p>
+            <div style={{background: '#f8f9fa', padding: '1.25rem', borderRadius: '10px', margin: '1.5rem 0', borderLeft: '4px solid #15803d'}}>
+              <p style={{margin: 0, fontStyle: 'italic', fontWeight: 'bold'}}>
+                &quot;Bem-aventurado o homem que não anda segundo o conselho dos ímpios... Antes tem o seu prazer na lei do SENHOR, e na sua lei medita de dia e de noite.&quot; — Salmo 1:1-2
+              </p>
+            </div>
+
+            <h3 style={{color: '#1a1210', marginTop: '2rem'}}>5️⃣ Não Baixe a Guarda na Santificação</h3>
+            <p>Lembra do seu primeiro amor? Quando você baixou a guarda com a santificação, começou a perder a constância:</p>
+            <ul style={{listStyleType: 'none', paddingLeft: 0}}>
+              <li style={{marginBottom: '0.5rem'}}>❌ Começou a tolerar coisas que não tolerava</li>
+              <li style={{marginBottom: '0.5rem'}}>❌ Começou a dizer palavras que não dizia</li>
+              <li style={{marginBottom: '0.5rem'}}>❌ Começou a guardar rancor e mágoa que não guardava</li>
+              <li style={{marginBottom: '0.5rem'}}>❌ Começou a permitir papos que não permitia</li>
+              <li style={{marginBottom: '0.5rem'}}>❌ Começou a fechar negócios que não fechava</li>
+            </ul>
+            <div style={{background: '#f8f9fa', padding: '1.25rem', borderRadius: '10px', margin: '1.5rem 0', borderLeft: '4px solid #15803d'}}>
+              <p style={{margin: 0, fontStyle: 'italic', fontWeight: 'bold'}}>
+                &quot;Ainda não resististes até ao sangue, combatendo contra o pecado.&quot; — Hebreus 12:4
+              </p>
+            </div>
+            <p>Você precisa voltar à constância e aumentar a guarda. Não permita esses pensamentos e práticas. Precisa ser constante.</p>
+
+            <h3 style={{color: '#1a1210', marginTop: '2rem'}}>6️⃣ Atuação Constante no Reino de Deus</h3>
+            <div style={{background: '#f8f9fa', padding: '1.25rem', borderRadius: '10px', margin: '1.5rem 0', borderLeft: '4px solid #15803d'}}>
+              <p style={{margin: 0, fontStyle: 'italic', fontWeight: 'bold'}}>
+                &quot;Portanto, meus amados irmãos, sede firmes e constantes, sempre abundantes na obra do Senhor, sabendo que o vosso trabalho não é vão no Senhor.&quot; — 1 Coríntios 15:58
+              </p>
+            </div>
+            <p>Sua atuação no Reino não pode ser esporádica. O serviço não pode ser inconstante. O Senhor espera isso de nós.</p>
+
+            <h2 style={{color: '#15803d', marginTop: '3rem', borderBottom: '2px solid #eee', paddingBottom: '0.5rem'}}>👶 Inconstância É Sinal de Imaturidade</h2>
+            
+            <p>Paulo ensina que a inconstância é um sinal de imaturidade:</p>
+            
+            <div style={{background: '#f8f9fa', padding: '1.25rem', borderRadius: '10px', margin: '1.5rem 0', borderLeft: '4px solid #15803d'}}>
+              <p style={{margin: 0, fontStyle: 'italic', fontWeight: 'bold'}}>
+                &quot;Para que não sejamos mais meninos inconstantes, levados em roda por todo o vento de doutrina.&quot; — Efésios 4:14
+              </p>
+            </div>
+            
+            <p>Quem é o inconstante? Ora em cima, ora embaixo. Ora quer uma coisa, hora não quer mais. Ora está focado, hora não está mais.</p>
+            <p>Isso é típico de criança. Isso é típico de menino.</p>
+            <p>Não tem a ver com estado emocional — tem a ver com consciência. Por que baixa a guarda? Porque é menino na fé. Não amadureceu. Não entendeu que a vida cristã é uma responsabilidade, é uma vocação.</p>
+            
+            <h3 style={{color: '#1a1210', marginTop: '2rem'}}>A Diferença Entre o Menino e o Homem Maduro</h3>
+            
+            <div style={{display: 'flex', flexWrap: 'wrap', gap: '1rem', marginTop: '1.5rem', marginBottom: '2rem'}}>
+              <div style={{flex: '1 1 300px', background: '#fef2f2', padding: '1.5rem', borderRadius: '8px', borderTop: '4px solid #b91c1c'}}>
+                <h4 style={{marginTop: 0, color: '#b91c1c'}}>👦 O Menino:</h4>
+                <ul style={{listStyleType: 'none', paddingLeft: 0, margin: 0, fontSize: '0.95rem'}}>
+                  <li style={{marginBottom: '0.5rem'}}>❌ Depende de circunstâncias para ir bem</li>
+                  <li style={{marginBottom: '0.5rem'}}>❌ Quando está bem, faz; quando não está, não faz</li>
+                  <li style={{marginBottom: '0.5rem'}}>❌ É dirigido pelas emoções</li>
+                  <li>❌ Fatores externos determinam seu comportamento</li>
+                </ul>
+              </div>
+              <div style={{flex: '1 1 300px', background: '#f0fdf4', padding: '1.5rem', borderRadius: '8px', borderTop: '4px solid #15803d'}}>
+                <h4 style={{marginTop: 0, color: '#15803d'}}>👨 O Homem Maduro:</h4>
+                <ul style={{listStyleType: 'none', paddingLeft: 0, margin: 0, fontSize: '0.95rem'}}>
+                  <li style={{marginBottom: '0.5rem'}}>✅ Sabe que está diante de uma responsabilidade</li>
+                  <li style={{marginBottom: '0.5rem'}}>✅ Faz o que precisa, independentemente de como se sente</li>
+                  <li style={{marginBottom: '0.5rem'}}>✅ É dirigido pela convicção (fatores internos)</li>
+                  <li>✅ É constante porque entende a vocação</li>
+                </ul>
+              </div>
+            </div>
+            
+            <p>A imaturidade leva à inconstância. O amadurecimento leva à constância.</p>
+
+            <h2 style={{color: '#15803d', marginTop: '3rem', borderBottom: '2px solid #eee', paddingBottom: '0.5rem'}}>📚 Box de Referências Bíblicas</h2>
+            
+            <div style={{background: '#f8f9fa', borderLeft: '4px solid #0066cc', padding: '1.5rem', borderRadius: '0 8px 8px 0', margin: '2rem 0', fontSize: '0.95rem'}}>
+              <ul style={{listStyleType: 'none', paddingLeft: 0, margin: 0}}>
+                <li style={{marginBottom: '0.75rem'}}><strong>Tiago 1:8</strong> — &quot;O homem de ânimo dobre é inconstante em todos os seus caminhos.&quot;</li>
+                <li style={{marginBottom: '0.75rem'}}><strong>Hebreus 10:25</strong> — &quot;Não deixando a nossa congregação, como é costume de alguns.&quot;</li>
+                <li style={{marginBottom: '0.75rem'}}><strong>1 Tessalonicenses 5:17</strong> — &quot;Orai sem cessar.&quot;</li>
+                <li style={{marginBottom: '0.75rem'}}><strong>Josué 1:8</strong> — &quot;Não se aparte da tua boca o livro desta lei; antes medita nele dia e noite.&quot;</li>
+                <li style={{marginBottom: '0.75rem'}}><strong>Salmo 1:1-2</strong> — &quot;Bem-aventurado o homem que não anda segundo o conselho dos ímpios... Antes tem o seu prazer na lei do SENHOR, e na sua lei medita de dia e de noite.&quot;</li>
+                <li style={{marginBottom: '0.75rem'}}><strong>Hebreus 12:4</strong> — &quot;Ainda não resististes até ao sangue, combatendo contra o pecado.&quot;</li>
+                <li style={{marginBottom: '0.75rem'}}><strong>1 Coríntios 15:58</strong> — &quot;Sede firmes e constantes, sempre abundantes na obra do Senhor.&quot;</li>
+                <li style={{marginBottom: 0}}><strong>Efésios 4:14</strong> — &quot;Para que não sejamos mais meninos inconstantes.&quot;</li>
+              </ul>
+            </div>
+
+            <div style={{background: '#e9ecef', padding: '1.5rem', borderRadius: '12px', margin: '3rem 0'}}>
+              <h3 style={{marginTop: 0, color: '#1a1210'}}>📺 Fonte e Inspiração</h3>
+              <p style={{fontSize: '0.95rem'}}>Este artigo foi desenvolvido como uma versão escrita e expandida do vídeo <strong>"VOCÊ NÃO ESFRIOU... VOCÊ ESTÁ DIVIDIDO! | Pr. Paulo Junior"</strong>, do canal Pastor Paulo Junior no YouTube.</p>
+              <p style={{fontSize: '0.95rem'}}>Se você prefere assistir ou quer complementar o estudo com o vídeo original, confira:</p>
+              
+              <ul style={{listStyleType: 'none', paddingLeft: 0, fontSize: '0.95rem'}}>
+                <li style={{marginBottom: '0.5rem'}}>🔗 <a href="https://www.youtube.com/watch?v=I-72bLdKA6g" target="_blank" rel="noopener noreferrer" style={{color: '#b91c1c', fontWeight: 'bold'}}>https://www.youtube.com/watch?v=I-72bLdKA6g</a></li>
+                <li style={{marginBottom: '0.5rem'}}>📺 <a href="https://www.youtube.com/@PauloJunior" target="_blank" rel="noopener noreferrer" style={{color: '#1a1210', fontWeight: 'bold'}}>Canal Pastor Paulo Junior</a></li>
+              </ul>
+              
+              <p style={{fontSize: '0.95rem', margin: 0, fontStyle: 'italic', marginTop: '1rem'}}>Agradecemos ao Pastor Paulo Junior por esta mensagem tão necessária sobre inconstância espiritual e maturidade cristã. "Você não esfriou. Você está dividido. E a solução não é buscar mais emoção — é voltar à constância."</p>
+            </div>
+
+            <blockquote style={{borderLeft: '4px solid #722F37', background: '#fff9f9', padding: '1.5rem', margin: '2rem 0', fontStyle: 'italic', borderRadius: '0 8px 8px 0'}}>
+              <p style={{fontWeight: 'bold', marginBottom: '1rem'}}>🙏 Oração</p>
+              <p>Senhor Jesus,</p>
+              <p>Perdoa meu coração dividido.</p>
+              <p>Perdoa por ter colocado tantas coisas no lugar que era só Teu.</p>
+              <p>Ajuda-me a simplificar minha vida e voltar ao primeiro amor.</p>
+              <p>Dá-me constância nos cultos, na oração, na leitura da Tua Palavra.</p>
+              <p>Aumenta minha guarda na santificação.</p>
+              <p>Faz-me firme e constante na obra do Teu Reino.</p>
+              <p>Amadurece-me, Senhor. Que eu não seja mais menino inconstante, mas um homem firme na fé.</p>
+              <p>Em nome de Jesus, amém.</p>
+            </blockquote>
+            
+            <p style={{textAlign: 'center', fontWeight: 'bold', marginTop: '2rem'}}>Soli Deo Gloria. ✨</p>
+          </main>
+
+          <section style={{maxWidth: '800px', margin: '0 auto 3rem', background: '#f8f9fa', padding: '2rem', borderRadius: '12px', borderTop: '4px solid #15803d'}}>
+            <h2 style={{color: '#1a1210', marginTop: 0, display: 'flex', alignItems: 'center', gap: '8px'}}>💬 E Você, O Que Acha?</h2>
+            <p style={{color: '#555'}}>Agora queremos ouvir você, que leu até aqui:</p>
+            <ul style={{color: '#444', marginBottom: '1.5rem', paddingLeft: '1.5rem'}}>
+              <li style={{marginBottom: '0.5rem'}}>Você se identifica com a inconstância espiritual? Em quais áreas?</li>
+              <li style={{marginBottom: '0.5rem'}}>O que mais tem dividido seu coração ultimamente?</li>
+              <li style={{marginBottom: '0.5rem'}}>Qual das soluções bíblicas você mais precisa aplicar hoje?</li>
+              <li>Você se considera um &quot;menino&quot; ou um &quot;homem maduro&quot; na fé? Por quê?</li>
+            </ul>
+            <p style={{color: '#666', fontStyle: 'italic'}}>👇 Deixe sua opinião nos comentários. Queremos aprender juntos e nos encorajar mutuamente a viver com constância.</p>
+            <p style={{fontWeight: 'bold', color: '#1a1210'}}>&quot;Portanto, meus amados irmãos, sede firmes e constantes, sempre abundantes na obra do Senhor.&quot; — 1 Coríntios 15:58</p>
+            
+            <div style={{marginTop: '2rem'}}>
+              <Poll 
+                question="Qual área você mais luta com inconstância?" 
+                options={["Frequência nos cultos", "Vida de oração", "Leitura da Palavra", "Santificação diária", "Serviço no Reino"]}
+              />
+            </div>
+          </section>
+
+          <ShareBar title="Você Não Esfriou... Você Está Dividido! O Diagnóstico Bíblico da Inconstância Espiritual" url="/voce-nao-esfriou-voce-esta-dividido-inconstancia-espiritual" />
+          <Comments articleId="voce-nao-esfriou-voce-esta-dividido-inconstancia-espiritual" />
+          <RelatedArticles currentLink="/voce-nao-esfriou-voce-esta-dividido-inconstancia-espiritual" category="Devocionais" />
+        </article>
+      )}
     </div>
   );
 }
@@ -992,6 +1249,7 @@ function App() {
   const isDiscipulado3Erros = path === '/o-que-nao-e-discipulado-3-erros-distorcem-chamado-jesus';
     const isTabernaculo = path === '/tabernaculo-evangelho-inteiro-desenhado-pano-ouro-sangue';
   const isDeusDetermina = path === '/deus-determina-ou-homem-toma-atitude-herois-da-fe';
+  const isInconstancia = path === '/voce-nao-esfriou-voce-esta-dividido-inconstancia-espiritual';
   const isAmorAosInimigos = path === '/amor-aos-inimigos-chamado-radical-jesus-sermao-monte-mateus-5-43-48';
   const isEliasProfetaDeFogo = path === '/elias-jornada-completa-profeta-de-fogo-gileade-carro-de-fogo';
   const isBatismoInfantilCerto = path === '/batismo-infantil-certo-confianca-em-cristo-vs-ritual';
