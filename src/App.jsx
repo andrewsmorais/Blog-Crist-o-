@@ -2331,14 +2331,44 @@ function App() {
 
                <p>E, em um instante, esse mesmo homem cai por terra, ofuscado por uma luz mais forte que o sol do meio-dia, e ouve a voz que mudaria sua vida e a história do cristianismo: <em>"Saulo, Saulo, por que me persegues?"</em></p>
 
+               <h2>Quem Era Saulo Antes da Conversão</h2>
+               <p>Saulo nasceu em Tarso, na Cilícia (atual Turquia), uma cidade cosmopolita e culturalmente grega. Mas foi criado em Jerusalém, aos pés de Gamaliel, um dos mais respeitados mestres da tradição judaica (Atos 22:3). Isso lhe deu uma formação teológica profunda e um zelo ardente pela Lei mosaica.</p>
+
+               <p>Ele era cidadão romano de nascimento — um privilégio raro para um judeu — e pertencia à tribo de Benjamim. Em suas próprias palavras: <em>"circuncidado ao oitavo dia, da linhagem de Israel, da tribo de Benjamim, hebreu de hebreus; segundo a lei, fariseu; segundo o zelo, perseguidor da igreja; segundo a justiça que há na lei, irrepreensível"</em> (Filipenses 3:5-6).</p>
+
+               <h2>O Encontro na Estrada de Damasco</h2>
+               <p>Saulo viajava a Damasco com cartas de autoridade dos sumos sacerdotes para prender qualquer seguidor de Cristo que encontrasse. Mas no caminho, ao meio-dia, uma luz do céu — mais brilhante que o sol — o cercou. Ele caiu por terra e ouviu: <em>"Saulo, Saulo, por que me persegues?"</em> (Atos 9:4).</p>
+
+               <p>Note: Jesus não disse "por que persegues meus seguidores", mas <strong>"por que me persegues?"</strong> Cristo se identifica com Sua igreja. Quem toca nos Seus toca nEle.</p>
+
+               <p>Saulo ficou cego por três dias. Não comeu nem bebeu. E na casa de Judas, na rua chamada Direita, o Senhor enviou Ananias para curar seus olhos e batizá-lo. E dali nasceu o apóstolo Paulo.</p>
+
                <h2>De Saulo a Paulo: A Graça que Transforma</h2>
                <p>A conversão de Paulo é a prova cabal de que a salvação pertence inteiramente ao Senhor. Não havia nada em Saulo que o tornasse merecedor. Ele estava ativamente destruindo a igreja. Mas a graça de Deus o alcançou de forma irresistível.</p>
 
-               <p>Ele não apenas mudou de lado, ele se tornou o maior teólogo e missionário da igreja primitiva, escrevendo grande parte do Novo Testamento e levando o Evangelho de Cristo aos gentios, fundando igrejas por todo o Império Romano.</p>
-               
-               <div className="quote-box" style={{backgroundColor: 'var(--bg-light)', borderLeftColor: 'var(--primary)'}}>
-                 Sua jornada nos lembra que ninguém está além do alcance da graça de Deus. Se Ele pôde transformar o maior perseguidor no maior apóstolo, Ele pode transformar qualquer coração hoje.
+               <p>Ele não apenas mudou de lado — ele se tornou o maior teólogo e missionário da igreja primitiva, escrevendo 13 epístolas que compõem grande parte do Novo Testamento e levando o Evangelho de Cristo aos gentios, fundando igrejas por todo o Império Romano: Antioquia, Éfeso, Filipos, Corinto, Tessalônica, Roma.</p>
+
+               <h2>O Legado de Paulo</h2>
+               <p>O impacto de Paulo na história do cristianismo é imensurável:</p>
+               <ul>
+                 <li>✅ <strong>Teólogo da graça:</strong> Articulou como ninguém a doutrina da justificação pela fé (Romanos, Gálatas).</li>
+                 <li>✅ <strong>Missionário incansável:</strong> Três grandes viagens missionárias, além da viagem a Roma como prisioneiro.</li>
+                 <li>✅ <strong>Pastor amoroso:</strong> Suas cartas revelam um coração pastoral que chorava e orava por suas igrejas.</li>
+                 <li>✅ <strong>Mártir fiel:</strong> Segundo a tradição, foi decapitado em Roma sob Nero, por volta de 67 d.C.</li>
+               </ul>
+
+               <div className="quote-box">
+                 "Combati o bom combate, acabei a carreira, guardei a fé. Desde agora, a coroa da justiça me está guardada." — <strong>2 Timóteo 4:7-8</strong>
                </div>
+
+               <p>Sua jornada nos lembra que ninguém está além do alcance da graça de Deus. Se Ele pôde transformar o maior perseguidor no maior apóstolo, Ele pode transformar qualquer coração hoje.</p>
+
+               <blockquote style={{borderLeft: '4px solid #722F37', background: '#fff9f9', padding: '1.5rem', margin: '2rem 0', fontStyle: 'italic', borderRadius: '0 8px 8px 0'}}>
+                 <p style={{fontWeight: 'bold', marginBottom: '1rem'}}>🙏 Oração</p>
+                 <p>Senhor, obrigado pelo exemplo de Paulo — um homem que era inimigo da Tua igreja e foi transformado pelo Teu poder.</p>
+                 <p>Lembra-me que ninguém está fora do alcance da Tua graça. Usa-me, como usaste Paulo, para levar o Evangelho a quem ainda não Te conhece.</p>
+                 <p>Em nome de Jesus, amém.</p>
+               </blockquote>
 
              </div>
           
@@ -2887,8 +2917,13 @@ function App() {
             <div style={{background: '#fff', padding: '2.5rem', borderRadius: '12px', boxShadow: '0 4px 20px rgba(0,0,0,0.05)', border: '1px solid #eee'}}>
               <form onSubmit={(e) => { 
                 e.preventDefault(); 
-                alert('Mensagem enviada com sucesso ao nosso sistema de suporte (contato@sdgloria.com.br)! Em breve nossa equipe entrará em contato.'); 
-                e.target.reset(); 
+                const name = e.target.querySelector('#name').value;
+                const email = e.target.querySelector('#email').value;
+                const subject = e.target.querySelector('#subject').value;
+                const message = e.target.querySelector('#message').value;
+                const mailtoBody = `Nome: ${name}%0D%0AE-mail: ${email}%0D%0AAssunto: ${subject}%0D%0A%0D%0AMensagem:%0D%0A${encodeURIComponent(message)}`;
+                window.location.href = `mailto:contato@sdgloria.com.br?subject=${encodeURIComponent('[Soli Deo Gloria] ' + subject)}&body=${mailtoBody}`;
+                alert('Seu cliente de e-mail será aberto para enviar a mensagem para contato@sdgloria.com.br. Caso não abra automaticamente, envie diretamente para contato@sdgloria.com.br'); 
               }}>
                 <div style={{marginBottom: '1.5rem'}}>
                   <label htmlFor="name" style={{display: 'block', fontWeight: '600', marginBottom: '0.5rem', fontSize: '0.9rem'}}>Nome Completo</label>
@@ -2922,6 +2957,7 @@ function App() {
             <div style={{marginTop: '3rem', textAlign: 'center', color: '#666', fontSize: '0.95rem'}}>
               <p>📍 <strong>Soli Deo Gloria Portal Teológico</strong></p>
               <p>✉️ E-mail oficial: contato@sdgloria.com.br</p>
+              <p style={{fontSize: '0.85rem', marginTop: '0.5rem'}}>⏱️ Tempo médio de resposta: até 48 horas úteis.</p>
             </div>
           </main>
         ) : isTestemunhos ? (
@@ -4964,14 +5000,86 @@ function App() {
             <div className="article-body" style={{lineHeight: '1.8', fontSize: '1.1rem', marginTop: '2rem'}}>
               <p>A doutrina da Trindade é um dos pilares mais fundamentais e gloriosos da fé cristã. Ela afirma que há um só Deus, eternamente subsistente em três Pessoas distintas: o Pai, o Filho e o Espírito Santo. Cremos em um único Deus no que diz respeito à Sua essência, mas em três Pessoas no que diz respeito à Sua personalidade.</p>
               
+              <p>Essa doutrina não foi inventada por teólogos medievais nem por concílios eclesiásticos. Ela está nas Escrituras desde o primeiro versículo da Bíblia — e é tão essencial que, sem ela, toda a estrutura da fé cristã desmorona.</p>
+
               <h2>1. Unidade na Essência, Trindade nas Pessoas</h2>
               <p>O mistério da Trindade não é uma contradição lógica. Não dizemos que Deus é uma pessoa e três pessoas ao mesmo tempo, nem que é uma essência e três essências. Ele é <strong>um em essência (o quê Deus é)</strong> e <strong>três em pessoas (quem Deus é)</strong>. O Pai não é o Filho, o Filho não é o Espírito Santo, e o Espírito Santo não é o Pai; no entanto, cada Pessoa é totalmente e plenamente Deus.</p>
+
+              <p>Isso significa que as três Pessoas compartilham a mesma natureza divina, os mesmos atributos eternos — onipotência, onisciência, onipresença, santidade, amor — mas se distinguem em suas relações internas e em suas funções na obra da redenção.</p>
+
+              <div style={{background: '#f8f9fa', padding: '1.25rem', borderRadius: '10px', margin: '1.5rem 0', borderLeft: '4px solid #0066cc'}}>
+                <p style={{margin: 0, fontStyle: 'italic', fontWeight: 'bold'}}>
+                  "Ouve, Israel, o SENHOR nosso Deus é o único SENHOR." — Deuteronômio 6:4
+                </p>
+              </div>
+
+              <p>A confissão monoteísta de Israel (o <em>Shemá</em>) não contradiz a Trindade. A palavra hebraica para "único" (<em>echad</em>) é a mesma usada em Gênesis 2:24, quando homem e mulher tornam-se "uma só carne" — uma unidade composta, não uma unidade simples.</p>
 
               <h2>2. Fundamento Bíblico</h2>
               <p>A doutrina da Trindade está presente desde as primeiras páginas das Escrituras. Em Gênesis 1:26, Deus diz: <em>"Façamos o homem à nossa imagem"</em>, usando o plural. No Novo Testamento, essa revelação se torna explícita no batismo de Jesus (onde o Filho é batizado, o Pai fala do céu e o Espírito desce como pomba) e na Grande Comissão em Mateus 28:19: <em>"batizando-os em nome [singular] do Pai, e do Filho, e do Espírito Santo."</em></p>
 
+              <h3>No Antigo Testamento</h3>
+              <ul>
+                <li>✅ <strong>Gênesis 1:1-2:</strong> "No princípio criou Deus os céus e a terra... e o Espírito de Deus se movia sobre a face das águas."</li>
+                <li>✅ <strong>Isaías 48:16:</strong> "Agora o Senhor Deus me enviou, e o seu Espírito." — Três Pessoas mencionadas em um só versículo.</li>
+                <li>✅ <strong>Gênesis 18:</strong> O SENHOR aparece a Abraão em forma de três homens.</li>
+              </ul>
+
+              <h3>No Novo Testamento</h3>
+              <ul>
+                <li>✅ <strong>Mateus 3:16-17 (Batismo de Jesus):</strong> O Filho é batizado, o Espírito desce como pomba, o Pai declara do céu.</li>
+                <li>✅ <strong>João 14:16-17:</strong> "Eu rogarei ao Pai, e Ele vos dará outro Consolador... o Espírito da verdade."</li>
+                <li>✅ <strong>2 Coríntios 13:13:</strong> "A graça do Senhor Jesus Cristo, o amor de Deus, e a comunhão do Espírito Santo."</li>
+              </ul>
+
               <h2>3. A Importância Prática para a Salvação</h2>
               <p>Se Deus não fosse Trino, a salvação cristã seria impossível. O Pai planejou a redenção e enviou o Filho. O Filho, sendo Deus encarnado, ofereceu um sacrifício de valor infinito na cruz para satisfazer a justiça divina. E o Espírito Santo aplica essa salvação em nossos corações, regenerando-nos e selando-nos para o dia da redenção.</p>
+
+              <div style={{background: '#f8f9fa', padding: '1.25rem', borderRadius: '10px', margin: '1.5rem 0', borderLeft: '4px solid #0066cc'}}>
+                <p style={{margin: 0, fontStyle: 'italic', fontWeight: 'bold'}}>
+                  "Porque Deus amou o mundo de tal maneira que deu o seu Filho unigênito, para que todo aquele que nele crê não pereça, mas tenha a vida eterna." — João 3:16
+                </p>
+              </div>
+
+              <p>A salvação é trinitária em cada etapa:</p>
+              <ul>
+                <li>✅ <strong>O Pai elege e envia</strong> (Efésios 1:3-6)</li>
+                <li>✅ <strong>O Filho redime e reconcilia</strong> (Efésios 1:7-12)</li>
+                <li>✅ <strong>O Espírito sela e santifica</strong> (Efésios 1:13-14)</li>
+              </ul>
+
+              <h2>4. Erros Históricos Sobre a Trindade</h2>
+              <p>Ao longo da história, diversas heresias tentaram distorcer essa doutrina:</p>
+              <ul>
+                <li>❌ <strong>Modalismo (Sabelianismo):</strong> Diz que Deus é uma só Pessoa que se manifesta em três modos diferentes (ora como Pai, ora como Filho, ora como Espírito). Erro: nega a distinção real entre as Pessoas.</li>
+                <li>❌ <strong>Arianismo:</strong> Diz que o Filho foi criado pelo Pai e não é verdadeiramente Deus. Erro: nega a divindade plena de Cristo.</li>
+                <li>❌ <strong>Triteísmo:</strong> Diz que existem três deuses separados. Erro: nega a unidade da essência divina.</li>
+              </ul>
+              <p>A igreja combateu essas heresias nos Concílios de Nicéia (325 d.C.) e Constantinopla (381 d.C.), formulando o Credo Niceno que confessamos até hoje.</p>
+
+              <h2>5. Aplicação Prática: A Trindade na Vida Cristã</h2>
+              <p>A doutrina da Trindade não é um conceito acadêmico sem relevância prática. Ela impacta diretamente a vida cristã:</p>
+              <ul>
+                <li>✅ <strong>Na oração:</strong> Oramos ao Pai, por meio do Filho, no poder do Espírito (Efésios 2:18).</li>
+                <li>✅ <strong>Na adoração:</strong> Adoramos um Deus que é comunidade eterna de amor dentro de Si mesmo.</li>
+                <li>✅ <strong>Na comunhão:</strong> A igreja reflete a unidade trinitária — somos muitos, mas um só corpo em Cristo.</li>
+                <li>✅ <strong>Na segurança da salvação:</strong> Cada Pessoa da Trindade garante nossa redenção. Se Deus é por nós, quem será contra nós?</li>
+              </ul>
+
+              <div style={{background: '#f8f9fa', padding: '1.25rem', borderRadius: '10px', margin: '1.5rem 0', borderLeft: '4px solid #0066cc'}}>
+                <p style={{margin: 0, fontStyle: 'italic', fontWeight: 'bold'}}>
+                  "A graça do Senhor Jesus Cristo, e o amor de Deus, e a comunhão do Espírito Santo sejam com todos vós." — 2 Coríntios 13:13
+                </p>
+              </div>
+
+              <blockquote style={{borderLeft: '4px solid #722F37', background: '#fff9f9', padding: '1.5rem', margin: '2rem 0', fontStyle: 'italic', borderRadius: '0 8px 8px 0'}}>
+                <p style={{fontWeight: 'bold', marginBottom: '1rem'}}>🙏 Oração</p>
+                <p>Deus Trino — Pai, Filho e Espírito Santo,</p>
+                <p>Adoramos-Te pela Tua glória infinita e pelo mistério da Tua natureza eterna.</p>
+                <p>Obrigado porque o Pai nos amou, o Filho nos resgatou e o Espírito nos selou.</p>
+                <p>Ajuda-nos a conhecer-Te cada vez mais profundamente e a viver em comunhão com as Três Pessoas da Trindade.</p>
+                <p>Em nome de Jesus, amém.</p>
+              </blockquote>
             </div>
           
               <ShareBar title="A Trindade" url="/trindade-um-so-deus-tres-pessoas-estudo-completo" />
@@ -4991,14 +5099,99 @@ function App() {
             <div className="article-body" style={{lineHeight: '1.8', fontSize: '1.1rem', marginTop: '2rem'}}>
               <p>Muitas vezes confundida com perfeccionismo moralista ou mero cumprimento de regras externas, a santificação bíblica é a obra graciosa e contínua do Espírito Santo em cooperatividade com o crente, conformando-o à imagem de Jesus Cristo.</p>
 
+              <p>Não se trata de atingir a perfeição nesta vida, mas de caminhar em direção a ela, dia após dia, pela graça de Deus. Como escreveu o apóstolo Paulo: a santificação é a vontade expressa de Deus para cada um de nós.</p>
+
+              <div style={{background: '#f8f9fa', padding: '1.25rem', borderRadius: '10px', margin: '1.5rem 0', borderLeft: '4px solid #15803d'}}>
+                <p style={{margin: 0, fontStyle: 'italic', fontWeight: 'bold'}}>
+                  "Porque esta é a vontade de Deus, a vossa santificação." — 1 Tessalonicenses 4:3
+                </p>
+              </div>
+
               <h2>1. O Significado de Ser Santo</h2>
               <p>Santidade (do termo hebraico <em>Kadosh</em> e grego <em>Hagios</em>) significa, essencialmente, ser "separado". Fomos separados por Deus do sistema do mundo pecaminoso para pertencer exclusivamente a Ele. A santificação consiste em alinhar nossa mente, afetos, escolhas e caráter com essa nova realidade de separação.</p>
+
+              <p>Quando Deus diz <em>"Sede santos, porque eu sou santo"</em> (1 Pedro 1:16), Ele não está propondo um ideal impossível. Está chamando Seu povo a refletir Seu caráter — não por esforço próprio, mas pela obra do Espírito que habita em nós.</p>
 
               <h2>2. A Diferença entre Justificação e Santificação</h2>
               <p>Enquanto a <strong>Justificação</strong> é um ato único, declaratório e legal de Deus onde somos declarados justos pelos méritos de Cristo (somos salvos da culpa do pecado), a <strong>Santificação</strong> é um processo contínuo e progressivo onde o Espírito Santo nos cura do poder e da corrupção do pecado em nossa vida diária.</p>
 
-              <h2>3. O Papel da Palavra e da Oração</h2>
+              <div style={{display: 'flex', flexWrap: 'wrap', gap: '1rem', marginTop: '1.5rem', marginBottom: '2rem'}}>
+                <div style={{flex: '1 1 300px', background: '#f0fdf4', padding: '1.5rem', borderRadius: '8px', borderTop: '4px solid #15803d'}}>
+                  <h4 style={{marginTop: 0, color: '#15803d'}}>⚖️ Justificação</h4>
+                  <ul style={{listStyleType: 'none', paddingLeft: 0, margin: 0, fontSize: '0.95rem'}}>
+                    <li style={{marginBottom: '0.5rem'}}>✅ Ato único e instantâneo</li>
+                    <li style={{marginBottom: '0.5rem'}}>✅ Declaração legal de Deus</li>
+                    <li style={{marginBottom: '0.5rem'}}>✅ Muda nosso status diante de Deus</li>
+                    <li>✅ Somos declarados justos</li>
+                  </ul>
+                </div>
+                <div style={{flex: '1 1 300px', background: '#eff6ff', padding: '1.5rem', borderRadius: '8px', borderTop: '4px solid #0066cc'}}>
+                  <h4 style={{marginTop: 0, color: '#0066cc'}}>🔥 Santificação</h4>
+                  <ul style={{listStyleType: 'none', paddingLeft: 0, margin: 0, fontSize: '0.95rem'}}>
+                    <li style={{marginBottom: '0.5rem'}}>✅ Processo contínuo e progressivo</li>
+                    <li style={{marginBottom: '0.5rem'}}>✅ Obra transformadora do Espírito</li>
+                    <li style={{marginBottom: '0.5rem'}}>✅ Muda nosso caráter e conduta</li>
+                    <li>✅ Somos feitos santos na prática</li>
+                  </ul>
+                </div>
+              </div>
+
+              <h2>3. As Três Fases da Santificação</h2>
+              <p>A teologia reformada distingue três aspectos da santificação:</p>
+              <ul>
+                <li><strong>Santificação Posicional (Definitiva):</strong> No momento da conversão, fomos separados para Deus. Já somos santos em posição (1 Coríntios 1:2; Hebreus 10:10).</li>
+                <li><strong>Santificação Progressiva:</strong> Ao longo da vida, o Espírito nos transforma gradualmente à imagem de Cristo. É o processo diário de mortificar o pecado e crescer em graça (Romanos 8:13; 2 Coríntios 3:18).</li>
+                <li><strong>Santificação Final (Glorificação):</strong> Na volta de Cristo ou na morte física, seremos completamente livres do pecado e glorificados (Filipenses 3:21; 1 João 3:2).</li>
+              </ul>
+
+              <h2>4. O Papel da Palavra e da Oração</h2>
               <p>Jesus orou em João 17:17: <em>"Santifica-os na verdade; a tua palavra é a verdade."</em> A leitura constante das Escrituras, a comunhão e a oração são os meios graciosos pelos quais Deus molda nosso coração, gerando em nós o arrependimento diário e o amor sincero pelas coisas celestiais.</p>
+
+              <p>Os meios de graça que Deus nos deu para crescer em santidade incluem:</p>
+              <ul>
+                <li>✅ <strong>A Palavra de Deus:</strong> "Lâmpada para os meus pés e luz para o meu caminho" (Salmo 119:105).</li>
+                <li>✅ <strong>A Oração:</strong> Comunhão íntima com o Pai que transforma nosso caráter (1 Tessalonicenses 5:17).</li>
+                <li>✅ <strong>A Comunhão dos Santos:</strong> O corpo de Cristo que nos encoraja e exorta (Hebreus 10:24-25).</li>
+                <li>✅ <strong>Os Sacramentos:</strong> Batismo e Ceia do Senhor como sinais visíveis da graça invisível.</li>
+                <li>✅ <strong>O Sofrimento:</strong> Deus usa tribulações para nos refinar como ouro no fogo (Romanos 5:3-5; 1 Pedro 1:6-7).</li>
+              </ul>
+
+              <h2>5. Santificação Não É Perfeicionismo</h2>
+              <p>É fundamental entender que a santificação progressiva não significa que o cristão atinge a perfeição moral nesta vida. Lutaremos contra o pecado até a glorificação. Como Paulo confessou:</p>
+
+              <div style={{background: '#f8f9fa', padding: '1.25rem', borderRadius: '10px', margin: '1.5rem 0', borderLeft: '4px solid #15803d'}}>
+                <p style={{margin: 0, fontStyle: 'italic', fontWeight: 'bold'}}>
+                  "Não que eu o tenha já recebido ou tenha já obtido a perfeição; mas prossigo para conquistar aquilo para o que também fui conquistado por Cristo Jesus." — Filipenses 3:12
+                </p>
+              </div>
+
+              <p>A marca do cristão genuíno não é a ausência de pecado, mas a luta constante contra ele, o arrependimento sincero e a confiança renovada na graça de Cristo.</p>
+
+              <h2>6. Aplicação Prática</h2>
+              <p>Como aplicar a doutrina da santificação na vida diária?</p>
+              <ul>
+                <li>✅ Comece cada dia com leitura bíblica e oração</li>
+                <li>✅ Identifique pecados recorrentes e confesse-os diante de Deus</li>
+                <li>✅ Busque comunhão regular com outros crentes na igreja local</li>
+                <li>✅ Pratique a mortificação do pecado — diga "não" às tentações com a força do Espírito</li>
+                <li>✅ Lembre-se: você não está sozinho nessa jornada — o Espírito Santo habita em você</li>
+              </ul>
+
+              <div style={{background: '#f8f9fa', padding: '1.25rem', borderRadius: '10px', margin: '1.5rem 0', borderLeft: '4px solid #15803d'}}>
+                <p style={{margin: 0, fontStyle: 'italic', fontWeight: 'bold'}}>
+                  "Aquele que em vós começou a boa obra a aperfeiçoará até ao dia de Jesus Cristo." — Filipenses 1:6
+                </p>
+              </div>
+
+              <blockquote style={{borderLeft: '4px solid #722F37', background: '#fff9f9', padding: '1.5rem', margin: '2rem 0', fontStyle: 'italic', borderRadius: '0 8px 8px 0'}}>
+                <p style={{fontWeight: 'bold', marginBottom: '1rem'}}>🙏 Oração</p>
+                <p>Senhor, Deus Santo,</p>
+                <p>Obrigado porque a minha santificação não depende só de mim, mas da Tua obra contínua em minha vida.</p>
+                <p>Perdoa os meus pecados diários e renova em mim um espírito inabalável.</p>
+                <p>Usa Tua Palavra, Tua igreja e até minhas tribulações para me conformar à imagem de Cristo.</p>
+                <p>Que eu nunca desista da luta contra o pecado, sabendo que Tu completarás a boa obra que começaste.</p>
+                <p>Em nome de Jesus, amém.</p>
+              </blockquote>
             </div>
           
               <ShareBar title="Santificação" url="/santificacao-obra-vida-inteira-estudo" />
@@ -9537,6 +9730,7 @@ function App() {
               <li><a href="/politica-de-privacidade">Política de Privacidade</a></li>
               <li><a href="/termos-de-uso">Termos de Uso</a></li>
               <li><a href="/politica-de-cookies">Política de Cookies</a></li>
+              <li><a href="/sitemap.xml" target="_blank" rel="noopener noreferrer">Sitemap</a></li>
             </ul>
           </div>
         </div>
