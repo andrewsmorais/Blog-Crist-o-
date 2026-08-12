@@ -125,6 +125,14 @@ function CookieConsentBar() {
 // Related Articles
 const allArticlesData = [
   {
+    title: "Se Posicione e Deixe com Deus: O Chamado Urgente Para a Última Hora",
+    category: "Devocionais",
+    date: "25 Jun, 2026",
+    link: "/se-posicione-deixe-com-deus-chamado-urgente",
+    excerpt: "'Eis-me aqui, envia-me a mim.' O tempo é curto, os campos estão brancos e o Rei está convocando seus servos.",
+    author: "Soli Deo Gloria"
+  },
+  {
     title: "Por Que Alguns Sofrem Mais? O Que Paulo Ensina Sobre Louvor no Vale e o Deus de Toda Consolação",
     category: "Estudos Bíblicos",
     date: "25 Jun, 2026",
@@ -1481,6 +1489,274 @@ function AmorInimigosComments() {
           <RelatedArticles currentLink="/por-que-alguns-sofrem-mais-louvor-no-vale-deus-consolacao" category="Estudos Bíblicos" />
         </article>
       )}
+      {isPosicionamento && (
+        <article style={{background: '#fff', minHeight: '100vh', padding: '4rem 2rem', fontFamily: "'Georgia', serif"}}>
+          <header style={{textAlign: 'center', marginBottom: '3rem'}}>
+            <h1 style={{fontSize: '3rem', color: '#1a1210', lineHeight: 1.2, margin: '0 auto 1.5rem', maxWidth: '900px', fontWeight: 'bold'}}>
+              Se Posicione e Deixe com Deus: O Chamado Urgente Para a Última Hora
+            </h1>
+            <h2 style={{fontSize: '1.5rem', color: '#555', fontWeight: 'normal', margin: '0 auto 2rem', maxWidth: '800px', lineHeight: 1.6}}>
+              &quot;Eis-me aqui, envia-me a mim.&quot; O tempo é curto, os campos estão brancos e o Rei está convocando seus servos.
+            </h2>
+            <div style={{display: 'flex', justifyContent: 'center', gap: '1rem', fontSize: '0.9rem', color: '#777', flexWrap: 'wrap', marginBottom: '1rem'}}>
+              <span style={{background: '#0f172a', color: 'white', padding: '4px 12px', borderRadius: '4px', fontWeight: 'bold', letterSpacing: '1px'}}>DEVOCIONAIS</span>
+              <span style={{display: 'flex', alignItems: 'center', gap: '5px'}}>✍️ Soli Deo Gloria</span>
+              <span style={{display: 'flex', alignItems: 'center', gap: '5px'}}>📅 25 Jun, 2026</span>
+            </div>
+            <div style={{fontSize: '0.85rem', color: '#888', fontStyle: 'italic', marginBottom: '2rem'}}>
+              Baseado em conteúdo do YouTube | Tags: #posicionamento #chamado #evangelismo #últimahora #urgência #PauloJunior #SoliDeoGloria
+            </div>
+          </header>
+
+          <main className="article-content section-mb" style={{fontSize: '1.15rem', lineHeight: 1.8, color: '#444', maxWidth: '800px', margin: '0 auto'}}>
+            <p>&quot;Está consumado.&quot;</p>
+            
+            <p>Essa palavra grega — <em>tetelestai</em> — era usada quando uma dívida era quitada. Nossa dívida com o Pai, impagável, terminou. Foi paga. E reconciliados fomos.</p>
+            
+            <p>Enquanto isso, passamos transitoriamente por este mundo — esse arquétipo, essa maquete, esse esqueleto que não é nossa morada. A Bíblia diz em 1 Pedro 2:11: &quot;Somos forasteiros e peregrinos.&quot;</p>
+            
+            <p>Forasteiro é um indivíduo de outra terra, que está numa terra estranha. Essa não é nossa terra. Peregrino é aquele que está só de passagem. A morada dele não é aqui.</p>
+            
+            <p>Seríamos uma raça diferente se pensássemos assim. Não somos da terra. Somos do céu. Como o filho pródigo, saímos para uma terra longínqua e agora caminhamos de volta para o lar. Que dia glorioso será esse!</p>
+            
+            <p>Mas até lá: viva intensamente para Cristo. E se posicione.</p>
+
+            <VideoEmbed videoId="Lw23PIGmws8" title="Se posicione e deixe com Deus | Pr. Paulo Junior" channel="Pastor Paulo Junior" channelUrl="https://www.youtube.com/watch?v=Lw23PIGmws8" />
+
+            <h2 style={{color: '#0f172a', marginTop: '3rem', borderBottom: '2px solid #eee', paddingBottom: '0.5rem'}}>💭 Nossa Verdadeira Motivação</h2>
+            
+            <p>Nossa motivação para a vida cristã não é a cura física, um emprego melhor, relacionamento ou bens perecíveis. Nossa motivação é: <strong>Está consumado</strong>.</p>
+            
+            <div style={{background: '#f8f9fa', padding: '1.25rem', borderRadius: '10px', margin: '1.5rem 0', borderLeft: '4px solid #0066cc'}}>
+              <p style={{margin: 0, fontStyle: 'italic', fontWeight: 'bold'}}>
+                &quot;Não temais os que matam o corpo e não podem matar a alma.&quot; — Mateus 10:28
+              </p>
+            </div>
+            
+            <p>O que vai ser da carcaça? Das finanças, dos móveis, dos imóveis, da beleza, da riqueza perecível? Como Pedro fala, não importa. Por que damos tanto valor à matéria, ao físico, ao status?</p>
+            
+            <div style={{background: '#f8f9fa', padding: '1.25rem', borderRadius: '10px', margin: '1.5rem 0', borderLeft: '4px solid #0066cc'}}>
+              <p style={{margin: 0, fontStyle: 'italic', fontWeight: 'bold'}}>
+                &quot;Não ajunteis tesouros na terra, onde a traça e a ferrugem tudo consomem, e onde os ladrões minam e roubam; mas ajuntai tesouros no céu.&quot; — Mateus 6:19-20
+              </p>
+            </div>
+            
+            <p>Jesus diz: não se preocupem com o que comer ou vestir. Isso passa.</p>
+
+            <h2 style={{color: '#0f172a', marginTop: '3rem', borderBottom: '2px solid #eee', paddingBottom: '0.5rem'}}>⏰ Você É o Ceifeiro da Última Hora</h2>
+            
+            <p>Eu vou para 45 anos de ministério. Daqui a pouco, 50. E tudo vai ser câncer, enfado, rugas, dores, artrites. Passou. Mas como diz Charles Studd:</p>
+            <p><strong>&quot;Só o que for feito por Cristo, para Cristo, permanecerá.&quot;</strong></p>
+            
+            <p>Irmão, se posicione. Você é o ceifeiro da última hora. Estamos naquela maratona, entrando na última volta.</p>
+            
+            <ul style={{listStyleType: 'none', paddingLeft: 0}}>
+              <li style={{marginBottom: '0.5rem'}}>✅ Toma teu posto</li>
+              <li style={{marginBottom: '0.5rem'}}>✅ Bate continência pro teu Capitão</li>
+              <li style={{marginBottom: '0.5rem'}}>✅ Cumpre o teu chamado</li>
+              <li style={{marginBottom: '0.5rem'}}>✅ Para de choramingar por perdas perecíveis e honras dos homens</li>
+            </ul>
+            
+            <p>Faz do teu quarto um tabernáculo. Faz da tua casa uma pequena igreja. Faz do teu trabalho o teu ministério.</p>
+            
+            <p><strong>O Exemplo de John Wesley:</strong> Quando foi expulso das igrejas da Inglaterra, começou a pregar ao ar livre. <em>&quot;The world is my parish&quot;</em> — O mundo é minha paróquia, minha seara (rua, favela, presídio).</p>
+            
+            <p><strong>Jonathan Edwards:</strong> <em>&quot;Resolvi ser o maior cristão da minha época.&quot;</em> Pode parecer arrogante. Mas, como diz Steve Lawson: Então seja o pior cristão da sua época. O que você resolveu ser?</p>
+            
+            <p><strong>Susana Wesley:</strong> Teve 19 filhos (8 morreram), cuidou de 11, e se trancava no quarto pelo menos uma hora por dia em oração. Essa deve ser a sua paixão, seja você quem for.</p>
+
+            <h2 style={{color: '#0f172a', marginTop: '3rem', borderBottom: '2px solid #eee', paddingBottom: '0.5rem'}}>🔥 Nossa Maior Ambição: Cristo</h2>
+            
+            <div style={{background: '#f8f9fa', padding: '1.25rem', borderRadius: '10px', margin: '1.5rem 0', borderLeft: '4px solid #0066cc'}}>
+              <p style={{margin: 0, fontStyle: 'italic', fontWeight: 'bold'}}>
+                &quot;Bem-aventurados os que têm fome e sede de justiça, porque serão fartos.&quot; — Mateus 5:6
+              </p>
+            </div>
+            
+            <p>Fome fala de anelo, anseio, impulso, obsessão. Homens são motivados por ambições, e é por isso que conquistam terras, ganham guerras, fundam empresas. Que a nossa ambição, o nosso anseio, seja a coisa mais elevada do mundo: Cristo.</p>
+            
+            <div style={{background: '#f8f9fa', padding: '1.25rem', borderRadius: '10px', margin: '1.5rem 0', borderLeft: '4px solid #0066cc'}}>
+              <p style={{margin: 0, fontStyle: 'italic', fontWeight: 'bold'}}>
+                &quot;Na verdade, tenho também por perda todas as coisas, pela excelência do conhecimento de Cristo Jesus, meu Senhor; pelo qual sofri a perda de todas estas coisas, e as considero como refugo, para que possa ganhar a Cristo.&quot; — Filipenses 3:8
+              </p>
+            </div>
+            
+            <p>Minha maior ambição é Cristo. Você tem que ter isso.</p>
+
+            <h2 style={{color: '#0f172a', marginTop: '3rem', borderBottom: '2px solid #eee', paddingBottom: '0.5rem'}}>🚨 O Cenário Está Montado</h2>
+            
+            <p>O tempo está passando rápido. As profecias se cumprem. Cristo vem. As cortinas se abriram, vai entrar em cena o último ato: a consumação dos séculos.</p>
+            
+            <p>Tantos para fazer. Tanta alma perdida (parentes nas drogas, na idolatria, na bebedeira). E os crentes inertes. Jesus olhou e disse:</p>
+            
+            <div style={{background: '#f8f9fa', padding: '1.25rem', borderRadius: '10px', margin: '1.5rem 0', borderLeft: '4px solid #0066cc'}}>
+              <p style={{margin: 0, fontStyle: 'italic', fontWeight: 'bold'}}>
+                &quot;Não dizeis vós que ainda há quatro meses até que venha a ceifa? Eis que eu vos digo: levantai os vossos olhos e vede as terras, que já estão brancas para a ceifa.&quot; — João 4:35
+              </p>
+            </div>
+            
+            <p>Os campos estão brancos. Faltam profetas, missionários, evangelistas, pastores, pregadores, intercessores. Se posicione! Não importa a idade, condição financeira ou intelectual. O equipamento — deixa com Deus.</p>
+
+            <h2 style={{color: '#0f172a', marginTop: '3rem', borderBottom: '2px solid #eee', paddingBottom: '0.5rem'}}>💔 Exemplos de Quem Se Posicionou</h2>
+            
+            <p><strong>A Mulher do Vaso de Alabastro:</strong> Ungiu Jesus (Mt 26:13), e Ele disse que seu ato seria lembrado em todo o mundo.<br/>
+            <strong>Maria aos Pés de Jesus:</strong> Escolheu a melhor parte que não lhe será tirada (Lc 10:42).<br/>
+            <strong>Os Jovens:</strong> <em>&quot;Jovens, eu vos escrevi, porque sois fortes...&quot;</em> (1 João 2:14). Recrutem-se. Precisamos de uma igreja militante.</p>
+
+            <h2 style={{color: '#0f172a', marginTop: '3rem', borderBottom: '2px solid #eee', paddingBottom: '0.5rem'}}>📢 A Convocação do Rei</h2>
+            
+            <p>Temos centros espíritas, terreiros, biqueiras, cadeias lotadas. Visitei presídios com mulheres possuídas, estrebuchando. E a igreja, onde está?</p>
+            <p>Após 23 anos de ministério, agenda lotada, eu ainda faço jejuns de 21 dias. Por quê? Porque não me julgo capaz. Os desafios triplicam. Você não pode mais brincar de ser crente.</p>
+
+            <h2 style={{color: '#0f172a', marginTop: '3rem', borderBottom: '2px solid #eee', paddingBottom: '0.5rem'}}>✝️ Toma a Tua Cruz e Segue-Me</h2>
+            
+            <div style={{background: '#f8f9fa', padding: '1.25rem', borderRadius: '10px', margin: '1.5rem 0', borderLeft: '4px solid #0066cc'}}>
+              <p style={{margin: 0, fontStyle: 'italic', fontWeight: 'bold'}}>
+                &quot;Se alguém quiser vir após mim, renuncie-se a si mesmo, tome sobre si a sua cruz, e siga-me.&quot; — Mateus 16:24
+              </p>
+            </div>
+            
+            <p>Tomar a cruz é estar pronto a morrer, servir, renunciar, ser fiel. Quem perder a vida por Ele, achá-la-á.</p>
+
+            <h2 style={{color: '#0f172a', marginTop: '3rem', borderBottom: '2px solid #eee', paddingBottom: '0.5rem'}}>⚡ O Poder que Está em Você</h2>
+            
+            <p>O mesmo Espírito que ressuscitou Jesus habita em você.</p>
+            
+            <div style={{background: '#f8f9fa', padding: '1.25rem', borderRadius: '10px', margin: '1.5rem 0', borderLeft: '4px solid #0066cc'}}>
+              <p style={{margin: 0, fontStyle: 'italic', fontWeight: 'bold'}}>
+                &quot;Na verdade, na verdade vos digo que aquele que crê em mim também fará as obras que eu faço, e as fará maiores...&quot; — João 14:12
+              </p>
+            </div>
+            
+            <p>Você tem um poder único. Expulsar demônios, curar enfermos. Não é fábula, é promessa.</p>
+
+            <h2 style={{color: '#0f172a', marginTop: '3rem', borderBottom: '2px solid #eee', paddingBottom: '0.5rem'}}>🗣️ Gideão no Lagar: Sai Daí!</h2>
+            
+            <p>Gideão estava escondido no lagar. Deus disse: <em>&quot;O SENHOR é contigo, homem valente... Vai nesta tua força...&quot;</em> (Juízes 6:12,14). Deus diz a você hoje: &quot;O que você está fazendo aí? Eu te chamei para coisa maior.&quot;</p>
+            
+            <p>Como Paulo disse a Timóteo que recuou:</p>
+            <div style={{background: '#f8f9fa', padding: '1.25rem', borderRadius: '10px', margin: '1.5rem 0', borderLeft: '4px solid #0066cc'}}>
+              <p style={{margin: 0, fontStyle: 'italic', fontWeight: 'bold'}}>
+                &quot;Desperta o dom de Deus que existe em ti...&quot; — 2 Timóteo 1:6
+              </p>
+            </div>
+
+            <h2 style={{color: '#0f172a', marginTop: '3rem', borderBottom: '2px solid #eee', paddingBottom: '0.5rem'}}>🏃 Volta! Volta! Volta!</h2>
+            
+            <p>Volta pras vigílias. Volta a jejuar. Volta a se trancar com a Bíblia. Volta a ser aquele crente &quot;chato&quot; que evangeliza. Volta na limpeza, no bazar, no culto. Falta quem dê um passo e diga:</p>
+            
+            <div style={{background: '#f8f9fa', padding: '1.25rem', borderRadius: '10px', margin: '1.5rem 0', borderLeft: '4px solid #0066cc'}}>
+              <p style={{margin: 0, fontStyle: 'italic', fontWeight: 'bold'}}>
+                &quot;A quem enviarei, e quem há de ir por nós? Eis-me aqui, envia-me a mim.&quot; — Isaías 6:8
+              </p>
+            </div>
+            
+            <p><strong>Dwight L. Moody:</strong> Um pregador disse: &quot;Se Deus encontrar um homem que se entregue totalmente...&quot;. Moody gritou: &quot;Eu serei esse homem!&quot; E ganhou milhares de almas.</p>
+
+            <h2 style={{color: '#0f172a', marginTop: '3rem', borderBottom: '2px solid #eee', paddingBottom: '0.5rem'}}>⚠️ Ai de Ti, ó Terra</h2>
+            
+            <div style={{background: '#f8f9fa', padding: '1.25rem', borderRadius: '10px', margin: '1.5rem 0', borderLeft: '4px solid #0066cc'}}>
+              <p style={{margin: 0, fontStyle: 'italic', fontWeight: 'bold'}}>
+                &quot;Ai dos que habitam na terra e no mar, porque o diabo desceu a vós, e tem grande ira, sabendo que já tem pouco tempo.&quot; — Apocalipse 12:12
+              </p>
+            </div>
+            
+            <p>O tempo encurtou. O cenário está pronto. Quando vier o Filho do homem, <em>&quot;porventura achará fé na terra?&quot;</em> (Lucas 18:8). Aja rápido, antes que seja tarde. <em>&quot;Ninguém que lança mão do arado e olha para trás é apto para o reino de Deus.&quot;</em> (Lucas 9:62).</p>
+
+            <h2 style={{color: '#0f172a', marginTop: '3rem', borderBottom: '2px solid #eee', paddingBottom: '0.5rem'}}>✋ Segue-Me: Imediatamente</h2>
+            
+            <p>Deixa os mortos enterrarem os mortos. Esquece de perder tempo com trivialidades da vida. Corta o que te escandaliza.</p>
+            <p>Quando você se posiciona, Deus provê: <em>&quot;Todo aquele que tiver deixado casas, irmãos... por amor do meu nome, receberá cem vezes tanto.&quot;</em> (Mateus 19:29).</p>
+            
+            <p>Não seja como o servo mau que enterrou o talento. Multiplique (Mt 25:21). O que você tem feito com as suas qualificações?</p>
+
+            <h2 style={{color: '#0f172a', marginTop: '3rem', borderBottom: '2px solid #eee', paddingBottom: '0.5rem'}}>📚 Box de Referências Bíblicas</h2>
+            
+            <div style={{background: '#f8f9fa', borderLeft: '4px solid #0066cc', padding: '1.5rem', borderRadius: '0 8px 8px 0', margin: '2rem 0', fontSize: '0.95rem'}}>
+              <ul style={{listStyleType: 'none', paddingLeft: 0, margin: 0}}>
+                <li style={{marginBottom: '0.75rem'}}><strong>João 19:30</strong> — &quot;Está consumado.&quot; (tetelestai)</li>
+                <li style={{marginBottom: '0.75rem'}}><strong>1 Pedro 2:11</strong> — &quot;Amados, peço-vos, como a peregrinos e forasteiros, que vos abstenhais das concupiscências carnais.&quot;</li>
+                <li style={{marginBottom: '0.75rem'}}><strong>Mateus 6:19-20</strong> — &quot;Não ajunteis tesouros na terra... ajuntai tesouros no céu.&quot;</li>
+                <li style={{marginBottom: '0.75rem'}}><strong>Filipenses 3:8</strong> — &quot;Tenho também por perda todas as coisas, pela excelência do conhecimento de Cristo.&quot;</li>
+                <li style={{marginBottom: '0.75rem'}}><strong>João 4:35</strong> — &quot;Levantai os vossos olhos e vede as terras, que já estão brancas para a ceifa.&quot;</li>
+                <li style={{marginBottom: '0.75rem'}}><strong>Mateus 5:6</strong> — &quot;Bem-aventurados os que têm fome e sede de justiça.&quot;</li>
+                <li style={{marginBottom: '0.75rem'}}><strong>Mateus 16:24</strong> — &quot;Se alguém quiser vir após mim, renuncie-se a si mesmo, tome a sua cruz e siga-me.&quot;</li>
+                <li style={{marginBottom: '0.75rem'}}><strong>João 14:12</strong> — &quot;Aquele que crê em mim também fará as obras que eu faço, e as fará maiores.&quot;</li>
+                <li style={{marginBottom: '0.75rem'}}><strong>2 Timóteo 1:6</strong> — &quot;Desperta o dom de Deus que existe em ti.&quot;</li>
+                <li style={{marginBottom: '0.75rem'}}><strong>Isaías 6:8</strong> — &quot;A quem enviarei, e quem há de ir por nós? Eis-me aqui, envia-me a mim.&quot;</li>
+                <li style={{marginBottom: '0.75rem'}}><strong>Apocalipse 12:12</strong> — &quot;Ai dos que habitam na terra... o diabo desceu a vós, sabendo que já tem pouco tempo.&quot;</li>
+                <li style={{marginBottom: '0.75rem'}}><strong>Lucas 18:8</strong> — &quot;Quando vier o Filho do homem, porventura achará fé na terra?&quot;</li>
+                <li style={{marginBottom: '0.75rem'}}><strong>Lucas 9:62</strong> — &quot;Ninguém que lança mão do arado e olha para trás é apto para o reino de Deus.&quot;</li>
+                <li style={{marginBottom: '0.75rem'}}><strong>Mateus 25:21</strong> — &quot;Bem está, servo bom e fiel... entra no gozo do teu senhor.&quot;</li>
+                <li style={{marginBottom: 0}}><strong>Mateus 19:29</strong> — &quot;Todo aquele que tiver deixado casas... receberá cem vezes tanto.&quot;</li>
+              </ul>
+            </div>
+
+            <h2 style={{color: '#0f172a', marginTop: '3rem', borderBottom: '2px solid #eee', paddingBottom: '0.5rem'}}>💭 Lições Para a Nossa Vida</h2>
+            <ol style={{paddingLeft: '1.5rem', lineHeight: '1.8'}}>
+              <li style={{marginBottom: '0.5rem'}}><strong>Nossa morada não é aqui</strong> — somos forasteiros e peregrinos.</li>
+              <li style={{marginBottom: '0.5rem'}}><strong>Só o que é feito para Cristo permanece</strong> — o resto passa.</li>
+              <li style={{marginBottom: '0.5rem'}}><strong>Nossa maior ambição deve ser Cristo</strong> — não bens, status ou fama.</li>
+              <li style={{marginBottom: '0.5rem'}}><strong>O tempo é curto</strong> — pouco tempo nos resta.</li>
+              <li style={{marginBottom: '0.5rem'}}><strong>Os campos estão brancos</strong> — faltam ceifeiros.</li>
+              <li style={{marginBottom: '0.5rem'}}><strong>Você tem o mesmo poder que ressuscitou Jesus</strong> — o Espírito Santo habita em você.</li>
+              <li style={{marginBottom: '0.5rem'}}><strong>Deus chama os improváveis</strong> — camponeses, pescadores, donas de casa, jovens.</li>
+              <li style={{marginBottom: '0.5rem'}}><strong>Quem se posiciona é capacitado</strong> — deixa com Deus o equipamento e os recursos.</li>
+              <li style={{marginBottom: '0.5rem'}}><strong>Não enterre o talento</strong> — multiplique para a glória de Deus.</li>
+              <li style={{marginBottom: '0.5rem'}}><strong>Quando Cristo voltar</strong> — que Ele ache fé na terra e que te ache acordado.</li>
+            </ol>
+
+            <div style={{background: '#e9ecef', padding: '1.5rem', borderRadius: '12px', margin: '3rem 0'}}>
+              <h3 style={{marginTop: 0, color: '#1a1210'}}>📺 Fonte e Inspiração</h3>
+              <p style={{fontSize: '0.95rem'}}>Este artigo foi desenvolvido como uma versão escrita e expandida do vídeo <strong>"Se posicione e deixe com Deus | Pr. Paulo Junior"</strong>, do canal Pastor Paulo Junior no YouTube.</p>
+              
+              <ul style={{listStyleType: 'none', paddingLeft: 0, fontSize: '0.95rem'}}>
+                <li style={{marginBottom: '0.5rem'}}>🔗 <a href="https://www.youtube.com/watch?v=Lw23PIGmws8" target="_blank" rel="noopener noreferrer" style={{color: '#b91c1c', fontWeight: 'bold'}}>https://www.youtube.com/watch?v=Lw23PIGmws8</a></li>
+                <li style={{marginBottom: '0.5rem'}}>📺 <a href="https://www.youtube.com/@PauloJunior" target="_blank" rel="noopener noreferrer" style={{color: '#1a1210', fontWeight: 'bold'}}>Canal Pastor Paulo Junior</a></li>
+              </ul>
+              
+              <p style={{fontSize: '0.95rem', margin: 0, fontStyle: 'italic', marginTop: '1rem'}}>Agradecemos ao Pastor Paulo Junior por este chamado urgente e apaixonado à Igreja. "Só o que for feito por Cristo, para Cristo, permanecerá."</p>
+            </div>
+
+            <blockquote style={{borderLeft: '4px solid #722F37', background: '#fff9f9', padding: '1.5rem', margin: '2rem 0', fontStyle: 'italic', borderRadius: '0 8px 8px 0'}}>
+              <p style={{fontWeight: 'bold', marginBottom: '1rem'}}>🙏 Oração</p>
+              <p>Senhor Jesus,</p>
+              <p>Perdoa-me pelo tempo desperdiçado, pelos talentos enterrados, pelo chamado negligenciado.</p>
+              <p>Eis-me aqui. Envia-me a mim.</p>
+              <p>Desperta o dom que há em mim. Que eu não seja mais um crente inerte, mas um ceifeiro da última hora.</p>
+              <p>Tira de mim as pedras de tropeço. Faz minha maior ambição ser Cristo.</p>
+              <p>Que eu seja encontrado fiel quando voltares.</p>
+              <p>Em nome de Jesus, amém.</p>
+            </blockquote>
+            
+            <p style={{textAlign: 'center', fontWeight: 'bold', marginTop: '2rem'}}>Soli Deo Gloria. ⚔️🔥</p>
+          </main>
+
+          <section style={{maxWidth: '800px', margin: '0 auto 3rem', background: '#f8f9fa', padding: '2rem', borderRadius: '12px', borderTop: '4px solid #0f172a'}}>
+            <h2 style={{color: '#1a1210', marginTop: 0, display: 'flex', alignItems: 'center', gap: '8px'}}>💬 E Você, O Que Acha?</h2>
+            <p style={{color: '#555'}}>Agora queremos ouvir você, que leu até aqui:</p>
+            <ol style={{color: '#444', marginBottom: '1.5rem', paddingLeft: '1.5rem', lineHeight: '1.6'}}>
+              <li style={{marginBottom: '0.5rem'}}>O que está te impedindo de se posicionar hoje? (medo, comodidade, prioridades erradas, incredulidade?)</li>
+              <li style={{marginBottom: '0.5rem'}}>Qual talento Deus te deu que você tem enterrado?</li>
+              <li style={{marginBottom: '0.5rem'}}>Se Cristo voltasse amanhã, como Ele te encontraria: acordado e servindo, ou dormindo e enterrando?</li>
+              <li>Qual campo branco ao seu redor você precisa começar a ceifar? (família, trabalho, vizinhança, faculdade)</li>
+            </ol>
+            <p style={{color: '#666', fontStyle: 'italic'}}>👇 Deixe sua resposta nos comentários. Que esse seja o dia em que você diz:</p>
+            <p style={{fontWeight: 'bold', color: '#1a1210'}}>&quot;Eis-me aqui, Senhor. Envia-me a mim.&quot;</p>
+            
+            <div style={{marginTop: '2rem'}}>
+              <Poll 
+                question="Você está posicionado ou enterrando seus talentos?" 
+                options={["Estou 100% posicionado", "Preciso despertar o dom em mim", "Estou enterrando meus talentos", "Começando a agir hoje"]}
+              />
+            </div>
+          </section>
+
+          <ShareBar title="Se Posicione e Deixe com Deus: O Chamado Urgente Para a Última Hora" url="/se-posicione-deixe-com-deus-chamado-urgente" />
+          <Comments articleId="se-posicione-deixe-com-deus-chamado-urgente" />
+          <RelatedArticles currentLink="/se-posicione-deixe-com-deus-chamado-urgente" category="Devocionais" />
+        </article>
+      )}
     </div>
   );
 }
@@ -1531,6 +1807,7 @@ function App() {
   const isDeusDetermina = path === '/deus-determina-ou-homem-toma-atitude-herois-da-fe';
   const isInconstancia = path === '/voce-nao-esfriou-voce-esta-dividido-inconstancia-espiritual';
   const isSofrimento = path === '/por-que-alguns-sofrem-mais-louvor-no-vale-deus-consolacao';
+  const isPosicionamento = path === '/se-posicione-deixe-com-deus-chamado-urgente';
   const isAmorAosInimigos = path === '/amor-aos-inimigos-chamado-radical-jesus-sermao-monte-mateus-5-43-48';
   const isEliasProfetaDeFogo = path === '/elias-jornada-completa-profeta-de-fogo-gileade-carro-de-fogo';
   const isBatismoInfantilCerto = path === '/batismo-infantil-certo-confianca-em-cristo-vs-ritual';
