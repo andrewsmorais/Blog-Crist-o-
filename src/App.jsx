@@ -125,6 +125,14 @@ function CookieConsentBar() {
 // Related Articles
 const allArticlesData = [
   {
+    title: "Por Que Alguns Sofrem Mais? O Que Paulo Ensina Sobre Louvor no Vale e o Deus de Toda Consolação",
+    category: "Estudos Bíblicos",
+    date: "25 Jun, 2026",
+    link: "/por-que-alguns-sofrem-mais-louvor-no-vale-deus-consolacao",
+    excerpt: "O sofrimento não nega o chamado: aprenda com 2 Coríntios 1 a louvar na prova e a descansar no Pai das misericórdias.",
+    author: "Soli Deo Gloria"
+  },
+  {
     title: "Você Não Esfriou... Você Está Dividido! O Diagnóstico Bíblico da Inconstância Espiritual",
     category: "Devocionais",
     date: "25 Jun, 2026",
@@ -1201,6 +1209,278 @@ function AmorInimigosComments() {
           <RelatedArticles currentLink="/voce-nao-esfriou-voce-esta-dividido-inconstancia-espiritual" category="Devocionais" />
         </article>
       )}
+      {isSofrimento && (
+        <article style={{background: '#fff', minHeight: '100vh', padding: '4rem 2rem', fontFamily: "'Georgia', serif"}}>
+          <header style={{textAlign: 'center', marginBottom: '3rem'}}>
+            <h1 style={{fontSize: '3rem', color: '#1a1210', lineHeight: 1.2, margin: '0 auto 1.5rem', maxWidth: '900px', fontWeight: 'bold'}}>
+              Por Que Alguns Sofrem Mais? O Que Paulo Ensina Sobre Louvor no Vale e o Deus de Toda Consolação
+            </h1>
+            <h2 style={{fontSize: '1.5rem', color: '#555', fontWeight: 'normal', margin: '0 auto 2rem', maxWidth: '800px', lineHeight: 1.6}}>
+              O sofrimento não nega o chamado: aprenda com 2 Coríntios 1 a louvar na prova e a descansar no Pai das misericórdias
+            </h2>
+            <div style={{display: 'flex', justifyContent: 'center', gap: '1rem', fontSize: '0.9rem', color: '#777', flexWrap: 'wrap', marginBottom: '1rem'}}>
+              <span style={{background: '#0f172a', color: 'white', padding: '4px 12px', borderRadius: '4px', fontWeight: 'bold', letterSpacing: '1px'}}>ESTUDOS BÍBLICOS</span>
+              <span style={{display: 'flex', alignItems: 'center', gap: '5px'}}>✍️ Soli Deo Gloria</span>
+              <span style={{display: 'flex', alignItems: 'center', gap: '5px'}}>📅 25 Jun, 2026</span>
+            </div>
+            <div style={{fontSize: '0.85rem', color: '#888', fontStyle: 'italic', marginBottom: '2rem'}}>
+              Baseado em conteúdo do YouTube | Tags: #sofrimento #louvor #consolação #misericórdia #2Coríntios #PauloJunior #SoliDeoGloria
+            </div>
+          </header>
+
+          <main className="article-content section-mb" style={{fontSize: '1.15rem', lineHeight: 1.8, color: '#444', maxWidth: '800px', margin: '0 auto'}}>
+            <p>&quot;Esse homem não pode ser apóstolo. Esse homem apanha demais. Esse homem é apedrejado, preso, caluniado, pobre, perseguido.&quot;</p>
+            
+            <p>Essa era a acusação dos falsos apóstolos contra Paulo em Corinto. Para eles, a quantidade de sofrimento de Paulo era a prova de que ele não era um apóstolo legítimo.</p>
+            
+            <p>Mas Paulo responde com uma das cartas mais profundas do Novo Testamento — e, ao defender seu apostolado, nos deixa um rico ensino sobre o sofrimento.</p>
+            
+            <p>A pergunta que ecoa até hoje é a mesma: por que alguns sofrem mais? E como o crente maduro reage no vale?</p>
+            
+            <p>Vamos aprender com 2 Coríntios 1.</p>
+
+            <VideoEmbed videoId="teBbuaLb31Y" title="POR QUE ALGUNS SOFREM MAIS? | Pr. Paulo Junior" channel="Pastor Paulo Junior" channelUrl="https://www.youtube.com/watch?v=teBbuaLb31Y" />
+
+            <h2 style={{color: '#0f172a', marginTop: '3rem', borderBottom: '2px solid #eee', paddingBottom: '0.5rem'}}>🎵 Princípio 1: Louvor no Meio da Tempestade</h2>
+            
+            <p>Paulo começa a carta não com reclamação, mas com um hino no meio do furacão:</p>
+            
+            <div style={{background: '#f8f9fa', padding: '1.25rem', borderRadius: '10px', margin: '1.5rem 0', borderLeft: '4px solid #0066cc'}}>
+              <p style={{margin: 0, fontStyle: 'italic', fontWeight: 'bold'}}>
+                &quot;Bendito seja o Deus e Pai de nosso Senhor Jesus Cristo, o Pai das misericórdias e o Deus de toda a consolação.&quot; — 2 Coríntios 1:3
+              </p>
+            </div>
+            
+            <p>E não era um sofrimento pequeno. Logo em seguida, ele revela:</p>
+            
+            <div style={{background: '#f8f9fa', padding: '1.25rem', borderRadius: '10px', margin: '1.5rem 0', borderLeft: '4px solid #0066cc'}}>
+              <p style={{margin: 0, fontStyle: 'italic', fontWeight: 'bold'}}>
+                &quot;Porque não queremos, irmãos, que ignoreis a natureza da tribulação que nos sobreveio na Ásia, porquanto foi acima das nossas forças, a ponto de desesperarmos até da própria vida.&quot; — 2 Coríntios 1:8
+              </p>
+            </div>
+            
+            <p>Acima das forças. A ponto de desesperar da vida.</p>
+            <p>E mesmo assim, a primeira palavra de Paulo é: <em>&quot;Bendito seja o Deus...&quot;</em></p>
+            
+            <p>O que isso ensina?</p>
+            <ul style={{listStyleType: 'none', paddingLeft: 0}}>
+              <li style={{marginBottom: '0.5rem'}}>✅ Paulo não é ingrato a Deus</li>
+              <li style={{marginBottom: '0.5rem'}}>✅ Paulo tem consciência da providência divina</li>
+              <li style={{marginBottom: '0.5rem'}}>✅ Adorar no vale é marca de crente maduro e espiritual</li>
+            </ul>
+            
+            <p>Louvar a Deus na prova não é negação da dor. É confissão de soberania.</p>
+
+            <h2 style={{color: '#0f172a', marginTop: '3rem', borderBottom: '2px solid #eee', paddingBottom: '0.5rem'}}>😤 O Oposto do Louvor: A Murmuração</h2>
+            
+            <p>O que impediu aquele bando de israelitas de entrar na Terra Prometida?</p>
+            <p>A murmuração.</p>
+            
+            <p>O oposto do louvor é prova de:</p>
+            <ul style={{listStyleType: 'none', paddingLeft: 0}}>
+              <li style={{marginBottom: '0.5rem'}}>❌ Carnalidade</li>
+              <li style={{marginBottom: '0.5rem'}}>❌ Superficialidade</li>
+              <li style={{marginBottom: '0.5rem'}}>❌ Até de inconversão</li>
+            </ul>
+            
+            <p>Muitos crentes, quando sofrem:</p>
+            <ul style={{listStyleType: 'none', paddingLeft: 0}}>
+              <li style={{marginBottom: '0.5rem'}}>❌ Questionam Deus</li>
+              <li style={{marginBottom: '0.5rem'}}>❌ Praguejam</li>
+              <li style={{marginBottom: '0.5rem'}}>❌ Murmuram</li>
+              <li style={{marginBottom: '0.5rem'}}>❌ Vacilam na fé</li>
+            </ul>
+            
+            <p>Essa é uma atitude completamente contrária à fé que professamos — evidência de imaturidade tremenda.</p>
+            <p>Paulo não. Paulo louva. Paulo adora.</p>
+
+            <h2 style={{color: '#0f172a', marginTop: '3rem', borderBottom: '2px solid #eee', paddingBottom: '0.5rem'}}>🌟 Exemplos Bíblicos de Louvor no Vale</h2>
+            
+            <h3 style={{color: '#1a1210', marginTop: '2rem'}}>1️⃣ Abraão: Louvor Diante do Corpo Amortecido</h3>
+            <div style={{background: '#f8f9fa', padding: '1.25rem', borderRadius: '10px', margin: '1.5rem 0', borderLeft: '4px solid #0066cc'}}>
+              <p style={{margin: 0, fontStyle: 'italic', fontWeight: 'bold'}}>
+                &quot;Abraão não duvidou da promessa por incredulidade, mas foi fortificado na fé, dando glória a Deus.&quot; — Romanos 4:20
+              </p>
+            </div>
+            <p>Com o corpo amortecido e Sara estéril, Abraão não atentou para os obstáculos. Ele louvou.</p>
+
+            <h3 style={{color: '#1a1210', marginTop: '2rem'}}>2️⃣ Davi: Louvor em Todo Tempo</h3>
+            <div style={{background: '#f8f9fa', padding: '1.25rem', borderRadius: '10px', margin: '1.5rem 0', borderLeft: '4px solid #0066cc'}}>
+              <p style={{margin: 0, fontStyle: 'italic', fontWeight: 'bold'}}>
+                &quot;Bendirei o SENHOR em todo o tempo; o seu louvor estará continuamente na minha boca.&quot; — Salmo 34:1
+              </p>
+            </div>
+            <p>Não em algum tempo. Em todo tempo. Que essa seja a nossa marca.</p>
+
+            <h3 style={{color: '#1a1210', marginTop: '2rem'}}>3️⃣ Paulo e Silas: Louvor à Meia-Noite</h3>
+            <div style={{background: '#f8f9fa', padding: '1.25rem', borderRadius: '10px', margin: '1.5rem 0', borderLeft: '4px solid #0066cc'}}>
+              <p style={{margin: 0, fontStyle: 'italic', fontWeight: 'bold'}}>
+                &quot;Perto da meia-noite, Paulo e Silas oravam e cantavam hinos a Deus, e os outros presos os escutavam.&quot; — Atos 16:25
+              </p>
+            </div>
+            <p>Depois de açoitados severamente, encarcerados e acorrentados, no meio da injustiça, à meia-noite, esses homens se erguem em louvor, em canções, em hinos a Deus.</p>
+
+            <h3 style={{color: '#1a1210', marginTop: '2rem'}}>4️⃣ Jó: A Apoteose do Crente Maduro</h3>
+            <p>Jó perdeu tudo:</p>
+            <ul style={{listStyleType: 'none', paddingLeft: 0}}>
+              <li style={{marginBottom: '0.5rem'}}>❌ Juntas de bois, camelos, ovelhas, plantações</li>
+              <li style={{marginBottom: '0.5rem'}}>❌ Dez filhos — dez caixões</li>
+              <li style={{marginBottom: '0.5rem'}}>❌ A saúde — ferido de chagas da cabeça à planta dos pés</li>
+              <li style={{marginBottom: '0.5rem'}}>❌ A riqueza — da noite para o dia, o mais rico virou o mais pobre</li>
+            </ul>
+            
+            <p>Qual foi a reação de Jó?</p>
+            <div style={{background: '#f8f9fa', padding: '1.25rem', borderRadius: '10px', margin: '1.5rem 0', borderLeft: '4px solid #0066cc'}}>
+              <p style={{margin: 0, fontStyle: 'italic', fontWeight: 'bold'}}>
+                &quot;O SENHOR deu, e o SENHOR tomou; bendito seja o nome do SENHOR.&quot; — Jó 1:21
+              </p>
+            </div>
+            
+            <p>E a declaração que coroa a consciência da soberania:</p>
+            <div style={{background: '#f8f9fa', padding: '1.25rem', borderRadius: '10px', margin: '1.5rem 0', borderLeft: '4px solid #0066cc'}}>
+              <p style={{margin: 0, fontStyle: 'italic', fontWeight: 'bold'}}>
+                &quot;Receberemos o bem de Deus, e não receberíamos o mal?&quot; — Jó 2:10
+              </p>
+            </div>
+            
+            <p>Não foi o ladrão. Não foi Satanás. Não foi o fogo.</p>
+            <p>Deus envia o bem, e Deus também permite o mal. E Jó louva nos dois.</p>
+            <p>&quot;Eu louvo a Deus quando Ele manda chuva, e louvo a Deus quando Ele manda seca. Louvo quando tenho colheita e abundância, e louvo quando tenho prejuízo.&quot;</p>
+
+            <h2 style={{color: '#0f172a', marginTop: '3rem', borderBottom: '2px solid #eee', paddingBottom: '0.5rem'}}>💧 Princípio 2: A Origem da Misericórdia</h2>
+            
+            <p>Paulo chama Deus de &quot;Pai das misericórdias&quot;. Mas o que é misericórdia?</p>
+            
+            <h3 style={{color: '#1a1210', marginTop: '2rem'}}>O Que É Misericórdia?</h3>
+            <p>Misericórdia compreende duas coisas:</p>
+            <ul style={{paddingLeft: '1.5rem'}}>
+              <li style={{marginBottom: '0.5rem'}}><strong>Sentimento:</strong> é o pesar, a compaixão que acomete alguém pela miséria alheia; é se compadecer da dor do outro.</li>
+              <li style={{marginBottom: '0.5rem'}}><strong>Ação:</strong> o misericordioso não só sente o sofrimento alheio; ele age para aliviar o sofrimento.</li>
+            </ul>
+            <p>A misericórdia não fica no campo do sentimento. Ela se transforma em obras.</p>
+            
+            <h3 style={{color: '#1a1210', marginTop: '2rem'}}>De Onde Vem a Misericórdia?</h3>
+            <div style={{background: '#f8f9fa', padding: '1.25rem', borderRadius: '10px', margin: '1.5rem 0', borderLeft: '4px solid #0066cc'}}>
+              <p style={{margin: 0, fontStyle: 'italic', fontWeight: 'bold'}}>
+                &quot;Bendito seja o Deus e Pai de nosso Senhor Jesus Cristo, o Pai das misericórdias.&quot; — 2 Coríntios 1:3
+              </p>
+            </div>
+            <p>A misericórdia tem sua origem em Deus. Ele é:</p>
+            <ul style={{listStyleType: 'none', paddingLeft: 0}}>
+              <li style={{marginBottom: '0.5rem'}}>✅ O Pai das misericórdias</li>
+              <li style={{marginBottom: '0.5rem'}}>✅ A fonte e o nascedouro</li>
+              <li style={{marginBottom: '0.5rem'}}>✅ Aquele que sente pesar pelos nossos sofrimentos e traz alívio à nossa dor</li>
+            </ul>
+
+            <h3 style={{color: '#1a1210', marginTop: '2rem'}}>O Deus que Não Está de Rosto Retesado</h3>
+            <p>A teologia reformada enaltece a soberania, a santidade e a grandeza de Deus como ninguém. E Ele é tudo isso.</p>
+            <p>Mas Deus não está num trono com o rosto retesado, como um general imponente ordenando e coordenando a terra com rigidez.</p>
+            <p>Ele é o Pai das misericórdias — um Deus que se compadece, que se entristece com a nossa condição, que sente pesar pelas nossas intempéries.</p>
+
+            <h2 style={{color: '#0f172a', marginTop: '3rem', borderBottom: '2px solid #eee', paddingBottom: '0.5rem'}}>🤝 A Misericórdia em Ação: O Deus de Toda Consolação</h2>
+            
+            <p>O texto não para no sentimento. Ele avança para a ação:</p>
+            <div style={{background: '#f8f9fa', padding: '1.25rem', borderRadius: '10px', margin: '1.5rem 0', borderLeft: '4px solid #0066cc'}}>
+              <p style={{margin: 0, fontStyle: 'italic', fontWeight: 'bold'}}>
+                &quot;...o Pai das misericórdias e o Deus de toda a consolação.&quot; — 2 Coríntios 1:3
+              </p>
+            </div>
+            <p>Por ser misericordioso, Deus também é consolador.</p>
+            
+            <h3 style={{color: '#1a1210', marginTop: '2rem'}}>O Significado de Consolo</h3>
+            <p>A palavra vem do termo grego <em>parakletos</em> / <em>parakaleo</em>, que quer dizer:</p>
+            <p><em>&quot;Aquele que vem para estar ao nosso lado, com o fim de ajudar.&quot;</em></p>
+            
+            <p>Consolo significa:</p>
+            <ul style={{listStyleType: 'none', paddingLeft: 0}}>
+              <li style={{marginBottom: '0.5rem'}}>✅ Aliviar</li>
+              <li style={{marginBottom: '0.5rem'}}>✅ Acalmar</li>
+              <li style={{marginBottom: '0.5rem'}}>✅ Animar</li>
+              <li style={{marginBottom: '0.5rem'}}>✅ Livrar</li>
+            </ul>
+            
+            <p>Então, a compaixão que Deus tem pelo nosso sofrimento é acompanhada de ação poderosa.</p>
+            <p>Ele não apenas sente a nossa dor. Ele vem ao nosso lado para nos ajudar.</p>
+
+            <h2 style={{color: '#0f172a', marginTop: '3rem', borderBottom: '2px solid #eee', paddingBottom: '0.5rem'}}>💭 Lições Para a Nossa Vida</h2>
+            <ol style={{paddingLeft: '1.5rem', lineHeight: '1.8'}}>
+              <li style={{marginBottom: '0.5rem'}}><strong>O sofrimento não nega o seu chamado</strong> — Paulo sofria e era apóstolo legítimo.</li>
+              <li style={{marginBottom: '0.5rem'}}><strong>Louvar no vale é marca de maturidade</strong> — murmurar é marca de carnalidade.</li>
+              <li style={{marginBottom: '0.5rem'}}><strong>A soberania de Deus inclui o vale</strong> — &quot;O SENHOR deu, o SENHOR tomou&quot;.</li>
+              <li style={{marginBottom: '0.5rem'}}><strong>Misericórdia é sentimento + ação</strong> — Deus sente e age.</li>
+              <li style={{marginBottom: '0.5rem'}}><strong>Deus é o Deus de toda consolação</strong> — Ele vem ao seu lado para ajudar.</li>
+              <li style={{marginBottom: '0.5rem'}}><strong>Quem é consolado consola</strong> — o sofrimento nos capacita a consolar outros (2 Co 1:4).</li>
+            </ol>
+
+            <h2 style={{color: '#0f172a', marginTop: '3rem', borderBottom: '2px solid #eee', paddingBottom: '0.5rem'}}>📚 Box de Referências Bíblicas</h2>
+            
+            <div style={{background: '#f8f9fa', borderLeft: '4px solid #0066cc', padding: '1.5rem', borderRadius: '0 8px 8px 0', margin: '2rem 0', fontSize: '0.95rem'}}>
+              <ul style={{listStyleType: 'none', paddingLeft: 0, margin: 0}}>
+                <li style={{marginBottom: '0.75rem'}}><strong>2 Coríntios 1:3</strong> — &quot;Bendito seja o Deus e Pai de nosso Senhor Jesus Cristo, o Pai das misericórdias e o Deus de toda a consolação.&quot;</li>
+                <li style={{marginBottom: '0.75rem'}}><strong>2 Coríntios 1:8</strong> — &quot;Foi acima das nossas forças, a ponto de desesperarmos até da própria vida.&quot;</li>
+                <li style={{marginBottom: '0.75rem'}}><strong>Romanos 4:20</strong> — &quot;Não duvidou da promessa por incredulidade, mas foi fortificado na fé, dando glória a Deus.&quot;</li>
+                <li style={{marginBottom: '0.75rem'}}><strong>Salmo 34:1</strong> — &quot;Bendirei o SENHOR em todo o tempo; o seu louvor estará continuamente na minha boca.&quot;</li>
+                <li style={{marginBottom: '0.75rem'}}><strong>Atos 16:25</strong> — &quot;Perto da meia-noite, Paulo e Silas oravam e cantavam hinos a Deus.&quot;</li>
+                <li style={{marginBottom: '0.75rem'}}><strong>Jó 1:21</strong> — &quot;O SENHOR deu, e o SENHOR tomou; bendito seja o nome do SENHOR.&quot;</li>
+                <li style={{marginBottom: '0.75rem'}}><strong>Jó 2:10</strong> — &quot;Receberemos o bem de Deus, e não receberíamos o mal?&quot;</li>
+                <li style={{marginBottom: '0.75rem'}}><strong>Lamentações 3:22</strong> — &quot;As misericórdias do SENHOR são a causa de não sermos consumidos.&quot;</li>
+                <li style={{marginBottom: '0.75rem'}}><strong>Salmo 145:9</strong> — &quot;O SENHOR é bom para todos, e as suas ternas misericórdias permeiam todas as suas obras.&quot;</li>
+                <li style={{marginBottom: 0}}><strong>Salmo 86:15</strong> — &quot;Tu, Senhor, és um Deus compassivo e cheio de misericórdia.&quot;</li>
+              </ul>
+            </div>
+
+            <div style={{background: '#e9ecef', padding: '1.5rem', borderRadius: '12px', margin: '3rem 0'}}>
+              <h3 style={{marginTop: 0, color: '#1a1210'}}>📺 Fonte e Inspiração</h3>
+              <p style={{fontSize: '0.95rem'}}>Este artigo foi desenvolvido como uma versão escrita e expandida do vídeo <strong>"POR QUE ALGUNS SOFREM MAIS? | Pr. Paulo Junior"</strong>, do canal Pastor Paulo Junior no YouTube.</p>
+              <p style={{fontSize: '0.95rem'}}>Se você prefere assistir ou quer complementar o estudo com o vídeo original, confira:</p>
+              
+              <ul style={{listStyleType: 'none', paddingLeft: 0, fontSize: '0.95rem'}}>
+                <li style={{marginBottom: '0.5rem'}}>🔗 <a href="https://www.youtube.com/watch?v=teBbuaLb31Y" target="_blank" rel="noopener noreferrer" style={{color: '#b91c1c', fontWeight: 'bold'}}>https://www.youtube.com/watch?v=teBbuaLb31Y</a></li>
+                <li style={{marginBottom: '0.5rem'}}>📺 <a href="https://www.youtube.com/@PauloJunior" target="_blank" rel="noopener noreferrer" style={{color: '#1a1210', fontWeight: 'bold'}}>Canal Pastor Paulo Junior</a></li>
+              </ul>
+              
+              <p style={{fontSize: '0.95rem', margin: 0, fontStyle: 'italic', marginTop: '1rem'}}>Agradecemos ao Pastor Paulo Junior por ensinar com profundidade e paixão as doutrinas da graça. "Louvar no vale não é negar a dor. É confessar a soberania."</p>
+            </div>
+
+            <blockquote style={{borderLeft: '4px solid #722F37', background: '#fff9f9', padding: '1.5rem', margin: '2rem 0', fontStyle: 'italic', borderRadius: '0 8px 8px 0'}}>
+              <p style={{fontWeight: 'bold', marginBottom: '1rem'}}>🙏 Oração</p>
+              <p>Pai das misericórdias e Deus de toda consolação,</p>
+              <p>Perdoa-me pelas vezes em que murmurei em vez de louvar.</p>
+              <p>Ensina-me a bendizer-Te no vale, na prova, na meia-noite.</p>
+              <p>Dá-me a consciência de Jó: o Senhor deu, o Senhor tomou.</p>
+              <p>Vem ao meu lado, como Paracleto, para me ajudar, aliviar e animar.</p>
+              <p>E faz-me instrumento da Tua consolação para os que sofrem.</p>
+              <p>Em nome de Jesus, amém.</p>
+            </blockquote>
+            
+            <p style={{textAlign: 'center', fontWeight: 'bold', marginTop: '2rem'}}>Soli Deo Gloria. ✨</p>
+          </main>
+
+          <section style={{maxWidth: '800px', margin: '0 auto 3rem', background: '#f8f9fa', padding: '2rem', borderRadius: '12px', borderTop: '4px solid #0f172a'}}>
+            <h2 style={{color: '#1a1210', marginTop: 0, display: 'flex', alignItems: 'center', gap: '8px'}}>💬 E Você, O Que Acha?</h2>
+            <p style={{color: '#555'}}>Agora queremos ouvir você, que leu até aqui:</p>
+            <ul style={{color: '#444', marginBottom: '1.5rem', paddingLeft: '1.5rem'}}>
+              <li style={{marginBottom: '0.5rem'}}>Como você reage no vale: com louvor ou com murmuração?</li>
+              <li style={{marginBottom: '0.5rem'}}>Qual exemplo mais te desafiou: Abraão, Davi, Paulo e Silas ou Jó?</li>
+              <li style={{marginBottom: '0.5rem'}}>Você já experimentou o consolo de Deus no meio da dor? Como foi?</li>
+              <li>Na sua opinião, por que alguns sofrem mais do que outros?</li>
+            </ul>
+            <p style={{color: '#666', fontStyle: 'italic'}}>👇 Deixe sua opinião nos comentários. Queremos aprender juntos, com respeito e amor pela Palavra.</p>
+            <p style={{fontWeight: 'bold', color: '#1a1210'}}>&quot;Bendirei o SENHOR em todo o tempo.&quot; — Salmo 34:1</p>
+            
+            <div style={{marginTop: '2rem'}}>
+              <Poll 
+                question="Como você reage no sofrimento:" 
+                options={["Com louvor", "Com murmuração", "Com dúvidas", "Buscando a Palavra"]}
+              />
+            </div>
+          </section>
+
+          <ShareBar title="Por Que Alguns Sofrem Mais? O Que Paulo Ensina Sobre Louvor no Vale e o Deus de Toda Consolação" url="/por-que-alguns-sofrem-mais-louvor-no-vale-deus-consolacao" />
+          <Comments articleId="por-que-alguns-sofrem-mais-louvor-no-vale-deus-consolacao" />
+          <RelatedArticles currentLink="/por-que-alguns-sofrem-mais-louvor-no-vale-deus-consolacao" category="Estudos Bíblicos" />
+        </article>
+      )}
     </div>
   );
 }
@@ -1250,6 +1530,7 @@ function App() {
     const isTabernaculo = path === '/tabernaculo-evangelho-inteiro-desenhado-pano-ouro-sangue';
   const isDeusDetermina = path === '/deus-determina-ou-homem-toma-atitude-herois-da-fe';
   const isInconstancia = path === '/voce-nao-esfriou-voce-esta-dividido-inconstancia-espiritual';
+  const isSofrimento = path === '/por-que-alguns-sofrem-mais-louvor-no-vale-deus-consolacao';
   const isAmorAosInimigos = path === '/amor-aos-inimigos-chamado-radical-jesus-sermao-monte-mateus-5-43-48';
   const isEliasProfetaDeFogo = path === '/elias-jornada-completa-profeta-de-fogo-gileade-carro-de-fogo';
   const isBatismoInfantilCerto = path === '/batismo-infantil-certo-confianca-em-cristo-vs-ritual';

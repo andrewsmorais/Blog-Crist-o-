@@ -1,13 +1,13 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <!-- Página Inicial -->
+  
   <url>
     <loc>https://sdgloria.com.br/</loc>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
   
-  <!-- Páginas Institucionais -->
+  
   <url>
     <loc>https://sdgloria.com.br/sobre</loc>
     <changefreq>monthly</changefreq>
@@ -34,7 +34,7 @@
     <priority>0.3</priority>
   </url>
 
-  <!-- Páginas de Categorias -->
+  
   <url>
     <loc>https://sdgloria.com.br/estudos-biblicos</loc>
     <changefreq>weekly</changefreq>
@@ -56,7 +56,7 @@
     <priority>0.9</priority>
   </url>
 
-  <!-- Estudos Bíblicos / Teologia -->
+  
   <url>
     <loc>https://sdgloria.com.br/artigo/sarca-ardente</loc>
     <changefreq>monthly</changefreq>
@@ -103,14 +103,14 @@
     <priority>0.7</priority>
   </url>
 
-  <!-- Devocionais / Louvor -->
+  
   <url>
     <loc>https://sdgloria.com.br/ah-jesus-coracao-igual-ao-teu-analise-biblica-julliany-souza</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
 
-  <!-- Personagens Bíblicos -->
+  
   <url>
     <loc>https://sdgloria.com.br/paulo-tarso-apostolo-nacoes</loc>
     <changefreq>monthly</changefreq>
@@ -142,7 +142,7 @@
     <priority>0.7</priority>
   </url>
 
-  <!-- Testemunhos -->
+  
   <url>
     <loc>https://sdgloria.com.br/testemunho-deus-e-bom-historia-fe-transformacao</loc>
     <changefreq>monthly</changefreq>
@@ -335,4 +335,4 @@
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
-</urlset>
+<url><loc>https://sdgloria.com.br/por-que-alguns-sofrem-mais-louvor-no-vale-deus-consolacao</loc><lastmod>2026-08-12</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url></urlset>
