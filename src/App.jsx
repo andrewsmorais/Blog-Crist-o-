@@ -1771,6 +1771,90 @@ function App() {
     return () => clearInterval(interval);
   }, []);
   const path = window.location.pathname;
+
+  useEffect(() => {
+    // Dynamic SEO Implementation
+    const updateSEO = () => {
+      const siteName = 'Soli Deo Gloria';
+      const defaultDesc = 'Portal cristão Soli Deo Gloria — Estudos bíblicos profundos, teologia reformada, devocionais edificantes, personagens bíblicos e testemunhos de fé.';
+      
+      let title = siteName;
+      let description = defaultDesc;
+      // Remover trailing slashes ou query params para o canonical, mantendo a URL base oficial
+      const cleanPath = path.split('?')[0]; 
+      let canonicalUrl = `https://sdgloria.com.br${cleanPath}`;
+
+      // Search if it's an article from the database
+      const article = allArticlesData.find(a => a.link === cleanPath);
+      
+      if (article) {
+        title = `${article.title} | ${siteName}`;
+        description = article.excerpt || defaultDesc;
+      } else {
+        // Static routes
+        if (cleanPath === '/') title = `${siteName} | Estudos Bíblicos, Teologia Reformada e Devocionais`;
+        else if (cleanPath === '/sobre') title = `Quem Somos | ${siteName}`;
+        else if (cleanPath === '/contato') title = `Contato | ${siteName}`;
+        else if (cleanPath === '/estudos-biblicos') title = `Estudos Bíblicos | ${siteName}`;
+        else if (cleanPath === '/devocionais') title = `Devocionais | ${siteName}`;
+        else if (cleanPath === '/personagens-biblicos') title = `Personagens Bíblicos | ${siteName}`;
+        else if (cleanPath === '/testemunhos') title = `Testemunhos | ${siteName}`;
+        else if (cleanPath === '/noticias') title = `Notícias | ${siteName}`;
+        else if (cleanPath === '/politica-de-privacidade') title = `Política de Privacidade | ${siteName}`;
+        else if (cleanPath === '/termos-de-uso') title = `Termos de Uso | ${siteName}`;
+        else title = `${siteName} | Portal Teológico`;
+      }
+
+      // Update Document Title
+      document.title = title;
+
+      // Update Canonical URL
+      let canonicalLink = document.querySelector('link[rel="canonical"]');
+      if (!canonicalLink) {
+        canonicalLink = document.createElement('link');
+        canonicalLink.setAttribute('rel', 'canonical');
+        document.head.appendChild(canonicalLink);
+      }
+      canonicalLink.setAttribute('href', canonicalUrl);
+
+      // Update Meta Description
+      let metaDesc = document.querySelector('meta[name="description"]');
+      if (!metaDesc) {
+        metaDesc = document.createElement('meta');
+        metaDesc.setAttribute('name', 'description');
+        document.head.appendChild(metaDesc);
+      }
+      metaDesc.setAttribute('content', description);
+
+      // Update Open Graph Tags
+      let ogTitle = document.querySelector('meta[property="og:title"]');
+      if (!ogTitle) {
+        ogTitle = document.createElement('meta');
+        ogTitle.setAttribute('property', 'og:title');
+        document.head.appendChild(ogTitle);
+      }
+      ogTitle.setAttribute('content', title);
+
+      let ogUrl = document.querySelector('meta[property="og:url"]');
+      if (!ogUrl) {
+        ogUrl = document.createElement('meta');
+        ogUrl.setAttribute('property', 'og:url');
+        document.head.appendChild(ogUrl);
+      }
+      ogUrl.setAttribute('content', canonicalUrl);
+
+      let ogDesc = document.querySelector('meta[property="og:description"]');
+      if (!ogDesc) {
+        ogDesc = document.createElement('meta');
+        ogDesc.setAttribute('property', 'og:description');
+        document.head.appendChild(ogDesc);
+      }
+      ogDesc.setAttribute('content', description);
+    };
+
+    updateSEO();
+  }, [path]);
+
   const isPrivacyPolicy = path === '/politica-de-privacidade';
   const isCookiePolicy = path === '/politica-de-cookies';
   const isTermsOfUse = path === '/termos-de-uso';

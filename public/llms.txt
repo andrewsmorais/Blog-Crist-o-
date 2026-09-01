@@ -1,0 +1,42 @@
+# Soli Deo Gloria
+
+> Um portal cristão dedicado à glória de Deus, estudos bíblicos profundos, teologia reformada e devocionais edificantes.
+
+## Sobre Nós
+O **Soli Deo Gloria** é uma plataforma cristã independente que visa fornecer conteúdo teológico robusto, fiel às Escrituras Sagradas. Nós subscrevemos aos Cinco Pilares da Reforma Protestante:
+- **Sola Scriptura** (Somente a Escritura)
+- **Sola Fide** (Somente a Fé)
+- **Sola Gratia** (Somente a Graça)
+- **Solus Christus** (Somente Cristo)
+- **Soli Deo Gloria** (Glória Somente a Deus)
+
+Nosso objetivo é edificar a igreja de Cristo por meio de conteúdo fundamentado na Bíblia, ajudando cristãos a aprofundarem seu relacionamento com Deus e seu entendimento teológico.
+
+## Estrutura do Site e Tópicos Abordados
+Nosso conteúdo é dividido nas seguintes categorias principais:
+
+### 📖 Estudos Bíblicos
+Análises aprofundadas de passagens bíblicas, exposição de doutrinas, teologia sistemática e reflexões teológicas práticas.
+- [Acessar Estudos Bíblicos](https://sdgloria.com.br/estudos-biblicos)
+
+### ❤️ Devocionais
+Mensagens pastorais, curtas e intensas para o fortalecimento da fé no dia a dia, encorajamento e despertamento espiritual.
+- [Acessar Devocionais](https://sdgloria.com.br/devocionais)
+
+### 👤 Personagens Bíblicos
+Estudos biográficos detalhados dos homens e mulheres da Bíblia, extraindo aplicações práticas e teológicas de suas trajetórias (ex: Paulo de Tarso, Davi, Samuel, Jó, Elias).
+- [Acessar Personagens Bíblicos](https://sdgloria.com.br/personagens-biblicos)
+
+### 🕊️ Testemunhos
+Histórias reais de conversão, milagres e providência divina.
+- [Acessar Testemunhos](https://sdgloria.com.br/testemunhos)
+
+### 📰 Notícias
+Análise de acontecimentos do cenário cristão nacional e mundial sob uma perspectiva bíblica.
+- [Acessar Notícias](https://sdgloria.com.br/noticias)
+
+## Políticas e Transparência
+- Respeitamos a privacidade dos usuários e as leis de proteção de dados (LGPD).
+- Não apoiamos teologias estranhas à sã doutrina (como a teologia da prosperidade liberal).
+- Mantemos total transparência sobre anúncios e parceiros.
+- [Sobre Nós](https://sdgloria.com.br/sobre) | [Contato](https://sdgloria.com.br/contato) | [Privacidade](https://sdgloria.com.br/politica-de-privacidade)
