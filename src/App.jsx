@@ -2,6 +2,7 @@ import { useState, useEffect } from 'react';
 import './index.css';
 import Newsletter from './components/Newsletter';
 import VideoEmbed from './components/VideoEmbed';
+import AnaliseSDG from './components/AnaliseSDG';
 
 /* ===== COMPONENTES PROFISSIONAIS REUTILIZÁVEIS ===== */
 
@@ -31,7 +32,7 @@ function ArticleInfo({ date, readingTime }) {
 
 // Share Buttons
 function ShareBar({ title, url }) {
-  const fullUrl = 'https://sdgloria.com.br' + url;
+  const fullUrl = 'https://www.sdgloria.com.br' + url;
   const encodedUrl = encodeURIComponent(fullUrl);
   const encodedTitle = encodeURIComponent(title);
   
@@ -41,6 +42,8 @@ function ShareBar({ title, url }) {
   };
   
   return (
+    <>
+    <AnaliseSDG slug={url.replace(/^\//, '')} />
     <div className="share-bar">
       <span className="share-bar-label">Compartilhe:</span>
       <a className="share-btn whatsapp" href={`https://api.whatsapp.com/send?text=${encodedTitle}%20${encodedUrl}`} target="_blank" rel="noreferrer">
@@ -56,6 +59,7 @@ function ShareBar({ title, url }) {
         📋 Copiar Link
       </button>
     </div>
+    </>
   );
 }
 
@@ -3335,14 +3339,6 @@ function App({ ssrPath } = {}) {
                  <p><strong>Provérbios 16:18</strong> — "A soberba precede a ruína, e a altivez do espírito precede a queda."</p>
                </div>
 
-               <h2>📚 Leituras Recomendadas</h2>
-               <ul style={{lineHeight: '1.8', marginBottom: '2rem'}}>
-                 <li><strong>"Provérbios: Comentário Exegético"</strong> — Vários autores (análise profunda de Provérbios 6)</li>
-                 <li><strong>"Discernimento Bíblico"</strong> — Vários autores (como identificar pessoas perversas)</li>
-                 <li><strong>"Soberba e Humildade"</strong> — Vários autores (combate ao orgulho)</li>
-                 <li><strong>"A Língua que Edifica"</strong> — Vários autores (sobre verdade e mentira)</li>
-                 <li><strong>"Pacificadores"</strong> — Vários autores (sobre promover unidade)</li>
-               </ul>
 
                <div style={{marginTop: '2rem', padding: '1.5rem', border: '1px solid #eee', borderRadius: '8px', background: '#fcfcfc', fontSize: '0.9rem', color: '#555'}}>
                  <strong>📺 Fonte e Inspiração:</strong><br/>
@@ -3492,14 +3488,6 @@ function App({ ssrPath } = {}) {
                  <p><strong>Josué 1:8</strong> — "Não deixe de falar as palavras deste Livro da Lei e de meditar nelas de dia e de noite, para que você cumpra fielmente tudo o que nele está escrito. Só então os seus caminhos prosperarão e você será bem-sucedido."</p>
                </div>
 
-               <h2>📚 Leituras Recomendadas</h2>
-               <ul style={{lineHeight: '1.8', marginBottom: '2rem'}}>
-                 <li><strong>"Tempo com Deus"</strong> — Vários autores (sobre TSD e vida devocional)</li>
-                 <li><strong>"O Quarto Secreto"</strong> — Vários autores (oração no secreto)</li>
-                 <li><strong>"Permanecendo em Cristo"</strong> — Vários autores (João 15 e permanência)</li>
-                 <li><strong>"Hábitos Espirituais"</strong> — Vários autores (disciplinas espirituais)</li>
-                 <li><strong>"A Vida Devocional"</strong> — Vários autores (constância na fé)</li>
-               </ul>
 
                <div style={{marginTop: '2rem', padding: '1.5rem', border: '1px solid #eee', borderRadius: '8px', background: '#fcfcfc', fontSize: '0.9rem', color: '#555'}}>
                  <strong>📺 Fonte e Inspiração:</strong><br/>
@@ -4051,9 +4039,7 @@ function App({ ssrPath } = {}) {
                  <ul style={{marginBottom: 0, paddingLeft: '1.25rem', lineHeight: '1.8'}}>
                    <li>📖 <em>&quot;Cristianismo Puro e Simples&quot;</em> — C.S. Lewis (capítulo sobre perdão e amor)</li>
                    <li>📖 <em>&quot;O Sermão do Monte&quot;</em> — John Stott (exposição clássica de Mateus 5-7)</li>
-                   <li>📖 <em>&quot;Perdão: A Chave para a Liberdade&quot;</em> — Diversos autores (sobre amar quem nos feriu)</li>
                    <li>📖 <em>&quot;A Imitação de Cristo&quot;</em> — Thomas à Kempis (sobre seguir Jesus em tudo)</li>
-                   <li>📖 <em>&quot;Amor Radical&quot;</em> — Diversos autores (sobre amar como Jesus amou)</li>
                  </ul>
                </div>
 
@@ -4477,14 +4463,6 @@ function App({ ssrPath } = {}) {
                  <p><strong>Mateus 3:9</strong> — "E não penseis que dentro de vós mesmos: Temos por pai a Abraão; porque eu vos digo que mesmo destas pedras Deus pode suscitar filhos a Abraão."</p>
                </div>
 
-               <h2>📚 Leituras Recomendadas</h2>
-               <ul style={{lineHeight: '1.8', marginBottom: '2rem'}}>
-                 <li><strong>"Gálatas: Comentário Exegético"</strong> — Vários autores (análise profunda de Gálatas 5)</li>
-                 <li><strong>"O Batismo Cristão"</strong> — Vários autores (debate histórico e teológico)</li>
-                 <li><strong>"A Confiança em Cristo"</strong> — Vários autores (sola fide)</li>
-                 <li><strong>"Os Sacramentos"</strong> — Vários autores (visão reformada vs. católica)</li>
-                 <li><strong>"Fé e Rituais"</strong> — Vários autores (distinção entre sinal e realidade)</li>
-               </ul>
 
                <div style={{background: '#e9ecef', padding: '1.5rem', borderRadius: '12px', margin: '3rem 0'}}>
               <h3 style={{marginTop: 0, color: '#1a1210'}}>📺 Fonte e Inspiração</h3>
@@ -4643,10 +4621,6 @@ function App({ ssrPath } = {}) {
                <h2>📚 Leituras Recomendadas</h2>
                <ul style={{lineHeight: '1.8', marginBottom: '2rem'}}>
                  <li><strong>"A Perseverança dos Santos"</strong> — R.C. Sproul (defesa clássica da doutrina)</li>
-                 <li><strong>"Segurança Eterna"</strong> — Vários autores (estudos sobre a garantia da salvação)</li>
-                 <li><strong>"Gálatas: Comentário Exegético"</strong> — Vários autores (análise profunda de Gálatas 5)</li>
-                 <li><strong>"A Soberania de Deus"</strong> — Vários autores (vontade de decreto vs. vontade revelada)</li>
-                 <li><strong>"Verdadeiros Crentes"</strong> — Vários autores (como distinguir fé genuína de falsa)</li>
                </ul>
 
                <div style={{marginTop: '2rem', padding: '1.5rem', border: '1px solid #eee', borderRadius: '8px', background: '#fcfcfc', fontSize: '0.9rem', color: '#555'}}>
@@ -4806,11 +4780,7 @@ function App({ ssrPath } = {}) {
 
                <h2>📚 Leituras Recomendadas</h2>
                <ul style={{lineHeight: '1.8', marginBottom: '2rem'}}>
-                 <li><strong>"A Teologia da Prosperidade: Uma Análise Bíblica"</strong> — Vários autores (crítica equilibrada)</li>
-                 <li><strong>"Trabalho e Prosperidade na Perspectiva Bíblica"</strong> — Vários autores (visão reformada)</li>
                  <li><strong>"A Ética Protestante e o Espírito do Capitalismo"</strong> — Max Weber (análise sociológica)</li>
-                 <li><strong>"Mordomia Cristã"</strong> — Vários autores (uso bíblico dos recursos)</li>
-                 <li><strong>"Contentamento e Generosidade"</strong> — Vários autores (equilíbrio bíblico)</li>
                </ul>
 
                <div style={{marginTop: '2rem', padding: '1.5rem', border: '1px solid #eee', borderRadius: '8px', background: '#fcfcfc', fontSize: '0.9rem', color: '#555'}}>
@@ -4859,7 +4829,7 @@ function App({ ssrPath } = {}) {
                <p>Antes de pegar pedras para atirar, vamos analisar com calma e à luz do Evangelho. O que difere uma gratidão superficial de uma fé salvadora e coerente?</p>
 
                <h2>🎵 A Música "Everything Aleluia"</h2>
-               <p>Na sua apresentação, Justin Bieber cantou a canção <em>"Everything Aleluia"</em>, que traz trechos como: <em>"Estou beijando você, aleluia. Sonho com você, aleluia... Olha, tudo é aleluia, estou amando. Aleluia! Tudo é aleluia."</em></p>
+               <p>Na sua apresentação, Justin Bieber cantou a canção <em>"Everything Aleluia"</em>, cuja letra repete a palavra “aleluia” ao lado de declarações de amor romântico — sem deixar claro se o “aleluia” se dirige a Deus ou a uma pessoa.</p>
                <p>O resumo da música é uma mensagem de gratidão: dar graças a Deus por cada aspecto da existência, onde cada detalhe da vida, com gratidão a Deus, se torna gigante. Nesse aspecto isolado, a letra é interessante e não haveria nada a declarar em contrário.</p>
 
                <h2>⚠️ A Contradição do Álbum: O Problema da Incoerência</h2>
@@ -5088,9 +5058,6 @@ function App({ ssrPath } = {}) {
                <ul style={{lineHeight: '1.8', marginBottom: '2rem'}}>
                  <li><strong>"A Vontade de Deus"</strong> — G. F. Hawthorne (entendimento bíblico sobre a vontade divina)</li>
                  <li><strong>"Descobrindo a Vontade de Deus"</strong> — Henry Blackaby (abordagem prática e devocional)</li>
-                 <li><strong>"Propósito Eterno"</strong> — Vários autores (sobre propósito e chamado)</li>
-                 <li><strong>"Gratidão"</strong> — Vários autores (sobre contentamento e gratidão)</li>
-                 <li><strong>"O Chamado"</strong> — Vários autores (sobre chamado e ministério)</li>
                </ul>
 
                <div style={{background: '#e9ecef', padding: '1.5rem', borderRadius: '12px', margin: '3rem 0'}}>
@@ -5265,10 +5232,6 @@ function App({ ssrPath } = {}) {
                <h2>📚 Leituras Recomendadas</h2>
                <ul style={{lineHeight: '1.8', marginBottom: '2rem'}}>
                  <li><strong>"O Sermão do Monte"</strong> — John Stott (exposição clássica de Mateus 5-7)</li>
-                 <li><strong>"Perdão: A Chave para a Liberdade"</strong> — Vários autores (sobre perdão e justiça)</li>
-                 <li><strong>"Justiça Divina"</strong> — Vários autores (sobre confiar na justiça de Deus)</li>
-                 <li><strong>"Amem os Seus Inimigos"</strong> — Vários autores (sobre amar quem nos ofende)</li>
-                 <li><strong>"A Graça que Transforma"</strong> — Vários autores (sobre viver pela graça)</li>
                </ul>
 
                <div style={{background: '#e9ecef', padding: '1.5rem', borderRadius: '12px', margin: '3rem 0'}}>
@@ -5588,8 +5551,6 @@ function App({ ssrPath } = {}) {
                  <li><strong>"Angelologia"</strong> — John MacArthur (estudo bíblico completo sobre os anjos)</li>
                  <li><strong>"Anjos: Mensageiros do Céu"</strong> — Billy Graham (perspectiva bíblica e pastoral)</li>
                  <li><strong>"O Mundo Invisível"</strong> — Hernandes Dias Lopes (sobre a realidade espiritual)</li>
-                 <li><strong>"Anjos e Demônios"</strong> — C.S. Lewis (reflexões teológicas sobre o sobrenatural)</li>
-                 <li><strong>"A Guerra Invisível"</strong> — Vários autores (sobre batalha espiritual e proteção divina)</li>
                </ul>
 
                <div style={{background: '#e9ecef', padding: '1.5rem', borderRadius: '12px', margin: '3rem 0'}}>
@@ -6115,10 +6076,6 @@ function App({ ssrPath } = {}) {
                <h3 style={{marginTop: 0}}>📚 Leituras Recomendadas</h3>
                <ul>
                  <li><em>"George Müller: A Vida de Oração"</em> — Roger Steer</li>
-                 <li><em>"A Arte da Confiança"</em> — Oswald Chambers</li>
-                 <li><em>"O Deus que Provê"</em> — John Piper</li>
-                 <li><em>"Histórias de Fé que Transformaram o Mundo"</em> — Vários autores</li>
-                 <li><em>"A Generosidade Radical"</em> — David Platt</li>
                </ul>
              </div>
 
@@ -6323,7 +6280,7 @@ function App({ ssrPath } = {}) {
 
                <h2>📝 Transcrição do Testemunho</h2>
                <div style={{background: '#fafafa', padding: '2rem', borderLeft: '4px solid var(--primary)', borderRadius: '0 8px 8px 0', marginBottom: '3rem', fontStyle: 'italic', color: '#444', lineHeight: '1.8'}}>
-                 <p>"Entrei no quarto, tranquei minha porta, falei: 'Deus, hoje eu vou tirar minha vida'. E eu lembro de abrir o guarda-roupa e procurar um objeto pontiagudo, procurar alguma forma para eu tirar minha vida. E quando eu abri o guarda-roupa, o Espírito Santo falou para mim: 'Então por que que você não faz uma última oração?'</p>
+                 <p>"Entrei no quarto, tranquei minha porta, falei: 'Deus, hoje eu vou tirar minha vida'. […] E quando eu abri o guarda-roupa, o Espírito Santo falou para mim: 'Então por que que você não faz uma última oração?'</p>
                  <p>Me ajoelhei e falei: 'Jesus, eu só te peço uma segunda chance. Eu quero voltar a ser feliz, eu quero voltar a priorizar o Teu reino, eu quero voltar a amar a Sua igreja. Eu não sou feliz, então me dê a felicidade de novo'.</p>
                  <p>E quando eu abri os meus olhos, eu estava na sala da minha casa. Eu não lembro como, minha mãe fala que eu cheguei chorando, pedindo ajuda. Sério. Pra mim foi o Espírito Santo que me levou."</p>
                </div>
@@ -7316,7 +7273,7 @@ function App({ ssrPath } = {}) {
              <blockquote>
                <p><em>"Maldito todo aquele que não permanece em todas as coisas escritas no Livro da Lei, para praticá-las"</em> (3:10)</p>
              </blockquote>
-             <p>O problema da lei é que ela exige <strong>perfeição absoluta</strong>. Quem falha em um ponto, torna-se culpado de todos (Tg 2:10). Cristo, porém, nos resgatou da maldição da lei, fazendo-se ele próprio maldição em nosso lugar (3:13), cumprindo Zacarias 3 e Isaías 53.</p>
+             <p>O problema da lei é que ela exige <strong>perfeição absoluta</strong>. Quem falha em um ponto, torna-se culpado de todos (Tg 2:10). Cristo, porém, nos resgatou da maldição da lei, fazendo-se ele próprio maldição em nosso lugar (3:13), como Paulo mostra citando Deuteronômio 21:23 — e cumprindo o que Isaías 53 anunciou sobre o Servo que levaria nossos pecados.</p>
              <p><strong>Substituição penal:</strong> Cristo tomou nossa maldição para nos dar sua bênção. Isso é Evangelho puro!</p>
 
              <h4>A Promessa e a Lei (3:15-25)</h4>
@@ -7599,7 +7556,6 @@ function App({ ssrPath } = {}) {
                <li><em>Gálatas</em> — F.F. Bruce (excelente exegese)</li>
                <li><em>Gálatas</em> — John Stott (aplicação pastoral)</li>
                <li><em>A Doutrina da Justificação</em> — R.C. Sproul</li>
-               <li><em>Sola Fide</em> — Various authors</li>
              </ul>
           
               <ShareBar title="A Carta aos Gálatas" url="/carta-galatas-liberdade-crista-estudo-completo" />
@@ -8019,7 +7975,7 @@ function App({ ssrPath } = {}) {
 
              <h2>👑 5. Da Glória ao Exílio: As Primeiras Campanhas e a Fuga</h2>
              <p>Após a vitória, as mulheres cantavam: <em>"Saul feriu os seus milhares, porém Davi os seus dez milhares."</em> (1 Samuel 18:7)</p>
-             <p>Saul, inseguro, viu Davi como ameaça e tentou matá-lo. Davi fugiu, tornando-se genro de Saul ao casar-se com Mical. Jônatas, filho de Saul, fez uma aliança de amizade profunda com Davi.</p>
+             <p>Saul, inseguro, viu Davi como ameaça e tentou matá-lo. Antes disso, Davi havia se tornado genro de Saul ao casar-se com Mical (1 Samuel 18:27); depois, precisou fugir. Jônatas, filho de Saul, fez uma aliança de amizade profunda com Davi.</p>
              <p>Davi passou anos como fugitivo, liderando um grupo de homens marginalizados, protegendo cidades de Israel (como Queila) e poupando a vida de Saul duas vezes, demonstrando que esperaria o tempo de Deus para assumir o trono.</p>
 
              <hr />
@@ -8911,7 +8867,6 @@ function App({ ssrPath } = {}) {
                  <li><strong>"A Hipocrisia e a Graça"</strong> — Jerry Bridges (sobre viver com autenticidade)</li>
                  <li><strong>"Mentiras que as Pessoas Boas Contam"</strong> — Charles Swindoll (sobre honestidade radical)</li>
                  <li><strong>"Integridade"</strong> — John Bevere (sobre caráter cristão)</li>
-                 <li><strong>"Verdade e Graça"</strong> — Vários autores (equilíbrio bíblico entre verdade e amor)</li>
                </ul>
 
                <p style={{fontSize: '1.1rem', fontStyle: 'italic', color: '#555', textAlign: 'center', margin: '2rem 0'}}>
@@ -9131,11 +9086,7 @@ function App({ ssrPath } = {}) {
 
                <h2>📚 Leituras Recomendadas</h2>
                <ul style={{lineHeight: '1.8', marginBottom: '2rem'}}>
-                 <li><strong>"O Discernimento Cristão"</strong> — John MacArthur (fundamentos bíblicos para identificar falsos ensinos)</li>
-                 <li><strong>"A Igreja Relevante"</strong> — Augustus Nicodemus (análise profética do evangelicalismo contemporâneo)</li>
-                 <li><strong>"Discernimento Espiritual"</strong> — Wayne Grudem (teologia reformada aplicada ao teste de doutrinas)</li>
                  <li><strong>"Líderes Autênticos"</strong> — Pr. Hernandes Dias Lopes (caráter, chamado e responsabilidade pastoral)</li>
-                 <li><strong>"A Volta do Feiticeiro"</strong> — John Stott (desafios do cristianismo no mundo pós-moderno)</li>
                </ul>
 
                <p style={{fontSize: '1.1rem', fontStyle: 'italic', color: '#555', textAlign: 'center', margin: '2rem 0'}}>
@@ -9342,9 +9293,7 @@ function App({ ssrPath } = {}) {
                <ul style={{lineHeight: '1.8', marginBottom: '2rem'}}>
                  <li><strong>"Limites"</strong> — Henry Cloud e John Townsend (clássico sobre limites saudáveis à luz da Bíblia)</li>
                  <li><strong>"Provérbios: Sabedoria para o Dia a Dia"</strong> — Hernandes Dias Lopes (comentário exegético e prático)</li>
-                 <li><strong>"O Amor que Discerne"</strong> — Paul David Tripp (como amar com sabedoria, não com ingenuidade)</li>
                  <li><strong>"Mordomia Cristã"</strong> — Wayne Grudem (administração fiel de recursos, tempo e relacionamentos)</li>
-                 <li><strong>"A Arte de Dizer Não"</strong> — Vários autores (perspectiva bíblica sobre limites)</li>
                </ul>
 
                <p style={{fontSize: '1.1rem', fontStyle: 'italic', color: '#555', textAlign: 'center', margin: '2rem 0'}}>
@@ -9773,11 +9722,10 @@ function App({ ssrPath } = {}) {
               <div style={{background:'#f8f9fa', border:'1px solid #e2e4e7', borderRadius:'12px', padding:'24px', margin:'30px 0'}}>
                 <h3 style={{marginTop:0}}>📚 Leituras Recomendadas</h3>
                 <ul>
-                  <li><em>"A Morte e a Vida Após a Morte"</em> — John Piper (foco bíblico e pastoral)</li>
                   <li><em>"O Céu"</em> — Randy Alcorn (exploração detalhada do estado intermediário e eterno)</li>
                   <li><em>"Surpreendido pela Esperança"</em> — N.T. Wright (escatologia bíblica renovada)</li>
                   <li><em>"Teologia Sistemática"</em> — Wayne Grudem (capítulo sobre escatologia)</li>
-                  <li><em>"A Ressurreição do Filho de Deus"</em> — Darrell Bock e Michael Gorman</li>
+                  <li><em>"A Ressurreição do Filho de Deus"</em> — N.T. Wright</li>
                 </ul>
               </div>
 
@@ -10164,8 +10112,7 @@ function App({ ssrPath } = {}) {
               <div style={{background:'#f8f9fa', border:'1px solid #e2e4e7', borderRadius:'12px', padding:'24px', margin:'30px 0'}}>
                 <h3 style={{marginTop:0}}>📚 Leituras Recomendadas</h3>
                 <ul>
-                  <li><em>"Como Ler a Bíblia por Tudo que Ela Vale"</em> — J.I. Packer (ênfase na leitura pessoal e devocional)</li>
-                  <li><em>"A Arte da Meditação Bíblica"</em> — John MacArthur (práticas de meditação nas Escrituras)</li>
+                  <li><em>"Como Ler a Bíblia por Tudo que Ela Vale"</em> — Gordon Fee e Douglas Stuart (como interpretar cada gênero da Bíblia)</li>
                   <li><em>"Estudo Bíblico Indutivo"</em> — Kay Arthur (método de estudo sem dependência de comentários)</li>
                   <li><em>"A Mente de Cristo"</em> — T.W. Hunt (desenvolvimento do pensamento bíblico)</li>
                   <li><em>"Ler a Bíblia com os Olhos Abertos"</em> — Gordon Fee e Douglas Stuart (hermenêutica prática)</li>

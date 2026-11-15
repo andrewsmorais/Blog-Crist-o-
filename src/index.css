@@ -977,3 +977,28 @@ h1, .article-content h1, .privacy-policy-content h1, .hero-main h1, .hero-main .
   white-space: nowrap;
   border: 0;
 }
+
+/* Seção "Análise do Soli Deo Gloria" (conteúdo próprio no fim dos artigos) */
+.analise-sdg {
+  margin: 3rem 0 2rem;
+  padding: 2rem 1.75rem;
+  background: #faf7f2;
+  border-left: 4px solid #722f37;
+  border-radius: 0 12px 12px 0;
+}
+.analise-sdg h2 { margin-top: 0; }
+.analise-sdg h3 { margin-top: 1.75rem; }
+.analise-sdg h4 { margin: 1.25rem 0 0.4rem; font-size: 1.05rem; }
+.analise-sdg ol, .analise-sdg ul { padding-left: 1.4rem; line-height: 1.8; }
+@media (max-width: 600px) { .analise-sdg { padding: 1.5rem 1.1rem; } }
+
+/* Vídeo do YouTube leve (carrega só ao clicar) */
+.video-embed { margin: 2rem 0; background: #f8f9fa; padding: 1.5rem; border-radius: 12px; border-left: 4px solid #b91c1c; }
+.video-embed-title { margin: 0 0 1rem; color: #1a1210; }
+.video-embed-frame { position: relative; aspect-ratio: 16 / 9; border-radius: 8px; overflow: hidden; background: #000; }
+.video-embed-frame iframe, .video-embed-play { position: absolute; inset: 0; width: 100%; height: 100%; border: 0; }
+.video-embed-play { padding: 0; cursor: pointer; background: #000; }
+.video-embed-play img { width: 100%; height: 100%; object-fit: cover; display: block; opacity: 0.85; }
+.video-embed-icon { position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 72px; height: 50px; border-radius: 12px; background: #ff0000; color: #fff; font-size: 1.6rem; display: flex; align-items: center; justify-content: center; }
+.video-embed-play:hover .video-embed-icon, .video-embed-play:focus-visible .video-embed-icon { background: #cc0000; }
+.video-embed-credit { margin: 0.75rem 0 0; font-size: 0.95rem; color: #555; }

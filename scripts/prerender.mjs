@@ -7,7 +7,7 @@ import { fileURLToPath, pathToFileURL } from 'node:url';
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const DIST = path.join(ROOT, 'dist');
-const SITE = 'https://sdgloria.com.br';
+const SITE = 'https://www.sdgloria.com.br';
 const SITE_NAME = 'Soli Deo Gloria';
 const DEFAULT_IMAGE = `${SITE}/worship_hero.png`;
 const DEFAULT_DESC =
