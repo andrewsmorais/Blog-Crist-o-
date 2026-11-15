@@ -1,16 +1,22 @@
-# React + Vite
+# Soli Deo Gloria — sdgloria.com.br
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Blog cristão feito em React + Vite, publicado na Vercel.
 
-Currently, two official plugins are available:
+## Como o site é gerado
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+`npm run build` faz três coisas:
 
-## React Compiler
+1. Monta o site normal (`vite build`).
+2. Monta uma versão "servidor" do app (`dist-server/`).
+3. Roda `scripts/prerender.mjs`, que cria **um arquivo HTML pronto para cada página**
+   (com título, descrição, canonical, imagem de compartilhamento e dados estruturados próprios),
+   uma página `404.html` de verdade e o `sitemap.xml` com todas as páginas.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Assim o Google, o AdSense e as IAs leem o texto dos artigos direto no HTML.
 
-## Expanding the ESLint configuration
+## Ao publicar um artigo novo
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Crie a página no `src/App.jsx` como as outras (`const isNomeDoArtigo = path === '/endereco'` e o bloco `) : isNomeDoArtigo ? (`).
+- O sitemap é criado sozinho no build — **não precisa editar sitemap à mão**.
+- Se adicionou imagens novas em `public/`, rode `npm run images` (cria a versão `.webp` leve) e use o `.webp` no artigo.
+- Ao final do build, se aparecer "⚠ Atenção", alguma página do código está abrindo a 404.

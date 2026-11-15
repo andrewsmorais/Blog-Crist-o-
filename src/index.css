@@ -225,7 +225,7 @@ img {
   aspect-ratio: 16/9;
   margin-bottom: 0;
 }
-.hero-main h1 {
+.hero-main h1, .hero-main .hero-title {
   font-family: var(--font-title);
   font-size: 2.75rem;
   line-height: 1.1;
@@ -927,20 +927,20 @@ img {
 /* Responsividade Global para Títulos H1 */
 
 /* Títulos em Desktop (Base) */
-h1, .article-content h1, .privacy-policy-content h1, .hero-main h1 {
+h1, .article-content h1, .privacy-policy-content h1, .hero-main h1, .hero-main .hero-title {
   line-height: 1.2;
 }
 
 /* Títulos em Tablet */
 @media (max-width: 1024px) {
-  h1, .article-content h1, .privacy-policy-content h1, .hero-main h1 {
+  h1, .article-content h1, .privacy-policy-content h1, .hero-main h1, .hero-main .hero-title {
     font-size: 2.2rem;
   }
 }
 
 /* Títulos em Mobile */
 @media (max-width: 768px) {
-  h1, .article-content h1, .privacy-policy-content h1, .hero-main h1 {
+  h1, .article-content h1, .privacy-policy-content h1, .hero-main h1, .hero-main .hero-title {
     font-size: 1.8rem; /* Reduzido para melhor leitura em mobile */
     line-height: 1.3;
     word-wrap: break-word; /* Quebra palavras longas se necessário */
@@ -949,10 +949,31 @@ h1, .article-content h1, .privacy-policy-content h1, .hero-main h1 {
 
 /* Títulos em Mobile Pequeno */
 @media (max-width: 480px) {
-  h1, .article-content h1, .privacy-policy-content h1, .hero-main h1 {
+  h1, .article-content h1, .privacy-policy-content h1, .hero-main h1, .hero-main .hero-title {
     font-size: 1.5rem; /* Ainda menor para telas muito pequenas */
     line-height: 1.4;
   }
 }
 
 
+
+/* Títulos principais das páginas de categoria (antes eram h2; o Google espera 1 h1 por página) */
+.section-title-h1 {
+  font-family: var(--font-title);
+  font-size: 1.75rem;
+  line-height: 1.25;
+  margin: 0;
+}
+
+/* Texto só para leitores de tela e buscadores */
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}

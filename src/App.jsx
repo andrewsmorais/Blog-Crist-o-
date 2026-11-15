@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import './index.css';
 import Newsletter from './components/Newsletter';
 import VideoEmbed from './components/VideoEmbed';
@@ -156,70 +156,63 @@ const allArticlesData = [
     excerpt: "Soberania de Deus e responsabilidade humana: analisando, versículo por versículo, se os heróis da fé agiram sozinhos ou foram movidos pela graça.",
     author: "Soli Deo Gloria"
   },
-  {
-    category: 'estudos-biblicos',
-    title: 'O Tabernáculo: O Evangelho Inteiro Desenhado em Pano, Ouro e Sangue',
-    excerpt: 'Por que Deus gastou 13 capítulos com uma tenda no deserto — e como cada peça dela aponta para Jesus.',
-    image: '/tabernaculo_deserto.jpg',
-    date: '25 Jun, 2026',
-    path: '/tabernaculo-evangelho-inteiro-desenhado-pano-ouro-sangue'
-  },
-  { link: '/artigo/sarca-ardente', image: '/sarca-ardente.jpg', tag: 'Estudos Bíblicos', title: 'A Sarça Ardente: Quando Deus Encontrou Moisés' },
-  { link: '/artigo/sermao-do-monte', image: '/sermao-do-monte.png', tag: 'Estudos Bíblicos', title: 'Sermão do Monte: As Bem-Aventuranças' },
-  { link: '/como-ler-biblia-inteira-2026-metodos-praticos', image: '/metodos_biblia.png', tag: 'Vida Cristã', title: '5 Métodos Práticos para Ler a Bíblia em 2026' },
-  { link: '/doutrina-eleicao-incondicional-efesios-romanos', image: '/eleicao.png', tag: 'Teologia', title: 'A Doutrina da Eleição Incondicional' },
-  { link: '/carta-galatas-liberdade-crista-estudo-completo', image: '/galatas.png', tag: 'Estudos Bíblicos', title: 'A Carta aos Gálatas e a Liberdade Cristã' },
-  { link: '/cinco-solas-relevancia-hoje-reforma-protestante', image: '/cinco_solas.png', tag: 'Teologia', title: 'As Cinco Solas e Sua Relevância Hoje' },
-  { link: '/silencio-deus-dificuldades-charles-spurgeon', image: '/silence_of_god.png', tag: 'Teologia', title: 'O Silêncio de Deus nas Dificuldades' },
-  { link: '/trindade-um-so-deus-tres-pessoas-estudo-completo', image: '/trindade.png', tag: 'Teologia', title: 'A Trindade: Um Só Deus em Três Pessoas' },
-  { link: '/santificacao-obra-vida-inteira-estudo', image: '/santificacao.png', tag: 'Teologia', title: 'Santificação: Uma Obra de Uma Vida Inteira' },
-  { link: '/ah-jesus-coracao-igual-ao-teu-analise-biblica-julliany-souza', image: '/worship_hero.png', tag: 'Devocionais', title: 'Ah Jesus, Coração Igual ao Teu' },
-  { link: '/paulo-tarso-apostolo-nacoes', image: '/paulo_de_tarso.png', tag: 'Personagens Bíblicos', title: 'Paulo de Tarso: O Apóstolo das Nações' },
-  { link: '/samuel-profeta-voz-deus-trevas-israel', image: '/samuel_profeta.png', tag: 'Personagens Bíblicos', title: 'Samuel: A Voz de Deus nas Trevas' },
-  { link: '/jo-homem-perdeu-tudo-soberania-divina', image: '/jo_patriarca.png', tag: 'Personagens Bíblicos', title: 'Jó: O Homem que Perdeu Tudo' },
-  { link: '/ana-mae-orou-chorou-gerou-profeta-samuel', image: '/ana_orando.png', tag: 'Personagens Bíblicos', title: 'Ana: A Mãe que Orou e Gerou um Profeta' },
-  { link: '/pastor-conquistou-trono-jornada-davi-belem-jerusalem', image: '/davi_pastor.png', tag: 'Personagens Bíblicos', title: 'Davi: O Pastor que Conquistou o Trono' },
-  { link: '/ester-rainha-salvou-povo-deus-age-sombras', image: '/ester_rainha.png', tag: 'Personagens Bíblicos', title: 'Ester: A Rainha que Salvou Seu Povo' },
-  { link: '/pao-para-100000-criancas-vida-oracao-george-muller', image: '/george_muller_pao.png', tag: 'Testemunhos', title: 'Pão para 100.000 Crianças: A Vida de Oração de George Müller' },
-  { link: '/testemunho-deus-e-bom-historia-fe-transformacao', image: '/deus_e_bom.png', tag: 'Testemunhos', title: 'Deus É Bom — Uma História de Fé' },
-  { link: '/testemunho-desespero-esperanca', image: '/desespero_esperanca.png', tag: 'Testemunhos', title: 'Do Desespero à Esperança' },
-  { link: '/testemunho-e-ele-cancao-nasceu-deserto-paulo-vicente', image: '/e_ele_vicente.png', tag: 'Testemunhos', title: 'É Ele — Paulo Vicente' },
-  { link: '/testemunho-thamires-musica-cura-aquieta-minhalma', image: '/testemunho_thamires.png', tag: 'Testemunhos', title: 'Thamires: Da Epilepsia à Adoração' },
-  { link: '/testemunho-julliany-souza-louvor-arma-espiritual-familia', image: '/testemunho_julliany.png', tag: 'Testemunhos', title: 'Julliany Souza: Louvor como Arma' },
-  { link: '/deus-honrou-fe-testemunho-milagres-provisao-divina', image: '/provisao.png', tag: 'Testemunhos', title: 'Deus Honrou a Fé Dela — Provisão Divina' },
-  { link: '/14-estrelas-copa-mundo-2026-seguem-jesus-jogadores-cristaos', image: '/copa_mundo_fe.png', tag: 'Notícias', title: '14 Estrelas da Copa 2026 que Seguem Jesus' },
-  { link: '/custo-real-do-discipulado-caminhar-na-fe', image: '/discipulado_custo.png', tag: 'Devocionais', title: 'O Custo Real do Discipulado' },
-  { link: '/para-onde-vai-alma-cristao-apos-morte-estado-intermediario-ressurreicao', image: '/estado_intermediario.png', tag: 'Estudos Bíblicos', title: 'Para Onde Vai a Alma do Cristão Após a Morte?' },
-  { link: '/meus-planos-e-a-graca-de-deus-arquiteto-do-lar', image: '/arquiteto_do_lar.png', tag: 'Devocionais', title: 'Meus Planos e a Graça de Deus' },
-  { link: '/antes-ler-comentario-pensar-por-si-mesmo-estudo-biblico', image: '/estudo_biblico_reflexao.png', tag: 'Devocionais', title: 'Antes de Ler o Comentário: Pensar por Si Mesmo ao Estudar a Bíblia' },
-  { link: '/multidao-oposicao-ou-discipulo-quem-segue-jesus-marcos-3', image: '/marcos3_discipulos.png', tag: 'Estudos Bíblicos', title: 'Multidão, Oposição ou Discípulo?' },
-  { link: '/papel-da-mae-segundo-a-biblia-estudo-completo', image: '/maternidade_biblica.png', tag: 'Estudos Bíblicos', title: 'O Papel da Mãe Segundo a Bíblia: Fundamentos e Exemplos' },
-  { link: '/proverbios-prosperidade-financeira-sabedoria-mordomia-contentamento', image: '/proverbios_financas.png', tag: 'Estudos Bíblicos', title: 'Provérbios e a Prosperidade Financeira' },
-  { link: '/5-tipos-pessoas-biblia-orienta-nao-ajudar-limites-saudaveis', image: '/limites_biblicos.png', tag: 'Estudos Bíblicos', title: '5 Tipos de Pessoas que a Bíblia Orienta Não Ajudar' },
-  { link: '/5-sinais-biblicos-identificar-falsos-lideres-discernimento', image: '/falsos_lideres.png', tag: 'Estudos Bíblicos', title: '5 Sinais Bíblicos para Identificar Falsos Líderes' },
-  { link: '/israel-celebrara-2-mil-anos-batismo-jesus-2030-rio-jordao', image: '/batismo_jesus_2030.jpg', tag: 'Notícias', title: 'Israel Celebrará 2 Mil Anos do Batismo de Jesus em 2030' },
-  { link: '/ipb-debate-veto-movimento-legendarios-origem-preocupacoes-teologicas', image: '/ipb_legendarios.jpg', tag: 'Notícias', title: 'IPB Debate Veto ao Movimento Legendários' },
-  { link: '/seja-seu-sim-sim-verdade-radical-jesus-integridade-juramentos', image: '/sim_sim_nao_nao.jpg', tag: 'Estudos Bíblicos', title: '\'Seja o Seu Sim, Sim\': A Verdade Radical de Jesus sobre Integridade' },
-  { link: '/5-sinais-biblicos-presenca-anjos-sua-casa-ministerio-invisivel', image: '/presenca_anjos.jpg', tag: 'Devocionais', title: '5 Sinais Bíblicos da Presença dos Anjos em Sua Casa' },
-  { link: '/voce-esta-no-limite-mas-deus-nao-te-abandonou-forca-na-fraqueza', image: '/forca_na_fraqueza.jpg', tag: 'Devocionais', title: 'Você Está no Limite, Mas Deus Não Te Abandonou' },
-  { link: '/descansando-na-justica-de-deus-nao-precisamos-fazer-vinganca', image: '/descansando_justica.jpg', tag: 'Estudos Bíblicos', title: 'Descansando na Justiça de Deus: Por Que Não Precisamos Fazer Vingança' },
-  { link: '/como-saber-vontade-de-deus-3-principios-praticos', image: '/vontade_de_deus.jpg', tag: 'Estudos Bíblicos', title: 'Como Saber a Vontade de Deus: 3 Princípios Práticos que Ninguém Te Contou' },
-  { link: '/justin-bieber-copa-elogio-ou-ilusao-diferenca-falar-deus-ser-deus', image: '/justin_bieber_copa.jpg', tag: 'Notícias', title: 'Justin Bieber na Copa: Elogio ou Ilusão? A Diferença Entre Falar de Deus e Ser de Deus' },
-  { link: '/teologia-prosperidade-vs-miseria-equilibrio-biblico', image: '/prosperidade_vs_miseria.jpg', tag: 'Notícias', title: 'Teologia da Prosperidade vs. Teologia da Miséria: Encontrando o Equilíbrio Bíblico' },
-  { link: '/salvacao-nao-se-perde-advertencias-paulo-galatas-5', image: '/salvacao_nao_se_perde.jpg', tag: 'Estudos Bíblicos', title: 'Salvação Não Se Perde: Entendendo as Advertências de Paulo em Gálatas 5' },
-  { link: '/batismo-infantil-certo-confianca-em-cristo-vs-ritual', image: '/batismo_infantil_certo.jpg', tag: 'Estudos Bíblicos', title: 'Batismo Infantil é Certo? A Confiança em Cristo vs. A Confiança no Ritual' },
-  { link: '/do-berco-cristao-ao-encontro-pessoal-jornada-lara-santana-jesus', image: '/lara_santana_jesus.jpg', tag: 'Testemunhos', title: 'Do Berço Cristão ao Encontro Pessoal: A Jornada de Lara Santana com Jesus' },
-  { link: '/quando-deus-quebra-artista-formar-pastor-testemunho-samuel-mariano', image: '/samuel_mariano_testemunho.jpg', tag: 'Testemunhos', title: 'Quando Deus Quebra o Artista para Formar um Pastor: O Testemunho de Samuel Mariano' },
-  { link: '/cuidado-com-que-deus-desaprova-7-atitudes-proverbios-6', image: '/proverbios_6_deus_desaprova.jpg', tag: 'Estudos Bíblicos', title: 'Cuidado com o que Deus Desaprova: As 7 Atitudes que o Senhor Detesta (Provérbios 6)' },
-  { link: '/o-que-nao-e-discipulado-3-erros-distorcem-chamado-jesus', image: '/discipulado_3_erros.jpg', tag: 'Estudos Bíblicos', title: 'O Que NÃO É Discipulado: 3 Erros que Distorcem o Chamado de Jesus' },
-  { link: '/amor-aos-inimigos-chamado-radical-jesus-sermao-monte-mateus-5-43-48', image: '/amor_aos_inimigos.jpg', tag: 'Estudos Bíblicos', title: 'O Amor aos Inimigos: O Chamado Radical de Jesus no Sermão do Monte (Mateus 5:43-48)' },
-  { link: '/elias-jornada-completa-profeta-de-fogo-gileade-carro-de-fogo', image: '/elias_fogo_ceu.jpg', tag: 'Personagens Bíblicos', title: 'Elias: A Jornada Completa do Profeta de Fogo — De Gileade ao Carro de Fogo' },
+  { link: '/artigo/sarca-ardente', image: '/sarca-ardente.webp', tag: 'Estudos Bíblicos', title: 'A Sarça Ardente: Quando Deus Encontrou Moisés' },
+  { link: '/artigo/sermao-do-monte', image: '/sermao-do-monte.webp', tag: 'Estudos Bíblicos', title: 'Sermão do Monte: As Bem-Aventuranças' },
+  { link: '/como-ler-biblia-inteira-2026-metodos-praticos', image: '/metodos_biblia.webp', tag: 'Vida Cristã', title: '5 Métodos Práticos para Ler a Bíblia em 2026' },
+  { link: '/doutrina-eleicao-incondicional-efesios-romanos', image: '/eleicao.webp', tag: 'Teologia', title: 'A Doutrina da Eleição Incondicional' },
+  { link: '/carta-galatas-liberdade-crista-estudo-completo', image: '/galatas.webp', tag: 'Estudos Bíblicos', title: 'A Carta aos Gálatas e a Liberdade Cristã' },
+  { link: '/cinco-solas-relevancia-hoje-reforma-protestante', image: '/cinco_solas.webp', tag: 'Teologia', title: 'As Cinco Solas e Sua Relevância Hoje' },
+  { link: '/silencio-deus-dificuldades-charles-spurgeon', image: '/silence_of_god.webp', tag: 'Teologia', title: 'O Silêncio de Deus nas Dificuldades' },
+  { link: '/trindade-um-so-deus-tres-pessoas-estudo-completo', image: '/trindade.webp', tag: 'Teologia', title: 'A Trindade: Um Só Deus em Três Pessoas' },
+  { link: '/santificacao-obra-vida-inteira-estudo', image: '/santificacao.webp', tag: 'Teologia', title: 'Santificação: Uma Obra de Uma Vida Inteira' },
+  { link: '/ah-jesus-coracao-igual-ao-teu-analise-biblica-julliany-souza', image: '/worship_hero.webp', tag: 'Devocionais', title: 'Ah Jesus, Coração Igual ao Teu' },
+  { link: '/paulo-tarso-apostolo-nacoes', image: '/paulo_de_tarso.webp', tag: 'Personagens Bíblicos', title: 'Paulo de Tarso: O Apóstolo das Nações' },
+  { link: '/samuel-profeta-voz-deus-trevas-israel', image: '/samuel_profeta.webp', tag: 'Personagens Bíblicos', title: 'Samuel: A Voz de Deus nas Trevas' },
+  { link: '/jo-homem-perdeu-tudo-soberania-divina', image: '/jo_patriarca.webp', tag: 'Personagens Bíblicos', title: 'Jó: O Homem que Perdeu Tudo' },
+  { link: '/ana-mae-orou-chorou-gerou-profeta-samuel', image: '/ana_orando.webp', tag: 'Personagens Bíblicos', title: 'Ana: A Mãe que Orou e Gerou um Profeta' },
+  { link: '/pastor-conquistou-trono-jornada-davi-belem-jerusalem', image: '/davi_pastor.webp', tag: 'Personagens Bíblicos', title: 'Davi: O Pastor que Conquistou o Trono' },
+  { link: '/ester-rainha-salvou-povo-deus-age-sombras', image: '/ester_rainha.webp', tag: 'Personagens Bíblicos', title: 'Ester: A Rainha que Salvou Seu Povo' },
+  { link: '/pao-para-100000-criancas-vida-oracao-george-muller', image: '/george_muller_pao.webp', tag: 'Testemunhos', title: 'Pão para 100.000 Crianças: A Vida de Oração de George Müller' },
+  { link: '/testemunho-deus-e-bom-historia-fe-transformacao', image: '/deus_e_bom.webp', tag: 'Testemunhos', title: 'Deus É Bom — Uma História de Fé' },
+  { link: '/testemunho-desespero-esperanca', image: '/desespero_esperanca.webp', tag: 'Testemunhos', title: 'Do Desespero à Esperança' },
+  { link: '/testemunho-e-ele-cancao-nasceu-deserto-paulo-vicente', image: '/e_ele_vicente.webp', tag: 'Testemunhos', title: 'É Ele — Paulo Vicente' },
+  { link: '/testemunho-thamires-musica-cura-aquieta-minhalma', image: '/testemunho_thamires.webp', tag: 'Testemunhos', title: 'Thamires: Da Epilepsia à Adoração' },
+  { link: '/testemunho-julliany-souza-louvor-arma-espiritual-familia', image: '/testemunho_julliany.webp', tag: 'Testemunhos', title: 'Julliany Souza: Louvor como Arma' },
+  { link: '/deus-honrou-fe-testemunho-milagres-provisao-divina', image: '/provisao.webp', tag: 'Testemunhos', title: 'Deus Honrou a Fé Dela — Provisão Divina' },
+  { link: '/14-estrelas-copa-mundo-2026-seguem-jesus-jogadores-cristaos', image: '/copa_mundo_fe.webp', tag: 'Notícias', title: '14 Estrelas da Copa 2026 que Seguem Jesus' },
+  { link: '/custo-real-do-discipulado-caminhar-na-fe', image: '/discipulado_custo.webp', tag: 'Devocionais', title: 'O Custo Real do Discipulado' },
+  { link: '/para-onde-vai-alma-cristao-apos-morte-estado-intermediario-ressurreicao', image: '/estado_intermediario.webp', tag: 'Estudos Bíblicos', title: 'Para Onde Vai a Alma do Cristão Após a Morte?' },
+  { link: '/meus-planos-e-a-graca-de-deus-arquiteto-do-lar', image: '/arquiteto_do_lar.webp', tag: 'Devocionais', title: 'Meus Planos e a Graça de Deus' },
+  { link: '/antes-ler-comentario-pensar-por-si-mesmo-estudo-biblico', image: '/estudo_biblico_reflexao.webp', tag: 'Devocionais', title: 'Antes de Ler o Comentário: Pensar por Si Mesmo ao Estudar a Bíblia' },
+  { link: '/multidao-oposicao-ou-discipulo-quem-segue-jesus-marcos-3', image: '/marcos3_discipulos.webp', tag: 'Estudos Bíblicos', title: 'Multidão, Oposição ou Discípulo?' },
+  { link: '/papel-da-mae-segundo-a-biblia-estudo-completo', image: '/maternidade_biblica.webp', tag: 'Estudos Bíblicos', title: 'O Papel da Mãe Segundo a Bíblia: Fundamentos e Exemplos' },
+  { link: '/proverbios-prosperidade-financeira-sabedoria-mordomia-contentamento', image: '/proverbios_financas.webp', tag: 'Estudos Bíblicos', title: 'Provérbios e a Prosperidade Financeira' },
+  { link: '/5-tipos-pessoas-biblia-orienta-nao-ajudar-limites-saudaveis', image: '/limites_biblicos.webp', tag: 'Estudos Bíblicos', title: '5 Tipos de Pessoas que a Bíblia Orienta Não Ajudar' },
+  { link: '/5-sinais-biblicos-identificar-falsos-lideres-discernimento', image: '/falsos_lideres.webp', tag: 'Estudos Bíblicos', title: '5 Sinais Bíblicos para Identificar Falsos Líderes' },
+  { link: '/israel-celebrara-2-mil-anos-batismo-jesus-2030-rio-jordao', image: '/batismo_jesus_2030.webp', tag: 'Notícias', title: 'Israel Celebrará 2 Mil Anos do Batismo de Jesus em 2030' },
+  { link: '/ipb-debate-veto-movimento-legendarios-origem-preocupacoes-teologicas', image: '/ipb_legendarios.webp', tag: 'Notícias', title: 'IPB Debate Veto ao Movimento Legendários' },
+  { link: '/seja-seu-sim-sim-verdade-radical-jesus-integridade-juramentos', image: '/sim_sim_nao_nao.webp', tag: 'Estudos Bíblicos', title: '\'Seja o Seu Sim, Sim\': A Verdade Radical de Jesus sobre Integridade' },
+  { link: '/5-sinais-biblicos-presenca-anjos-sua-casa-ministerio-invisivel', image: '/presenca_anjos.webp', tag: 'Devocionais', title: '5 Sinais Bíblicos da Presença dos Anjos em Sua Casa' },
+  { link: '/voce-esta-no-limite-mas-deus-nao-te-abandonou-forca-na-fraqueza', image: '/forca_na_fraqueza.webp', tag: 'Devocionais', title: 'Você Está no Limite, Mas Deus Não Te Abandonou' },
+  { link: '/descansando-na-justica-de-deus-nao-precisamos-fazer-vinganca', image: '/descansando_justica.webp', tag: 'Estudos Bíblicos', title: 'Descansando na Justiça de Deus: Por Que Não Precisamos Fazer Vingança' },
+  { link: '/como-saber-vontade-de-deus-3-principios-praticos', image: '/vontade_de_deus.webp', tag: 'Estudos Bíblicos', title: 'Como Saber a Vontade de Deus: 3 Princípios Práticos que Ninguém Te Contou' },
+  { link: '/justin-bieber-copa-elogio-ou-ilusao-diferenca-falar-deus-ser-deus', image: '/justin_bieber_copa.webp', tag: 'Notícias', title: 'Justin Bieber na Copa: Elogio ou Ilusão? A Diferença Entre Falar de Deus e Ser de Deus' },
+  { link: '/teologia-prosperidade-vs-miseria-equilibrio-biblico', image: '/prosperidade_vs_miseria.webp', tag: 'Notícias', title: 'Teologia da Prosperidade vs. Teologia da Miséria: Encontrando o Equilíbrio Bíblico' },
+  { link: '/salvacao-nao-se-perde-advertencias-paulo-galatas-5', image: '/salvacao_nao_se_perde.webp', tag: 'Estudos Bíblicos', title: 'Salvação Não Se Perde: Entendendo as Advertências de Paulo em Gálatas 5' },
+  { link: '/batismo-infantil-certo-confianca-em-cristo-vs-ritual', image: '/batismo_infantil_certo.webp', tag: 'Estudos Bíblicos', title: 'Batismo Infantil é Certo? A Confiança em Cristo vs. A Confiança no Ritual' },
+  { link: '/do-berco-cristao-ao-encontro-pessoal-jornada-lara-santana-jesus', image: '/lara_santana_jesus.webp', tag: 'Testemunhos', title: 'Do Berço Cristão ao Encontro Pessoal: A Jornada de Lara Santana com Jesus' },
+  { link: '/quando-deus-quebra-artista-formar-pastor-testemunho-samuel-mariano', image: '/samuel_mariano_testemunho.webp', tag: 'Testemunhos', title: 'Quando Deus Quebra o Artista para Formar um Pastor: O Testemunho de Samuel Mariano' },
+  { link: '/cuidado-com-que-deus-desaprova-7-atitudes-proverbios-6', image: '/proverbios_6_deus_desaprova.webp', tag: 'Estudos Bíblicos', title: 'Cuidado com o que Deus Desaprova: As 7 Atitudes que o Senhor Detesta (Provérbios 6)' },
+  { link: '/o-que-nao-e-discipulado-3-erros-distorcem-chamado-jesus', image: '/discipulado_3_erros.webp', tag: 'Estudos Bíblicos', title: 'O Que NÃO É Discipulado: 3 Erros que Distorcem o Chamado de Jesus' },
+  { link: '/amor-aos-inimigos-chamado-radical-jesus-sermao-monte-mateus-5-43-48', image: '/amor_aos_inimigos.webp', tag: 'Estudos Bíblicos', title: 'O Amor aos Inimigos: O Chamado Radical de Jesus no Sermão do Monte (Mateus 5:43-48)' },
+  { link: '/elias-jornada-completa-profeta-de-fogo-gileade-carro-de-fogo', image: '/elias_fogo_ceu.webp', tag: 'Personagens Bíblicos', title: 'Elias: A Jornada Completa do Profeta de Fogo — De Gileade ao Carro de Fogo' },
 ];
 
 function RelatedArticles({ currentLink, category }) {
   const related = allArticlesData
     .filter(a => a.link !== currentLink)
-    .filter(a => a.tag === category || Math.random() > 0.5)
+    .filter(a => a.link && a.image)
+    .sort((a, b) => (b.tag === category) - (a.tag === category))
     .slice(0, 3);
     
   return (
@@ -254,15 +247,8 @@ function NotFoundPage() {
 
 const heroArticles = [
   {
-    category: 'Estudos Bíblicos',
-    title: 'O Tabernáculo: O Evangelho Inteiro Desenhado em Pano, Ouro e Sangue',
-    excerpt: 'Por que Deus gastou 13 capítulos com uma tenda no deserto — e como cada peça dela aponta para Jesus.',
-    image: '/tabernaculo_deserto.jpg',
-    path: '/tabernaculo-evangelho-inteiro-desenhado-pano-ouro-sangue'
-  },
-  {
     link: "/quando-deus-quebra-artista-formar-pastor-testemunho-samuel-mariano",
-    image: "/samuel_mariano_testemunho.jpg",
+    image: "/samuel_mariano_testemunho.webp",
     tag: "Testemunhos",
     title: "Quando Deus Quebra o Artista para Formar um Pastor: O Testemunho de Samuel Mariano",
     excerpt: "Como acusações falsas, dor e quebrantamento se tornaram o caminho para maturidade espiritual e um ministério mais profundo. Uma lição sobre justiça divina e restauração.",
@@ -270,7 +256,7 @@ const heroArticles = [
   },
   {
     link: "/o-que-nao-e-discipulado-3-erros-distorcem-chamado-jesus",
-    image: "/discipulado_3_erros.jpg",
+    image: "/discipulado_3_erros.webp",
     tag: "Estudos Bíblicos",
     title: "O Que NÃO É Discipulado: 3 Erros que Distorcem o Chamado de Jesus",
     excerpt: "Como o conceito bíblico de fazer discípulos foi sequestrado por métodos humanos — e como voltar ao modelo de Cristo.",
@@ -278,7 +264,7 @@ const heroArticles = [
   },
   {
     link: "/amor-aos-inimigos-chamado-radical-jesus-sermao-monte-mateus-5-43-48",
-    image: "/amor_aos_inimigos.jpg",
+    image: "/amor_aos_inimigos.webp",
     tag: "Estudos Bíblicos",
     title: "O Amor aos Inimigos: O Chamado Radical de Jesus no Sermão do Monte (Mateus 5:43-48)",
     excerpt: "Como amar quem nos persegue não é emoção, mas ação — e por que esse mandamento revela a maturidade espiritual e o testemunho do Reino.",
@@ -286,7 +272,7 @@ const heroArticles = [
   },
   {
     link: "/elias-jornada-completa-profeta-de-fogo-gileade-carro-de-fogo",
-    image: "/elias_fogo_ceu.jpg",
+    image: "/elias_fogo_ceu.webp",
     tag: "Personagens Bíblicos",
     title: "Elias: A Jornada Completa do Profeta de Fogo — De Gileade ao Carro de Fogo",
     excerpt: "Origem, milagres, depressão, legado e as promessas que apontam para Cristo: a história do homem que não viu a morte.",
@@ -294,7 +280,7 @@ const heroArticles = [
   },
   {
     link: "/multidao-oposicao-ou-discipulo-quem-segue-jesus-marcos-3",
-    image: "/marcos3_discipulos.png",
+    image: "/marcos3_discipulos.webp",
     tag: "Estudos Bíblicos",
     title: "Multidão, Oposição ou Discípulo? Quem Realmente Segue a Jesus em Marcos 3",
     excerpt: "Uma análise exegética sobre o chamado, a identidade de Cristo e o custo do verdadeiro discipulado. Descubra a diferença entre buscar benefícios e responder ao chamado de Cristo.",
@@ -302,7 +288,7 @@ const heroArticles = [
   },
   {
     link: "/ah-jesus-coracao-igual-ao-teu-analise-biblica-julliany-souza",
-    image: "/worship_hero.png",
+    image: "/worship_hero.webp",
     tag: "Devocional / Louvor e Adoração",
     title: "\"Ah Jesus, Coração Igual ao Teu\": O Clamor de Julliany Souza e o Que a Bíblia Diz Sobre um Coração Transformado",
     excerpt: "Descubra o que a Bíblia diz sobre cada verso do hit 'Ah Jesus, Coração Igual ao Teu' de Julliany Souza. Uma análise teológica profunda dos 7 temas principais da música com versículos, reflexões práticas e aplicação para sua vida cristã.",
@@ -310,7 +296,7 @@ const heroArticles = [
   },
   {
     link: "/silencio-deus-dificuldades-charles-spurgeon",
-    image: "/silence_of_god.png",
+    image: "/silence_of_god.webp",
     tag: "Teologia / Charles Spurgeon",
     title: "O Silêncio de Deus nas Dificuldades: Uma Perspectiva de Charles Spurgeon",
     excerpt: "Entenda por que Deus, muitas vezes, parece em silêncio durante as provações e como o 'Príncipe dos Pregadores' nos ensina a confiar na providência soberana mesmo na escuridão.",
@@ -318,7 +304,7 @@ const heroArticles = [
   },
   {
     link: "/como-ler-biblia-inteira-2026-metodos-praticos",
-    image: "/metodos_biblia.png",
+    image: "/metodos_biblia.webp",
     tag: "Vida Cristã / Guia Prático",
     title: "Como Ler a Bíblia Inteira em 2026: Métodos Práticos que Funcionam",
     excerpt: "Dicas, planos de leitura e orientações práticas para superar a procrastinação e finalmente ler todas as Escrituras em um ano. Um guia completo para nutrir sua alma diariamente.",
@@ -326,358 +312,10 @@ const heroArticles = [
   }
 ];
 
-function DiscipuladoPoll() {
-  const [selected, setSelected] = useState(null);
-  const [votes, setVotes] = useState({ growth: 42, control: 38, classroom: 20 });
-  const [voted, setVoted] = useState(false);
-
-  const handleVote = (type) => {
-    if (voted) return;
-    setSelected(type);
-    setVotes(prev => ({ ...prev, [type]: prev[type] + 1 }));
-    setVoted(true);
-  };
-
-  const total = votes.growth + votes.control + votes.classroom;
-  const getPercent = (count) => Math.round((count / total) * 100);
-
+// Artigos recentes (antes estavam presos por engano dentro do componente de comentários)
+function RecentArticles({ isDeusDetermina, isInconstancia, isSofrimento, isPosicionamento }) {
   return (
-    <div style={{background: '#1a1210', color: '#fff', padding: '1.75rem', borderRadius: '12px', margin: '2.5rem 0', boxShadow: '0 4px 12px rgba(0,0,0,0.15)'}}>
-      <h3 style={{marginTop: 0, marginBottom: '0.5rem', color: '#fff', fontSize: '1.25rem'}}>📊 Enquete Interativa: Qual erro sobre discipulado você mais viu na prática?</h3>
-      <p style={{color: '#d1d5db', fontSize: '0.95rem', marginBottom: '1.5rem'}}>Sua resposta é anônima e ajuda a entendermos a realidade das congregações no Brasil:</p>
-      
-      <div style={{display: 'flex', flexDirection: 'column', gap: '12px'}}>
-        <button
-          onClick={() => handleVote('growth')}
-          style={{
-            background: selected === 'growth' ? '#b91c1c' : '#2d1810',
-            border: selected === 'growth' ? '2px solid #ef4444' : '1px solid #444',
-            padding: '12px 16px',
-            borderRadius: '8px',
-            color: '#fff',
-            textAlign: 'left',
-            cursor: voted ? 'default' : 'pointer',
-            transition: 'all 0.2s'
-          }}
-        >
-          <div style={{display: 'flex', justifyContent: 'space-between', marginBottom: voted ? '6px' : '0'}}>
-            <span>1. Método de crescimento numérico da igreja</span>
-            {voted && <strong>{getPercent(votes.growth)}%</strong>}
-          </div>
-          {voted && (
-            <div style={{background: '#444', height: '6px', borderRadius: '4px', overflow: 'hidden', marginTop: '6px'}}>
-              <div style={{background: '#ef4444', height: '100%', width: `${getPercent(votes.growth)}%`, transition: 'width 0.5s'}} />
-            </div>
-          )}
-        </button>
-
-        <button
-          onClick={() => handleVote('control')}
-          style={{
-            background: selected === 'control' ? '#b91c1c' : '#2d1810',
-            border: selected === 'control' ? '2px solid #ef4444' : '1px solid #444',
-            padding: '12px 16px',
-            borderRadius: '8px',
-            color: '#fff',
-            textAlign: 'left',
-            cursor: voted ? 'default' : 'pointer',
-            transition: 'all 0.2s'
-          }}
-        >
-          <div style={{display: 'flex', justifyContent: 'space-between', marginBottom: voted ? '6px' : '0'}}>
-            <span>2. Domínio e controle sobre a vida das pessoas</span>
-            {voted && <strong>{getPercent(votes.control)}%</strong>}
-          </div>
-          {voted && (
-            <div style={{background: '#444', height: '6px', borderRadius: '4px', overflow: 'hidden', marginTop: '6px'}}>
-              <div style={{background: '#ef4444', height: '100%', width: `${getPercent(votes.control)}%`, transition: 'width 0.5s'}} />
-            </div>
-          )}
-        </button>
-
-        <button
-          onClick={() => handleVote('classroom')}
-          style={{
-            background: selected === 'classroom' ? '#b91c1c' : '#2d1810',
-            border: selected === 'classroom' ? '2px solid #ef4444' : '1px solid #444',
-            padding: '12px 16px',
-            borderRadius: '8px',
-            color: '#fff',
-            textAlign: 'left',
-            cursor: voted ? 'default' : 'pointer',
-            transition: 'all 0.2s'
-          }}
-        >
-          <div style={{display: 'flex', justifyContent: 'space-between', marginBottom: voted ? '6px' : '0'}}>
-            <span>3. Sala de aula (informação teórica sem formação de caráter)</span>
-            {voted && <strong>{getPercent(votes.classroom)}%</strong>}
-          </div>
-          {voted && (
-            <div style={{background: '#444', height: '6px', borderRadius: '4px', overflow: 'hidden', marginTop: '6px'}}>
-              <div style={{background: '#ef4444', height: '100%', width: `${getPercent(votes.classroom)}%`, transition: 'width 0.5s'}} />
-            </div>
-          )}
-        </button>
-      </div>
-
-      {voted && (
-        <p style={{color: '#10b981', fontSize: '0.9rem', marginTop: '1rem', textAlign: 'center', marginBottom: 0}}>
-          ✅ Obrigado por votar! ({total} votos computados)
-        </p>
-      )}
-    </div>
-  );
-}
-
-function DiscipuladoComments() {
-  const [comments, setComments] = useState([
-    {
-      name: "Pr. Marcos Oliveira",
-      date: "26 Jun, 2026",
-      text: "Esse estudo veio em ótima hora. Muitas vezes fomos ensinados na faculdade teológica a focar em números e métricas, esquecendo a vida na intimidade com Cristo. Obrigado pelo alerta do Fábio Coelho!"
-    },
-    {
-      name: "Ana Clara Silva",
-      date: "27 Jun, 2026",
-      text: "Já sofri muito com o 'erro 2' (controle sobre a vida). Ler que nenhum pastor é dono das ovelhas me trouxe uma cura e um alívio enorme."
-    }
-  ]);
-  const [name, setName] = useState('');
-  const [text, setText] = useState('');
-  const [submitted, setSubmitted] = useState(false);
-
-  const handleCommentSubmit = (e) => {
-    e.preventDefault();
-    if (name && text) {
-      setComments([...comments, { name, date: "Hoje", text }]);
-      setName('');
-      setText('');
-      setSubmitted(true);
-    }
-  };
-
-  return (
-    <div style={{background: '#f8f9fa', padding: '2rem', borderRadius: '12px', margin: '3rem 0', border: '1px solid #e9ecef'}}>
-      <h3 style={{marginTop: 0, marginBottom: '0.5rem', color: '#1a1a1a'}}>💬 Como você tem praticado discipulado?</h3>
-      <p style={{color: '#555', marginBottom: '1.5rem'}}>Compartilhe sua experiência, aprendizado ou testemunho (se sentir à vontade). Sua reflexão pode edificar outros irmãos:</p>
-      
-      {submitted ? (
-        <div style={{background: '#d1fae5', color: '#065f46', padding: '1rem', borderRadius: '8px', marginBottom: '1.5rem', fontWeight: '500'}}>
-          ✅ Obrigado! Seu comentário foi enviado e publicado na discussão abaixo.
-        </div>
-      ) : (
-        <form onSubmit={handleCommentSubmit} style={{marginBottom: '2rem', display: 'flex', flexDirection: 'column', gap: '12px'}}>
-          <input 
-            type="text" 
-            placeholder="Seu nome ou iniciais" 
-            value={name}
-            onChange={(e) => setName(e.target.value)}
-            required
-            style={{padding: '12px', borderRadius: '8px', border: '1px solid #ccc', fontSize: '0.95rem'}}
-          />
-          <textarea 
-            placeholder="Compartilhe como tem sido sua experiência com discipulado bíblico..." 
-            rows={4}
-            value={text}
-            onChange={(e) => setText(e.target.value)}
-            required
-            style={{padding: '12px', borderRadius: '8px', border: '1px solid #ccc', fontSize: '0.95rem', fontFamily: 'inherit'}}
-          />
-          <button type="submit" style={{background: '#b91c1c', color: '#fff', border: 'none', padding: '12px 24px', borderRadius: '8px', fontWeight: 'bold', cursor: 'pointer', alignSelf: 'flex-start'}}>
-            Enviar Reflexão
-          </button>
-        </form>
-      )}
-
-      <div style={{display: 'flex', flexDirection: 'column', gap: '16px'}}>
-        {comments.map((c, i) => (
-          <div key={i} style={{background: '#fff', padding: '1.25rem', borderRadius: '8px', borderLeft: '4px solid #b91c1c', boxShadow: '0 2px 4px rgba(0,0,0,0.05)'}}>
-            <div style={{display: 'flex', justifyContent: 'space-between', marginBottom: '8px'}}>
-              <strong style={{color: '#1a1a1a'}}>{c.name}</strong>
-              <span style={{fontSize: '0.85rem', color: '#888'}}>{c.date}</span>
-            </div>
-            <p style={{margin: 0, color: '#444', lineHeight: '1.6'}}>{c.text}</p>
-          </div>
-        ))}
-      </div>
-    </div>
-  );
-}
-
-function AmorInimigosPoll() {
-  const [selected, setSelected] = useState(null);
-  const [votes, setVotes] = useState({ pray: 45, forgive: 32, control: 23 });
-  const [voted, setVoted] = useState(false);
-
-  const handleVote = (type) => {
-    if (voted) return;
-    setSelected(type);
-    setVotes(prev => ({ ...prev, [type]: prev[type] + 1 }));
-    setVoted(true);
-  };
-
-  const total = votes.pray + votes.forgive + votes.control;
-  const getPercent = (count) => Math.round((count / total) * 100);
-
-  return (
-    <div style={{background: '#1a1210', color: '#fff', padding: '1.75rem', borderRadius: '12px', margin: '2.5rem 0', boxShadow: '0 4px 12px rgba(0,0,0,0.15)'}}>
-      <h3 style={{marginTop: 0, marginBottom: '0.5rem', color: '#fff', fontSize: '1.25rem'}}>📊 Enquete Interativa: Qual é o maior desafio para amar quem nos feriu?</h3>
-      <p style={{color: '#d1d5db', fontSize: '0.95rem', marginBottom: '1.5rem'}}>Sua resposta é anônima e ajuda a refletirmos sobre a aplicação prática do Sermão do Monte:</p>
-      
-      <div style={{display: 'flex', flexDirection: 'column', gap: '12px'}}>
-        <button
-          onClick={() => handleVote('pray')}
-          style={{
-            background: selected === 'pray' ? '#b91c1c' : '#2d1810',
-            border: selected === 'pray' ? '2px solid #ef4444' : '1px solid #444',
-            padding: '12px 16px',
-            borderRadius: '8px',
-            color: '#fff',
-            textAlign: 'left',
-            cursor: voted ? 'default' : 'pointer',
-            transition: 'all 0.2s'
-          }}
-        >
-          <div style={{display: 'flex', justifyContent: 'space-between', marginBottom: voted ? '6px' : '0'}}>
-            <span>1. Orar sinceramente pela bênção e transformação de quem nos machucou</span>
-            {voted && <strong>{getPercent(votes.pray)}%</strong>}
-          </div>
-          {voted && (
-            <div style={{background: '#444', height: '6px', borderRadius: '4px', overflow: 'hidden', marginTop: '6px'}}>
-              <div style={{background: '#ef4444', height: '100%', width: `${getPercent(votes.pray)}%`, transition: 'width 0.5s'}} />
-            </div>
-          )}
-        </button>
-
-        <button
-          onClick={() => handleVote('forgive')}
-          style={{
-            background: selected === 'forgive' ? '#b91c1c' : '#2d1810',
-            border: selected === 'forgive' ? '2px solid #ef4444' : '1px solid #444',
-            padding: '12px 16px',
-            borderRadius: '8px',
-            color: '#fff',
-            textAlign: 'left',
-            cursor: voted ? 'default' : 'pointer',
-            transition: 'all 0.2s'
-          }}
-        >
-          <div style={{display: 'flex', justifyContent: 'space-between', marginBottom: voted ? '6px' : '0'}}>
-            <span>2. Perdoar e liberar o coração sem exigir um pedido de desculpas</span>
-            {voted && <strong>{getPercent(votes.forgive)}%</strong>}
-          </div>
-          {voted && (
-            <div style={{background: '#444', height: '6px', borderRadius: '4px', overflow: 'hidden', marginTop: '6px'}}>
-              <div style={{background: '#ef4444', height: '100%', width: `${getPercent(votes.forgive)}%`, transition: 'width 0.5s'}} />
-            </div>
-          )}
-        </button>
-
-        <button
-          onClick={() => handleVote('control')}
-          style={{
-            background: selected === 'control' ? '#b91c1c' : '#2d1810',
-            border: selected === 'control' ? '2px solid #ef4444' : '1px solid #444',
-            padding: '12px 16px',
-            borderRadius: '8px',
-            color: '#fff',
-            textAlign: 'left',
-            cursor: voted ? 'default' : 'pointer',
-            transition: 'all 0.2s'
-          }}
-        >
-          <div style={{display: 'flex', justifyContent: 'space-between', marginBottom: voted ? '6px' : '0'}}>
-            <span>3. Controlar o desejo natural de retribuir com a mesma moeda</span>
-            {voted && <strong>{getPercent(votes.control)}%</strong>}
-          </div>
-          {voted && (
-            <div style={{background: '#444', height: '6px', borderRadius: '4px', overflow: 'hidden', marginTop: '6px'}}>
-              <div style={{background: '#ef4444', height: '100%', width: `${getPercent(votes.control)}%`, transition: 'width 0.5s'}} />
-            </div>
-          )}
-        </button>
-      </div>
-
-      {voted && (
-        <p style={{color: '#10b981', fontSize: '0.9rem', marginTop: '1rem', textAlign: 'center', marginBottom: 0}}>
-          ✅ Obrigado por votar! ({total} votos computados)
-        </p>
-      )}
-    </div>
-  );
-}
-
-function AmorInimigosComments() {
-  const [comments, setComments] = useState([
-    {
-      name: "Pr. Ricardo Mendes",
-      date: "26 Jun, 2026",
-      text: "Esse mandamento do Sermão do Monte sempre nos quebra. Muitas vezes tentamos justificar nossa mágoa com 'justiça', mas Jesus nos lembra que o amor cristão é uma escolha diária do Reino, não emoção. Excelente estudo!"
-    },
-    {
-      name: "Helena Souza",
-      date: "27 Jun, 2026",
-      text: "A citação do C.S. Lewis tirou um peso enorme das minhas costas. Eu achava que perdoar era fingir que a pessoa era maravilhosa. Saber que é desejar o bem sem ter que sentir afeto mudou minha vida de oração!"
-    }
-  ]);
-  const [name, setName] = useState('');
-  const [text, setText] = useState('');
-  const [submitted, setSubmitted] = useState(false);
-
-  const handleCommentSubmit = (e) => {
-    e.preventDefault();
-    if (name && text) {
-      setComments([...comments, { name, date: "Hoje", text }]);
-      setName('');
-      setText('');
-      setSubmitted(true);
-    }
-  };
-
-  return (
-    <div style={{background: '#f8f9fa', padding: '2rem', borderRadius: '12px', margin: '3rem 0', border: '1px solid #e9ecef'}}>
-      <h3 style={{marginTop: 0, marginBottom: '0.5rem', color: '#1a1a1a'}}>💬 Você tem alguém por quem precisa orar hoje?</h3>
-      <p style={{color: '#555', marginBottom: '1.5rem'}}>Compartilhe como você tem lidado com o desafio de perdoar e amar inimigos, ou deixe seu testemunho (se sentir à vontade):</p>
-      
-      {submitted ? (
-        <div style={{background: '#d1fae5', color: '#065f46', padding: '1rem', borderRadius: '8px', marginBottom: '1.5rem', fontWeight: '500'}}>
-          ✅ Obrigado! Seu comentário foi enviado e publicado na discussão abaixo.
-        </div>
-      ) : (
-        <form onSubmit={handleCommentSubmit} style={{marginBottom: '2rem', display: 'flex', flexDirection: 'column', gap: '12px'}}>
-          <input 
-            type="text" 
-            placeholder="Seu nome ou iniciais" 
-            value={name}
-            onChange={(e) => setName(e.target.value)}
-            required
-            style={{padding: '12px', borderRadius: '8px', border: '1px solid #ccc', fontSize: '0.95rem'}}
-          />
-          <textarea 
-            placeholder="Compartilhe sua reflexão, aprendizado ou testemunho sobre o amor aos inimigos..." 
-            rows={4}
-            value={text}
-            onChange={(e) => setText(e.target.value)}
-            required
-            style={{padding: '12px', borderRadius: '8px', border: '1px solid #ccc', fontSize: '0.95rem', fontFamily: 'inherit'}}
-          />
-          <button type="submit" style={{background: '#b91c1c', color: '#fff', border: 'none', padding: '12px 24px', borderRadius: '8px', fontWeight: 'bold', cursor: 'pointer', alignSelf: 'flex-start'}}>
-            Enviar Reflexão
-          </button>
-        </form>
-      )}
-
-      <div style={{display: 'flex', flexDirection: 'column', gap: '16px'}}>
-        {comments.map((c, i) => (
-          <div key={i} style={{background: '#fff', padding: '1.25rem', borderRadius: '8px', borderLeft: '4px solid #b91c1c', boxShadow: '0 2px 4px rgba(0,0,0,0.05)'}}>
-            <div style={{display: 'flex', justifyContent: 'space-between', marginBottom: '8px'}}>
-              <strong style={{color: '#1a1a1a'}}>{c.name}</strong>
-              <span style={{fontSize: '0.85rem', color: '#888'}}>{c.date}</span>
-            </div>
-            <p style={{margin: 0, color: '#444', lineHeight: '1.6'}}>{c.text}</p>
-          </div>
-        ))}
-      </div>
+    <>
       {isDeusDetermina && (
         <article style={{background: '#fff', minHeight: '100vh', padding: '4rem 2rem', fontFamily: "'Georgia', serif"}}>
           <header style={{textAlign: 'center', marginBottom: '3rem'}}>
@@ -954,17 +592,9 @@ function AmorInimigosComments() {
             </ul>
             <p style={{color: '#666', fontStyle: 'italic'}}>👇 Deixe sua opinião nos comentários. Queremos aprender juntos, com respeito e amor pela Palavra. Não estamos aqui para vencer debates — estamos aqui para buscar o que a Bíblia ensina.</p>
             <p style={{fontWeight: 'bold', color: '#1a1210'}}>&quot;Examinai tudo. Retende o bem.&quot; — 1 Tessalonicenses 5:21</p>
-            
-            <div style={{marginTop: '2rem'}}>
-              <Poll 
-                question="Deus move o coração ou o homem age sozinho?" 
-                options={["A graça de Deus move primeiro", "O homem decide sozinho", "Deus previu a escolha do homem", "Ambos atuam em paralelo (sinergismo)"]}
-              />
-            </div>
           </section>
 
           <ShareBar title="Deus Determina ou o Homem Toma Atitude? O Que a Bíblia Ensina Sobre os Heróis da Fé" url="/deus-determina-ou-homem-toma-atitude-herois-da-fe" />
-          <Comments articleId="deus-determina-ou-homem-toma-atitude-herois-da-fe" />
           <RelatedArticles currentLink="/deus-determina-ou-homem-toma-atitude-herois-da-fe" category="Estudos Bíblicos" />
         </article>
       )}
@@ -1203,17 +833,9 @@ function AmorInimigosComments() {
             </ul>
             <p style={{color: '#666', fontStyle: 'italic'}}>👇 Deixe sua opinião nos comentários. Queremos aprender juntos e nos encorajar mutuamente a viver com constância.</p>
             <p style={{fontWeight: 'bold', color: '#1a1210'}}>&quot;Portanto, meus amados irmãos, sede firmes e constantes, sempre abundantes na obra do Senhor.&quot; — 1 Coríntios 15:58</p>
-            
-            <div style={{marginTop: '2rem'}}>
-              <Poll 
-                question="Qual área você mais luta com inconstância?" 
-                options={["Frequência nos cultos", "Vida de oração", "Leitura da Palavra", "Santificação diária", "Serviço no Reino"]}
-              />
-            </div>
           </section>
 
           <ShareBar title="Você Não Esfriou... Você Está Dividido! O Diagnóstico Bíblico da Inconstância Espiritual" url="/voce-nao-esfriou-voce-esta-dividido-inconstancia-espiritual" />
-          <Comments articleId="voce-nao-esfriou-voce-esta-dividido-inconstancia-espiritual" />
           <RelatedArticles currentLink="/voce-nao-esfriou-voce-esta-dividido-inconstancia-espiritual" category="Devocionais" />
         </article>
       )}
@@ -1475,17 +1097,9 @@ function AmorInimigosComments() {
             </ul>
             <p style={{color: '#666', fontStyle: 'italic'}}>👇 Deixe sua opinião nos comentários. Queremos aprender juntos, com respeito e amor pela Palavra.</p>
             <p style={{fontWeight: 'bold', color: '#1a1210'}}>&quot;Bendirei o SENHOR em todo o tempo.&quot; — Salmo 34:1</p>
-            
-            <div style={{marginTop: '2rem'}}>
-              <Poll 
-                question="Como você reage no sofrimento:" 
-                options={["Com louvor", "Com murmuração", "Com dúvidas", "Buscando a Palavra"]}
-              />
-            </div>
           </section>
 
           <ShareBar title="Por Que Alguns Sofrem Mais? O Que Paulo Ensina Sobre Louvor no Vale e o Deus de Toda Consolação" url="/por-que-alguns-sofrem-mais-louvor-no-vale-deus-consolacao" />
-          <Comments articleId="por-que-alguns-sofrem-mais-louvor-no-vale-deus-consolacao" />
           <RelatedArticles currentLink="/por-que-alguns-sofrem-mais-louvor-no-vale-deus-consolacao" category="Estudos Bíblicos" />
         </article>
       )}
@@ -1743,25 +1357,17 @@ function AmorInimigosComments() {
             </ol>
             <p style={{color: '#666', fontStyle: 'italic'}}>👇 Deixe sua resposta nos comentários. Que esse seja o dia em que você diz:</p>
             <p style={{fontWeight: 'bold', color: '#1a1210'}}>&quot;Eis-me aqui, Senhor. Envia-me a mim.&quot;</p>
-            
-            <div style={{marginTop: '2rem'}}>
-              <Poll 
-                question="Você está posicionado ou enterrando seus talentos?" 
-                options={["Estou 100% posicionado", "Preciso despertar o dom em mim", "Estou enterrando meus talentos", "Começando a agir hoje"]}
-              />
-            </div>
           </section>
 
           <ShareBar title="Se Posicione e Deixe com Deus: O Chamado Urgente Para a Última Hora" url="/se-posicione-deixe-com-deus-chamado-urgente" />
-          <Comments articleId="se-posicione-deixe-com-deus-chamado-urgente" />
           <RelatedArticles currentLink="/se-posicione-deixe-com-deus-chamado-urgente" category="Devocionais" />
         </article>
       )}
-    </div>
+    </>
   );
 }
 
-function App() {
+function App({ ssrPath } = {}) {
   const [currentHeroIndex, setCurrentHeroIndex] = useState(0);
 
   useEffect(() => {
@@ -1770,90 +1376,9 @@ function App() {
     }, 7000);
     return () => clearInterval(interval);
   }, []);
-  const path = window.location.pathname;
+  const rawPath = ssrPath ?? (typeof window !== 'undefined' ? window.location.pathname : '/');
+  const path = rawPath.length > 1 ? rawPath.replace(/\/+$/, '') : rawPath;
 
-  useEffect(() => {
-    // Dynamic SEO Implementation
-    const updateSEO = () => {
-      const siteName = 'Soli Deo Gloria';
-      const defaultDesc = 'Portal cristão Soli Deo Gloria — Estudos bíblicos profundos, teologia reformada, devocionais edificantes, personagens bíblicos e testemunhos de fé.';
-      
-      let title = siteName;
-      let description = defaultDesc;
-      // Remover trailing slashes ou query params para o canonical, mantendo a URL base oficial
-      const cleanPath = path.split('?')[0]; 
-      let canonicalUrl = `https://sdgloria.com.br${cleanPath}`;
-
-      // Search if it's an article from the database
-      const article = allArticlesData.find(a => a.link === cleanPath);
-      
-      if (article) {
-        title = `${article.title} | ${siteName}`;
-        description = article.excerpt || defaultDesc;
-      } else {
-        // Static routes
-        if (cleanPath === '/') title = `${siteName} | Estudos Bíblicos, Teologia Reformada e Devocionais`;
-        else if (cleanPath === '/sobre') title = `Quem Somos | ${siteName}`;
-        else if (cleanPath === '/contato') title = `Contato | ${siteName}`;
-        else if (cleanPath === '/estudos-biblicos') title = `Estudos Bíblicos | ${siteName}`;
-        else if (cleanPath === '/devocionais') title = `Devocionais | ${siteName}`;
-        else if (cleanPath === '/personagens-biblicos') title = `Personagens Bíblicos | ${siteName}`;
-        else if (cleanPath === '/testemunhos') title = `Testemunhos | ${siteName}`;
-        else if (cleanPath === '/noticias') title = `Notícias | ${siteName}`;
-        else if (cleanPath === '/politica-de-privacidade') title = `Política de Privacidade | ${siteName}`;
-        else if (cleanPath === '/termos-de-uso') title = `Termos de Uso | ${siteName}`;
-        else title = `${siteName} | Portal Teológico`;
-      }
-
-      // Update Document Title
-      document.title = title;
-
-      // Update Canonical URL
-      let canonicalLink = document.querySelector('link[rel="canonical"]');
-      if (!canonicalLink) {
-        canonicalLink = document.createElement('link');
-        canonicalLink.setAttribute('rel', 'canonical');
-        document.head.appendChild(canonicalLink);
-      }
-      canonicalLink.setAttribute('href', canonicalUrl);
-
-      // Update Meta Description
-      let metaDesc = document.querySelector('meta[name="description"]');
-      if (!metaDesc) {
-        metaDesc = document.createElement('meta');
-        metaDesc.setAttribute('name', 'description');
-        document.head.appendChild(metaDesc);
-      }
-      metaDesc.setAttribute('content', description);
-
-      // Update Open Graph Tags
-      let ogTitle = document.querySelector('meta[property="og:title"]');
-      if (!ogTitle) {
-        ogTitle = document.createElement('meta');
-        ogTitle.setAttribute('property', 'og:title');
-        document.head.appendChild(ogTitle);
-      }
-      ogTitle.setAttribute('content', title);
-
-      let ogUrl = document.querySelector('meta[property="og:url"]');
-      if (!ogUrl) {
-        ogUrl = document.createElement('meta');
-        ogUrl.setAttribute('property', 'og:url');
-        document.head.appendChild(ogUrl);
-      }
-      ogUrl.setAttribute('content', canonicalUrl);
-
-      let ogDesc = document.querySelector('meta[property="og:description"]');
-      if (!ogDesc) {
-        ogDesc = document.createElement('meta');
-        ogDesc.setAttribute('property', 'og:description');
-        document.head.appendChild(ogDesc);
-      }
-      ogDesc.setAttribute('content', description);
-    };
-
-    updateSEO();
-  }, [path]);
 
   const isPrivacyPolicy = path === '/politica-de-privacidade';
   const isCookiePolicy = path === '/politica-de-cookies';
@@ -1887,7 +1412,6 @@ function App() {
   const isLaraSantanaJesus = path === '/do-berco-cristao-ao-encontro-pessoal-jornada-lara-santana-jesus';
   const isSamuelMarianoTestemunho = path === '/quando-deus-quebra-artista-formar-pastor-testemunho-samuel-mariano';
   const isDiscipulado3Erros = path === '/o-que-nao-e-discipulado-3-erros-distorcem-chamado-jesus';
-    const isTabernaculo = path === '/tabernaculo-evangelho-inteiro-desenhado-pano-ouro-sangue';
   const isDeusDetermina = path === '/deus-determina-ou-homem-toma-atitude-herois-da-fe';
   const isInconstancia = path === '/voce-nao-esfriou-voce-esta-dividido-inconstancia-espiritual';
   const isSofrimento = path === '/por-que-alguns-sofrem-mais-louvor-no-vale-deus-consolacao';
@@ -2097,7 +1621,7 @@ function App() {
                <ArticleInfo date="10 de Junho de 2026" readingTime={12} />
               </div>
              
-             <img src="/sarca-ardente.jpg" alt="A Sarça Ardente" className="article-hero-img" loading="lazy" />
+             <img src="/sarca-ardente.webp" alt="A Sarça Ardente" className="article-hero-img" fetchPriority="high" />
              
              <p>No silêncio vasto e implacável do deserto de Midiã, onde o horizonte se perde em montanhas áridas e o vento carrega apenas areia e solidão, ocorreu um dos encontros mais extraordinários entre Deus e um homem na história da redenção. Moisés, aos <strong>80 anos de idade</strong>, vivia uma vida simples como pastor de ovelhas, longe dos palácios do Egito e das glórias de sua juventude. Foi nesse cenário improvável que o céu decidiu irromper na terra.</p>
 
@@ -2188,7 +1712,7 @@ function App() {
                <ArticleInfo date="10 de Junho de 2026" readingTime={14} />
               </div>
              
-             <img src="/sermao-do-monte.png" alt="Sermão do Monte" className="article-hero-img" loading="lazy" />
+             <img src="/sermao-do-monte.webp" alt="Sermão do Monte" className="article-hero-img" fetchPriority="high" />
              
              <p>Subindo pelas encostas verdes que margeiam o Mar da Galileia, Jesus se afastou da multidão barulhenta da planície. O local, conhecido hoje como o Monte das Bem-Aventuranças, era um anfiteatro natural de calcário vulcânico, a poucos quilômetros de Cafarnaum. Jesus tinha aproximadamente 30 ou 31 anos, e seu ministério público estava apenas começando a ganhar uma escala nacional.</p>
              <p>Ali, sentado — a postura tradicional de um mestre judeu prestes a expor a Lei — Ele não estava apenas pregando. Ele estava estabelecendo a constituição de um novo Reino.</p>
@@ -2245,7 +1769,7 @@ function App() {
                <ArticleInfo date="11 de Junho de 2026" readingTime={10} />
               </div>
              
-             <img src="/bible_reading.png" alt="Leitura Bíblica" className="article-hero-img" loading="lazy" />
+             <img src="/bible_reading.webp" alt="Leitura Bíblica" className="article-hero-img" fetchPriority="high" />
              
              <p>Chegamos à metade de 2026. Muitos começaram o ano com a nobre resolução de ler a Bíblia inteira, mas já abandonaram o propósito. Se você se identifica com essa realidade, este artigo é para você.</p>
              <p>A Bíblia possui 1.189 capítulos. Com a estratégia certa, você pode ler as Escrituras completas em menos de um ano — mantendo a constância sem sacrificar sua saúde mental ou espiritual.</p>
@@ -2356,13 +1880,13 @@ function App() {
         ) : isEstudosBiblicos ? (
           <main className="section-mb">
             <div className="section-title">
-              <h2>Estudos Bíblicos</h2>
+              <h1 className="section-title-h1">Estudos Bíblicos</h1>
             </div>
             <div className="grid-2" style={{marginTop: '2rem'}}>
 
               <div className="grid-2-item">
                 <a href="/amor-aos-inimigos-chamado-radical-jesus-sermao-monte-mateus-5-43-48" style={{textDecoration: 'none', color: 'inherit'}}>
-                  <img src="/amor_aos_inimigos.jpg" alt="O Amor aos Inimigos: O Chamado Radical de Jesus no Sermão do Monte" className="img-ph" loading="lazy" style={{objectFit: 'cover'}} />
+                  <img src="/amor_aos_inimigos.webp" alt="O Amor aos Inimigos: O Chamado Radical de Jesus no Sermão do Monte" className="img-ph" loading="lazy" style={{objectFit: 'cover'}} />
                   <h3 style={{fontSize: '1.1rem', marginBottom: '8px', lineHeight: '1.4'}}>O Amor aos Inimigos: O Chamado Radical de Jesus no Sermão do Monte</h3>
                   <p style={{fontSize: '0.9rem', color: '#666', marginTop: '8px'}}>Como amar quem nos persegue não é emoção, mas ação — e por que esse mandamento revela a maturidade espiritual e o testemunho do Reino.</p>
                   <div className="meta">📖 <strong>Sermão do Monte:</strong> Mateus 5:43-48 &amp; JesusCopy</div>
@@ -2371,7 +1895,7 @@ function App() {
 
               <div className="grid-2-item">
                 <a href="/o-que-nao-e-discipulado-3-erros-distorcem-chamado-jesus" style={{textDecoration: 'none', color: 'inherit'}}>
-                  <img src="/discipulado_3_erros.jpg" alt="O Que NÃO É Discipulado: 3 Erros que Distorcem o Chamado de Jesus" className="img-ph" loading="lazy" style={{objectFit: 'cover'}} />
+                  <img src="/discipulado_3_erros.webp" alt="O Que NÃO É Discipulado: 3 Erros que Distorcem o Chamado de Jesus" className="img-ph" loading="lazy" style={{objectFit: 'cover'}} />
                   <h3 style={{fontSize: '1.1rem', marginBottom: '8px', lineHeight: '1.4'}}>O Que NÃO É Discipulado: 3 Erros que Distorcem o Chamado de Jesus</h3>
                   <p style={{fontSize: '0.9rem', color: '#666', marginTop: '8px'}}>Como o conceito bíblico de fazer discípulos foi sequestrado por métodos humanos — e como voltar ao modelo de Cristo.</p>
                   <div className="meta">📖 <strong>Formação Cristã:</strong> Mateus 28:19-20 &amp; JesusCopy</div>
@@ -2380,7 +1904,7 @@ function App() {
 
               <div className="grid-2-item">
                 <a href="/cuidado-com-que-deus-desaprova-7-atitudes-proverbios-6" style={{textDecoration: 'none', color: 'inherit'}}>
-                  <img src="/proverbios_6_deus_desaprova.jpg" alt="Cuidado com o que Deus Desaprova (Provérbios 6)" className="img-ph" loading="lazy" style={{objectFit: 'cover'}} />
+                  <img src="/proverbios_6_deus_desaprova.webp" alt="Cuidado com o que Deus Desaprova (Provérbios 6)" className="img-ph" loading="lazy" style={{objectFit: 'cover'}} />
                   <h3 style={{fontSize: '1.1rem', marginBottom: '8px', lineHeight: '1.4'}}>Cuidado com o que Deus Desaprova: As 7 Atitudes que o Senhor Detesta</h3>
                   <p style={{fontSize: '0.9rem', color: '#666', marginTop: '8px'}}>Um alerta urgente sobre maldade, perversidade e as atitudes sutis que destroem relacionamentos e desagradam ao Senhor.</p>
                   <div className="meta">📖 <strong>Sabedoria Bíblica:</strong> Discernimento &amp; Provérbios 6</div>
@@ -2389,7 +1913,7 @@ function App() {
 
               <div className="grid-2-item">
                 <a href="/batismo-infantil-certo-confianca-em-cristo-vs-ritual" style={{textDecoration: 'none', color: 'inherit'}}>
-                  <img src="/batismo_infantil_certo.jpg" alt="Batismo Infantil é Certo?" className="img-ph" loading="lazy" style={{objectFit: 'cover'}} />
+                  <img src="/batismo_infantil_certo.webp" alt="Batismo Infantil é Certo?" className="img-ph" loading="lazy" style={{objectFit: 'cover'}} />
                   <h3 style={{fontSize: '1.1rem', marginBottom: '8px', lineHeight: '1.4'}}>Batismo Infantil é Certo? A Confiança em Cristo vs. A Confiança no Ritual</h3>
                   <p style={{fontSize: '0.9rem', color: '#666', marginTop: '8px'}}>Uma análise de Gálatas 5 sobre a perigosa tendência de depositar fé em rituais, nascimentos ou tradições, em vez de exclusivamente em Jesus.</p>
                   <div className="meta">📖 <strong>Análise Teológica:</strong> Sola Fide &amp; Batismo</div>
@@ -2398,7 +1922,7 @@ function App() {
 
               <div className="grid-2-item">
                 <a href="/salvacao-nao-se-perde-advertencias-paulo-galatas-5" style={{textDecoration: 'none', color: 'inherit'}}>
-                  <img src="/salvacao_nao_se_perde.jpg" alt="Salvação Não Se Perde" className="img-ph" loading="lazy" style={{objectFit: 'cover'}} />
+                  <img src="/salvacao_nao_se_perde.webp" alt="Salvação Não Se Perde" className="img-ph" loading="lazy" style={{objectFit: 'cover'}} />
                   <h3 style={{fontSize: '1.1rem', marginBottom: '8px', lineHeight: '1.4'}}>Salvação Não Se Perde: Entendendo as Advertências de Paulo em Gálatas 5</h3>
                   <p style={{fontSize: '0.9rem', color: '#666', marginTop: '8px'}}>Como a doutrina da perseverança dos santos se harmoniza com as severas advertências bíblicas contra a apostasia.</p>
                   <div className="meta">📖 <strong>Teologia Reformada:</strong> Perseverança &amp; Segurança Eterna</div>
@@ -2407,7 +1931,7 @@ function App() {
 
               <div className="grid-2-item">
                 <a href="/como-saber-vontade-de-deus-3-principios-praticos" style={{textDecoration: 'none', color: 'inherit'}}>
-                  <img src="/vontade_de_deus.jpg" alt="Vontade de Deus" className="img-ph" loading="lazy" style={{objectFit: 'cover'}} />
+                  <img src="/vontade_de_deus.webp" alt="Vontade de Deus" className="img-ph" loading="lazy" style={{objectFit: 'cover'}} />
                   <h3 style={{fontSize: '1.1rem', marginBottom: '8px', lineHeight: '1.4'}}>Como Saber a Vontade de Deus: 3 Princípios Práticos</h3>
                   <p style={{fontSize: '0.9rem', color: '#666', marginTop: '8px'}}>Pare de romantizar e descubra como natureza, oportunidades e necessidades ao seu redor revelam o que Deus tem para você.</p>
                   <div className="meta">📖 <strong>Texto Base:</strong> Salmo 139:13-14</div>
@@ -2416,7 +1940,7 @@ function App() {
 
               <div className="grid-2-item">
                 <a href="/descansando-na-justica-de-deus-nao-precisamos-fazer-vinganca" style={{textDecoration: 'none', color: 'inherit'}}>
-                  <img src="/descansando_justica.jpg" alt="Justiça de Deus" className="img-ph" loading="lazy" style={{objectFit: 'cover'}} />
+                  <img src="/descansando_justica.webp" alt="Justiça de Deus" className="img-ph" loading="lazy" style={{objectFit: 'cover'}} />
                   <h3 style={{fontSize: '1.1rem', marginBottom: '8px', lineHeight: '1.4'}}>Descansando na Justiça de Deus: Por Que Não Precisamos Fazer Vingança</h3>
                   <p style={{fontSize: '0.9rem', color: '#666', marginTop: '8px'}}>Jesus nos chama a trocar a vingança pela confiança na justiça divina — e a viver pela graça, não pelos nossos direitos.</p>
                   <div className="meta">📖 <strong>Texto Base:</strong> Mateus 5:38-42</div>
@@ -2425,7 +1949,7 @@ function App() {
 
               <div className="grid-2-item">
                 <a href="/seja-seu-sim-sim-verdade-radical-jesus-integridade-juramentos" style={{textDecoration: 'none', color: 'inherit'}}>
-                  <img src="/sim_sim_nao_nao.jpg" alt="A Verdade Radical de Jesus" className="img-ph" loading="lazy" style={{objectFit: 'cover'}} />
+                  <img src="/sim_sim_nao_nao.webp" alt="A Verdade Radical de Jesus" className="img-ph" loading="lazy" style={{objectFit: 'cover'}} />
                   <h3 style={{fontSize: '1.1rem', marginBottom: '8px', lineHeight: '1.4'}}>'Seja o Seu Sim, Sim': A Verdade Radical de Jesus sobre Integridade</h3>
                   <p style={{fontSize: '0.9rem', color: '#666', marginTop: '8px'}}>No Sermão do Monte, Cristo desmascara a hipocrisia e chama seus discípulos a viver com integridade absoluta.</p>
                   <div className="meta">📖 <strong>Texto Base:</strong> Mateus 5:33-37</div>
@@ -2434,7 +1958,7 @@ function App() {
 
               <div className="grid-2-item">
                 <a href="/5-sinais-biblicos-identificar-falsos-lideres-discernimento" style={{textDecoration: 'none', color: 'inherit'}}>
-                  <img src="/falsos_lideres.png" alt="5 Sinais Bíblicos para Identificar Falsos Líderes" className="img-ph" loading="lazy" style={{objectFit: 'cover'}} />
+                  <img src="/falsos_lideres.webp" alt="5 Sinais Bíblicos para Identificar Falsos Líderes" className="img-ph" loading="lazy" style={{objectFit: 'cover'}} />
                   <h3 style={{fontSize: '1.1rem', marginBottom: '8px', lineHeight: '1.4'}}>5 Sinais Bíblicos para Identificar Falsos Líderes: Discernimento em Tempos de Engano</h3>
                   <p style={{fontSize: '0.9rem', color: '#666', marginTop: '8px'}}>Descubra como desenvolver audição espiritual para distinguir a voz do Bom Pastor das imitações terrenas.</p>
                   <div className="meta">📖 <strong>Texto Base:</strong> Mateus 7:15-20</div>
@@ -2443,7 +1967,7 @@ function App() {
 
               <div className="grid-2-item">
                 <a href="/5-tipos-pessoas-biblia-orienta-nao-ajudar-limites-saudaveis" style={{textDecoration: 'none', color: 'inherit'}}>
-                  <img src="/limites_biblicos.png" alt="5 Tipos de Pessoas que a Bíblia Orienta Não Ajudar" className="img-ph" loading="lazy" style={{objectFit: 'cover'}} />
+                  <img src="/limites_biblicos.webp" alt="5 Tipos de Pessoas que a Bíblia Orienta Não Ajudar" className="img-ph" loading="lazy" style={{objectFit: 'cover'}} />
                   <h3 style={{fontSize: '1.1rem', marginBottom: '8px', lineHeight: '1.4'}}>5 Tipos de Pessoas que a Bíblia Orienta Não Ajudar: Limites Saudáveis</h3>
                   <p style={{fontSize: '0.9rem', color: '#666', marginTop: '8px'}}>Descubra como estabelecer fronteiras bíblicas sem perder o amor e como discernir entre ajudar e habilitar.</p>
                   <div className="meta">📖 <strong>Texto Base:</strong> Mateus 10:16</div>
@@ -2452,7 +1976,7 @@ function App() {
 
               <div className="grid-2-item">
                 <a href="/proverbios-prosperidade-financeira-sabedoria-mordomia-contentamento" style={{textDecoration: 'none', color: 'inherit'}}>
-                  <img src="/proverbios_financas.png" alt="Provérbios e a Prosperidade Financeira" className="img-ph" loading="lazy" style={{objectFit: 'cover'}} />
+                  <img src="/proverbios_financas.webp" alt="Provérbios e a Prosperidade Financeira" className="img-ph" loading="lazy" style={{objectFit: 'cover'}} />
                   <h3 style={{fontSize: '1.1rem', marginBottom: '8px', lineHeight: '1.4'}}>Provérbios e a Prosperidade Financeira: Sabedoria Bíblica</h3>
                   <p style={{fontSize: '0.9rem', color: '#666', marginTop: '8px'}}>Descubra como os princípios de Salomão redefinem riqueza, dívidas e generosidade à luz do Reino.</p>
                   <div className="meta">📖 <strong>Texto Base:</strong> Provérbios 10:22</div>
@@ -2461,7 +1985,7 @@ function App() {
 
               <div className="grid-2-item">
                 <a href="/papel-da-mae-segundo-a-biblia-estudo-completo" style={{textDecoration: 'none', color: 'inherit'}}>
-                  <img src="/maternidade_biblica.png" alt="O Papel da Mãe Segundo a Bíblia" className="img-ph" loading="lazy" style={{objectFit: 'cover'}} />
+                  <img src="/maternidade_biblica.webp" alt="O Papel da Mãe Segundo a Bíblia" className="img-ph" loading="lazy" style={{objectFit: 'cover'}} />
                   <h3 style={{fontSize: '1.1rem', marginBottom: '8px', lineHeight: '1.4'}}>O Papel da Mãe Segundo a Bíblia: Fundamentos e Exemplos</h3>
                   <p style={{fontSize: '0.9rem', color: '#666', marginTop: '8px'}}>Descubra como as Escrituras redefinem a maternidade não como busca por perfeição, mas como presença fiel e ensino intencional.</p>
                   <div className="meta">📖 <strong>Texto Base:</strong> Deuteronômio 6</div>
@@ -2470,7 +1994,7 @@ function App() {
 
               <div className="grid-2-item">
                 <a href="/multidao-oposicao-ou-discipulo-quem-segue-jesus-marcos-3" style={{textDecoration: 'none', color: 'inherit'}}>
-                  <img src="/marcos3_discipulos.png" alt="Multidão, Oposição ou Discípulo?" className="img-ph" loading="lazy" style={{objectFit: 'cover'}} />
+                  <img src="/marcos3_discipulos.webp" alt="Multidão, Oposição ou Discípulo?" className="img-ph" loading="lazy" style={{objectFit: 'cover'}} />
                   <h3 style={{fontSize: '1.1rem', marginBottom: '8px', lineHeight: '1.4'}}>Multidão, Oposição ou Discípulo? Quem Realmente Segue a Jesus em Marcos 3</h3>
                   <p style={{fontSize: '0.9rem', color: '#666', marginTop: '8px'}}>Descubra por que estar perto de Jesus nem sempre significa segui-Lo de verdade. Uma análise que desafia sua postura diante do Mestre.</p>
                   <div className="meta">📖 <strong>Texto Base:</strong> Marcos 3</div>
@@ -2478,7 +2002,7 @@ function App() {
               </div>
               <div className="grid-2-item">
                 <a href="/para-onde-vai-alma-cristao-apos-morte-estado-intermediario-ressurreicao" style={{textDecoration: 'none', color: 'inherit'}}>
-                  <img src="/estado_intermediario.png" alt="Para Onde Vai a Alma do Cristão Após a Morte?" className="img-ph" loading="lazy" style={{objectFit: 'cover'}} />
+                  <img src="/estado_intermediario.webp" alt="Para Onde Vai a Alma do Cristão Após a Morte?" className="img-ph" loading="lazy" style={{objectFit: 'cover'}} />
                   <h3 style={{fontSize: '1.1rem', marginBottom: '8px', lineHeight: '1.4'}}>Para Onde Vai a Alma do Cristão Após a Morte? O Estado Intermediário</h3>
                   <p style={{fontSize: '0.9rem', color: '#666', marginTop: '8px'}}>Entenda o que as Escrituras realmente ensinam sobre o destino da alma entre a morte e a ressurreição final.</p>
                   <div className="meta">📖 <strong>Texto Base:</strong> 1 Tessalonicenses 4</div>
@@ -2486,7 +2010,7 @@ function App() {
               </div>
               <div className="grid-2-item">
                 <a href="/cinco-solas-relevancia-hoje-reforma-protestante" style={{textDecoration: 'none', color: 'inherit'}}>
-                  <img src="/cinco_solas.png" alt="As Cinco Solas e Sua Relevância Hoje" className="img-ph" loading="lazy" style={{objectFit: 'cover'}} />
+                  <img src="/cinco_solas.webp" alt="As Cinco Solas e Sua Relevância Hoje" className="img-ph" loading="lazy" style={{objectFit: 'cover'}} />
                   <h3 style={{fontSize: '1.1rem', marginBottom: '8px', lineHeight: '1.4'}}>As Cinco Solas e Sua Relevância Hoje: Os Pilares da Reforma que Ainda Transformam Vidas</h3>
                   <p style={{fontSize: '0.9rem', color: '#666', marginTop: '8px'}}>Conheça os cinco pilares que sacudiram a cristandade no século XVI e entenda por que continuam moldando a fé bíblica até hoje.</p>
                   <div className="meta">📖 <strong>Texto Base:</strong> Jó 42:2</div>
@@ -2495,7 +2019,7 @@ function App() {
 
               <div className="grid-2-item">
                 <a href="/artigo/sarca-ardente" style={{textDecoration: 'none', color: 'inherit'}}>
-                  <img src="/sarca-ardente.jpg" alt="A Sarça Ardente" className="img-ph" loading="lazy" style={{objectFit: 'cover'}} />
+                  <img src="/sarca-ardente.webp" alt="A Sarça Ardente" className="img-ph" loading="lazy" style={{objectFit: 'cover'}} />
                   <h3 style={{fontSize: '1.1rem', marginBottom: '8px', lineHeight: '1.4'}}>A Sarça Ardente: Quando Deus Encontrou Moisés no Deserto</h3>
                   <p style={{fontSize: '0.9rem', color: '#666', marginTop: '8px'}}>Descubra como Deus transforma um fugitivo em libertador e o que a sarça que ardia sem se consumir revela sobre a presença divina.</p>
                   <div className="meta">📖 <strong>Texto Base:</strong> Gálatas 5:1</div>
@@ -2507,7 +2031,7 @@ function App() {
 
               <div className="grid-3-item">
                 <a href="/quando-deus-quebra-artista-formar-pastor-testemunho-samuel-mariano" style={{textDecoration: 'none', color: 'inherit'}}>
-                  <img src="/samuel_mariano_testemunho.jpg" alt="Quando Deus Quebra o Artista para Formar um Pastor: O Testemunho de Samuel Mariano" className="img-ph" loading="lazy" style={{objectFit: 'cover', aspectRatio: '16/9'}} />
+                  <img src="/samuel_mariano_testemunho.webp" alt="Quando Deus Quebra o Artista para Formar um Pastor: O Testemunho de Samuel Mariano" className="img-ph" loading="lazy" style={{objectFit: 'cover', aspectRatio: '16/9'}} />
                   <span className="cat-tag" style={{display: 'inline-block', marginBottom: '8px', marginTop: '12px'}}>TESTEMUNHOS</span>
                   <h3 style={{fontSize: '1.1rem', marginBottom: '8px', lineHeight: '1.4'}}>Quando Deus Quebra o Artista para Formar um Pastor: O Testemunho de Samuel Mariano</h3>
                   <p style={{fontSize: '0.9rem', color: '#666', marginTop: '8px', marginBottom: '12px'}}>Como acusações falsas, dor e quebrantamento se tornaram o caminho para maturidade espiritual e um ministério mais profundo.</p>
@@ -2516,7 +2040,7 @@ function App() {
               </div>
               <div className="grid-3-item">
                 <a href="/carta-galatas-liberdade-crista-estudo-completo" style={{textDecoration: 'none', color: 'inherit'}}>
-                  <img src="/galatas.png" alt="A Carta aos Gálatas e a Liberdade Cristã" className="img-ph" loading="lazy" style={{objectFit: 'cover'}} />
+                  <img src="/galatas.webp" alt="A Carta aos Gálatas e a Liberdade Cristã" className="img-ph" loading="lazy" style={{objectFit: 'cover'}} />
                   <h3 style={{fontSize: '1.1rem', marginBottom: '8px', lineHeight: '1.4'}}>A Carta aos Gálatas e a Liberdade Cristã: O Evangelho da Graça Contra o Legalismo</h3>
                   <p style={{fontSize: '0.9rem', color: '#666', marginTop: '8px'}}>Aprenda como Paulo confrontou o legalismo que ameaçava sufocar o Evangelho e descubra a liberdade que só a graça pode oferecer.</p>
                   <div className="meta">📖 <strong>Texto Base:</strong> 1 Samuel 3:10</div>
@@ -2525,7 +2049,7 @@ function App() {
 
               <div className="grid-3-item">
                 <a href="/artigo/sermao-do-monte" style={{textDecoration: 'none', color: 'inherit'}}>
-                  <img src="/sermao-do-monte.png" alt="Sermão do Monte" className="img-ph" loading="lazy" style={{objectFit: 'cover'}} />
+                  <img src="/sermao-do-monte.webp" alt="Sermão do Monte" className="img-ph" loading="lazy" style={{objectFit: 'cover'}} />
                   <h3 style={{fontSize: '1.1rem', marginBottom: '8px', lineHeight: '1.4'}}>Sermão do Monte: As Bem-Aventuranças e a Nova Constituição do Reino</h3>
                   <p style={{fontSize: '0.9rem', color: '#666', marginTop: '8px'}}>Jesus estabeleceu a constituição de um novo Reino e inverteu a lógica do mundo...</p>
                   <div className="meta">📖 <strong>Texto Base:</strong> Efésios 2:8</div>
@@ -2534,7 +2058,7 @@ function App() {
 
               <div className="grid-3-item">
                 <a href="/silencio-deus-dificuldades-charles-spurgeon" style={{textDecoration: 'none', color: 'inherit'}}>
-                  <img src="/silence_of_god.png" alt="O Silêncio de Deus nas Dificuldades" className="img-ph" loading="lazy" style={{objectFit: 'cover'}} />
+                  <img src="/silence_of_god.webp" alt="O Silêncio de Deus nas Dificuldades" className="img-ph" loading="lazy" style={{objectFit: 'cover'}} />
                   <h3 style={{fontSize: '1.1rem', marginBottom: '8px', lineHeight: '1.4'}}>O Silêncio de Deus nas Dificuldades: Confiando no Caráter Revelado do Senhor</h3>
                   <p style={{fontSize: '0.9rem', color: '#666', marginTop: '8px'}}>Quando clamamos e parecemos não ouvir resposta, devemos confiar no caráter revelado do Senhor ao invés de nossos sentimentos...</p>
                   <div className="meta">📖 <strong>Texto Base:</strong> Efésios 2:8</div>
@@ -2545,7 +2069,7 @@ function App() {
             <div className="grid-2" style={{marginTop: '2rem'}}>
               <div className="grid-2-item">
                 <a href="/como-ler-biblia-inteira-2026-metodos-praticos" style={{textDecoration: 'none', color: 'inherit'}}>
-                  <img src="/metodos_biblia.png" alt="5 Métodos Práticos para Ler a Bíblia Inteira em 2026" className="img-ph" loading="lazy" style={{objectFit: 'cover'}} />
+                  <img src="/metodos_biblia.webp" alt="5 Métodos Práticos para Ler a Bíblia Inteira em 2026" className="img-ph" loading="lazy" style={{objectFit: 'cover'}} />
                   <h3 style={{fontSize: '1.1rem', marginBottom: '8px', lineHeight: '1.4'}}>5 Métodos Práticos para Ler a Bíblia Inteira em 2026</h3>
                   <p style={{fontSize: '0.9rem', color: '#666', marginTop: '8px'}}>Aprenda técnicas práticas e flexíveis para ler toda a Bíblia em um ano, mesmo com a rotina mais corrida. Inclui aplicativos recomendados.</p>
                   <div className="meta">📖 <strong>Texto Base:</strong> Atos 9:15</div>
@@ -2554,7 +2078,7 @@ function App() {
 
               <div className="grid-2-item">
                 <a href="/doutrina-eleicao-incondicional-efesios-romanos" style={{textDecoration: 'none', color: 'inherit'}}>
-                  <img src="/eleicao.png" alt="A Doutrina da Eleição Incondicional" className="img-ph" loading="lazy" style={{objectFit: 'cover'}} />
+                  <img src="/eleicao.webp" alt="A Doutrina da Eleição Incondicional" className="img-ph" loading="lazy" style={{objectFit: 'cover'}} />
                   <h3 style={{fontSize: '1.1rem', marginBottom: '8px', lineHeight: '1.4'}}>A Doutrina da Eleição Incondicional</h3>
                   <p style={{fontSize: '0.9rem', color: '#666', marginTop: '8px'}}>Entenda uma das doutrinas mais debatidas da teologia reformada: a escolha soberana de Deus antes da fundação do mundo.</p>
                   <div className="meta">📖 <strong>Texto Base:</strong> Romanos 1:17</div>
@@ -2565,7 +2089,7 @@ function App() {
             <div className="grid-2" style={{marginTop: '2rem'}}>
               <div className="grid-2-item">
                 <a href="/trindade-um-so-deus-tres-pessoas-estudo-completo" style={{textDecoration: 'none', color: 'inherit'}}>
-                  <img src="/trindade.png" alt="A Trindade: Um só Deus em Três Pessoas" className="img-ph" loading="lazy" style={{objectFit: 'cover'}} />
+                  <img src="/trindade.webp" alt="A Trindade: Um só Deus em Três Pessoas" className="img-ph" loading="lazy" style={{objectFit: 'cover'}} />
                   <h3 style={{fontSize: '1.1rem', marginBottom: '8px', lineHeight: '1.4'}}>A Trindade: Um só Deus em Três Pessoas</h3>
                   <p style={{fontSize: '0.9rem', color: '#666', marginTop: '8px'}}>Mergulhe no mistério central da fé cristã: como o Pai, o Filho e o Espírito Santo são um só Deus em três Pessoas distintas.</p>
                   <div className="meta">📖 <strong>Texto Base:</strong> Gênesis 1</div>
@@ -2574,7 +2098,7 @@ function App() {
 
               <div className="grid-2-item">
                 <a href="/santificacao-obra-vida-inteira-estudo" style={{textDecoration: 'none', color: 'inherit'}}>
-                  <img src="/santificacao.png" alt="Santificação: Uma obra de uma vida inteira" className="img-ph" loading="lazy" style={{objectFit: 'cover'}} />
+                  <img src="/santificacao.webp" alt="Santificação: Uma obra de uma vida inteira" className="img-ph" loading="lazy" style={{objectFit: 'cover'}} />
                   <h3 style={{fontSize: '1.1rem', marginBottom: '8px', lineHeight: '1.4'}}>Santificação: Uma obra de uma vida inteira</h3>
                   <p style={{fontSize: '0.9rem', color: '#666', marginTop: '8px'}}>Descubra por que a santificação não acontece da noite para o dia e como Deus nos transforma progressivamente à imagem de Cristo.</p>
                   <div className="meta">📖 <strong>Texto Base:</strong> Filipenses 4:19</div>
@@ -2585,13 +2109,13 @@ function App() {
         ) : isPersonagensBiblicos ? (
           <main className="section-mb">
             <div className="section-title">
-              <h2>Personagens Bíblicos</h2>
+              <h1 className="section-title-h1">Personagens Bíblicos</h1>
             </div>
             <div className="grid-3" style={{marginTop: '2rem'}}>
 
               <div className="grid-3-item">
                 <a href="/elias-jornada-completa-profeta-de-fogo-gileade-carro-de-fogo" style={{textDecoration: 'none', color: 'inherit'}}>
-                  <img src="/elias_fogo_ceu.jpg" alt="Elias: A Jornada Completa do Profeta de Fogo" className="img-ph" loading="lazy" style={{objectFit: 'cover'}} />
+                  <img src="/elias_fogo_ceu.webp" alt="Elias: A Jornada Completa do Profeta de Fogo" className="img-ph" loading="lazy" style={{objectFit: 'cover'}} />
                   <h3 style={{fontSize: '1.1rem', marginBottom: '8px', lineHeight: '1.4'}}>Elias: A Jornada Completa do Profeta de Fogo — De Gileade ao Carro de Fogo</h3>
                   <p style={{fontSize: '0.9rem', color: '#666', marginTop: '8px'}}>Origem, milagres, depressão, legado e as promessas que apontam para Cristo: a história do homem que não viu a morte.</p>
                   <div className="meta">📖 <strong>Texto Base:</strong> 1 Reis 17-19; 2 Reis 2</div>
@@ -2600,7 +2124,7 @@ function App() {
               
               <div className="grid-3-item">
                 <a href="/ana-mae-orou-chorou-gerou-profeta-samuel" style={{textDecoration: 'none', color: 'inherit'}}>
-                  <img src="/ana_orando.png" alt="Ana: A Mãe que Orou, Chorou e Gerou um Profeta" className="img-ph" loading="lazy" style={{objectFit: 'cover'}} />
+                  <img src="/ana_orando.webp" alt="Ana: A Mãe que Orou, Chorou e Gerou um Profeta" className="img-ph" loading="lazy" style={{objectFit: 'cover'}} />
                   <h3 style={{fontSize: '1.1rem', marginBottom: '8px', lineHeight: '1.4'}}>Ana: A Mãe que Orou, Chorou e Gerou um Profeta</h3>
                   <p style={{fontSize: '0.9rem', color: '#666', marginTop: '8px'}}>Conheça a mulher que transformou lágrimas em oração e dor em propósito, entregando seu filho ao serviço do Senhor.</p>
                   <div className="meta">📖 <strong>Texto Base:</strong> Ester 4:14</div>
@@ -2609,7 +2133,7 @@ function App() {
 
               <div className="grid-3-item">
                 <a href="/ester-rainha-salvou-povo-deus-age-sombras" style={{textDecoration: 'none', color: 'inherit'}}>
-                  <img src="/ester_rainha.png" alt="Rainha Ester" className="img-ph" loading="lazy" style={{objectFit: 'cover'}} />
+                  <img src="/ester_rainha.webp" alt="Rainha Ester" className="img-ph" loading="lazy" style={{objectFit: 'cover'}} />
                   <h3 style={{fontSize: '1.1rem', marginBottom: '8px', lineHeight: '1.4'}}>Ester: A Rainha que Salvou um Povo</h3>
                   <p style={{fontSize: '0.9rem', color: '#666', marginTop: '8px'}}>Descubra como uma jovem judia chegou ao trono persa e arriscou a vida para salvar seu povo da destruição.</p>
                   <div className="meta">📖 <strong>Texto Base:</strong> 1 Samuel 1</div>
@@ -2618,7 +2142,7 @@ function App() {
 
               <div className="grid-3-item">
                 <a href="/pastor-conquistou-trono-jornada-davi-belem-jerusalem" style={{textDecoration: 'none', color: 'inherit'}}>
-                  <img src="/davi_pastor.png" alt="O Pastor que Conquistou um Trono" className="img-ph" loading="lazy" style={{objectFit: 'cover'}} />
+                  <img src="/davi_pastor.webp" alt="O Pastor que Conquistou um Trono" className="img-ph" loading="lazy" style={{objectFit: 'cover'}} />
                   <h3 style={{fontSize: '1.1rem', marginBottom: '8px', lineHeight: '1.4'}}>O Pastor que Conquistou um Trono: A Jornada de Davi</h3>
                   <p style={{fontSize: '0.9rem', color: '#666', marginTop: '8px'}}>Do Curral de Belém ao Palácio de Jerusalém.</p>
                   <div className="meta">📖 <strong>Texto Base:</strong> 1 Samuel 16</div>
@@ -2631,7 +2155,7 @@ function App() {
               
               <div className="grid-3-item">
                 <a href="/paulo-tarso-apostolo-nacoes" style={{textDecoration: 'none', color: 'inherit'}}>
-                  <img src="/paulo_de_tarso.png" alt="Paulo de Tarso" className="img-ph" loading="lazy" style={{objectFit: 'cover'}} />
+                  <img src="/paulo_de_tarso.webp" alt="Paulo de Tarso" className="img-ph" loading="lazy" style={{objectFit: 'cover'}} />
                   <h3 style={{fontSize: '1.1rem', marginBottom: '8px', lineHeight: '1.4'}}>Paulo de Tarso: O Perseguidor Chamado para Ser Apóstolo das Nações</h3>
                   <p style={{fontSize: '0.9rem', color: '#666', marginTop: '8px'}}>Conheça a história do homem que respirava ameaças e foi transformado pelo encontro com Cristo na estrada de Damasco.</p>
                   <div className="meta">📖 <strong>Texto Base:</strong> Hebreus 11</div>
@@ -2640,7 +2164,7 @@ function App() {
 
               <div className="grid-3-item">
                 <a href="/samuel-profeta-voz-deus-trevas-israel" style={{textDecoration: 'none', color: 'inherit'}}>
-                  <img src="/samuel_profeta.png" alt="Samuel: O Profeta" className="img-ph" loading="lazy" style={{objectFit: 'cover'}} />
+                  <img src="/samuel_profeta.webp" alt="Samuel: O Profeta" className="img-ph" loading="lazy" style={{objectFit: 'cover'}} />
                   <h3 style={{fontSize: '1.1rem', marginBottom: '8px', lineHeight: '1.4'}}>Samuel: O Profeta que Foi a Voz de Deus nas Trevas de Israel</h3>
                   <p style={{fontSize: '0.9rem', color: '#666', marginTop: '8px'}}>Entenda como um menino consagrado desde o ventre se tornou a voz profética que guiou Israel em seus dias mais sombrios.</p>
                   <div className="meta">📖 <strong>Texto Base:</strong> Hebreus 11</div>
@@ -2649,7 +2173,7 @@ function App() {
 
               <div className="grid-3-item">
                 <a href="/jo-homem-perdeu-tudo-soberania-divina" style={{textDecoration: 'none', color: 'inherit'}}>
-                  <img src="/jo_patriarca.png" alt="Jó: O Patriarca" className="img-ph" loading="lazy" style={{objectFit: 'cover'}} />
+                  <img src="/jo_patriarca.webp" alt="Jó: O Patriarca" className="img-ph" loading="lazy" style={{objectFit: 'cover'}} />
                   <h3 style={{fontSize: '1.1rem', marginBottom: '8px', lineHeight: '1.4'}}>Jó: O Homem que Perdeu Tudo, Mas Não Perdeu a Deus</h3>
                   <p style={{fontSize: '0.9rem', color: '#666', marginTop: '8px'}}>Aprenda com Jó como manter a fé inabalável quando tudo desmorona e a soberania de Deus parece silenciosa.</p>
                   <div className="meta">📖 <strong>Texto Base:</strong> Hebreus 11</div>
@@ -2671,7 +2195,7 @@ function App() {
              
                <ArticleInfo date="25 de Junho de 2026" readingTime={18} />
               </div>
-             <img src="/elias_gileade.jpg" alt="Elias, o tisbita, dos moradores de Gileade" className="article-hero-img" loading="lazy" style={{maxHeight: '450px', width: '100%', objectFit: 'cover', borderRadius: '12px'}} />
+             <img src="/elias_gileade.webp" alt="Elias, o tisbita, dos moradores de Gileade" className="article-hero-img" fetchPriority="high" style={{maxHeight: '450px', width: '100%', objectFit: 'cover', borderRadius: '12px'}} />
              <div className="article-body">
 
                <h2>🏜️ 1. A Origem: Quem Era Elias?</h2>
@@ -2711,7 +2235,7 @@ function App() {
                <p>Por <strong>três anos e meio</strong> (Tiago 5:17), não caiu uma gota de chuva sobre Israel.</p>
                <p>A seca era o julgamento de Deus contra Baal — o falso deus da fertilidade e da chuva.</p>
 
-               <img src="/elias_confronta_acabe.jpg" alt="Elias profetiza a seca diante do rei Acabe" loading="lazy" style={{maxHeight: '400px', width: '100%', objectFit: 'cover', borderRadius: '12px', margin: '2rem 0'}} />
+               <img src="/elias_confronta_acabe.webp" alt="Elias profetiza a seca diante do rei Acabe" loading="lazy" style={{maxHeight: '400px', width: '100%', objectFit: 'cover', borderRadius: '12px', margin: '2rem 0'}} />
 
                <h2>🐦 4. Milagre 1: Os Corvos no Ribeiro de Querite</h2>
 
@@ -2720,7 +2244,7 @@ function App() {
                <p>Corvos — aves de rapina, símbolo de impureza — tornaram-se garçons do profeta.</p>
                <p><strong>Deus usa o improvável para sustentar os Seus.</strong></p>
 
-               <img src="/elias_corvos_querite.jpg" alt="Corvos alimentam Elias no ribeiro de Querite" loading="lazy" style={{maxHeight: '400px', width: '100%', objectFit: 'cover', borderRadius: '12px', margin: '2rem 0'}} />
+               <img src="/elias_corvos_querite.webp" alt="Corvos alimentam Elias no ribeiro de Querite" loading="lazy" style={{maxHeight: '400px', width: '100%', objectFit: 'cover', borderRadius: '12px', margin: '2rem 0'}} />
 
                <h2>🫙 5. Milagre 2: A Farinha e o Azeite da Viúva de Sarepta</h2>
 
@@ -2730,7 +2254,7 @@ function App() {
                <p><em>&quot;Não temas... porque a panela de farinha não se esgotará, e a botija de azeite não faltará, até ao dia em que o SENHOR dê chuva sobre a terra.&quot;</em> — <strong>1 Reis 17:14</strong></p>
                <p>E assim foi. <strong>A farinha não acabou. O azeite não secou.</strong></p>
 
-               <img src="/elias_viuva_sarepta.jpg" alt="A viúva de Sarepta com farinha e azeite que não acabaram" loading="lazy" style={{maxHeight: '400px', width: '100%', objectFit: 'cover', borderRadius: '12px', margin: '2rem 0'}} />
+               <img src="/elias_viuva_sarepta.webp" alt="A viúva de Sarepta com farinha e azeite que não acabaram" loading="lazy" style={{maxHeight: '400px', width: '100%', objectFit: 'cover', borderRadius: '12px', margin: '2rem 0'}} />
 
                <h2>💫 6. Milagre 3: A Ressurreição do Filho da Viúva</h2>
 
@@ -2741,7 +2265,7 @@ function App() {
                <p>O menino reviveu.</p>
                <p>Foi a <strong>primeira ressurreição registrada por um profeta na Bíblia</strong>.</p>
 
-               <img src="/elias_ressurreicao_menino.jpg" alt="Elias ora e o filho da viúva volta a viver" loading="lazy" style={{maxHeight: '400px', width: '100%', objectFit: 'cover', borderRadius: '12px', margin: '2rem 0'}} />
+               <img src="/elias_ressurreicao_menino.webp" alt="Elias ora e o filho da viúva volta a viver" loading="lazy" style={{maxHeight: '400px', width: '100%', objectFit: 'cover', borderRadius: '12px', margin: '2rem 0'}} />
 
                <h2>⚔️ 7. O Confronto no Monte Carmelo</h2>
 
@@ -2755,7 +2279,7 @@ function App() {
 
                <p>O povo ficou em silêncio.</p>
 
-               <img src="/elias_monte_carmelo.jpg" alt="Elias sozinho contra 450 profetas de Baal no Monte Carmelo" loading="lazy" style={{maxHeight: '400px', width: '100%', objectFit: 'cover', borderRadius: '12px', margin: '2rem 0'}} />
+               <img src="/elias_monte_carmelo.webp" alt="Elias sozinho contra 450 profetas de Baal no Monte Carmelo" loading="lazy" style={{maxHeight: '400px', width: '100%', objectFit: 'cover', borderRadius: '12px', margin: '2rem 0'}} />
 
                <h2>🔥 8. O Fogo Desce do Céu</h2>
 
@@ -2777,7 +2301,7 @@ function App() {
                  &quot;Só o SENHOR é Deus! Só o SENHOR é Deus!&quot; — <strong>1 Reis 18:39</strong>
                </blockquote>
 
-               <img src="/elias_fogo_ceu.jpg" alt="Fogo divino descendo do céu sobre o altar encharcado no Monte Carmelo" loading="lazy" style={{maxHeight: '450px', width: '100%', objectFit: 'cover', borderRadius: '12px', margin: '2rem 0'}} />
+               <img src="/elias_fogo_ceu.webp" alt="Fogo divino descendo do céu sobre o altar encharcado no Monte Carmelo" loading="lazy" style={{maxHeight: '450px', width: '100%', objectFit: 'cover', borderRadius: '12px', margin: '2rem 0'}} />
 
                <h2>🌧️ 9. A Chuva Volta</h2>
 
@@ -2786,7 +2310,7 @@ function App() {
                <p>Em minutos, o céu escureceu. E <strong>caiu grande chuva</strong>.</p>
                <p>O julgamento terminou. A terra reviveu.</p>
 
-               <img src="/elias_chuva_volta.jpg" alt="Elias recebe as primeiras gotas de chuva após três anos de seca" loading="lazy" style={{maxHeight: '400px', width: '100%', objectFit: 'cover', borderRadius: '12px', margin: '2rem 0'}} />
+               <img src="/elias_chuva_volta.webp" alt="Elias recebe as primeiras gotas de chuva após três anos de seca" loading="lazy" style={{maxHeight: '400px', width: '100%', objectFit: 'cover', borderRadius: '12px', margin: '2rem 0'}} />
 
                <h2>😢 10. O Momento de Tristeza: Debaixo do Zimbro</h2>
 
@@ -2806,7 +2330,7 @@ function App() {
                  <li>✅ Cuidou do corpo antes de tratar da alma</li>
                </ul>
 
-               <img src="/elias_zimbro_deserto.jpg" alt="Elias exausto debaixo do zimbro e o anjo trazendo pão e água" loading="lazy" style={{maxHeight: '400px', width: '100%', objectFit: 'cover', borderRadius: '12px', margin: '2rem 0'}} />
+               <img src="/elias_zimbro_deserto.webp" alt="Elias exausto debaixo do zimbro e o anjo trazendo pão e água" loading="lazy" style={{maxHeight: '400px', width: '100%', objectFit: 'cover', borderRadius: '12px', margin: '2rem 0'}} />
 
                <h2>🌬️ 11. A Voz Mansa e Delicada em Horebe</h2>
 
@@ -2822,7 +2346,7 @@ function App() {
                <p>Deus revelou: <em>&quot;Também conservei em Israel sete mil, todos os joelhos que não se dobraram a Baal.&quot;</em></p>
                <p><strong>Elias não estava sozinho.</strong></p>
 
-               <img src="/elias_voz_mansa_horebe.jpg" alt="Elias na caverna de Horebe cobrindo o rosto diante da voz mansa de Deus" loading="lazy" style={{maxHeight: '400px', width: '100%', objectFit: 'cover', borderRadius: '12px', margin: '2rem 0'}} />
+               <img src="/elias_voz_mansa_horebe.webp" alt="Elias na caverna de Horebe cobrindo o rosto diante da voz mansa de Deus" loading="lazy" style={{maxHeight: '400px', width: '100%', objectFit: 'cover', borderRadius: '12px', margin: '2rem 0'}} />
 
                <h2>🧥 12. Passando o Bastão: Eliseu</h2>
 
@@ -2832,7 +2356,7 @@ function App() {
                <p>Eliseu entendeu o chamado. Deixou os bois, queimou o arado, cozinhou a carne, serviu ao povo — e seguiu Elias.</p>
                <p>O bastão foi passado. O discípulo foi formado.</p>
 
-               <img src="/elias_manto_eliseu.jpg" alt="Elias lança o manto sobre Eliseu no campo" loading="lazy" style={{maxHeight: '400px', width: '100%', objectFit: 'cover', borderRadius: '12px', margin: '2rem 0'}} />
+               <img src="/elias_manto_eliseu.webp" alt="Elias lança o manto sobre Eliseu no campo" loading="lazy" style={{maxHeight: '400px', width: '100%', objectFit: 'cover', borderRadius: '12px', margin: '2rem 0'}} />
 
                <h2>⚡ 13. Outros Milagres e Confrontos</h2>
 
@@ -2863,7 +2387,7 @@ function App() {
                <p>E o manto de Elias caiu. Eliseu o tomou, feriu o Jordão, e as águas se abriram.</p>
                <p><strong>O bastão foi recebido. A unção foi dobrada.</strong></p>
 
-               <img src="/elias_carro_fogo.jpg" alt="Elias subindo ao céu no carro de fogo enquanto Eliseu recebe o manto" loading="lazy" style={{maxHeight: '450px', width: '100%', objectFit: 'cover', borderRadius: '12px', margin: '2rem 0'}} />
+               <img src="/elias_carro_fogo.webp" alt="Elias subindo ao céu no carro de fogo enquanto Eliseu recebe o manto" loading="lazy" style={{maxHeight: '450px', width: '100%', objectFit: 'cover', borderRadius: '12px', margin: '2rem 0'}} />
 
                <h2>✝️ 15. As Promessas que Apontam para Cristo</h2>
 
@@ -2886,7 +2410,7 @@ function App() {
                  <p style={{margin: 0}}>Em Apocalipse 11, as duas testemunhas: 🔥 Têm poder para fechar o céu (como Elias), 🔥 Têm fogo que sai da boca (como Elias). Muitos veem ali um eco do ministério de Elias nos últimos dias.</p>
                </div>
                
-               <img src="/elias_transfiguracao.jpg" alt="Elias e Jesus na Transfiguração" loading="lazy" style={{maxHeight: '400px', width: '100%', objectFit: 'cover', borderRadius: '12px', margin: '2rem 0'}} />
+               <img src="/elias_transfiguracao.webp" alt="Elias e Jesus na Transfiguração" loading="lazy" style={{maxHeight: '400px', width: '100%', objectFit: 'cover', borderRadius: '12px', margin: '2rem 0'}} />
 
                <h2>💭 16. Lições da Jornada de Elias</h2>
 
@@ -2961,7 +2485,7 @@ function App() {
              
                <ArticleInfo date="23 de Junho de 2026" readingTime={10} />
               </div>
-             <img src="/paulo_de_tarso.png" alt="Paulo de Tarso" className="article-hero-img" loading="lazy" />
+             <img src="/paulo_de_tarso.webp" alt="Paulo de Tarso" className="article-hero-img" fetchPriority="high" />
              <div className="article-body">
                <div className="quote-box">
                  "Mas Deus, que me separou desde o ventre de minha mãe e me chamou pela sua graça, teve por bem revelar seu Filho em mim, para que eu o pregasse entre os gentios." — <strong>Gálatas 1:15-16</strong>
@@ -3030,7 +2554,7 @@ function App() {
              
                <ArticleInfo date="23 de Junho de 2026" readingTime={9} />
               </div>
-             <img src="/samuel_profeta.png" alt="Samuel: O Profeta" className="article-hero-img" loading="lazy" />
+             <img src="/samuel_profeta.webp" alt="Samuel: O Profeta" className="article-hero-img" fetchPriority="high" />
              <div className="article-body">
                <div className="quote-box">
                  "Crescia Samuel, e o SENHOR era com ele, e nenhuma de todas as suas palavras deixou cair em terra. E todo o Israel, desde Dã até Berseba, sabia que Samuel estava confirmado profeta do SENHOR." — <strong>1 Samuel 3:19-20</strong>
@@ -3095,7 +2619,7 @@ function App() {
              
                <ArticleInfo date="23 de Junho de 2026" readingTime={11} />
               </div>
-             <img src="/jo_patriarca.png" alt="Jó" className="article-hero-img" loading="lazy" />
+             <img src="/jo_patriarca.webp" alt="Jó" className="article-hero-img" fetchPriority="high" />
              <div className="article-body">
                <div className="quote-box">
                  "Ainda que ele me mate, nele esperarei." — <strong>Jó 13:15</strong><br/><br/>
@@ -3180,7 +2704,7 @@ function App() {
              
                <ArticleInfo date="20 de Julho de 2026" readingTime={6} />
               </div>
-             <img src="/batismo_jesus_2030.jpg" alt="O batismo de Jesus — Mateus 3:16-17" className="article-hero-img" loading="lazy" style={{maxHeight: '450px', width: '100%', objectFit: 'cover', borderRadius: '12px'}} />
+             <img src="/batismo_jesus_2030.webp" alt="O batismo de Jesus — Mateus 3:16-17" className="article-hero-img" fetchPriority="high" style={{maxHeight: '450px', width: '100%', objectFit: 'cover', borderRadius: '12px'}} />
              <div className="article-body">
                
                <h2>Uma Celebração Histórica a Caminho</h2>
@@ -3339,7 +2863,7 @@ function App() {
              
                <ArticleInfo date="22 de Julho de 2026" readingTime={8} />
               </div>
-             <img src="/ipb_legendarios.jpg" alt="Discernimento à luz das Escrituras — 1 João 4:1" className="article-hero-img" loading="lazy" style={{maxHeight: '450px', width: '100%', objectFit: 'cover', borderRadius: '12px'}} />
+             <img src="/ipb_legendarios.webp" alt="Discernimento à luz das Escrituras — 1 João 4:1" className="article-hero-img" fetchPriority="high" style={{maxHeight: '450px', width: '100%', objectFit: 'cover', borderRadius: '12px'}} />
              <div className="article-body">
                
                <h2>Uma Decisão Histórica</h2>
@@ -3472,13 +2996,13 @@ function App() {
         ) : isNoticias ? (
           <main className="section-mb">
             <div className="section-title">
-              <h2>Notícias</h2>
+              <h1 className="section-title-h1">Notícias</h1>
             </div>
             <div className="grid-3" style={{marginTop: '2rem'}}>
 
               <div className="grid-3-item">
                 <a href="/teologia-prosperidade-vs-miseria-equilibrio-biblico" style={{textDecoration: 'none', color: 'inherit'}}>
-                  <img src="/prosperidade_vs_miseria.jpg" alt="Teologia da Prosperidade vs Teologia da Miséria" className="img-ph" loading="lazy" style={{objectFit: 'cover', aspectRatio: '16/9'}} />
+                  <img src="/prosperidade_vs_miseria.webp" alt="Teologia da Prosperidade vs Teologia da Miséria" className="img-ph" loading="lazy" style={{objectFit: 'cover', aspectRatio: '16/9'}} />
                   <span className="cat-tag" style={{display: 'inline-block', marginBottom: '8px', marginTop: '12px'}}>NOTÍCIAS</span>
                   <h3 style={{fontSize: '1.1rem', marginBottom: '8px', lineHeight: '1.4'}}>Teologia da Prosperidade vs. Teologia da Miséria: Encontrando o Equilíbrio Bíblico</h3>
                   <p style={{fontSize: '0.9rem', color: '#666', marginTop: '8px', marginBottom: '12px'}}>Como combater o erro da prosperidade sem romantizar a pobreza e negar promessas bíblicas de provisão.</p>
@@ -3488,7 +3012,7 @@ function App() {
 
               <div className="grid-3-item">
                 <a href="/justin-bieber-copa-elogio-ou-ilusao-diferenca-falar-deus-ser-deus" style={{textDecoration: 'none', color: 'inherit'}}>
-                  <img src="/justin_bieber_copa.jpg" alt="Justin Bieber na Copa" className="img-ph" loading="lazy" style={{objectFit: 'cover', aspectRatio: '16/9'}} />
+                  <img src="/justin_bieber_copa.webp" alt="Justin Bieber na Copa" className="img-ph" loading="lazy" style={{objectFit: 'cover', aspectRatio: '16/9'}} />
                   <span className="cat-tag" style={{display: 'inline-block', marginBottom: '8px', marginTop: '12px'}}>NOTÍCIAS</span>
                   <h3 style={{fontSize: '1.1rem', marginBottom: '8px', lineHeight: '1.4'}}>Justin Bieber na Copa: Elogio ou Ilusão? A Diferença Entre Falar de Deus e Ser de Deus</h3>
                   <p style={{fontSize: '0.9rem', color: '#666', marginTop: '8px', marginBottom: '12px'}}>Análise sobre a performance de Justin Bieber na Copa e a linha tênue entre gratidão genuína e fé cultural.</p>
@@ -3498,7 +3022,7 @@ function App() {
 
               <div className="grid-3-item">
                 <a href="/ipb-debate-veto-movimento-legendarios-origem-preocupacoes-teologicas" style={{textDecoration: 'none', color: 'inherit'}}>
-                  <img src="/ipb_legendarios.jpg" alt="Discernimento à luz das Escrituras" className="img-ph" loading="lazy" style={{objectFit: 'cover', aspectRatio: '16/9'}} />
+                  <img src="/ipb_legendarios.webp" alt="Discernimento à luz das Escrituras" className="img-ph" loading="lazy" style={{objectFit: 'cover', aspectRatio: '16/9'}} />
                   <span className="cat-tag" style={{display: 'inline-block', marginBottom: '8px', marginTop: '12px'}}>NOTÍCIAS</span>
                   <h3 style={{fontSize: '1.1rem', marginBottom: '8px', lineHeight: '1.4'}}>Igreja Presbiteriana do Brasil Debate Veto ao Movimento Legendários</h3>
                   <p style={{fontSize: '0.9rem', color: '#666', marginTop: '8px', marginBottom: '12px'}}>Supremo Concílio analisa documento que recomenda não participação no projeto voltado para homens.</p>
@@ -3510,7 +3034,7 @@ function App() {
 
               <div className="grid-3-item">
                 <a href="/israel-celebrara-2-mil-anos-batismo-jesus-2030-rio-jordao" style={{textDecoration: 'none', color: 'inherit'}}>
-                  <img src="/batismo_jesus_2030.jpg" alt="Batismo de Jesus" className="img-ph" loading="lazy" style={{objectFit: 'cover', aspectRatio: '16/9'}} />
+                  <img src="/batismo_jesus_2030.webp" alt="Batismo de Jesus" className="img-ph" loading="lazy" style={{objectFit: 'cover', aspectRatio: '16/9'}} />
                   <span className="cat-tag" style={{display: 'inline-block', marginBottom: '8px', marginTop: '12px'}}>NOTÍCIAS</span>
                   <h3 style={{fontSize: '1.1rem', marginBottom: '8px', lineHeight: '1.4'}}>Israel Celebrará 2 Mil Anos do Batismo de Jesus em 2030</h3>
                   <p style={{fontSize: '0.9rem', color: '#666', marginTop: '8px', marginBottom: '12px'}}>Governo israelense anuncia força-tarefa para preparar celebrações no rio Jordão.</p>
@@ -3522,7 +3046,7 @@ function App() {
               
               <div className="grid-3-item">
                 <a href="/14-estrelas-copa-mundo-2026-seguem-jesus-jogadores-cristaos" style={{textDecoration: 'none', color: 'inherit'}}>
-                  <img src="/copa_mundo_fe.png" alt="14 Estrelas da Copa do Mundo 2026" className="img-ph" loading="lazy" style={{objectFit: 'cover', aspectRatio: '16/9'}} />
+                  <img src="/copa_mundo_fe.webp" alt="14 Estrelas da Copa do Mundo 2026" className="img-ph" loading="lazy" style={{objectFit: 'cover', aspectRatio: '16/9'}} />
                   <span className="cat-tag" style={{display: 'inline-block', marginBottom: '8px', marginTop: '12px'}}>NOTÍCIAS</span>
                   <h3 style={{fontSize: '1.1rem', marginBottom: '8px', lineHeight: '1.4'}}>14 Estrelas da Copa do Mundo 2026 que Seguem Jesus</h3>
                   <p style={{fontSize: '0.9rem', color: '#666', marginTop: '8px', marginBottom: '12px'}}>Conheça os atletas que entram na maior competição do futebol mundial para exaltar o nome de Cristo</p>
@@ -3542,7 +3066,7 @@ function App() {
         ) : isContato ? (
           <main className="section-mb" style={{maxWidth: '800px', margin: '0 auto', padding: '2rem 1rem'}}>
             <div className="section-title" style={{textAlign: 'center', marginBottom: '2rem'}}>
-              <h2>Contato</h2>
+              <h1 className="section-title-h1">Contato</h1>
               <p style={{color: '#666', marginTop: '0.5rem'}}>Dúvidas, sugestões ou pedidos de oração? Entre em contato conosco!</p>
             </div>
             
@@ -3605,13 +3129,13 @@ function App() {
         ) : isTestemunhos ? (
           <main className="section-mb">
             <div className="section-title">
-              <h2>Testemunhos</h2>
+              <h1 className="section-title-h1">Testemunhos</h1>
             </div>
             <div className="grid-3" style={{marginTop: '2rem'}}>
 
               <div className="grid-3-item">
                 <a href="/do-berco-cristao-ao-encontro-pessoal-jornada-lara-santana-jesus" style={{textDecoration: 'none', color: 'inherit'}}>
-                  <img src="/lara_santana_jesus.jpg" alt="A Jornada de Lara Santana com Jesus" className="img-ph" loading="lazy" style={{objectFit: 'cover', aspectRatio: '16/9'}} />
+                  <img src="/lara_santana_jesus.webp" alt="A Jornada de Lara Santana com Jesus" className="img-ph" loading="lazy" style={{objectFit: 'cover', aspectRatio: '16/9'}} />
                   <span className="cat-tag" style={{display: 'inline-block', marginBottom: '8px', marginTop: '12px'}}>TESTEMUNHOS</span>
                   <h3 style={{fontSize: '1.1rem', marginBottom: '8px', lineHeight: '1.4'}}>Do Berço Cristão ao Encontro Pessoal: A Jornada de Lara Santana com Jesus</h3>
                   <p style={{fontSize: '0.9rem', color: '#666', marginTop: '8px', marginBottom: '12px'}}>Como uma jovem criada na igreja descobriu que o verdadeiro encontro com Deus acontece no quarto, às 6h da manhã.</p>
@@ -3622,7 +3146,7 @@ function App() {
 
               <div className="grid-3-item">
                 <a href="/deus-honrou-fe-testemunho-milagres-provisao-divina" style={{textDecoration: 'none', color: 'inherit'}}>
-                  <img src="/provisao.png" alt="Deus Honrou a Fé Dela" className="img-ph" loading="lazy" style={{objectFit: 'cover'}} />
+                  <img src="/provisao.webp" alt="Deus Honrou a Fé Dela" className="img-ph" loading="lazy" style={{objectFit: 'cover'}} />
                   <span className="cat-tag" style={{display: 'inline-block', marginBottom: '8px', marginTop: '12px'}}>TESTEMUNHOS</span>
                   <h3 style={{fontSize: '1.1rem', marginBottom: '8px', lineHeight: '1.4'}}>Deus Honrou a Fé Dela — Provisão Divina</h3>
                   <p style={{fontSize: '0.9rem', color: '#666', marginTop: '8px', marginBottom: '12px'}}>Milagres e provisão na jornada de fé e obediência.</p>
@@ -3630,7 +3154,7 @@ function App() {
               </div>
               <div className="grid-3-item">
                 <a href="/pao-para-100000-criancas-vida-oracao-george-muller" style={{textDecoration: 'none', color: 'inherit'}}>
-                  <img src="/george_muller_pao.png" alt="George Müller" className="img-ph" loading="lazy" style={{objectFit: 'cover'}} />
+                  <img src="/george_muller_pao.webp" alt="George Müller" className="img-ph" loading="lazy" style={{objectFit: 'cover'}} />
                   <span className="cat-tag" style={{display: 'inline-block', marginBottom: '8px', marginTop: '12px'}}>TESTEMUNHOS</span>
                   <h3 style={{fontSize: '1.1rem', marginBottom: '8px', lineHeight: '1.4'}}>Pão para 100.000 Crianças: A Vida de Oração de George Müller</h3>
                   <p style={{fontSize: '0.9rem', color: '#666', marginTop: '8px', marginBottom: '12px'}}>Como um homem que começou com dois xelins no bolso sustentou mais de dez mil órfãos apenas pela oração — e o que isso nos ensina sobre confiar no Pai que conhece nossas necessidades.</p>
@@ -3638,7 +3162,7 @@ function App() {
               </div>
               <div className="grid-3-item">
                 <a href="/testemunho-deus-e-bom-historia-fe-transformacao" style={{textDecoration: 'none', color: 'inherit'}}>
-                  <img src="/deus_e_bom.png" alt="Deus É Bom" className="img-ph" loading="lazy" style={{objectFit: 'cover'}} />
+                  <img src="/deus_e_bom.webp" alt="Deus É Bom" className="img-ph" loading="lazy" style={{objectFit: 'cover'}} />
                   <span className="cat-tag" style={{display: 'inline-block', marginBottom: '8px', marginTop: '12px'}}>TESTEMUNHOS</span>
                   <h3 style={{fontSize: '1.1rem', marginBottom: '8px', lineHeight: '1.4'}}>Deus É Bom — Uma História de Fé e Transformação</h3>
                   <p style={{fontSize: '0.9rem', color: '#666', marginTop: '8px', marginBottom: '12px'}}>Um domingo à tarde, uma visita inesperada e três palavras que quebraram correntes: 'Deus é bom'. Descubra como um encontro simples se tornou um marco de libertação e despertar espiritual.</p>
@@ -3651,7 +3175,7 @@ function App() {
 
               <div className="grid-3-item">
                 <a href="/testemunho-desespero-esperanca" style={{textDecoration: 'none', color: 'inherit'}}>
-                  <img src="/desespero_esperanca.png" alt="Do Desespero à Esperança" className="img-ph" loading="lazy" style={{objectFit: 'cover'}} />
+                  <img src="/desespero_esperanca.webp" alt="Do Desespero à Esperança" className="img-ph" loading="lazy" style={{objectFit: 'cover'}} />
                   <span className="cat-tag" style={{display: 'inline-block', marginBottom: '8px', marginTop: '12px'}}>TESTEMUNHOS</span>
                   <h3 style={{fontSize: '1.1rem', marginBottom: '8px', lineHeight: '1.4'}}>Do Desespero à Esperança: Quando Deus Interrompeu Meu Último Ato</h3>
                   <p style={{fontSize: '0.9rem', color: '#666', marginTop: '8px', marginBottom: '12px'}}>Como uma última oração se tornou o início de uma nova vida.</p>
@@ -3664,7 +3188,7 @@ function App() {
 
               <div className="grid-3-item">
                 <a href="/testemunho-e-ele-cancao-nasceu-deserto-paulo-vicente" style={{textDecoration: 'none', color: 'inherit'}}>
-                  <img src="/e_ele_vicente.png" alt="É Ele: A Canção que Nasceu no Deserto" className="img-ph" loading="lazy" style={{objectFit: 'cover'}} />
+                  <img src="/e_ele_vicente.webp" alt="É Ele: A Canção que Nasceu no Deserto" className="img-ph" loading="lazy" style={{objectFit: 'cover'}} />
                   <span className="cat-tag" style={{display: 'inline-block', marginBottom: '8px', marginTop: '12px'}}>TESTEMUNHOS</span>
                   <h3 style={{fontSize: '1.1rem', marginBottom: '8px', lineHeight: '1.4'}}>É Ele: A Canção que Nasceu no Deserto e Ecoou nas Nações</h3>
                   <p style={{fontSize: '0.9rem', color: '#666', marginTop: '8px', marginBottom: '12px'}}>Como Paulo Vicente ouviu do Senhor e compôs um hino sobre João Batista que atravessou fronteiras.</p>
@@ -3677,7 +3201,7 @@ function App() {
 
               <div className="grid-3-item">
                 <a href="/testemunho-thamires-musica-cura-aquieta-minhalma" style={{textDecoration: 'none', color: 'inherit'}}>
-                  <img src="/testemunho_thamires.png" alt="Da Epilepsia à Adoração: O Testemunho de Thamires" className="img-ph" loading="lazy" style={{objectFit: 'cover'}} />
+                  <img src="/testemunho_thamires.webp" alt="Da Epilepsia à Adoração: O Testemunho de Thamires" className="img-ph" loading="lazy" style={{objectFit: 'cover'}} />
                   <span className="cat-tag" style={{display: 'inline-block', marginBottom: '8px', marginTop: '12px'}}>TESTEMUNHOS</span>
                   <h3 style={{fontSize: '1.1rem', marginBottom: '8px', lineHeight: '1.4'}}>Da Epilepsia à Adoração: Como a Música se Tornou a Voz da Cura de Thamires</h3>
                   <p style={{fontSize: '0.9rem', color: '#666', marginTop: '8px', marginBottom: '12px'}}>Uma jornada de dor, revelação e canções que nasceram do encontro entre sofrimento e graça.</p>
@@ -3690,7 +3214,7 @@ function App() {
 
               <div className="grid-3-item">
                 <a href="/testemunho-julliany-souza-louvor-arma-espiritual-familia" style={{textDecoration: 'none', color: 'inherit'}}>
-                  <img src="/testemunho_julliany.png" alt="O Testemunho de Julliany Souza" className="img-ph" loading="lazy" style={{objectFit: 'cover'}} />
+                  <img src="/testemunho_julliany.webp" alt="O Testemunho de Julliany Souza" className="img-ph" loading="lazy" style={{objectFit: 'cover'}} />
                   <span className="cat-tag" style={{display: 'inline-block', marginBottom: '8px', marginTop: '12px'}}>TESTEMUNHOS</span>
                   <h3 style={{fontSize: '1.1rem', marginBottom: '8px', lineHeight: '1.4'}}>A Voz que Quebrou Correntes: O Chamado de Julliany Souza no Quarto do Pai</h3>
                   <p style={{fontSize: '0.9rem', color: '#666', marginTop: '8px', marginBottom: '12px'}}>Como uma adolescente usou o louvor como arma espiritual e viu Deus transformar uma família.</p>
@@ -3716,14 +3240,10 @@ function App() {
              
                <ArticleInfo date="25 de Junho de 2026" readingTime={12} />
               </div>
-             <img src="/proverbios_6_deus_desaprova.jpg" alt="Seis coisas o Senhor odeia — Provérbios 6:16" className="article-hero-img" loading="lazy" style={{maxHeight: '450px', width: '100%', objectFit: 'cover', borderRadius: '12px'}} />
+             <img src="/proverbios_6_deus_desaprova.webp" alt="Seis coisas o Senhor odeia — Provérbios 6:16" className="article-hero-img" fetchPriority="high" style={{maxHeight: '450px', width: '100%', objectFit: 'cover', borderRadius: '12px'}} />
              <div className="article-body">
                
-               
-
-            <VideoEmbed videoId="UsGv2rZhD1s" title="Vídeo Original" channel="TV Debates" />
-
-            <h2>Um Alerta Urgente Contra a Maldade</h2>
+               <h2>Um Alerta Urgente Contra a Maldade</h2>
                <p>Em Provérbios 6:16, a Palavra de Deus enuncia um alerta urgente e solene: <em>"Seis coisas o Senhor odeia, e a sétima a sua alma detesta."</em> É um chamado severo ao discernimento: cuidado com a maldade — tanto para que você não esteja agindo de maneira maldosa, quanto com a maldade das pessoas que o cercam.</p>
                
                <p>Vivemos em uma época perigosa na qual diversos comportamentos condenados pelas Escrituras recebem uma "nova roupagem", um nome moderno ou são pura e simplesmente normalizados. Sem perceber, muitas vezes acabamos tolerando essas atitudes em nosso próprio coração ou convivendo imprudentemente com pessoas que agem com perversidade contínua.</p>
@@ -3824,18 +3344,412 @@ function App() {
                  <li><strong>"Pacificadores"</strong> — Vários autores (sobre promover unidade)</li>
                </ul>
 
-               <div style={{background: '#e9ecef', padding: '1.5rem', borderRadius: '12px', margin: '3rem 0'}}>
-              <h3 style={{marginTop: 0, color: '#1a1210'}}>📺 Fonte e Inspiração</h3>
-              <p style={{fontSize: '0.95rem'}}>Este artigo foi desenvolvido como uma versão escrita e expandida do vídeo <strong>"Vídeo Original"</strong>, do canal TV Debates no YouTube.</p>
-              <p style={{fontSize: '0.95rem'}}>Se você prefere assistir ou quer complementar o estudo com o vídeo original, confira:</p>
-              
-              <ul style={{listStyleType: 'none', paddingLeft: 0, fontSize: '0.95rem'}}>
-                <li style={{marginBottom: '0.5rem'}}>🔗 <a href="https://www.youtube.com/watch?v=UsGv2rZhD1s" target="_blank" rel="noopener noreferrer" style={{color: '#b91c1c', fontWeight: 'bold'}}>https://www.youtube.com/watch?v=UsGv2rZhD1s</a></li>
-                <li style={{marginBottom: '0.5rem'}}>📺 <strong style={{color: '#1a1210'}}>Canal TV Debates</strong></li>
-              </ul>
-              
-              <p style={{fontSize: '0.95rem', margin: 0, fontStyle: 'italic', marginTop: '1rem'}}>Agradecemos ao canal TV Debates por produzir conteúdos bíblicos tão profundos e bem narrados, que edificam a Igreja.</p>
-            </div>
+               <div style={{marginTop: '2rem', padding: '1.5rem', border: '1px solid #eee', borderRadius: '8px', background: '#fcfcfc', fontSize: '0.9rem', color: '#555'}}>
+                 <strong>📺 Fonte e Inspiração:</strong><br/>
+                 Este artigo foi desenvolvido como uma versão escrita e expandida baseada no conteúdo do canal <strong>Dani Cadore</strong> no YouTube.<br/><br/>
+                 Se você deseja assistir ao vídeo original e complementar seu estudo, confira:<br/>
+                 🔗 <a href="https://www.youtube.com/@DaniCadore" target="_blank" rel="noopener noreferrer" style={{color: '#0066cc'}}>Cuidado com o que Deus desaprova | Provérbios 6</a><br/><br/>
+                 Agradecemos à Dani Cadore por compartilhar verdades bíblicas tão necessárias para nossos dias.
+               </div>
+
+               <p style={{fontSize: '1.1rem', fontStyle: 'italic', color: '#555', textAlign: 'center', margin: '2rem 0'}}>
+                 "Seis coisas o Senhor odeia, e a sétima a sua alma detesta."
+               </p>
+               
+               <p style={{textAlign: 'center', fontWeight: 'bold', marginTop: '2rem'}}>Soli Deo Gloria. ✨</p>
+
+             </div>
+
+             <ShareBar title="Cuidado com o que Deus Desaprova: As 7 Atitudes que o Senhor Detesta (Provérbios 6)" url="/cuidado-com-que-deus-desaprova-7-atitudes-proverbios-6" />
+             <RelatedArticles currentLink="/cuidado-com-que-deus-desaprova-7-atitudes-proverbios-6" category="Estudos Bíblicos" />
+           </main>
+
+        ) : isLaraSantanaJesus ? (
+          <main className="article-content section-mb">
+             <Breadcrumb category="Testemunhos" categoryLink="/testemunhos" title="Jornada de Lara Santana" />
+             <div className="article-header">
+               <span className="cat-tag">Testemunhos</span>
+               <h1>Do Berço Cristão ao Encontro Pessoal: A Jornada de Lara Santana com Jesus</h1>
+               <div className="article-meta">
+                 📖 <strong>TESTEMUNHOS | Soli Deo Gloria</strong><br/>
+                 <span style={{fontSize: '0.9rem', color: '#666'}}><em>Baseado em conteúdo do YouTube | 25 Jun, 2026</em></span>
+               </div>
+             
+               <ArticleInfo date="25 de Junho de 2026" readingTime={10} />
+              </div>
+             <img src="/lara_santana_jesus.webp" alt="Mas quando você orar, vá para seu quarto — Mateus 6:6" className="article-hero-img" fetchPriority="high" style={{maxHeight: '450px', width: '100%', objectFit: 'cover', borderRadius: '12px'}} />
+             <div className="article-body">
+               
+               <h2>"As maiores experiências que eu já tive com Deus foram no meu quarto"</h2>
+               <p>Quando <strong>Lara Santana</strong> fala sobre o seu encontro pessoal com Jesus, ela não descreve uma conversão dramática de resgate do mundo do crime ou de vícios extremos. Em vez disso, ela testemunha algo extremamente belo e profundo: uma jornada progressiva de fé e intimidade construída no secreto, na constância diária e na perseverança.</p>
+               
+               <p>Nascida na Primeira Igreja Presbiteriana de Vitória (ES), sob o abençoado pastorado do Rev. Hernandes Dias Lopes, Lara cresceu em um lar genuinamente cristão onde o estudo da Bíblia, a reverência teológica e a leitura da Palavra eram altamente valorizados. No entanto, mesmo criada dentro de uma família cristã admirável, ela precisou viver o seu <em>próprio</em> encontro e relacionamento pessoal com Deus.</p>
+
+               <h2>🏰 Da Igreja Tradicional à Renovada</h2>
+               <p>A trajetória congregacional de Lara passou por três fases ricas e formativas em sua espiritualidade:</p>
+               <ul style={{lineHeight: '1.8', marginBottom: '2rem'}}>
+                 <li><strong>Primeira Fase (Igreja Presbiteriana):</strong> Cresceu em um ambiente reformado tradicional, com alta valorização da Bíblia e do estudo. Embora tenha "aceitado a Jesus" ainda criança, sentia que precisava compreender de maneira mais plena e experimental essa salvação.</li>
+                 <li><strong>Segunda Fase (Igreja Pentecostal):</strong> Viveu uma transição cultural significativa. Confessa que no início achou o ambiente <em>"muito diferente, muito estranho"</em>, passando pelo choque cultural típico de quem migra de um formato litúrgico sóbrio para o fervor pentecostal.</li>
+                 <li><strong>Terceira Fase (Igreja Renovada - desde 2015):</strong> Encontrou o que define como um "mix" equilibrado, que une o amor profundo e reverente pela Palavra à intensidade de uma vida diária de oração e devoção no Espírito Santo. <em>"Sou muito apaixonada pela minha igreja hoje"</em>, conta.</li>
+               </ul>
+
+               <h2>🌅 O Encontro Real: Adolescência e a Convicção no Espírito</h2>
+               <p>Foi durante a adolescência que Lara experimentou suas primeiras vivências espirituais transformadoras com a Pessoa do Espírito Santo. Esses momentos geraram nela uma certeza que nenhum argumento cético poderia abalar:</p>
+               <p style={{fontSize: '1.1rem', fontStyle: 'italic', color: '#555', margin: '1.5rem 0'}}>
+                 "Caraca, hoje eu não consigo falar que Deus não é real. Não tem como depois do que eu tô vivendo na minha vida."
+               </p>
+               <p>Porém, o que verdadeiramente consolidou essa convicção não foi a euforia dos encontros de jovens, mas o desenvolvimento diário e inegociável de uma disciplina prática: o <strong>TSD (Tempo Só Deus)</strong>.</p>
+
+               <h2>📖 TSD: Tempo Só Deus — A Chave da Transformação</h2>
+               
+               <h3>O Que é o TSD?</h3>
+               <p>Na comunidade em que congrega desde 2015, o <strong>TSD (Tempo Só Deus)</strong> é um pilar da vida cristã. Trata-se de um tempo diário, inegociável e tratado como prioridade absoluta para a leitura das Escrituras e oração.</p>
+
+               <h3>O Secreto é o Lugar do Poder</h3>
+               <p>Lara aprendeu que a intimidade duradoura não se firma diante dos holofotes, mas a portas fechadas:</p>
+               <p style={{fontStyle: 'italic', background: '#fcfcfc', borderLeft: '3px solid #722F37', padding: '1rem', margin: '1.5rem 0'}}>
+                 "As maiores experiências que eu já tive com Deus foram no meu quarto. É muito maneiro, né? Só que a forma como Deus fala com a gente no secreto, quando você tá ali..."
+               </p>
+               <ul style={{lineHeight: '1.8', marginBottom: '2rem'}}>
+                 <li>✅ Tem dia que Deus não vai falar nada visível;</li>
+                 <li>✅ Tem dia que você fecha a Bíblia e mal se lembra dos detalhes que leu;</li>
+                 <li>✅ <strong>Mas o simples fato de você estar ali, dia após dia, constrói relacionamento e molda o seu coração.</strong></li>
+               </ul>
+
+               <h2>⏰ Terça-Feira, 6h da Manhã</h2>
+               <p>Muitas pessoas condicionam seu fervor a eventos espetaculares ou conferências anuais. Para Lara, no entanto, as experiências espirituais mais marcantes e duradouras aconteceram na rotina comum: <strong>numa terça-feira, às 6 horas da manhã, no seu quarto</strong>, em silêncio, oração e meditação na Palavra.</p>
+               <p><em>"Os encontros mais marcantes que eu já tive com Deus assim foram no meu quarto, depois que eu comecei a desenvolver esse hábito de leitura da Palavra e de oração"</em>, testifica ela.</p>
+
+               <h2>🌿 O Princípio Bíblico do Permanecer</h2>
+               <p>Durante a conversa, o pastor Douglas Gonçalves (do <em>JesusCopy</em>) fez uma observação pastoral profunda: <em>"Existe um prêmio do Senhor para a constância. Existe uma recompensa de Deus no permanecer."</em></p>
+               <p>Em João 15, Jesus reitera essa ordem fundamental aos Seus discípulos: <em>"Permaneçam em mim"</em>, <em>"Se as minhas palavras permanecerem em vocês"</em>, <em>"Permaneçam no meu amor"</em>. A vitória da vida cristã não reside no ímpeto inicial, mas no permanecer constante.</p>
+
+               <h3>A Lição de Tomé e a "Célula"</h3>
+               <p>Com leveza, o pastor brincou sobre o apóstolo Tomé, que esteve ausente quando o Jesus ressuscitado apareceu pela primeira vez no cenáculo: <em>"Faltou na célula nesse dia! [risadas] A galera ficou assistindo jogo e aí os caras mandaram mensagem: 'Você não vai acreditar quem veio!'"</em> Brincadeiras à parte, a lição é preciosa: Deus nos visita na constância de estarmos onde devemos estar.</p>
+
+               <h2>💎 O Testemunho "Ex-Nada": A Beleza do Legado</h2>
+               <p>Muitas vezes, jovens criados na igreja sentem que seus testemunhos "não são impactantes" por não terem um passado de destruição. O pastor Douglas desmistificou esse pensamento:</p>
+               <p style={{fontStyle: 'italic', background: '#fcfcfc', borderLeft: '3px solid #0066cc', padding: '1rem', margin: '1.5rem 0'}}>
+                 "Esse é o testemunho mais lindo, porque tem a ver com uma família que está passando um legado. Poxa, eu quero muito que meus filhos tenham esse testemunho: de serem 'ex-nada' nesse sentido. De se entenderem como pecadores desesperados que precisam de Jesus como todos os outros, mas que não precisaram se afundar no pecado para O encontrarem. Encontraram ali, em casa, na igreja local."
+               </p>
+               <p>Esse tipo de testemunho revela a força da graça pactual e confere uma solidez extraordinária à caminhada cristã.</p>
+
+               <h2>🔥 Quando a Constância Encontra a Experiência</h2>
+               <p>Lara compartilhou uma descoberta fundamental sobre as disciplinas espirituais: <em>"Quando você desenvolve um hábito de oração e de leitura da Bíblia, você aprende a permanecer quando nada está acontecendo."</em></p>
+               
+               <h3>A Semente Silenciosa de Provérbios</h3>
+               <p>Ela lembrou de certa ocasião lendo o livro de Provérbios: ao ler um versículo sobre sabedoria no seu TSD da manhã, aparentemente "nada mudou" de forma imediata ou dramática. Porém, dias depois, durante uma conversa desafiadora com uma amiga não cristã, o Espírito Santo trouxe exatamente aquele versículo à sua memória: <em>"Eu lembro de um versículo que eu li hoje!"</em> É a constância da leitura que vai moldando, preparando e santificando em silêncio.</p>
+
+               <h2>💑 A Analogia do Casamento: O Magia da Rotina</h2>
+               <p>Para ilustrar a relação entre constância e fervor, Lara fez uma analogia brilhante com o matrimônio:</p>
+               <p style={{fontStyle: 'italic', background: '#fff9f9', borderLeft: '3px solid #722F37', padding: '1rem', margin: '1.5rem 0'}}>
+                 "É igual a qualquer relacionamento que a gente tem. Por exemplo, é todo dia que eu tô no meu casamento, que é incrível, que é mágico? Não, tem dia que é normal! Tem dia que a gente tá em casa conversando, trocando ideia. E mesmo se tudo fosse mágico, nada seria mágico... Às vezes você viaja para um lugar extraordinário e fala: 'Nossa, queria morar aqui'. Aí você mora ali e fica comum. Vai desaparecer toda a magia."
+               </p>
+               <p>A verdadeira intimidade não se sustenta no extraordinário ininterrupto, mas no amor fiel que floresce nos dias comuns.</p>
+
+               <h2>🎯 Criando Conteúdo com Autenticidade</h2>
+               <p>Como criadora de conteúdo que alcançou milhões nas redes sociais, Lara revelou sua filosofia de trabalho e integridade:</p>
+               <ul style={{lineHeight: '1.8', marginBottom: '2rem'}}>
+                 <li><strong>O Princípio de Ouro:</strong> <em>"Desde o começo, eu sempre quis fazer um conteúdo que eu mesma iria querer assistir. Cara, eu me seguiria se visse meu perfil, eu ia ouvir meu podcast."</em></li>
+                 <li><strong>O Ponto de Equilíbrio:</strong> Existem dois conjuntos — o que as pessoas querem ver e o que você gosta de fazer. O segredo da relevância autêntica é encontrar a intersecção entre ambos.</li>
+                 <li><strong>O Perigo do Utilitarismo:</strong> ✅ Fazer apenas o que dá visualização fácil pode funcionar no início, mas ❌ no longo prazo trará frustração e vazio. <em>"Tem coisa pior do que você ficar fazendo um conteúdo que você mesmo não assistiria?"</em></li>
+               </ul>
+
+               <h2>🌟 7 Lições da Jornada de Lara</h2>
+               <ul style={{lineHeight: '1.8', marginBottom: '2rem'}}>
+                 <li>1️⃣ <strong>Crescer na Igreja Não Substitui o Encontro Pessoal:</strong> O legado familiar é uma bênção, mas cada crente precisa desenvolver seu próprio relacionamento com Jesus.</li>
+                 <li>2️⃣ <strong>O Secreto é o Lugar do Poder:</strong> As experiências espirituais mais duradouras nascem no quarto de oração, não diante de multidões.</li>
+                 <li>3️⃣ <strong>Constância &gt; Dramaticidade:</strong> Uma terça-feira comum às 6h da manhã diante da Palavra vale mais do que anos de eventos emocionais sem raiz.</li>
+                 <li>4️⃣ <strong>TSD é Inegociável:</strong> Reservar o "Tempo Só Deus" diário é a âncora da saúde espiritual do cristão.</li>
+                 <li>5️⃣ <strong>Permanecer é a Chave:</strong> O verdadeiro teste da fé é permanecer fiel e adorando quando a rotina não traz arrepios.</li>
+                 <li>6️⃣ <strong>O Extraordinário se Torna Comum:</strong> Amar a Deus nos dias normais é o segredo para enxergar o Seu agir silencioso.</li>
+                 <li>7️⃣ <strong>Autenticidade em Tudo:</strong> Seja na sua profissão, vocação ou nas redes: sirva a Cristo com excelência e sem máscaras.</li>
+               </ul>
+
+               <h2>🙏 Reflexão Final</h2>
+               <p>O testemunho de Lara Santana nos desafia a ressignificar o que entendemos por "encontro com Deus". Ele não precisa ser marcado por tragédias prévias, pirotecnias ou emoções repentinas. Pode ser construído gota a gota, página a página, oração após oração.</p>
+               <p>O importante não é a estética do início da sua corrida, mas a constância do seu permanecer. Como o próprio Senhor Jesus prometeu em João 15: <em>"Permaneça em mim, e eu permanecerei em você."</em> Lara encontrou essa verdade de portas fechadas no seu quarto. E você, onde tem investido o seu tempo com Deus?</p>
+
+               <h2>🙏 Oração</h2>
+               <blockquote style={{borderLeft: '4px solid #722F37', background: '#fff9f9', padding: '1.5rem', margin: '2rem 0', fontStyle: 'italic'}}>
+                 Senhor Jesus,<br/>
+                 Obrigado por nos ensinares que o encontro Contigo pode ser construído dia após dia.<br/>
+                 Ajuda-nos a valorizar o secreto, a constância, o permanecer.<br/>
+                 Que possamos desenvolver o hábito inegociável do TSD.<br/>
+                 Que nossas maiores experiências sejam no nosso quarto, contigo.<br/>
+                 Ensina-nos a permanecer mesmo quando nada parece acontecer.<br/>
+                 Que o extraordinário se torne comum em nosso caminhar Contigo.<br/>
+                 Em nome de Jesus, amém.
+               </blockquote>
+
+               <h2>📖 Versículos para Meditação</h2>
+               <div style={{background: '#f8f9fa', borderLeft: '4px solid #0066cc', padding: '1.5rem', borderRadius: '0 8px 8px 0', margin: '2rem 0'}}>
+                 <p><strong>João 15:4-7</strong> — "Permaneçam em mim, e eu permanecerei em vocês... Se permanecerem em mim e as minhas palavras permanecerem em vocês, peçam o que quiserem, e lhes será concedido."</p>
+                 <p><strong>Salmo 57:8</strong> — "Desperta, minha alma! Despertem, harpa e lira! Acordarei a aurora."</p>
+                 <p><strong>Mateus 6:6</strong> — "Mas quando você orar, vá para seu quarto e, fechando a porta, ore a seu Pai, que está no lugar secreto."</p>
+                 <p><strong>Tiago 4:8</strong> — "Cheguem-se para Deus, e ele se chegará a vocês."</p>
+                 <p><strong>Salmo 119:105</strong> — "Lâmpada para os meus pés é a tua palavra e luz para os meus caminhos."</p>
+                 <p><strong>Josué 1:8</strong> — "Não deixe de falar as palavras deste Livro da Lei e de meditar nelas de dia e de noite, para que você cumpra fielmente tudo o que nele está escrito. Só então os seus caminhos prosperarão e você será bem-sucedido."</p>
+               </div>
+
+               <h2>📚 Leituras Recomendadas</h2>
+               <ul style={{lineHeight: '1.8', marginBottom: '2rem'}}>
+                 <li><strong>"Tempo com Deus"</strong> — Vários autores (sobre TSD e vida devocional)</li>
+                 <li><strong>"O Quarto Secreto"</strong> — Vários autores (oração no secreto)</li>
+                 <li><strong>"Permanecendo em Cristo"</strong> — Vários autores (João 15 e permanência)</li>
+                 <li><strong>"Hábitos Espirituais"</strong> — Vários autores (disciplinas espirituais)</li>
+                 <li><strong>"A Vida Devocional"</strong> — Vários autores (constância na fé)</li>
+               </ul>
+
+               <div style={{marginTop: '2rem', padding: '1.5rem', border: '1px solid #eee', borderRadius: '8px', background: '#fcfcfc', fontSize: '0.9rem', color: '#555'}}>
+                 <strong>📺 Fonte e Inspiração:</strong><br/>
+                 Este artigo foi desenvolvido como uma versão escrita e expandida baseada no conteúdo do canal <strong>JesusCopy</strong> no YouTube.<br/><br/>
+                 Se você deseja assistir ao vídeo original e complementar seu estudo, confira:<br/>
+                 🔗 <a href="https://www.youtube.com/@JesusCopy" target="_blank" rel="noopener noreferrer" style={{color: '#0066cc'}}>TESTEMUNHO DE CONVERSÃO DE LARA SANTANA | Podcast JesusCopy</a><br/><br/>
+                 Agradecemos ao JesusCopy por compartilhar testemunhos tão edificantes e necessários para nossos dias.
+               </div>
+
+               <p style={{fontSize: '1.1rem', fontStyle: 'italic', color: '#555', textAlign: 'center', margin: '2rem 0'}}>
+                 "As maiores experiências que eu já tive com Deus foram no meu quarto, numa terça-feira às 6h da manhã."
+               </p>
+               
+               <p style={{textAlign: 'center', fontWeight: 'bold', marginTop: '2rem'}}>Soli Deo Gloria. 🙏✨</p>
+
+             </div>
+
+             <ShareBar title="Do Berço Cristão ao Encontro Pessoal: A Jornada de Lara Santana com Jesus" url="/do-berco-cristao-ao-encontro-pessoal-jornada-lara-santana-jesus" />
+             <RelatedArticles currentLink="/do-berco-cristao-ao-encontro-pessoal-jornada-lara-santana-jesus" category="Testemunhos" />
+           </main>
+
+        ) : isSamuelMarianoTestemunho ? (
+          <main className="article-content section-mb">
+             <Breadcrumb category="Testemunhos" categoryLink="/testemunhos" title="O Testemunho de Samuel Mariano" />
+             <div className="article-header">
+               <span className="cat-tag">Testemunhos</span>
+               <h1>Quando Deus Quebra o Artista para Formar um Pastor: O Testemunho de Samuel Mariano</h1>
+               <div className="article-meta">
+                 📖 <strong>TESTEMUNHOS | Soli Deo Gloria</strong><br/>
+                 <span style={{fontSize: '0.9rem', color: '#666'}}><em>Baseado em conteúdo do YouTube | 25 Jun, 2026</em></span>
+               </div>
+             
+               <ArticleInfo date="25 de Junho de 2026" readingTime={12} />
+              </div>
+             <img src="/samuel_mariano_testemunho.webp" alt="O Testemunho de Samuel Mariano — Quando Deus Quebra o Artista para Formar um Pastor" className="article-hero-img" fetchPriority="high" style={{maxHeight: '450px', width: '100%', objectFit: 'cover', borderRadius: '12px'}} />
+             <div className="article-body">
+               
+               <blockquote style={{borderLeft: '4px solid #722F37', background: '#fff9f9', padding: '1.5rem', margin: '2rem 0', fontStyle: 'italic', borderRadius: '0 8px 8px 0'}}>
+                 &quot;Deus me quebrou. Quebrou o artista. Quebrou. Tinha em algum momento da sua vida algum sentimento de vaidade? Quebrou o Samuel. Deus me quebrou todo e precisava ser quebrado.&quot; — <strong>Samuel Mariano</strong>
+               </blockquote>
+
+               <p>Você já foi alvo de acusações falsas? Já sentiu a dor de ser julgado por algo que não fez? Já experimentou o peso de pessoas que se decepcionaram com você sem sequer conhecer sua história?</p>
+               <p>Samuel Mariano, cantor e pastor, passou por isso. Em um podcast recente, ele abriu o coração sobre o momento mais delicado de sua carreira e ministério — e revelou como Deus usou a dor para transformá-lo.</p>
+               <p>Este não é apenas um testemunho sobre superação. É uma lição profunda sobre quebrantamento, justiça divina e o processo de Deus em nossas vidas.</p>
+
+               <h2>A Dor das Acusações Falsas</h2>
+               <p>Samuel foi alvo de críticas severas e acusações públicas. Como muitos cristãos que já passaram por situações semelhantes, ele conheceu a dor de ser mal compreendido:</p>
+               
+               <p><em>&quot;Eu queria pedir perdão a pessoas que se decepcionaram comigo por uma coisa que eles não ouviram da minha boca, por uma coisa que eles sequer foram atrás dos fatos.&quot;</em></p>
+               
+               <p>Essa frase revela algo profundo: o poder destrutivo das narrativas. Vivemos em uma época onde:</p>
+               <ul>
+                 <li>❌ As pessoas julgam sem conhecer</li>
+                 <li>❌ Compartilham sem verificar</li>
+                 <li>❌ Condenam sem ouvir</li>
+               </ul>
+
+               <p>Samuel poderia ter se defendido publicamente. Poderia ter apresentado documentos, provas, a sentença judicial que o inocentou. Mas ele escolheu um caminho diferente:</p>
+               <p><em>&quot;Por que eu vou apresentar para levantar um assunto? Não quero mais. Eu vou viver. Eu tô em paz.&quot;</em></p>
+
+               <h2>O Processo de Quebrantamento</h2>
+               <p>A pergunta do entrevistador foi direta: <em>&quot;Te quebrou?&quot;</em></p>
+               <p>A resposta de Samuel foi ainda mais direta:</p>
+               <p><em>&quot;Deus me quebrou. Quebrou o artista. Quebrou. Eu precisava ser quebrado para ser moldado, para virar pastor.&quot;</em></p>
+
+               <h3>O Que Significa Ser &quot;Quebrado&quot; por Deus?</h3>
+               <p>O quebrantamento bíblico não é sobre destruição, mas sobre transformação. É o processo pelo qual Deus:</p>
+               <ul>
+                 <li>✅ <strong>Remove a vaidade</strong> — <em>&quot;Eu não sinto diferença da minha carreira de antes para hoje, eu viajo do mesmo jeito, eu canto do mesmo jeito. Mas o que quebrou foi o Samuel.&quot;</em></li>
+                 <li>✅ <strong>Ensina dependência</strong> — <em>&quot;Você hoje tá entrevistando um cara quebrado, um cara que teve que aprender que o evangelho é um evangelho de perdão, um evangelho de renúncias.&quot;</em></li>
+                 <li>✅ <strong>Produz maturidade</strong> — <em>&quot;Como aquilo me fez crescer e amadurecer, parar de confiar em muita gente, vigiar muito, ter muito cuidado.&quot;</em></li>
+                 <li>✅ <strong>Molda o caráter</strong> — <em>&quot;Eu sou mais assustado, né? Eu tenho todo um cuidado com o que falo.&quot;</em></li>
+               </ul>
+
+               <h2>🎵 Canções Nascidas da Dor</h2>
+               <p><em>&quot;Os maiores hinos e poesias foram escritos em tribulações.&quot;</em></p>
+               <p>Samuel revelou que algumas de suas canções mais marcantes nasceram exatamente no meio da turbulência:</p>
+
+               <div style={{background: '#f8f9fa', padding: '1.25rem', borderRadius: '10px', margin: '1.5rem 0', borderLeft: '4px solid #b91c1c'}}>
+                 <h4 style={{marginTop: 0, color: '#b91c1c', marginBottom: '0.5rem'}}>&quot;Respira&quot;</h4>
+                 <p style={{margin: 0, fontStyle: 'italic'}}>
+                   &quot;Foi absurdo. Foi no tempo pandêmico também. Ninguém sabe o que eu colho dessas canções, mas essas canções eu escrevi todo quebrado, chorando. Deus escrevendo. Eu lembro que o pingo da lágrima caiu em cima do caderno.&quot;
+                 </p>
+               </div>
+
+               <div style={{background: '#f8f9fa', padding: '1.25rem', borderRadius: '10px', margin: '1.5rem 0', borderLeft: '4px solid #b91c1c'}}>
+                 <h4 style={{marginTop: 0, color: '#b91c1c', marginBottom: '0.5rem'}}>&quot;Fala Comigo, Deus&quot;</h4>
+                 <p style={{margin: 0, fontStyle: 'italic'}}>
+                   &quot;A que mais me marcou, que eu amo, é: 'Fala comigo, Deus, antes que a lâmpada se apague, que eu não queira mais ouvir a tua voz.'&quot;
+                 </p>
+               </div>
+
+               <div style={{background: '#f8f9fa', padding: '1.25rem', borderRadius: '10px', margin: '1.5rem 0', borderLeft: '4px solid #b91c1c'}}>
+                 <h4 style={{marginTop: 0, color: '#b91c1c', marginBottom: '0.5rem'}}>&quot;O que Haverá de Vir&quot;</h4>
+                 <p style={{margin: 0, fontStyle: 'italic'}}>
+                   &quot;Por que ela tá pegando tanto? Por que todo mundo tá gostando? Simples. Ela foi uma música feita com eu em pedaços. Eu tava em pedaços.&quot;
+                 </p>
+               </div>
+
+               <p>Há algo poderoso em adoração que nasce da dor. Não é apenas música — é oração transformada em melodia, é lágrima transformada em louvor.</p>
+
+               <h2>⚖️ Justiça Divina vs. Vingança Humana</h2>
+               <p>Uma das perguntas mais profundas do podcast foi:</p>
+               <p><em>&quot;Frase: 'Deus é justo' — te dá esperança ou te agoniza?&quot;</em></p>
+               <p>A resposta de Samuel revela um coração curado:</p>
+               <p><em>&quot;Eu não tenho esperança de punição para ninguém. Eu tô tão bem que eu não ligo com quem me fez mal. Eu não fico perguntando sobre absolutamente ninguém. Eu acredito num Deus que é justo.&quot;</em></p>
+
+               <h3>O Que a Bíblia Diz Sobre Isso?</h3>
+               <div style={{background: '#f8f9fa', borderLeft: '4px solid #0066cc', padding: '1.25rem', borderRadius: '0 8px 8px 0', margin: '1.5rem 0'}}>
+                 <p style={{margin: 0, fontWeight: '500'}}>
+                   <strong>Romanos 12:17-19:</strong> &quot;Não tornem a ninguém mal por mal. Procurem fazer o que é correto aos olhos de todos. Não se vinguem, meus amados, mas deixem espaço para a ira de Deus, pois está escrito: 'A mim me pertence a vingança; eu retribuirei', diz o Senhor.&quot;
+                 </p>
+               </div>
+
+               <p>Samuel entendeu isso. Ele tinha:</p>
+               <ul>
+                 <li>✅ Documentos que o inocentavam</li>
+                 <li>✅ Sentença judicial favorável</li>
+                 <li>✅ Relatório do delegado</li>
+                 <li>✅ Gravações de celulares</li>
+               </ul>
+               <p>Mas escolheu não usar como arma. Por quê?</p>
+               <p><em>&quot;Porque já não me interessa mais. Eu tô bem.&quot;</em></p>
+
+               <h2>🙏 O Pedido de Perdão que Liberta</h2>
+               <p>Em um momento emocionante, Samuel fez algo raro: pediu perdão publicamente.</p>
+               <p><em>&quot;Eu queria pedir perdão a pessoas que se decepcionaram comigo. Me perdoe porque nunca foi minha intenção decepcionar você.&quot;</em></p>
+               <p>Mas ele também estabeleceu um limite importante:</p>
+               <p><em>&quot;Agora, se você conseguiu ficar decepcionado comigo sem sequer me conhecer, sem sequer me ouvir, ah, eu não consigo fazer nada.&quot;</em></p>
+
+               <div style={{background: '#fff9f9', borderLeft: '4px solid #722F37', padding: '1.25rem', borderRadius: '0 8px 8px 0', margin: '1.5rem 0'}}>
+                 <h4 style={{marginTop: 0, color: '#722F37', marginBottom: '0.75rem'}}>Lição Importante:</h4>
+                 <p style={{margin: '0 0 0.5rem 0'}}>Você não pode controlar o que outros pensam de você. Você só pode:</p>
+                 <ul style={{marginBottom: 0}}>
+                   <li>✅ Viver com integridade</li>
+                   <li>✅ Pedir perdão quando necessário</li>
+                   <li>✅ Confiar que Deus conhece sua verdade</li>
+                 </ul>
+               </div>
+
+               <h2>A Igreja que Conhece de Perto</h2>
+               <p>Samuel revelou algo precioso:</p>
+               <p><em>&quot;A igreja que eu sou pastor me conhece, cara. A igreja que eu sou pastor conhece meu caráter, vive o dia todo comigo. E a igreja brasileira, aonde eu chegava, irmãs de ciclo de oração me abraçando: 'Meu filho, estou orando por você.'&quot;</em></p>
+
+               <h3>O Poder do Relacionamento Verdadeiro</h3>
+               <p>Quando as acusações vieram, quem conhecia Samuel de perto:</p>
+               <ul>
+                 <li>✅ Não acreditou nas narrativas</li>
+                 <li>✅ Continuou apoiando</li>
+                 <li>✅ Orava por ele</li>
+                 <li>✅ O acolheu de volta após a vitória judicial</li>
+               </ul>
+               <p>Isso nos ensina: Construa relacionamentos verdadeiros. Pessoas que te conhecem de verdade não serão enganadas por narrativas falsas.</p>
+
+               <h2>💔 Saudade dos Lugares que Não Pode Mais Ir</h2>
+               <p>Samuel compartilhou uma dor real:</p>
+               <p><em>&quot;Tenho saudade de alguns lugares que eu já não vou mais. Mas os pastores sabem quem sou eu. Eles me levaram na igreja deles. Eles nunca me viram beber, farrar, sair de madrugada. Eles sabem quem sou eu.&quot;</em></p>
+
+               <h3>O Preço das Acusações Falsas</h3>
+               <p>Mesmo sendo inocentado, mesmo tendo documentos, algumas portas se fecharam. Isso dói. Mas Samuel aprendeu:</p>
+               <p><em>&quot;Se você sabe o que Deus te deu, se você sabe quem você é, liga com isso.&quot;</em></p>
+
+               <h2>A Transição de Artista para Pastor</h2>
+               <p>Uma profecia marcou Samuel:</p>
+               <p><em>&quot;Eu recebi uma profecia da irmã Ângela. Ela me sacudiu assim e disse: 'Homem, eu quebrei o artista para formar um pastor.' E naquele dia eu chorei e falei: 'Deus, tô na tua mão.'&quot;</em></p>
+
+               <h3>Por Que Deus Precisa Nos Quebrar?</h3>
+               <p>Às vezes, Deus permite que passemos por:</p>
+               <ul>
+                 <li>• <strong>Acusações falsas</strong> — para aprendermos a depender dEle, não da aprovação humana</li>
+                 <li>• <strong>Dor do julgamento</strong> — para desenvolvermos compaixão pelos outros</li>
+                 <li>• <strong>Portas fechadas</strong> — para nos direcionar ao propósito verdadeiro</li>
+                 <li>• <strong>Quebrantamento</strong> — para nos moldar conforme a imagem de Cristo</li>
+               </ul>
+               <p>Samuel reconheceu:</p>
+               <p><em>&quot;Talvez como artista, como cantor, talvez eu desse certo ser do jeito que eu era. Mas como pastor, não. Precisei ser quebrado.&quot;</em></p>
+
+               <h2>🎯 Mensagem Para Quem Está Sendo Quebrado</h2>
+               <p>Samuel deixou uma palavra poderosa para quem está passando por situações semelhantes:</p>
+               <p><em>&quot;Se você não fez, acredite nesse Deus que é justo. Deus vai se levantar.&quot;</em></p>
+
+               <h3>Conselhos Práticos:</h3>
+               <ul>
+                 <li>• <strong>Não se vingue</strong> — Confie na justiça de Deus</li>
+                 <li>• <strong>Não viva procurando saber de quem te fez mal</strong> — Foque em viver bem</li>
+                 <li>• <strong>Mantenha-se em paz</strong> — Sua consciência limpa é sua maior defesa</li>
+                 <li>• <strong>Continue orando</strong> — Samuel disse: <em>&quot;Foi o tempo que eu mais orei&quot;</em></li>
+                 <li>• <strong>Não esfrie espiritualmente</strong> — <em>&quot;Não saí de dentro da igreja, tava aqui o tempo todo&quot;</em></li>
+               </ul>
+
+               <h3>✅ A Vida Continua (e é Boa!)</h3>
+               <p>Samuel terminou o podcast com um testemunho de vitória:</p>
+               <p><em>&quot;Completei 22 anos de casado com a mesma mulher. Meu filho é presbítero da igreja. Minha filha diaconisa e cantora. Minha igreja tá bem. Sou pastor de uma linda igreja. Tô bem. Tô em paz.&quot;</em></p>
+               <p>Isso é graça. Isso é restauração. Isso é Deus sendo justo.</p>
+
+               <h2>📖 Lições Para Nossa Vida</h2>
+               <ol style={{paddingLeft: '1.25rem', lineHeight: '1.8'}}>
+                 <li><strong>Deus Usa a Dor para Nos Moldar:</strong> O quebrantamento não é punição — é preparação.</li>
+                 <li><strong>Você Não Precisa Se Defender Sempre:</strong> Às vezes, o silêncio é a melhor defesa.</li>
+                 <li><strong>Relacionamentos Verdadeiros Importam:</strong> Quem te conhece de verdade não acreditará em mentiras.</li>
+                 <li><strong>A Justiça de Deus é Perfeita:</strong> Ele vê tudo. Ele sabe de tudo. Ele agirá no tempo certo.</li>
+                 <li><strong>Canções de Vitória Nascem no Vale:</strong> Suas maiores composições espirituais virão dos momentos mais difíceis.</li>
+                 <li><strong>Pedir Perdão Liberta:</strong> Mesmo quando não fizemos errado, pedir perdão por ter ferido (mesmo sem intenção) mostra maturidade.</li>
+                 <li><strong>Deus Quebra para Reconstruir:</strong> O artista foi quebrado. O pastor foi formado.</li>
+               </ol>
+
+               <h2>🙏 Oração</h2>
+               <blockquote style={{borderLeft: '4px solid #722F37', background: '#fff9f9', padding: '1.5rem', margin: '2rem 0', fontStyle: 'italic', borderRadius: '0 8px 8px 0'}}>
+                 Senhor Jesus,<br/>
+                 Obrigado pelo testemunho de Samuel Mariano.<br/>
+                 Ensina-nos a confiar em Ti quando formos injustamente acusados.<br/>
+                 Dá-nos graça para sermos quebrantados sem sermos destruídos.<br/>
+                 Ajuda-nos a perdoar aqueles que nos feriram.<br/>
+                 Livra-nos da necessidade de vingança.<br/>
+                 Que possamos encontrar em Ti nossa justiça, nossa paz, nossa identidade.<br/>
+                 Usa nossas dores para nos moldar conforme a Tua vontade.<br/>
+                 Em nome de Jesus, amém.
+               </blockquote>
+
+               <h2>📖 Versículos para Meditação</h2>
+               <div style={{background: '#f8f9fa', borderLeft: '4px solid #0066cc', padding: '1.5rem', borderRadius: '0 8px 8px 0', margin: '2rem 0'}}>
+                 <p style={{marginBottom: '1rem'}}>
+                   <strong>Salmo 37:5-6:</strong> &quot;Entregue o seu caminho ao SENHOR; confie nele, e ele tudo fará. Ele fará brilhar a sua justiça como a luz, e o seu direito, como o sol ao meio-dia.&quot;
+                 </p>
+                 <p style={{marginBottom: '1rem'}}>
+                   <strong>1 Pedro 2:23:</strong> &quot;Quando insultado, ele não revidava; quando sofria, não ameaçava, mas continuava a confiar naquele que julga com justiça.&quot;
+                 </p>
+                 <p style={{marginBottom: '1rem'}}>
+                   <strong>Romanos 8:28:</strong> &quot;Sabemos que em todas as coisas Deus trabalha para o bem daqueles que o amam, dos que foram chamados de acordo com o seu propósito.&quot;
+                 </p>
+                 <p style={{marginBottom: '1rem'}}>
+                   <strong>Salmo 34:18:</strong> &quot;O SENHOR está perto dos que têm o coração quebrantado e salva os de espírito abatido.&quot;
+                 </p>
+                 <p style={{marginBottom: 0}}>
+                   <strong>2 Coríntios 1:3-4:</strong> &quot;Bendito seja o Deus e Pai de nosso Senhor Jesus Cristo, Pai das misericórdias e Deus de toda consolação, que nos consola em toda a nossa tribulação, para que também possamos consolar os que estiverem em alguma tribulação, com a consolação com que nós mesmos somos consolados por Deus.&quot;
+                 </p>
+               </div>
+
+               <div style={{background: '#f8f9fa', padding: '1.5rem', borderRadius: '12px', marginTop: '2.5rem', border: '1px solid #e9ecef'}}>
+                 <h3 style={{marginTop: 0, marginBottom: '0.8rem', fontSize: '1.2rem'}}>📺 Fonte e Inspiração:</h3>
+                 <p style={{marginBottom: '1rem', lineHeight: '1.6'}}>
+                   Este artigo foi baseado no testemunho de Samuel Mariano no podcast <strong>TV Debates</strong>, onde ele compartilhou abertamente sobre acusações falsas, quebrantamento e restauração.
+                 </p>
+                 <p style={{marginBottom: 0}}>
+                   📺 <strong>Assista ao vídeo completo:</strong> <br/>
+                   <a href="https://www.youtube.com/watch?v=UsGv2rZhD1s" target="_blank" rel="noreferrer" style={{color: '#0066cc', fontWeight: 'bold', textDecoration: 'underline'}}>
+                     Samuel Mariano fala sobre escândalos e quebrantamento — TV Debates (Eu Acredito Podcast)
+                   </a>
+                 </p>
+               </div>
 
                <p style={{fontSize: '1.1rem', fontStyle: 'italic', color: '#555', textAlign: 'center', margin: '2rem 0'}}>
                  &quot;Deus me quebrou. E precisava ser quebrado.&quot; — Que essas palavras ecoem em nossos corações. Às vezes, o caminho para nos tornarmos quem Deus nos chamou para ser passa pelo vale do quebrantamento. Mas no fim desse vale, há restauração, propósito e paz.
@@ -3862,7 +3776,7 @@ function App() {
              
                <ArticleInfo date="25 de Junho de 2026" readingTime={13} />
               </div>
-             <img src="/amor_aos_inimigos.jpg" alt="Amai os vossos inimigos — Mateus 5:44" className="article-hero-img" loading="lazy" style={{maxHeight: '450px', width: '100%', objectFit: 'cover', borderRadius: '12px'}} />
+             <img src="/amor_aos_inimigos.webp" alt="Amai os vossos inimigos — Mateus 5:44" className="article-hero-img" fetchPriority="high" style={{maxHeight: '450px', width: '100%', objectFit: 'cover', borderRadius: '12px'}} />
              <div className="article-body">
                
                <blockquote style={{borderLeft: '4px solid #722F37', background: '#fff9f9', padding: '1.5rem', margin: '2rem 0', fontStyle: 'italic', borderRadius: '0 8px 8px 0'}}>
@@ -4039,7 +3953,7 @@ function App() {
 
                <p><em>&quot;Não precisamos tapar o sol com a peneira para amar. Precisamos confiar que Deus nos capacita a amar quem não merece — porque nós também fomos amados sem merecer.&quot;</em></p>
 
-               <AmorInimigosPoll />
+               
 
                <h2>🎯 &quot;Sede Perfeitos Como Perfeito É o Vosso Pai&quot;</h2>
                
@@ -4156,7 +4070,7 @@ function App() {
               <p style={{fontSize: '0.95rem', margin: 0, fontStyle: 'italic', marginTop: '1rem'}}>Agradecemos ao canal Dani Cadore por produzir conteúdos bíblicos tão profundos e bem narrados, que edificam a Igreja.</p>
             </div>
 
-               <AmorInimigosComments />
+               
 
                <p style={{fontSize: '1.15rem', fontStyle: 'italic', color: '#555', textAlign: 'center', margin: '2.5rem 0 1.5rem 0', fontWeight: '500'}}>
                  &quot;Amar quem nos ama é natural. Amar quem nos persegue é Reino de Deus em ação.&quot;
@@ -4183,7 +4097,7 @@ function App() {
              
                <ArticleInfo date="25 de Junho de 2026" readingTime={14} />
               </div>
-             <img src="/discipulado_3_erros.jpg" alt="Siga-me — Mateus 4:19" className="article-hero-img" loading="lazy" style={{maxHeight: '450px', width: '100%', objectFit: 'cover', borderRadius: '12px'}} />
+             <img src="/discipulado_3_erros.webp" alt="Siga-me — Mateus 4:19" className="article-hero-img" fetchPriority="high" style={{maxHeight: '450px', width: '100%', objectFit: 'cover', borderRadius: '12px'}} />
              <div className="article-body">
                
                <blockquote style={{borderLeft: '4px solid #722F37', background: '#fff9f9', padding: '1.5rem', margin: '2rem 0', fontStyle: 'italic', borderRadius: '0 8px 8px 0'}}>
@@ -4326,7 +4240,7 @@ function App() {
                  <li>✅ <strong>Processo</strong> — não é rápido, é progressivo</li>
                </ul>
 
-               <DiscipuladoPoll />
+               
 
                <h2>✅ O Que É Discipulado, Então?</h2>
                
@@ -4453,7 +4367,7 @@ function App() {
               <p style={{fontSize: '0.95rem', margin: 0, fontStyle: 'italic', marginTop: '1rem'}}>Agradecemos ao canal JesusCopy por produzir conteúdos bíblicos tão profundos e bem narrados, que edificam a Igreja.</p>
             </div>
 
-               <DiscipuladoComments />
+               
 
                <p style={{fontSize: '1.15rem', fontStyle: 'italic', color: '#555', textAlign: 'center', margin: '2.5rem 0 1.5rem 0', fontWeight: '500'}}>
                  &quot;Siga-me.&quot; Não &quot;se matricule&quot;. Não &quot;obedeça-me&quot;. Não &quot;cresça meu império&quot;. Siga-Me.
@@ -4480,7 +4394,7 @@ function App() {
              
                <ArticleInfo date="25 de Junho de 2026" readingTime={11} />
               </div>
-             <img src="/batismo_infantil_certo.jpg" alt="Quem crer e for batizado será salvo — Marcos 16:16" className="article-hero-img" loading="lazy" style={{maxHeight: '450px', width: '100%', objectFit: 'cover', borderRadius: '12px'}} />
+             <img src="/batismo_infantil_certo.webp" alt="Quem crer e for batizado será salvo — Marcos 16:16" className="article-hero-img" fetchPriority="high" style={{maxHeight: '450px', width: '100%', objectFit: 'cover', borderRadius: '12px'}} />
              <div className="article-body">
                
                
@@ -4610,14 +4524,10 @@ function App() {
              
                <ArticleInfo date="25 de Junho de 2026" readingTime={10} />
               </div>
-             <img src="/salvacao_nao_se_perde.jpg" alt="Aquele que começou boa obra em vós há de completá-la — Filipenses 1:6" className="article-hero-img" loading="lazy" style={{maxHeight: '450px', width: '100%', objectFit: 'cover', borderRadius: '12px'}} />
+             <img src="/salvacao_nao_se_perde.webp" alt="Aquele que começou boa obra em vós há de completá-la — Filipenses 1:6" className="article-hero-img" fetchPriority="high" style={{maxHeight: '450px', width: '100%', objectFit: 'cover', borderRadius: '12px'}} />
              <div className="article-body">
                
-               
-
-            <VideoEmbed videoId="hoBLRegpD8c" title="Vídeo Original" channel="Pastor Rodrigo Mocellin" />
-
-            <h2>A Corrida Cristã e a Tensão Teológica</h2>
+               <h2>A Corrida Cristã e a Tensão Teológica</h2>
                <p>Em Gálatas 5:7, o apóstolo Paulo lança uma pergunta que ecoa profundamente na alma de qualquer cristão: <em>"Corríeis bem. Quem vos impediu de obedecer à verdade?"</em></p>
                
                <p>Paulo costumava olhar para as corridas romanas e para as maratonas como uma perfeita ilustração da nossa caminhada espiritual e da salvação. Ele diz aos gálatas: <em>"Vocês começaram com ardor, como maratonistas que largam com tudo, mas logo perderam o fôlego e o rumo."</em></p>
@@ -4739,18 +4649,177 @@ function App() {
                  <li><strong>"Verdadeiros Crentes"</strong> — Vários autores (como distinguir fé genuína de falsa)</li>
                </ul>
 
-               <div style={{background: '#e9ecef', padding: '1.5rem', borderRadius: '12px', margin: '3rem 0'}}>
-              <h3 style={{marginTop: 0, color: '#1a1210'}}>📺 Fonte e Inspiração</h3>
-              <p style={{fontSize: '0.95rem'}}>Este artigo foi desenvolvido como uma versão escrita e expandida do vídeo <strong>"Erro de reformados e pentecostais"</strong>, do canal Pastor Rodrigo Mocellin no YouTube.</p>
-              <p style={{fontSize: '0.95rem'}}>Se você prefere assistir ou quer complementar o estudo com o vídeo original, confira:</p>
-              
-              <ul style={{listStyleType: 'none', paddingLeft: 0, fontSize: '0.95rem'}}>
-                <li style={{marginBottom: '0.5rem'}}>🔗 <a href="https://www.youtube.com/watch?v=hoBLRegpD8c" target="_blank" rel="noopener noreferrer" style={{color: '#b91c1c', fontWeight: 'bold'}}>https://www.youtube.com/watch?v=hoBLRegpD8c</a></li>
-                <li style={{marginBottom: '0.5rem'}}>📺 <strong style={{color: '#1a1210'}}>Canal Pastor Rodrigo Mocellin</strong></li>
-              </ul>
-              
-              <p style={{fontSize: '0.95rem', margin: 0, fontStyle: 'italic', marginTop: '1rem'}}>Agradecemos ao canal Pastor Rodrigo Mocellin por produzir conteúdos bíblicos tão profundos e bem narrados, que edificam a Igreja.</p>
-            </div>
+               <div style={{marginTop: '2rem', padding: '1.5rem', border: '1px solid #eee', borderRadius: '8px', background: '#fcfcfc', fontSize: '0.9rem', color: '#555'}}>
+                 <strong>📺 Fonte e Inspiração:</strong><br/>
+                 Este artigo foi desenvolvido como uma versão escrita e expandida baseada no conteúdo do canal <strong>Pastor Rodrigo Mocellin</strong> no YouTube.<br/><br/>
+                 Se você deseja assistir ao vídeo original e complementar seu estudo, confira:<br/>
+                 🔗 <a href="https://www.youtube.com/@PastorRodrigoMocellin" target="_blank" rel="noopener noreferrer" style={{color: '#0066cc'}}>Salvação não se perde</a><br/><br/>
+                 Agradecemos ao Pastor Rodrigo Mocellin por compartilhar verdades bíblicas tão necessárias para nossos dias.
+               </div>
+
+               <p style={{fontSize: '1.1rem', fontStyle: 'italic', color: '#555', textAlign: 'center', margin: '2rem 0'}}>
+                 "O mesmo Deus que faz a exigência 'tem que perseverar até o fim', Ele também capacita o seu povo a cumprir a exigência, a perseverar."
+               </p>
+               
+               <p style={{textAlign: 'center', fontWeight: 'bold', marginTop: '2rem'}}>Soli Deo Gloria. ✨</p>
+
+             </div>
+
+             <ShareBar title="Salvação Não Se Perde: Entendendo as Advertências de Paulo em Gálatas 5" url="/salvacao-nao-se-perde-advertencias-paulo-galatas-5" />
+             <RelatedArticles currentLink="/salvacao-nao-se-perde-advertencias-paulo-galatas-5" category="Estudos Bíblicos" />
+           </main>
+
+        ) : isProsperidadeVsMiseria ? (
+          <main className="article-content section-mb">
+             <Breadcrumb category="Notícias" categoryLink="/noticias" title="Prosperidade vs. Miséria" />
+             <div className="article-header">
+               <span className="cat-tag">Notícias</span>
+               <h1>Teologia da Prosperidade vs. Teologia da Miséria: Encontrando o Equilíbrio Bíblico</h1>
+               <div className="article-meta">
+                 📖 <strong>NOTÍCIAS | Soli Deo Gloria</strong><br/>
+                 <span style={{fontSize: '0.9rem', color: '#666'}}><em>Baseado em conteúdo do YouTube | 25 Jun, 2026</em></span>
+               </div>
+             
+               <ArticleInfo date="25 de Junho de 2026" readingTime={10} />
+              </div>
+             <img src="/prosperidade_vs_miseria.webp" alt="Buscai primeiro o Reino... e todas estas coisas vos serão acrescentadas — Mateus 6:33" className="article-hero-img" fetchPriority="high" style={{maxHeight: '450px', width: '100%', objectFit: 'cover', borderRadius: '12px'}} />
+             <div className="article-body">
+               
+               <h2>O Dilema Entre os Dois Extremos</h2>
+               <p>Você que combate a teologia da prosperidade — e nós temos a obrigação bíblica de combatê-la —, como lida com promessas como as de Efésios 6:2-3 (<em>"Honra teu pai e a tua mãe... para que tudo te vá bem e sejas de longa vida sobre a terra"</em>) ou o Salmo 1, que promete que o justo é bem-sucedido em tudo o que faz?</p>
+               
+               <p>Muitos cristãos, tanto reformados quanto pentecostais, caem em um erro reacionário: a <strong>romantização da pobreza</strong> ou "teologia da miséria". Essa ideia não tem origem protestante, mas católica. Combater o erro da prosperidade negando as promessas de provisão que o próprio Deus fez ao Seu povo é cair em um abismo oposto.</p>
+
+               <h2>❌ Por Que a Teologia da Prosperidade é Heresia?</h2>
+               
+               <h3>Heresia por Ênfase, Não por Negação</h3>
+               <p>As heresias tradicionais negavam verdades centrais do Evangelho (como a Trindade, a divindade ou humanidade de Jesus). Já a teologia da prosperidade é perigosa porque ela pega promessas bíblicas reais, distorce o contexto e <strong>só fala disso</strong>.</p>
+
+               <h3>Os Três Erros Principais da Teologia da Prosperidade</h3>
+               <ul style={{lineHeight: '1.8', marginBottom: '2rem'}}>
+                 <li>❌ <strong>Foco exclusivo em dinheiro e contribuição:</strong> Reduz o culto cristão a trocas comerciais com Deus.</li>
+                 <li>❌ <strong>Uso do dinheiro como isca de evangelização:</strong> A ordem do Evangelho aos descrentes é o arrependimento, não promessas de riqueza temporal.</li>
+                 <li>❌ <strong>Ignorar que crentes fiéis sofrem e passam por escassez:</strong> Os apóstolos e homens de fé viveram perseguições e penúria. Achar que todo sofrimento é sinal de pecado oculto ou falta de fé é incorrer no mesmo erro dos amigos de Jó.</li>
+               </ul>
+
+               <h2>⚠️ O Erro Reacionário: Romantizando a Pobreza</h2>
+               
+               <h3>Pastores Reacionários, Não Bíblicos</h3>
+               <p>Com a melhor das intenções para combater os excessos de pregadores como Edir Macedo, muitos pastores se tornaram reacionários antibíblicos. Eles passaram a romantizar a pobreza como se a miséria material fosse, em si, um atestado de santidade.</p>
+               
+               <h3>A Origem Católica da "Teologia da Miséria"</h3>
+               <p>A romantização da pobreza sempre foi marca do monasticismo católico romano, não da Reforma Protestante:</p>
+               <ol style={{lineHeight: '1.8', marginBottom: '2rem', paddingLeft: '1.5rem'}}>
+                 <li>
+                   <strong>Agostinho e a Influência Platônica:</strong> Com seu dualismo platônico, o mundo material e os sentidos eram vistos como essencialmente inferiores ao mundo espiritual, gerando desconfiança sobre a provisão material.
+                 </li>
+                 <li style={{marginTop: '1rem'}}>
+                   <strong>Justificação pelas Obras:</strong> A pobreza voluntária era tida como mérito para salvação. O dinheiro era considerado "sujo" nas mãos dos fiéis, mas "bênção" na mão das ordens monásticas.
+                 </li>
+                 <li style={{marginTop: '1rem'}}>
+                   <strong>Ordens Mendicantes:</strong> Francisco de Assis declarou: <em>"Casei-me com a pobreza"</em>, elevando a mendicância a um status moral superior.
+                 </li>
+               </ol>
+               
+               <h3>Max Weber e a Prosperidade Protestante</h3>
+               <p>O sociólogo Max Weber notou que nações tocadas pela Reforma Protestante prosperaram de forma extraordinária. A ética protestante valorizava o trabalho digno, a honestidade e a boa administração da criação divina. Dizer que "a igreja só é pura quando é miserável e sem influência" seria chamar a Reforma de um movimento maléfico, o que é um absurdo histórico.</p>
+
+               <h2>✅ As Promessas Bíblicas de Provisão</h2>
+               
+               <h3>Verdades que Não Podem Ser Negadas</h3>
+               <p>O fato de falsos mestres abusarem da Bíblia não nos dá o direito de rasgar as páginas que falam sobre a bênção de Deus sobre o trabalho honesto.</p>
+
+               <h3>Promessas do Novo Testamento</h3>
+               <ul style={{lineHeight: '1.8', marginBottom: '2rem'}}>
+                 <li>✅ <strong>Efésios 6:2-3:</strong> <em>"Honra teu pai e tua mãe... para que tudo te vá bem e tenhas vida longa sobre a terra."</em> Muitos pastores entram em pane ao tentar explicar o "tudo te vá bem".</li>
+                 <li>✅ <strong>3 João 1:2:</strong> <em>"Amado, acima de tudo, faço votos por tua prosperidade e saúde, assim como é próspera a tua alma."</em> O apóstolo João desejava progresso material e saúde corporal para Gaio, justamente porque sua alma já era próspera!</li>
+               </ul>
+
+               <h3>Soberania de Deus, Sofrimento e Fé</h3>
+               <p>Deus é soberano. Ele pode permitir aprovações e perdas para moldar nosso caráter e nos aproximar dEle, como fez com Jó. Mas isso é uma exceção pedagógica da providência, não a regra da criação: Deus prometeu suprir o Seu povo e abençoar o fruto do trabalho justo.</p>
+               <p>Sem crer que Deus abençoa e supre, que fé um pai de família teria para abrir um pequeno comércio, ou um jovem para estudar para um concurso público?</p>
+
+               <h2>💰 O Erro de Negar a Prosperidade Bíblica</h2>
+               <p>Há pastores bem assalariados que dizem à sua congregação: <em>"Eu não me importo com o quanto você ganha, só com a sua salvação."</em> Isso soa piedoso, mas não reflete o coração pastoral dos apóstolos, que desejavam o bem-estar integral dos irmãos.</p>
+               <p>Imagine o irmão João, trabalhando duro na lavoura ou no comércio para dar uma vida digna aos filhos. Acusá-lo de "ímpio materialista" por desejar prosperar com honestidade é uma perversidade teológica. Pobreza não é virtude em si. Romantizá-la é atitude de quem vive no conforto ou de quem perdeu a esperança bíblica.</p>
+
+               <h2>🎯 O Equilíbrio Bíblico: A Terceira Via</h2>
+               <p>A nossa esperança em Cristo é eterna, mas Deus cuida de nós também no tempo presente. Eis o equilíbrio prático da Escritura:</p>
+               <ul style={{lineHeight: '1.8', marginBottom: '2rem'}}>
+                 <li>✅ Confie em Deus e viva em obediência à Palavra;</li>
+                 <li>✅ Trabalhe com afinco, excelência e sem preguiça;</li>
+                 <li>✅ Aja com prudência financeira e não gaste em futilidades;</li>
+                 <li>✅ Não busque dinheiro para ostentação ou vaidade;</li>
+                 <li>✅ Confie na provisão sobrenatural do Senhor, sabendo que <em>"aos Seus amados Ele dá enquanto dormem"</em> (Salmo 127:2).</li>
+               </ul>
+
+               <h2>📊 Resumo: Os Três Caminhos</h2>
+               <div style={{overflowX: 'auto', margin: '2rem 0'}}>
+                 <table style={{width: '100%', borderCollapse: 'collapse', textAlign: 'left', fontSize: '0.95rem'}}>
+                   <thead>
+                     <tr style={{background: '#f1f3f5', borderBottom: '2px solid #ddd'}}>
+                       <th style={{padding: '12px'}}>Abordagem</th>
+                       <th style={{padding: '12px'}}>Visão do Dinheiro</th>
+                       <th style={{padding: '12px'}}>Erro Principal</th>
+                     </tr>
+                   </thead>
+                   <tbody>
+                     <tr style={{borderBottom: '1px solid #eee'}}>
+                       <td style={{padding: '12px', fontWeight: 'bold', color: '#c92a2a'}}>❌ Teologia da Prosperidade</td>
+                       <td style={{padding: '12px'}}>Dinheiro como fim e moeda de barganha com Deus.</td>
+                       <td style={{padding: '12px'}}>Ignora o sofrimento, distorce a graça e promove ganância.</td>
+                     </tr>
+                     <tr style={{borderBottom: '1px solid #eee', background: '#fafafa'}}>
+                       <td style={{padding: '12px', fontWeight: 'bold', color: '#e67700'}}>❌ Teologia da Miséria</td>
+                       <td style={{padding: '12px'}}>Dinheiro como mal inerente; pobreza como virtude.</td>
+                       <td style={{padding: '12px'}}>Nega promessas bíblicas de provisão e gera culpa legalista.</td>
+                     </tr>
+                     <tr style={{borderBottom: '1px solid #eee'}}>
+                       <td style={{padding: '12px', fontWeight: 'bold', color: '#2b8a3e'}}>✅ Equilíbrio Bíblico</td>
+                       <td style={{padding: '12px'}}>Dinheiro como bênção e instrumento de mordomia.</td>
+                       <td style={{padding: '12px'}}>Nenhum. Confia na soberania divina, trabalhando com afinco e retidão.</td>
+                     </tr>
+                   </tbody>
+                 </table>
+               </div>
+
+               <h2>🙏 Oração</h2>
+               <blockquote style={{borderLeft: '4px solid #722F37', background: '#fff9f9', padding: '1.5rem', margin: '2rem 0', fontStyle: 'italic'}}>
+                 Senhor Jesus,<br/>
+                 Dá-nos sabedoria para discernir entre a verdade e os extremos.<br/>
+                 Livra-nos da teologia da prosperidade e da teologia da miséria.<br/>
+                 Ajuda-nos a confiar nas Tuas promessas de provisão sem idolatrar o dinheiro.<br/>
+                 Que trabalhemos com afinco, ajamos com sabedoria e confiemos na Tua provisão sobrenatural.<br/>
+                 Que usemos os recursos que nos dás para Tua glória e o bem do próximo.<br/>
+                 Em nome de Jesus, amém.
+               </blockquote>
+
+               <h2>📖 Versículos para Meditação</h2>
+               <div style={{background: '#f8f9fa', borderLeft: '4px solid #0066cc', padding: '1.5rem', borderRadius: '0 8px 8px 0', margin: '2rem 0'}}>
+                 <p><strong>Efésios 6:2-3</strong> — "Honra o teu pai e a tua mãe, para que te vá bem, e tenhas vida longa sobre a terra."</p>
+                 <p><strong>3 João 1:2</strong> — "Amado, acima de tudo, faço votos por tua prosperidade e saúde, assim como é próspera a tua alma."</p>
+                 <p><strong>Salmo 1:3</strong> — "É como árvore plantada junto a corrente de águas, que, no devido tempo, dá o seu fruto, e cuja folhagem não murcha; e tudo quanto ele faz será bem-sucedido."</p>
+                 <p><strong>Filipenses 4:19</strong> — "O meu Deus suprirá todas as necessidades de vocês, de acordo com as suas gloriosas riquezas em Cristo Jesus."</p>
+                 <p><strong>Provérbios 10:22</strong> — "A bênção do SENHOR é que enriquece, e ele não acrescenta dores."</p>
+                 <p><strong>Mateus 6:33</strong> — "Buscai, pois, em primeiro lugar, o seu Reino e a sua justiça, e todas estas coisas vos serão acrescentadas."</p>
+               </div>
+
+               <h2>📚 Leituras Recomendadas</h2>
+               <ul style={{lineHeight: '1.8', marginBottom: '2rem'}}>
+                 <li><strong>"A Teologia da Prosperidade: Uma Análise Bíblica"</strong> — Vários autores (crítica equilibrada)</li>
+                 <li><strong>"Trabalho e Prosperidade na Perspectiva Bíblica"</strong> — Vários autores (visão reformada)</li>
+                 <li><strong>"A Ética Protestante e o Espírito do Capitalismo"</strong> — Max Weber (análise sociológica)</li>
+                 <li><strong>"Mordomia Cristã"</strong> — Vários autores (uso bíblico dos recursos)</li>
+                 <li><strong>"Contentamento e Generosidade"</strong> — Vários autores (equilíbrio bíblico)</li>
+               </ul>
+
+               <div style={{marginTop: '2rem', padding: '1.5rem', border: '1px solid #eee', borderRadius: '8px', background: '#fcfcfc', fontSize: '0.9rem', color: '#555'}}>
+                 <strong>📺 Fonte e Inspiração:</strong><br/>
+                 Este artigo foi desenvolvido como uma versão escrita e expandida baseada no conteúdo do canal <strong>Pastor Rodrigo Mocellin</strong> no YouTube.<br/><br/>
+                 Se você deseja assistir ao vídeo original e complementar seu estudo, confira:<br/>
+                 🔗 <a href="https://www.youtube.com/watch?v=hoBLRegpD8c" target="_blank" rel="noopener noreferrer" style={{color: '#0066cc'}}>Erro de reformados e pentecostais</a><br/><br/>
+                 Agradecemos ao Pastor Rodrigo Mocellin por compartilhar verdades bíblicas tão necessárias para nossos dias.
+               </div>
 
                <p style={{fontSize: '1.1rem', fontStyle: 'italic', color: '#555', textAlign: 'center', margin: '2rem 0'}}>
                  "Confie em Deus, trabalhe com afinco, aja com sabedoria e confie na provisão sobrenatural de Deus, porque aos seus amados Deus dá enquanto dormem."
@@ -4777,7 +4846,7 @@ function App() {
              
                <ArticleInfo date="25 de Junho de 2026" readingTime={9} />
               </div>
-             <img src="/justin_bieber_copa.jpg" alt="Nem todo o que me diz: Senhor, Senhor! entrará no reino dos céus — Mateus 7:21" className="article-hero-img" loading="lazy" style={{maxHeight: '450px', width: '100%', objectFit: 'cover', borderRadius: '12px'}} />
+             <img src="/justin_bieber_copa.webp" alt="Nem todo o que me diz: Senhor, Senhor! entrará no reino dos céus — Mateus 7:21" className="article-hero-img" fetchPriority="high" style={{maxHeight: '450px', width: '100%', objectFit: 'cover', borderRadius: '12px'}} />
              <div className="article-body">
                
                
@@ -4903,7 +4972,7 @@ function App() {
              
                <ArticleInfo date="25 de Junho de 2026" readingTime={10} />
               </div>
-             <img src="/vontade_de_deus.jpg" alt="Confia no SENHOR de todo o teu coração — Provérbios 3:5" className="article-hero-img" loading="lazy" style={{maxHeight: '450px', width: '100%', objectFit: 'cover', borderRadius: '12px'}} />
+             <img src="/vontade_de_deus.webp" alt="Confia no SENHOR de todo o teu coração — Provérbios 3:5" className="article-hero-img" fetchPriority="high" style={{maxHeight: '450px', width: '100%', objectFit: 'cover', borderRadius: '12px'}} />
              <div className="article-body">
                
                
@@ -5062,7 +5131,7 @@ function App() {
              
                <ArticleInfo date="25 de Junho de 2026" readingTime={10} />
               </div>
-             <img src="/descansando_justica.jpg" alt="Descansai no SENHOR e esperai nele — Salmo 37:7" className="article-hero-img" loading="lazy" style={{maxHeight: '450px', width: '100%', objectFit: 'cover', borderRadius: '12px'}} />
+             <img src="/descansando_justica.webp" alt="Descansai no SENHOR e esperai nele — Salmo 37:7" className="article-hero-img" fetchPriority="high" style={{maxHeight: '450px', width: '100%', objectFit: 'cover', borderRadius: '12px'}} />
              <div className="article-body">
                
                
@@ -5240,7 +5309,7 @@ function App() {
              
                <ArticleInfo date="25 de Junho de 2026" readingTime={8} />
               </div>
-             <img src="/forca_na_fraqueza.jpg" alt="O meu poder se aperfeiçoa na fraqueza — 2 Coríntios 12:9" className="article-hero-img" loading="lazy" style={{maxHeight: '450px', width: '100%', objectFit: 'cover', borderRadius: '12px'}} />
+             <img src="/forca_na_fraqueza.webp" alt="O meu poder se aperfeiçoa na fraqueza — 2 Coríntios 12:9" className="article-hero-img" fetchPriority="high" style={{maxHeight: '450px', width: '100%', objectFit: 'cover', borderRadius: '12px'}} />
              <div className="article-body">
                
                
@@ -5390,7 +5459,7 @@ function App() {
              
                <ArticleInfo date="25 de Junho de 2026" readingTime={8} />
               </div>
-             <img src="/presenca_anjos.jpg" alt="O anjo do SENHOR acampa-se ao redor dos que o temem — Salmo 34:7" className="article-hero-img" loading="lazy" style={{maxHeight: '450px', width: '100%', objectFit: 'cover', borderRadius: '12px'}} />
+             <img src="/presenca_anjos.webp" alt="O anjo do SENHOR acampa-se ao redor dos que o temem — Salmo 34:7" className="article-hero-img" fetchPriority="high" style={{maxHeight: '450px', width: '100%', objectFit: 'cover', borderRadius: '12px'}} />
              <div className="article-body">
                
                
@@ -5551,13 +5620,13 @@ function App() {
         ) : isDevocionais ? (
           <main className="section-mb">
             <div className="section-title" style={{marginBottom: '2rem'}}>
-              <h2>Devocionais</h2>
+              <h1 className="section-title-h1">Devocionais</h1>
             </div>
             <div className="grid-3" style={{marginTop: '2rem'}}>
 
               <div className="grid-3-item">
                 <a href="/voce-esta-no-limite-mas-deus-nao-te-abandonou-forca-na-fraqueza" style={{textDecoration: 'none', color: 'inherit'}}>
-                  <img src="/forca_na_fraqueza.jpg" alt="Força na Fraqueza" className="img-ph" loading="lazy" style={{objectFit: 'cover', aspectRatio: '16/9'}} />
+                  <img src="/forca_na_fraqueza.webp" alt="Força na Fraqueza" className="img-ph" loading="lazy" style={{objectFit: 'cover', aspectRatio: '16/9'}} />
                   <span className="cat-tag" style={{display: 'inline-block', marginBottom: '8px', marginTop: '12px'}}>DEVOCIONAIS</span>
                   <h3 style={{fontSize: '1.1rem', marginBottom: '8px', lineHeight: '1.4'}}>Você Está no Limite, Mas Deus Não Te Abandonou</h3>
                   <p style={{fontSize: '0.9rem', color: '#666', marginTop: '8px', marginBottom: '12px'}}>Descubra como a graça de Deus se aperfeiçoa exatamente onde você está mais fraco.</p>
@@ -5567,7 +5636,7 @@ function App() {
 
               <div className="grid-3-item">
                 <a href="/5-sinais-biblicos-presenca-anjos-sua-casa-ministerio-invisivel" style={{textDecoration: 'none', color: 'inherit'}}>
-                  <img src="/presenca_anjos.jpg" alt="Presença dos Anjos" className="img-ph" loading="lazy" style={{objectFit: 'cover', aspectRatio: '16/9'}} />
+                  <img src="/presenca_anjos.webp" alt="Presença dos Anjos" className="img-ph" loading="lazy" style={{objectFit: 'cover', aspectRatio: '16/9'}} />
                   <span className="cat-tag" style={{display: 'inline-block', marginBottom: '8px', marginTop: '12px'}}>DEVOCIONAIS</span>
                   <h3 style={{fontSize: '1.1rem', marginBottom: '8px', lineHeight: '1.4'}}>5 Sinais Bíblicos da Presença dos Anjos em Sua Casa</h3>
                   <p style={{fontSize: '0.9rem', color: '#666', marginTop: '8px', marginBottom: '12px'}}>Descubra como as Escrituras revelam o cuidado sobrenatural de Deus através de seus mensageiros celestiais.</p>
@@ -5577,7 +5646,7 @@ function App() {
 
               <div className="grid-3-item">
                 <a href="/antes-ler-comentario-pensar-por-si-mesmo-estudo-biblico" style={{textDecoration: 'none', color: 'inherit'}}>
-                  <img src="/estudo_biblico_reflexao.png" alt="Antes de Ler o Comentário" className="img-ph" loading="lazy" />
+                  <img src="/estudo_biblico_reflexao.webp" alt="Antes de Ler o Comentário" className="img-ph" loading="lazy" />
                   <span className="cat-tag" style={{display: 'inline-block', marginBottom: '8px', marginTop: '12px'}}>DEVOCIONAIS</span>
                   <h3 style={{fontSize: '1.1rem', marginBottom: '8px', lineHeight: '1.4'}}>Antes de Ler o Comentário: Pensar por Si Mesmo ao Estudar a Bíblia</h3>
                   <p style={{fontSize: '0.9rem', color: '#666', marginTop: '8px', marginBottom: '12px'}}>Um chamado para resgatar a responsabilidade pessoal no estudo das Escrituras e usar ativamente a mente que Deus nos deu.</p>
@@ -5585,7 +5654,7 @@ function App() {
               </div>
               <div className="grid-3-item">
                 <a href="/meus-planos-e-a-graca-de-deus-arquiteto-do-lar" style={{textDecoration: 'none', color: 'inherit'}}>
-                  <img src="/arquiteto_do_lar.png" alt="Meus Planos e a Graça de Deus" className="img-ph" loading="lazy" />
+                  <img src="/arquiteto_do_lar.webp" alt="Meus Planos e a Graça de Deus" className="img-ph" loading="lazy" />
                   <span className="cat-tag" style={{display: 'inline-block', marginBottom: '8px', marginTop: '12px'}}>DEVOCIONAIS</span>
                   <h3 style={{fontSize: '1.1rem', marginBottom: '8px', lineHeight: '1.4'}}>Meus Planos e a Graça de Deus</h3>
                   <p style={{fontSize: '0.9rem', color: '#666', marginTop: '8px', marginBottom: '12px'}}>Deus, Arquiteto do lar — Em tudo isso, porém, é a graça de Deus que nos dirige e nos capacita a avançar.</p>
@@ -5593,7 +5662,7 @@ function App() {
               </div>
               <div className="grid-3-item">
                 <a href="/custo-real-do-discipulado-caminhar-na-fe" style={{textDecoration: 'none', color: 'inherit'}}>
-                  <img src="/discipulado_custo.png" alt="O Custo Real do Discipulado" className="img-ph" loading="lazy" />
+                  <img src="/discipulado_custo.webp" alt="O Custo Real do Discipulado" className="img-ph" loading="lazy" />
                   <span className="cat-tag" style={{display: 'inline-block', marginBottom: '8px', marginTop: '12px'}}>DEVOCIONAIS</span>
                   <h3 style={{fontSize: '1.1rem', marginBottom: '8px', lineHeight: '1.4'}}>O Custo Real do Discipulado</h3>
                   <p style={{fontSize: '0.9rem', color: '#666', marginTop: '8px', marginBottom: '12px'}}>Reflexão profunda sobre o que realmente significa caminhar na fé e tomar a cruz.</p>
@@ -5601,7 +5670,7 @@ function App() {
               </div>
               <div className="grid-3-item">
                 <a href="/artigo/sermao-do-monte" style={{textDecoration: 'none', color: 'inherit'}}>
-                  <img src="/sermao-do-monte.png" alt="Sermão do Monte" className="img-ph" loading="lazy" />
+                  <img src="/sermao-do-monte.webp" alt="Sermão do Monte" className="img-ph" loading="lazy" />
                   <span className="cat-tag" style={{display: 'inline-block', marginBottom: '8px', marginTop: '12px'}}>DEVOCIONAIS</span>
                   <h3 style={{fontSize: '1.1rem', marginBottom: '8px', lineHeight: '1.4'}}>Sermão do Monte: As Bem-Aventuranças e a Nova Constituição do Reino</h3>
                   <p style={{fontSize: '0.9rem', color: '#666', marginTop: '8px', marginBottom: '12px'}}>Jesus estabeleceu a constituição de um novo Reino e inverteu a lógica do mundo...</p>
@@ -5610,7 +5679,7 @@ function App() {
               </div>
               <div className="grid-3-item">
                 <a href="/silencio-deus-dificuldades-charles-spurgeon" style={{textDecoration: 'none', color: 'inherit'}}>
-                  <img src="/silence_of_god.png" alt="O Silêncio de Deus" className="img-ph" loading="lazy" />
+                  <img src="/silence_of_god.webp" alt="O Silêncio de Deus" className="img-ph" loading="lazy" />
                   <span className="cat-tag" style={{display: 'inline-block', marginBottom: '8px', marginTop: '12px'}}>DEVOCIONAIS</span>
                   <h3 style={{fontSize: '1.1rem', marginBottom: '8px', lineHeight: '1.4'}}>O Silêncio de Deus nas Dificuldades: Confiando no Caráter Revelado do Senhor</h3>
                   <p style={{fontSize: '0.9rem', color: '#666', marginTop: '8px', marginBottom: '12px'}}>Quando clamamos e parecemos não ouvir resposta, devemos confiar no caráter revelado do Senhor ao invés de nossos sentimentos...</p>
@@ -5619,7 +5688,7 @@ function App() {
               </div>
               <div className="grid-3-item">
                 <a href="/como-ler-biblia-inteira-2026-metodos-praticos" style={{textDecoration: 'none', color: 'inherit'}}>
-                  <img src="/metodos_biblia.png" alt="Leitura Bíblica" className="img-ph" loading="lazy" />
+                  <img src="/metodos_biblia.webp" alt="Leitura Bíblica" className="img-ph" loading="lazy" />
                   <span className="cat-tag" style={{display: 'inline-block', marginBottom: '8px', marginTop: '12px'}}>DEVOCIONAIS</span>
                   <h3 style={{fontSize: '1.1rem', marginBottom: '8px', lineHeight: '1.4'}}>5 Méticos Práticos para Ler a Bíblia Inteira em 2026</h3>
                   <p style={{fontSize: '0.9rem', color: '#666', marginTop: '8px', marginBottom: '12px'}}>Descubra 5 métodos práticos e testados para ler a Bíblia inteira em 2026, mesmo com rotina corrida. Técnicas flexíveis, aplicativos recomendados e o segredo da constância.</p>
@@ -5638,7 +5707,7 @@ function App() {
             
                <ArticleInfo date="2 de Julho de 2026" readingTime={15} />
               </div>
-            <img src="/trindade.png" alt="A Trindade" className="article-hero-img" loading="lazy" style={{maxHeight: '450px', width: '100%', objectFit: 'cover', borderRadius: '12px'}} />
+            <img src="/trindade.webp" alt="A Trindade" className="article-hero-img" fetchPriority="high" style={{maxHeight: '450px', width: '100%', objectFit: 'cover', borderRadius: '12px'}} />
             <div className="article-body" style={{lineHeight: '1.8', fontSize: '1.1rem', marginTop: '2rem'}}>
               <p>A doutrina da Trindade é um dos pilares mais fundamentais e gloriosos da fé cristã. Ela afirma que há um só Deus, eternamente subsistente em três Pessoas distintas: o Pai, o Filho e o Espírito Santo. Cremos em um único Deus no que diz respeito à Sua essência, mas em três Pessoas no que diz respeito à Sua personalidade.</p>
               
@@ -5737,7 +5806,7 @@ function App() {
             
                <ArticleInfo date="2 de Julho de 2026" readingTime={13} />
               </div>
-            <img src="/santificacao.png" alt="Santificação" className="article-hero-img" loading="lazy" style={{maxHeight: '450px', width: '100%', objectFit: 'cover', borderRadius: '12px'}} />
+            <img src="/santificacao.webp" alt="Santificação" className="article-hero-img" fetchPriority="high" style={{maxHeight: '450px', width: '100%', objectFit: 'cover', borderRadius: '12px'}} />
             <div className="article-body" style={{lineHeight: '1.8', fontSize: '1.1rem', marginTop: '2rem'}}>
               <p>Muitas vezes confundida com perfeccionismo moralista ou mero cumprimento de regras externas, a santificação bíblica é a obra graciosa e contínua do Espírito Santo em cooperatividade com o crente, conformando-o à imagem de Jesus Cristo.</p>
 
@@ -5853,7 +5922,7 @@ function App() {
                <ArticleInfo readingTime={12} />
               </div>
              
-             <img src="/george_muller_pao.png" alt="George Müller orando com órfãos" className="article-hero-img" loading="lazy" />
+             <img src="/george_muller_pao.webp" alt="George Müller orando com órfãos" className="article-hero-img" fetchPriority="high" />
 
              <p>Como um homem consegue cuidar de dez mil órfãos e arrecadar milhões de dólares (em valores atuais) sem pedir uma única doação ou jamais contrair dívidas?</p>
              
@@ -6783,7 +6852,7 @@ function App() {
                <ArticleInfo date="11 de Junho de 2026" readingTime={15} />
               </div>
              
-             <img src="/worship_hero.png" alt="Coração Igual ao Teu - Julliany Souza" className="article-hero-img" loading="lazy" />
+             <img src="/worship_hero.webp" alt="Coração Igual ao Teu - Julliany Souza" className="article-hero-img" fetchPriority="high" />
              
              <p>Em 2026, uma canção tem ecoado profundamente nos corações dos cristãos brasileiros: <strong>"Ah Jesus - Coração Igual ao Teu"</strong>, da cantora <strong>Julliany Souza</strong>. Com uma letra que expõe a alma humana em sua fragilidade e clama por transformação radical, esse louvor tem tocado milhões de pessoas.</p>
              <p>Mas o que torna essa canção tão poderosa? São as <strong>verdades bíblicas profundas</strong> que ela carrega. Neste artigo, vamos explorar os principais temas da música à luz das Escrituras.</p>
@@ -6926,7 +6995,7 @@ function App() {
                <ArticleInfo date="11 de Junho de 2026" readingTime={11} />
               </div>
              
-             <img src="/silence_of_god.png" alt="O Silêncio de Deus" className="article-hero-img" loading="lazy" />
+             <img src="/silence_of_god.webp" alt="O Silêncio de Deus" className="article-hero-img" fetchPriority="high" />
              
              <p><em>"Até quando, SENHOR, continuamente clamarei, e tu não me ouvirás? Gritarei: Violência! E não salvarás?"</em> — Habacuque 1:2</p>
              <p>Há momentos na jornada cristã em que o céu parece de bronze. Clamamos, oramos, jejuamos, mas parecem não haver respostas. O silêncio de Deus é uma das experiências mais angustiantes que um crente pode enfrentar. Contudo, é precisamente nesses momentos que somos chamados a confiar não em nossos sentimentos, mas no caráter imutável do Senhor conforme revelado em Sua Palavra.</p>
@@ -7027,7 +7096,7 @@ function App() {
                <ArticleInfo date="11 de Junho de 2026" readingTime={13} />
               </div>
              
-             <img src="/eleicao.png" alt="A Doutrina da Eleição Incondicional" className="article-hero-img" loading="lazy" />
+             <img src="/eleicao.webp" alt="A Doutrina da Eleição Incondicional" className="article-hero-img" fetchPriority="high" />
              
              <p>A doutrina da eleição incondicional é, sem dúvida, uma das verdades mais gloriosas, mais confortadoras e, simultaneamente, mais mal compreendidas de toda a teologia cristã. Para muitos, soa como arbitrariedade divina ou fatalismo frio. Para a Igreja Reformada, contudo, é o coração pulsante do Evangelho: a declaração inequívoca de que a salvação, do início ao fim, é obra exclusiva de Deus.</p>
              <p>Neste estudo, mergulharemos nas Escrituras, na história da Igreja e na pastoral cristã para desvendar não apenas o <em>que</em> a Bíblia ensina sobre a eleição, mas <em>por que</em> essa verdade deve nos levar a joelhos, não a debates estéreis.</p>
@@ -7148,7 +7217,7 @@ function App() {
                <ArticleInfo date="11 de Junho de 2026" readingTime={12} />
               </div>
              
-             <img src="/galatas.png" alt="A Carta aos Gálatas e a Liberdade Cristã" className="article-hero-img" loading="lazy" />
+             <img src="/galatas.webp" alt="A Carta aos Gálatas e a Liberdade Cristã" className="article-hero-img" fetchPriority="high" />
              
              <p><em>"Foi para a liberdade que Cristo nos libertou. Portanto, permaneçam firmes e não se deixem submeter novamente a um jugo de escravidão."</em> — Gálatas 5:1</p>
              <p>A Carta aos Gálatas é, sem exagero, a <strong>Magna Carta da liberdade cristã</strong>. Martinho Lutero, que a chamava de "minha epístola", disse certa vez: <em>"Eu me casei com a Carta aos Gálatas."</em> Por quê? Porque nela encontramos o coração do Evangelho em sua forma mais pura, mais combativa e mais libertadora.</p>
@@ -7551,7 +7620,7 @@ function App() {
                <ArticleInfo date="23 de Junho de 2026" readingTime={9} />
               </div>
              
-             <img src="/ana_orando.png" alt="Ana Orando no Tabernáculo" className="article-hero-img" loading="lazy" />
+             <img src="/ana_orando.webp" alt="Ana Orando no Tabernáculo" className="article-hero-img" fetchPriority="high" />
              
              <div style={{background: '#f9f9f9', borderLeft: '4px solid #8B0000', padding: '15px', margin: '20px 0'}}>
                <p style={{margin: 0, fontStyle: 'italic'}}>"Então Eli respondeu: Vai em paz, e o Deus de Israel te conceda a petição que lhe fizeste." — 1 Samuel 1:17</p>
@@ -7705,7 +7774,7 @@ function App() {
                <ArticleInfo date="23 de Junho de 2026" readingTime={10} />
               </div>
              
-             <img src="/ester_rainha.png" alt="Rainha Ester" className="article-hero-img" loading="lazy" />
+             <img src="/ester_rainha.webp" alt="Rainha Ester" className="article-hero-img" fetchPriority="high" />
              
              <div style={{background: '#f9f9f9', borderLeft: '4px solid #8B0000', padding: '15px', margin: '20px 0'}}>
                <p style={{margin: 0, fontStyle: 'italic'}}>"Porque, se de todo te calares agora, de outra parte se levantarão socorro e livramento para os judeus, mas tu e a casa de teu pai perecereis; e quem sabe se para tal tempo como este chegaste a este reino?" — Ester 4:14</p>
@@ -7862,7 +7931,7 @@ function App() {
                <ArticleInfo date="23 de Junho de 2026" readingTime={10} />
               </div>
              
-             <img src="/davi_pastor.png" alt="Davi o Jovem Pastor" className="article-hero-img" loading="lazy" />
+             <img src="/davi_pastor.webp" alt="Davi o Jovem Pastor" className="article-hero-img" fetchPriority="high" />
              
              <div style={{background: '#f9f9f9', borderLeft: '4px solid #8B0000', padding: '15px', margin: '20px 0'}}>
                <p style={{margin: 0, fontStyle: 'italic'}}>"Porém o SENHOR disse a Samuel: Não atentes para a sua aparência, nem para a grandeza da sua estatura, porque eu o rejeitei; porque o SENHOR não vê como vê o homem. O homem vê o exterior, porém o SENHOR, o coração." — 1 Samuel 16:7</p>
@@ -7999,7 +8068,7 @@ function App() {
                <ArticleInfo date="22 de Junho de 2026" readingTime={14} />
               </div>
              
-             <img src="/cinco_solas.png" alt="As Cinco Solas da Reforma" className="article-hero-img" loading="lazy" />
+             <img src="/cinco_solas.webp" alt="As Cinco Solas da Reforma" className="article-hero-img" fetchPriority="high" />
              
              <p>Em 1517, Martinho Lutero deu início à Reforma Protestante ao pregar suas 95 teses na porta da igreja do castelo de Wittenberg. Mais do que um protesto contra abusos clericais, a Reforma foi um retorno às raízes do Evangelho. Desse movimento histórico surgiram cinco princípios fundamentais que moldaram a teologia cristã: as <strong>Cinco Solas</strong>.</p>
              <p>A palavra latina "Sola" significa "somente". Elas não eram apenas chavões teológicos, mas declarações vitais que diferenciavam o verdadeiro evangelho das adições humanas. Mas será que elas ainda importam hoje? A resposta é um retumbante <em>sim</em>.</p>
@@ -8118,7 +8187,7 @@ function App() {
                <ArticleInfo date="11 de Junho de 2026" readingTime={8} />
               </div>
              
-             <img src="/provisao.png" alt="O Milagre do Cachorro que Trouxe Dinheiro na Boca" className="article-hero-img" loading="lazy" />
+             <img src="/provisao.webp" alt="O Milagre do Cachorro que Trouxe Dinheiro na Boca" className="article-hero-img" fetchPriority="high" />
              
              <p><em>"Louvai ao SENHOR, porque ele é bom, porque a sua misericórdia dura para sempre."</em> — Salmo 136:1</p>
              <p>Há testemunhos que não apenas nos emocionam, mas nos ensinam lições profundas sobre fé, provisão divina e o caráter de Deus. Esta é a história real de uma mãe de doze filhos que, enfrentando oito dias sem pão na mesa, aprendeu da maneira mais extraordinária que <strong>Deus honra aqueles que confiam nEle sem murmurar</strong>.</p>
@@ -8386,7 +8455,7 @@ function App() {
                <ArticleInfo date="25 de Junho de 2026" readingTime={18} />
               </div>
 
-              <img src="/copa_mundo_fe.png" alt="Copa do Mundo 2026 e Fé Cristã" className="article-hero-img" loading="lazy" />
+              <img src="/copa_mundo_fe.webp" alt="Copa do Mundo 2026 e Fé Cristã" className="article-hero-img" fetchPriority="high" />
 
               <div className="copa-info-box" style={{background:'#f0f7ff', border:'1px solid #cde0f5', borderRadius:'12px', padding:'24px', margin:'30px 0', textAlign:'center'}}>
                 <h3 style={{margin:'0 0 16px', fontSize:'1.2rem'}}>⚽ Copa do Mundo FIFA 2026 — Dados</h3>
@@ -8580,7 +8649,7 @@ function App() {
                <ArticleInfo date="25 de Junho de 2026" readingTime={14} />
               </div>
 
-              <img src="/discipulado_custo.png" alt="O Custo Real do Discipulado" className="article-hero-img" loading="lazy" />
+              <img src="/discipulado_custo.webp" alt="O Custo Real do Discipulado" className="article-hero-img" fetchPriority="high" />
 
               <p>Há um momento em todo relacionamento genuíno de discipulado em que a conversa deixa de girar em torno de conceitos gerais e passa a encarar a realidade nua e crua da vida do outro. A energia inicial dá lugar ao silêncio. A conveniência cede espaço ao desconforto. E é exatamente aí que descobrimos o <strong>verdadeiro preço de caminhar lado a lado na fé</strong>.</p>
 
@@ -8720,7 +8789,7 @@ function App() {
              
                <ArticleInfo date="25 de Junho de 2026" readingTime={8} />
               </div>
-             <img src="/sim_sim_nao_nao.jpg" alt="Balança da justiça sobre Bíblia" className="article-hero-img" loading="lazy" style={{maxHeight: '450px', width: '100%', objectFit: 'cover', borderRadius: '12px'}} />
+             <img src="/sim_sim_nao_nao.webp" alt="Balança da justiça sobre Bíblia" className="article-hero-img" fetchPriority="high" style={{maxHeight: '450px', width: '100%', objectFit: 'cover', borderRadius: '12px'}} />
              <div className="article-body">
                
                <h2>A Cultura das Meias-Verdades</h2>
@@ -8870,7 +8939,7 @@ function App() {
              
                <ArticleInfo date="25 de Junho de 2026" readingTime={9} />
               </div>
-             <img src="/falsos_lideres.png" alt="Ovelha solitária ouvindo a voz do pastor" className="article-hero-img" loading="lazy" style={{maxHeight: '450px', width: '100%', objectFit: 'cover', borderRadius: '12px'}} />
+             <img src="/falsos_lideres.webp" alt="Ovelha solitária ouvindo a voz do pastor" className="article-hero-img" fetchPriority="high" style={{maxHeight: '450px', width: '100%', objectFit: 'cover', borderRadius: '12px'}} />
              <div className="article-body">
                
                <h2>Uma Voz no Escuro</h2>
@@ -9094,7 +9163,7 @@ function App() {
              
                <ArticleInfo date="25 de Junho de 2026" readingTime={8} />
               </div>
-             <img src="/limites_biblicos.png" alt="Limites Bíblicos e Sabedoria" className="article-hero-img" loading="lazy" style={{maxHeight: '450px', width: '100%', objectFit: 'cover', borderRadius: '12px'}} />
+             <img src="/limites_biblicos.webp" alt="Limites Bíblicos e Sabedoria" className="article-hero-img" fetchPriority="high" style={{maxHeight: '450px', width: '100%', objectFit: 'cover', borderRadius: '12px'}} />
              <div className="article-body">
                
                <h2>A Exaustão de Ajudar Sem Limites</h2>
@@ -9303,7 +9372,7 @@ function App() {
              
                <ArticleInfo date="25 de Junho de 2026" readingTime={7} />
               </div>
-             <img src="/proverbios_financas.png" alt="Provérbios e a Prosperidade Financeira" className="article-hero-img" loading="lazy" style={{maxHeight: '450px', width: '100%', objectFit: 'cover', borderRadius: '12px'}} />
+             <img src="/proverbios_financas.webp" alt="Provérbios e a Prosperidade Financeira" className="article-hero-img" fetchPriority="high" style={{maxHeight: '450px', width: '100%', objectFit: 'cover', borderRadius: '12px'}} />
              <div className="article-body">
                
                <h2>A Ilusão Moderna e a Sabedoria Antiga</h2>
@@ -9438,7 +9507,7 @@ function App() {
              
                <ArticleInfo date="25 de Junho de 2026" readingTime={7} />
               </div>
-             <img src="/maternidade_biblica.png" alt="O Papel da Mãe Segundo a Bíblia" className="article-hero-img" loading="lazy" style={{maxHeight: '450px', width: '100%', objectFit: 'cover', borderRadius: '12px'}} />
+             <img src="/maternidade_biblica.webp" alt="O Papel da Mãe Segundo a Bíblia" className="article-hero-img" fetchPriority="high" style={{maxHeight: '450px', width: '100%', objectFit: 'cover', borderRadius: '12px'}} />
              <div className="article-body">
                
                <h2>A Maternidade Moderna e a Culpa</h2>
@@ -9591,7 +9660,7 @@ function App() {
                <ArticleInfo date="25 de Junho de 2026" readingTime={16} />
               </div>
 
-              <img src="/estado_intermediario.png" alt="O Estado Intermediário e a Esperança da Ressurreição" className="article-hero-img" loading="lazy" />
+              <img src="/estado_intermediario.webp" alt="O Estado Intermediário e a Esperança da Ressurreição" className="article-hero-img" fetchPriority="high" />
 
               <p>A morte é uma realidade inevitável, mas para o cristão, ela não é o fim. No entanto, muitos crentes ficam confusos sobre o que exatamente acontece quando morremos. A alma vai imediatamente para o céu? Ou permanece em algum estado de "sono" até a ressurreição? Neste estudo, exploraremos o que as Escrituras ensinam sobre o estado intermediário e como a segunda vinda de Cristo se relaciona com essa realidade.</p>
 
@@ -9741,7 +9810,7 @@ function App() {
                <ArticleInfo date="14 de Julho de 2026" readingTime={7} />
               </div>
 
-              <img src="/arquiteto_do_lar.png" alt="Deus, Arquiteto do Lar" className="article-hero-img" loading="lazy" />
+              <img src="/arquiteto_do_lar.webp" alt="Deus, Arquiteto do Lar" className="article-hero-img" fetchPriority="high" />
 
               <p>Você faz planos para 2026. Elabora um programa de atividades físicas aliado a uma dieta com o objetivo de desinflamar o corpo, emagrecer e ganhar mais tempo de vida com saúde. Decide que finalmente concluirá aquele curso on-line que já começou, embora mal se lembre do que aprendeu nas primeiras aulas. Além disso, estabelece metas de aperfeiçoamento profissional que prometem garantir uma posição mais interessante na empresa em que trabalha.</p>
 
@@ -9808,7 +9877,7 @@ function App() {
                <ArticleInfo date="25 de Junho de 2026" readingTime={12} />
               </div>
 
-              <img src="/marcos3_discipulos.png" alt="Jesus e seus discípulos" className="article-hero-img" loading="lazy" />
+              <img src="/marcos3_discipulos.webp" alt="Jesus e seus discípulos" className="article-hero-img" fetchPriority="high" />
 
               <blockquote style={{borderLeft:'4px solid #722F37', background:'#fff9f9', padding:'1.2rem 1.5rem', margin:'1.5rem 0', borderRadius:'4px'}}>
                 <p><em>"O caminho de Jesus estava intimamente ligado à obediência à vontade de Deus. Portanto, a própria experiência de rejeição de Jesus por sua família serve como modelo para um discipulado que pode muito bem custar a outros seus laços familiares."</em> — <strong>Robert Guelich</strong></p>
@@ -9943,7 +10012,7 @@ function App() {
                <ArticleInfo date="25 de Junho de 2026" readingTime={14} />
               </div>
 
-              <img src="/estudo_biblico_reflexao.png" alt="Pessoa lendo a Bíblia e fazendo anotações" className="article-hero-img" loading="lazy" />
+              <img src="/estudo_biblico_reflexao.webp" alt="Pessoa lendo a Bíblia e fazendo anotações" className="article-hero-img" fetchPriority="high" />
 
               <p>Você já parou para pensar em como sua relação com Deus mudaria se, antes de abrir um comentário bíblico ou devocional, você parasse para refletir por si mesmo sobre o texto das Escrituras? Vivemos em uma era de acesso ilimitado à informação. Bíblias de estudo, comentários teológicos, devocionais diários, podcasts, vídeos no YouTube — nunca tivemos tantas ferramentas à disposição. E isso é maravilhoso! Mas há um perigo silencioso que ronda muitos cristãos sinceros: <strong>delegar a outros o que é nossa responsabilidade fazer.</strong></p>
 
@@ -10123,14 +10192,15 @@ function App() {
            </main>
          ) : isHome ? (
           <>
+            <h1 className="sr-only">Soli Deo Gloria: estudos bíblicos, teologia reformada, devocionais e testemunhos cristãos</h1>
             {/* PRIMEIRA DOBRA (HERO MAGAZINE) - 60 / 20 / 20 */}
             <section className="section-mb">
               <div className="hero-main" style={{ marginBottom: '80px', position: 'relative' }}>
                 <a href={heroArticles[currentHeroIndex].link} className="hero-main-link" style={{textDecoration: 'none', color: 'inherit'}}>
-                  <img src={heroArticles[currentHeroIndex].image} alt={heroArticles[currentHeroIndex].title} className="img-ph" loading="lazy" style={{objectFit: 'cover', width: '100%', height: '100%'}} />
+                  <img src={heroArticles[currentHeroIndex].image} alt={heroArticles[currentHeroIndex].title} className="img-ph" fetchPriority="high" style={{objectFit: 'cover', width: '100%', height: '100%'}} />
                   <div className="hero-main-text" style={{display: 'flex', flexDirection: 'column', justifyContent: 'center'}}>
                     <span className="cat-tag">{heroArticles[currentHeroIndex].tag}</span>
-                    <h1 style={{marginTop: '10px'}}>{heroArticles[currentHeroIndex].title}</h1>
+                    <h2 className="hero-title" style={{marginTop: '10px'}}>{heroArticles[currentHeroIndex].title}</h2>
                     <p className="excerpt">
                       {heroArticles[currentHeroIndex].excerpt}
                     </p>
@@ -10158,7 +10228,7 @@ function App() {
               <div className="hero-bottom-articles">
                 <div className="split-card">
                   <a href="/cinco-solas-relevancia-hoje-reforma-protestante" style={{textDecoration: 'none', color: 'inherit'}}>
-                    <img src="/cinco_solas.png" alt="As Cinco Solas e Sua Relevância Hoje" loading="lazy" />
+                    <img src="/cinco_solas.webp" alt="As Cinco Solas e Sua Relevância Hoje" loading="lazy" />
                     <div className="split-card-content">
                       <h4>As Cinco Solas e Sua Relevância Hoje: Os Pilares da Reforma que Ainda Transformam Vidas</h4>
                       <div className="meta">📖 <strong>Texto Base:</strong> Jó 42:2</div>
@@ -10170,7 +10240,7 @@ function App() {
                 </div>
                 <div className="split-card">
                   <a href="/ana-mae-orou-chorou-gerou-profeta-samuel" style={{textDecoration: 'none', color: 'inherit'}}>
-                    <img src="/ana_orando.png" alt="Ana: A Mãe que Orou, Chorou e Gerou um Profeta" loading="lazy" />
+                    <img src="/ana_orando.webp" alt="Ana: A Mãe que Orou, Chorou e Gerou um Profeta" loading="lazy" />
                     <div className="split-card-content">
                       <h4>Ana: A Mãe que Orou, Chorou e Gerou um Profeta</h4>
                       <div className="meta">📖 <strong>Texto Base:</strong> 1 Samuel 16</div>
@@ -10195,7 +10265,7 @@ function App() {
               <div className="grid-2">
                 <div className="split-card">
                   <a href="/amor-aos-inimigos-chamado-radical-jesus-sermao-monte-mateus-5-43-48" style={{textDecoration: 'none', color: 'inherit'}}>
-                    <img src="/amor_aos_inimigos.jpg" alt="O Amor aos Inimigos (Mateus 5:43-48)" loading="lazy" />
+                    <img src="/amor_aos_inimigos.webp" alt="O Amor aos Inimigos (Mateus 5:43-48)" loading="lazy" />
                     <div className="split-card-content">
                       <h4>O Amor aos Inimigos: O Chamado Radical de Jesus no Sermão do Monte</h4>
                       <div className="meta">📖 <strong>Texto Base:</strong> Mateus 5:44</div>
@@ -10204,7 +10274,7 @@ function App() {
                 </div>
                 <div className="split-card">
                   <a href="/o-que-nao-e-discipulado-3-erros-distorcem-chamado-jesus" style={{textDecoration: 'none', color: 'inherit'}}>
-                    <img src="/discipulado_3_erros.jpg" alt="O Que NÃO É Discipulado: 3 Erros que Distorcem o Chamado de Jesus" loading="lazy" />
+                    <img src="/discipulado_3_erros.webp" alt="O Que NÃO É Discipulado: 3 Erros que Distorcem o Chamado de Jesus" loading="lazy" />
                     <div className="split-card-content">
                       <h4>O Que NÃO É Discipulado: 3 Erros que Distorcem o Chamado de Jesus</h4>
                       <div className="meta">📖 <strong>Texto Base:</strong> Mateus 28:19-20</div>
@@ -10213,7 +10283,7 @@ function App() {
                 </div>
                 <div className="split-card">
                   <a href="/deus-honrou-fe-testemunho-milagres-provisao-divina" style={{textDecoration: 'none', color: 'inherit'}}>
-                    <img src="/provisao.png" alt="Deus Honrou a Fé Dela" loading="lazy" />
+                    <img src="/provisao.webp" alt="Deus Honrou a Fé Dela" loading="lazy" />
                     <div className="split-card-content">
                       <h4>Deus Honrou a Fé Dela: O Milagre do Cachorro que Trouxe Dinheiro na Boca</h4>
                       <div className="meta">📖 <strong>Texto Base:</strong> Filipenses 4:19</div>
@@ -10222,7 +10292,7 @@ function App() {
                 </div>
                 <div className="split-card">
                   <a href="/artigo/sarca-ardente" style={{textDecoration: 'none', color: 'inherit'}}>
-                    <img src="/sarca-ardente.jpg" alt="A Sarça Ardente" loading="lazy" />
+                    <img src="/sarca-ardente.webp" alt="A Sarça Ardente" loading="lazy" />
                     <div className="split-card-content">
                       <h4>A Sarça Ardente: Quando Deus Encontrou Moisés no Deserto</h4>
                       <div className="meta">📖 <strong>Texto Base:</strong> Gálatas 5:1</div>
@@ -10231,7 +10301,7 @@ function App() {
                 </div>
                 <div className="split-card">
                   <a href="/ester-rainha-salvou-povo-deus-age-sombras" style={{textDecoration: 'none', color: 'inherit'}}>
-                    <img src="/ester_rainha.png" alt="Rainha Ester" loading="lazy" />
+                    <img src="/ester_rainha.webp" alt="Rainha Ester" loading="lazy" />
                     <div className="split-card-content">
                       <h4>Ester: A Rainha que Salvou um Povo</h4>
                       <div className="meta">📖 <strong>Texto Base:</strong> 1 Samuel 1</div>
@@ -10240,7 +10310,7 @@ function App() {
                 </div>
                 <div className="split-card">
                   <a href="/carta-galatas-liberdade-crista-estudo-completo" style={{textDecoration: 'none', color: 'inherit'}}>
-                    <img src="/galatas.png" alt="A Carta aos Gálatas e a Liberdade Cristã" loading="lazy" />
+                    <img src="/galatas.webp" alt="A Carta aos Gálatas e a Liberdade Cristã" loading="lazy" />
                     <div className="split-card-content">
                       <h4>A Carta aos Gálatas e a Liberdade Cristã: O Evangelho da Graça Contra o Legalismo</h4>
                       <div className="meta">📖 <strong>Texto Base:</strong> 1 Samuel 3:10</div>
@@ -10263,7 +10333,7 @@ function App() {
               <div className="grid-3">
                 <div className="grid-3-item">
                   <a href="/artigo/sermao-do-monte" style={{textDecoration: 'none', color: 'inherit'}}>
-                    <img src="/sermao-do-monte.png" alt="Sermão do Monte" className="img-ph" loading="lazy" />
+                    <img src="/sermao-do-monte.webp" alt="Sermão do Monte" className="img-ph" loading="lazy" />
                     <h3>Sermão do Monte: As Bem-Aventuranças e a Nova Constituição do Reino</h3>
                     <p>Jesus estabeleceu a constituição de um novo Reino e inverteu a lógica do mundo...</p>
                     <div className="meta">📖 <strong>Texto Base:</strong> Romanos 1:17</div>
@@ -10271,7 +10341,7 @@ function App() {
                 </div>
                 <div className="grid-3-item">
                   <a href="/silencio-deus-dificuldades-charles-spurgeon" style={{textDecoration: 'none', color: 'inherit'}}>
-                    <img src="/silence_of_god.png" alt="O Silêncio de Deus" className="img-ph" loading="lazy" />
+                    <img src="/silence_of_god.webp" alt="O Silêncio de Deus" className="img-ph" loading="lazy" />
                     <h3>O Silêncio de Deus nas Dificuldades: Confiando no Caráter Revelado do Senhor</h3>
                     <p>Quando clamamos e parecemos não ouvir resposta, devemos confiar no caráter revelado do Senhor ao invés de nossos sentimentos...</p>
                     <div className="meta">📖 <strong>Texto Base:</strong> Efésios 2:8</div>
@@ -10279,7 +10349,7 @@ function App() {
                 </div>
                 <div className="grid-3-item">
                   <a href="/como-ler-biblia-inteira-2026-metodos-praticos" style={{textDecoration: 'none', color: 'inherit'}}>
-                    <img src="/metodos_biblia.png" alt="Leitura Bíblica" className="img-ph" loading="lazy" />
+                    <img src="/metodos_biblia.webp" alt="Leitura Bíblica" className="img-ph" loading="lazy" />
                     <h3>5 Métodos Práticos para Ler a Bíblia Inteira em 2026</h3>
                     <p>Descubra 5 métodos práticos e testados para ler a Bíblia inteira em 2026, mesmo com rotina corrida. Técnicas flexíveis, aplicativos recomendados e o segredo da constância.</p>
                     <div className="meta">📖 <strong>Texto Base:</strong> Filipenses 4:19</div>
@@ -10299,7 +10369,7 @@ function App() {
                     <h3>TEOLOGIA</h3>
                   </div>
                   <div className="split-card">
-                    <img src="/eleicao.png" alt="A Doutrina da Eleição Incondicional" />
+                    <img src="/eleicao.webp" alt="A Doutrina da Eleição Incondicional" loading="lazy" />
                     <div className="split-card-content">
                       <h4>A Doutrina da Eleição Incondicional</h4>
                       <div className="meta">JOÃO CALVINO</div>
@@ -10318,7 +10388,7 @@ function App() {
                     <h3>DOGMÁTICA</h3>
                   </div>
                   <div className="split-card">
-                    <img src="/trindade.png" alt="A Trindade: Um só Deus em Três Pessoas" />
+                    <img src="/trindade.webp" alt="A Trindade: Um só Deus em Três Pessoas" loading="lazy" />
                     <div className="split-card-content">
                       <h4>A Trindade: Um só Deus em Três Pessoas</h4>
                       <div className="meta">R.C. SPROUL</div>
@@ -10336,6 +10406,8 @@ function App() {
             
             <Newsletter />
           </>
+        ) : (isDeusDetermina || isInconstancia || isSofrimento || isPosicionamento) ? (
+          <RecentArticles isDeusDetermina={isDeusDetermina} isInconstancia={isInconstancia} isSofrimento={isSofrimento} isPosicionamento={isPosicionamento} />
         ) : (
           <NotFoundPage />
         )}
@@ -10391,4 +10463,5 @@ function App() {
   );
 }
 
+export { allArticlesData };
 export default App;
