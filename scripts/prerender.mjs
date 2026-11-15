@@ -24,7 +24,7 @@ const STATIC = {
     description:
       'Estudos bíblicos, teologia reformada, devocionais, personagens bíblicos e testemunhos de fé. Conteúdo cristão em português para nutrir sua vida espiritual.',
   },
-  '/sobre': { title: `Quem Somos | ${SITE_NAME}`, description: 'Conheça o Soli Deo Gloria: quem escreve, no que cremos e qual é a missão deste blog cristão de estudos bíblicos e teologia reformada.' },
+  '/sobre': { title: `Quem Somos | ${SITE_NAME}`, description: 'Conheça o Soli Deo Gloria, blog cristão de Andrews Rocha de Morais: quem escreve, no que cremos e como os estudos bíblicos são produzidos.' },
   '/contato': { title: `Contato | ${SITE_NAME}`, description: 'Fale com a equipe do Soli Deo Gloria: dúvidas, sugestões de estudos, correções e parcerias.' },
   '/estudos-biblicos': { title: `Estudos Bíblicos | ${SITE_NAME}`, description: 'Estudos bíblicos completos sobre doutrinas, livros e passagens das Escrituras, com aplicação prática para a vida cristã.' },
   '/devocionais': { title: `Devocionais | ${SITE_NAME}`, description: 'Devocionais cristãos para meditar na Palavra de Deus, fortalecer a fé e encontrar consolo nas Escrituras.' },
@@ -152,7 +152,7 @@ for (const route of routes) {
       image: [image],
       ...(date ? { datePublished: date, dateModified: date } : {}),
       inLanguage: 'pt-BR',
-      author: { '@type': 'Organization', name: SITE_NAME, url: `${SITE}/sobre` },
+      author: { '@type': 'Person', name: 'Andrews Rocha de Morais', url: `${SITE}/sobre` },
       publisher: ORG,
       mainEntityOfPage: { '@type': 'WebPage', '@id': canonical },
     });

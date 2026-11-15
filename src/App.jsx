@@ -23,7 +23,7 @@ function Breadcrumb({ category, categoryLink, title }) {
 function ArticleInfo({ date, readingTime }) {
   return (
     <div className="article-info">
-      <span>✍️ Equipe Soli Deo Gloria</span>
+      <span>✍️ <a href="/sobre" rel="author">Andrews Rocha de Morais</a></span>
       <span>📅 {date}</span>
       <span>⏱️ {readingTime} min de leitura</span>
     </div>
@@ -342,7 +342,7 @@ function RecentArticles({ isDeusDetermina, isInconstancia, isSofrimento, isPosic
           <main className="article-content section-mb" style={{fontSize: '1.15rem', lineHeight: 1.8, color: '#444', maxWidth: '800px', margin: '0 auto'}}>
             <p>&quot;Eu te provo pela Bíblia que os heróis da fé foram o que foram, não por uma escolha da soberania de Deus determinando sobre a vida deles, mas sim porque eles tomaram uma atitude.&quot;</p>
             
-            <p>Essa frase, defendida recentemente pelo pastor Silas Malafaia, parece poderosa. Parece bíblica. Parece honrar o esforço humano.</p>
+            <p>Essa frase, repetida por alguns pregadores hoje, parece poderosa. Parece bíblica. Parece honrar o esforço humano.</p>
             
             <p>Mas ela está parcialmente certa — e o erro escondido nela é um problema absurdo.</p>
             
@@ -513,7 +513,7 @@ function RecentArticles({ isDeusDetermina, isInconstancia, isSofrimento, isPosic
             
             <div style={{background: '#f8f9fa', padding: '1.5rem', borderRadius: '10px', margin: '1.5rem 0', borderLeft: '4px solid #555', fontStyle: 'italic'}}>
               <p style={{margin: 0}}>
-                &quot;Os meus sentimentos a respeito da providência de Deus são os seguintes: Ele está presente em todas as coisas e as preside... Não excetuo nenhuma coisa particular, terrena, nem contingente, nem mesmo o livre-arbítrio de homens ou anjos... E não tiro do controle da divina providência nem mesmo os próprios pecados.&quot;
+                &quot;Os meus sentimentos a respeito da providência de Deus são os seguintes: ela está presente em todas as coisas e as preside... Não excetuo nenhuma coisa particular, terrena, vil nem contingente, nem mesmo o livre-arbítrio de homens ou anjos... E não retiro do governo da divina providência nem mesmo os próprios pecados.&quot; — Jacó Armínio, <em>A Providência de Deus</em> (Obras de Armínio, vol. 2; tradução livre)
               </p>
             </div>
             
@@ -1163,8 +1163,8 @@ function RecentArticles({ isDeusDetermina, isInconstancia, isSofrimento, isPosic
 
             <h2 style={{color: '#0f172a', marginTop: '3rem', borderBottom: '2px solid #eee', paddingBottom: '0.5rem'}}>⏰ Você É o Ceifeiro da Última Hora</h2>
             
-            <p>Eu vou para 45 anos de ministério. Daqui a pouco, 50. E tudo vai ser câncer, enfado, rugas, dores, artrites. Passou. Mas como diz Charles Studd:</p>
-            <p><strong>&quot;Só o que for feito por Cristo, para Cristo, permanecerá.&quot;</strong></p>
+            <p>Eu vou para 45 anos de ministério. Daqui a pouco, 50. E tudo vai ser câncer, enfado, rugas, dores, artrites. Passou. Mas, como diz o verso do missionário C.T. Studd:</p>
+            <p><strong>&quot;Só o que é feito por Cristo permanecerá.&quot;</strong></p>
             
             <p>Irmão, se posicione. Você é o ceifeiro da última hora. Estamos naquela maratona, entrando na última volta.</p>
             
@@ -1177,9 +1177,9 @@ function RecentArticles({ isDeusDetermina, isInconstancia, isSofrimento, isPosic
             
             <p>Faz do teu quarto um tabernáculo. Faz da tua casa uma pequena igreja. Faz do teu trabalho o teu ministério.</p>
             
-            <p><strong>O Exemplo de John Wesley:</strong> Quando foi expulso das igrejas da Inglaterra, começou a pregar ao ar livre. <em>&quot;The world is my parish&quot;</em> — O mundo é minha paróquia, minha seara (rua, favela, presídio).</p>
+            <p><strong>O Exemplo de John Wesley:</strong> Quando foi expulso das igrejas da Inglaterra, começou a pregar ao ar livre. Em 1739, ele escreveu em seu diário: <em>&quot;Eu considero todo o mundo como a minha paróquia&quot;</em> — o mundo é a minha seara (rua, favela, presídio).</p>
             
-            <p><strong>Jonathan Edwards:</strong> <em>&quot;Resolvi ser o maior cristão da minha época.&quot;</em> Pode parecer arrogante. Mas, como diz Steve Lawson: Então seja o pior cristão da sua época. O que você resolveu ser?</p>
+            <p><strong>Jonathan Edwards:</strong> Em suas famosas Resoluções, o jovem Edwards escreveu: <em>&quot;Resolvo fazer tudo o que eu julgar ser o mais para a glória de Deus.&quot;</em> O que você resolveu fazer?</p>
             
             <p><strong>Susana Wesley:</strong> Teve 19 filhos (8 morreram), cuidou de 11, e se trancava no quarto pelo menos uma hora por dia em oração. Essa deve ser a sua paixão, seja você quem for.</p>
 
@@ -1269,7 +1269,7 @@ function RecentArticles({ isDeusDetermina, isInconstancia, isSofrimento, isPosic
               </p>
             </div>
             
-            <p><strong>Dwight L. Moody:</strong> Um pregador disse: &quot;Se Deus encontrar um homem que se entregue totalmente...&quot;. Moody gritou: &quot;Eu serei esse homem!&quot; E ganhou milhares de almas.</p>
+            <p><strong>Dwight L. Moody:</strong> Um amigo, Henry Varley, lhe disse: &quot;O mundo ainda não viu o que Deus fará com um homem totalmente consagrado a Ele.&quot; Essas palavras marcaram Moody para sempre, e ele ganhou milhares de almas.</p>
 
             <h2 style={{color: '#0f172a', marginTop: '3rem', borderBottom: '2px solid #eee', paddingBottom: '0.5rem'}}>⚠️ Ai de Ti, ó Terra</h2>
             
@@ -2687,8 +2687,16 @@ function App({ ssrPath } = {}) {
                  <li><strong>Soli Deo Gloria:</strong> Tudo o que existe, a criação e a salvação, serve para a glória exclusiva de Deus.</li>
                </ul>
 
-               <h2>Quem Somos</h2>
-               <p>Somos um grupo de cristãos, pastores e estudantes de teologia que amam a sã doutrina e enxergam na escrita e na curadoria de conteúdo digital uma ferramenta poderosa para edificação da igreja do Senhor no Brasil e no mundo. Nosso desejo é que cada artigo escrito, testemunho compartilhado e estudo bíblico publicado sirva como alimento espiritual e despertamento para a glória do Senhor.</p>
+               <h2>Quem Escreve</h2>
+               <p>O Soli Deo Gloria é um projeto pessoal de <strong>Andrews Rocha de Morais</strong>, cristão brasileiro, que é o responsável pela escrita, pela seleção e pela revisão de todo o conteúdo publicado aqui. O desejo é que cada estudo, devocional e testemunho ajude o leitor a conhecer melhor as Escrituras e a viver para a glória de Deus.</p>
+
+               <h2>Como Produzimos o Conteúdo</h2>
+               <ul>
+                 <li><strong>Base bíblica:</strong> todo artigo parte do texto das Escrituras, citado com a referência para que o leitor possa conferir.</li>
+                 <li><strong>Fontes transparentes:</strong> quando um artigo é inspirado em uma pregação, vídeo ou texto de outro autor, isso é informado no próprio artigo, com o nome e o link da fonte original.</li>
+                 <li><strong>Análise própria:</strong> boa parte dos artigos traz a seção “Análise do Soli Deo Gloria”, com contexto bíblico, a visão das confissões reformadas, aplicação prática e perguntas para estudo.</li>
+                 <li><strong>Correções:</strong> se você encontrar um erro bíblico, histórico ou de digitação, escreva pela página de <a href="/contato">Contato</a>. Corrigimos e agradecemos.</li>
+               </ul>
 
                <div className="quote-box" style={{marginTop: '2rem', padding: '1.5rem', background: '#f9f9f9', borderLeft: '4px solid #111'}}>
                  <em>"Porque dele, e por ele, e para ele são todas as coisas; glória, pois, a ele eternamente. Amém."</em> — <strong>Romanos 11:36</strong>
@@ -3918,7 +3926,7 @@ function App({ ssrPath } = {}) {
                <h2>❌ O Que Amar Inimigos NÃO É</h2>
                
                <blockquote style={{borderLeft: '4px solid #0066cc', background: '#f8f9fa', padding: '1.5rem', margin: '2rem 0', fontStyle: 'italic', borderRadius: '0 8px 8px 0'}}>
-                 &quot;Amar meus inimigos não é o mesmo que considerá-los boas pessoas... Amar o próximo é desejar o seu bem, sem ter de sentir afeto nem dizer que ele é gentil quando ele não é.&quot; — <strong>C.S. Lewis, em &quot;Cristianismo Puro e Simples&quot;</strong>
+                 &quot;&#39;Amar o próximo&#39; não significa &#39;ter afeição por ele&#39; nem &#39;achá-lo atraente&#39;... Amar os meus inimigos, portanto, também não significa, ao que parece, considerá-los agradáveis.&quot; — <strong>C.S. Lewis, em &quot;Cristianismo Puro e Simples&quot;</strong> (Livro III, cap. 7; tradução livre)
                </blockquote>
 
                <h3>Amar Inimigos Não Significa:</h3>
@@ -4203,9 +4211,9 @@ function App({ ssrPath } = {}) {
                <p>Mas Jesus não disse &quot;se matricule&quot;. Ele disse:</p>
                <p><strong>&quot;Siga-me.&quot;</strong> — Mateus 4:19</p>
 
-               <h3>B. A Analogia do Jiu-Jitsu (John Mark Comer)</h3>
-               <p>O autor John Mark Comer faz uma comparação brilhante:</p>
-               <p><em>&quot;Discipulado parece mais com jiu-jitsu do que com física quântica.&quot;</em></p>
+               <h3>B. A Analogia do Jiu-Jitsu</h3>
+               <p>Uma comparação ajuda a entender a diferença:</p>
+               <p><em>O discipulado se parece mais com jiu-jitsu do que com física quântica.</em></p>
                <ul>
                  <li>• <strong>Física quântica:</strong> Precisa de lousa, explicação teórica, fórmulas.</li>
                  <li>• <strong>Jiu-jitsu:</strong> Você observa o mestre fazendo, pratica junto, erra, corrige, repete.</li>
@@ -4380,7 +4388,7 @@ function App({ ssrPath } = {}) {
              
                <ArticleInfo date="25 de Junho de 2026" readingTime={11} />
               </div>
-             <img src="/batismo_infantil_certo.webp" alt="Quem crer e for batizado será salvo — Marcos 16:16" className="article-hero-img" fetchPriority="high" style={{maxHeight: '450px', width: '100%', objectFit: 'cover', borderRadius: '12px'}} />
+             <img src="/batismo_infantil_certo.webp" alt="Batismo: confiança em Cristo e não no ritual" className="article-hero-img" fetchPriority="high" style={{maxHeight: '450px', width: '100%', objectFit: 'cover', borderRadius: '12px'}} />
              <div className="article-body">
                
                
@@ -4426,17 +4434,25 @@ function App({ ssrPath } = {}) {
                <h3>A Visão Católica (Ex Opere Operato)</h3>
                <p>A teologia católica afirma que os sacramentos operam a regeneração <em>ex opere operato</em> ("pelo próprio ato operado"), ou seja, ao batizar um bebê, ele seria automaticamente regenerado e salvo, independentemente de fé. A refutação empírica é simples: quantos batizados vivem em devassidão e perversidade? A Bíblia garante que o verdadeiro nascido de novo não vive na prática do pecado (1 João 3:9).</p>
 
-               <h3>A Confusão no Meio Reformado e Presbiteriano</h3>
-               <p>Muitos reformados repudiam a ideia católica de que a água regenera, mas subscrevem fórmulas que soam contraditórias. A Confissão de Westminster afirma que o batismo é <em>"selo do pacto da graça, de nossa união com Cristo, da regeneração, da remissão de pecados"</em>. Isso é teologicamente exato <strong>para um adulto que creu</strong>, mas inaplicável a bebês.</p>
-               <p>Se o batismo cela a união com Cristo e regenera, como explicar filhos batizados em igrejas calvinistas que crescem, apostatam da fé e morrem ímpios? Como nós calvinistas cremos na <strong>perseverança dos santos</strong> (que o verdadeiro regenerado jamais perde a salvação), a apostasia dessas pessoas prova uma única coisa: <strong>elas nunca nasceram de novo</strong>, apesar de terem sido batizadas na infância.</p>
+               <h3>Duas Posições Dentro da Tradição Reformada</h3>
+               <p>Aqui é preciso honestidade: a rejeição ao poder automático do ritual é compartilhada por <strong>todos</strong> os reformados, mas a pergunta “devemos batizar bebês?” recebe duas respostas diferentes dentro da própria Reforma. Este artigo — assim como o vídeo que o inspirou — defende a <strong>posição batista reformada</strong>. Os <strong>presbiterianos e reformados continentais</strong>, que também são calvinistas, defendem o batismo infantil. Os dois lados merecem ser apresentados com justiça.</p>
 
-               <h3>O Significado Bíblico: Fé Precede Batismo</h3>
-               <ul style={{lineHeight: '1.8', marginBottom: '2rem'}}>
-                 <li>✅ <strong>Romanos 6:4:</strong> O batismo significa sepultamento e ressurreição (a própria palavra grega <em>baptizo</em> significa imergir/mergulhar).</li>
-                 <li>✅ <strong>Atos 8:36-37:</strong> Quando o eunuco perguntou o que o impedia de ser batizado, Filipe respondeu: <em>"É permitido, se crês de todo o coração."</em></li>
-                 <li>✅ <strong>Marcos 16:16:</strong> <em>"Quem crer e for batizado será salvo."</em> A fé <strong>sempre</strong> vem primeiro no Novo Testamento.</li>
+               <h3>A Posição Presbiteriana (Confissão de Westminster)</h3>
+               <p>A Confissão de Fé de Westminster chama o batismo de sinal e selo do pacto da graça, da união com Cristo, da regeneração e da remissão de pecados (capítulo 28, seção 1), e ensina que os filhos de pais crentes devem ser batizados (28.4). Mas ela mesma afirma que a graça <strong>não está ligada de forma inseparável</strong> ao batismo, que nem todos os batizados são regenerados (28.5) e que a eficácia do batismo <strong>não está presa ao momento</strong> em que ele é ministrado (28.6). Ou seja: o presbiteriano <strong>não</strong> crê que a água regenera o bebê automaticamente — isso é a visão católica, que Westminster rejeita.</p>
+               <p>O argumento presbiteriano é de <strong>aliança</strong>: no Antigo Testamento os filhos dos crentes recebiam o sinal da aliança (a circuncisão) antes de poderem crer; a promessa continua sendo “para vós e para vossos filhos” (Atos 2:39); e o Novo Testamento registra o batismo de famílias inteiras (Atos 16:15, 33; 1 Coríntios 1:16). O Catecismo de Heidelberg (pergunta 74) resume essa visão. Quanto aos batizados que depois abandonam a fé, os presbiterianos respondem com a distinção entre a <strong>igreja visível</strong> (que inclui os filhos dos crentes) e a <strong>igreja invisível</strong> (só os eleitos): receber o sinal nunca foi garantia de salvação, assim como não foi para Esaú, que também foi circuncidado.</p>
+
+               <h3>A Posição Batista Reformada (Confissão de Fé Batista de 1689)</h3>
+               <p>A Confissão Batista de 1689 — que segue Westminster em quase tudo — afirma que só devem ser batizados aqueles que <strong>professam arrependimento e fé</strong> (capítulo 29, seção 2). Os principais argumentos são:</p>
+               <ul style={{lineHeight: '1.8', marginBottom: '1.5rem'}}>
+                 <li>✅ <strong>Os exemplos do Novo Testamento:</strong> em Atos, quem é batizado é quem ouviu e creu (Atos 2:41; 8:12; 18:8).</li>
+                 <li>✅ <strong>O significado do batismo:</strong> Romanos 6:4 o descreve como sepultamento e ressurreição com Cristo — algo que, para os batistas, pressupõe fé consciente.</li>
+                 <li>✅ <strong>A nova aliança:</strong> em Jeremias 31:34 todos os membros da nova aliança “conhecerão o Senhor”; por isso, entra-se nela pelo novo nascimento, e não pelo nascimento natural.</li>
+                 <li>✅ <strong>A apostasia:</strong> se tantos batizados na infância nunca demonstram fé, isso mostraria que o sinal foi aplicado antes da realidade que ele sela.</li>
                </ul>
-               <p>Como ensinou o dr. Martyn Lloyd-Jones, no Novo Testamento as pessoas são batizadas porque <strong>já deram evidências da regeneração</strong> mediante a profissão de fé. Não é o batismo que torna alguém crente; o crente é batizado como sinal público de que já crê.</p>
+               <p>Uma observação sobre textos usados nesse debate: Marcos 16:16 (“quem crer e for batizado será salvo”) está no final longo de Marcos, que não aparece nos manuscritos mais antigos; por isso, é melhor apoiar a ordem fé–batismo em textos como Atos 2:38-41 e 8:12. E Atos 8:37 (“é permitido, se crês de todo o coração”) também falta nos manuscritos mais antigos, e muitas Bíblias o colocam entre colchetes ou em nota de rodapé.</p>
+
+               <h3>O Que Une os Dois Lados</h3>
+               <p>Batistas reformados e presbiterianos concordam no essencial que Paulo ensina em Gálatas 5:6: <strong>nenhum ritual salva</strong>. Ninguém é salvo por ter sido batizado — nem bebê, nem adulto — mas somente pela fé em Cristo. A diferença está em <strong>quem</strong> deve receber o sinal, não em <strong>onde</strong> está a salvação. Por isso, essa discussão deve ser feita com convicção, mas também com respeito entre irmãos.</p>
 
                <h2>✅ Conclusão: A Confiança Exclusiva em Cristo</h2>
                <p>A grande disputa sobre o batismo e os rituais é, no fundo, uma disputa sobre a <strong>FÉ (Sola Fide)</strong>. Nós somos salvos unicamente pela fé que Deus nos concede — não pelo nosso nascimento biológico, não pela fé dos nossos pais e não pela água de um ritual.</p>
@@ -4457,7 +4473,7 @@ function App({ ssrPath } = {}) {
                <div style={{background: '#f8f9fa', borderLeft: '4px solid #0066cc', padding: '1.5rem', borderRadius: '0 8px 8px 0', margin: '2rem 0'}}>
                  <p><strong>Gálatas 5:5-6</strong> — "Mas nós, pelo Espírito, mediante a fé, aguardamos a justiça, que é nossa esperança. Porque em Cristo Jesus, nem a circuncisão, nem a incircuncisão valem coisa alguma, mas sim a fé que atua pelo amor."</p>
                  <p><strong>2 Coríntios 1:9</strong> — "Contudo, em nós mesmos tivemos a sentença de morte, para que não confiassemos em nós, e sim no Deus que ressuscita os mortos."</p>
-                 <p><strong>Marcos 16:16</strong> — "Quem crer e for batizado será salvo; quem, porém, não crer será condenado."</p>
+                 <p><strong>Atos 2:41</strong> — "De sorte que foram batizados os que de bom grado receberam a sua palavra."</p>
                  <p><strong>Romanos 6:4</strong> — "Fomos, portanto, sepultados com ele pelo batismo na morte, para que, assim como Cristo foi ressuscitado dentre os mortos pela glória do Pai, assim também andemos em novidade de vida."</p>
                  <p><strong>1 Timóteo 1:15</strong> — "Fiel é a palavra e digna de toda aceitação: que Cristo Jesus veio ao mundo salvar os pecadores, dos quais eu sou o principal."</p>
                  <p><strong>Mateus 3:9</strong> — "E não penseis que dentro de vós mesmos: Temos por pai a Abraão; porque eu vos digo que mesmo destas pedras Deus pode suscitar filhos a Abraão."</p>
@@ -4691,7 +4707,7 @@ function App({ ssrPath } = {}) {
                    <strong>Justificação pelas Obras:</strong> A pobreza voluntária era tida como mérito para salvação. O dinheiro era considerado "sujo" nas mãos dos fiéis, mas "bênção" na mão das ordens monásticas.
                  </li>
                  <li style={{marginTop: '1rem'}}>
-                   <strong>Ordens Mendicantes:</strong> Francisco de Assis declarou: <em>"Casei-me com a pobreza"</em>, elevando a mendicância a um status moral superior.
+                   <strong>Ordens Mendicantes:</strong> Francisco de Assis abraçou a pobreza como se fosse uma esposa — a &quot;Dama Pobreza&quot;, imagem da alegoria medieval <em>Sacrum Commercium</em> —, elevando a mendicância a um status moral superior.
                  </li>
                </ol>
                
@@ -4850,7 +4866,7 @@ function App({ ssrPath } = {}) {
                <p>Vemos constantemente jogadores que vivem uma rotina completamente anticristã, mas antes de um jogo decisivo publicam versículos bíblicos. Em um stories promovem casas de apostas (Bets) que destroem famílias; no stories seguinte, postam: <em>"Pois o Senhor, meu Deus, luta as minhas guerras"</em>.</p>
                
                <h3>Albert Camus e a Criação de Deus</h3>
-               <p>O filósofo ateu Albert Camus escreveu que, sem Deus, a vida não tem propósito. Por isso, dizia ele, as pessoas "criam Deus". Embora Camus falasse de uma perspectiva descrente, há uma verdade nisso: muitas pessoas não querem caminhar sem esperança e sem consolo, então <strong>inventam um Jesus</strong> à sua própria imagem — um Cristo que aceita tudo e não confronta o pecado.</p>
+               <p>Há uma tendência humana de moldar a fé ao próprio gosto: muitas pessoas não querem caminhar sem esperança e sem consolo, então <strong>inventam um Jesus</strong> à sua própria imagem — um Cristo que aceita tudo e não confronta o pecado.</p>
 
                <h2>👑 O Exemplo de Constantino: Fé Salvadora ou Conveniência?</h2>
                
@@ -5476,7 +5492,7 @@ function App({ ssrPath } = {}) {
 
                <h2>3️⃣ Sinal 3: Lembrança Repentina de uma Palavra de Deus</h2>
                <p>Você está no meio de uma situação difícil, em um momento de decisão ou de tentação. E de repente, um versículo que você leu há anos surge com clareza na sua mente. Isso pode ser obra do Espírito Santo — e certamente é Ele quem age primariamente. Mas os anjos também são enviados para ministrar, e uma das formas de ministração é o reforço da Palavra.</p>
-               <p>O pastor Hernandes Dias Lopes lembra que: <em>"A Palavra de Deus é uma lâmpada que ilumina o caminho do justo, e Deus usa meios visíveis e invisíveis para manter essa luz acesa em nossa caminhada."</em> Fique atento às Escrituras que surgem no seu coração nos momentos certos.</p>
+               <p>A Palavra de Deus é uma lâmpada que ilumina o caminho do justo (Salmo 119:105), e Deus usa meios visíveis e invisíveis para manter essa luz acesa em nossa caminhada. Fique atento às Escrituras que surgem no seu coração nos momentos certos.</p>
                <div style={{background: '#fcfcfc', padding: '1rem', borderLeft: '3px solid #ccc', margin: '1rem 0'}}>
                  <strong>💭 Para refletir:</strong> Quantas vezes uma passagem bíblica "veio à sua mente" exatamente quando você precisava dela? Isso pode ser mais do que memória — pode ser ministério celestial.
                </div>
@@ -5498,7 +5514,7 @@ function App({ ssrPath } = {}) {
                </div>
 
                <h2>🎯 O Que Fazer com Tudo Isso?</h2>
-               <p>A resposta não está em buscar sinais o tempo todo, nem em tentar provocar experiências sobrenaturais. O pastor John MacArthur advertiu: <em>"O fascínio excessivo com os anjos pode se tornar uma distração da adoração genuína a Cristo."</em> E ele tem razão.</p>
+               <p>A resposta não está em buscar sinais o tempo todo, nem em tentar provocar experiências sobrenaturais. O fascínio excessivo com os anjos pode se tornar uma distração da adoração genuína a Cristo.</p>
                <p>Os anjos nunca apontam para si mesmos. Sempre que alguém tenta adorar um anjo na Bíblia, o anjo rejeita. Eles sempre apontam para Deus.</p>
                
                <h3>Aplicação Prática</h3>
@@ -5546,12 +5562,6 @@ function App({ ssrPath } = {}) {
                  <p><strong>Mateus 18:10</strong> — "Vede, não desprezeis a qualquer destes pequeninos; porque eu vos afirmo que os seus anjos nos céus veem continuamente a face de meu Pai que está nos céus."</p>
                </div>
 
-               <h2>📚 Leituras Recomendadas</h2>
-               <ul style={{lineHeight: '1.8', marginBottom: '2rem'}}>
-                 <li><strong>"Angelologia"</strong> — John MacArthur (estudo bíblico completo sobre os anjos)</li>
-                 <li><strong>"Anjos: Mensageiros do Céu"</strong> — Billy Graham (perspectiva bíblica e pastoral)</li>
-                 <li><strong>"O Mundo Invisível"</strong> — Hernandes Dias Lopes (sobre a realidade espiritual)</li>
-               </ul>
 
                <div style={{background: '#e9ecef', padding: '1.5rem', borderRadius: '12px', margin: '3rem 0'}}>
               <h3 style={{marginTop: 0, color: '#1a1210'}}>📺 Fonte e Inspiração</h3>
@@ -5992,11 +6002,7 @@ function App({ ssrPath } = {}) {
              
              <p>Muitos citam Mateus 6:25-34 como a passagem do "não se preocupem". Mas há um detalhe frequentemente negligenciado: Jesus não nos exorta a não nos preocuparmos porque nossas necessidades são pequenas. Ele nos exorta porque o Pai conhece nossas necessidades e se importa com elas.</p>
              
-             <p>Jesus reconhece que precisamos de comida, roupa, abrigo. Ele não minimiza nossas lutas. Ele as valida — e então nos convida a buscar primeiro o Reino. O filósofo cristão Dallas Willard escreve:</p>
-             
-             <blockquote style={{borderLeft: '4px solid #722F37', background: '#fff9f9', padding: '1.2rem 1.5rem', margin: '1.5rem 0', borderRadius: '4px'}}>
-               <p><em>"Deus não se preocupa com a possibilidade de lhe faltar algo. É muito importante lembrar disso quando nos angustiamos com uma necessidade imaginária. Nesses momentos, podemos ser tentados a pensar que talvez Deus seja tão mesquinho e insignificante quanto nós. Ele não é. Deus ama dar. Deus ama perdoar."</em></p>
-             </blockquote>
+             <p>Jesus reconhece que precisamos de comida, roupa, abrigo. Ele não minimiza nossas lutas. Ele as valida — e então nos convida a buscar primeiro o Reino. Jesus não nos chama a buscar o Reino por medo da escassez, mas por confiança em um Pai generoso.</p>
 
              <hr />
              
@@ -6072,12 +6078,6 @@ function App({ ssrPath } = {}) {
                <p style={{margin: '0'}}><strong>1 Timóteo 2:13</strong> — "Se somos infiéis, ele permanece fiel, pois não pode negar-se a si mesmo."</p>
              </div>
 
-             <div style={{background: '#f8f9fa', border: '1px solid #e2e4e7', borderRadius: '12px', padding: '24px', margin: '30px 0'}}>
-               <h3 style={{marginTop: 0}}>📚 Leituras Recomendadas</h3>
-               <ul>
-                 <li><em>"George Müller: A Vida de Oração"</em> — Roger Steer</li>
-               </ul>
-             </div>
 
              <p style={{textAlign: 'center', fontStyle: 'italic', color: '#555', marginTop: '30px'}}>
                "O Senhor é o meu pastor; nada me faltará." — <strong>Salmo 23:1</strong><br/><br/>
@@ -7020,10 +7020,10 @@ function App({ ssrPath } = {}) {
              <h3>1. <strong>The Treasury of David</strong> (1869-1885)</h3>
              <p>Sua obra magna — um comentário exaustivo sobre os Salmos em 7 volumes. Considerado um dos melhores comentários sobre Salmos já escritos.</p>
 
-             <h3>2. <strong>Morning and Evening</strong> (1859)</h3>
+             <h3>2. <strong>Morning and Evening</strong> (1865-1868)</h3>
              <p>Devocional diário com leituras matinais e vespertinas. Um clássico da literatura devocional reformada.</p>
 
-             <h3>3. <strong>All of Grace</strong> (1885)</h3>
+             <h3>3. <strong>All of Grace</strong> (1886)</h3>
              <p>Sua obra evangelística mais famosa. Explica de forma clara a doutrina da salvação pela graça somente.</p>
 
              <h3>4. <strong>Spurgeon's Sermons</strong> (63 volumes)</h3>
@@ -7037,7 +7037,7 @@ function App({ ssrPath } = {}) {
 
              <hr />
              <p><strong>Legado:</strong> Spurgeon é citado por pregadores como John Piper e Mark Dever como uma das maiores influências em suas vidas.</p>
-             <p><strong>Citação Famosa:</strong> <em>"Um ministério que não é nascido de joelhos morrerá de joelhos."</em></p>
+             
           
               <ShareBar title="O Silêncio de Deus nas Dificuldades" url="/silencio-deus-dificuldades-charles-spurgeon" />
               <RelatedArticles currentLink="/silencio-deus-dificuldades-charles-spurgeon" category="Estudos Bíblicos" />
@@ -7095,9 +7095,9 @@ function App({ ssrPath } = {}) {
              <h2>🕰️ III. Desenvolvimento Histórico: Da Controvérsia Pelagiana aos Cânones de Dort</h2>
              <p>A eleição não é invenção calvinista. É fio condutor da ortodoxia cristã:</p>
              <ul>
-               <li><strong>Agostinho (séc. IV-V):</strong> Combateu o pelagianismo afirmando que a graça precede a vontade humana. <em>"Dá o que ordenas e ordena o que queres."</em></li>
+               <li><strong>Agostinho (séc. IV-V):</strong> Combateu o pelagianismo afirmando que a graça precede a vontade humana. <em>"Dá o que ordenas e ordena o que queres."</em> (<em>Confissões</em>, X, 29)</li>
                <li><strong>Reforma Protestante (séc. XVI):</strong> Lutero e Calvino recuperaram a centralidade da graça soberana contra o semi-pelagianismo medieval.</li>
-               <li><strong>Sínodo de Dort (1618-1619):</strong> Em resposta aos arminianos, os reformados formularam os Cinco Pontos do Calvinismo, sendo a <strong>Eleição Incondicional</strong> o "E" de TULIP. O Cânones declararam: <em>"A eleição é o propósito imutável de Deus, pelo qual, antes da fundação do mundo, Ele escolheu em Cristo, para a salvação, um número definido de pessoas, não por previsão de fé ou obras, mas unicamente por Sua livre graça e amor."</em></li>
+               <li><strong>Sínodo de Dort (1618-1619):</strong> Em resposta aos arminianos, os reformados formularam os Cinco Pontos do Calvinismo, sendo a <strong>Eleição Incondicional</strong> o "E" de TULIP. Os Cânones de Dort (Primeiro Ponto, Art. 7 e 9) ensinam, em síntese, que a eleição é o propósito imutável de Deus, pelo qual, antes da fundação do mundo, Ele escolheu em Cristo, para a salvação, um número definido de pessoas, não por previsão de fé ou obras, mas unicamente por Sua livre graça.</li>
              </ul>
              <p>Essa continuidade histórica mostra que a eleição não é doutrina marginal; é guardiã do Evangelho da graça.</p>
 
@@ -7141,7 +7141,7 @@ function App({ ssrPath } = {}) {
              <h2>🕊️ VI. Conclusão: A Beleza que Conforta e Transforma</h2>
              <p>A eleição incondicional não é um dogma frio; é o abraço eterno de um Pai que, antes que o tempo existisse, olhou para Cristo e disse: <em>"Nele, Eu salvarei os Meus."</em> É a garantia de que nenhuma falha minha, nenhuma fraqueza minha, nenhum erro meu pode desfazer o que Deus estabeleceu na eternidade.</p>
              <p>Longe de nos afastar de Deus, essa doutrina nos lança em Seus braços. Longe de nos tornar passivos, nos torna gratos, santos e ousados na missão.</p>
-             <p>Que a Igreja do século XXI recupere não apenas a <em>defesa</em> da eleição, mas a <em>adoração</em> que ela produz. Pois no fim, como declarou Agostinho: <em>"Tu nos fizeste para Ti, e nosso coração está inquieto até que descanse em Ti."</em> A eleição é o caminho pelo qual esse descanso se torna realidade.</p>
+             <p>Que a Igreja do século XXI recupere não apenas a <em>defesa</em> da eleição, mas a <em>adoração</em> que ela produz. Pois no fim, como declarou Agostinho em suas <em>Confissões</em> (I, 1): <em>"Tu nos fizeste para Ti, e nosso coração está inquieto até que descanse em Ti."</em> A eleição é o caminho pelo qual esse descanso se torna realidade.</p>
              <p><strong>Soli Deo Gloria.</strong></p>
 
              <hr />
@@ -7177,7 +7177,7 @@ function App({ ssrPath } = {}) {
              <img src="/galatas.webp" alt="A Carta aos Gálatas e a Liberdade Cristã" className="article-hero-img" fetchPriority="high" />
              
              <p><em>"Foi para a liberdade que Cristo nos libertou. Portanto, permaneçam firmes e não se deixem submeter novamente a um jugo de escravidão."</em> — Gálatas 5:1</p>
-             <p>A Carta aos Gálatas é, sem exagero, a <strong>Magna Carta da liberdade cristã</strong>. Martinho Lutero, que a chamava de "minha epístola", disse certa vez: <em>"Eu me casei com a Carta aos Gálatas."</em> Por quê? Porque nela encontramos o coração do Evangelho em sua forma mais pura, mais combativa e mais libertadora.</p>
+             <p>A Carta aos Gálatas é, sem exagero, a <strong>Magna Carta da liberdade cristã</strong>. Martinho Lutero, que a chamava de "minha epístola", disse certa vez: <em>"A Epístola aos Gálatas é a minha epístola. A ela estou, por assim dizer, unido em matrimônio. É a minha Catarina."</em> (Conversas à Mesa, citado no prefácio de seu <em>Comentário aos Gálatas</em>). Por quê? Porque nela encontramos o coração do Evangelho em sua forma mais pura, mais combativa e mais libertadora.</p>
              <p>Neste estudo, exploraremos o contexto histórico, a estrutura teológica e as aplicações práticas desta epístola que continua sendo a principal defesa bíblica contra o legalismo, o misticismo e qualquer distorção do Evangelho da graça.</p>
 
              <hr />
@@ -7389,7 +7389,7 @@ function App({ ssrPath } = {}) {
                <li>A justiça de Cristo é <strong>imputada</strong> (creditada) ao crente, não infundida</li>
                <li>A fé é o <strong>instrumento</strong> que recebe Cristo, não uma obra meritória</li>
              </ul>
-             <p>Lutero disse: <em>"A doutrina da justificação é o artigo pelo qual a igreja permanece ou cai."</em></p>
+             <p>Uma frase tradicionalmente associada a Lutero resume o ponto: a justificação é <em>"o artigo pelo qual a igreja permanece ou cai"</em>. Não é uma citação literal dele, mas sintetiza o que ele escreveu: se este artigo permanece, a igreja permanece; se ele cai, a igreja cai.</p>
 
              <h3>2. A Suficiência da Obra de Cristo</h3>
              <p>Cristo:</p>
@@ -8601,7 +8601,7 @@ function App({ ssrPath } = {}) {
                <span className="cat-tag">Devocionais</span>
                <h1>O Custo Real do Discipulado: Por que Caminhar com Alguém na Fé Exige Mais do que Boa Vontade</h1>
                <p style={{fontSize: '1.1rem', color: '#555', marginTop: '8px', lineHeight: '1.6'}}>Uma reflexão sobre a natureza cruciforme do discipulado bíblico, o perigo da alma voltada para si mesma e o chamado a amar como Cristo amou.</p>
-               <div className="article-meta">📖 <strong>Thomas Anderson</strong> (Adaptação e Revisão: João Calvino)</div>
+               <div className="article-meta">📖 Texto de <strong>Thomas Anderson</strong> · adaptação de <strong>Andrews Rocha de Morais</strong></div>
                <ArticleInfo date="25 de Junho de 2026" readingTime={14} />
               </div>
 
@@ -8617,7 +8617,7 @@ function App({ ssrPath } = {}) {
 
               <h2>A Alma Curvada para Si Mesma</h2>
 
-              <p>Desde a Queda, a natureza humana carrega uma tendência profunda: voltar-se para dentro. Teólogos como Jonathan Edwards e os reformadores descreveram essa condição com a expressão latina <em>incurvatus in se</em> — <strong>"curvado sobre si mesmo"</strong>. Não se trata apenas de egoísmo superficial, mas de uma reorientação espiritual: a alma que deveria olhar para Deus e para o próximo passa a orbitar em torno de si, de seus medos, desejos e autopreservação.</p>
+              <p>Desde a Queda, a natureza humana carrega uma tendência profunda: voltar-se para dentro. Teólogos como Agostinho e Lutero descreveram essa condição com a expressão latina <em>incurvatus in se</em> — <strong>"curvado sobre si mesmo"</strong>. Não se trata apenas de egoísmo superficial, mas de uma reorientação espiritual: a alma que deveria olhar para Deus e para o próximo passa a orbitar em torno de si, de seus medos, desejos e autopreservação.</p>
 
               <p>Podemos sentir isso fisicamente quando estamos exaustos ou assustados: os ombros caem, o peito se fecha, a postura se recolhe. Espiritualmente, o efeito é ainda mais devastador. Uma alma curvada para dentro pode manter uma rotina religiosa impecável por décadas, cumprir deveres, ler a Bíblia e frequentar cultos, <strong>sem jamais experimentar a libertação que vem do amor sacrificial ao outro</strong>.</p>
 
@@ -8951,7 +8951,7 @@ function App({ ssrPath } = {}) {
                <p>O falso líder é um mestre em dizer exatamente o que as pessoas querem ouvir, transformando a palavra em um produto de consumo rápido.</p>
 
                <h3>O Que as Escrituras Ensinam</h3>
-               <p>O reverendo Augustus Nicodemus costuma nos lembrar que a ausência de pregação sobre o arrependimento é um sintoma claro de um evangelho adoecido.</p>
+               <p>A ausência de pregação sobre o arrependimento é um sintoma claro de um evangelho adoecido.</p>
                <p>O apóstolo Paulo alertou a Timóteo: <em>"Pois haverá tempo em que não suportarão a sã doutrina; pelo contrário, sentindo coceira nos ouvidos, segundo os seus próprios desejos juntarão mestres para si."</em> — 2 Timóteo 4:3</p>
 
                <h3>O Perigo do "Evangelho Confortável"</h3>
@@ -8973,7 +8973,7 @@ function App({ ssrPath } = {}) {
                <p>O terceiro sinal mora na distância abismal entre aquilo que se prega na luz e aquilo que se vive no secreto, longe das câmeras.</p>
 
                <h3>O Que as Escrituras Ensinam</h3>
-               <p>O pastor e teólogo John MacArthur pontua que o caráter irretocável do mensageiro é a validação mais poderosa da mensagem que ele carrega.</p>
+               <p>O caráter irretocável do mensageiro é a validação mais poderosa da mensagem que ele carrega.</p>
                <p>Jesus chamou os fariseus de <em>"sepulcros caiados, que por fora realmente parecem formosos, mas interiormente estão cheios de ossos de mortos e de toda imundícia"</em> (Mateus 23:27).</p>
 
                <h3>A Hipocrisia Destrói a Autoridade</h3>
@@ -9084,10 +9084,6 @@ function App({ ssrPath } = {}) {
                  <p><strong>Provérbios 14:15</strong> — "O simples dá crédito a qualquer palavra, mas o prudente pondera bem os seus passos."</p>
                </div>
 
-               <h2>📚 Leituras Recomendadas</h2>
-               <ul style={{lineHeight: '1.8', marginBottom: '2rem'}}>
-                 <li><strong>"Líderes Autênticos"</strong> — Pr. Hernandes Dias Lopes (caráter, chamado e responsabilidade pastoral)</li>
-               </ul>
 
                <p style={{fontSize: '1.1rem', fontStyle: 'italic', color: '#555', textAlign: 'center', margin: '2rem 0'}}>
                  "Quando você conhece intimamente o som inconfundível da voz do verdadeiro Pastor, nenhuma imitação terrena, por mais bem elaborada que seja, conseguirá enganar o seu coração."
@@ -9142,7 +9138,7 @@ function App({ ssrPath } = {}) {
                
                <h3>O Que as Escrituras Ensinam</h3>
                <p>Há pessoas que vivem em padrões destrutivos, recebem conselho, acenam com a cabeça e voltam ao mesmo lugar. Não é falta de inteligência; é escolha deliberada. O escarnecedor, segundo Provérbios, não é simplesmente alguém ignorante — é alguém que conhece a verdade e a despreza ativamente.</p>
-               <p>O pastor Hernandes Dias Lopes, em seus estudos sobre Provérbios, ensina que o escarnecedor é incurável por escolha própria. Ele não quer mudar; quer apenas validação para continuar como está.</p>
+               <p>Segundo o livro de Provérbios, o escarnecedor é incurável por escolha própria. Ele não quer mudar; quer apenas validação para continuar como está.</p>
 
                <h3>Por Que Não Insistir?</h3>
                <p>Ajudar esse tipo de pessoa sem limites é como lançar pérolas aos porcos (Mateus 7:6) — não porque ela não tenha valor, mas porque, naquele momento, não está preparada para receber o que é precioso.</p>
@@ -9185,7 +9181,7 @@ function App({ ssrPath } = {}) {
 
                <h3>O Padrão Destrutivo</h3>
                <p>Há pessoas que, onde chegam, trazem confusão — não por acidente, mas por padrão persistente. Elas se alimentam do conflito, prosperam na discórdia e se ofendem quando encontram harmonia.</p>
-               <p>O teólogo John MacArthur, ao comentar Romanos 16:17, destaca que Paulo não estava sendo cruel ao instruir os cristãos a se desviarem dessas pessoas. Ele estava protegendo o corpo. Uma ferida inflamada, se não tratada, contamina o organismo todo.</p>
+               <p>Ao instruir os cristãos, em Romanos 16:17, a se desviarem dessas pessoas, Paulo não estava sendo cruel. Ele estava protegendo o corpo. Uma ferida inflamada, se não tratada, contamina o organismo todo.</p>
 
                <h3>Por Que Estabelecer Limites?</h3>
                <p>Ignorar isso por medo de parecer frio é uma forma de irresponsabilidade espiritual que cobra um preço alto depois. Isso não significa abandonar alguém para sempre sem olhar para trás. Significa estabelecer limites saudáveis e proteger o que é sagrado ao seu redor. Entenda que nem toda abertura de porta é um ato de fé. Às vezes, fechar uma porta com sabedoria é o ato mais corajoso que você pode praticar.</p>
@@ -9827,9 +9823,7 @@ function App({ ssrPath } = {}) {
 
               <img src="/marcos3_discipulos.webp" alt="Jesus e seus discípulos" className="article-hero-img" fetchPriority="high" />
 
-              <blockquote style={{borderLeft:'4px solid #722F37', background:'#fff9f9', padding:'1.2rem 1.5rem', margin:'1.5rem 0', borderRadius:'4px'}}>
-                <p><em>"O caminho de Jesus estava intimamente ligado à obediência à vontade de Deus. Portanto, a própria experiência de rejeição de Jesus por sua família serve como modelo para um discipulado que pode muito bem custar a outros seus laços familiares."</em> — <strong>Robert Guelich</strong></p>
-              </blockquote>
+              
 
               <p>Em Marcos 3, o evangelista organiza sua narrativa com precisão cirúrgica. Após uma série de conflitos com as autoridades religiosas, Jesus reúne multidões, chama doze discípulos, é acusado de estar possesso e redefine o que significa ser sua família. No centro de tudo, uma pergunta silenciosa ecoa: <strong>quem realmente está seguindo a Jesus?</strong></p>
               
