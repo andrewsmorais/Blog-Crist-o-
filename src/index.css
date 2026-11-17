@@ -1044,3 +1044,38 @@ h1, .article-content h1, .privacy-policy-content h1, .hero-main h1, .hero-main .
   line-height: 1.7;
 }
 .article-content .article-body > p:first-child { font-size: 1.15rem; }
+
+/* --- Setas do destaque da página inicial --- */
+.hero-arrows {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  aspect-ratio: 16/9;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 12px;
+  box-sizing: border-box;
+  pointer-events: none;
+}
+@media (min-width: 900px) {
+  .hero-arrows { width: calc(62.96% - 20px); }
+}
+.hero-arrow {
+  pointer-events: auto;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  border: none;
+  background: rgba(255, 255, 255, 0.88);
+  color: #111;
+  font-size: 2rem;
+  line-height: 1;
+  padding: 0 0 4px;
+  cursor: pointer;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+  transition: background 0.2s ease, transform 0.2s ease;
+}
+.hero-arrow:hover { background: #fff; transform: scale(1.08); }
+.hero-arrow:focus-visible { outline: 3px solid var(--color-link); outline-offset: 2px; }

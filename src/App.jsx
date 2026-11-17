@@ -1444,7 +1444,8 @@ function App({ ssrPath } = {}) {
       setCurrentHeroIndex((prevIndex) => (prevIndex + 1) % heroArticles.length);
     }, 7000);
     return () => clearInterval(interval);
-  }, []);
+  }, [currentHeroIndex]);
+  const goHero = (delta) => setCurrentHeroIndex((i) => (i + delta + heroArticles.length) % heroArticles.length);
   const rawPath = ssrPath ?? (typeof window !== 'undefined' ? window.location.pathname : '/');
   const path = rawPath.length > 1 ? rawPath.replace(/\/+$/, '') : rawPath;
   const novoArtigo = novosArtigos.find(a => a.link === path);
@@ -9834,6 +9835,10 @@ function App({ ssrPath } = {}) {
                     <div className="meta">📖 <strong>Texto Base:</strong> {heroArticles[currentHeroIndex].meta}</div>
                   </div>
                 </a>
+                <div className="hero-arrows">
+                  <button type="button" className="hero-arrow" aria-label="Artigo anterior" onClick={() => goHero(-1)}>&#8249;</button>
+                  <button type="button" className="hero-arrow" aria-label="Próximo artigo" onClick={() => goHero(1)}>&#8250;</button>
+                </div>
                 <div style={{ display: 'flex', justifyContent: 'center', gap: '10px', position: 'absolute', bottom: '-30px', left: '0', right: '0' }}>
                   {heroArticles.map((_, index) => (
                     <span 
