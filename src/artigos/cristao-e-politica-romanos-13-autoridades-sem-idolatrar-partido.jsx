@@ -63,7 +63,7 @@ export default function Corpo() {
         Paulo escreveu a carta aos Romanos em meados do primeiro século, para cristãos que moravam na capital de um império pagão e que não tinham nenhum poder político. Depois de ensinar, no capítulo 12, que o crente não deve pagar o mal com o mal, ele abre o capítulo 13 com uma instrução direta:
       </p>
       <blockquote>
-        “Toda a alma esteja sujeita às potestades superiores; porque não há potestade que não venha de Deus; e as potestades que há foram ordenadas por Deus.” (Romanos 13:1, Almeida Corrigida)
+        “Toda a alma esteja sujeita às autoridades superiores; porque não há autoridade que não venha de Deus; e as autoridades que há foram ordenadas por Deus.” (Romanos 13:1, ACF)
       </blockquote>
       <p>
         O verbo traduzido por “estar sujeito” carrega a ideia de se colocar em ordem, sob uma autoridade, e não a de obedecer cegamente a qualquer coisa. Paulo apresenta o governante como “ministro de Deus” (a palavra grega é a mesma usada para servo ou diácono) com a função de recompensar o bem e punir o mal. Por isso o crente paga impostos, respeita as leis e vive de modo a não dar motivo para acusação justa. O trecho termina no versículo 7 com um princípio simples: dar a cada um o que lhe é devido, seja tributo, respeito ou honra.
@@ -77,7 +77,7 @@ export default function Corpo() {
 
       <h2>Orar pelas autoridades é um mandamento, não uma opção</h2>
       <p>
-        Em 1 Timóteo 2:1-4, Paulo pede que se façam súplicas, orações, intercessões e ações de graças por todos os homens, “pelos reis e por todos os que estão em eminência”, para que a igreja possa viver uma vida tranquila e piedosa. O contexto é revelador: os governantes daquele tempo não eram amigos da fé cristã. Ainda assim, a ordem é orar por eles, e o motivo é que Deus deseja que todos sejam salvos.
+        Em 1 Timóteo 2:1-4, Paulo pede que se façam súplicas, orações, intercessões e ações de graças por todos os homens, “pelos reis, e por todos os que estão em eminência” (1 Timóteo 2:2, ACF), para que a igreja possa viver uma vida tranquila e piedosa. O contexto é revelador: os governantes daquele tempo não eram amigos da fé cristã. Ainda assim, a ordem é orar por eles, e o motivo é que Deus deseja que todos sejam salvos.
       </p>
       <p>
         Já no exílio babilônico, Deus tinha mandado seu povo buscar a paz da cidade onde estava e orar por ela (Jeremias 29:7). Orar pelas autoridades não depende de gostar delas, de ter votado nelas ou de concordar com suas decisões. É uma forma de reconhecer que Deus governa acima de qualquer governo.
@@ -88,7 +88,7 @@ export default function Corpo() {
         A sujeição do cristão tem um limite, e a Bíblia o mostra com clareza. Quando o conselho dos judeus proibiu os apóstolos de pregar em nome de Jesus, Pedro e os outros responderam:
       </p>
       <blockquote>
-        “Mais importa obedecer a Deus do que aos homens.” (Atos 5:29, Almeida Corrigida)
+        “Mais importa obedecer a Deus do que aos homens.” (Atos 5:29, ACF)
       </blockquote>
       <p>
         Esse princípio aparece em muitas outras histórias. As parteiras hebreias do Egito temeram a Deus e não cumpriram a ordem do faraó (Êxodo 1). Daniel serviu com excelência na administração de um império estrangeiro, mas se recusou a deixar de orar a Deus quando um decreto o exigiu (Daniel 6). Seus três companheiros se recusaram a adorar a imagem do rei (Daniel 3). Em nenhum desses casos o crente se tornou revolucionário. Todos aceitaram as consequências com serenidade, sem violência e sem desrespeito, e continuaram a servir onde podiam.
@@ -102,10 +102,10 @@ export default function Corpo() {
         Diante de Pilatos, Jesus declarou:
       </p>
       <blockquote>
-        “O meu reino não é deste mundo; se o meu reino fosse deste mundo, pelejariam os meus servos, para que eu não fosse entregue aos judeus; mas, agora, o meu reino não é daqui.” (João 18:36, Almeida Corrigida)
+        “O meu reino não é deste mundo; se o meu reino fosse deste mundo, pelejariam os meus servos, para que eu não fosse entregue aos judeus; mas agora o meu reino não é daqui.” (João 18:36, ACF)
       </blockquote>
       <p>
-        Jesus não negou que seu reino alcance este mundo. Ele negou que o reino avance pelos meios deste mundo: espada, pressão, poder de Estado. Em outra ocasião, quando lhe perguntaram sobre pagar imposto, ele pediu uma moeda e respondeu: “Dai, pois, a César o que é de César, e a Deus o que é de Deus” (Mateus 22:21). A frase reconhece duas esferas, mas deixa claro quem é o dono de tudo. A moeda leva a imagem de César; o ser humano leva a imagem de Deus. Portanto, o que mais pertence a Deus é você mesmo.
+        Jesus não negou que seu reino alcance este mundo. Ele negou que o reino avance pelos meios deste mundo: espada, pressão, poder de Estado. Em outra ocasião, quando lhe perguntaram sobre pagar imposto, ele pediu uma moeda e respondeu: “Dai pois a César o que é de César, e a Deus o que é de Deus” (Mateus 22:21, ACF). A frase reconhece duas esferas, mas deixa claro quem é o dono de tudo. A moeda leva a imagem de César; o ser humano leva a imagem de Deus. Portanto, o que mais pertence a Deus é você mesmo.
       </p>
       <h3>O perigo de idolatrar um partido ou um líder</h3>
       <p>

@@ -8,8 +8,8 @@ export const meta = {
   excerpt: 'Filipenses 4:6-7 convida a levar a ansiedade a Deus, mas não diz que ansiedade é falta de fé. Veja o texto, a prática e quando buscar ajuda profissional.',
   reflexao: [
     'Que diferença você percebe entre a preocupação do dia a dia e uma ansiedade que não passa e atrapalha o sono, o trabalho ou os relacionamentos?',
-    'Paulo escreveu Filipenses estando preso. O que isso muda na sua maneira de ler “não andeis ansiosos”?',
-    'Que “ações de graças” concretas você consegue incluir hoje na sua oração, mesmo no meio de uma situação difícil?',
+    'Paulo escreveu Filipenses estando preso. O que isso muda na sua maneira de ler “não estejais inquietos”?',
+    'Que motivos concretos de “ação de graças” você consegue incluir hoje na sua oração, mesmo no meio de uma situação difícil?',
     'Como a sua igreja ou o seu grupo pode acolher quem convive com ansiedade sem julgar a sua fé e sem substituir o cuidado profissional?',
     'Quem poderia ouvir você neste momento? Que passo prático, como marcar uma consulta ou conversar com um amigo, você pode dar nesta semana?',
   ],
@@ -47,7 +47,7 @@ export default function Corpo() {
 
       <h2>Um texto escrito por um homem preso</h2>
       <p>
-        A carta aos Filipenses foi escrita por Paulo quando ele estava na prisão (Filipenses 1:7 e 1:13 falam das suas correntes). Ele não estava num retiro tranquilo; aguardava um julgamento que podia terminar de várias maneiras, e ele mesmo diz que não sabia se sairia vivo (1:20-24). Quem escreve “não andeis ansiosos” não está passando em cima de problemas reais, e sim ensinando uma maneira de atravessá-los.
+        A carta aos Filipenses foi escrita por Paulo quando ele estava na prisão (Filipenses 1:7 e 1:13 falam das suas correntes). Ele não estava num retiro tranquilo; aguardava um julgamento que podia terminar de várias maneiras, e ele mesmo diz que não sabia se sairia vivo (1:20-24). Quem escreve “não estejais inquietos” não está passando em cima de problemas reais, e sim ensinando uma maneira de atravessá-los.
       </p>
       <p>
         Esse detalhe muda o tom do texto. Não é uma bronca de alguém que nunca sentiu medo. É o conselho de um homem que conhecia a pressão: em outra carta ele fala do peso diário da preocupação com todas as igrejas (2 Coríntios 11:28) e confessa que, na Ásia, foi tão pressionado além das suas forças que desesperou até da vida (2 Coríntios 1:8). Ele sabe do que está falando.
@@ -55,7 +55,7 @@ export default function Corpo() {
 
       <h2>O que Filipenses 4:6-7 manda fazer</h2>
       <blockquote>
-        Não estejais inquietos por coisa alguma; antes as vossas petições sejam em tudo conhecidas diante de Deus pela oração e súplica, com ação de graças. E a paz de Deus, que excede todo o entendimento, guardará os vossos corações e os vossos sentidos em Cristo Jesus. (Filipenses 4:6-7, ACF)
+        Não estejais inquietos por coisa alguma; antes as vossas petições sejam em tudo conhecidas diante de Deus pela oração e súplica, com ação de graças. E a paz de Deus, que excede todo o entendimento, guardará os vossos corações e os vossos pensamentos em Cristo Jesus. (Filipenses 4:6-7, ACF)
       </blockquote>
       <p>
         Observe a estrutura. Há uma proibição (não viver dominado pela inquietação), uma alternativa (oração e súplica) e uma promessa (a paz de Deus que guarda). O foco não está em “parar de sentir”, mas em para onde levar o que se sente.
@@ -63,7 +63,7 @@ export default function Corpo() {
       <ul>
         <li><strong>Oração e súplica:</strong> são duas palavras para falar com Deus. A primeira é a conversa geral com ele; a segunda é o pedido concreto. Você pode contar a Deus detalhes: o exame que vai fazer, a conta que não fecha, o filho que preocupa.</li>
         <li><strong>Com ação de graças:</strong> a gratidão não nega o problema. Ela lembra o que Deus já fez e quem ele é, e muda o ângulo de visão. Agradecer pelo que está de pé nos ajuda a não ver só o que ameaça cair.</li>
-        <li><strong>A paz que guarda:</strong> a palavra usada tem a imagem de uma sentinela que vigia a entrada. A paz de Deus não é um sentimento garantido a cada minuto, é uma guarda posta pelo próprio Deus ao redor de quem confia nele. Ela “excede o entendimento” porque às vezes não faz sentido do ponto de vista das circunstâncias.</li>
+        <li><strong>A paz que guarda:</strong> a palavra usada tem a imagem de uma sentinela que vigia a entrada. A paz de Deus não é um sentimento garantido a cada minuto, é uma guarda posta pelo próprio Deus ao redor de quem confia nele. Ela “excede todo o entendimento” porque às vezes não faz sentido do ponto de vista das circunstâncias.</li>
       </ul>
 
       <h2>O que o texto não diz</h2>

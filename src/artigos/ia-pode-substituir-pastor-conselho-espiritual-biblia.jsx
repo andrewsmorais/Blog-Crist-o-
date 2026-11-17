@@ -63,13 +63,13 @@ export default function Corpo() {
 
       <h2>O que a Bíblia diz sobre conselheiros e pastores</h2>
       <p>
-        A Escritura valoriza o conselho, e não é pouco. O livro de Provérbios diz que, na multidão de conselheiros, há segurança.
+        A Escritura valoriza o conselho, e não é pouco. O livro de Provérbios diz que, na multidão de conselhos, há segurança.
       </p>
       <blockquote>
-        “Não havendo sábio governo, cai o povo, mas na multidão de conselheiros há segurança.” (Provérbios 11:14, Almeida Corrigida)
+        “Não havendo sábios conselhos, o povo cai, mas na multidão de conselhos há segurança.” (Provérbios 11:14, ACF)
       </blockquote>
       <p>
-        Repare no detalhe: conselheiros, no plural, e pessoas que podem ser chamadas de sábias. Conselho bíblico é relacional. Vem de gente que conhece você, que ora por você e que pode olhá-lo nos olhos e dizer uma verdade difícil.
+        Repare no detalhe: conselhos, no plural, e que vêm de pessoas que podem ser chamadas de sábias. Conselho bíblico é relacional. Vem de gente que conhece você, que ora por você e que pode olhá-lo nos olhos e dizer uma verdade difícil.
       </p>
       <h3>O pastor como cuidador responsável</h3>
       <p>
@@ -83,13 +83,13 @@ export default function Corpo() {
         Nem por isso a Bíblia pede obediência cega a qualquer homem. Os judeus de Bereia receberam a pregação de Paulo com entusiasmo, mas examinavam as Escrituras todos os dias para ver se as coisas eram assim.
       </p>
       <blockquote>
-        “Ora, estes foram mais nobres do que os que estavam em Tessalônica, porque de bom grado receberam a palavra, examinando cada dia nas Escrituras se estas coisas eram assim.” (Atos 17:11)
+        “Ora, estes foram mais nobres do que os que estavam em Tessalônica, porque de bom grado receberam a palavra, examinando cada dia nas Escrituras se estas coisas eram assim.” (Atos 17:11, ACF)
       </blockquote>
       <p>
         O princípio vale para tudo: pastor, livro, vídeo, sermão, aplicativo ou inteligência artificial. Quem ensina deve ser conferido. E Paulo explica por que a Escritura pode ser essa régua.
       </p>
       <blockquote>
-        “Toda a Escritura divinamente inspirada é proveitosa para ensinar, para repreender, para corrigir, para instruir em justiça; para que o homem de Deus seja perfeito e perfeitamente instruído para toda a boa obra.” (2 Timóteo 3:16-17)
+        “Toda a Escritura é divinamente inspirada, e proveitosa para ensinar, para repreender, para corrigir, para instruir em justiça; Para que o homem de Deus seja perfeito, e perfeitamente instruído para toda a boa obra.” (2 Timóteo 3:16-17, ACF)
       </blockquote>
 
       <h2>O que a IA não é, e por que isso importa</h2>

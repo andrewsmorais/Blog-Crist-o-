@@ -62,7 +62,7 @@ export default function Corpo() {
         Pense no estado de ânimo desse povo. Eles haviam sido arrancados da terra, do templo e das suas casas. Era natural que ouvissem com avidez qualquer voz que dissesse que tudo logo voltaria ao normal. A carta de Jeremias interrompe essa expectativa com instruções surpreendentemente comuns:
       </p>
       <blockquote>
-        Edificai casas e habitai-as; plantai pomares e comei o seu fruto. (Jeremias 29:5, ACF)
+        Edificai casas e habitai-as; e plantai jardins, e comei o seu fruto. (Jeremias 29:5, ACF)
       </blockquote>
       <p>
         Em seguida vêm casamento, filhos e netos (v. 6). O recado é claro: o exílio não será breve, então vivam de verdade ali. Só depois dessas instruções, no versículo 11, aparece a promessa que todos conhecem. Ela não anula a dureza dos versículos anteriores; é a razão pela qual vale a pena obedecê-los.
@@ -84,7 +84,7 @@ export default function Corpo() {
         O “vós” de Jeremias 29:11 são os judeus exilados, o povo da aliança. A promessa de restauração depois dos setenta anos foi cumprida historicamente quando uma parte do povo voltou à terra. Isso significa que o texto não foi escrito, em primeiro lugar, para um indivíduo que pergunta se conseguirá a promoção ou a aprovação no concurso. Ler assim é transformar uma promessa de aliança numa promessa de sucesso pessoal.
       </p>
       <p>
-        Isso significa que a igreja não tem nada a ver com o versículo? Não. A tradição reformada lê a Escritura como uma única história de redenção. O Novo Testamento ensina que todas as promessas de Deus encontram o seu sim em Cristo (2 Coríntios 1:20) e que os que pertencem a Cristo são descendência de Abraão e herdeiros segundo a promessa (Gálatas 3:29). Pedro escreve a cristãos espalhados como “estrangeiros e peregrinos” (1 Pedro 1:1; 2:11), usando linguagem do exílio. Por isso a igreja pode ouvir em Jeremias 29 o caráter do mesmo Deus: ele não abandona o seu povo, tem um propósito de paz e leva a restauração a termo.
+        Isso significa que a igreja não tem nada a ver com o versículo? Não. A tradição reformada lê a Escritura como uma única história de redenção. O Novo Testamento ensina que todas as promessas de Deus encontram o seu sim em Cristo (2 Coríntios 1:20) e que os que pertencem a Cristo são descendência de Abraão e herdeiros segundo a promessa (Gálatas 3:29). Pedro escreve a cristãos espalhados como estrangeiros e peregrinos (1 Pedro 1:1; 2:11), usando linguagem do exílio. Por isso a igreja pode ouvir em Jeremias 29 o caráter do mesmo Deus: ele não abandona o seu povo, tem um propósito de paz e leva a restauração a termo.
       </p>
       <p>
         O Catecismo de Heidelberg, logo na primeira pergunta, resume o consolo cristão assim: não pertencemos a nós mesmos, mas ao nosso fiel Salvador Jesus Cristo. É esse consolo, e não a garantia de um futuro sem dores, que a promessa de Jeremias confirma para nós. O “futuro e esperança” de Deus pode incluir lágrimas no caminho, como incluiu para os exilados, e tem seu ponto final na restauração de todas as coisas em Cristo. Paulo afirma que Deus faz todas as coisas cooperarem para o bem dos que o amam (Romanos 8:28), mas o bem ali está definido pelo versículo seguinte: sermos conformados à imagem do Filho.
@@ -93,11 +93,11 @@ export default function Corpo() {
       <h2>O que o texto manda fazer</h2>
       <h3>Buscar a paz da cidade (v. 7)</h3>
       <p>
-        O versículo 7 pede algo desconcertante: procurar a paz da cidade para a qual foram levados cativos e orar por ela, “porque na sua paz vós tereis paz”. Os exilados deveriam abençoar a cidade que os havia derrotado. Para nós, isso se traduz em atitudes concretas: trabalhar com excelência e honestidade, pagar o que é justo, cuidar da vizinhança, orar pelas autoridades e pelo bairro, participar da vida comum sem fingir que somos apenas visitantes. O cristão é peregrino, mas peregrino que planta pomares.
+        O versículo 7 pede algo desconcertante: procurar a paz da cidade para a qual foram levados cativos e orar por ela, “porque na sua paz vós tereis paz” (Jeremias 29:7, ACF). Os exilados deveriam abençoar a cidade que os havia derrotado. Para nós, isso se traduz em atitudes concretas: trabalhar com excelência e honestidade, pagar o que é justo, cuidar da vizinhança, orar pelas autoridades e pelo bairro, participar da vida comum sem fingir que somos apenas visitantes. O cristão é peregrino, mas peregrino que planta pomares.
       </p>
       <h3>Buscar a Deus de todo o coração (v. 13)</h3>
       <blockquote>
-        E buscar-me-eis, e me achareis, quando me buscardes de todo o vosso coração. (Jeremias 29:13, ACF)
+        E buscar-me-eis, e me achareis, quando me buscardes com todo o vosso coração. (Jeremias 29:13, ACF)
       </blockquote>
       <p>
         O versículo 12 e o 13 formam o centro espiritual da passagem: invocar, orar, buscar. Observe que o alvo da busca é o próprio Deus, não a promessa de bênçãos. Muita gente lê o versículo 11 como cheque em branco e esquece que o 13 pede um coração inteiro. O exílio era, entre outras coisas, um processo para trazer o povo de volta ao seu Senhor. A promessa de restauração do versículo 14 está ligada a esse retorno do coração.

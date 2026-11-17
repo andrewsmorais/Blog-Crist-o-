@@ -118,9 +118,9 @@ export default function Corpo() {
       <h2>Guerras, rumores de guerras e “dores de parto” (Mateus 24:4-14)</h2>
       <p>
         Jesus começa com um alerta contra o engano: muitos virão em seu nome dizendo “eu sou o Cristo” (v. 4-5). Em
-        seguida: “ouvireis de guerras e rumores de guerras; olhai, não vos assusteis, porque é necessário que isso
-        aconteça, mas ainda não é o fim” (v. 6, em paráfrase). Nação contra nação, fomes, terremotos: tudo isso, diz
-        ele, é “princípio das dores” (v. 7-8).
+        seguida, avisa que eles ouvirão de guerras e de rumores de guerras, manda que não se assustem, porque é necessário
+        que isso aconteça, mas diz que ainda não é o fim (v. 6). Nação contra nação, fomes, terremotos: tudo isso, diz
+        ele, é “princípio de dores” (v. 7-8).
       </p>
       <p>
         A palavra traduzida por “dores” designa, no grego do Novo Testamento, as dores do parto. A imagem é rica. Dores
@@ -136,7 +136,7 @@ export default function Corpo() {
         lendo meio capítulo.
       </p>
 
-      <h2>“Daquele dia e hora ninguém sabe” (Mateus 24:36)</h2>
+      <h2>“Mas daquele dia e hora ninguém sabe” (Mateus 24:36, ACF)</h2>
       <p>
         O versículo 36 é o ponto de virada do capítulo. Jesus declara que ninguém sabe aquele dia e hora, nem os
         anjos do céu, mas somente o Pai. Em Marcos 13:32 o relato acrescenta expressamente que nem o Filho. Isso não
@@ -163,7 +163,7 @@ export default function Corpo() {
         Se ninguém sabe a data, o que fazer? Jesus responde com uma palavra de ordem: “vigiai” (v. 42). Em seguida usa
         duas ilustrações. Na primeira, o dono da casa que, se soubesse a hora da chegada do ladrão, não deixaria a
         casa ser arrombada (v. 43-44). Na segunda, o servo fiel e prudente, que o senhor deixou cuidando da casa e que
-        é encontrado trabalhando quando ele volta, contrastado com o servo mau que pensa “meu senhor demora” e passa a
+        é encontrado trabalhando quando ele volta, contrastado com o servo mau que pensa “o meu senhor tarde virá” e passa a
         maltratar os companheiros e a se entregar aos excessos (v. 45-51).
       </p>
       <p>
@@ -171,7 +171,7 @@ export default function Corpo() {
         O servo mau é o que se acomoda por achar que o tempo é longo. Vigilância bíblica significa viver cada dia
         como alguém que presta contas ao Senhor: honesto no trabalho, gentil em casa, generoso com quem precisa,
         firme na oração e na igreja. A tradição cristã resumiu essa postura numa oração antiga, usada ainda hoje no
-        fim do último livro da Bíblia: “Vem, Senhor Jesus” (Apocalipse 22:20).
+        fim do último livro da Bíblia: “Vem, Senhor Jesus” (Apocalipse 22:20, ACF).
       </p>
 
       <h2>Por que as buscas por “fim do mundo” sobem em tempos de guerra</h2>

@@ -132,6 +132,12 @@ async function makeCover(slug, index) {
   </svg>`;
   const dir = path.join(DIST, 'capas');
   fs.mkdirSync(dir, { recursive: true });
+  // Se existir uma imagem de verdade (public/capas/<slug>.webp), usa ela e só gera o .jpg para redes sociais.
+  const real = path.join(dir, slug + '.webp');
+  if (fs.existsSync(real)) {
+    await sharp(real).resize(1200, 630, { fit: 'cover' }).jpeg({ quality: 85 }).toFile(path.join(dir, slug + '.jpg'));
+    return;
+  }
   const png = await sharp(Buffer.from(svg)).png().toBuffer();
   await sharp(png).webp({ quality: 80 }).toFile(path.join(dir, slug + '.webp'));
   await sharp(png).jpeg({ quality: 85 }).toFile(path.join(dir, slug + '.jpg'));

@@ -111,7 +111,7 @@ export default function Corpo() {
         Jesus foi duro com a religião de aparência. No Sermão do Monte, ele disse:
       </p>
       <blockquote>
-        <p>“Nem todo o que me diz: Senhor, Senhor! entrará no reino dos céus, mas aquele que faz a vontade de meu Pai, que está nos céus.” (Mateus 7:21)</p>
+        <p>“Nem todo o que me diz: Senhor, Senhor! Entrará no reino dos céus, mas aquele que faz a vontade de meu Pai, que está nos céus.” (Mateus 7:21, ACF)</p>
       </blockquote>
       <p>
         Nos versículos seguintes (Mateus 7:22-23), ele fala de pessoas que chamavam o seu nome e faziam coisas em seu nome, mas que ele diz nunca ter conhecido. O recado não é para criar ansiedade em quem luta e cai, e sim para despertar quem se contenta com palavras. Dizer “Senhor” sem conhecê-lo e sem obedecê-lo é um engano perigoso.
@@ -140,7 +140,7 @@ export default function Corpo() {
         O sinal de que Deus trabalha em nós não é o barulho, e sim o caráter. Paulo escreve:
       </p>
       <blockquote>
-        <p>“Mas o fruto do Espírito é: amor, gozo, paz, longanimidade, benignidade, bondade, fé, mansidão, temperança. Contra estas coisas não há lei.” (Gálatas 5:22-23)</p>
+        <p>“Mas o fruto do Espírito é: amor, gozo, paz, longanimidade, benignidade, bondade, fé, mansidão, temperança. Contra estas coisas não há lei.” (Gálatas 5:22-23, ACF)</p>
       </blockquote>
       <p>
         Repare que ele fala em “fruto”, no singular: é uma obra do Espírito, que cresce com o tempo, e não conquista de esforço próprio. Em casa, no trabalho e nas redes sociais, o fruto aparece no jeito como falamos, como discordamos, como tratamos quem pensa diferente e como lidamos com o dinheiro e com o tempo.

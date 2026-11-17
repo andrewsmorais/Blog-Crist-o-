@@ -81,7 +81,7 @@ export default function Corpo() {
       <h3>Negar-se, tomar a cruz, perder a vida</h3>
       <p>Lucas 9:23-26 traz o mesmo chamado em forma de convite:</p>
       <blockquote>
-        “E dizia a todos: Se alguém quer vir após mim, negue-se a si mesmo, e tome cada dia a sua cruz, e siga-me.” (Lucas 9:23)
+        “E dizia a todos: Se alguém quer vir após mim, negue-se a si mesmo, e tome cada dia a sua cruz, e siga-me.” (Lucas 9:23, ACF)
       </blockquote>
       <p>
         Mateus 16:24-26 e Marcos 8:34 registram a mesma ordem. Repare em duas palavras de Lucas: “a todos” e “cada dia”. O chamado não é para uma elite espiritual, e a cruz não é um evento único, mas uma rotina de entrega. Para os ouvintes do primeiro século, a cruz era instrumento de execução, e não um símbolo de decoração. Tomá-la era aceitar morrer para a vida centrada em si mesmo. Por isso Jesus continua: quem quiser salvar a sua vida a perderá, e quem a perder por causa dele a salvará. De que adianta ganhar o mundo inteiro e perder a própria alma?
@@ -100,7 +100,7 @@ export default function Corpo() {
         Hoje é comum chamar de discipulado um curso de doze semanas, uma apostila ou uma trilha de vídeos. Esses recursos podem ajudar, mas nenhum deles é o centro. O modelo bíblico é mais pessoal e mais trabalhoso. Veja como Paulo descreve o seu cuidado com os tessalonicenses, em carta escrita por volta de 50-51 d.C., provavelmente de Corinto:
       </p>
       <blockquote>
-        “Antes fomos brandos entre vós, como a ama que cria seus filhos.” (1 Tessalonicenses 2:7)
+        “Antes fomos brandos entre vós, como a ama que cria seus filhos.” (1 Tessalonicenses 2:7, ACF)
       </blockquote>
       <p>
         No restante da passagem (1 Tessalonicenses 2:7-12), Paulo acrescenta que queria dar não só o evangelho, mas a própria vida, porque aquelas pessoas lhe eram muito queridas. Lembra que trabalhou de dia e de noite para não pesar sobre ninguém. E compara-se também a um pai, que exorta, consola e insiste com cada um, para que vivam de modo digno do Deus que os chama ao seu reino. Mãe e pai: ternura e firmeza, presença e direção. Nenhum programa consegue fazer isso sozinho.

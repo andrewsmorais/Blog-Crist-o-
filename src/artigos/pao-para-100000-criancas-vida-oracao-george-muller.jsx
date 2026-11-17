@@ -119,7 +119,7 @@ export default function Corpo() {
         August Hermann Francke, em Halle. Em 5 de dezembro, depois de ler o Salmo 81, passou a orar
         por coisas concretas: um imóvel, mil libras e auxiliares. O texto que o animou foi este:
       </p>
-      <blockquote>“Abre bem a tua boca, e ta encherei.” (Salmo 81:10, Almeida Corrigida)</blockquote>
+      <blockquote>“Abre bem a tua boca, e ta encherei.” (Salmo 81:10, ACF)</blockquote>
       <p>
         O salmo se dirige a Israel e chama o povo a ouvir o Deus que o libertou do Egito: seu
         centro é ouvir e confiar no Senhor, e não um mecanismo para obter recursos.

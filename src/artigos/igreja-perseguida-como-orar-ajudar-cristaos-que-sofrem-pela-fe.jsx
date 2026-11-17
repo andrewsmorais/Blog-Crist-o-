@@ -63,7 +63,7 @@ export default function Corpo() {
         Jesus nunca prometeu a seus discípulos uma vida sem oposição. No Sermão do Monte, ele diz:
       </p>
       <blockquote>
-        “Bem-aventurados os que sofrem perseguição por causa da justiça, porque deles é o reino dos céus.” (Mateus 5:10, Almeida Corrigida)
+        “Bem-aventurados os que sofrem perseguição por causa da justiça, porque deles é o reino dos céus.” (Mateus 5:10, ACF)
       </blockquote>
       <p>
         Nos versículos seguintes (Mateus 5:11-12), ele estende a promessa aos que são insultados e caluniados por causa dele, e os chama a se alegrar, porque grande é o galardão nos céus e porque os profetas antes deles foram tratados do mesmo modo. A alegria de que Jesus fala não é a dos que gostam de sofrer, mas a dos que sabem a quem pertencem e para onde caminham.
@@ -72,7 +72,7 @@ export default function Corpo() {
         Paulo, escrevendo a Timóteo perto do fim da vida, diz algo na mesma direção:
       </p>
       <blockquote>
-        “E também todos os que piamente querem viver em Cristo Jesus padecerão perseguições.” (2 Timóteo 3:12, Almeida Corrigida)
+        “E também todos os que piamente querem viver em Cristo Jesus padecerão perseguições.” (2 Timóteo 3:12, ACF)
       </blockquote>
       <p>
         Essa frase não foi escrita para assustar, mas para preparar. Ela afirma que a fidelidade a Cristo, em certos lugares e épocas, tem um custo, e que esse custo não é sinal de abandono por parte de Deus. Também é importante distinguir: nem todo sofrimento é perseguição. Doenças, crises e injustiças comuns acontecem a todos. A perseguição de que a Bíblia fala é a oposição ou o prejuízo que alguém enfrenta especificamente por pertencer a Cristo.
@@ -83,7 +83,7 @@ export default function Corpo() {
         A razão mais profunda para nos importarmos aparece em duas passagens. A primeira está em 1 Coríntios 12:26: se um membro sofre, todos os membros sofrem com ele. Paulo está falando de uma igreja local, mas a ideia vale para a igreja universal, formada por todos os que pertencem a Cristo, em todos os lugares e épocas. A segunda está em Hebreus 13:3:
       </p>
       <blockquote>
-        “Lembrai-vos dos presos, como se estivésseis presos com eles, e dos maltratados, como sendo-o vós mesmos também no corpo.” (Hebreus 13:3, Almeida Corrigida)
+        “Lembrai-vos dos presos, como se estivésseis presos com eles, e dos maltratados, como sendo-o vós mesmos também no corpo.” (Hebreus 13:3, ACF)
       </blockquote>
       <p>
         O verbo é “lembrar-se”, e isso não é pouco. Em muitos lugares, os cristãos perseguidos têm medo de ser esquecidos. Lembrar é ter o nome deles diante de Deus, é se informar e é permitir que o sofrimento deles mexa conosco. Hebreus foi escrito a uma comunidade que já tinha experimentado prisões e perda de bens (Hebreus 10:32-34), e a exortação nasce de quem sabia do que estava falando.
@@ -94,7 +94,7 @@ export default function Corpo() {
 
       <h2>A igreja que orava e o evangelho que avançava</h2>
       <p>
-        Em Atos 12, o apóstolo Pedro está preso, e o texto diz em poucas palavras que “a igreja fazia contínua oração por ele” (Atos 12:5). Sem armas, sem influência, sem estratégia, a igreja fez a única coisa que sabia fazer: orar com insistência. Seja qual for o modo como Deus decidiu responder, a oração da igreja foi a resposta fiel do povo de Deus.
+        Em Atos 12, o apóstolo Pedro está preso, e o texto diz em poucas palavras que “a igreja fazia contínua oração por ele” (Atos 12:5, ACF). Sem armas, sem influência, sem estratégia, a igreja fez a única coisa que sabia fazer: orar com insistência. Seja qual for o modo como Deus decidiu responder, a oração da igreja foi a resposta fiel do povo de Deus.
       </p>
       <p>
         Já a carta aos Filipenses nos ensina a olhar para o resultado da perseguição. Paulo escreve da prisão e afirma que o que lhe aconteceu serviu para o progresso do evangelho: toda a guarda e outras pessoas souberam que suas correntes eram por causa de Cristo, e a maioria dos irmãos, encorajada pelas suas cadeias, passou a anunciar a Palavra com mais ousadia (Filipenses 1:12-14). Isso nos tira de uma visão simplista: a igreja perseguida não é somente vítima. Muitas vezes, ela é testemunha corajosa, e quem a conhece de perto costuma sair com mais fé, não com menos.

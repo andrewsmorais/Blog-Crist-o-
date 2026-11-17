@@ -79,7 +79,7 @@ export default function Corpo() {
         O último capítulo da Bíblia termina com essa mesma espera:
       </p>
       <blockquote>
-        <p>“Aquele que testifica estas coisas diz: Certamente cedo venho. Amém! Ainda assim, vem, Senhor Jesus.” (Apocalipse 22:20)</p>
+        <p>“Aquele que testifica estas coisas diz: Certamente cedo venho. Amém. Ora vem, Senhor Jesus.” (Apocalipse 22:20, ACF)</p>
       </blockquote>
       <p>
         O Natal sem Advento corre o risco de virar apenas uma festa de lembranças. O Advento nos recorda de que a história de Jesus não terminou em uma manjedoura. Ela continua em um Rei que reina agora e que voltará para enxugar toda lágrima.

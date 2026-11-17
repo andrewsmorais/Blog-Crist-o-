@@ -48,10 +48,10 @@ export default function Corpo() {
 
       <h2>O versículo e o seu destaque em 2025</h2>
       <p>
-        Na tradução Almeida Corrigida, o texto diz:
+        Na tradução Almeida Corrigida Fiel (ACF), o texto diz:
       </p>
       <blockquote>
-        “Não temas, porque eu sou contigo; não te assombres, porque eu sou o teu Deus; eu te esforço, e te ajudo, e te sustento com a destra da minha justiça.” (Isaías 41:10)
+        “Não temas, porque eu sou contigo; não te assombres, porque eu sou teu Deus; eu te fortaleço, e te ajudo, e te sustento com a destra da minha justiça.” (Isaías 41:10, ACF)
       </blockquote>
       <p>
         Em comunicado oficial de 4 de dezembro de 2025, o YouVersion anunciou Isaías 41:10 como Versículo do Ano, o de maior engajamento ao longo de 2025, pela quarta vez em seis anos. O fundador e diretor-executivo, Bobby Gruenewald, disse que o texto atende à necessidade profunda de saber que não estamos sozinhos. Um cuidado de precisão: a empresa fala em engajamento, e não detalha no anúncio quais ações entram na conta. Por isso, aqui, evitamos afirmar que foi o mais lido em sentido estrito. O dado diz respeito ao universo de quem usa o aplicativo, que ultrapassa um bilhão de instalações, e não a toda a humanidade.
@@ -85,10 +85,10 @@ export default function Corpo() {
           <strong>“Não temas, porque eu sou contigo.”</strong> A ordem de não temer aparece muitas vezes na Bíblia, e quase sempre vem acompanhada de uma razão. Aqui a razão é a presença: Deus não diz que o perigo é imaginário, diz que ele mesmo está junto. O consolo não nasce de ver menos problemas, mas de ver quem está ao lado.
         </li>
         <li>
-          <strong>“Não te assombres, porque eu sou o teu Deus.”</strong> Assombrar-se é olhar em volta, para as potências e ameaças, e perder o chão. A resposta é de aliança: eu sou o teu Deus. É a linguagem do pacto com Abraão e com Israel. Quem pertence a ele não está à mercê do acaso.
+          <strong>“Não te assombres, porque eu sou teu Deus.”</strong> Assombrar-se é olhar em volta, para as potências e ameaças, e perder o chão. A resposta é de aliança: eu sou o teu Deus. É a linguagem do pacto com Abraão e com Israel. Quem pertence a ele não está à mercê do acaso.
         </li>
         <li>
-          <strong>“Eu te esforço.”</strong> Na linguagem antiga da Almeida, esforçar quer dizer fortalecer. Deus não promete apenas ficar ao lado de quem treme; promete dar força de dentro. Isaías 40:29-31 já havia dito que o Senhor dá vigor ao cansado.
+          <strong>“Eu te fortaleço.”</strong> Fortalecer é dar força a quem não a tem. Deus não promete apenas ficar ao lado de quem treme; promete dar força de dentro. Isaías 40:29-31 já havia dito que o Senhor dá vigor ao cansado.
         </li>
         <li>
           <strong>“E te ajudo.”</strong> Ajuda é palavra de quem entra na luta com o outro. Deus não assiste de longe. No versículo 13, ele repete a promessa de maneira ainda mais íntima, ao dizer que segura a mão direita do seu povo e o ajudará.
@@ -106,7 +106,7 @@ export default function Corpo() {
         Como cristãos, lemos Isaías à luz do cumprimento. Deus prometeu estar com o seu povo, e em Jesus essa promessa ganha rosto: o nome Emanuel significa Deus conosco. Antes de subir ao céu, Jesus disse aos discípulos:
       </p>
       <blockquote>
-        “E eis que eu estou convosco todos os dias, até à consumação dos séculos.” (Mateus 28:20)
+        “E eis que eu estou convosco todos os dias, até a consumação do mundo.” (Mateus 28:20, ACF)
       </blockquote>
       <p>
         O Servo fiel que Israel não foi, Jesus é. Ele obedeceu onde falhamos, carregou o nosso pecado e ressuscitou. Por isso a certeza de que Deus nos sustenta não repousa na nossa força de fé, mas na obra dele. Em João 10:28, o próprio Cristo diz de suas ovelhas que ninguém as arrebatará da sua mão. E Paulo conclui, em Romanos 8:31-39, que nada pode nos separar do amor de Deus em Cristo Jesus.
