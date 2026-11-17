@@ -2652,7 +2652,7 @@ function App({ ssrPath } = {}) {
                <h2>3. O Chamado: A Voz que Rompeu o Silêncio</h2>
                <p>O evento que definiu o ministério de Samuel ocorreu quando ele ainda era jovem, deitado no templo, perto da Arca. A lâmpada de Deus (o candelabro de ouro) ainda não se havia apagado — eram as últimas horas da noite, o momento mais silencioso. De repente, uma voz chamou: "Samuel! Samuel!"</p>
 
-               <div className="quote-box" style={{backgroundColor: 'var(--bg-light)', borderLeftColor: 'var(--primary)'}}>
+               <div className="quote-box" >
                  Quando Deus chamou a quarta vez, Samuel não perguntou "Quem é?" (como Saulo faria anos depois). Ele já sabia. Ele disse as palavras que definem um profeta verdadeiro: "Fala, SENHOR, porque o teu servo ouve." (1 Samuel 3:10)
                </div>
 
@@ -2721,7 +2721,7 @@ function App({ ssrPath } = {}) {
                <h2>4. A Dor, os Amigos e o Clamor de Jó</h2>
                <p>Os três amigos de Jó (Elifaz, Bildade e Zofar) vêm para confortá-lo, mas acabam sendo acusadores. Eles defendem a rígida lei da retribuição, argumentando que Jó deveria ter pecado para estar sofrendo. Jó rejeita essa lógica e, no meio da dor, profetiza:</p>
                
-               <div className="quote-box" style={{backgroundColor: 'var(--bg-light)', borderLeftColor: 'var(--primary)'}}>
+               <div className="quote-box" >
                  "Porque eu sei que o meu Redentor vive, e que por fim se levantará sobre a terra." (Jó 19:25)
                </div>
                <h2>5. A Voz do Redemoinho: Quando Deus Fala</h2>
