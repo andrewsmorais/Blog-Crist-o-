@@ -3,6 +3,7 @@ import './index.css';
 import Newsletter from './components/Newsletter';
 import VideoEmbed from './components/VideoEmbed';
 import AnaliseSDG from './components/AnaliseSDG';
+import { novosArtigos, CATEGORY_LINKS } from './artigos/registry';
 
 /* ===== COMPONENTES PROFISSIONAIS REUTILIZÁVEIS ===== */
 
@@ -213,7 +214,7 @@ const allArticlesData = [
 ];
 
 function RelatedArticles({ currentLink, category }) {
-  const related = allArticlesData
+  const related = [...novosArtigos.map(a => ({ link: a.link, image: a.image, tag: a.category, title: a.title })), ...allArticlesData]
     .filter(a => a.link !== currentLink)
     .filter(a => a.link && a.image)
     .sort((a, b) => (b.tag === category) - (a.tag === category))
@@ -235,6 +236,72 @@ function RelatedArticles({ currentLink, category }) {
       </div>
     </div>
   );
+}
+
+// ---------- Artigos novos (src/artigos/*.jsx) ----------
+function NovoArtigo({ artigo }) {
+  const { Body } = artigo;
+  return (
+    <main className="article-content section-mb">
+      <Breadcrumb category={artigo.category} categoryLink={CATEGORY_LINKS[artigo.category] || '/'} title={artigo.shortTitle || artigo.title} />
+      <div className="article-header">
+        <span className="cat-tag">{artigo.category}</span>
+        <h1>{artigo.title}</h1>
+        <div className="article-meta">📖 <strong>{artigo.textoBase}</strong></div>
+        <ArticleInfo date={artigo.dateText} readingTime={artigo.readingTime} />
+      </div>
+      <img src={artigo.image} alt={artigo.title} className="article-hero-img" fetchPriority="high" width="1200" height="630" />
+      <div className="article-body">
+        <p className="article-lead"><em>{artigo.excerpt}</em></p>
+        <Body />
+        {artigo.reflexao && artigo.reflexao.length > 0 && (
+          <section className="analise-sdg">
+            <h2>Perguntas para reflexão ou estudo em grupo</h2>
+            <ol>{artigo.reflexao.map((q, i) => <li key={i}>{q}</li>)}</ol>
+          </section>
+        )}
+        {artigo.faq && artigo.faq.length > 0 && (
+          <section className="analise-sdg">
+            <h2>Perguntas frequentes</h2>
+            {artigo.faq.map((f, i) => (
+              <div key={i}>
+                <h3>{f.q}</h3>
+                <p>{f.a}</p>
+              </div>
+            ))}
+          </section>
+        )}
+        {artigo.fontes && artigo.fontes.length > 0 && (
+          <div className="fontes-artigo">
+            <h3>Fontes e referências</h3>
+            <ul>
+              {artigo.fontes.map((f, i) => (
+                <li key={i}>{f.url ? <a href={f.url} target="_blank" rel="noopener noreferrer">{f.title}</a> : f.title}</li>
+              ))}
+            </ul>
+          </div>
+        )}
+        <p>Soli Deo Gloria. ✨</p>
+      </div>
+      <ShareBar title={artigo.title} url={artigo.link} />
+      <RelatedArticles currentLink={artigo.link} category={artigo.category} />
+    </main>
+  );
+}
+
+// Cartões dos artigos novos (usados na categoria e na página inicial)
+function NovosArtigosCards({ categoria, limite, itemClass = 'grid-3-item' }) {
+  const lista = novosArtigos.filter(a => !categoria || a.category === categoria).slice(0, limite || 99);
+  return lista.map(a => (
+    <div className={itemClass} key={a.slug}>
+      <a href={a.link} style={{textDecoration: 'none', color: 'inherit'}}>
+        <img src={a.image} alt={a.title} className="img-ph" loading="lazy" width="1200" height="630" style={{objectFit: 'cover'}} />
+        <h3 style={{fontSize: '1.1rem', marginBottom: '8px', lineHeight: '1.4'}}>{a.title}</h3>
+        <p style={{fontSize: '0.9rem', color: '#666', marginTop: '8px'}}>{a.excerpt}</p>
+        <div className="meta">📖 <strong>{a.textoBase}</strong></div>
+      </a>
+    </div>
+  ));
 }
 
 // 404 Page
@@ -1382,6 +1449,7 @@ function App({ ssrPath } = {}) {
   }, []);
   const rawPath = ssrPath ?? (typeof window !== 'undefined' ? window.location.pathname : '/');
   const path = rawPath.length > 1 ? rawPath.replace(/\/+$/, '') : rawPath;
+  const novoArtigo = novosArtigos.find(a => a.link === path);
 
 
   const isPrivacyPolicy = path === '/politica-de-privacidade';
@@ -1887,6 +1955,7 @@ function App({ ssrPath } = {}) {
               <h1 className="section-title-h1">Estudos Bíblicos</h1>
             </div>
             <div className="grid-2" style={{marginTop: '2rem'}}>
+              <NovosArtigosCards categoria="Estudos Bíblicos" itemClass="grid-2-item" />
 
               <div className="grid-2-item">
                 <a href="/amor-aos-inimigos-chamado-radical-jesus-sermao-monte-mateus-5-43-48" style={{textDecoration: 'none', color: 'inherit'}}>
@@ -5594,6 +5663,7 @@ function App({ ssrPath } = {}) {
               <h1 className="section-title-h1">Devocionais</h1>
             </div>
             <div className="grid-3" style={{marginTop: '2rem'}}>
+              <NovosArtigosCards categoria="Devocionais" />
 
               <div className="grid-3-item">
                 <a href="/voce-esta-no-limite-mas-deus-nao-te-abandonou-forca-na-fraqueza" style={{textDecoration: 'none', color: 'inherit'}}>
@@ -10196,6 +10266,17 @@ function App({ ssrPath } = {}) {
             </section>
 
 
+            {novosArtigos.length > 0 && (
+              <section className="section-mb">
+                <div className="section-title-wrap">
+                  <h2>Novos Artigos</h2>
+                </div>
+                <div className="grid-3">
+                  <NovosArtigosCards limite={6} />
+                </div>
+              </section>
+            )}
+
             {/* SEÇÃO 1: ESTUDOS BÍBLICOS */}
             <section className="section-mb">
               <div className="section-title-wrap">
@@ -10349,6 +10430,8 @@ function App({ ssrPath } = {}) {
           </>
         ) : (isDeusDetermina || isInconstancia || isSofrimento || isPosicionamento) ? (
           <RecentArticles isDeusDetermina={isDeusDetermina} isInconstancia={isInconstancia} isSofrimento={isSofrimento} isPosicionamento={isPosicionamento} />
+        ) : novoArtigo ? (
+          <NovoArtigo artigo={novoArtigo} />
         ) : (
           <NotFoundPage />
         )}

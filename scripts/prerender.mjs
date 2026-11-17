@@ -4,6 +4,7 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath, pathToFileURL } from 'node:url';
+import sharp from 'sharp';
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const DIST = path.join(ROOT, 'dist');
@@ -13,7 +14,7 @@ const DEFAULT_IMAGE = `${SITE}/worship_hero.png`;
 const DEFAULT_DESC =
   'Estudos bíblicos, teologia reformada, devocionais, personagens bíblicos e testemunhos de fé para nutrir sua vida espiritual.';
 
-const { render, allArticlesData } = await import(
+const { render, allArticlesData, artigosNovos } = await import(
   pathToFileURL(path.join(ROOT, 'dist-server', 'entry-server.js')).href
 );
 
@@ -68,6 +69,8 @@ function parseDate(text) {
 const appSrc = fs.readFileSync(path.join(ROOT, 'src', 'App.jsx'), 'utf8');
 const routes = [...new Set(['/', ...[...appSrc.matchAll(/path === '([^']+)'/g)].map((m) => m[1]).filter((r) => r !== '' && r !== '/')])];
 
+for (const a of artigosNovos) if (!routes.includes(a.link)) routes.push(a.link);
+
 const template = fs.readFileSync(path.join(DIST, 'index.html'), 'utf8');
 if (!template.includes('<!--seo:start-->')) throw new Error('index.html sem marcadores <!--seo:start-->');
 
@@ -106,6 +109,35 @@ function outFile(route) {
   return path.join(DIST, route.slice(1) + '.html');
 }
 
+
+// ---------- Capas dos artigos novos (geradas, sem texto) ----------
+const PALETTES = [
+  ['#2b1a2e', '#722f37', '#f2c879'], ['#10263b', '#2e6f95', '#f4e3b1'], ['#1f2d1f', '#4f7a4a', '#f3dd9a'],
+  ['#2d1b13', '#a2542c', '#f7e1b5'], ['#1a1f3a', '#5a4e9c', '#f5d6a1'], ['#2a2420', '#8a6d3b', '#f6ecd0'],
+];
+async function makeCover(slug, index) {
+  const [bg1, bg2, glow] = PALETTES[index % PALETTES.length];
+  const svg = `<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+    <defs>
+      <linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="${bg1}"/><stop offset="1" stop-color="${bg2}"/></linearGradient>
+      <radialGradient id="r" cx="50%" cy="38%" r="55%"><stop offset="0" stop-color="${glow}" stop-opacity="0.85"/><stop offset="1" stop-color="${glow}" stop-opacity="0"/></radialGradient>
+    </defs>
+    <rect width="1200" height="630" fill="url(#g)"/>
+    <rect width="1200" height="630" fill="url(#r)"/>
+    <g fill="none" stroke="${glow}" stroke-opacity="0.35" stroke-width="2">
+      <circle cx="600" cy="240" r="120"/><circle cx="600" cy="240" r="190"/><circle cx="600" cy="240" r="270"/>
+    </g>
+    <g fill="${glow}" fill-opacity="0.92"><rect x="586" y="150" width="28" height="190" rx="4"/><rect x="535" y="205" width="130" height="28" rx="4"/></g>
+    <rect y="560" width="1200" height="70" fill="#000" fill-opacity="0.25"/>
+  </svg>`;
+  const dir = path.join(DIST, 'capas');
+  fs.mkdirSync(dir, { recursive: true });
+  const png = await sharp(Buffer.from(svg)).png().toBuffer();
+  await sharp(png).webp({ quality: 80 }).toFile(path.join(dir, slug + '.webp'));
+  await sharp(png).jpeg({ quality: 85 }).toFile(path.join(dir, slug + '.jpg'));
+}
+for (const [i, a] of artigosNovos.entries()) await makeCover(a.slug, i);
+
 const ORG = { '@type': 'Organization', name: SITE_NAME, url: SITE, logo: { '@type': 'ImageObject', url: `${SITE}/favicon.svg` } };
 const sitemap = [];
 const problems = [];
@@ -118,7 +150,8 @@ for (const route of routes) {
   }
 
   const h1 = decode((body.match(/<h1[^>]*>([\s\S]*?)<\/h1>/) || [])[1] || '');
-  const article = allArticlesData.find((a) => (a.link || a.path) === route);
+  const novo = artigosNovos.find((a) => a.link === route);
+  const article = novo || allArticlesData.find((a) => (a.link || a.path) === route);
   const isStatic = Boolean(STATIC[route]);
 
   // Descrição: resumo cadastrado > primeiro parágrafo com conteúdo
@@ -136,7 +169,7 @@ for (const route of routes) {
   const imgSrc = (imgTag.match(/src="([^"]+)"/) || [])[1];
   const image = imgSrc ? abs(socialImage(imgSrc)) : DEFAULT_IMAGE;
   const dateText = (decode(body).match(/📅\s*([^⏱|]{6,40})/) || [])[1] || article?.date;
-  const date = parseDate(dateText);
+  const date = novo?.dateISO || parseDate(dateText);
   const canonical = route === '/' ? `${SITE}/` : SITE + route;
 
   const jsonld = [];
@@ -156,6 +189,9 @@ for (const route of routes) {
       publisher: ORG,
       mainEntityOfPage: { '@type': 'WebPage', '@id': canonical },
     });
+    if (novo?.faq?.length) {
+      jsonld.push({ '@context': 'https://schema.org', '@type': 'FAQPage', mainEntity: novo.faq.map((f) => ({ '@type': 'Question', name: f.q, acceptedAnswer: { '@type': 'Answer', text: f.a } })) });
+    }
     const items = [{ '@type': 'ListItem', position: 1, name: 'Início', item: `${SITE}/` }];
     if (crumbName) items.push({ '@type': 'ListItem', position: 2, name: crumbName, item: SITE + CATEGORY_OF[crumbName] });
     items.push({ '@type': 'ListItem', position: items.length + 1, name: clip(h1, 80), item: canonical });

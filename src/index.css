@@ -1002,3 +1002,9 @@ h1, .article-content h1, .privacy-policy-content h1, .hero-main h1, .hero-main .
 .video-embed-icon { position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 72px; height: 50px; border-radius: 12px; background: #ff0000; color: #fff; font-size: 1.6rem; display: flex; align-items: center; justify-content: center; }
 .video-embed-play:hover .video-embed-icon, .video-embed-play:focus-visible .video-embed-icon { background: #cc0000; }
 .video-embed-credit { margin: 0.75rem 0 0; font-size: 0.95rem; color: #555; }
+
+/* Artigos novos */
+.article-lead { font-size: 1.15rem; color: #444; border-left: 3px solid #722f37; padding-left: 1rem; }
+.fontes-artigo { margin: 2rem 0; padding: 1.25rem 1.5rem; background: #f8f9fa; border-radius: 8px; font-size: 0.95rem; }
+.fontes-artigo h3 { margin-top: 0; }
+.fontes-artigo li { margin-bottom: 0.4rem; word-break: break-word; }
