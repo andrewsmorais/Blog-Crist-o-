@@ -3,7 +3,7 @@ export default function Analise() {
     <section className="analise-sdg">
       <h2>Análise do Soli Deo Gloria: Cantar à porta fechada, entre a fé, a oração e o cuidado com quem sofre em casa</h2>
       <p>
-        O relato mostra uma filha que cantava na porta do quarto do pai, em meio a um sofrimento familiar ligado às drogas. Esta análise não conta a vida de ninguém além do que está no artigo. Ela procura responder a uma pergunta bíblica: o que a Escritura diz sobre o louvor em tempos de aflição e sobre a forma de orar por alguém que amamos e que está preso a um vício?
+        O relato mostra uma filha que cantava na porta do quarto do pai, em meio a um sofrimento familiar. Esta análise não conta a vida de ninguém além do que está no artigo. Ela procura responder a uma pergunta bíblica: o que a Escritura diz sobre o louvor em tempos de aflição e sobre a forma de orar por alguém que amamos e que está preso a um vício?
       </p>
       <h3>O louvor na aflição: o que a Bíblia mostra</h3>
       <p>

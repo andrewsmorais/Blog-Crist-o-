@@ -21,7 +21,7 @@ const VideoEmbed = ({ videoId, title, channel, channelUrl }) => {
           ></iframe>
         ) : (
           <button type="button" className="video-embed-play" onClick={() => setPlaying(true)} aria-label={`Reproduzir vídeo: ${videoTitle}`}>
-            <img src={`https://i.ytimg.com/vi/${videoId}/hqdefault.jpg`} alt="" loading="lazy" width="480" height="360" />
+            <img src={`https://i.ytimg.com/vi/${videoId}/hqdefault.jpg`} alt={`Miniatura do vídeo: ${videoTitle}`} loading="lazy" width="480" height="360" />
             <span className="video-embed-icon" aria-hidden="true">▶</span>
           </button>
         )}

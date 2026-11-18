@@ -129,41 +129,8 @@ function CookieConsentBar() {
 
 // Related Articles
 const allArticlesData = [
-  {
-    title: "Se Posicione e Deixe com Deus: O Chamado Urgente Para a Última Hora",
-    category: "Devocionais",
-    date: "25 Jun, 2026",
-    link: "/se-posicione-deixe-com-deus-chamado-urgente",
-    excerpt: "'Eis-me aqui, envia-me a mim.' O tempo é curto, os campos estão brancos e o Rei está convocando seus servos.",
-    author: "Soli Deo Gloria"
-  },
-  {
-    title: "Por Que Alguns Sofrem Mais? O Que Paulo Ensina Sobre Louvor no Vale e o Deus de Toda Consolação",
-    category: "Estudos Bíblicos",
-    date: "25 Jun, 2026",
-    link: "/por-que-alguns-sofrem-mais-louvor-no-vale-deus-consolacao",
-    excerpt: "O sofrimento não nega o chamado: aprenda com 2 Coríntios 1 a louvar na prova e a descansar no Pai das misericórdias.",
-    author: "Soli Deo Gloria"
-  },
-  {
-    title: "Você Não Esfriou... Você Está Dividido! O Diagnóstico Bíblico da Inconstância Espiritual",
-    category: "Devocionais",
-    date: "25 Jun, 2026",
-    link: "/voce-nao-esfriou-voce-esta-dividido-inconstancia-espiritual",
-    excerpt: "Por que perdemos a alegria, a disposição e a força espiritual — e como voltar ao primeiro amor.",
-    author: "Soli Deo Gloria"
-  },
-  {
-    title: "Deus Determina ou o Homem Toma Atitude? O Que a Bíblia Ensina Sobre os Heróis da Fé",
-    category: "Estudos Bíblicos",
-    date: "25 Jun, 2026",
-    link: "/deus-determina-ou-homem-toma-atitude-herois-da-fe",
-    excerpt: "Soberania de Deus e responsabilidade humana: analisando, versículo por versículo, se os heróis da fé agiram sozinhos ou foram movidos pela graça.",
-    author: "Soli Deo Gloria"
-  },
   { link: '/artigo/sarca-ardente', image: '/sarca-ardente.webp', tag: 'Estudos Bíblicos', title: 'A Sarça Ardente: Quando Deus Encontrou Moisés' },
   { link: '/artigo/sermao-do-monte', image: '/sermao-do-monte.webp', tag: 'Estudos Bíblicos', title: 'Sermão do Monte: As Bem-Aventuranças' },
-  { link: '/como-ler-biblia-inteira-2026-metodos-praticos', image: '/metodos_biblia.webp', tag: 'Vida Cristã', title: '5 Métodos Práticos para Ler a Bíblia em 2026' },
   { link: '/doutrina-eleicao-incondicional-efesios-romanos', image: '/eleicao.webp', tag: 'Teologia', title: 'A Doutrina da Eleição Incondicional' },
   { link: '/carta-galatas-liberdade-crista-estudo-completo', image: '/galatas.webp', tag: 'Estudos Bíblicos', title: 'A Carta aos Gálatas e a Liberdade Cristã' },
   { link: '/cinco-solas-relevancia-hoje-reforma-protestante', image: '/cinco_solas.webp', tag: 'Teologia', title: 'As Cinco Solas e Sua Relevância Hoje' },
@@ -180,9 +147,7 @@ const allArticlesData = [
   { link: '/testemunho-deus-e-bom-historia-fe-transformacao', image: '/deus_e_bom.webp', tag: 'Testemunhos', title: 'Deus É Bom — Uma História de Fé' },
   { link: '/testemunho-desespero-esperanca', image: '/desespero_esperanca.webp', tag: 'Testemunhos', title: 'Do Desespero à Esperança' },
   { link: '/testemunho-e-ele-cancao-nasceu-deserto-paulo-vicente', image: '/e_ele_vicente.webp', tag: 'Testemunhos', title: 'É Ele — Paulo Vicente' },
-  { link: '/testemunho-thamires-musica-cura-aquieta-minhalma', image: '/testemunho_thamires.webp', tag: 'Testemunhos', title: 'Thamires: Da Epilepsia à Adoração' },
   { link: '/testemunho-julliany-souza-louvor-arma-espiritual-familia', image: '/testemunho_julliany.webp', tag: 'Testemunhos', title: 'Julliany Souza: Louvor como Arma' },
-  { link: '/deus-honrou-fe-testemunho-milagres-provisao-divina', image: '/provisao.webp', tag: 'Testemunhos', title: 'Deus Honrou a Fé Dela — Provisão Divina' },
   { link: '/14-estrelas-copa-mundo-2026-seguem-jesus-jogadores-cristaos', image: '/copa_mundo_fe.webp', tag: 'Notícias', title: '14 Estrelas da Copa 2026 que Seguem Jesus' },
   { link: '/para-onde-vai-alma-cristao-apos-morte-estado-intermediario-ressurreicao', image: '/estado_intermediario.webp', tag: 'Estudos Bíblicos', title: 'Para Onde Vai a Alma do Cristão Após a Morte?' },
   { link: '/meus-planos-e-a-graca-de-deus-arquiteto-do-lar', image: '/arquiteto_do_lar.webp', tag: 'Devocionais', title: 'Meus Planos e a Graça de Deus' },
@@ -199,7 +164,6 @@ const allArticlesData = [
   { link: '/voce-esta-no-limite-mas-deus-nao-te-abandonou-forca-na-fraqueza', image: '/forca_na_fraqueza.webp', tag: 'Devocionais', title: 'Você Está no Limite, Mas Deus Não Te Abandonou' },
   { link: '/descansando-na-justica-de-deus-nao-precisamos-fazer-vinganca', image: '/descansando_justica.webp', tag: 'Estudos Bíblicos', title: 'Descansando na Justiça de Deus: Por Que Não Precisamos Fazer Vingança' },
   { link: '/como-saber-vontade-de-deus-3-principios-praticos', image: '/vontade_de_deus.webp', tag: 'Estudos Bíblicos', title: 'Como Saber a Vontade de Deus: 3 Princípios Práticos que Ninguém Te Contou' },
-  { link: '/justin-bieber-copa-elogio-ou-ilusao-diferenca-falar-deus-ser-deus', image: '/justin_bieber_copa.webp', tag: 'Notícias', title: 'Justin Bieber na Copa: Elogio ou Ilusão? A Diferença Entre Falar de Deus e Ser de Deus' },
   { link: '/teologia-prosperidade-vs-miseria-equilibrio-biblico', image: '/prosperidade_vs_miseria.webp', tag: 'Notícias', title: 'Teologia da Prosperidade vs. Teologia da Miséria: Encontrando o Equilíbrio Bíblico' },
   { link: '/salvacao-nao-se-perde-advertencias-paulo-galatas-5', image: '/salvacao_nao_se_perde.webp', tag: 'Estudos Bíblicos', title: 'Salvação Não Se Perde: Entendendo as Advertências de Paulo em Gálatas 5' },
   { link: '/batismo-infantil-certo-confianca-em-cristo-vs-ritual', image: '/batismo_infantil_certo.webp', tag: 'Estudos Bíblicos', title: 'Batismo Infantil é Certo? A Confiança em Cristo vs. A Confiança no Ritual' },
@@ -371,1071 +335,9 @@ const heroArticles = [
     excerpt: "Entenda por que Deus, muitas vezes, parece em silêncio durante as provações e como o 'Príncipe dos Pregadores' nos ensina a confiar na providência soberana mesmo na escuridão.",
     meta: "Jó 42:2"
   },
-  {
-    link: "/como-ler-biblia-inteira-2026-metodos-praticos",
-    image: "/metodos_biblia.webp",
-    tag: "Vida Cristã / Guia Prático",
-    title: "Como Ler a Bíblia Inteira em 2026: Métodos Práticos que Funcionam",
-    excerpt: "Dicas, planos de leitura e orientações práticas para superar a procrastinação e finalmente ler todas as Escrituras em um ano. Um guia completo para nutrir sua alma diariamente.",
-    meta: "Salmos 119:105"
-  }
 ];
 
 // Artigos recentes (antes estavam presos por engano dentro do componente de comentários)
-function RecentArticles({ isDeusDetermina, isInconstancia, isSofrimento, isPosicionamento }) {
-  return (
-    <>
-      {isDeusDetermina && (
-        <article style={{background: '#fff', minHeight: '100vh', padding: '4rem 2rem', fontFamily: "'Georgia', serif"}}>
-          <header style={{textAlign: 'center', marginBottom: '3rem'}}>
-            <h1 style={{fontSize: '3rem', color: '#1a1210', lineHeight: 1.2, margin: '0 auto 1.5rem', maxWidth: '900px', fontWeight: 'bold'}}>
-              Deus Determina ou o Homem Toma Atitude? O Que a Bíblia Ensina Sobre os Heróis da Fé
-            </h1>
-            <h2 style={{fontSize: '1.5rem', color: '#555', fontWeight: 'normal', margin: '0 auto 2rem', maxWidth: '800px', lineHeight: 1.6}}>
-              Soberania de Deus e responsabilidade humana: analisando, versículo por versículo, se os heróis da fé agiram sozinhos ou foram movidos pela graça
-            </h2>
-            <div style={{display: 'flex', justifyContent: 'center', gap: '1rem', fontSize: '0.9rem', color: '#777', flexWrap: 'wrap', marginBottom: '1rem'}}>
-              <span style={{background: '#b91c1c', color: 'white', padding: '4px 12px', borderRadius: '4px', fontWeight: 'bold', letterSpacing: '1px'}}>ESTUDOS BÍBLICOS</span>
-              <span style={{display: 'flex', alignItems: 'center', gap: '5px'}}>✍️ Soli Deo Gloria</span>
-              <span style={{display: 'flex', alignItems: 'center', gap: '5px'}}>📅 25 Jun, 2026</span>
-            </div>
-            <div style={{fontSize: '0.85rem', color: '#888', fontStyle: 'italic', marginBottom: '2rem'}}>
-              Baseado em conteúdo do YouTube | Tags: #soberaniaDeDeus #graça #heróisdaFé #predestinação #livrearbítrio #SoliDeoGloria
-            </div>
-          </header>
-
-          <main className="article-content section-mb" style={{fontSize: '1.15rem', lineHeight: 1.8, color: '#444', maxWidth: '800px', margin: '0 auto'}}>
-            <p>&quot;Eu te provo pela Bíblia que os heróis da fé foram o que foram, não por uma escolha da soberania de Deus determinando sobre a vida deles, mas sim porque eles tomaram uma atitude.&quot;</p>
-            
-            <p>Essa frase, repetida por alguns pregadores hoje, parece poderosa. Parece bíblica. Parece honrar o esforço humano.</p>
-            
-            <p>Mas ela está parcialmente certa — e o erro escondido nela é um problema absurdo.</p>
-            
-            <p>Sim, os heróis da fé tomaram atitudes. Ninguém nega isso. A pergunta que este estudo responde, versículo por versículo, é outra:</p>
-            
-            <p><strong>Eles tomaram essas atitudes sozinhos — ou foi Deus quem moveu o coração deles primeiro?</strong></p>
-            
-            <p>Pegue sua Bíblia. Vamos abrir cada referência.</p>
-
-            <VideoEmbed videoId="LbOOYt0HEGc" title="Deus não determina, o homem toma atitude | Pastor Rodrigo Mocellin" channel="Pastor Rodrigo Mocellin" channelUrl="https://www.youtube.com/@PastorRodrigoMocellin" />
-
-            <h2 style={{color: '#b91c1c', marginTop: '3rem', borderBottom: '2px solid #eee', paddingBottom: '0.5rem'}}>🦸 Os Heróis da Fé e Suas Atitudes (O Argumento Inicial)</h2>
-            
-            <p>O argumento de que &quot;o homem toma atitude&quot; usa os heróis de Hebreus 11:</p>
-            
-            <ul style={{listStyleType: 'none', paddingLeft: 0}}>
-              <li style={{marginBottom: '0.5rem'}}>✅ <strong>Noé</strong> — não participou de um mundo corrompido; tornou-se &quot;herdeiro da justiça&quot; (Hebreus 11:7)</li>
-              <li style={{marginBottom: '0.5rem'}}>✅ <strong>Abraão</strong> — saiu sem saber para onde ia; tornou-se o pai da fé (Hebreus 11:8)</li>
-              <li style={{marginBottom: '0.5rem'}}>✅ <strong>Moisés</strong> — deixou de ser chamado filho da filha de Faraó; tornou-se o maior profeta (Hebreus 11:24-27)</li>
-              <li style={{marginBottom: '0.5rem'}}>✅ <strong>Davi</strong> — enfrentou Golias e conquistou notoriedade; do seu trono vem o Messias (1 Samuel 17)</li>
-              <li style={{marginBottom: '0.5rem'}}>✅ <strong>Isaías</strong> — respondeu &quot;eis-me aqui, envia-me a mim&quot; (Isaías 6:8)</li>
-              <li style={{marginBottom: '0.5rem'}}>✅ <strong>Daniel</strong> — não se contaminou na Babilônia (Daniel 1:8)</li>
-              <li style={{marginBottom: '0.5rem'}}>✅ <strong>Paulo</strong> — abandonou tudo e se tornou o apóstolo dos gentios (Gálatas 2:20)</li>
-            </ul>
-            
-            <p>Tudo verdade. Todos tomaram atitudes.</p>
-            
-            <p>Mas aqui está a pergunta que muda tudo: <strong>de onde veio a atitude?</strong></p>
-
-            <h2 style={{color: '#b91c1c', marginTop: '3rem', borderBottom: '2px solid #eee', paddingBottom: '0.5rem'}}>📖 Referências que Mostram: Deus Move Primeiro</h2>
-            
-            <h3 style={{color: '#1a1210', marginTop: '2rem'}}>1️⃣ Os Dias Determinados Antes de Existirem</h3>
-            <div style={{background: '#f8f9fa', padding: '1.25rem', borderRadius: '10px', margin: '1.5rem 0', borderLeft: '4px solid #0066cc'}}>
-              <p style={{margin: 0, fontStyle: 'italic', fontWeight: 'bold'}}>
-                &quot;Os teus olhos me viram a substância ainda informe, e no teu livro foram escritos todos os meus dias, cada um deles escrito e determinado, quando nenhum deles havia ainda.&quot; — Salmo 139:16
-              </p>
-            </div>
-            <p>Se todos os dias já estavam determinados no livro de Deus, como as atitudes que definiram esses dias escapam da determinação divina?</p>
-
-            <h3 style={{color: '#1a1210', marginTop: '2rem'}}>2️⃣ Deus Efetua o Querer e o Realizar</h3>
-            <div style={{background: '#f8f9fa', padding: '1.25rem', borderRadius: '10px', margin: '1.5rem 0', borderLeft: '4px solid #0066cc'}}>
-              <p style={{margin: 0, fontStyle: 'italic', fontWeight: 'bold'}}>
-                &quot;Porque Deus é o que opera em vós tanto o querer como o efetuar, segundo a sua boa vontade.&quot; — Filipenses 2:13
-              </p>
-            </div>
-            <p>Somos nós que agimos. Mas porque primeiro Deus agiu em nós. Até o querer tomar a atitude é obra dEle.</p>
-
-            <h3 style={{color: '#1a1210', marginTop: '2rem'}}>3️⃣ O Coração Novo e o Espírito que Faz Andar</h3>
-            <div style={{background: '#f8f9fa', padding: '1.25rem', borderRadius: '10px', margin: '1.5rem 0', borderLeft: '4px solid #0066cc'}}>
-              <p style={{margin: 0, fontStyle: 'italic', fontWeight: 'bold'}}>
-                &quot;E dar-vos-ei um coração novo, e porei dentro de vós um espírito novo... E porei dentro de vós o meu Espírito, e farei que andeis nos meus estatutos.&quot; — Ezequiel 36:26-27
-              </p>
-            </div>
-            <p>Note o sujeito da ação: &quot;EU porei... EU farei que andeis.&quot;</p>
-            <p>Quando cada herói da fé se moveu para obedecer, quem os moveu primeiro? O texto responde: Deus.</p>
-
-            <h3 style={{color: '#1a1210', marginTop: '2rem'}}>4️⃣ Dele, Por Ele e Para Ele</h3>
-            <div style={{background: '#f8f9fa', padding: '1.25rem', borderRadius: '10px', margin: '1.5rem 0', borderLeft: '4px solid #0066cc'}}>
-              <p style={{margin: 0, fontStyle: 'italic', fontWeight: 'bold'}}>
-                &quot;Porque dele, e por ele, e para ele, são todas as coisas; glória, pois, a ele eternamente. Amém.&quot; — Romanos 11:36
-              </p>
-            </div>
-            <p>Deus é a origem de tudo. Se algo existisse independente de Deus, esse algo seria Deus. O homem não é autônomo — nem para o bem, nem para o mal.</p>
-
-            <h2 style={{color: '#b91c1c', marginTop: '3rem', borderBottom: '2px solid #eee', paddingBottom: '0.5rem'}}>👑 O Caso de Ciro: A Atitude que Deus Despertou</h2>
-            
-            <p>Ciro era um rei ímpio. Mesmo assim, veja o que a Bíblia diz:</p>
-            
-            <div style={{background: '#f8f9fa', padding: '1.25rem', borderRadius: '10px', margin: '1.5rem 0', borderLeft: '4px solid #0066cc'}}>
-              <p style={{margin: 0, fontStyle: 'italic', fontWeight: 'bold'}}>
-                &quot;No primeiro ano de Ciro, rei da Pérsia (para que se cumprisse a palavra do SENHOR)... despertou o SENHOR o espírito de Ciro, rei da Pérsia.&quot; — Esdras 1:1
-              </p>
-            </div>
-            
-            <p>E o povo obedeceu. Por quê?</p>
-            
-            <div style={{background: '#f8f9fa', padding: '1.25rem', borderRadius: '10px', margin: '1.5rem 0', borderLeft: '4px solid #0066cc'}}>
-              <p style={{margin: 0, fontStyle: 'italic', fontWeight: 'bold'}}>
-                &quot;Então se levantaram os chefes dos pais de Judá e Benjamim, e os sacerdotes e os levitas, com todos aqueles cujo espírito Deus despertou, para subirem a edificar a casa do SENHOR.&quot; — Esdras 1:5
-              </p>
-            </div>
-            
-            <p>Todo mundo viu Ciro tomando atitude. Todo mundo viu o povo se levantando.</p>
-            <p>Mas por trás da atitude visível, havia um despertar invisível: Deus moveu o coração.</p>
-            <p>Deus não ficou esperando o homem agir. Ele despertou o espírito — e então o homem agiu, livremente.</p>
-
-            <h2 style={{color: '#b91c1c', marginTop: '3rem', borderBottom: '2px solid #eee', paddingBottom: '0.5rem'}}>🐴 O Caso de Paulo: A Atitude que Não Queria Ter</h2>
-            
-            <p>Paulo é o exemplo favorito de quem defende &quot;a atitude humana&quot;. Ele mesmo disse:</p>
-            
-            <div style={{background: '#f8f9fa', padding: '1.25rem', borderRadius: '10px', margin: '1.5rem 0', borderLeft: '4px solid #0066cc'}}>
-              <p style={{margin: 0, fontStyle: 'italic', fontWeight: 'bold'}}>
-                &quot;Já não vivo eu, mas Cristo vive em mim.&quot; — Gálatas 2:20
-              </p>
-            </div>
-            
-            <p>Mas repare na contradição de usar esse versículo para defender autonomia:</p>
-            <p>&quot;Não mais eu, mas Cristo... e logo em seguida afirmar: 'tomei a atitude sozinho'?&quot;</p>
-            
-            <p>Paulo não queria se converter. Ele ia a caminho de perseguir crentes. Foi Jesus quem o derrubou no caminho de Damasco (Atos 9).</p>
-            <p>A atitude de Paulo nasceu de uma intervenção soberana — não de uma decisão autônoma.</p>
-
-            <h2 style={{color: '#b91c1c', marginTop: '3rem', borderBottom: '2px solid #eee', paddingBottom: '0.5rem'}}>✝️ O Caso de Jesus: Atitudes em Submissão ao Pai</h2>
-            
-            <p>Até as atitudes de Cristo estavam submetidas ao Pai:</p>
-            
-            <div style={{background: '#f8f9fa', padding: '1.25rem', borderRadius: '10px', margin: '1.5rem 0', borderLeft: '4px solid #0066cc'}}>
-              <p style={{marginBottom: '0.5rem', fontStyle: 'italic', fontWeight: 'bold'}}>
-                &quot;O Filho nada pode fazer de si mesmo, senão somente aquilo que vir fazer o Pai.&quot; — João 5:19
-              </p>
-              <p style={{marginBottom: '0.5rem', fontStyle: 'italic', fontWeight: 'bold'}}>
-                &quot;A este Jesus, entregue pelo determinado conselho e presciência de Deus, vós crucificastes.&quot; — Atos 2:23
-              </p>
-              <p style={{margin: 0, fontStyle: 'italic', fontWeight: 'bold'}}>
-                &quot;Todavia, ao SENHOR agradou moê-lo, fazendo-o enfermar.&quot; — Isaías 53:10
-              </p>
-            </div>
-            
-            <p>As atitudes de Jesus (Filipenses 2:5-8 — humilhar-se, obedecer até a morte) foram reais e voluntárias. Mas não foram independentes do Pai. A cruz foi atitude de Cristo e determinado conselho de Deus — ao mesmo tempo.</p>
-
-            <h2 style={{color: '#b91c1c', marginTop: '3rem', borderBottom: '2px solid #eee', paddingBottom: '0.5rem'}}>🧱 O Caso de Faraó: Soberano Até Sobre o Mal</h2>
-            
-            <p>Deus ordenou: &quot;Vai, pois, agora, e eu te enviarei a Faraó&quot; (Êxodo 3:10). E ao mesmo tempo declarou:</p>
-            
-            <div style={{background: '#f8f9fa', padding: '1.25rem', borderRadius: '10px', margin: '1.5rem 0', borderLeft: '4px solid #0066cc'}}>
-              <p style={{margin: 0, fontStyle: 'italic', fontWeight: 'bold'}}>
-                &quot;Eu endurecerei o coração de Faraó, para que multiplique os meus sinais e as minhas maravilhas na terra do Egito.&quot; — Êxodo 7:3
-              </p>
-            </div>
-            
-            <p>Isso não significa que Deus colocou maldade no coração de Faraó — a maldade já estava lá. Significa que Deus é soberano sobre o coração do homem, até no mal.</p>
-            
-            <p>Como diz o provérbio:</p>
-            <div style={{background: '#f8f9fa', padding: '1.25rem', borderRadius: '10px', margin: '1.5rem 0', borderLeft: '4px solid #0066cc'}}>
-              <p style={{margin: 0, fontStyle: 'italic', fontWeight: 'bold'}}>
-                &quot;Como ribeiros de águas assim é o coração do rei na mão do SENHOR, que o inclina a todo o seu querer.&quot; — Provérbios 21:1
-              </p>
-            </div>
-
-            <h2 style={{color: '#b91c1c', marginTop: '3rem', borderBottom: '2px solid #eee', paddingBottom: '0.5rem'}}>⚖️ Graça Não É Dívida: Por Que Um Escolhe e o Outro Não?</h2>
-            
-            <p>Se todos nascem mortos em pecado, por que alguns escolhem a Cristo e outros não?</p>
-            
-            <p>Porque Deus abriu o coração de uns, como fez com Lídia:</p>
-            <div style={{background: '#f8f9fa', padding: '1.25rem', borderRadius: '10px', margin: '1.5rem 0', borderLeft: '4px solid #0066cc'}}>
-              <p style={{margin: 0, fontStyle: 'italic', fontWeight: 'bold'}}>
-                &quot;E uma certa mulher, chamada Lídia... estava ouvindo, e o Senhor lhe abriu o coração.&quot; — Atos 16:14
-              </p>
-            </div>
-            
-            <p>E porque a graça é favor imerecido, não obrigação:</p>
-            <div style={{background: '#f8f9fa', padding: '1.25rem', borderRadius: '10px', margin: '1.5rem 0', borderLeft: '4px solid #0066cc'}}>
-              <p style={{margin: 0, fontStyle: 'italic', fontWeight: 'bold'}}>
-                &quot;Não me é lícito fazer o que quiser do que é meu?&quot; — Mateus 20:15
-              </p>
-            </div>
-            
-            <p>Deus não deve graça a ninguém. Ele é sempre justo com todos — e misericordioso com quem Lhe apraz.</p>
-            <div style={{background: '#f8f9fa', padding: '1.25rem', borderRadius: '10px', margin: '1.5rem 0', borderLeft: '4px solid #0066cc'}}>
-              <p style={{margin: 0, fontStyle: 'italic', fontWeight: 'bold'}}>
-                &quot;Porque diz a Moisés: Compadecer-me-ei de quem me compadecer, e terei misericórdia de quem eu tiver misericórdia.&quot; — Romanos 9:15
-              </p>
-            </div>
-
-            <h2 style={{color: '#b91c1c', marginTop: '3rem', borderBottom: '2px solid #eee', paddingBottom: '0.5rem'}}>📜 Até Armínio Concordava: A Providência Sobre o Livre-Arbítrio</h2>
-            
-            <p>É comum acusar a visão reformada de extremismo. Mas ouça o próprio Jacó Armínio:</p>
-            
-            <div style={{background: '#f8f9fa', padding: '1.5rem', borderRadius: '10px', margin: '1.5rem 0', borderLeft: '4px solid #555', fontStyle: 'italic'}}>
-              <p style={{margin: 0}}>
-                &quot;Os meus sentimentos a respeito da providência de Deus são os seguintes: ela está presente em todas as coisas e as preside... Não excetuo nenhuma coisa particular, terrena, vil nem contingente, nem mesmo o livre-arbítrio de homens ou anjos... E não retiro do governo da divina providência nem mesmo os próprios pecados.&quot; — Jacó Armínio, <em>A Providência de Deus</em> (Obras de Armínio, vol. 2; tradução livre)
-              </p>
-            </div>
-            
-            <p>Nem o livre-arbítrio escapa da providência de Deus — segundo o próprio Armínio.</p>
-            
-            <p>A ideia de que &quot;Deus não pode mover o coração do homem&quot; não é arminianismo clássico. É deísmo (Deus deu corda no relógio e foi embora) e pelagianismo (o homem nasce bom e se salva por esforço).</p>
-            
-            <p>E a ironia final: quem ora pedindo que Deus mova o coração de um parente ímpio para vir a Jesus... já admitiu, na prática, que Deus pode, sim, inclinar o coração do homem.</p>
-
-            <h2 style={{color: '#b91c1c', marginTop: '3rem', borderBottom: '2px solid #eee', paddingBottom: '0.5rem'}}>🤝 A Síntese Bíblica: Deus Move, o Homem Age</h2>
-            
-            <p>A Bíblia não apresenta um Deus impotente nem um robô humano. Apresenta os dois lados:</p>
-            
-            <ul style={{listStyleType: 'none', paddingLeft: 0, marginBottom: '2rem'}}>
-              <li style={{marginBottom: '0.5rem'}}>✅ Deus determina e desperta (Salmo 139:16; Esdras 1:1; Filipenses 2:13)</li>
-              <li style={{marginBottom: '0.5rem'}}>✅ O homem age livremente e é responsável (Hebreus 11; Isaías 6:8)</li>
-              <li style={{marginBottom: '0.5rem'}}>✅ A atitude humana é real — mas a graça que a desperta é anterior (Ezequiel 36:27; Atos 16:14)</li>
-            </ul>
-            
-            <p><strong>Ilustração:</strong> diante de R$ 2 e R$ 2 bilhões, o homem cego e caído escolhe livremente os R$ 2. Por que alguns escolhem os bilhões? Porque Deus abriu os olhos de uns. A escolha é livre — a capacitação é graça.</p>
-            
-            <p>Os heróis da fé tomaram atitudes? Sim. Mas foi a graça soberana que despertou o coração deles para agir.</p>
-
-            <h2 style={{color: '#b91c1c', marginTop: '3rem', borderBottom: '2px solid #eee', paddingBottom: '0.5rem'}}>📚 Box de Referências Completas</h2>
-            
-            <div style={{background: '#f8f9fa', borderLeft: '4px solid #0066cc', padding: '1.5rem', borderRadius: '0 8px 8px 0', margin: '2rem 0', fontSize: '0.95rem'}}>
-              <ul style={{listStyleType: 'none', paddingLeft: 0, margin: 0}}>
-                <li style={{marginBottom: '0.75rem'}}><strong>Salmo 139:16</strong> — &quot;No teu livro foram escritos todos os meus dias, cada um deles escrito e determinado.&quot;</li>
-                <li style={{marginBottom: '0.75rem'}}><strong>Filipenses 2:13</strong> — &quot;Deus é o que opera em vós tanto o querer como o efetuar.&quot;</li>
-                <li style={{marginBottom: '0.75rem'}}><strong>Ezequiel 36:26-27</strong> — &quot;Porei dentro de vós o meu Espírito, e farei que andeis nos meus estatutos.&quot;</li>
-                <li style={{marginBottom: '0.75rem'}}><strong>Romanos 11:36</strong> — &quot;Dele, e por ele, e para ele, são todas as coisas.&quot;</li>
-                <li style={{marginBottom: '0.75rem'}}><strong>Esdras 1:1, 5</strong> — &quot;Despertou o SENHOR o espírito de Ciro... todos aqueles cujo espírito Deus despertou.&quot;</li>
-                <li style={{marginBottom: '0.75rem'}}><strong>Atos 2:23</strong> — &quot;Entregue pelo determinado conselho e presciência de Deus.&quot;</li>
-                <li style={{marginBottom: '0.75rem'}}><strong>João 5:19</strong> — &quot;O Filho nada pode fazer de si mesmo.&quot;</li>
-                <li style={{marginBottom: '0.75rem'}}><strong>Isaías 53:10</strong> — &quot;Ao SENHOR agradou moê-lo.&quot;</li>
-                <li style={{marginBottom: '0.75rem'}}><strong>Êxodo 7:3</strong> — &quot;Eu endurecerei o coração de Faraó.&quot;</li>
-                <li style={{marginBottom: '0.75rem'}}><strong>Provérbios 21:1</strong> — &quot;O coração do rei na mão do SENHOR, que o inclina a todo o seu querer.&quot;</li>
-                <li style={{marginBottom: '0.75rem'}}><strong>Atos 16:14</strong> — &quot;O Senhor lhe abriu o coração.&quot;</li>
-                <li style={{marginBottom: '0.75rem'}}><strong>Mateus 20:15</strong> — &quot;Não me é lícito fazer o que quiser do que é meu?&quot;</li>
-                <li style={{marginBottom: '0.75rem'}}><strong>Romanos 9:15</strong> — &quot;Compadecer-me-ei de quem me compadecer.&quot;</li>
-                <li style={{marginBottom: 0}}><strong>Gálatas 2:20</strong> — &quot;Já não vivo eu, mas Cristo vive em mim.&quot;</li>
-              </ul>
-            </div>
-
-            <div style={{background: '#e9ecef', padding: '1.5rem', borderRadius: '12px', margin: '3rem 0'}}>
-              <h3 style={{marginTop: 0, color: '#1a1210'}}>📺 Fonte e Inspiração</h3>
-              <p style={{fontSize: '0.95rem'}}>Este artigo foi desenvolvido como uma versão escrita e expandida do vídeo <strong>"Deus não determina, o homem toma atitude"</strong>, do canal Pastor Rodrigo Mocellin no YouTube.</p>
-              <p style={{fontSize: '0.95rem'}}>Se você prefere assistir ou quer complementar o estudo com o vídeo original, confira:</p>
-              
-              <ul style={{listStyleType: 'none', paddingLeft: 0, fontSize: '0.95rem'}}>
-                <li style={{marginBottom: '0.5rem'}}>🔗 <a href="https://www.youtube.com/watch?v=LbOOYt0HEGc" target="_blank" rel="noopener noreferrer" style={{color: '#b91c1c', fontWeight: 'bold'}}>https://www.youtube.com/watch?v=LbOOYt0HEGc</a></li>
-                <li style={{marginBottom: '0.5rem'}}>📺 <a href="https://www.youtube.com/@PastorRodrigoMocellin" target="_blank" rel="noopener noreferrer" style={{color: '#1a1210', fontWeight: 'bold'}}>Canal Pastor Rodrigo Mocellin — https://www.youtube.com/@PastorRodrigoMocellin</a></li>
-              </ul>
-              
-              <p style={{fontSize: '0.95rem', margin: 0, fontStyle: 'italic', marginTop: '1rem'}}>Agradecemos ao Pastor Rodrigo Mocellin por ensinar com profundidade e clareza as doutrinas da graça. "A atitude do homem é real. Mas a graça que a desperta é soberana."</p>
-            </div>
-
-            <blockquote style={{borderLeft: '4px solid #722F37', background: '#fff9f9', padding: '1.5rem', margin: '2rem 0', fontStyle: 'italic', borderRadius: '0 8px 8px 0'}}>
-              <p style={{fontWeight: 'bold', marginBottom: '1rem'}}>🙏 Oração</p>
-              <p>Senhor, Deus soberano,</p>
-              <p>Obrigado porque a minha salvação não depende da minha força, mas da Tua graça.</p>
-              <p>Obrigado porque Tu despertaste o meu coração quando eu não Te buscava.</p>
-              <p>Ensina-me a agir com responsabilidade, sabendo que és Tu quem opera em mim o querer e o efetuar.</p>
-              <p>Dá-me humildade para examinar as Escrituras e amor por todos os que buscam a Tua verdade.</p>
-              <p>Inclina o meu coração aos Teus testemunhos.</p>
-              <p>Em nome de Jesus, amém.</p>
-            </blockquote>
-            
-            <p style={{textAlign: 'center', fontWeight: 'bold', marginTop: '2rem'}}>Soli Deo Gloria. ✨</p>
-          </main>
-
-          <section style={{maxWidth: '800px', margin: '0 auto 3rem', background: '#f8f9fa', padding: '2rem', borderRadius: '12px', borderTop: '4px solid #0066cc'}}>
-            <h2 style={{color: '#1a1210', marginTop: 0, display: 'flex', alignItems: 'center', gap: '8px'}}>💬 E Você, O Que Acha?</h2>
-            <p style={{color: '#555'}}>Agora queremos ouvir você, que leu até aqui:</p>
-            <ul style={{color: '#444', marginBottom: '1.5rem', paddingLeft: '1.5rem'}}>
-              <li style={{marginBottom: '0.5rem'}}>Você acredita que os heróis da fé agiram por atitude própria, ou que a graça de Deus moveu o coração deles primeiro?</li>
-              <li style={{marginBottom: '0.5rem'}}>Como você entende o equilíbrio entre a soberania de Deus e a responsabilidade humana?</li>
-              <li style={{marginBottom: '0.5rem'}}>Você já orou pedindo que Deus mudasse o coração de alguém? Se sim, isso não é admitir que Deus pode inclinar o coração do homem?</li>
-              <li>Qual das referências acima mais falou ao seu coração?</li>
-            </ul>
-            <p style={{color: '#666', fontStyle: 'italic'}}>👇 Deixe sua opinião nos comentários. Queremos aprender juntos, com respeito e amor pela Palavra. Não estamos aqui para vencer debates — estamos aqui para buscar o que a Bíblia ensina.</p>
-            <p style={{fontWeight: 'bold', color: '#1a1210'}}>&quot;Examinai tudo. Retende o bem.&quot; — 1 Tessalonicenses 5:21</p>
-          </section>
-
-          <ShareBar title="Deus Determina ou o Homem Toma Atitude? O Que a Bíblia Ensina Sobre os Heróis da Fé" url="/deus-determina-ou-homem-toma-atitude-herois-da-fe" />
-          <RelatedArticles currentLink="/deus-determina-ou-homem-toma-atitude-herois-da-fe" category="Estudos Bíblicos" />
-        </article>
-      )}
-      {isInconstancia && (
-        <article style={{background: '#fff', minHeight: '100vh', padding: '4rem 2rem', fontFamily: "'Georgia', serif"}}>
-          <header style={{textAlign: 'center', marginBottom: '3rem'}}>
-            <h1 style={{fontSize: '3rem', color: '#1a1210', lineHeight: 1.2, margin: '0 auto 1.5rem', maxWidth: '900px', fontWeight: 'bold'}}>
-              Você Não Esfriou... Você Está Dividido! O Diagnóstico Bíblico da Inconstância Espiritual
-            </h1>
-            <h2 style={{fontSize: '1.5rem', color: '#555', fontWeight: 'normal', margin: '0 auto 2rem', maxWidth: '800px', lineHeight: 1.6}}>
-              Por que perdemos a alegria, a disposição e a força espiritual — e como voltar ao primeiro amor
-            </h2>
-            <div style={{display: 'flex', justifyContent: 'center', gap: '1rem', fontSize: '0.9rem', color: '#777', flexWrap: 'wrap', marginBottom: '1rem'}}>
-              <span style={{background: '#15803d', color: 'white', padding: '4px 12px', borderRadius: '4px', fontWeight: 'bold', letterSpacing: '1px'}}>DEVOCIONAIS</span>
-              <span style={{display: 'flex', alignItems: 'center', gap: '5px'}}>✍️ Soli Deo Gloria</span>
-              <span style={{display: 'flex', alignItems: 'center', gap: '5px'}}>📅 25 Jun, 2026</span>
-            </div>
-            <div style={{fontSize: '0.85rem', color: '#888', fontStyle: 'italic', marginBottom: '2rem'}}>
-              Baseado em conteúdo do YouTube | Tags: #inconstância #primeiroamor #santificação #vidaespiritual #PauloJunior #SoliDeoGloria
-            </div>
-          </header>
-
-          <main className="article-content section-mb" style={{fontSize: '1.15rem', lineHeight: 1.8, color: '#444', maxWidth: '800px', margin: '0 auto'}}>
-            <p>&quot;O homem de ânimo dobre é inconstante em todos os seus caminhos.&quot; — <strong>Tiago 1:8</strong></p>
-            
-            <p>Você já se perguntou por que perdeu a alegria de ir ao culto? Por que não tem mais disposição para ler a Bíblia? Por que a oração virou um peso?</p>
-            
-            <p>Muitos cristãos acham que esfriaram espiritualmente. Mas o diagnóstico bíblico é mais preciso:</p>
-            
-            <p><strong>Você não esfriou. Você está dividido.</strong></p>
-            
-            <p>Seu coração, que antes tinha olhos só para Cristo, agora está voltado para muitas coisas. E um coração dividido gera inconstância — aquela oscilação entre &quot;hora estou bem, hora estou mal; hora oro, hora não oro; hora vou ao culto, hora não vou&quot;.</p>
-
-            <VideoEmbed videoId="I-72bLdKA6g" title="VOCÊ NÃO ESFRIOU... VOCÊ ESTÁ DIVIDIDO! | Pr. Paulo Junior" channel="Pastor Paulo Junior" channelUrl="https://www.youtube.com/watch?v=I-72bLdKA6g" />
-
-            <h2 style={{color: '#15803d', marginTop: '3rem', borderBottom: '2px solid #eee', paddingBottom: '0.5rem'}}>💔 O Que É um Coração Dividido?</h2>
-            
-            <p>A palavra grega para &quot;ânimo dobre&quot; em Tiago 1:8 é <em>dípsychos</em> — literalmente &quot;dupla alma&quot;, &quot;duplo coração&quot;.</p>
-            
-            <p>Não é alguém com duas personalidades. É alguém com duas lealdades, dois amores, dois focos.</p>
-            
-            <p>Quando nos convertemos, nosso ritmo com Cristo é intenso porque temos olhos só para Ele. Mas à medida que o tempo passa, nossos olhos vão se voltando para outras coisas:</p>
-            <ul style={{listStyleType: 'none', paddingLeft: 0}}>
-              <li style={{marginBottom: '0.5rem'}}>❌ Trabalho excessivo</li>
-              <li style={{marginBottom: '0.5rem'}}>❌ Academia e cursos</li>
-              <li style={{marginBottom: '0.5rem'}}>❌ Mídias sociais e plataformas digitais</li>
-              <li style={{marginBottom: '0.5rem'}}>❌ Compromissos sociais em excesso</li>
-              <li style={{marginBottom: '0.5rem'}}>❌ Entretenimento constante</li>
-            </ul>
-            
-            <p>Olhe para sua agenda desta semana. Veja com quantas coisas você está envolvido.</p>
-            <p>Ao longo do tempo, você vai dividindo o espaço que era só de Cristo — as afeições destinadas só para Ele, o apreço só por Ele — e vai colocando no trabalho, nos filhos, na carga horária, na esposa, nas redes sociais, na natação, nas provas.</p>
-            <p>E seu coração fica dividido.</p>
-
-            <h2 style={{color: '#15803d', marginTop: '3rem', borderBottom: '2px solid #eee', paddingBottom: '0.5rem'}}>🔄 O Ciclo da Inconstância</h2>
-            
-            <p>Quando o coração fica dividido, ele se torna inconstante:</p>
-            
-            <ul style={{listStyleType: 'none', paddingLeft: 0}}>
-              <li style={{marginBottom: '0.5rem'}}>❌ Hora dá alguma coisa para o Senhor, hora não dá</li>
-              <li style={{marginBottom: '0.5rem'}}>❌ Hora tem disposição para o culto, hora não tem</li>
-              <li style={{marginBottom: '0.5rem'}}>❌ Está cansado demais para ler a Bíblia</li>
-              <li style={{marginBottom: '0.5rem'}}>❌ Quando não está cansado, não consegue orar porque a mente está cheia de pensamentos</li>
-              <li style={{marginBottom: '0.5rem'}}>❌ Deus fica sempre em segundo plano</li>
-            </ul>
-            
-            <p>Você está lutando em muitas frentes e perdendo sua característica cristã. Perdeu a alegria. Perdeu a disposição. Perdeu a força.</p>
-            <p>Por quê? Porque está dividindo as coisas essenciais com as secundárias. Está cansado demais, disperso demais, tenso demais, aflito demais, ansioso demais.</p>
-            <p>E por que está ansioso? Porque está dividido com muitas tarefas. Tem coisa demais.</p>
-
-            <h2 style={{color: '#15803d', marginTop: '3rem', borderBottom: '2px solid #eee', paddingBottom: '0.5rem'}}>🎯 As Soluções Bíblicas para a Inconstância</h2>
-            
-            <h3 style={{color: '#1a1210', marginTop: '2rem'}}>1️⃣ Simplifique Sua Vida</h3>
-            <p>Será que sua agenda precisa de tanta parafernália? Será que você não precisa voltar a viver uma vida simples?</p>
-            <p>Talvez você precise:</p>
-            <ul style={{listStyleType: 'none', paddingLeft: 0}}>
-              <li style={{marginBottom: '0.5rem'}}>✅ Ter só um trabalho e ficar mais em casa</li>
-              <li style={{marginBottom: '0.5rem'}}>✅ Gastar tempo com a família e com o devocional</li>
-              <li style={{marginBottom: '0.5rem'}}>✅ Diminuir visitas e compromissos sociais</li>
-              <li style={{marginBottom: '0.5rem'}}>✅ Cortar o tempo excessivo no celular</li>
-              <li style={{marginBottom: '0.5rem'}}>✅ Reduzir o consumo de mídias digitais</li>
-              <li style={{marginBottom: '0.5rem'}}>✅ Diminuir a agenda</li>
-            </ul>
-            <p>Para quê? Para que seus olhos voltem a estar no Salvador.</p>
-
-            <h3 style={{color: '#1a1210', marginTop: '2rem'}}>2️⃣ Seja Constante nos Cultos</h3>
-            <div style={{background: '#f8f9fa', padding: '1.25rem', borderRadius: '10px', margin: '1.5rem 0', borderLeft: '4px solid #15803d'}}>
-              <p style={{margin: 0, fontStyle: 'italic', fontWeight: 'bold'}}>
-                &quot;Não deixando a nossa congregação, como é costume de alguns.&quot; — Hebreus 10:25
-              </p>
-            </div>
-            <p>Não deixemos de congregar. É uma ordem, não uma sugestão.</p>
-            <p>Muitos dizem: &quot;Pastor, eu não venho porque sou fraco.&quot; Mas você é fraco porque não vem. É uma reação em cadeia.</p>
-            <p><strong>Não venho porque sou fraco → sou fraco porque não venho → vou continuar fraco.</strong></p>
-            <p>Sejamos constantes no culto público: culto de oração, vigília, escola dominical, culto dominical. Você precisa ser constante.</p>
-
-            <h3 style={{color: '#1a1210', marginTop: '2rem'}}>3️⃣ Frequência e Intensidade na Oração</h3>
-            <div style={{background: '#f8f9fa', padding: '1.25rem', borderRadius: '10px', margin: '1.5rem 0', borderLeft: '4px solid #15803d'}}>
-              <p style={{margin: 0, fontStyle: 'italic', fontWeight: 'bold'}}>
-                &quot;Orai sem cessar.&quot; — 1 Tessalonicenses 5:17
-              </p>
-            </div>
-            <p>Você não precisa apenas ser frequente nas orações — precisa ser intenso.</p>
-            <p>&quot;Orai sem cessar&quot; não significa ficar de joelho 24 horas. Significa estar constantemente em espírito de oração. Não abandone o lugar da oração. Não deixe de orar.</p>
-            <p>E lembre-se: quando EU oro, EU fico santo. Você não pode depender da oração dos outros. Você precisa praticar a oração, senão nunca será um crente forte.</p>
-
-            <h3 style={{color: '#1a1210', marginTop: '2rem'}}>4️⃣ Constância na Leitura Bíblica</h3>
-            <div style={{background: '#f8f9fa', padding: '1.25rem', borderRadius: '10px', margin: '1.5rem 0', borderLeft: '4px solid #15803d'}}>
-              <p style={{margin: 0, fontStyle: 'italic', fontWeight: 'bold'}}>
-                &quot;Não se aparte da tua boca o livro desta lei; antes medita nele dia e noite...&quot; — Josué 1:8
-              </p>
-            </div>
-            <p>Não saia de casa sem ler pelo menos um capítulo da Bíblia. É seu café da manhã. Na hora do almoço, medite em alguns versículos. À noite, antes de dormir, medite em outros.</p>
-            <p>Coma constantemente da Palavra.</p>
-            <div style={{background: '#f8f9fa', padding: '1.25rem', borderRadius: '10px', margin: '1.5rem 0', borderLeft: '4px solid #15803d'}}>
-              <p style={{margin: 0, fontStyle: 'italic', fontWeight: 'bold'}}>
-                &quot;Bem-aventurado o homem que não anda segundo o conselho dos ímpios... Antes tem o seu prazer na lei do SENHOR, e na sua lei medita de dia e de noite.&quot; — Salmo 1:1-2
-              </p>
-            </div>
-
-            <h3 style={{color: '#1a1210', marginTop: '2rem'}}>5️⃣ Não Baixe a Guarda na Santificação</h3>
-            <p>Lembra do seu primeiro amor? Quando você baixou a guarda com a santificação, começou a perder a constância:</p>
-            <ul style={{listStyleType: 'none', paddingLeft: 0}}>
-              <li style={{marginBottom: '0.5rem'}}>❌ Começou a tolerar coisas que não tolerava</li>
-              <li style={{marginBottom: '0.5rem'}}>❌ Começou a dizer palavras que não dizia</li>
-              <li style={{marginBottom: '0.5rem'}}>❌ Começou a guardar rancor e mágoa que não guardava</li>
-              <li style={{marginBottom: '0.5rem'}}>❌ Começou a permitir papos que não permitia</li>
-              <li style={{marginBottom: '0.5rem'}}>❌ Começou a fechar negócios que não fechava</li>
-            </ul>
-            <div style={{background: '#f8f9fa', padding: '1.25rem', borderRadius: '10px', margin: '1.5rem 0', borderLeft: '4px solid #15803d'}}>
-              <p style={{margin: 0, fontStyle: 'italic', fontWeight: 'bold'}}>
-                &quot;Ainda não resististes até ao sangue, combatendo contra o pecado.&quot; — Hebreus 12:4
-              </p>
-            </div>
-            <p>Você precisa voltar à constância e aumentar a guarda. Não permita esses pensamentos e práticas. Precisa ser constante.</p>
-
-            <h3 style={{color: '#1a1210', marginTop: '2rem'}}>6️⃣ Atuação Constante no Reino de Deus</h3>
-            <div style={{background: '#f8f9fa', padding: '1.25rem', borderRadius: '10px', margin: '1.5rem 0', borderLeft: '4px solid #15803d'}}>
-              <p style={{margin: 0, fontStyle: 'italic', fontWeight: 'bold'}}>
-                &quot;Portanto, meus amados irmãos, sede firmes e constantes, sempre abundantes na obra do Senhor, sabendo que o vosso trabalho não é vão no Senhor.&quot; — 1 Coríntios 15:58
-              </p>
-            </div>
-            <p>Sua atuação no Reino não pode ser esporádica. O serviço não pode ser inconstante. O Senhor espera isso de nós.</p>
-
-            <h2 style={{color: '#15803d', marginTop: '3rem', borderBottom: '2px solid #eee', paddingBottom: '0.5rem'}}>👶 Inconstância É Sinal de Imaturidade</h2>
-            
-            <p>Paulo ensina que a inconstância é um sinal de imaturidade:</p>
-            
-            <div style={{background: '#f8f9fa', padding: '1.25rem', borderRadius: '10px', margin: '1.5rem 0', borderLeft: '4px solid #15803d'}}>
-              <p style={{margin: 0, fontStyle: 'italic', fontWeight: 'bold'}}>
-                &quot;Para que não sejamos mais meninos inconstantes, levados em roda por todo o vento de doutrina.&quot; — Efésios 4:14
-              </p>
-            </div>
-            
-            <p>Quem é o inconstante? Ora em cima, ora embaixo. Ora quer uma coisa, hora não quer mais. Ora está focado, hora não está mais.</p>
-            <p>Isso é típico de criança. Isso é típico de menino.</p>
-            <p>Não tem a ver com estado emocional — tem a ver com consciência. Por que baixa a guarda? Porque é menino na fé. Não amadureceu. Não entendeu que a vida cristã é uma responsabilidade, é uma vocação.</p>
-            
-            <h3 style={{color: '#1a1210', marginTop: '2rem'}}>A Diferença Entre o Menino e o Homem Maduro</h3>
-            
-            <div style={{display: 'flex', flexWrap: 'wrap', gap: '1rem', marginTop: '1.5rem', marginBottom: '2rem'}}>
-              <div style={{flex: '1 1 300px', background: '#fef2f2', padding: '1.5rem', borderRadius: '8px', borderTop: '4px solid #b91c1c'}}>
-                <h4 style={{marginTop: 0, color: '#b91c1c'}}>👦 O Menino:</h4>
-                <ul style={{listStyleType: 'none', paddingLeft: 0, margin: 0, fontSize: '0.95rem'}}>
-                  <li style={{marginBottom: '0.5rem'}}>❌ Depende de circunstâncias para ir bem</li>
-                  <li style={{marginBottom: '0.5rem'}}>❌ Quando está bem, faz; quando não está, não faz</li>
-                  <li style={{marginBottom: '0.5rem'}}>❌ É dirigido pelas emoções</li>
-                  <li>❌ Fatores externos determinam seu comportamento</li>
-                </ul>
-              </div>
-              <div style={{flex: '1 1 300px', background: '#f0fdf4', padding: '1.5rem', borderRadius: '8px', borderTop: '4px solid #15803d'}}>
-                <h4 style={{marginTop: 0, color: '#15803d'}}>👨 O Homem Maduro:</h4>
-                <ul style={{listStyleType: 'none', paddingLeft: 0, margin: 0, fontSize: '0.95rem'}}>
-                  <li style={{marginBottom: '0.5rem'}}>✅ Sabe que está diante de uma responsabilidade</li>
-                  <li style={{marginBottom: '0.5rem'}}>✅ Faz o que precisa, independentemente de como se sente</li>
-                  <li style={{marginBottom: '0.5rem'}}>✅ É dirigido pela convicção (fatores internos)</li>
-                  <li>✅ É constante porque entende a vocação</li>
-                </ul>
-              </div>
-            </div>
-            
-            <p>A imaturidade leva à inconstância. O amadurecimento leva à constância.</p>
-
-            <h2 style={{color: '#15803d', marginTop: '3rem', borderBottom: '2px solid #eee', paddingBottom: '0.5rem'}}>📚 Box de Referências Bíblicas</h2>
-            
-            <div style={{background: '#f8f9fa', borderLeft: '4px solid #0066cc', padding: '1.5rem', borderRadius: '0 8px 8px 0', margin: '2rem 0', fontSize: '0.95rem'}}>
-              <ul style={{listStyleType: 'none', paddingLeft: 0, margin: 0}}>
-                <li style={{marginBottom: '0.75rem'}}><strong>Tiago 1:8</strong> — &quot;O homem de ânimo dobre é inconstante em todos os seus caminhos.&quot;</li>
-                <li style={{marginBottom: '0.75rem'}}><strong>Hebreus 10:25</strong> — &quot;Não deixando a nossa congregação, como é costume de alguns.&quot;</li>
-                <li style={{marginBottom: '0.75rem'}}><strong>1 Tessalonicenses 5:17</strong> — &quot;Orai sem cessar.&quot;</li>
-                <li style={{marginBottom: '0.75rem'}}><strong>Josué 1:8</strong> — &quot;Não se aparte da tua boca o livro desta lei; antes medita nele dia e noite.&quot;</li>
-                <li style={{marginBottom: '0.75rem'}}><strong>Salmo 1:1-2</strong> — &quot;Bem-aventurado o homem que não anda segundo o conselho dos ímpios... Antes tem o seu prazer na lei do SENHOR, e na sua lei medita de dia e de noite.&quot;</li>
-                <li style={{marginBottom: '0.75rem'}}><strong>Hebreus 12:4</strong> — &quot;Ainda não resististes até ao sangue, combatendo contra o pecado.&quot;</li>
-                <li style={{marginBottom: '0.75rem'}}><strong>1 Coríntios 15:58</strong> — &quot;Sede firmes e constantes, sempre abundantes na obra do Senhor.&quot;</li>
-                <li style={{marginBottom: 0}}><strong>Efésios 4:14</strong> — &quot;Para que não sejamos mais meninos inconstantes.&quot;</li>
-              </ul>
-            </div>
-
-            <div style={{background: '#e9ecef', padding: '1.5rem', borderRadius: '12px', margin: '3rem 0'}}>
-              <h3 style={{marginTop: 0, color: '#1a1210'}}>📺 Fonte e Inspiração</h3>
-              <p style={{fontSize: '0.95rem'}}>Este artigo foi desenvolvido como uma versão escrita e expandida do vídeo <strong>"VOCÊ NÃO ESFRIOU... VOCÊ ESTÁ DIVIDIDO! | Pr. Paulo Junior"</strong>, do canal Pastor Paulo Junior no YouTube.</p>
-              <p style={{fontSize: '0.95rem'}}>Se você prefere assistir ou quer complementar o estudo com o vídeo original, confira:</p>
-              
-              <ul style={{listStyleType: 'none', paddingLeft: 0, fontSize: '0.95rem'}}>
-                <li style={{marginBottom: '0.5rem'}}>🔗 <a href="https://www.youtube.com/watch?v=I-72bLdKA6g" target="_blank" rel="noopener noreferrer" style={{color: '#b91c1c', fontWeight: 'bold'}}>https://www.youtube.com/watch?v=I-72bLdKA6g</a></li>
-                <li style={{marginBottom: '0.5rem'}}>📺 <a href="https://www.youtube.com/@PauloJunior" target="_blank" rel="noopener noreferrer" style={{color: '#1a1210', fontWeight: 'bold'}}>Canal Pastor Paulo Junior</a></li>
-              </ul>
-              
-              <p style={{fontSize: '0.95rem', margin: 0, fontStyle: 'italic', marginTop: '1rem'}}>Agradecemos ao Pastor Paulo Junior por esta mensagem tão necessária sobre inconstância espiritual e maturidade cristã. "Você não esfriou. Você está dividido. E a solução não é buscar mais emoção — é voltar à constância."</p>
-            </div>
-
-            <blockquote style={{borderLeft: '4px solid #722F37', background: '#fff9f9', padding: '1.5rem', margin: '2rem 0', fontStyle: 'italic', borderRadius: '0 8px 8px 0'}}>
-              <p style={{fontWeight: 'bold', marginBottom: '1rem'}}>🙏 Oração</p>
-              <p>Senhor Jesus,</p>
-              <p>Perdoa meu coração dividido.</p>
-              <p>Perdoa por ter colocado tantas coisas no lugar que era só Teu.</p>
-              <p>Ajuda-me a simplificar minha vida e voltar ao primeiro amor.</p>
-              <p>Dá-me constância nos cultos, na oração, na leitura da Tua Palavra.</p>
-              <p>Aumenta minha guarda na santificação.</p>
-              <p>Faz-me firme e constante na obra do Teu Reino.</p>
-              <p>Amadurece-me, Senhor. Que eu não seja mais menino inconstante, mas um homem firme na fé.</p>
-              <p>Em nome de Jesus, amém.</p>
-            </blockquote>
-            
-            <p style={{textAlign: 'center', fontWeight: 'bold', marginTop: '2rem'}}>Soli Deo Gloria. ✨</p>
-          </main>
-
-          <section style={{maxWidth: '800px', margin: '0 auto 3rem', background: '#f8f9fa', padding: '2rem', borderRadius: '12px', borderTop: '4px solid #15803d'}}>
-            <h2 style={{color: '#1a1210', marginTop: 0, display: 'flex', alignItems: 'center', gap: '8px'}}>💬 E Você, O Que Acha?</h2>
-            <p style={{color: '#555'}}>Agora queremos ouvir você, que leu até aqui:</p>
-            <ul style={{color: '#444', marginBottom: '1.5rem', paddingLeft: '1.5rem'}}>
-              <li style={{marginBottom: '0.5rem'}}>Você se identifica com a inconstância espiritual? Em quais áreas?</li>
-              <li style={{marginBottom: '0.5rem'}}>O que mais tem dividido seu coração ultimamente?</li>
-              <li style={{marginBottom: '0.5rem'}}>Qual das soluções bíblicas você mais precisa aplicar hoje?</li>
-              <li>Você se considera um &quot;menino&quot; ou um &quot;homem maduro&quot; na fé? Por quê?</li>
-            </ul>
-            <p style={{color: '#666', fontStyle: 'italic'}}>👇 Deixe sua opinião nos comentários. Queremos aprender juntos e nos encorajar mutuamente a viver com constância.</p>
-            <p style={{fontWeight: 'bold', color: '#1a1210'}}>&quot;Portanto, meus amados irmãos, sede firmes e constantes, sempre abundantes na obra do Senhor.&quot; — 1 Coríntios 15:58</p>
-          </section>
-
-          <ShareBar title="Você Não Esfriou... Você Está Dividido! O Diagnóstico Bíblico da Inconstância Espiritual" url="/voce-nao-esfriou-voce-esta-dividido-inconstancia-espiritual" />
-          <RelatedArticles currentLink="/voce-nao-esfriou-voce-esta-dividido-inconstancia-espiritual" category="Devocionais" />
-        </article>
-      )}
-      {isSofrimento && (
-        <article style={{background: '#fff', minHeight: '100vh', padding: '4rem 2rem', fontFamily: "'Georgia', serif"}}>
-          <header style={{textAlign: 'center', marginBottom: '3rem'}}>
-            <h1 style={{fontSize: '3rem', color: '#1a1210', lineHeight: 1.2, margin: '0 auto 1.5rem', maxWidth: '900px', fontWeight: 'bold'}}>
-              Por Que Alguns Sofrem Mais? O Que Paulo Ensina Sobre Louvor no Vale e o Deus de Toda Consolação
-            </h1>
-            <h2 style={{fontSize: '1.5rem', color: '#555', fontWeight: 'normal', margin: '0 auto 2rem', maxWidth: '800px', lineHeight: 1.6}}>
-              O sofrimento não nega o chamado: aprenda com 2 Coríntios 1 a louvar na prova e a descansar no Pai das misericórdias
-            </h2>
-            <div style={{display: 'flex', justifyContent: 'center', gap: '1rem', fontSize: '0.9rem', color: '#777', flexWrap: 'wrap', marginBottom: '1rem'}}>
-              <span style={{background: '#0f172a', color: 'white', padding: '4px 12px', borderRadius: '4px', fontWeight: 'bold', letterSpacing: '1px'}}>ESTUDOS BÍBLICOS</span>
-              <span style={{display: 'flex', alignItems: 'center', gap: '5px'}}>✍️ Soli Deo Gloria</span>
-              <span style={{display: 'flex', alignItems: 'center', gap: '5px'}}>📅 25 Jun, 2026</span>
-            </div>
-            <div style={{fontSize: '0.85rem', color: '#888', fontStyle: 'italic', marginBottom: '2rem'}}>
-              Baseado em conteúdo do YouTube | Tags: #sofrimento #louvor #consolação #misericórdia #2Coríntios #PauloJunior #SoliDeoGloria
-            </div>
-          </header>
-
-          <main className="article-content section-mb" style={{fontSize: '1.15rem', lineHeight: 1.8, color: '#444', maxWidth: '800px', margin: '0 auto'}}>
-            <p>&quot;Esse homem não pode ser apóstolo. Esse homem apanha demais. Esse homem é apedrejado, preso, caluniado, pobre, perseguido.&quot;</p>
-            
-            <p>Essa era a acusação dos falsos apóstolos contra Paulo em Corinto. Para eles, a quantidade de sofrimento de Paulo era a prova de que ele não era um apóstolo legítimo.</p>
-            
-            <p>Mas Paulo responde com uma das cartas mais profundas do Novo Testamento — e, ao defender seu apostolado, nos deixa um rico ensino sobre o sofrimento.</p>
-            
-            <p>A pergunta que ecoa até hoje é a mesma: por que alguns sofrem mais? E como o crente maduro reage no vale?</p>
-            
-            <p>Vamos aprender com 2 Coríntios 1.</p>
-
-            <VideoEmbed videoId="teBbuaLb31Y" title="POR QUE ALGUNS SOFREM MAIS? | Pr. Paulo Junior" channel="Pastor Paulo Junior" channelUrl="https://www.youtube.com/watch?v=teBbuaLb31Y" />
-
-            <h2 style={{color: '#0f172a', marginTop: '3rem', borderBottom: '2px solid #eee', paddingBottom: '0.5rem'}}>🎵 Princípio 1: Louvor no Meio da Tempestade</h2>
-            
-            <p>Paulo começa a carta não com reclamação, mas com um hino no meio do furacão:</p>
-            
-            <div style={{background: '#f8f9fa', padding: '1.25rem', borderRadius: '10px', margin: '1.5rem 0', borderLeft: '4px solid #0066cc'}}>
-              <p style={{margin: 0, fontStyle: 'italic', fontWeight: 'bold'}}>
-                &quot;Bendito seja o Deus e Pai de nosso Senhor Jesus Cristo, o Pai das misericórdias e o Deus de toda a consolação.&quot; — 2 Coríntios 1:3
-              </p>
-            </div>
-            
-            <p>E não era um sofrimento pequeno. Logo em seguida, ele revela:</p>
-            
-            <div style={{background: '#f8f9fa', padding: '1.25rem', borderRadius: '10px', margin: '1.5rem 0', borderLeft: '4px solid #0066cc'}}>
-              <p style={{margin: 0, fontStyle: 'italic', fontWeight: 'bold'}}>
-                &quot;Porque não queremos, irmãos, que ignoreis a natureza da tribulação que nos sobreveio na Ásia, porquanto foi acima das nossas forças, a ponto de desesperarmos até da própria vida.&quot; — 2 Coríntios 1:8
-              </p>
-            </div>
-            
-            <p>Acima das forças. A ponto de desesperar da vida.</p>
-            <p>E mesmo assim, a primeira palavra de Paulo é: <em>&quot;Bendito seja o Deus...&quot;</em></p>
-            
-            <p>O que isso ensina?</p>
-            <ul style={{listStyleType: 'none', paddingLeft: 0}}>
-              <li style={{marginBottom: '0.5rem'}}>✅ Paulo não é ingrato a Deus</li>
-              <li style={{marginBottom: '0.5rem'}}>✅ Paulo tem consciência da providência divina</li>
-              <li style={{marginBottom: '0.5rem'}}>✅ Adorar no vale é marca de crente maduro e espiritual</li>
-            </ul>
-            
-            <p>Louvar a Deus na prova não é negação da dor. É confissão de soberania.</p>
-
-            <h2 style={{color: '#0f172a', marginTop: '3rem', borderBottom: '2px solid #eee', paddingBottom: '0.5rem'}}>😤 O Oposto do Louvor: A Murmuração</h2>
-            
-            <p>O que impediu aquele bando de israelitas de entrar na Terra Prometida?</p>
-            <p>A murmuração.</p>
-            
-            <p>O oposto do louvor é prova de:</p>
-            <ul style={{listStyleType: 'none', paddingLeft: 0}}>
-              <li style={{marginBottom: '0.5rem'}}>❌ Carnalidade</li>
-              <li style={{marginBottom: '0.5rem'}}>❌ Superficialidade</li>
-              <li style={{marginBottom: '0.5rem'}}>❌ Até de inconversão</li>
-            </ul>
-            
-            <p>Muitos crentes, quando sofrem:</p>
-            <ul style={{listStyleType: 'none', paddingLeft: 0}}>
-              <li style={{marginBottom: '0.5rem'}}>❌ Questionam Deus</li>
-              <li style={{marginBottom: '0.5rem'}}>❌ Praguejam</li>
-              <li style={{marginBottom: '0.5rem'}}>❌ Murmuram</li>
-              <li style={{marginBottom: '0.5rem'}}>❌ Vacilam na fé</li>
-            </ul>
-            
-            <p>Essa é uma atitude completamente contrária à fé que professamos — evidência de imaturidade tremenda.</p>
-            <p>Paulo não. Paulo louva. Paulo adora.</p>
-
-            <h2 style={{color: '#0f172a', marginTop: '3rem', borderBottom: '2px solid #eee', paddingBottom: '0.5rem'}}>🌟 Exemplos Bíblicos de Louvor no Vale</h2>
-            
-            <h3 style={{color: '#1a1210', marginTop: '2rem'}}>1️⃣ Abraão: Louvor Diante do Corpo Amortecido</h3>
-            <div style={{background: '#f8f9fa', padding: '1.25rem', borderRadius: '10px', margin: '1.5rem 0', borderLeft: '4px solid #0066cc'}}>
-              <p style={{margin: 0, fontStyle: 'italic', fontWeight: 'bold'}}>
-                &quot;Abraão não duvidou da promessa por incredulidade, mas foi fortificado na fé, dando glória a Deus.&quot; — Romanos 4:20
-              </p>
-            </div>
-            <p>Com o corpo amortecido e Sara estéril, Abraão não atentou para os obstáculos. Ele louvou.</p>
-
-            <h3 style={{color: '#1a1210', marginTop: '2rem'}}>2️⃣ Davi: Louvor em Todo Tempo</h3>
-            <div style={{background: '#f8f9fa', padding: '1.25rem', borderRadius: '10px', margin: '1.5rem 0', borderLeft: '4px solid #0066cc'}}>
-              <p style={{margin: 0, fontStyle: 'italic', fontWeight: 'bold'}}>
-                &quot;Bendirei o SENHOR em todo o tempo; o seu louvor estará continuamente na minha boca.&quot; — Salmo 34:1
-              </p>
-            </div>
-            <p>Não em algum tempo. Em todo tempo. Que essa seja a nossa marca.</p>
-
-            <h3 style={{color: '#1a1210', marginTop: '2rem'}}>3️⃣ Paulo e Silas: Louvor à Meia-Noite</h3>
-            <div style={{background: '#f8f9fa', padding: '1.25rem', borderRadius: '10px', margin: '1.5rem 0', borderLeft: '4px solid #0066cc'}}>
-              <p style={{margin: 0, fontStyle: 'italic', fontWeight: 'bold'}}>
-                &quot;Perto da meia-noite, Paulo e Silas oravam e cantavam hinos a Deus, e os outros presos os escutavam.&quot; — Atos 16:25
-              </p>
-            </div>
-            <p>Depois de açoitados severamente, encarcerados e acorrentados, no meio da injustiça, à meia-noite, esses homens se erguem em louvor, em canções, em hinos a Deus.</p>
-
-            <h3 style={{color: '#1a1210', marginTop: '2rem'}}>4️⃣ Jó: A Apoteose do Crente Maduro</h3>
-            <p>Jó perdeu tudo:</p>
-            <ul style={{listStyleType: 'none', paddingLeft: 0}}>
-              <li style={{marginBottom: '0.5rem'}}>❌ Juntas de bois, camelos, ovelhas, plantações</li>
-              <li style={{marginBottom: '0.5rem'}}>❌ Dez filhos — dez caixões</li>
-              <li style={{marginBottom: '0.5rem'}}>❌ A saúde — ferido de chagas da cabeça à planta dos pés</li>
-              <li style={{marginBottom: '0.5rem'}}>❌ A riqueza — da noite para o dia, o mais rico virou o mais pobre</li>
-            </ul>
-            
-            <p>Qual foi a reação de Jó?</p>
-            <div style={{background: '#f8f9fa', padding: '1.25rem', borderRadius: '10px', margin: '1.5rem 0', borderLeft: '4px solid #0066cc'}}>
-              <p style={{margin: 0, fontStyle: 'italic', fontWeight: 'bold'}}>
-                &quot;O SENHOR deu, e o SENHOR tomou; bendito seja o nome do SENHOR.&quot; — Jó 1:21
-              </p>
-            </div>
-            
-            <p>E a declaração que coroa a consciência da soberania:</p>
-            <div style={{background: '#f8f9fa', padding: '1.25rem', borderRadius: '10px', margin: '1.5rem 0', borderLeft: '4px solid #0066cc'}}>
-              <p style={{margin: 0, fontStyle: 'italic', fontWeight: 'bold'}}>
-                &quot;Receberemos o bem de Deus, e não receberíamos o mal?&quot; — Jó 2:10
-              </p>
-            </div>
-            
-            <p>Não foi o ladrão. Não foi Satanás. Não foi o fogo.</p>
-            <p>Deus envia o bem, e Deus também permite o mal. E Jó louva nos dois.</p>
-            <p>&quot;Eu louvo a Deus quando Ele manda chuva, e louvo a Deus quando Ele manda seca. Louvo quando tenho colheita e abundância, e louvo quando tenho prejuízo.&quot;</p>
-
-            <h2 style={{color: '#0f172a', marginTop: '3rem', borderBottom: '2px solid #eee', paddingBottom: '0.5rem'}}>💧 Princípio 2: A Origem da Misericórdia</h2>
-            
-            <p>Paulo chama Deus de &quot;Pai das misericórdias&quot;. Mas o que é misericórdia?</p>
-            
-            <h3 style={{color: '#1a1210', marginTop: '2rem'}}>O Que É Misericórdia?</h3>
-            <p>Misericórdia compreende duas coisas:</p>
-            <ul style={{paddingLeft: '1.5rem'}}>
-              <li style={{marginBottom: '0.5rem'}}><strong>Sentimento:</strong> é o pesar, a compaixão que acomete alguém pela miséria alheia; é se compadecer da dor do outro.</li>
-              <li style={{marginBottom: '0.5rem'}}><strong>Ação:</strong> o misericordioso não só sente o sofrimento alheio; ele age para aliviar o sofrimento.</li>
-            </ul>
-            <p>A misericórdia não fica no campo do sentimento. Ela se transforma em obras.</p>
-            
-            <h3 style={{color: '#1a1210', marginTop: '2rem'}}>De Onde Vem a Misericórdia?</h3>
-            <div style={{background: '#f8f9fa', padding: '1.25rem', borderRadius: '10px', margin: '1.5rem 0', borderLeft: '4px solid #0066cc'}}>
-              <p style={{margin: 0, fontStyle: 'italic', fontWeight: 'bold'}}>
-                &quot;Bendito seja o Deus e Pai de nosso Senhor Jesus Cristo, o Pai das misericórdias.&quot; — 2 Coríntios 1:3
-              </p>
-            </div>
-            <p>A misericórdia tem sua origem em Deus. Ele é:</p>
-            <ul style={{listStyleType: 'none', paddingLeft: 0}}>
-              <li style={{marginBottom: '0.5rem'}}>✅ O Pai das misericórdias</li>
-              <li style={{marginBottom: '0.5rem'}}>✅ A fonte e o nascedouro</li>
-              <li style={{marginBottom: '0.5rem'}}>✅ Aquele que sente pesar pelos nossos sofrimentos e traz alívio à nossa dor</li>
-            </ul>
-
-            <h3 style={{color: '#1a1210', marginTop: '2rem'}}>O Deus que Não Está de Rosto Retesado</h3>
-            <p>A teologia reformada enaltece a soberania, a santidade e a grandeza de Deus como ninguém. E Ele é tudo isso.</p>
-            <p>Mas Deus não está num trono com o rosto retesado, como um general imponente ordenando e coordenando a terra com rigidez.</p>
-            <p>Ele é o Pai das misericórdias — um Deus que se compadece, que se entristece com a nossa condição, que sente pesar pelas nossas intempéries.</p>
-
-            <h2 style={{color: '#0f172a', marginTop: '3rem', borderBottom: '2px solid #eee', paddingBottom: '0.5rem'}}>🤝 A Misericórdia em Ação: O Deus de Toda Consolação</h2>
-            
-            <p>O texto não para no sentimento. Ele avança para a ação:</p>
-            <div style={{background: '#f8f9fa', padding: '1.25rem', borderRadius: '10px', margin: '1.5rem 0', borderLeft: '4px solid #0066cc'}}>
-              <p style={{margin: 0, fontStyle: 'italic', fontWeight: 'bold'}}>
-                &quot;...o Pai das misericórdias e o Deus de toda a consolação.&quot; — 2 Coríntios 1:3
-              </p>
-            </div>
-            <p>Por ser misericordioso, Deus também é consolador.</p>
-            
-            <h3 style={{color: '#1a1210', marginTop: '2rem'}}>O Significado de Consolo</h3>
-            <p>A palavra vem do termo grego <em>parakletos</em> / <em>parakaleo</em>, que quer dizer:</p>
-            <p><em>&quot;Aquele que vem para estar ao nosso lado, com o fim de ajudar.&quot;</em></p>
-            
-            <p>Consolo significa:</p>
-            <ul style={{listStyleType: 'none', paddingLeft: 0}}>
-              <li style={{marginBottom: '0.5rem'}}>✅ Aliviar</li>
-              <li style={{marginBottom: '0.5rem'}}>✅ Acalmar</li>
-              <li style={{marginBottom: '0.5rem'}}>✅ Animar</li>
-              <li style={{marginBottom: '0.5rem'}}>✅ Livrar</li>
-            </ul>
-            
-            <p>Então, a compaixão que Deus tem pelo nosso sofrimento é acompanhada de ação poderosa.</p>
-            <p>Ele não apenas sente a nossa dor. Ele vem ao nosso lado para nos ajudar.</p>
-
-            <h2 style={{color: '#0f172a', marginTop: '3rem', borderBottom: '2px solid #eee', paddingBottom: '0.5rem'}}>💭 Lições Para a Nossa Vida</h2>
-            <ol style={{paddingLeft: '1.5rem', lineHeight: '1.8'}}>
-              <li style={{marginBottom: '0.5rem'}}><strong>O sofrimento não nega o seu chamado</strong> — Paulo sofria e era apóstolo legítimo.</li>
-              <li style={{marginBottom: '0.5rem'}}><strong>Louvar no vale é marca de maturidade</strong> — murmurar é marca de carnalidade.</li>
-              <li style={{marginBottom: '0.5rem'}}><strong>A soberania de Deus inclui o vale</strong> — &quot;O SENHOR deu, o SENHOR tomou&quot;.</li>
-              <li style={{marginBottom: '0.5rem'}}><strong>Misericórdia é sentimento + ação</strong> — Deus sente e age.</li>
-              <li style={{marginBottom: '0.5rem'}}><strong>Deus é o Deus de toda consolação</strong> — Ele vem ao seu lado para ajudar.</li>
-              <li style={{marginBottom: '0.5rem'}}><strong>Quem é consolado consola</strong> — o sofrimento nos capacita a consolar outros (2 Co 1:4).</li>
-            </ol>
-
-            <h2 style={{color: '#0f172a', marginTop: '3rem', borderBottom: '2px solid #eee', paddingBottom: '0.5rem'}}>📚 Box de Referências Bíblicas</h2>
-            
-            <div style={{background: '#f8f9fa', borderLeft: '4px solid #0066cc', padding: '1.5rem', borderRadius: '0 8px 8px 0', margin: '2rem 0', fontSize: '0.95rem'}}>
-              <ul style={{listStyleType: 'none', paddingLeft: 0, margin: 0}}>
-                <li style={{marginBottom: '0.75rem'}}><strong>2 Coríntios 1:3</strong> — &quot;Bendito seja o Deus e Pai de nosso Senhor Jesus Cristo, o Pai das misericórdias e o Deus de toda a consolação.&quot;</li>
-                <li style={{marginBottom: '0.75rem'}}><strong>2 Coríntios 1:8</strong> — &quot;Foi acima das nossas forças, a ponto de desesperarmos até da própria vida.&quot;</li>
-                <li style={{marginBottom: '0.75rem'}}><strong>Romanos 4:20</strong> — &quot;Não duvidou da promessa por incredulidade, mas foi fortificado na fé, dando glória a Deus.&quot;</li>
-                <li style={{marginBottom: '0.75rem'}}><strong>Salmo 34:1</strong> — &quot;Bendirei o SENHOR em todo o tempo; o seu louvor estará continuamente na minha boca.&quot;</li>
-                <li style={{marginBottom: '0.75rem'}}><strong>Atos 16:25</strong> — &quot;Perto da meia-noite, Paulo e Silas oravam e cantavam hinos a Deus.&quot;</li>
-                <li style={{marginBottom: '0.75rem'}}><strong>Jó 1:21</strong> — &quot;O SENHOR deu, e o SENHOR tomou; bendito seja o nome do SENHOR.&quot;</li>
-                <li style={{marginBottom: '0.75rem'}}><strong>Jó 2:10</strong> — &quot;Receberemos o bem de Deus, e não receberíamos o mal?&quot;</li>
-                <li style={{marginBottom: '0.75rem'}}><strong>Lamentações 3:22</strong> — &quot;As misericórdias do SENHOR são a causa de não sermos consumidos.&quot;</li>
-                <li style={{marginBottom: '0.75rem'}}><strong>Salmo 145:9</strong> — &quot;O SENHOR é bom para todos, e as suas ternas misericórdias permeiam todas as suas obras.&quot;</li>
-                <li style={{marginBottom: 0}}><strong>Salmo 86:15</strong> — &quot;Tu, Senhor, és um Deus compassivo e cheio de misericórdia.&quot;</li>
-              </ul>
-            </div>
-
-            <div style={{background: '#e9ecef', padding: '1.5rem', borderRadius: '12px', margin: '3rem 0'}}>
-              <h3 style={{marginTop: 0, color: '#1a1210'}}>📺 Fonte e Inspiração</h3>
-              <p style={{fontSize: '0.95rem'}}>Este artigo foi desenvolvido como uma versão escrita e expandida do vídeo <strong>"POR QUE ALGUNS SOFREM MAIS? | Pr. Paulo Junior"</strong>, do canal Pastor Paulo Junior no YouTube.</p>
-              <p style={{fontSize: '0.95rem'}}>Se você prefere assistir ou quer complementar o estudo com o vídeo original, confira:</p>
-              
-              <ul style={{listStyleType: 'none', paddingLeft: 0, fontSize: '0.95rem'}}>
-                <li style={{marginBottom: '0.5rem'}}>🔗 <a href="https://www.youtube.com/watch?v=teBbuaLb31Y" target="_blank" rel="noopener noreferrer" style={{color: '#b91c1c', fontWeight: 'bold'}}>https://www.youtube.com/watch?v=teBbuaLb31Y</a></li>
-                <li style={{marginBottom: '0.5rem'}}>📺 <a href="https://www.youtube.com/@PauloJunior" target="_blank" rel="noopener noreferrer" style={{color: '#1a1210', fontWeight: 'bold'}}>Canal Pastor Paulo Junior</a></li>
-              </ul>
-              
-              <p style={{fontSize: '0.95rem', margin: 0, fontStyle: 'italic', marginTop: '1rem'}}>Agradecemos ao Pastor Paulo Junior por ensinar com profundidade e paixão as doutrinas da graça. "Louvar no vale não é negar a dor. É confessar a soberania."</p>
-            </div>
-
-            <blockquote style={{borderLeft: '4px solid #722F37', background: '#fff9f9', padding: '1.5rem', margin: '2rem 0', fontStyle: 'italic', borderRadius: '0 8px 8px 0'}}>
-              <p style={{fontWeight: 'bold', marginBottom: '1rem'}}>🙏 Oração</p>
-              <p>Pai das misericórdias e Deus de toda consolação,</p>
-              <p>Perdoa-me pelas vezes em que murmurei em vez de louvar.</p>
-              <p>Ensina-me a bendizer-Te no vale, na prova, na meia-noite.</p>
-              <p>Dá-me a consciência de Jó: o Senhor deu, o Senhor tomou.</p>
-              <p>Vem ao meu lado, como Paracleto, para me ajudar, aliviar e animar.</p>
-              <p>E faz-me instrumento da Tua consolação para os que sofrem.</p>
-              <p>Em nome de Jesus, amém.</p>
-            </blockquote>
-            
-            <p style={{textAlign: 'center', fontWeight: 'bold', marginTop: '2rem'}}>Soli Deo Gloria. ✨</p>
-          </main>
-
-          <section style={{maxWidth: '800px', margin: '0 auto 3rem', background: '#f8f9fa', padding: '2rem', borderRadius: '12px', borderTop: '4px solid #0f172a'}}>
-            <h2 style={{color: '#1a1210', marginTop: 0, display: 'flex', alignItems: 'center', gap: '8px'}}>💬 E Você, O Que Acha?</h2>
-            <p style={{color: '#555'}}>Agora queremos ouvir você, que leu até aqui:</p>
-            <ul style={{color: '#444', marginBottom: '1.5rem', paddingLeft: '1.5rem'}}>
-              <li style={{marginBottom: '0.5rem'}}>Como você reage no vale: com louvor ou com murmuração?</li>
-              <li style={{marginBottom: '0.5rem'}}>Qual exemplo mais te desafiou: Abraão, Davi, Paulo e Silas ou Jó?</li>
-              <li style={{marginBottom: '0.5rem'}}>Você já experimentou o consolo de Deus no meio da dor? Como foi?</li>
-              <li>Na sua opinião, por que alguns sofrem mais do que outros?</li>
-            </ul>
-            <p style={{color: '#666', fontStyle: 'italic'}}>👇 Deixe sua opinião nos comentários. Queremos aprender juntos, com respeito e amor pela Palavra.</p>
-            <p style={{fontWeight: 'bold', color: '#1a1210'}}>&quot;Bendirei o SENHOR em todo o tempo.&quot; — Salmo 34:1</p>
-          </section>
-
-          <ShareBar title="Por Que Alguns Sofrem Mais? O Que Paulo Ensina Sobre Louvor no Vale e o Deus de Toda Consolação" url="/por-que-alguns-sofrem-mais-louvor-no-vale-deus-consolacao" />
-          <RelatedArticles currentLink="/por-que-alguns-sofrem-mais-louvor-no-vale-deus-consolacao" category="Estudos Bíblicos" />
-        </article>
-      )}
-      {isPosicionamento && (
-        <article style={{background: '#fff', minHeight: '100vh', padding: '4rem 2rem', fontFamily: "'Georgia', serif"}}>
-          <header style={{textAlign: 'center', marginBottom: '3rem'}}>
-            <h1 style={{fontSize: '3rem', color: '#1a1210', lineHeight: 1.2, margin: '0 auto 1.5rem', maxWidth: '900px', fontWeight: 'bold'}}>
-              Se Posicione e Deixe com Deus: O Chamado Urgente Para a Última Hora
-            </h1>
-            <h2 style={{fontSize: '1.5rem', color: '#555', fontWeight: 'normal', margin: '0 auto 2rem', maxWidth: '800px', lineHeight: 1.6}}>
-              &quot;Eis-me aqui, envia-me a mim.&quot; O tempo é curto, os campos estão brancos e o Rei está convocando seus servos.
-            </h2>
-            <div style={{display: 'flex', justifyContent: 'center', gap: '1rem', fontSize: '0.9rem', color: '#777', flexWrap: 'wrap', marginBottom: '1rem'}}>
-              <span style={{background: '#0f172a', color: 'white', padding: '4px 12px', borderRadius: '4px', fontWeight: 'bold', letterSpacing: '1px'}}>DEVOCIONAIS</span>
-              <span style={{display: 'flex', alignItems: 'center', gap: '5px'}}>✍️ Soli Deo Gloria</span>
-              <span style={{display: 'flex', alignItems: 'center', gap: '5px'}}>📅 25 Jun, 2026</span>
-            </div>
-            <div style={{fontSize: '0.85rem', color: '#888', fontStyle: 'italic', marginBottom: '2rem'}}>
-              Baseado em conteúdo do YouTube | Tags: #posicionamento #chamado #evangelismo #últimahora #urgência #PauloJunior #SoliDeoGloria
-            </div>
-          </header>
-
-          <main className="article-content section-mb" style={{fontSize: '1.15rem', lineHeight: 1.8, color: '#444', maxWidth: '800px', margin: '0 auto'}}>
-            <p>&quot;Está consumado.&quot;</p>
-            
-            <p>Essa palavra grega — <em>tetelestai</em> — era usada quando uma dívida era quitada. Nossa dívida com o Pai, impagável, terminou. Foi paga. E reconciliados fomos.</p>
-            
-            <p>Enquanto isso, passamos transitoriamente por este mundo — esse arquétipo, essa maquete, esse esqueleto que não é nossa morada. A Bíblia diz em 1 Pedro 2:11: &quot;Somos forasteiros e peregrinos.&quot;</p>
-            
-            <p>Forasteiro é um indivíduo de outra terra, que está numa terra estranha. Essa não é nossa terra. Peregrino é aquele que está só de passagem. A morada dele não é aqui.</p>
-            
-            <p>Seríamos uma raça diferente se pensássemos assim. Não somos da terra. Somos do céu. Como o filho pródigo, saímos para uma terra longínqua e agora caminhamos de volta para o lar. Que dia glorioso será esse!</p>
-            
-            <p>Mas até lá: viva intensamente para Cristo. E se posicione.</p>
-
-            <VideoEmbed videoId="Lw23PIGmws8" title="Se posicione e deixe com Deus | Pr. Paulo Junior" channel="Pastor Paulo Junior" channelUrl="https://www.youtube.com/watch?v=Lw23PIGmws8" />
-
-            <h2 style={{color: '#0f172a', marginTop: '3rem', borderBottom: '2px solid #eee', paddingBottom: '0.5rem'}}>💭 Nossa Verdadeira Motivação</h2>
-            
-            <p>Nossa motivação para a vida cristã não é a cura física, um emprego melhor, relacionamento ou bens perecíveis. Nossa motivação é: <strong>Está consumado</strong>.</p>
-            
-            <div style={{background: '#f8f9fa', padding: '1.25rem', borderRadius: '10px', margin: '1.5rem 0', borderLeft: '4px solid #0066cc'}}>
-              <p style={{margin: 0, fontStyle: 'italic', fontWeight: 'bold'}}>
-                &quot;Não temais os que matam o corpo e não podem matar a alma.&quot; — Mateus 10:28
-              </p>
-            </div>
-            
-            <p>O que vai ser da carcaça? Das finanças, dos móveis, dos imóveis, da beleza, da riqueza perecível? Como Pedro fala, não importa. Por que damos tanto valor à matéria, ao físico, ao status?</p>
-            
-            <div style={{background: '#f8f9fa', padding: '1.25rem', borderRadius: '10px', margin: '1.5rem 0', borderLeft: '4px solid #0066cc'}}>
-              <p style={{margin: 0, fontStyle: 'italic', fontWeight: 'bold'}}>
-                &quot;Não ajunteis tesouros na terra, onde a traça e a ferrugem tudo consomem, e onde os ladrões minam e roubam; mas ajuntai tesouros no céu.&quot; — Mateus 6:19-20
-              </p>
-            </div>
-            
-            <p>Jesus diz: não se preocupem com o que comer ou vestir. Isso passa.</p>
-
-            <h2 style={{color: '#0f172a', marginTop: '3rem', borderBottom: '2px solid #eee', paddingBottom: '0.5rem'}}>⏰ Você É o Ceifeiro da Última Hora</h2>
-            
-            <p>Eu vou para 45 anos de ministério. Daqui a pouco, 50. E tudo vai ser câncer, enfado, rugas, dores, artrites. Passou. Mas, como diz o verso do missionário C.T. Studd:</p>
-            <p><strong>&quot;Só o que é feito por Cristo permanecerá.&quot;</strong></p>
-            
-            <p>Irmão, se posicione. Você é o ceifeiro da última hora. Estamos naquela maratona, entrando na última volta.</p>
-            
-            <ul style={{listStyleType: 'none', paddingLeft: 0}}>
-              <li style={{marginBottom: '0.5rem'}}>✅ Toma teu posto</li>
-              <li style={{marginBottom: '0.5rem'}}>✅ Bate continência pro teu Capitão</li>
-              <li style={{marginBottom: '0.5rem'}}>✅ Cumpre o teu chamado</li>
-              <li style={{marginBottom: '0.5rem'}}>✅ Para de choramingar por perdas perecíveis e honras dos homens</li>
-            </ul>
-            
-            <p>Faz do teu quarto um tabernáculo. Faz da tua casa uma pequena igreja. Faz do teu trabalho o teu ministério.</p>
-            
-            <p><strong>O Exemplo de John Wesley:</strong> Quando foi expulso das igrejas da Inglaterra, começou a pregar ao ar livre. Em 1739, ele escreveu em seu diário: <em>&quot;Eu considero todo o mundo como a minha paróquia&quot;</em> — o mundo é a minha seara (rua, favela, presídio).</p>
-            
-            <p><strong>Jonathan Edwards:</strong> Em suas famosas Resoluções, o jovem Edwards escreveu: <em>&quot;Resolvo fazer tudo o que eu julgar ser o mais para a glória de Deus.&quot;</em> O que você resolveu fazer?</p>
-            
-            <p><strong>Susana Wesley:</strong> Teve 19 filhos (8 morreram), cuidou de 11, e se trancava no quarto pelo menos uma hora por dia em oração. Essa deve ser a sua paixão, seja você quem for.</p>
-
-            <h2 style={{color: '#0f172a', marginTop: '3rem', borderBottom: '2px solid #eee', paddingBottom: '0.5rem'}}>🔥 Nossa Maior Ambição: Cristo</h2>
-            
-            <div style={{background: '#f8f9fa', padding: '1.25rem', borderRadius: '10px', margin: '1.5rem 0', borderLeft: '4px solid #0066cc'}}>
-              <p style={{margin: 0, fontStyle: 'italic', fontWeight: 'bold'}}>
-                &quot;Bem-aventurados os que têm fome e sede de justiça, porque serão fartos.&quot; — Mateus 5:6
-              </p>
-            </div>
-            
-            <p>Fome fala de anelo, anseio, impulso, obsessão. Homens são motivados por ambições, e é por isso que conquistam terras, ganham guerras, fundam empresas. Que a nossa ambição, o nosso anseio, seja a coisa mais elevada do mundo: Cristo.</p>
-            
-            <div style={{background: '#f8f9fa', padding: '1.25rem', borderRadius: '10px', margin: '1.5rem 0', borderLeft: '4px solid #0066cc'}}>
-              <p style={{margin: 0, fontStyle: 'italic', fontWeight: 'bold'}}>
-                &quot;Na verdade, tenho também por perda todas as coisas, pela excelência do conhecimento de Cristo Jesus, meu Senhor; pelo qual sofri a perda de todas estas coisas, e as considero como refugo, para que possa ganhar a Cristo.&quot; — Filipenses 3:8
-              </p>
-            </div>
-            
-            <p>Minha maior ambição é Cristo. Você tem que ter isso.</p>
-
-            <h2 style={{color: '#0f172a', marginTop: '3rem', borderBottom: '2px solid #eee', paddingBottom: '0.5rem'}}>🚨 O Cenário Está Montado</h2>
-            
-            <p>O tempo está passando rápido. As profecias se cumprem. Cristo vem. As cortinas se abriram, vai entrar em cena o último ato: a consumação dos séculos.</p>
-            
-            <p>Tantos para fazer. Tanta alma perdida (parentes nas drogas, na idolatria, na bebedeira). E os crentes inertes. Jesus olhou e disse:</p>
-            
-            <div style={{background: '#f8f9fa', padding: '1.25rem', borderRadius: '10px', margin: '1.5rem 0', borderLeft: '4px solid #0066cc'}}>
-              <p style={{margin: 0, fontStyle: 'italic', fontWeight: 'bold'}}>
-                &quot;Não dizeis vós que ainda há quatro meses até que venha a ceifa? Eis que eu vos digo: levantai os vossos olhos e vede as terras, que já estão brancas para a ceifa.&quot; — João 4:35
-              </p>
-            </div>
-            
-            <p>Os campos estão brancos. Faltam profetas, missionários, evangelistas, pastores, pregadores, intercessores. Se posicione! Não importa a idade, condição financeira ou intelectual. O equipamento — deixa com Deus.</p>
-
-            <h2 style={{color: '#0f172a', marginTop: '3rem', borderBottom: '2px solid #eee', paddingBottom: '0.5rem'}}>💔 Exemplos de Quem Se Posicionou</h2>
-            
-            <p><strong>A Mulher do Vaso de Alabastro:</strong> Ungiu Jesus (Mt 26:13), e Ele disse que seu ato seria lembrado em todo o mundo.<br/>
-            <strong>Maria aos Pés de Jesus:</strong> Escolheu a melhor parte que não lhe será tirada (Lc 10:42).<br/>
-            <strong>Os Jovens:</strong> <em>&quot;Jovens, eu vos escrevi, porque sois fortes...&quot;</em> (1 João 2:14). Recrutem-se. Precisamos de uma igreja militante.</p>
-
-            <h2 style={{color: '#0f172a', marginTop: '3rem', borderBottom: '2px solid #eee', paddingBottom: '0.5rem'}}>📢 A Convocação do Rei</h2>
-            
-            <p>Temos centros espíritas, terreiros, biqueiras, cadeias lotadas. Visitei presídios com mulheres possuídas, estrebuchando. E a igreja, onde está?</p>
-            <p>Após 23 anos de ministério, agenda lotada, eu ainda faço jejuns de 21 dias. Por quê? Porque não me julgo capaz. Os desafios triplicam. Você não pode mais brincar de ser crente.</p>
-
-            <h2 style={{color: '#0f172a', marginTop: '3rem', borderBottom: '2px solid #eee', paddingBottom: '0.5rem'}}>✝️ Toma a Tua Cruz e Segue-Me</h2>
-            
-            <div style={{background: '#f8f9fa', padding: '1.25rem', borderRadius: '10px', margin: '1.5rem 0', borderLeft: '4px solid #0066cc'}}>
-              <p style={{margin: 0, fontStyle: 'italic', fontWeight: 'bold'}}>
-                &quot;Se alguém quiser vir após mim, renuncie-se a si mesmo, tome sobre si a sua cruz, e siga-me.&quot; — Mateus 16:24
-              </p>
-            </div>
-            
-            <p>Tomar a cruz é estar pronto a morrer, servir, renunciar, ser fiel. Quem perder a vida por Ele, achá-la-á.</p>
-
-            <h2 style={{color: '#0f172a', marginTop: '3rem', borderBottom: '2px solid #eee', paddingBottom: '0.5rem'}}>⚡ O Poder que Está em Você</h2>
-            
-            <p>O mesmo Espírito que ressuscitou Jesus habita em você.</p>
-            
-            <div style={{background: '#f8f9fa', padding: '1.25rem', borderRadius: '10px', margin: '1.5rem 0', borderLeft: '4px solid #0066cc'}}>
-              <p style={{margin: 0, fontStyle: 'italic', fontWeight: 'bold'}}>
-                &quot;Na verdade, na verdade vos digo que aquele que crê em mim também fará as obras que eu faço, e as fará maiores...&quot; — João 14:12
-              </p>
-            </div>
-            
-            <p>Você tem um poder único. Expulsar demônios, curar enfermos. Não é fábula, é promessa.</p>
-
-            <h2 style={{color: '#0f172a', marginTop: '3rem', borderBottom: '2px solid #eee', paddingBottom: '0.5rem'}}>🗣️ Gideão no Lagar: Sai Daí!</h2>
-            
-            <p>Gideão estava escondido no lagar. Deus disse: <em>&quot;O SENHOR é contigo, homem valente... Vai nesta tua força...&quot;</em> (Juízes 6:12,14). Deus diz a você hoje: &quot;O que você está fazendo aí? Eu te chamei para coisa maior.&quot;</p>
-            
-            <p>Como Paulo disse a Timóteo que recuou:</p>
-            <div style={{background: '#f8f9fa', padding: '1.25rem', borderRadius: '10px', margin: '1.5rem 0', borderLeft: '4px solid #0066cc'}}>
-              <p style={{margin: 0, fontStyle: 'italic', fontWeight: 'bold'}}>
-                &quot;Desperta o dom de Deus que existe em ti...&quot; — 2 Timóteo 1:6
-              </p>
-            </div>
-
-            <h2 style={{color: '#0f172a', marginTop: '3rem', borderBottom: '2px solid #eee', paddingBottom: '0.5rem'}}>🏃 Volta! Volta! Volta!</h2>
-            
-            <p>Volta pras vigílias. Volta a jejuar. Volta a se trancar com a Bíblia. Volta a ser aquele crente &quot;chato&quot; que evangeliza. Volta na limpeza, no bazar, no culto. Falta quem dê um passo e diga:</p>
-            
-            <div style={{background: '#f8f9fa', padding: '1.25rem', borderRadius: '10px', margin: '1.5rem 0', borderLeft: '4px solid #0066cc'}}>
-              <p style={{margin: 0, fontStyle: 'italic', fontWeight: 'bold'}}>
-                &quot;A quem enviarei, e quem há de ir por nós? Eis-me aqui, envia-me a mim.&quot; — Isaías 6:8
-              </p>
-            </div>
-            
-            <p><strong>Dwight L. Moody:</strong> Um amigo, Henry Varley, lhe disse: &quot;O mundo ainda não viu o que Deus fará com um homem totalmente consagrado a Ele.&quot; Essas palavras marcaram Moody para sempre, e ele ganhou milhares de almas.</p>
-
-            <h2 style={{color: '#0f172a', marginTop: '3rem', borderBottom: '2px solid #eee', paddingBottom: '0.5rem'}}>⚠️ Ai de Ti, ó Terra</h2>
-            
-            <div style={{background: '#f8f9fa', padding: '1.25rem', borderRadius: '10px', margin: '1.5rem 0', borderLeft: '4px solid #0066cc'}}>
-              <p style={{margin: 0, fontStyle: 'italic', fontWeight: 'bold'}}>
-                &quot;Ai dos que habitam na terra e no mar, porque o diabo desceu a vós, e tem grande ira, sabendo que já tem pouco tempo.&quot; — Apocalipse 12:12
-              </p>
-            </div>
-            
-            <p>O tempo encurtou. O cenário está pronto. Quando vier o Filho do homem, <em>&quot;porventura achará fé na terra?&quot;</em> (Lucas 18:8). Aja rápido, antes que seja tarde. <em>&quot;Ninguém que lança mão do arado e olha para trás é apto para o reino de Deus.&quot;</em> (Lucas 9:62).</p>
-
-            <h2 style={{color: '#0f172a', marginTop: '3rem', borderBottom: '2px solid #eee', paddingBottom: '0.5rem'}}>✋ Segue-Me: Imediatamente</h2>
-            
-            <p>Deixa os mortos enterrarem os mortos. Esquece de perder tempo com trivialidades da vida. Corta o que te escandaliza.</p>
-            <p>Quando você se posiciona, Deus provê: <em>&quot;Todo aquele que tiver deixado casas, irmãos... por amor do meu nome, receberá cem vezes tanto.&quot;</em> (Mateus 19:29).</p>
-            
-            <p>Não seja como o servo mau que enterrou o talento. Multiplique (Mt 25:21). O que você tem feito com as suas qualificações?</p>
-
-            <h2 style={{color: '#0f172a', marginTop: '3rem', borderBottom: '2px solid #eee', paddingBottom: '0.5rem'}}>📚 Box de Referências Bíblicas</h2>
-            
-            <div style={{background: '#f8f9fa', borderLeft: '4px solid #0066cc', padding: '1.5rem', borderRadius: '0 8px 8px 0', margin: '2rem 0', fontSize: '0.95rem'}}>
-              <ul style={{listStyleType: 'none', paddingLeft: 0, margin: 0}}>
-                <li style={{marginBottom: '0.75rem'}}><strong>João 19:30</strong> — &quot;Está consumado.&quot; (tetelestai)</li>
-                <li style={{marginBottom: '0.75rem'}}><strong>1 Pedro 2:11</strong> — &quot;Amados, peço-vos, como a peregrinos e forasteiros, que vos abstenhais das concupiscências carnais.&quot;</li>
-                <li style={{marginBottom: '0.75rem'}}><strong>Mateus 6:19-20</strong> — &quot;Não ajunteis tesouros na terra... ajuntai tesouros no céu.&quot;</li>
-                <li style={{marginBottom: '0.75rem'}}><strong>Filipenses 3:8</strong> — &quot;Tenho também por perda todas as coisas, pela excelência do conhecimento de Cristo.&quot;</li>
-                <li style={{marginBottom: '0.75rem'}}><strong>João 4:35</strong> — &quot;Levantai os vossos olhos e vede as terras, que já estão brancas para a ceifa.&quot;</li>
-                <li style={{marginBottom: '0.75rem'}}><strong>Mateus 5:6</strong> — &quot;Bem-aventurados os que têm fome e sede de justiça.&quot;</li>
-                <li style={{marginBottom: '0.75rem'}}><strong>Mateus 16:24</strong> — &quot;Se alguém quiser vir após mim, renuncie-se a si mesmo, tome a sua cruz e siga-me.&quot;</li>
-                <li style={{marginBottom: '0.75rem'}}><strong>João 14:12</strong> — &quot;Aquele que crê em mim também fará as obras que eu faço, e as fará maiores.&quot;</li>
-                <li style={{marginBottom: '0.75rem'}}><strong>2 Timóteo 1:6</strong> — &quot;Desperta o dom de Deus que existe em ti.&quot;</li>
-                <li style={{marginBottom: '0.75rem'}}><strong>Isaías 6:8</strong> — &quot;A quem enviarei, e quem há de ir por nós? Eis-me aqui, envia-me a mim.&quot;</li>
-                <li style={{marginBottom: '0.75rem'}}><strong>Apocalipse 12:12</strong> — &quot;Ai dos que habitam na terra... o diabo desceu a vós, sabendo que já tem pouco tempo.&quot;</li>
-                <li style={{marginBottom: '0.75rem'}}><strong>Lucas 18:8</strong> — &quot;Quando vier o Filho do homem, porventura achará fé na terra?&quot;</li>
-                <li style={{marginBottom: '0.75rem'}}><strong>Lucas 9:62</strong> — &quot;Ninguém que lança mão do arado e olha para trás é apto para o reino de Deus.&quot;</li>
-                <li style={{marginBottom: '0.75rem'}}><strong>Mateus 25:21</strong> — &quot;Bem está, servo bom e fiel... entra no gozo do teu senhor.&quot;</li>
-                <li style={{marginBottom: 0}}><strong>Mateus 19:29</strong> — &quot;Todo aquele que tiver deixado casas... receberá cem vezes tanto.&quot;</li>
-              </ul>
-            </div>
-
-            <h2 style={{color: '#0f172a', marginTop: '3rem', borderBottom: '2px solid #eee', paddingBottom: '0.5rem'}}>💭 Lições Para a Nossa Vida</h2>
-            <ol style={{paddingLeft: '1.5rem', lineHeight: '1.8'}}>
-              <li style={{marginBottom: '0.5rem'}}><strong>Nossa morada não é aqui</strong> — somos forasteiros e peregrinos.</li>
-              <li style={{marginBottom: '0.5rem'}}><strong>Só o que é feito para Cristo permanece</strong> — o resto passa.</li>
-              <li style={{marginBottom: '0.5rem'}}><strong>Nossa maior ambição deve ser Cristo</strong> — não bens, status ou fama.</li>
-              <li style={{marginBottom: '0.5rem'}}><strong>O tempo é curto</strong> — pouco tempo nos resta.</li>
-              <li style={{marginBottom: '0.5rem'}}><strong>Os campos estão brancos</strong> — faltam ceifeiros.</li>
-              <li style={{marginBottom: '0.5rem'}}><strong>Você tem o mesmo poder que ressuscitou Jesus</strong> — o Espírito Santo habita em você.</li>
-              <li style={{marginBottom: '0.5rem'}}><strong>Deus chama os improváveis</strong> — camponeses, pescadores, donas de casa, jovens.</li>
-              <li style={{marginBottom: '0.5rem'}}><strong>Quem se posiciona é capacitado</strong> — deixa com Deus o equipamento e os recursos.</li>
-              <li style={{marginBottom: '0.5rem'}}><strong>Não enterre o talento</strong> — multiplique para a glória de Deus.</li>
-              <li style={{marginBottom: '0.5rem'}}><strong>Quando Cristo voltar</strong> — que Ele ache fé na terra e que te ache acordado.</li>
-            </ol>
-
-            <div style={{background: '#e9ecef', padding: '1.5rem', borderRadius: '12px', margin: '3rem 0'}}>
-              <h3 style={{marginTop: 0, color: '#1a1210'}}>📺 Fonte e Inspiração</h3>
-              <p style={{fontSize: '0.95rem'}}>Este artigo foi desenvolvido como uma versão escrita e expandida do vídeo <strong>"Se posicione e deixe com Deus | Pr. Paulo Junior"</strong>, do canal Pastor Paulo Junior no YouTube.</p>
-              
-              <ul style={{listStyleType: 'none', paddingLeft: 0, fontSize: '0.95rem'}}>
-                <li style={{marginBottom: '0.5rem'}}>🔗 <a href="https://www.youtube.com/watch?v=Lw23PIGmws8" target="_blank" rel="noopener noreferrer" style={{color: '#b91c1c', fontWeight: 'bold'}}>https://www.youtube.com/watch?v=Lw23PIGmws8</a></li>
-                <li style={{marginBottom: '0.5rem'}}>📺 <a href="https://www.youtube.com/@PauloJunior" target="_blank" rel="noopener noreferrer" style={{color: '#1a1210', fontWeight: 'bold'}}>Canal Pastor Paulo Junior</a></li>
-              </ul>
-              
-              <p style={{fontSize: '0.95rem', margin: 0, fontStyle: 'italic', marginTop: '1rem'}}>Agradecemos ao Pastor Paulo Junior por este chamado urgente e apaixonado à Igreja. "Só o que for feito por Cristo, para Cristo, permanecerá."</p>
-            </div>
-
-            <blockquote style={{borderLeft: '4px solid #722F37', background: '#fff9f9', padding: '1.5rem', margin: '2rem 0', fontStyle: 'italic', borderRadius: '0 8px 8px 0'}}>
-              <p style={{fontWeight: 'bold', marginBottom: '1rem'}}>🙏 Oração</p>
-              <p>Senhor Jesus,</p>
-              <p>Perdoa-me pelo tempo desperdiçado, pelos talentos enterrados, pelo chamado negligenciado.</p>
-              <p>Eis-me aqui. Envia-me a mim.</p>
-              <p>Desperta o dom que há em mim. Que eu não seja mais um crente inerte, mas um ceifeiro da última hora.</p>
-              <p>Tira de mim as pedras de tropeço. Faz minha maior ambição ser Cristo.</p>
-              <p>Que eu seja encontrado fiel quando voltares.</p>
-              <p>Em nome de Jesus, amém.</p>
-            </blockquote>
-            
-            <p style={{textAlign: 'center', fontWeight: 'bold', marginTop: '2rem'}}>Soli Deo Gloria. ⚔️🔥</p>
-          </main>
-
-          <section style={{maxWidth: '800px', margin: '0 auto 3rem', background: '#f8f9fa', padding: '2rem', borderRadius: '12px', borderTop: '4px solid #0f172a'}}>
-            <h2 style={{color: '#1a1210', marginTop: 0, display: 'flex', alignItems: 'center', gap: '8px'}}>💬 E Você, O Que Acha?</h2>
-            <p style={{color: '#555'}}>Agora queremos ouvir você, que leu até aqui:</p>
-            <ol style={{color: '#444', marginBottom: '1.5rem', paddingLeft: '1.5rem', lineHeight: '1.6'}}>
-              <li style={{marginBottom: '0.5rem'}}>O que está te impedindo de se posicionar hoje? (medo, comodidade, prioridades erradas, incredulidade?)</li>
-              <li style={{marginBottom: '0.5rem'}}>Qual talento Deus te deu que você tem enterrado?</li>
-              <li style={{marginBottom: '0.5rem'}}>Se Cristo voltasse amanhã, como Ele te encontraria: acordado e servindo, ou dormindo e enterrando?</li>
-              <li>Qual campo branco ao seu redor você precisa começar a ceifar? (família, trabalho, vizinhança, faculdade)</li>
-            </ol>
-            <p style={{color: '#666', fontStyle: 'italic'}}>👇 Deixe sua resposta nos comentários. Que esse seja o dia em que você diz:</p>
-            <p style={{fontWeight: 'bold', color: '#1a1210'}}>&quot;Eis-me aqui, Senhor. Envia-me a mim.&quot;</p>
-          </section>
-
-          <ShareBar title="Se Posicione e Deixe com Deus: O Chamado Urgente Para a Última Hora" url="/se-posicione-deixe-com-deus-chamado-urgente" />
-          <RelatedArticles currentLink="/se-posicione-deixe-com-deus-chamado-urgente" category="Devocionais" />
-        </article>
-      )}
-    </>
-  );
-}
-
 function App({ ssrPath } = {}) {
   const [currentHeroIndex, setCurrentHeroIndex] = useState(0);
 
@@ -1456,12 +358,10 @@ function App({ ssrPath } = {}) {
   const isTermsOfUse = path === '/termos-de-uso';
   const isSarcaArdente = path === '/artigo/sarca-ardente';
   const isSermaoDoMonte = path === '/artigo/sermao-do-monte';
-  const isBibliaEmUmAno = path === '/como-ler-biblia-inteira-2026-metodos-praticos';
   const isAhJesus = path === '/ah-jesus-coracao-igual-ao-teu-analise-biblica-julliany-souza';
   const isSilencioDeDeus = path === '/silencio-deus-dificuldades-charles-spurgeon';
   const isEleicao = path === '/doutrina-eleicao-incondicional-efesios-romanos';
   const isGalatas = path === '/carta-galatas-liberdade-crista-estudo-completo';
-  const isProvisao = path === '/deus-honrou-fe-testemunho-milagres-provisao-divina';
   const isCincoSolas = path === '/cinco-solas-relevancia-hoje-reforma-protestante';
   const isEstudosBiblicos = path === '/estudos-biblicos';
   const isPersonagensBiblicos = path === '/personagens-biblicos';
@@ -1473,7 +373,6 @@ function App({ ssrPath } = {}) {
   const isTestemunhoDeusEBom = path === '/testemunho-deus-e-bom-historia-fe-transformacao';
   const isTestemunhoDesespero = path === '/testemunho-desespero-esperanca';
   const isTestemunhoEEle = path === '/testemunho-e-ele-cancao-nasceu-deserto-paulo-vicente';
-  const isTestemunhoThamires = path === '/testemunho-thamires-musica-cura-aquieta-minhalma';
   const isTestemunhoJulliany = path === '/testemunho-julliany-souza-louvor-arma-espiritual-familia';
   const isAna = path === '/ana-mae-orou-chorou-gerou-profeta-samuel';
   const isDavi = path === '/pastor-conquistou-trono-jornada-davi-belem-jerusalem';
@@ -1484,16 +383,11 @@ function App({ ssrPath } = {}) {
   const isLaraSantanaJesus = path === '/do-berco-cristao-ao-encontro-pessoal-jornada-lara-santana-jesus';
   const isSamuelMarianoTestemunho = path === '/quando-deus-quebra-artista-formar-pastor-testemunho-samuel-mariano';
   const isDiscipulado3Erros = path === '/o-que-nao-e-discipulado-3-erros-distorcem-chamado-jesus';
-  const isDeusDetermina = path === '/deus-determina-ou-homem-toma-atitude-herois-da-fe';
-  const isInconstancia = path === '/voce-nao-esfriou-voce-esta-dividido-inconstancia-espiritual';
-  const isSofrimento = path === '/por-que-alguns-sofrem-mais-louvor-no-vale-deus-consolacao';
-  const isPosicionamento = path === '/se-posicione-deixe-com-deus-chamado-urgente';
   const isAmorAosInimigos = path === '/amor-aos-inimigos-chamado-radical-jesus-sermao-monte-mateus-5-43-48';
   const isEliasProfetaDeFogo = path === '/elias-jornada-completa-profeta-de-fogo-gileade-carro-de-fogo';
   const isBatismoInfantilCerto = path === '/batismo-infantil-certo-confianca-em-cristo-vs-ritual';
   const isSalvacaoNaoSePerde = path === '/salvacao-nao-se-perde-advertencias-paulo-galatas-5';
   const isProsperidadeVsMiseria = path === '/teologia-prosperidade-vs-miseria-equilibrio-biblico';
-  const isJustinBieberCopa = path === '/justin-bieber-copa-elogio-ou-ilusao-diferenca-falar-deus-ser-deus';
   const isVontadeDeus = path === '/como-saber-vontade-de-deus-3-principios-praticos';
   const isDescansandoJustica = path === '/descansando-na-justica-de-deus-nao-precisamos-fazer-vinganca';
   const isForcaNaFraqueza = path === '/voce-esta-no-limite-mas-deus-nao-te-abandonou-forca-na-fraqueza';
@@ -1829,125 +723,6 @@ function App({ ssrPath } = {}) {
               <ShareBar title="Sermão do Monte" url="/artigo/sermao-do-monte" />
               <RelatedArticles currentLink="/artigo/sermao-do-monte" category="Estudos Bíblicos" />
            </main>
-        ) : isBibliaEmUmAno ? (
-          <main className="article-content section-mb">
-             <Breadcrumb category="Estudos Bíblicos" categoryLink="/estudos-biblicos" title="Como Ler a Bíblia Inteira em 2026" />
-             <div className="article-header">
-               <span className="cat-tag">Devocional / Prática Cristã</span>
-               <h1>5 Métodos Práticos para Ler a Bíblia Inteira em 2026</h1>
-               <div className="article-meta">📖 <strong>Texto Base:</strong> Filipenses 4:19</div>
-             
-               <ArticleInfo date="11 de Junho de 2026" readingTime={10} />
-              </div>
-             
-             <img src="/bible_reading.webp" alt="Leitura Bíblica" className="article-hero-img" fetchPriority="high" />
-             
-             <p>Chegamos à metade de 2026. Muitos começaram o ano com a nobre resolução de ler a Bíblia inteira, mas já abandonaram o propósito. Se você se identifica com essa realidade, este artigo é para você.</p>
-             <p>A Bíblia possui 1.189 capítulos. Com a estratégia certa, você pode ler as Escrituras completas em menos de um ano — mantendo a constância sem sacrificar sua saúde mental ou espiritual.</p>
-             <p>Neste artigo, exploraremos cinco métodos práticos testados e comprovados, além de entender os três tipos de leitura bíblica que todo cristão deveria conhecer.</p>
-
-             <h2>Método 1: Quatro Capítulos por Dia — A Simplicidade que Funciona</h2>
-             <p>A conta é simples: 1.189 capítulos ÷ 4 capítulos por dia = 297,25 dias. Em 300 dias, você lê a Bíblia inteira, com 65 dias de margem.</p>
-             <p><strong>Como implementar:</strong></p>
-             <ul>
-               <li>Opção A: Dois capítulos pela manhã + dois à noite</li>
-               <li>Opção B: Dois do Antigo Testamento + dois do Novo Testamento</li>
-               <li>Opção C: Dois do AT + um Salmo/Provérbios + um do NT</li>
-             </ul>
-             <p><strong>Ferramentas Recomendadas:</strong></p>
-             <ol>
-               <li>Bible Journey — Permite criar desafios personalizados</li>
-               <li>Bible Reading — Calcula automaticamente quantos capítulos ler por dia</li>
-             </ol>
-
-             <h2>Método 2: Leitura Anual Contínua (Gênesis a Apocalipse)</h2>
-             <p>Leia a Bíblia capa a capa, distribuindo os capítulos ao longo dos 365 dias.</p>
-             <p><strong>Vantagens:</strong></p>
-             <ul>
-               <li>Progressão narrativa clara</li>
-               <li>Flexibilidade diária</li>
-               <li>Sem culpa se perder um dia</li>
-             </ul>
-
-             <h2>Método 3: Leitura em Conjunto — A Força da Comunhão</h2>
-             <p>Ideal para casais ou famílias. Leiam juntos, dividindo a responsabilidade.</p>
-             <p><strong>Benefícios:</strong></p>
-             <ul>
-               <li>Prestação de contas mútua</li>
-               <li>Comunhão fortalecida</li>
-               <li>Perspectivas diferentes</li>
-             </ul>
-
-             <h2>Método 4: Leitura por Tempo — Ideal para Rotinas Corridas</h2>
-             <p>Esqueça a contagem de capítulos. Foque em tempo dedicado:</p>
-             <ul>
-               <li>20 minutos diários → Completa em ~9 meses</li>
-               <li>30 minutos diários → Completa em ~6 meses</li>
-               <li>60 minutos diários → Completa em ~3 meses</li>
-             </ul>
-
-             <h2>Método 5: Combinação Estratégica</h2>
-             <ul>
-               <li>Segunda a Sexta: 20-30 minutos de leitura contínua</li>
-               <li>Sábado: Leitura mais longa (45-60 min) para recuperar dias perdidos</li>
-               <li>Domingo: Leitura devocional leve (Salmos ou Provérbios)</li>
-             </ul>
-
-             <h2>Os Três Tipos de Leitura Bíblica</h2>
-             
-             <h3>1. Leitura Devocional</h3>
-             <p><strong>Objetivo:</strong> Aplicação pessoal e comunhão com Deus<br />Ritmo mais lento, foco em meditação e oração</p>
-
-             <h3>2. Leitura de Conhecimento (Panorâmica)</h3>
-             <p><strong>Objetivo:</strong> Familiaridade com o conteúdo bíblico geral<br />Ritmo mais rápido, foco no "grande quadro"</p>
-
-             <h3>3. Leitura de Estudo (Exegese)</h3>
-             <p><strong>Objetivo:</strong> Compreensão profunda e exaustiva<br />Ritmo lento, uso de ferramentas e comentários</p>
-
-             <h2>Curiosidade: A Bíblia em 7 Dias</h2>
-             <p>É possível ler a Bíblia inteira em apenas 7 dias (170 capítulos por dia, ~8-10 horas diárias). Alguns cristãos fazem isso em retiros especiais.</p>
-
-             <h2>O Segredo: Constância, Não Perfeição</h2>
-             <p><em>"A queda nasce justamente nas exceções."</em></p>
-             <ul>
-               <li>Está cansado? Leia apenas um Salmo, mas leia</li>
-               <li>Sem tempo? Leia 5 minutos no ônibus, mas leia</li>
-               <li>Sem foco? Leia em voz alta, mas leia</li>
-             </ul>
-             <p>O importante não é a quantidade, é a constância.</p>
-
-             <h2>Plano de Ação: Comece Agora</h2>
-             <ol>
-               <li>Escolha UM método</li>
-               <li>Defina um horário fixo</li>
-               <li>Baixe um aplicativo de acompanhamento</li>
-               <li>Encontre um parceiro de responsabilidade</li>
-               <li>Celebre pequenas vitórias</li>
-             </ol>
-
-             <hr />
-             <p><strong>Referência:</strong> Este artigo foi baseado no vídeo "Como Ler a Bíblia Inteira em 2026" do canal [Nome do Canal] no YouTube.</p>
-             <p><strong>Assista ao vídeo original:</strong> <a href="https://www.youtube.com/watch?v=OWsLeHlsdnU" target="_blank" rel="noreferrer">https://www.youtube.com/watch?v=OWsLeHlsdnU</a></p>
-
-             <hr />
-             <p><strong>Para Reflexão:</strong></p>
-             <ul>
-               <li>Qual método você vai implementar a partir de hoje?</li>
-               <li>Que exceções você tem criado que estão te impedindo de ler a Bíblia consistentemente?</li>
-             </ul>
-
-             <p><strong>Desafio Prático:</strong><br />Escolha UM dos métodos e comprometa-se a segui-lo pelos próximos 30 dias.</p>
-
-             <p><strong>Leitura Recomendada:</strong></p>
-             <ul>
-               <li>Salmo 119:105</li>
-               <li>Josué 1:8</li>
-               <li>2 Timóteo 3:16-17</li>
-             </ul>
-          
-              <ShareBar title="Como Ler a Bíblia Inteira em 2026" url="/como-ler-biblia-inteira-2026-metodos-praticos" />
-              <RelatedArticles currentLink="/como-ler-biblia-inteira-2026-metodos-praticos" category="Estudos Bíblicos" />
-           </main>
         ) : isEstudosBiblicos ? (
           <main className="section-mb">
             <div className="section-title">
@@ -2085,7 +860,7 @@ function App({ ssrPath } = {}) {
                   <img src="/cinco_solas.webp" alt="As Cinco Solas e Sua Relevância Hoje" className="img-ph" loading="lazy" style={{objectFit: 'cover'}} />
                   <h3 style={{fontSize: '1.1rem', marginBottom: '8px', lineHeight: '1.4'}}>As Cinco Solas e Sua Relevância Hoje: Os Pilares da Reforma que Ainda Transformam Vidas</h3>
                   <p style={{fontSize: '0.9rem', color: '#666', marginTop: '8px'}}>Conheça os cinco pilares que sacudiram a cristandade no século XVI e entenda por que continuam moldando a fé bíblica até hoje.</p>
-                  <div className="meta">📖 <strong>Texto Base:</strong> Jó 42:2</div>
+                  <div className="meta">📖 <strong>Texto Base:</strong> Efésios 2:8</div>
                 </a>
               </div>
 
@@ -2133,20 +908,12 @@ function App({ ssrPath } = {}) {
                   <img src="/silence_of_god.webp" alt="O Silêncio de Deus nas Dificuldades" className="img-ph" loading="lazy" style={{objectFit: 'cover'}} />
                   <h3 style={{fontSize: '1.1rem', marginBottom: '8px', lineHeight: '1.4'}}>O Silêncio de Deus nas Dificuldades: Confiando no Caráter Revelado do Senhor</h3>
                   <p style={{fontSize: '0.9rem', color: '#666', marginTop: '8px'}}>Quando clamamos e parecemos não ouvir resposta, devemos confiar no caráter revelado do Senhor ao invés de nossos sentimentos...</p>
-                  <div className="meta">📖 <strong>Texto Base:</strong> Efésios 2:8</div>
+                  <div className="meta">📖 <strong>Texto Base:</strong> Jó 42:2</div>
                 </a>
               </div>
             </div>
 
             <div className="grid-2" style={{marginTop: '2rem'}}>
-              <div className="grid-2-item">
-                <a href="/como-ler-biblia-inteira-2026-metodos-praticos" style={{textDecoration: 'none', color: 'inherit'}}>
-                  <img src="/metodos_biblia.webp" alt="5 Métodos Práticos para Ler a Bíblia Inteira em 2026" className="img-ph" loading="lazy" style={{objectFit: 'cover'}} />
-                  <h3 style={{fontSize: '1.1rem', marginBottom: '8px', lineHeight: '1.4'}}>5 Métodos Práticos para Ler a Bíblia Inteira em 2026</h3>
-                  <p style={{fontSize: '0.9rem', color: '#666', marginTop: '8px'}}>Aprenda técnicas práticas e flexíveis para ler toda a Bíblia em um ano, mesmo com a rotina mais corrida. Inclui aplicativos recomendados.</p>
-                  <div className="meta">📖 <strong>Texto Base:</strong> Atos 9:15</div>
-                </a>
-              </div>
 
               <div className="grid-2-item">
                 <a href="/doutrina-eleicao-incondicional-efesios-romanos" style={{textDecoration: 'none', color: 'inherit'}}>
@@ -2552,7 +1319,7 @@ function App({ ssrPath } = {}) {
                <h1>Paulo de Tarso: O Perseguidor Chamado para Ser Apóstolo das Nações</h1>
                <div className="article-meta">
                  📖 <strong>PERSONAGENS BÍBLICOS | Soli Deo Gloria</strong><br/>
-                 <span style={{fontSize: '0.9rem', color: '#666'}}><em>Baseado em conteúdo do YouTube | 25 Jun, 2026</em></span>
+                 <span style={{fontSize: '0.9rem', color: '#666'}}><em>Por Andrews Rocha de Morais | 25 Jun, 2026</em></span>
                </div>
              
                <ArticleInfo date="23 de Junho de 2026" readingTime={10} />
@@ -2621,7 +1388,7 @@ function App({ ssrPath } = {}) {
                <h1>Samuel: O Profeta que Foi a Voz de Deus nas Trevas de Israel</h1>
                <div className="article-meta">
                  📖 <strong>PERSONAGENS BÍBLICOS | Soli Deo Gloria</strong><br/>
-                 <span style={{fontSize: '0.9rem', color: '#666'}}><em>Baseado em conteúdo do YouTube | 25 Jun, 2026</em></span>
+                 <span style={{fontSize: '0.9rem', color: '#666'}}><em>Por Andrews Rocha de Morais | 25 Jun, 2026</em></span>
                </div>
              
                <ArticleInfo date="23 de Junho de 2026" readingTime={9} />
@@ -2686,7 +1453,7 @@ function App({ ssrPath } = {}) {
                <h1>Jó: O Homem que Perdeu Tudo, Mas Não Perdeu a Deus — A Soberania Divina no Meio do Sofrimento</h1>
                <div className="article-meta">
                  📖 <strong>PERSONAGENS BÍBLICOS | Soli Deo Gloria</strong><br/>
-                 <span style={{fontSize: '0.9rem', color: '#666'}}><em>Baseado em conteúdo do YouTube | 25 Jun, 2026</em></span>
+                 <span style={{fontSize: '0.9rem', color: '#666'}}><em>Por Andrews Rocha de Morais | 25 Jun, 2026</em></span>
                </div>
              
                <ArticleInfo date="23 de Junho de 2026" readingTime={11} />
@@ -2766,6 +1533,26 @@ function App({ ssrPath } = {}) {
                  <li><strong>Correções:</strong> se você encontrar um erro bíblico, histórico ou de digitação, escreva pela página de <a href="/contato">Contato</a>. Corrigimos e agradecemos.</li>
                </ul>
 
+               <h2>Por que “Soli Deo Gloria”</h2>
+               <p>A expressão latina significa “somente a Deus a glória”. Ela resume uma convicção da Reforma Protestante: a salvação, do começo ao fim, é obra de Deus, e por isso o louvor pertence só a ele. O nome do site é um lembrete para quem escreve e para quem lê. O alvo aqui não é chamar atenção para um autor, mas ajudar o leitor a conhecer melhor a Deus pelas Escrituras.</p>
+               <h2>O que você encontra aqui</h2>
+               <ul>
+                 <li><a href="/estudos-biblicos">Estudos Bíblicos</a>: passagens e doutrinas explicadas com o texto bíblico à vista e o contexto de cada livro.</li>
+                 <li><a href="/devocionais">Devocionais</a>: textos curtos para meditação, oração e consolo na vida diária.</li>
+                 <li><a href="/personagens-biblicos">Personagens Bíblicos</a>: a vida de homens e mulheres da Bíblia e o que Deus fez por meio deles.</li>
+                 <li><a href="/testemunhos">Testemunhos</a>: histórias de fé contadas com cuidado e acompanhadas de reflexão bíblica.</li>
+                 <li><a href="/atividades-biblicas-infantis">Atividades Bíblicas Infantis</a>: ideias para os pais ensinarem a Bíblia aos filhos em casa.</li>
+                 <li><a href="/noticias">Notícias</a>: acontecimentos do mundo cristão comentados à luz da Bíblia.</li>
+               </ul>
+               <h2>Política Editorial</h2>
+               <ul>
+                 <li><strong>Versão da Bíblia:</strong> nos artigos mais recentes, os versículos citados entre aspas seguem a Almeida Corrigida Fiel (ACF). Quando um texto é apenas resumido, indicamos só a referência.</li>
+                 <li><strong>Temas em que cristãos divergem:</strong> o site tem convicção reformada, mas apresenta com respeito as outras posições cristãs, como no batismo, na escatologia e na relação entre soberania de Deus e responsabilidade humana.</li>
+                 <li><strong>Saúde e crises:</strong> os textos sobre ansiedade, luto ou desespero não substituem acompanhamento médico ou psicológico. Em risco de vida, o CVV atende pelo telefone 188, 24 horas, sem custo de ligação.</li>
+                 <li><strong>Ferramentas de apoio:</strong> o autor usa ferramentas digitais, inclusive inteligência artificial, para pesquisa, revisão e imagens. Todo texto publicado é lido, conferido com as Escrituras e aprovado por ele.</li>
+                 <li><strong>Sem política partidária:</strong> o site não apoia partidos nem candidatos.</li>
+                 <li><strong>Anúncios:</strong> o site pode exibir anúncios do Google AdSense para cobrir seus custos. Nenhum anunciante escolhe ou altera o conteúdo dos artigos.</li>
+               </ul>
                <div className="quote-box" style={{marginTop: '2rem', padding: '1.5rem', background: '#f9f9f9', borderLeft: '4px solid #111'}}>
                  <em>"Porque dele, e por ele, e para ele são todas as coisas; glória, pois, a ele eternamente. Amém."</em> — <strong>Romanos 11:36</strong>
                </div>
@@ -3090,15 +1877,6 @@ function App({ ssrPath } = {}) {
                 </a>
               </div>
 
-              <div className="grid-3-item">
-                <a href="/justin-bieber-copa-elogio-ou-ilusao-diferenca-falar-deus-ser-deus" style={{textDecoration: 'none', color: 'inherit'}}>
-                  <img src="/justin_bieber_copa.webp" alt="Justin Bieber na Copa" className="img-ph" loading="lazy" style={{objectFit: 'cover', aspectRatio: '16/9'}} />
-                  <span className="cat-tag" style={{display: 'inline-block', marginBottom: '8px', marginTop: '12px'}}>NOTÍCIAS</span>
-                  <h3 style={{fontSize: '1.1rem', marginBottom: '8px', lineHeight: '1.4'}}>Justin Bieber na Copa: Elogio ou Ilusão? A Diferença Entre Falar de Deus e Ser de Deus</h3>
-                  <p style={{fontSize: '0.9rem', color: '#666', marginTop: '8px', marginBottom: '12px'}}>Análise sobre a performance de Justin Bieber na Copa e a linha tênue entre gratidão genuína e fé cultural.</p>
-                  <div className="meta">📖 <strong>Análise Bíblica:</strong> Discernimento &amp; Fé Cultural</div>
-                </a>
-              </div>
 
               <div className="grid-3-item">
                 <a href="/ipb-debate-veto-movimento-legendarios-origem-preocupacoes-teologicas" style={{textDecoration: 'none', color: 'inherit'}}>
@@ -3200,6 +1978,16 @@ function App({ ssrPath } = {}) {
               </form>
             </div>
             
+            <div style={{marginTop: '2.5rem', lineHeight: '1.8'}}>
+              <h2>Antes de escrever</h2>
+              <ul>
+                <li><strong>Quem responde:</strong> as mensagens são lidas pelo próprio autor do site, Andrews Rocha de Morais.</li>
+                <li><strong>Correções:</strong> se encontrar um erro em um artigo, envie o endereço da página e o trecho. Erros bíblicos e históricos são corrigidos com prioridade.</li>
+                <li><strong>Sugestões de estudo:</strong> diga qual passagem, tema ou pergunta você gostaria de ver explicada. Muitos artigos nascem dessas sugestões.</li>
+                <li><strong>Pedidos de oração:</strong> são tratados com discrição e não são publicados sem autorização.</li>
+                <li><strong>Aconselhamento:</strong> não oferecemos aconselhamento individual por e-mail. Procure o pastor da sua igreja local. Em crise ou risco de vida, ligue para o CVV no 188 (24 horas, sem custo) ou para o SAMU no 192.</li>
+              </ul>
+            </div>
             <div style={{marginTop: '3rem', textAlign: 'center', color: '#666', fontSize: '0.95rem'}}>
               <p>📍 <strong>Soli Deo Gloria Portal Teológico</strong></p>
               <p>✉️ E-mail oficial: contato@sdgloria.com.br</p>
@@ -3235,14 +2023,6 @@ function App({ ssrPath } = {}) {
               </div>
               
 
-              <div className="grid-3-item">
-                <a href="/deus-honrou-fe-testemunho-milagres-provisao-divina" style={{textDecoration: 'none', color: 'inherit'}}>
-                  <img src="/provisao.webp" alt="Deus Honrou a Fé Dela" className="img-ph" loading="lazy" style={{objectFit: 'cover'}} />
-                  <span className="cat-tag" style={{display: 'inline-block', marginBottom: '8px', marginTop: '12px'}}>TESTEMUNHOS</span>
-                  <h3 style={{fontSize: '1.1rem', marginBottom: '8px', lineHeight: '1.4'}}>Deus Honrou a Fé Dela — Provisão Divina</h3>
-                  <p style={{fontSize: '0.9rem', color: '#666', marginTop: '8px', marginBottom: '12px'}}>Milagres e provisão na jornada de fé e obediência.</p>
-                </a>
-              </div>
               <div className="grid-3-item">
                 <a href="/testemunho-deus-e-bom-historia-fe-transformacao" style={{textDecoration: 'none', color: 'inherit'}}>
                   <img src="/deus_e_bom.webp" alt="Deus É Bom" className="img-ph" loading="lazy" style={{objectFit: 'cover'}} />
@@ -3282,18 +2062,6 @@ function App({ ssrPath } = {}) {
                 </a>
               </div>
 
-              <div className="grid-3-item">
-                <a href="/testemunho-thamires-musica-cura-aquieta-minhalma" style={{textDecoration: 'none', color: 'inherit'}}>
-                  <img src="/testemunho_thamires.webp" alt="Da Epilepsia à Adoração: O Testemunho de Thamires" className="img-ph" loading="lazy" style={{objectFit: 'cover'}} />
-                  <span className="cat-tag" style={{display: 'inline-block', marginBottom: '8px', marginTop: '12px'}}>TESTEMUNHOS</span>
-                  <h3 style={{fontSize: '1.1rem', marginBottom: '8px', lineHeight: '1.4'}}>Da Epilepsia à Adoração: Como a Música se Tornou a Voz da Cura de Thamires</h3>
-                  <p style={{fontSize: '0.9rem', color: '#666', marginTop: '8px', marginBottom: '12px'}}>Uma jornada de dor, revelação e canções que nasceram do encontro entre sofrimento e graça.</p>
-                  <div style={{marginTop: '15px', color: '#ff0000', fontWeight: 'bold', fontSize: '0.9rem', display: 'flex', alignItems: 'center', gap: '6px'}}>
-                    <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor"><path d="M19.615 3.184c-3.604-.246-11.631-.245-15.23 0-3.897.266-4.356 2.62-4.385 8.816.029 6.185.484 8.549 4.385 8.816 3.6.245 11.626.246 15.23 0 3.897-.266 4.356-2.62 4.385-8.816-.029-6.185-.484-8.549-4.385-8.816zm-10.615 12.816v-8l8 3.993-8 4.007z"/></svg>
-                    Podcast Jesuscopy
-                  </div>
-                </a>
-              </div>
 
               <div className="grid-3-item">
                 <a href="/testemunho-julliany-souza-louvor-arma-espiritual-familia" style={{textDecoration: 'none', color: 'inherit'}}>
@@ -3318,7 +2086,7 @@ function App({ ssrPath } = {}) {
                <h1>Cuidado com o que Deus Desaprova: As 7 Atitudes que o Senhor Detesta (Provérbios 6)</h1>
                <div className="article-meta">
                  📖 <strong>ESTUDOS BÍBLICOS | Soli Deo Gloria</strong><br/>
-                 <span style={{fontSize: '0.9rem', color: '#666'}}><em>Baseado em conteúdo do YouTube | 25 Jun, 2026</em></span>
+                 <span style={{fontSize: '0.9rem', color: '#666'}}><em>Por Andrews Rocha de Morais | 25 Jun, 2026</em></span>
                </div>
              
                <ArticleInfo date="25 de Junho de 2026" readingTime={12} />
@@ -3419,12 +2187,9 @@ function App({ ssrPath } = {}) {
                </div>
 
 
-               <div style={{marginTop: '2rem', padding: '1.5rem', border: '1px solid #eee', borderRadius: '8px', background: '#fcfcfc', fontSize: '0.9rem', color: '#555'}}>
-                 <strong>📺 Fonte e Inspiração:</strong><br/>
-                 Este artigo foi desenvolvido como uma versão escrita e expandida baseada no conteúdo do canal <strong>Dani Cadore</strong> no YouTube.<br/><br/>
-                 Se você deseja assistir ao vídeo original e complementar seu estudo, confira:<br/>
-                 🔗 <a href="https://www.youtube.com/@DaniCadore" target="_blank" rel="noopener noreferrer" style={{color: '#0066cc'}}>Cuidado com o que Deus desaprova | Provérbios 6</a><br/><br/>
-                 Agradecemos à Dani Cadore por compartilhar verdades bíblicas tão necessárias para nossos dias.
+               <div style={{marginTop: '2rem', padding: '1.25rem', border: '1px solid #eee', borderRadius: '8px', background: '#fcfcfc', fontSize: '0.9rem', color: '#555'}}>
+                 <strong>Referência:</strong> este texto parte de uma pregação do canal <strong>Dani Cadore</strong> no YouTube. <a href="https://www.youtube.com/@DaniCadore" target="_blank" rel="noopener noreferrer" style={{color: '#0066cc'}}>Ver o canal ou o vídeo</a>.
+                 A organização do texto e os comentários são do Soli Deo Gloria.
                </div>
 
                <p style={{fontSize: '1.1rem', fontStyle: 'italic', color: '#555', textAlign: 'center', margin: '2rem 0'}}>
@@ -3447,7 +2212,7 @@ function App({ ssrPath } = {}) {
                <h1>Do Berço Cristão ao Encontro Pessoal: A Jornada de Lara Santana com Jesus</h1>
                <div className="article-meta">
                  📖 <strong>TESTEMUNHOS | Soli Deo Gloria</strong><br/>
-                 <span style={{fontSize: '0.9rem', color: '#666'}}><em>Baseado em conteúdo do YouTube | 25 Jun, 2026</em></span>
+                 <span style={{fontSize: '0.9rem', color: '#666'}}><em>Por Andrews Rocha de Morais | 25 Jun, 2026</em></span>
                </div>
              
                <ArticleInfo date="25 de Junho de 2026" readingTime={10} />
@@ -3568,12 +2333,9 @@ function App({ ssrPath } = {}) {
                </div>
 
 
-               <div style={{marginTop: '2rem', padding: '1.5rem', border: '1px solid #eee', borderRadius: '8px', background: '#fcfcfc', fontSize: '0.9rem', color: '#555'}}>
-                 <strong>📺 Fonte e Inspiração:</strong><br/>
-                 Este artigo foi desenvolvido como uma versão escrita e expandida baseada no conteúdo do canal <strong>JesusCopy</strong> no YouTube.<br/><br/>
-                 Se você deseja assistir ao vídeo original e complementar seu estudo, confira:<br/>
-                 🔗 <a href="https://www.youtube.com/@JesusCopy" target="_blank" rel="noopener noreferrer" style={{color: '#0066cc'}}>TESTEMUNHO DE CONVERSÃO DE LARA SANTANA | Podcast JesusCopy</a><br/><br/>
-                 Agradecemos ao JesusCopy por compartilhar testemunhos tão edificantes e necessários para nossos dias.
+               <div style={{marginTop: '2rem', padding: '1.25rem', border: '1px solid #eee', borderRadius: '8px', background: '#fcfcfc', fontSize: '0.9rem', color: '#555'}}>
+                 <strong>Referência:</strong> este texto parte de uma pregação do canal <strong>JesusCopy</strong> no YouTube. <a href="https://www.youtube.com/@JesusCopy" target="_blank" rel="noopener noreferrer" style={{color: '#0066cc'}}>Ver o canal ou o vídeo</a>.
+                 A organização do texto e os comentários são do Soli Deo Gloria.
                </div>
 
                <p style={{fontSize: '1.1rem', fontStyle: 'italic', color: '#555', textAlign: 'center', margin: '2rem 0'}}>
@@ -3596,7 +2358,7 @@ function App({ ssrPath } = {}) {
                <h1>Quando Deus Quebra o Artista para Formar um Pastor: O Testemunho de Samuel Mariano</h1>
                <div className="article-meta">
                  📖 <strong>TESTEMUNHOS | Soli Deo Gloria</strong><br/>
-                 <span style={{fontSize: '0.9rem', color: '#666'}}><em>Baseado em conteúdo do YouTube | 25 Jun, 2026</em></span>
+                 <span style={{fontSize: '0.9rem', color: '#666'}}><em>Por Andrews Rocha de Morais | 25 Jun, 2026</em></span>
                </div>
              
                <ArticleInfo date="25 de Junho de 2026" readingTime={12} />
@@ -3805,17 +2567,9 @@ function App({ ssrPath } = {}) {
                  </p>
                </div>
 
-               <div style={{background: '#f8f9fa', padding: '1.5rem', borderRadius: '12px', marginTop: '2.5rem', border: '1px solid #e9ecef'}}>
-                 <h3 style={{marginTop: 0, marginBottom: '0.8rem', fontSize: '1.2rem'}}>📺 Fonte e Inspiração:</h3>
-                 <p style={{marginBottom: '1rem', lineHeight: '1.6'}}>
-                   Este artigo foi baseado no testemunho de Samuel Mariano no podcast <strong>TV Debates</strong>, onde ele compartilhou abertamente sobre acusações falsas, quebrantamento e restauração.
-                 </p>
-                 <p style={{marginBottom: 0}}>
-                   📺 <strong>Assista ao vídeo completo:</strong> <br/>
-                   <a href="https://www.youtube.com/watch?v=UsGv2rZhD1s" target="_blank" rel="noreferrer" style={{color: '#0066cc', fontWeight: 'bold', textDecoration: 'underline'}}>
-                     Samuel Mariano fala sobre escândalos e quebrantamento — TV Debates (Eu Acredito Podcast)
-                   </a>
-                 </p>
+               <div style={{marginTop: '2rem', padding: '1.25rem', border: '1px solid #eee', borderRadius: '8px', background: '#fcfcfc', fontSize: '0.9rem', color: '#555'}}>
+                 <strong>Referência:</strong> este texto parte de uma pregação no YouTube. <a href="https://www.youtube.com/watch?v=UsGv2rZhD1s" target="_blank" rel="noopener noreferrer" style={{color: '#0066cc'}}>Ver o canal ou o vídeo</a>.
+                 A organização do texto e os comentários são do Soli Deo Gloria.
                </div>
 
                <p style={{fontSize: '1.1rem', fontStyle: 'italic', color: '#555', textAlign: 'center', margin: '2rem 0'}}>
@@ -3838,7 +2592,7 @@ function App({ ssrPath } = {}) {
                <h1>O Amor aos Inimigos: O Chamado Radical de Jesus no Sermão do Monte (Mateus 5:43-48)</h1>
                <div className="article-meta">
                  📖 <strong>ESTUDOS BÍBLICOS | Soli Deo Gloria</strong><br/>
-                 <span style={{fontSize: '0.9rem', color: '#666'}}><em>Baseado em conteúdo do YouTube | 25 Jun, 2026</em></span>
+                 <span style={{fontSize: '0.9rem', color: '#666'}}><em>Por Andrews Rocha de Morais | 25 Jun, 2026</em></span>
                </div>
              
                <ArticleInfo date="25 de Junho de 2026" readingTime={13} />
@@ -4122,18 +2876,10 @@ function App({ ssrPath } = {}) {
                  </ul>
                </div>
 
-               <div style={{background: '#e9ecef', padding: '1.5rem', borderRadius: '12px', margin: '3rem 0'}}>
-              <h3 style={{marginTop: 0, color: '#1a1210'}}>📺 Fonte e Inspiração</h3>
-              <p style={{fontSize: '0.95rem'}}>Este artigo foi desenvolvido como uma versão escrita e expandida do vídeo <strong>"Vídeo Original"</strong>, do canal Dani Cadore no YouTube.</p>
-              <p style={{fontSize: '0.95rem'}}>Se você prefere assistir ou quer complementar o estudo com o vídeo original, confira:</p>
-              
-              <ul style={{listStyleType: 'none', paddingLeft: 0, fontSize: '0.95rem'}}>
-                <li style={{marginBottom: '0.5rem'}}>🔗 <a href="https://www.youtube.com/watch?v=wpkboK5-xBs" target="_blank" rel="noopener noreferrer" style={{color: '#b91c1c', fontWeight: 'bold'}}>https://www.youtube.com/watch?v=wpkboK5-xBs</a></li>
-                <li style={{marginBottom: '0.5rem'}}>📺 <strong style={{color: '#1a1210'}}>Canal Dani Cadore</strong></li>
-              </ul>
-              
-              <p style={{fontSize: '0.95rem', margin: 0, fontStyle: 'italic', marginTop: '1rem'}}>Agradecemos ao canal Dani Cadore por produzir conteúdos bíblicos tão profundos e bem narrados, que edificam a Igreja.</p>
-            </div>
+               <div style={{marginTop: '2rem', padding: '1.25rem', border: '1px solid #eee', borderRadius: '8px', background: '#fcfcfc', fontSize: '0.9rem', color: '#555'}}>
+                 <strong>Referência:</strong> este texto parte de uma pregação do canal <strong>Dani Cadore</strong> no YouTube. <a href="https://www.youtube.com/watch?v=wpkboK5-xBs" target="_blank" rel="noopener noreferrer" style={{color: '#0066cc'}}>Ver o canal ou o vídeo</a>.
+                 A organização do texto e os comentários são do Soli Deo Gloria.
+               </div>
 
                
 
@@ -4157,7 +2903,7 @@ function App({ ssrPath } = {}) {
                <h1>O Que NÃO É Discipulado: 3 Erros que Distorcem o Chamado de Jesus</h1>
                <div className="article-meta">
                  📖 <strong>ESTUDOS BÍBLICOS | Soli Deo Gloria</strong><br/>
-                 <span style={{fontSize: '0.9rem', color: '#666'}}><em>Baseado em conteúdo do YouTube | 25 Jun, 2026</em></span>
+                 <span style={{fontSize: '0.9rem', color: '#666'}}><em>Por Andrews Rocha de Morais | 25 Jun, 2026</em></span>
                </div>
              
                <ArticleInfo date="25 de Junho de 2026" readingTime={14} />
@@ -4230,7 +2976,7 @@ function App({ ssrPath } = {}) {
 
                <h3>B. Nenhum Pastor Tem Ovelhas</h3>
                <p>Essa verdade liberta tanto pastores quanto membros:</p>
-               <p><em>&quot;Nenhum pastor tem ovelhas. Eu já ouvi isso 200.000 vezes: 'Vamos lá ver minhas ovelhas', 'Você é minha ovelha, você tem que me obedecer'. Isso está errado.&quot;</em></p>
+               <p><em>&quot;Nenhum pastor tem ovelhas. É comum ouvir frases como 'minhas ovelhas' ou 'você é minha ovelha e tem que me obedecer'. Isso está errado.&quot;</em></p>
                <p>Quando um líder diz &quot;minha igreja&quot;, &quot;minhas ovelhas&quot;, ele está:</p>
                <ul>
                  <li>❌ Distorcendo a propriedade que é de Cristo</li>
@@ -4411,26 +3157,15 @@ function App({ ssrPath } = {}) {
                <h2>📚 Leituras Recomendadas</h2>
                <div style={{background: '#f8f9fa', padding: '1.5rem', borderRadius: '12px', margin: '2rem 0', border: '1px solid #e9ecef'}}>
                  <ul style={{marginBottom: 0, paddingLeft: '1.25rem', lineHeight: '1.8'}}>
-                   <li>📖 <em>&quot;Discipulado: Recuperando o Poder Transformador do Evangelho&quot;</em> — Diversos Autores</li>
                    <li>📖 <em>&quot;Life Together&quot;</em> — Dietrich Bonhoeffer (sobre vida comunitária cristã)</li>
                    <li>📖 <em>&quot;The Great Omission&quot;</em> — Dallas Willard (sobre discipulado bíblico)</li>
-                   <li>📖 <em>&quot;Discipulado à Maneira de Jesus&quot;</em> — Diversos Autores</li>
-                   <li>📖 <em>&quot;O Discípulo&quot;</em> — Diversos Autores (formação de caráter cristão)</li>
                  </ul>
                </div>
 
-               <div style={{background: '#e9ecef', padding: '1.5rem', borderRadius: '12px', margin: '3rem 0'}}>
-              <h3 style={{marginTop: 0, color: '#1a1210'}}>📺 Fonte e Inspiração</h3>
-              <p style={{fontSize: '0.95rem'}}>Este artigo foi desenvolvido como uma versão escrita e expandida do vídeo <strong>"Vídeo Original"</strong>, do canal JesusCopy no YouTube.</p>
-              <p style={{fontSize: '0.95rem'}}>Se você prefere assistir ou quer complementar o estudo com o vídeo original, confira:</p>
-              
-              <ul style={{listStyleType: 'none', paddingLeft: 0, fontSize: '0.95rem'}}>
-                <li style={{marginBottom: '0.5rem'}}>🔗 <a href="https://www.youtube.com/watch?v=W-srOfx50oA" target="_blank" rel="noopener noreferrer" style={{color: '#b91c1c', fontWeight: 'bold'}}>https://www.youtube.com/watch?v=W-srOfx50oA</a></li>
-                <li style={{marginBottom: '0.5rem'}}>📺 <strong style={{color: '#1a1210'}}>Canal JesusCopy</strong></li>
-              </ul>
-              
-              <p style={{fontSize: '0.95rem', margin: 0, fontStyle: 'italic', marginTop: '1rem'}}>Agradecemos ao canal JesusCopy por produzir conteúdos bíblicos tão profundos e bem narrados, que edificam a Igreja.</p>
-            </div>
+               <div style={{marginTop: '2rem', padding: '1.25rem', border: '1px solid #eee', borderRadius: '8px', background: '#fcfcfc', fontSize: '0.9rem', color: '#555'}}>
+                 <strong>Referência:</strong> este texto parte de uma pregação do canal <strong>JesusCopy</strong> no YouTube. <a href="https://www.youtube.com/watch?v=W-srOfx50oA" target="_blank" rel="noopener noreferrer" style={{color: '#0066cc'}}>Ver o canal ou o vídeo</a>.
+                 A organização do texto e os comentários são do Soli Deo Gloria.
+               </div>
 
                
 
@@ -4454,7 +3189,7 @@ function App({ ssrPath } = {}) {
                <h1>Batismo Infantil é Certo? A Confiança em Cristo vs. A Confiança no Ritual</h1>
                <div className="article-meta">
                  📖 <strong>ESTUDOS BÍBLICOS | Soli Deo Gloria</strong><br/>
-                 <span style={{fontSize: '0.9rem', color: '#666'}}><em>Baseado em conteúdo do YouTube | 25 Jun, 2026</em></span>
+                 <span style={{fontSize: '0.9rem', color: '#666'}}><em>Por Andrews Rocha de Morais | 25 Jun, 2026</em></span>
                </div>
              
                <ArticleInfo date="25 de Junho de 2026" readingTime={11} />
@@ -4500,7 +3235,7 @@ function App({ ssrPath } = {}) {
                <h2>💧 O Perigo do Ritualismo: Batismo Salva?</h2>
                
                <h3>Rituais Não Têm Poder em Si Mesmos</h3>
-               <p>O texto de Gálatas 5:6 parece ter sido escrito hoje de manhã: <em>"em Cristo Jesus nem a circuncisão, nem a incircuncisão valem alguma coisa"</em>. Ainda existem milhões de pessoas — católicos e evangélicos — acreditando que o ritual de água tem poder regenerador em si mesmo.</p>
+               <p>O texto de Gálatas 5:6 parece ter sido escrito hoje de manhã: <em>"em Cristo Jesus nem a circuncisão, nem a incircuncisão valem alguma coisa"</em>. Ainda existem muitas pessoas — católicos e evangélicos — acreditando que o ritual de água tem poder regenerador em si mesmo.</p>
 
                <h3>A Visão Católica (Ex Opere Operato)</h3>
                <p>A teologia católica afirma que os sacramentos operam a regeneração <em>ex opere operato</em> ("pelo próprio ato operado"), ou seja, ao batizar um bebê, ele seria automaticamente regenerado e salvo, independentemente de fé. A refutação empírica é simples: quantos batizados vivem em devassidão e perversidade? A Bíblia garante que o verdadeiro nascido de novo não vive na prática do pecado (1 João 3:9).</p>
@@ -4551,18 +3286,10 @@ function App({ ssrPath } = {}) {
                </div>
 
 
-               <div style={{background: '#e9ecef', padding: '1.5rem', borderRadius: '12px', margin: '3rem 0'}}>
-              <h3 style={{marginTop: 0, color: '#1a1210'}}>📺 Fonte e Inspiração</h3>
-              <p style={{fontSize: '0.95rem'}}>Este artigo foi desenvolvido como uma versão escrita e expandida do vídeo <strong>"Batismo infantil é certo?"</strong>, do canal Pastor Rodrigo Mocellin no YouTube.</p>
-              <p style={{fontSize: '0.95rem'}}>Se você prefere assistir ou quer complementar o estudo com o vídeo original, confira:</p>
-              
-              <ul style={{listStyleType: 'none', paddingLeft: 0, fontSize: '0.95rem'}}>
-                <li style={{marginBottom: '0.5rem'}}>🔗 <a href="https://www.youtube.com/watch?v=-a1epzI4MOE" target="_blank" rel="noopener noreferrer" style={{color: '#b91c1c', fontWeight: 'bold'}}>https://www.youtube.com/watch?v=-a1epzI4MOE</a></li>
-                <li style={{marginBottom: '0.5rem'}}>📺 <strong style={{color: '#1a1210'}}>Canal Pastor Rodrigo Mocellin</strong></li>
-              </ul>
-              
-              <p style={{fontSize: '0.95rem', margin: 0, fontStyle: 'italic', marginTop: '1rem'}}>Agradecemos ao canal Pastor Rodrigo Mocellin por produzir conteúdos bíblicos tão profundos e bem narrados, que edificam a Igreja.</p>
-            </div>
+               <div style={{marginTop: '2rem', padding: '1.25rem', border: '1px solid #eee', borderRadius: '8px', background: '#fcfcfc', fontSize: '0.9rem', color: '#555'}}>
+                 <strong>Referência:</strong> este texto parte de uma pregação (“Batismo infantil é certo?”) do canal <strong>Pastor Rodrigo Mocellin</strong> no YouTube. <a href="https://www.youtube.com/watch?v=-a1epzI4MOE" target="_blank" rel="noopener noreferrer" style={{color: '#0066cc'}}>Ver o canal ou o vídeo</a>.
+                 A organização do texto e os comentários são do Soli Deo Gloria.
+               </div>
 
                <p style={{fontSize: '1.1rem', fontStyle: 'italic', color: '#555', textAlign: 'center', margin: '2rem 0'}}>
                  "A nossa confiança está exclusivamente em Cristo. Somos salvos exclusivamente pela nossa fé, fé que Ele nos deu, fé em Cristo. Não pela fé dos nossos pais, da igreja, de ninguém, por meio de um ritual ou por termos nascido no lugar certo."
@@ -4584,7 +3311,7 @@ function App({ ssrPath } = {}) {
                <h1>Salvação Não Se Perde: Entendendo as Advertências de Paulo em Gálatas 5</h1>
                <div className="article-meta">
                  📖 <strong>ESTUDOS BÍBLICOS | Soli Deo Gloria</strong><br/>
-                 <span style={{fontSize: '0.9rem', color: '#666'}}><em>Baseado em conteúdo do YouTube | 25 Jun, 2026</em></span>
+                 <span style={{fontSize: '0.9rem', color: '#666'}}><em>Por Andrews Rocha de Morais | 25 Jun, 2026</em></span>
                </div>
              
                <ArticleInfo date="25 de Junho de 2026" readingTime={10} />
@@ -4710,12 +3437,9 @@ function App({ ssrPath } = {}) {
                  <li><strong>"A Perseverança dos Santos"</strong> — R.C. Sproul (defesa clássica da doutrina)</li>
                </ul>
 
-               <div style={{marginTop: '2rem', padding: '1.5rem', border: '1px solid #eee', borderRadius: '8px', background: '#fcfcfc', fontSize: '0.9rem', color: '#555'}}>
-                 <strong>📺 Fonte e Inspiração:</strong><br/>
-                 Este artigo foi desenvolvido como uma versão escrita e expandida baseada no conteúdo do canal <strong>Pastor Rodrigo Mocellin</strong> no YouTube.<br/><br/>
-                 Se você deseja assistir ao vídeo original e complementar seu estudo, confira:<br/>
-                 🔗 <a href="https://www.youtube.com/@PastorRodrigoMocellin" target="_blank" rel="noopener noreferrer" style={{color: '#0066cc'}}>Salvação não se perde</a><br/><br/>
-                 Agradecemos ao Pastor Rodrigo Mocellin por compartilhar verdades bíblicas tão necessárias para nossos dias.
+               <div style={{marginTop: '2rem', padding: '1.25rem', border: '1px solid #eee', borderRadius: '8px', background: '#fcfcfc', fontSize: '0.9rem', color: '#555'}}>
+                 <strong>Referência:</strong> este texto parte de uma pregação do canal <strong>Pastor Rodrigo Mocellin</strong> no YouTube. <a href="https://www.youtube.com/@PastorRodrigoMocellin" target="_blank" rel="noopener noreferrer" style={{color: '#0066cc'}}>Ver o canal ou o vídeo</a>.
+                 A organização do texto e os comentários são do Soli Deo Gloria.
                </div>
 
                <p style={{fontSize: '1.1rem', fontStyle: 'italic', color: '#555', textAlign: 'center', margin: '2rem 0'}}>
@@ -4738,7 +3462,7 @@ function App({ ssrPath } = {}) {
                <h1>Teologia da Prosperidade vs. Teologia da Miséria: Encontrando o Equilíbrio Bíblico</h1>
                <div className="article-meta">
                  📖 <strong>NOTÍCIAS | Soli Deo Gloria</strong><br/>
-                 <span style={{fontSize: '0.9rem', color: '#666'}}><em>Baseado em conteúdo do YouTube | 25 Jun, 2026</em></span>
+                 <span style={{fontSize: '0.9rem', color: '#666'}}><em>Por Andrews Rocha de Morais | 25 Jun, 2026</em></span>
                </div>
              
                <ArticleInfo date="25 de Junho de 2026" readingTime={10} />
@@ -4870,12 +3594,9 @@ function App({ ssrPath } = {}) {
                  <li><strong>"A Ética Protestante e o Espírito do Capitalismo"</strong> — Max Weber (análise sociológica)</li>
                </ul>
 
-               <div style={{marginTop: '2rem', padding: '1.5rem', border: '1px solid #eee', borderRadius: '8px', background: '#fcfcfc', fontSize: '0.9rem', color: '#555'}}>
-                 <strong>📺 Fonte e Inspiração:</strong><br/>
-                 Este artigo foi desenvolvido como uma versão escrita e expandida baseada no conteúdo do canal <strong>Pastor Rodrigo Mocellin</strong> no YouTube.<br/><br/>
-                 Se você deseja assistir ao vídeo original e complementar seu estudo, confira:<br/>
-                 🔗 <a href="https://www.youtube.com/watch?v=hoBLRegpD8c" target="_blank" rel="noopener noreferrer" style={{color: '#0066cc'}}>Erro de reformados e pentecostais</a><br/><br/>
-                 Agradecemos ao Pastor Rodrigo Mocellin por compartilhar verdades bíblicas tão necessárias para nossos dias.
+               <div style={{marginTop: '2rem', padding: '1.25rem', border: '1px solid #eee', borderRadius: '8px', background: '#fcfcfc', fontSize: '0.9rem', color: '#555'}}>
+                 <strong>Referência:</strong> este texto parte de uma pregação do canal <strong>Pastor Rodrigo Mocellin</strong> no YouTube. <a href="https://www.youtube.com/watch?v=hoBLRegpD8c" target="_blank" rel="noopener noreferrer" style={{color: '#0066cc'}}>Ver o canal ou o vídeo</a>.
+                 A organização do texto e os comentários são do Soli Deo Gloria.
                </div>
 
                <p style={{fontSize: '1.1rem', fontStyle: 'italic', color: '#555', textAlign: 'center', margin: '2rem 0'}}>
@@ -4890,132 +3611,6 @@ function App({ ssrPath } = {}) {
              <RelatedArticles currentLink="/teologia-prosperidade-vs-miseria-equilibrio-biblico" category="Notícias" />
            </main>
 
-        ) : isJustinBieberCopa ? (
-          <main className="article-content section-mb">
-             <Breadcrumb category="Notícias" categoryLink="/noticias" title="Justin Bieber na Copa" />
-             <div className="article-header">
-               <span className="cat-tag">Notícias</span>
-               <h1>Justin Bieber na Copa: Elogio ou Ilusão? A Diferença Entre Falar de Deus e Ser de Deus</h1>
-               <div className="article-meta">
-                 📖 <strong>NOTÍCIAS | Soli Deo Gloria</strong><br/>
-                 <span style={{fontSize: '0.9rem', color: '#666'}}><em>Baseado em conteúdo do YouTube | 25 Jun, 2026</em></span>
-               </div>
-             
-               <ArticleInfo date="25 de Junho de 2026" readingTime={9} />
-              </div>
-             <img src="/justin_bieber_copa.webp" alt="Nem todo o que me diz: Senhor, Senhor! entrará no reino dos céus — Mateus 7:21" className="article-hero-img" fetchPriority="high" style={{maxHeight: '450px', width: '100%', objectFit: 'cover', borderRadius: '12px'}} />
-             <div className="article-body">
-               
-               
-
-            <VideoEmbed videoId="RnwMYLVZ-78" title="Vídeo Original" channel="Pastor Rodrigo Mocellin" />
-
-            <h2>A Euforia e a Necessidade de Discernimento</h2>
-               <p>A quantidade de crentes dizendo que Justin Bieber glorificou a Deus na Copa não está escrita. Mas será que foi isso mesmo o que aconteceu? Talvez você tenha sido enganado pelo entusiasmo do momento.</p>
-               
-               <p>Antes de pegar pedras para atirar, vamos analisar com calma e à luz do Evangelho. O que difere uma gratidão superficial de uma fé salvadora e coerente?</p>
-
-               <h2>🎵 A Música "Everything Aleluia"</h2>
-               <p>Na sua apresentação, Justin Bieber cantou a canção <em>"Everything Aleluia"</em>, cuja letra repete a palavra “aleluia” ao lado de declarações de amor romântico — sem deixar claro se o “aleluia” se dirige a Deus ou a uma pessoa.</p>
-               <p>O resumo da música é uma mensagem de gratidão: dar graças a Deus por cada aspecto da existência, onde cada detalhe da vida, com gratidão a Deus, se torna gigante. Nesse aspecto isolado, a letra é interessante e não haveria nada a declarar em contrário.</p>
-
-               <h2>⚠️ A Contradição do Álbum: O Problema da Incoerência</h2>
-               
-               <h3>Sweet Spot (Ponto Certo)</h3>
-               <p>O grande problema surge quando olhamos para o contexto da obra. A canção <em>"Everything Aleluia"</em> faz parte do álbum <em>Swag</em>. No mesmo álbum, encontramos a faixa <em>"Sweet Spot"</em>, com uma letra carregada de sensualidade explícita e referências sexuais profanas.</p>
-               <p>Como se não bastasse, a música conta com a participação de uma rapper americana conhecida por músicas com linguagem sexual extremamente explícita. E em suas próprias redes sociais, imagens recentes promovendo sensualidade constrangedora contradizem a mensagem de santidade do Evangelho.</p>
-               
-               <h3>A Linha Tênue da Incoerência</h3>
-               <p>Agradecer a Deus em uma música e cantar sensualidade explícita na faixa seguinte não representa amadurecimento ou liberdade cristã; isso é contradição. É um retrato claro do que chamamos de <strong>fé cultural</strong>.</p>
-
-               <h2>⚽ A Fé dos Famosos e a Religião Utilitária</h2>
-               
-               <h3>O Padrão Comum</h3>
-               <p>O que parece é que Justin Bieber compartilha da mesma fé de muitos artistas, jogadores de futebol e até de anônimos: um "Jesus" que serve apenas para abençoar, proteger e dar vitórias em um mundo perigoso, sem exigir arrependimento ou transformação de vida.</p>
-
-               <h3>O Exemplo no Futebol</h3>
-               <p>Vemos constantemente jogadores que vivem uma rotina completamente anticristã, mas antes de um jogo decisivo publicam versículos bíblicos. Em um stories promovem casas de apostas (Bets) que destroem famílias; no stories seguinte, postam: <em>"Pois o Senhor, meu Deus, luta as minhas guerras"</em>.</p>
-               
-               <h3>Albert Camus e a Criação de Deus</h3>
-               <p>Há uma tendência humana de moldar a fé ao próprio gosto: muitas pessoas não querem caminhar sem esperança e sem consolo, então <strong>inventam um Jesus</strong> à sua própria imagem — um Cristo que aceita tudo e não confronta o pecado.</p>
-
-               <h2>👑 O Exemplo de Constantino: Fé Salvadora ou Conveniência?</h2>
-               
-               <h3>A Visão da Ponte Mílvia</h3>
-               <p>O imperador romano Constantino, antes da famosa batalha da Ponte Mílvia, teria tido uma visão da cruz com a mensagem: <em>"Neste sinal, vencerás"</em>. Ele venceu a batalha. Mas será que ele se tornou um cristão genuíno?</p>
-
-               <h3>Qual Tipo de Fé?</h3>
-               <p>Alguns historiadores apontam que ele continuou adorando o Sol Invicto e outros deuses pagãos ao lado de Jesus. Ele provavelmente acreditava em Jesus, mas em um Jesus adaptado e culturalmente aceitável. Era uma fé semelhante à descrita por Tiago: <em>"Crês tu que é um só Deus? Fazes bem. Até os demônios creem e tremem."</em> (Tiago 2:19).</p>
-
-               <h2>💭 Por Que Essas Coisas Acontecem?</h2>
-               
-               <h3>Pastores Falsos ou Falsos Convertidos?</h3>
-               <p>Muitos dizem: <em>"Ah, o problema são os pastores deles"</em>. É verdade que existem maus pastores. Mas o apóstolo Paulo foi o fundador da igreja de Corinto — pregando o Evangelho puro — e ainda assim havia pessoas vivendo em profunda desordem moral ali. O fato mais triste é que <strong>um falso evangelho gera falsos convertidos</strong>.</p>
-
-               <h3>O Lado "Bom" e o Lado Ruim</h3>
-               <p>Por um lado, podemos dizer como Paulo em Filipenses 1:18: de alguma maneira, o nome de Cristo foi proclamado em um evento global (com mensagens como <em>"Jesus é o caminho"</em> visíveis). Mas o lado negativo é terrível: associar o Evangelho de Cristo a um estilo de vida mundano faz com que o nome de Deus seja blasfemado entre os descrentes (Romanos 2:24).</p>
-
-               <h2>🌱 Torcendo pela Conversão Verdadeira</h2>
-               
-               <h3>A Euforia dos Crentes vs. A Realidade</h3>
-               <p>Nós verdadeiramente torcemos e oramos para que Justin Bieber — e qualquer outra pessoa — tenha um encontro real e salvador com Jesus Cristo. A diferença entre o anônimo e o famoso é que os erros e pecado do anônimo não saem nas notícias, enquanto os do famoso são amplificados para milhões.</p>
-               <p>Ainda assim, é difícil acreditar em uma conversão genuína quando se constata uma dualidade tão gritante no mesmo álbum. Que Deus tenha misericórdia e conceda verdadeiro arrependimento.</p>
-
-               <h2>📊 Análise: Fé Verdadeira vs. Fé Cultural</h2>
-               <p>O que podemos aprender com tudo isso para a nossa própria caminhada?</p>
-               <ul style={{lineHeight: '1.8', marginBottom: '2rem'}}>
-                 <li>✅ <strong>Nem tudo que parece cristão é cristão:</strong> Falar "aleluia" ou cantar sobre Deus não é sinônimo de regeneração.</li>
-                 <li>✅ <strong>A contradição revela o coração:</strong> Uma fonte não pode jorrar água doce e água amarga ao mesmo tempo (Tiago 3:11).</li>
-                 <li>✅ <strong>Fé dos demônios vs. Fé salvadora:</strong> Crer nos fatos sobre Deus não basta; é preciso render-se ao Seu Senhorio.</li>
-                 <li>✅ <strong>O perigo do sincretismo:</strong> Tentar somar Jesus com uma vida de pecados de estimação é pura hipocrisia.</li>
-                 <li>✅ <strong>A responsabilidade da influência:</strong> Quem tem visibilidade deve ter um temor ainda maior de não envergonhar o Evangelho.</li>
-               </ul>
-
-               <h2>🙏 Oração por Discernimento</h2>
-               <blockquote style={{borderLeft: '4px solid #722F37', background: '#fff9f9', padding: '1.5rem', margin: '2rem 0', fontStyle: 'italic'}}>
-                 Senhor Jesus,<br/>
-                 Dá-nos discernimento para distinguir entre fé verdadeira e fé cultural.<br/>
-                 Livra-nos da tentação de Te usar como amuleto para vitória.<br/>
-                 Que nossa fé não seja apenas palavras, mas transformação de vida.<br/>
-                 Ora por aqueles que estão confundindo gratidão superficial com conversão genuína.<br/>
-                 Que o Teu nome não seja blasfemado por nossa incoerência.<br/>
-                 Em nome de Jesus, amém.
-               </blockquote>
-
-               <h2>📖 Versículos para Meditação</h2>
-               <div style={{background: '#f8f9fa', borderLeft: '4px solid #0066cc', padding: '1.5rem', borderRadius: '0 8px 8px 0', margin: '2rem 0'}}>
-                 <p><strong>Tiago 2:19</strong> — "Crês tu que é um só Deus? Fazes bem. Até os demônios creem."</p>
-                 <p><strong>Mateus 7:21-23</strong> — "Nem todo o que me diz: Senhor, Senhor! entrará no reino dos céus, mas aquele que faz a vontade de meu Pai, que está nos céus."</p>
-                 <p><strong>Filipenses 1:18</strong> — "Que importa? Desde que Cristo seja anunciado de toda a maneira, quer com fingimento, quer em verdade, nisto me regozijo e me regozijarei ainda."</p>
-                 <p><strong>Romanos 2:24</strong> — "Porque, como está escrito, o nome de Deus é blasfemado entre os gentios por causa de vós."</p>
-                 <p><strong>1 João 2:4</strong> — "Aquele que diz: Eu o conheço e não guarda os seus mandamentos é mentiroso, e nele não está a verdade."</p>
-               </div>
-
-               <div style={{background: '#e9ecef', padding: '1.5rem', borderRadius: '12px', margin: '3rem 0'}}>
-              <h3 style={{marginTop: 0, color: '#1a1210'}}>📺 Fonte e Inspiração</h3>
-              <p style={{fontSize: '0.95rem'}}>Este artigo foi desenvolvido como uma versão escrita e expandida do vídeo <strong>"Cristãos elogiaram Justin sem saber isto..."</strong>, do canal Pastor Rodrigo Mocellin no YouTube.</p>
-              <p style={{fontSize: '0.95rem'}}>Se você prefere assistir ou quer complementar o estudo com o vídeo original, confira:</p>
-              
-              <ul style={{listStyleType: 'none', paddingLeft: 0, fontSize: '0.95rem'}}>
-                <li style={{marginBottom: '0.5rem'}}>🔗 <a href="https://www.youtube.com/watch?v=RnwMYLVZ-78" target="_blank" rel="noopener noreferrer" style={{color: '#b91c1c', fontWeight: 'bold'}}>https://www.youtube.com/watch?v=RnwMYLVZ-78</a></li>
-                <li style={{marginBottom: '0.5rem'}}>📺 <strong style={{color: '#1a1210'}}>Canal Pastor Rodrigo Mocellin</strong></li>
-              </ul>
-              
-              <p style={{fontSize: '0.95rem', margin: 0, fontStyle: 'italic', marginTop: '1rem'}}>Agradecemos ao canal Pastor Rodrigo Mocellin por produzir conteúdos bíblicos tão profundos e bem narrados, que edificam a Igreja.</p>
-            </div>
-
-               <p style={{fontSize: '1.1rem', fontStyle: 'italic', color: '#555', textAlign: 'center', margin: '2rem 0'}}>
-                 "Difícil acreditar na conversão de um cara que agradece a Deus num instante e no outro canta uma música de sexo explícito."
-               </p>
-               
-               <p style={{textAlign: 'center', fontWeight: 'bold', marginTop: '2rem'}}>Soli Deo Gloria. ✨</p>
-
-             </div>
-
-             <ShareBar title="Justin Bieber na Copa: Elogio ou Ilusão? A Diferença Entre Falar de Deus e Ser de Deus" url="/justin-bieber-copa-elogio-ou-ilusao-diferenca-falar-deus-ser-deus" />
-             <RelatedArticles currentLink="/justin-bieber-copa-elogio-ou-ilusao-diferenca-falar-deus-ser-deus" category="Notícias" />
-           </main>
-
         ) : isVontadeDeus ? (
           <main className="article-content section-mb">
              <Breadcrumb category="Estudos Bíblicos" categoryLink="/estudos-biblicos" title="A Vontade de Deus" />
@@ -5024,7 +3619,7 @@ function App({ ssrPath } = {}) {
                <h1>Como Saber a Vontade de Deus: 3 Princípios Práticos que Ninguém Te Contou</h1>
                <div className="article-meta">
                  📖 <strong>ESTUDOS BÍBLICOS | Soli Deo Gloria</strong><br/>
-                 <span style={{fontSize: '0.9rem', color: '#666'}}><em>Baseado em conteúdo do YouTube | 25 Jun, 2026</em></span>
+                 <span style={{fontSize: '0.9rem', color: '#666'}}><em>Por Andrews Rocha de Morais | 25 Jun, 2026</em></span>
                </div>
              
                <ArticleInfo date="25 de Junho de 2026" readingTime={10} />
@@ -5107,15 +3702,11 @@ function App({ ssrPath } = {}) {
                </ol>
 
                <h2>💡 Não Seja Ingrato</h2>
-               
-               <h3>O Exemplo do Empresário</h3>
-               <p>Um empresário estava chateado: <em>"Ai, nasci para outra coisa..."</em> Mas sua empresa estava indo super bem e o trabalho era lícito. A resposta pastoral foi: <em>"Rapaz, Deus deu essa oportunidade para você. Pare de ser ingrato."</em> Ao mudar de perspectiva e começar a agradecer pela oportunidade, a empresa explodiu.</p>
-
-               <h3>Meu Próprio Exemplo</h3>
-               <p>O Pr. Rodrigo relata que também relutava: <em>"Não nasci para morar no interior"</em>. Ele tentou mudar e não conseguiu. Mas quando passou a ser GRATO com a cidade, a igreja e as oportunidades que tinha, o seu ministério no YouTube explodiu. Tudo porque ele fez o melhor com as oportunidades que Deus havia lhe dado.</p>
+               <p>Muitas vezes procuramos a vontade de Deus como quem procura uma porta secreta, enquanto desprezamos as portas que ele já abriu. A ingratidão faz isso: olha para o trabalho, a cidade, a igreja e a família que temos e diz “eu nasci para outra coisa”. A Bíblia chama o cristão a outro caminho. Paulo diz que aprendeu a contentar-se em toda e qualquer situação (Filipenses 4:11-12) e manda dar graças em tudo, porque esta é a vontade de Deus em Cristo Jesus para nós (1 Tessalonicenses 5:18).</p>
+               <p>Gratidão não é conformismo. Quem é grato pode orar por mudança, buscar conselho e, se for sábio, mudar de emprego ou de cidade. A diferença está no coração: a pessoa grata serve com alegria onde está enquanto Deus não abre outro caminho, em vez de viver em ressentimento esperando um sinal. Também não há promessa de que a gratidão trará sucesso financeiro ou crescimento visível. O fruto prometido é outro: paz, contentamento e fidelidade no pouco (Lucas 16:10).</p>
 
                <h2>🎯 Conclusão: Aprenda a Gostar do Que Deus Lhe Dá</h2>
-               <p>Não fique romantizando e esperando sinais mirabolantes. Olhe para a sua natureza, observe as oportunidades abertas e atenda às necessidades ao seu redor. Esses são três bons princípios para você ser próspero e realizado.</p>
+               <p>Não fique romantizando e esperando sinais mirabolantes. Olhe para a sua natureza, observe as oportunidades abertas e atenda às necessidades ao seu redor. Esses três princípios ajudam a discernir a vontade de Deus no dia a dia, sem ansiedade.</p>
                <p>Aprenda a gostar do que Deus lhe dá. Ao invés de ficar focado em <em>"eu gosto disso, eu gosto daquilo"</em>, diga: <em>"Eu gosto é daquilo que Deus me dá."</em></p>
 
                <h2>🙏 Oração</h2>
@@ -5143,22 +3734,13 @@ function App({ ssrPath } = {}) {
 
                <h2>📚 Leituras Recomendadas</h2>
                <ul style={{lineHeight: '1.8', marginBottom: '2rem'}}>
-                 <li><strong>"A Vontade de Deus"</strong> — G. F. Hawthorne (entendimento bíblico sobre a vontade divina)</li>
                  <li><strong>"Descobrindo a Vontade de Deus"</strong> — Henry Blackaby (abordagem prática e devocional)</li>
                </ul>
 
-               <div style={{background: '#e9ecef', padding: '1.5rem', borderRadius: '12px', margin: '3rem 0'}}>
-              <h3 style={{marginTop: 0, color: '#1a1210'}}>📺 Fonte e Inspiração</h3>
-              <p style={{fontSize: '0.95rem'}}>Este artigo foi desenvolvido como uma versão escrita e expandida do vídeo <strong>"Pare! Você está romantizando isso"</strong>, do canal Pastor Rodrigo Mocellin no YouTube.</p>
-              <p style={{fontSize: '0.95rem'}}>Se você prefere assistir ou quer complementar o estudo com o vídeo original, confira:</p>
-              
-              <ul style={{listStyleType: 'none', paddingLeft: 0, fontSize: '0.95rem'}}>
-                <li style={{marginBottom: '0.5rem'}}>🔗 <a href="https://www.youtube.com/watch?v=RnwMYLVZ-78" target="_blank" rel="noopener noreferrer" style={{color: '#b91c1c', fontWeight: 'bold'}}>https://www.youtube.com/watch?v=RnwMYLVZ-78</a></li>
-                <li style={{marginBottom: '0.5rem'}}>📺 <strong style={{color: '#1a1210'}}>Canal Pastor Rodrigo Mocellin</strong></li>
-              </ul>
-              
-              <p style={{fontSize: '0.95rem', margin: 0, fontStyle: 'italic', marginTop: '1rem'}}>Agradecemos ao canal Pastor Rodrigo Mocellin por produzir conteúdos bíblicos tão profundos e bem narrados, que edificam a Igreja.</p>
-            </div>
+               <div style={{marginTop: '2rem', padding: '1.25rem', border: '1px solid #eee', borderRadius: '8px', background: '#fcfcfc', fontSize: '0.9rem', color: '#555'}}>
+                 <strong>Referência:</strong> este texto parte de uma pregação (“Pare! Você está romantizando isso”) do canal <strong>Pastor Rodrigo Mocellin</strong> no YouTube. <a href="https://www.youtube.com/watch?v=RnwMYLVZ-78" target="_blank" rel="noopener noreferrer" style={{color: '#0066cc'}}>Ver o canal ou o vídeo</a>.
+                 A organização do texto e os comentários são do Soli Deo Gloria.
+               </div>
 
                <p style={{fontSize: '1.1rem', fontStyle: 'italic', color: '#555', textAlign: 'center', margin: '2rem 0'}}>
                  "Aprenda a gostar do que Deus lhe dá. Ao invés de olhar 'eu gosto disso, daquilo', eu gosto é daquilo que Deus me dá."
@@ -5180,7 +3762,7 @@ function App({ ssrPath } = {}) {
                <h1>Descansando na Justiça de Deus: Por Que Não Precisamos Fazer Vingança</h1>
                <div className="article-meta">
                  📖 <strong>ESTUDOS BÍBLICOS | Soli Deo Gloria</strong><br/>
-                 <span style={{fontSize: '0.9rem', color: '#666'}}><em>Baseado em conteúdo do YouTube | 25 Jun, 2026</em></span>
+                 <span style={{fontSize: '0.9rem', color: '#666'}}><em>Por Andrews Rocha de Morais | 25 Jun, 2026</em></span>
                </div>
              
                <ArticleInfo date="25 de Junho de 2026" readingTime={10} />
@@ -5190,7 +3772,7 @@ function App({ ssrPath } = {}) {
                
                
 
-            <VideoEmbed videoId="RnwMYLVZ-78" title="Vídeo Original" channel="Dani Cadore" />
+            
 
             <h2>A Vingança Inconsciente do Dia a Dia</h2>
                <p>Vingança pode parecer um tema muito distante de nós. Afinal, como cristãos, não vivemos constantemente tramando planos mirabolantes de como prejudicar alguém e como nos vingar — eu espero que não!</p>
@@ -5321,18 +3903,10 @@ function App({ ssrPath } = {}) {
                  <li><strong>"O Sermão do Monte"</strong> — John Stott (exposição clássica de Mateus 5-7)</li>
                </ul>
 
-               <div style={{background: '#e9ecef', padding: '1.5rem', borderRadius: '12px', margin: '3rem 0'}}>
-              <h3 style={{marginTop: 0, color: '#1a1210'}}>📺 Fonte e Inspiração</h3>
-              <p style={{fontSize: '0.95rem'}}>Este artigo foi desenvolvido como uma versão escrita e expandida do vídeo <strong>"DESCANSANDO NA JUSTIÇA DE DEUS | estudo bíblico | Sermão do Monte | Mateus 5:38-42"</strong>, do canal Dani Cadore no YouTube.</p>
-              <p style={{fontSize: '0.95rem'}}>Se você prefere assistir ou quer complementar o estudo com o vídeo original, confira:</p>
-              
-              <ul style={{listStyleType: 'none', paddingLeft: 0, fontSize: '0.95rem'}}>
-                <li style={{marginBottom: '0.5rem'}}>🔗 <a href="https://www.youtube.com/watch?v=RnwMYLVZ-78" target="_blank" rel="noopener noreferrer" style={{color: '#b91c1c', fontWeight: 'bold'}}>https://www.youtube.com/watch?v=RnwMYLVZ-78</a></li>
-                <li style={{marginBottom: '0.5rem'}}>📺 <strong style={{color: '#1a1210'}}>Canal Dani Cadore</strong></li>
-              </ul>
-              
-              <p style={{fontSize: '0.95rem', margin: 0, fontStyle: 'italic', marginTop: '1rem'}}>Agradecemos ao canal Dani Cadore por produzir conteúdos bíblicos tão profundos e bem narrados, que edificam a Igreja.</p>
-            </div>
+               <div style={{marginTop: '2rem', padding: '1.25rem', border: '1px solid #eee', borderRadius: '8px', background: '#fcfcfc', fontSize: '0.9rem', color: '#555'}}>
+                 <strong>Referência:</strong> este texto parte de uma pregação (“DESCANSANDO NA JUSTIÇA DE DEUS | estudo bíblico | Sermão do Monte | Mateus 5:38-42”) do canal <strong>Dani Cadore</strong> no YouTube. <a href="https://www.youtube.com/@DaniCadore" target="_blank" rel="noopener noreferrer" style={{color: '#0066cc'}}>Ver o canal ou o vídeo</a>.
+                 A organização do texto e os comentários são do Soli Deo Gloria.
+               </div>
 
                <p style={{fontSize: '1.1rem', fontStyle: 'italic', color: '#555', textAlign: 'center', margin: '2rem 0'}}>
                  "Descansar na justiça de Deus é um privilégio. É justamente isso que nos permite não viver em constante busca por vingança."
@@ -5354,7 +3928,7 @@ function App({ ssrPath } = {}) {
                <h1>Você Está no Limite, Mas Deus Não Te Abandonou: Encontrando Força na Fraqueza</h1>
                <div className="article-meta">
                  📖 <strong>DEVOCIONAIS | Soli Deo Gloria</strong><br/>
-                 <span style={{fontSize: '0.9rem', color: '#666'}}><em>Baseado em conteúdo do YouTube | 25 Jun, 2026</em></span>
+                 <span style={{fontSize: '0.9rem', color: '#666'}}><em>Por Andrews Rocha de Morais | 25 Jun, 2026</em></span>
                </div>
              
                <ArticleInfo date="25 de Junho de 2026" readingTime={8} />
@@ -5442,7 +4016,7 @@ function App({ ssrPath } = {}) {
 
                <h2>📖 O Clamor do Salmo 143</h2>
                <p>E quando os dias difíceis chegarem, clame ao Senhor. Ele não se esconderá. Ele estenderá a mão e lhe dará asas como as águias para voar acima das tempestades.</p>
-               <p>A sua história é uma história de vitória, e o melhor de Deus ainda está por vir. <em>"O SENHOR é a minha força e o meu escudo; nele o meu coração confiou e dele recebi ajuda."</em> (Salmo 28:7).</p>
+               <p>Deus não abandonou você no meio da fraqueza; a força dele se aperfeiçoa justamente aí (2 Coríntios 12:9). <em>"O SENHOR é a minha força e o meu escudo; nele o meu coração confiou e dele recebi ajuda."</em> (Salmo 28:7).</p>
 
                <h2>🙏 Oração</h2>
                <blockquote style={{borderLeft: '4px solid #722F37', background: '#fff9f9', padding: '1.5rem', margin: '2rem 0', fontStyle: 'italic'}}>
@@ -5471,18 +4045,10 @@ function App({ ssrPath } = {}) {
                  <p><strong>Salmo 28:7</strong> — "O SENHOR é a minha força e o meu escudo; nele o meu coração confiou."</p>
                </div>
 
-               <div style={{background: '#e9ecef', padding: '1.5rem', borderRadius: '12px', margin: '3rem 0'}}>
-              <h3 style={{marginTop: 0, color: '#1a1210'}}>📺 Fonte e Inspiração</h3>
-              <p style={{fontSize: '0.95rem'}}>Este artigo foi desenvolvido como uma versão escrita e expandida do vídeo <strong>"Você Está no Limite, Mas Deus Não Te Abandonou"</strong>, do canal Fé sem Limites no YouTube.</p>
-              <p style={{fontSize: '0.95rem'}}>Se você prefere assistir ou quer complementar o estudo com o vídeo original, confira:</p>
-              
-              <ul style={{listStyleType: 'none', paddingLeft: 0, fontSize: '0.95rem'}}>
-                <li style={{marginBottom: '0.5rem'}}>🔗 <a href="https://www.youtube.com/watch?v=U4IF93NRGu8" target="_blank" rel="noopener noreferrer" style={{color: '#b91c1c', fontWeight: 'bold'}}>https://www.youtube.com/watch?v=U4IF93NRGu8</a></li>
-                <li style={{marginBottom: '0.5rem'}}>📺 <strong style={{color: '#1a1210'}}>Canal Fé sem Limites</strong></li>
-              </ul>
-              
-              <p style={{fontSize: '0.95rem', margin: 0, fontStyle: 'italic', marginTop: '1rem'}}>Agradecemos ao canal Fé sem Limites por produzir conteúdos bíblicos tão profundos e bem narrados, que edificam a Igreja.</p>
-            </div>
+               <div style={{marginTop: '2rem', padding: '1.25rem', border: '1px solid #eee', borderRadius: '8px', background: '#fcfcfc', fontSize: '0.9rem', color: '#555'}}>
+                 <strong>Referência:</strong> este texto parte de uma pregação (“Você Está no Limite, Mas Deus Não Te Abandonou”) do canal <strong>Fé sem Limites</strong> no YouTube. <a href="https://www.youtube.com/watch?v=U4IF93NRGu8" target="_blank" rel="noopener noreferrer" style={{color: '#0066cc'}}>Ver o canal ou o vídeo</a>.
+                 A organização do texto e os comentários são do Soli Deo Gloria.
+               </div>
 
                <p style={{fontSize: '1.1rem', fontStyle: 'italic', color: '#555', textAlign: 'center', margin: '2rem 0'}}>
                  "O choro pode durar uma noite, mas a alegria vem pela manhã. E essa manhã vai chegar."
@@ -5504,7 +4070,7 @@ function App({ ssrPath } = {}) {
                <h1>5 Sinais Bíblicos da Presença dos Anjos em Sua Casa: O Ministério Invisível ao Redor dos que Temem ao Senhor</h1>
                <div className="article-meta">
                  📖 <strong>DEVOCIONAIS | Soli Deo Gloria</strong><br/>
-                 <span style={{fontSize: '0.9rem', color: '#666'}}><em>Baseado em conteúdo do YouTube | 25 Jun, 2026</em></span>
+                 <span style={{fontSize: '0.9rem', color: '#666'}}><em>Por Andrews Rocha de Morais | 25 Jun, 2026</em></span>
                </div>
              
                <ArticleInfo date="25 de Junho de 2026" readingTime={8} />
@@ -5634,18 +4200,10 @@ function App({ ssrPath } = {}) {
                </div>
 
 
-               <div style={{background: '#e9ecef', padding: '1.5rem', borderRadius: '12px', margin: '3rem 0'}}>
-              <h3 style={{marginTop: 0, color: '#1a1210'}}>📺 Fonte e Inspiração</h3>
-              <p style={{fontSize: '0.95rem'}}>Este artigo foi desenvolvido como uma versão escrita e expandida do vídeo <strong>"5 Sinais da Presença dos Anjos em Sua Casa"</strong>, do canal Fé sem Limites no YouTube.</p>
-              <p style={{fontSize: '0.95rem'}}>Se você prefere assistir ou quer complementar o estudo com o vídeo original, confira:</p>
-              
-              <ul style={{listStyleType: 'none', paddingLeft: 0, fontSize: '0.95rem'}}>
-                <li style={{marginBottom: '0.5rem'}}>🔗 <a href="https://www.youtube.com/watch?v=oU0XHZ6qO44" target="_blank" rel="noopener noreferrer" style={{color: '#b91c1c', fontWeight: 'bold'}}>https://www.youtube.com/watch?v=oU0XHZ6qO44</a></li>
-                <li style={{marginBottom: '0.5rem'}}>📺 <strong style={{color: '#1a1210'}}>Canal Fé sem Limites</strong></li>
-              </ul>
-              
-              <p style={{fontSize: '0.95rem', margin: 0, fontStyle: 'italic', marginTop: '1rem'}}>Agradecemos ao canal Fé sem Limites por produzir conteúdos bíblicos tão profundos e bem narrados, que edificam a Igreja.</p>
-            </div>
+               <div style={{marginTop: '2rem', padding: '1.25rem', border: '1px solid #eee', borderRadius: '8px', background: '#fcfcfc', fontSize: '0.9rem', color: '#555'}}>
+                 <strong>Referência:</strong> este texto parte de uma pregação (“5 Sinais da Presença dos Anjos em Sua Casa”) do canal <strong>Fé sem Limites</strong> no YouTube. <a href="https://www.youtube.com/watch?v=oU0XHZ6qO44" target="_blank" rel="noopener noreferrer" style={{color: '#0066cc'}}>Ver o canal ou o vídeo</a>.
+                 A organização do texto e os comentários são do Soli Deo Gloria.
+               </div>
 
                <p style={{fontSize: '1.1rem', fontStyle: 'italic', color: '#555', textAlign: 'center', margin: '2rem 0'}}>
                  "Não olhe apenas para o que você vê. Há mais na sua história do que seus olhos alcançam."
@@ -5666,6 +4224,15 @@ function App({ ssrPath } = {}) {
             </div>
             <div className="grid-3" style={{marginTop: '2rem'}}>
               <NovosArtigosCards categoria="Devocionais" />
+
+              <div className="grid-3-item">
+                <a href="/ah-jesus-coracao-igual-ao-teu-analise-biblica-julliany-souza" style={{textDecoration: 'none', color: 'inherit'}}>
+                  <img src="/worship_hero.webp" alt="Ah Jesus, Coração Igual ao Teu" className="img-ph" loading="lazy" style={{objectFit: 'cover', aspectRatio: '16/9'}} />
+                  <span className="cat-tag" style={{display: 'inline-block', marginBottom: '8px', marginTop: '12px'}}>DEVOCIONAIS</span>
+                  <h3 style={{fontSize: '1.1rem', marginBottom: '8px', lineHeight: '1.4'}}>Ah Jesus, Coração Igual ao Teu: Análise Bíblica da Canção</h3>
+                  <p style={{fontSize: '0.9rem', color: '#666', marginTop: '8px', marginBottom: '12px'}}>O que a Bíblia diz sobre o pedido de ter um coração parecido com o de Jesus.</p>
+                </a>
+              </div>
 
               <div className="grid-3-item">
                 <a href="/voce-esta-no-limite-mas-deus-nao-te-abandonou-forca-na-fraqueza" style={{textDecoration: 'none', color: 'inherit'}}>
@@ -5718,16 +4285,7 @@ function App({ ssrPath } = {}) {
                   <span className="cat-tag" style={{display: 'inline-block', marginBottom: '8px', marginTop: '12px'}}>DEVOCIONAIS</span>
                   <h3 style={{fontSize: '1.1rem', marginBottom: '8px', lineHeight: '1.4'}}>O Silêncio de Deus nas Dificuldades: Confiando no Caráter Revelado do Senhor</h3>
                   <p style={{fontSize: '0.9rem', color: '#666', marginTop: '8px', marginBottom: '12px'}}>Quando clamamos e parecemos não ouvir resposta, devemos confiar no caráter revelado do Senhor ao invés de nossos sentimentos...</p>
-                  <div className="meta">📖 <strong>Texto Base:</strong> Efésios 2:8</div>
-                </a>
-              </div>
-              <div className="grid-3-item">
-                <a href="/como-ler-biblia-inteira-2026-metodos-praticos" style={{textDecoration: 'none', color: 'inherit'}}>
-                  <img src="/metodos_biblia.webp" alt="Leitura Bíblica" className="img-ph" loading="lazy" />
-                  <span className="cat-tag" style={{display: 'inline-block', marginBottom: '8px', marginTop: '12px'}}>DEVOCIONAIS</span>
-                  <h3 style={{fontSize: '1.1rem', marginBottom: '8px', lineHeight: '1.4'}}>5 Méticos Práticos para Ler a Bíblia Inteira em 2026</h3>
-                  <p style={{fontSize: '0.9rem', color: '#666', marginTop: '8px', marginBottom: '12px'}}>Descubra 5 métodos práticos e testados para ler a Bíblia inteira em 2026, mesmo com rotina corrida. Técnicas flexíveis, aplicativos recomendados e o segredo da constância.</p>
-                  <div className="meta">📖 <strong>Texto Base:</strong> Filipenses 4:19</div>
+                  <div className="meta">📖 <strong>Texto Base:</strong> Jó 42:2</div>
                 </a>
               </div>
             </div>
@@ -5801,7 +4359,7 @@ function App({ ssrPath } = {}) {
                 <li>❌ <strong>Arianismo:</strong> Diz que o Filho foi criado pelo Pai e não é verdadeiramente Deus. Erro: nega a divindade plena de Cristo.</li>
                 <li>❌ <strong>Triteísmo:</strong> Diz que existem três deuses separados. Erro: nega a unidade da essência divina.</li>
               </ul>
-              <p>A igreja combateu essas heresias nos Concílios de Nicéia (325 d.C.) e Constantinopla (381 d.C.), formulando o Credo Niceno que confessamos até hoje.</p>
+              <p>A igreja combateu essas heresias nos Concílios de Niceia (325 d.C.) e Constantinopla (381 d.C.), formulando o Credo Niceno que confessamos até hoje.</p>
 
               <h2>5. Aplicação Prática: A Trindade na Vida Cristã</h2>
               <p>A doutrina da Trindade não é um conceito acadêmico sem relevância prática. Ela impacta diretamente a vida cristã:</p>
@@ -5899,10 +4457,10 @@ function App({ ssrPath } = {}) {
                 <li>✅ <strong>A Oração:</strong> Comunhão íntima com o Pai que transforma nosso caráter (1 Tessalonicenses 5:17).</li>
                 <li>✅ <strong>A Comunhão dos Santos:</strong> O corpo de Cristo que nos encoraja e exorta (Hebreus 10:24-25).</li>
                 <li>✅ <strong>Os Sacramentos:</strong> Batismo e Ceia do Senhor como sinais visíveis da graça invisível.</li>
-                <li>✅ <strong>O Sofrimento:</strong> Deus usa tribulações para nos refinar como ouro no fogo (Romanos 5:3-5; 1 Pedro 1:6-7).</li>
+                <li>✅ <strong>Também o sofrimento</strong> (que não é um meio de graça no sentido do Catecismo, mas uma providência que Deus usa): Deus usa tribulações para nos refinar como ouro no fogo (Romanos 5:3-5; 1 Pedro 1:6-7).</li>
               </ul>
 
-              <h2>5. Santificação Não É Perfeicionismo</h2>
+              <h2>5. Santificação Não É Perfeccionismo</h2>
               <p>É fundamental entender que a santificação progressiva não significa que o cristão atinge a perfeição moral nesta vida. Lutaremos contra o pecado até a glorificação. Como Paulo confessou:</p>
 
               <div style={{background: '#f8f9fa', padding: '1.25rem', borderRadius: '10px', margin: '1.5rem 0', borderLeft: '4px solid #15803d'}}>
@@ -5952,7 +4510,7 @@ function App({ ssrPath } = {}) {
                <h2 style={{fontSize: '1.2rem', fontWeight: 'normal', color: '#555', margin: '15px 0'}}>Como três palavras simples despertaram uma vida do sono da morte para a vida em Cristo</h2>
                <div className="article-meta">
                  📖 <strong>TESTEMUNHOS | Soli Deo Gloria</strong><br/>
-                 <span style={{fontSize: '0.9rem', color: '#666'}}><em>Baseado em conteúdo do YouTube | 25 Jun, 2026</em></span>
+                 <span style={{fontSize: '0.9rem', color: '#666'}}><em>Por Andrews Rocha de Morais | 25 Jun, 2026</em></span>
                </div>
              
                <ArticleInfo date="25 de Junho de 2026" readingTime={12} />
@@ -5975,15 +4533,6 @@ function App({ ssrPath } = {}) {
              
              <div className="article-body">
                <p style={{fontSize: '1.1rem', color: '#555', fontStyle: 'italic', marginBottom: '2.5rem'}}>Um domingo à tarde, uma visita inesperada e três palavras que quebraram correntes: 'Deus é bom'. Descubra como um encontro simples se tornou um marco de libertação e despertar espiritual.</p>
-
-               <h2>📝 Transcrição do Testemunho</h2>
-               <div style={{background: '#fafafa', padding: '2rem', borderLeft: '4px solid var(--primary)', borderRadius: '0 8px 8px 0', marginBottom: '3rem', fontStyle: 'italic', color: '#444', lineHeight: '1.8'}}>
-                 <p>"Essa obra é muito linda, que marcou a minha história. Um domingo à tarde, 2 horas, 2:30 da tarde, bateram palma no portão da minha casa, tocaram campainha. Eu me lembro quando eu abri a porta lá em cima, que eu morava num sobrado. Que eu abri a porta lá em cima, tinha um jovem lá embaixo. Um jovem muito bonito, cabelo bem cortado, terninho simples, uma gravatinha simples e uma pastinha preta debaixo do braço.</p>
-                 <p>E quando olhei para aquele moço, na minha mente veio assim: 'Será que é um advogado que veio falar comigo? Mais um dia de domingo, um advogado, né?'. Quando eu fui falar alguma coisa, aquele moço estendeu as duas mãozinhas para dentro do meu quintal e falou essas palavras: 'Que a santa paz de Deus esteja aqui no nome do Senhor Jesus'.</p>
-                 <p>Meu coração deu uma disparada, né? Deu aquela vontade de chorar porque a voz dele já foi uma voz de paz, né? E eu cabeludo ali na sala, e ele não pediu licença. Isso foi muito interessante, porque quando Deus entra na vida de alguém, Deus não pede licença. Ele entra e faz a obra do jeito que ele quer fazer, né? E Deus usou daquele menino, daquele moço, devia ter uns 19 para 22 anos aquele jovem.</p>
-                 <p>E ele entrou assim, sentou de frente pro meu sofá assim, e eu muito triste. Ele não falou, ele já foi direto no assunto. Olhou bem no meu rosto, falou assim: 'Moço, Deus é bom'. Olhou bem para mim de novo, falou assim: 'Moço, Deus é bom'. Eu já tava explodindo por dentro já, meu coração disparado assim, aquela alegria. Sabe, eu vi as algemas sendo quebradas, sabe? As correntes, o mal sendo quebrado.</p>
-                 <p>Sabe, aí ele olhou para mim mais uma vez assim: 'Moço'. Olhou dentro dos meus olhos e falou assim: 'Deus é bom'. Quando ele falou: 'Deus é bom', eu senti as correntes sendo quebradas. Aquela alegria de viver entrou em mim de novo. Sabe, parece que eu vejo hoje assim uma depressão... Hoje assim, espírito de morte. Eu vejo hoje um ser humano, é um sono. É um sono que quando Jesus chega, Deus desperta ele daquele sono, né? Que é um sono da morte, um sono de depressão, um sono de angústia, um sono de fracasso, né? E o Senhor Jesus naquela tarde, ele me despertou para uma nova vida."</p>
-               </div>
 
                <h2>Testemunhos: Monumentos Vivos da Fidelidade de Deus</h2>
                <p><em>"Contai entre as nações a sua glória"</em> (<strong>Salmo 96:3</strong>). Os testemunhos não são apenas histórias bonitas do passado; eles são monumentos vivos da fidelidade do Senhor. Quando compartilhamos o que Deus fez, nós:</p>
@@ -6091,7 +4640,7 @@ function App({ ssrPath } = {}) {
                <h2 style={{fontSize: '1.2rem', fontWeight: 'normal', color: '#555', margin: '15px 0'}}>Como uma última oração se tornou o início de uma nova vida</h2>
                <div className="article-meta">
                  📖 <strong>TESTEMUNHOS | Soli Deo Gloria</strong><br/>
-                 <span style={{fontSize: '0.9rem', color: '#666'}}><em>Baseado em conteúdo do YouTube | 25 Jun, 2026</em></span>
+                 <span style={{fontSize: '0.9rem', color: '#666'}}><em>Por Andrews Rocha de Morais | 25 Jun, 2026</em></span>
                </div>
              
                <ArticleInfo date="25 de Junho de 2026" readingTime={10} />
@@ -6114,12 +4663,8 @@ function App({ ssrPath } = {}) {
              
              <div className="article-body">
                <p style={{fontSize: '1.1rem', color: '#555', fontStyle: 'italic', marginBottom: '2.5rem'}}>No momento mais sombrio, quando o desespero parecia não ter fim, uma voz suave interrompeu o ato final. Descubra como o Espírito Santo transformou um último adeus em um novo começo.</p>
-
-               <h2>📝 Transcrição do Testemunho</h2>
-               <div style={{background: '#fafafa', padding: '2rem', borderLeft: '4px solid var(--primary)', borderRadius: '0 8px 8px 0', marginBottom: '3rem', fontStyle: 'italic', color: '#444', lineHeight: '1.8'}}>
-                 <p>"Entrei no quarto, tranquei minha porta, falei: 'Deus, hoje eu vou tirar minha vida'. […] E quando eu abri o guarda-roupa, o Espírito Santo falou para mim: 'Então por que que você não faz uma última oração?'</p>
-                 <p>Me ajoelhei e falei: 'Jesus, eu só te peço uma segunda chance. Eu quero voltar a ser feliz, eu quero voltar a priorizar o Teu reino, eu quero voltar a amar a Sua igreja. Eu não sou feliz, então me dê a felicidade de novo'.</p>
-                 <p>E quando eu abri os meus olhos, eu estava na sala da minha casa. Eu não lembro como, minha mãe fala que eu cheguei chorando, pedindo ajuda. Sério. Pra mim foi o Espírito Santo que me levou."</p>
+               <div style={{background: '#fff4e5', border: '1px solid #f0c27b', borderRadius: '8px', padding: '1rem 1.25rem', margin: '0 0 2rem'}}>
+                 <strong>Se você está pensando em tirar a própria vida, procure ajuda agora.</strong> O CVV (Centro de Valorização da Vida) atende pelo telefone 188, 24 horas, sem custo de ligação, e também por chat no site cvv.org.br. Em risco imediato, ligue para o SAMU (192) ou vá a um pronto-socorro.
                </div>
 
                <h2>Testemunhos: Monumentos Vivos da Fidelidade de Deus</h2>
@@ -6210,7 +4755,7 @@ function App({ ssrPath } = {}) {
                <h2 style={{fontSize: '1.2rem', fontWeight: 'normal', color: '#555', margin: '15px 0'}}>Como Paulo Vicente ouviu do Senhor e compôs um hino sobre João Batista que atravessou fronteiras</h2>
                <div className="article-meta">
                  📖 <strong>TESTEMUNHOS | Soli Deo Gloria</strong><br/>
-                 <span style={{fontSize: '0.9rem', color: '#666'}}><em>Baseado em conteúdo do YouTube | 25 Jun, 2026</em></span>
+                 <span style={{fontSize: '0.9rem', color: '#666'}}><em>Por Andrews Rocha de Morais | 25 Jun, 2026</em></span>
                </div>
              
                <ArticleInfo date="25 de Junho de 2026" readingTime={9} />
@@ -6234,35 +4779,6 @@ function App({ ssrPath } = {}) {
              <div className="article-body">
                <p style={{fontSize: '1.1rem', color: '#555', fontStyle: 'italic', marginBottom: '2.5rem', textAlign: 'center'}}>Às vezes, Deus não sopra uma canção para o palco, mas para o deserto. Descubra como um refrão ouvido no chuveiro se tornou um hino sobre João Batista que ecoou de Londrina à Argentina, chamando a igreja a viver não para si, mas para Aquele que é digno.</p>
 
-               <h2>📝 Transcrição do Testemunho</h2>
-               <div style={{background: '#f8f9fa', padding: '1.5rem', borderLeft: '4px solid #0066cc', borderRadius: '0 8px 8px 0', marginBottom: '3rem', color: '#444', lineHeight: '1.8'}}>
-                 <p><strong>Entrevistador:</strong> "É mano, cara... deixa eu vou começar de trás para frente e eu queria até que você respondesse uma pergunta né, que você já respondeu em outros lugares, mas só pra gente registrar aqui também para essa galera que ouve de forma específica aqui. Eh, como é que surgiu a canção 'É Ele', né? Eh, de tempos em tempos a gente vê o Senhor soprando né uma canção, uma mensagem, e nesse tempo tem sido uma delas, tem sido essa mensagem né, e 'É Ele'. E eu vi você até falando dela naquele podcast com o Pedro, mas eu queria que você falasse mais uma vez aqui, como é que essa canção surgiu assim, o que que ela significa."</p>
-                 <p><strong>Paulo Vicente:</strong> "Irado, mano. Eh, essa canção na verdade ela surge dentro de um contexto, mas a mensagem dela, que é o que é mais importante, começou a ganhar o meu coração e o coração da minha família, eu, Rebeca e as crianças há mais ou menos uns dois anos atrás. O Senhor começou... eh, eu não sei se você tem isso mano, mas comigo às vezes parece que Deus começa a me dar cliques assim de mensagens de homens das escrituras. Às vezes trechos que eu li e conheço há muito tempo parece que Deus começa a chamar mais a minha atenção para aquela coisa específica e aquilo vai ganhando proporção. É para mim é meio monotemático assim, é tipo, parece que para onde eu olho, onde eu caio em música, mensagem, livro, parece que Ele tá falando a mesma coisa."</p>
-                 <p><strong>Entrevistador:</strong> "Isso mano, entendi."</p>
-                 <p><strong>Paulo Vicente:</strong> "Há dois anos atrás começou isso. Deus começou a chamar minha atenção pra vida de João Batista. E aí eu começo a então a ler, mas sem muita pretensão, entendendo que Deus estava me direcionando para me ensinar alguma coisa e eu começo a visitar também eh, algumas mensagens de amigos que eu sabia que tava apontando para isso há muito tempo. Então por exemplo, Vittor Vieira. Uhum. É, e a galera que eu sei que vira e mexe batia nesse ponto, começo a me alimentar disso. Dito e feito, eu encontro com o Vittor lá em Londrina numa conferência e ele põe um livro na minha mão, que é o 'O Escolhido Para o Deserto' do Whitefield. Aí... aí eu falo que a minha vida estragou, é porque daí esse livro é muito pontual em relação a essa mensagem da vida de João. Eh, e aí eu começo a entrar numa estação de fato assim, muito, não vou dizer árida, mas literalmente o Senhor me coloca no deserto e o Senhor me diz: 'Você vai começar a entender um pouco que tem algumas coisas do reino que não se tratam de... não são mensagens que são pontuais no sentido de: ah beleza, vamos falar disso e depois vai ter uma outra questão'. O Senhor começa a me dizer: 'Essa aqui vai ser a mensagem da sua vida'."</p>
-                 <p><strong>Entrevistador:</strong> "E mensagem pra vida inteira, é isso. E, e só assim abrindo um parêntese aí. Eh, fala um pouco da mensagem desse livro porque, eh, pelo que eu me lembre, eu não li, mas me relataram, eh, ele coloca deserto de uma outra forma do que a gente usa né? Pô o cara tá desempregado, 'pô tô num deserto', o cara tá, não consegue uma namorada, 'pô tô num deserto' né? Mas não era isso deserto para João Batista né?"</p>
-                 <p><strong>Paulo Vicente:</strong> "Exato Douglas. Quando o Senhor começa a chamar minha atenção ele começa a falar sobre um estilo de vida. Hum. Então, o que o Whitefield ele fala sobre a vida de João, eh, ele coloca esse panorama de que João teve a oportunidade de viver uma série de outras coisas. Então, ele era filho de Zacarias, um homem que tinha um lugar importante na sociedade judaica, um sacerdote no templo, eh, um cara que usava uma roupa específica. Então as pessoas olhavam, eles sabiam quem ele era, ele tinha uma notoriedade. Então João ele vem num contexto de casa aonde tudo indicaria que ele assumiria o lugar do pai, ele serviria ao Senhor num contexto ali em Jerusalém, enfim, ele teria uma posição diante da sociedade, tudo isso. E o Whitefield ele fala que João ele escolheu o deserto."</p>
-                 <p><strong>Entrevistador:</strong> "Ok. Isso é o tema, palavra é forte."</p>
-                 <p><strong>Paulo Vicente:</strong> "Ele abraçou podendo viver em Jerusalém. Ele olha para um lugar seco, árido, ele diz: 'Eu vou levantar minha mensagem ali, eu vou viver a minha vida ali'. Então quando a gente olha pra vida de João, ele teve uma parcela aí de talvez, não sei, 30 anos aproximadamente de vida de deserto e ele sai do deserto, ele tem talvez aí meses, digamos, de vida pública, é. E aí quando Cristo é revelado, Whitefield vai falar isso, que quando a ascensão de Cristo, quando Cristo se torna público e João olha e diz: 'É Ele, Ele é o cordeiro de Deus, é por esse cara que eu tô vivendo', quando Jesus é revelado o ministério de João termina. É. E aí cara que é a parada, ele vai trazer esse enfoque sobre o Senhor desejar levantar amigos do noivo, um tipo de gente que não está preocupado em levantar o próprio ministério, é, em construir o próprio nome. É, quando Deus faz o convite para Israel lá com Moisés e diz: 'Moisés liberta esse povo e leva eles pro deserto', em Êxodo, Deus diz: 'Eu quero celebrar uma festa com eles'. Então o deserto nunca foi um lugar de, sabe, de prova no sentido de você vai passar por ele, você vai sair mais forte, privação e tal, não. O propósito de Deus no deserto é levar o homem a um lugar onde não existem distrações e Ele é o centro da atenção."</p>
-                 <p><strong>Entrevistador:</strong> "Entendi."</p>
-                 <p><strong>Paulo Vicente:</strong> "O Senhor quer levantar um tipo de gente que não tem olhos para outras coisas e aí João vai para esse lugar e ele é batizado por essa mensagem que dizia: 'Enquanto o filho de Deus não estiver aqui nada está bem'. Enquanto Ele não estiver, e é maluco porque, eh, é um estilo de vida intencional, percebe? Ele escolhe intencionalmente ir para uma geografia, para um lugar árido aonde ele não ia ter uma estrutura, ele não teria, eh cara, mecanismos, eh, coisas que... obrigado, coisas que, eh, sabe de alguma forma seria uma plataforma e até uma muleta né, assim, não deu eu me agarro aqui né?"</p>
-                 <p><strong>Entrevistador:</strong> "Um apoio, aham."</p>
-                 <p><strong>Paulo Vicente:</strong> "É um lugar árido. Bem, quem quisesse ouvir a mensagem de João iria para um lugar, mano, ia ter isso. A roupa dele não, não agradava o estilo, nada né. E o Whitefield ele fala isso, ele diz: 'João intencionalmente, podendo usar uma roupa de um sacerdote, ele veste uma roupa estranha que gerava um incômodo físico nele'. É como se ele tivesse lembrando o próprio corpo: 'Eu não sou digno de viver bem enquanto o meu Senhor não estiver aqui. Eu não tenho direito de caminhar em um conforto fazendo da mensagem eh, um trampolim para a minha vida melhorar'. Enquanto o filho de Deus não foi revelado, ele comia uma comida estranha porque trazia para ele esse senso de propósito: 'Eu estou gastando a minha vida por um homem e eu também não vou comer qualquer coisa. Eu preciso me lembrar: só vai ficar bem quando Cristo for revelado'."</p>
-                 <p><strong>Paulo Vicente:</strong> "E eu tô passado esse, esse um ano e pouco quase dois anos... a gente lá em Londrina tem o SDA, que é a semana de avivamento. E aí eu tava ali junto, a gente faz três noites de encontros, um culto assim com um time ministrando adoração, outro pastor pregando e tudo mais, e ia ter um encerramento desses três dias da nossa igreja. E era um sábado, eu tava em casa e eu tava orando pela noite assim, eu tava ali num grupo com outros irmãos ministros de louvor e o pessoal tava mandando ali os set list deles, o que cada um ia ministrar. E eu tava ali dizendo: 'Jesus, o que que o Senhor quer ouvir nessa noite? Poxa é uma oportunidade tão preciosa da tua igreja te exaltar aqui em Londrina, são tantos irmãos de tantos lugares diferentes. Jesus, como que a gente te agrada nessa noite?'"</p>
-                 <p><strong>Paulo Vicente:</strong> "E cara, eu lembro que eu entrei no banho e eu comecei a tomar banho, eu tava orando em línguas assim e, né, com meu espírito inclinado pro Senhor e eu escutei esse refrão. E eu escutei, mano: 'É ele, por ele que eu estou gastando a minha vida, perdendo tudo'. E aí eu ouvi isso. Eu ouvi isso, eu comecei a chorar porque eu sei quando é Ele. Hum, é. Eu sei, eu não tenho a capacidade, não mano, eu não tenho a capacidade de escrever isso. Eu não tenho, eu não tenho um curso mano, eu não tenho uma especialização em composição, eu não tenho capacidade."</p>
-                 <p><strong>Paulo Vicente:</strong> "Mas esse dia quando eu entrei nesse banho, a mensagem também me lavou. O Senhor disse: 'Eu estou lavando a sua vida e eu estou te banhando com uma mensagem'. E eu fiquei ali chorando e cantando isso. Eu saio do banho, eu gravo no telefone para não perder e amém, mano. Fui pro culto à noite. E, e durante o dia eu tava falando com a minha esposa, com a Beca, dizendo: 'Amor, eu não sei o que é pra gente cantar, eu sinto que tem algo mais pontual que o Senhor quer ouvir da igreja nessa noite'. E repartindo com ela essa santa angústia. Eu sei que começou o culto, foi chegando o momento de eu ministrar a minha parte, eu era um ali junto com os irmãos dividindo a liderança da adoração e eu lembro que quando foi chegando a minha hora de ministrar mano, esse refrão subiu na minha garganta assim, e eu perdi a paz no sentido de..."</p>
-                 <p><strong>Entrevistador:</strong> "Uhum."</p>
-                 <p><strong>Paulo Vicente:</strong> "...eu falei: vou ter que liberar. É, só que mano, não era minha igreja local, não era o povo que a gente serve junto, era para testar né, e no sentido assim: 'Mano, beleza, vamos lá'. É uma mensagem mano, que tem a ver, precisa estar num contexto às vezes. Então era esse temor assim de falar: 'Meu, eu tenho irmãos da Assembleia, eu tenho irmãos da Batista, da Presbiteriana, Jesus, é a tua igreja, como é que eu vou tocar? E outra, ninguém tá cantando, ninguém tá liberando espontâneo aqui, Deus, tá todo mundo... porque há um propósito de unidade né. Então quanto mais a igreja cantasse junto faria mais sentido e tal'. É mano, e posso ser sincero, essa parada também de eu liberar alguma coisa, as pessoas saírem dali dizendo: 'Cara, você cantou um negócio', entendi, ninguém aparecer né? Exato, mano. E eu fui entrando nessa angústia e eu peguei meu telefone e mandei pra Beca, falei: 'O Senhor tá me incomodando com aquele refrão'. E a Beca falou: 'Então vai, libera, se Ele tá te incomodando é para você falar, nós estamos com você'."</p>
-                 <p><strong>Paulo Vicente:</strong> "E aí mano, chegou a hora e eu liberei. E foi muito pontual assim, porque às vezes quando a gente tem alguns ajuntamentos assim de irmãos é bem comum, um ou outro queria um lugar um pouco mais... desde os, desde Caim e Abel né? Desde a antiguidade. E então foi uma mensagem que veio bem na contramão da noite inclusive, entendi. E aí cara, beleza, eu saio dessa reunião, mas esse refrão começa a correr. E aí na nossa igreja local, eh, vira e mexe nos cultos ele aparece, a gente canta ele e, e o Senhor começa a pontuar: 'Eu quero, eu quero liberar mais sobre isso, eu quero falar'. É aí mano, aí eu sentei, abri a palavra e falei: 'Espírito Santo, você sabe fazer isso muito melhor que eu'. E aí Douglas, mano, a canção toda é a palavra escrita mano, é Isaías 40, é... não tem mano assim, eu não consigo te dizer, se eu conseguir poetizar ou romantizar alguma coisa na minha leitura é a palavra muito crua."</p>
-                 <p><strong>Paulo Vicente:</strong> "Então 'estou preparando um caminho, endireitando as veredas', é a mensagem de João. 'Voz que clama no deserto, prepara um caminho', enfim. Aí foi o tempo de sentar, abrir a palavra e daí ser intencional nesse sentido de dizer: 'Bom beleza, a gente tem um norte e a gente precisa entender o que que Jesus quer enxertar aqui'. Aí eu termino de escrever e a gente também coloca aquele apontamento profético de Isaías que é da ponte: 'E Ele virá soberano em poder, o governo está nEle'. E aqui é um ponto muito importante porque tem alguns lugares que eu vejo os irmãos cantando isso, e quando a gente fala: 'Vejam, Ele traz consigo a Sua recompensa', não tá falando sobre uma recompensa que o Senhor tá trazendo para nós. Isaías tá fazendo aquele apontamento escatológico que diz que o Senhor virá trazendo consigo todo o povo, raça, tribo, língua e nação dele. Sim. É o cordeiro sendo dignificado mano, então eu lamento te dizer mas você, você entendeu errado você... pronto, ajuda a gente cara, põe lá no seu quadro isso, canal, porque me dá um frio na espinha quando eu vejo a galera adaptando a mensagem. Não, o Senhor não vai trazer uma recompensa para nós, o cordeiro Ele é digno da recompensa, a recompensa é dele."</p>
-                 <p><strong>Paulo Vicente:</strong> "É, então enfim, aí voltando à pergunta foi esse trabalho cara, de sentar, organizar a letra, legal, fechar isso. E aí é, é aquela parada assim mano, de você olhar e falar: 'Jesus, é teu, faz o que o Senhor quiser'."</p>
-                 <p><strong>Entrevistador:</strong> "E você tinha noção que aconteceria isso mano?"</p>
-                 <p><strong>Paulo Vicente:</strong> "Noção não, porque assim, eu, eu tava na Argentina, entendeu? E os caras tavam cantando lá em espanhol entendeu? Eh, então assim: 'Ah, é difícil falar mano que eu tinha noção'."</p>
-                 <p><strong>Entrevistador:</strong> "Mas assim, você sabia que era algo especial do Senhor ali? Porque você já tinha... porque eh, para quem não conhecia o Paulinho Drops, eh, pode achar que vocês surgiram esse mês né? Vocês estão há anos servindo ao Senhor e tal. Eh, e vocês já tinham feito, compuseram várias canções, liberaram várias canções e várias que já até já, a gente eh eh já estava cantando e tal. Mas você, quando você, você tipo assim, você viu: 'Cara, Senhor tem algo especial nessa daqui'?"</p>
-                 <p><strong>Paulo Vicente:</strong> "Eu tinha uma impressão no meu espírito de que era uma mensagem pontual, hum. Eh, mas eu não tinha noção assim, naturalmente falando, que o Senhor sopraria como Ele tá soprando. Soprando porque tem um outro ponto também mano, quando eu, eu lembro que quando a gente terminou a letra e eu escrevi, eu tinha um, eu tinha meio que um nicho assim no meu coração de irmãos que eu dizia: 'Jesus isso aqui é a porção desses caras'. Uhum. Que assim mano, abrindo meu coração com você aqui, homens como por exemplo Maion, que eu fui a saúde, Maion Barroco. Aham. Homens que estão gastando a sua vida. Hum. Que dizia para mim no almoço hoje, que começou plantando uma igreja numa cidade de Isa 6.000 mesos... você que não viu tem no podcast que eles contando como eles foram pro sertão começar a plantar a igreja. Eu pensei muito. É, eu pensei muito cara, em gente que tá de fato mano uhum, perdendo as coisas literalmente, que não tá construindo um império com o ministério socorro. Então eu pensei em irmãos da nossa igreja mano, gente que, que gasta recurso, que, e que ama o reino e que não tá segurando as coisas para si, que não está. Então eu lembro que quando eu, eu tô com a letra na mão eu falo: 'Jesus, é isso, posiciona isso no coração dos missionários da sala de oração. Sim, entendi. Saca? Gente que saiu da sua terra, que deixou o seu lugar'."</p>
-                 <p><strong>Paulo Vicente:</strong> "Então tem alguns lugares mano, que quando eu vejo a galera cantando me traz esse senso assim de, por exemplo, fhop. Uhum. Eu conheço muitos missionários ali. Sim. Gente que saiu da sua terra... aqui você tem gente assim mano. Sim. Vários, lá em Londrina temos vários irmãos assim. Então no meu coração eu tinha essa galera."</p>
-               </div>
-
                <h2>Testemunhos: Monumentos Vivos da Fidelidade de Deus</h2>
                <p><em>"Contai entre as nações a sua glória"</em> (<strong>Salmo 96:3</strong>). Os testemunhos não são apenas histórias do passado; eles são monumentos vivos da fidelidade divina. Eles existem para:</p>
                <ul>
@@ -6283,19 +4799,19 @@ function App({ ssrPath } = {}) {
                <h2>O Encontro que Mudou Tudo ✨</h2>
                <p>Como Deus começou a "dar cliques" nas Escrituras para Paulo, direcionando-o para João Batista. Quando o Senhor quer levantar uma mensagem, Ele prepara o coração do mensageiro, fazendo-o olhar repetidas vezes para a mesma porção da Palavra.</p>
 
-               <h2>A Visita Inesperada 🚪 → O Livro que Mudou Tudo</h2>
+               <h2>O Livro que Mudou Tudo</h2>
                <p>O encontro com Vittor Vieira e o livro "O Escolhido Para o Deserto" de Whitefield foram fundamentais. O livro apontou diretamente para a mensagem da vida de João Batista, marcando uma nova estação na jornada de Paulo.</p>
 
-               <h2>A Saudação que Trouxe Paz 🕊️ → O Deserto que Escolheu João</h2>
+               <h2>O Deserto que Escolheu João</h2>
                <p>João poderia ter vivido em Jerusalém, assumindo o papel de seu pai como sacerdote, com roupas e comidas confortáveis. Em vez disso, ele escolheu o deserto intencionalmente, abraçando um estilo de vida que chamava a atenção exclusivamente para o Cordeiro de Deus.</p>
 
-               <h2>O Poder das Palavras-Chave 🗣️ → É Ele: O Refrão que Nasceu no Banho</h2>
+               <h2>É Ele: O Refrão que Nasceu no Banho</h2>
                <p>O momento sobrenatural no chuveiro: "É ele, por ele que eu estou gastando a minha vida, perdendo tudo". Foi uma canção que não nasceu da técnica de composição, mas de uma mensagem soprando diretamente do coração de Deus.</p>
 
-               <h2>Do Sono da Morte para a Vida em Cristo ⚡ → Da Angústia à Liberação</h2>
+               <h2>Da Angústia à Liberação</h2>
                <p>O temor de liberar algo novo em um ambiente de unidade, o apoio incondicional de Rebeca e a coragem de obedecer. Quando Deus incomoda com uma mensagem, a liberação traz alívio e inicia o fluir daquilo que Ele deseja fazer.</p>
 
-               <h2>A Simplicidade que Transforma 🌿 → A Canção é a Palavra</h2>
+               <h2>A Canção é a Palavra</h2>
                <p>A canção inteira é Isaías 40 escrito de forma crua, sem romantização. A mensagem é Cristo, não nós. Ele é o foco, Ele é o Cordeiro digno, e a Sua recompensa é Ele mesmo recebendo as nações por herança.</p>
 
                <h2>Lições para Nossa Vida 📖</h2>
@@ -6352,145 +4868,6 @@ function App({ ssrPath } = {}) {
               <ShareBar title="É Ele — Paulo Vicente" url="/testemunho-e-ele-cancao-nasceu-deserto-paulo-vicente" />
               <RelatedArticles currentLink="/testemunho-e-ele-cancao-nasceu-deserto-paulo-vicente" category="Testemunhos" />
            </main>
-        ) : isTestemunhoThamires ? (
-          <main className="article-content section-mb">
-             <Breadcrumb category="Testemunhos" categoryLink="/testemunhos" title="Thamires" />
-             <div className="article-header">
-               <span className="cat-tag">Testemunhos</span>
-               <h1>Da Epilepsia à Adoração: Como a Música se Tornou a Voz da Cura de Thamires</h1>
-               <h2 style={{fontSize: '1.2rem', fontWeight: 'normal', color: '#555', margin: '15px 0'}}>Uma jornada de dor, revelação e canções que nasceram do encontro entre sofrimento e graça</h2>
-               <div className="article-meta">
-                 📖 <strong>TESTEMUNHOS | Soli Deo Gloria</strong><br/>
-                 <span style={{fontSize: '0.9rem', color: '#666'}}><em>Baseado em conteúdo do YouTube | 25 Jun, 2026</em></span>
-               </div>
-             
-               <ArticleInfo date="25 de Junho de 2026" readingTime={8} />
-              </div>
-             
-             <div style={{maxWidth: '900px', margin: '2.5rem auto 3rem'}}>
-               <div style={{position: 'relative', width: '100%', paddingBottom: '56.25%', borderRadius: '12px', overflow: 'hidden', boxShadow: '0 15px 50px rgba(0,0,0,0.2)'}}>
-                 <iframe 
-                   src="https://www.youtube.com/embed/aEFHMJ_Azj0" 
-                   title="O Testemunho de Thamires"
-                   style={{position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', border: 'none'}}
-                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-                   allowFullScreen>
-                 </iframe>
-               </div>
-               <div style={{background: '#f8f9fa', padding: '15px', borderRadius: '0 0 12px 12px', textAlign: 'center'}}>
-                 🎥 <a href="http://www.youtube.com/watch?v=aEFHMJ_Azj0" target="_blank" rel="noreferrer" style={{color: '#333', textDecoration: 'none', fontWeight: 'bold'}}>Assista ao podcast completo no vídeo acima</a>
-               </div>
-             </div>
-             
-             <div className="article-body">
-               <p style={{fontSize: '1.1rem', color: '#555', fontStyle: 'italic', marginBottom: '2.5rem', textAlign: 'center'}}>Para Thamires, a música nunca foi apenas talento — foi linguagem. Foi através do canto que ela recebeu o batismo no Espírito, compôs hinos que tocam milhões e encontrou cura onde a medicina dizia "não há garantia". Descubra como uma menina de seis anos no louvor se tornou voz de um Deus que cura, consola e transforma dor em adoração.</p>
-
-               <h2>📝 Transcrição do Testemunho</h2>
-               <div style={{background: '#f8f9fa', padding: '1.5rem', borderLeft: '4px solid #0066cc', borderRadius: '0 8px 8px 0', marginBottom: '3rem', color: '#444', lineHeight: '1.8', fontSize: '0.95rem'}}>
-                 <p><strong>Entrevistador:</strong> "O que é e como é que foi, como é que fez história da, da música na sua vida? Você ficou um tempo aqui, 14 anos, você já participou ali daquele concurso e então você sempre esteve envolvida com a música?"</p>
-                 <p><strong>Thamires:</strong> "Sempre, sempre estive envolvida com a música. A partir desse momento né, a música para mim ela ficou ligada como relacionamento do Espírito Santo. Por que foi cantando que eu recebi o batismo no Espírito Santo. Então para mim tinha uma relação muito grande da minha expressão de adoração, do nosso relacionamento mesmo assim. Não que a música fosse adoração para mim, mas era uma expressão do meu coração para Deus. Então eu... seis anos, depois de batizada eu já fazia parte do louvor da igreja. Engraçado você ver, eu tenho umas poucas fotos, alguns poucos vídeos assim, mas a banda inteira e só eu daquele tamainho ali, seis anos, o microfone botou assim meio impressionante, mas chegou. E eu fiquei cantando."</p>
-                 <p><strong>Thamires:</strong> "Chegou um tempo que eu passei a ter crise... é nessa hora inclusive que nessa fase aí da minha rebeldia né, eu não queria, eu não queria saber de música. Porque na minha cabeça como criança, a música estava ligada com adoração e não fazia sentido a competição para mim. Não fazia sentido a briga pelo poder, quem canta melhor, tá todo mundo adorando a Jesus. 'E quem toca mais', não espera aí, para mim não fazia sentido. E enfim, comecei... retomei isso e comecei a compor muito cedo também. Eu comecei, compus a primeira com 18 anos e comecei a compor... a compor com 12 anos. Gravei ao vivo o primeiro álbum fazendo parte do ministério que eu era antes e... as músicas eram minhas. E aí o tempo foi passando e gravando, e cantando, e compondo e tudo mais. Eu me expressava assim, sempre me expressei assim, então para mim tudo se torna uma revelação até hoje. Toda a minha revelação se torna uma canção. E apesar de não ser minha paixão primária né, a minha coisa foi a dança, então..."</p>
-                 <p><strong>Entrevistador:</strong> "É mesmo?"</p>
-                 <p><strong>Thamires:</strong> "É, eu achando a minha vida assim, foi ali que eu me entreguei para o Senhor, porque eu não tinha como dançar e cantar, ou fazer uma coisa ou fazer outra. E eu sabia que era a ferramenta que o Senhor queria usar né através da minha vida. Foi 'o que é isso? Então tô aqui e vou cantar, amém'. E foi assim que passou a ser uma expressão né. E sempre compondo. Então se torna uma revelação, se torna uma canção sempre assim. O seu processo de compor é muito parecido com o processo de... meio que uma pregação, sim. E e para mim assim, se eu tivesse que escolher entre pregar e cantar, eu pregaria, eu prefiro mil vezes. Mas o que... uma coisa que eu fui me dando conta ao longo da vida é que assim: pastor prega 50 minutos, uma hora, na semana seguinte ninguém sabe o que ele pregou. Meu, poucas são as pessoas e é... mas se eu componho músicas as pessoas anos depois tem..."</p>
-                 <p><strong>Thamires:</strong> "Uma das minhas por exemplo, 'Aquieta Minh'Alma', faz 12 anos já que eu compus, vai fazer 12 anos agora no final do ano, e até hoje... só que eu compus baseado em Salmo 42. Tem uma parte literal, cantar isso também tá literalmente."</p>
-                 <p><strong>Entrevistador:</strong> "Agora é uma ótima, é um plágio da escritura, pode né?"</p>
-                 <p><strong>Thamires:</strong> "E eu passei a compor assim, então. Lógico que estão envolvidas as minhas experiências pessoais, 'Aquieta Minh'Alma' mesmo, eu com 14 anos descobri que eu era epiléptica, então eu tinha muitas convulsões, eu sofria crises. E nessa adolescência né, e nessa crise da adolescência, de Deus acontecendo, 'e agora como é que eu faço?' e tal, mas ao mesmo tempo querendo servir o Senhor... uns diziam é frescura, outros diziam que é chamar atenção, outros diziam é demônio, outro dizia: 'Um pecado você não sabe que você está cometendo'. E eu: 'Jesus, como vai viver uma coisa que eu nem sei que tá fazendo né?' E esse, enfim, o legalismo ali né dessa dessa vida. E eu só tinha... o Deus e eu, só tive o diagnóstico clínico, mas não tinha diagnóstico por exame."</p>
-                 <p><strong>Thamires:</strong> "E eu lembro que era três de de dezembro de 2010 e depois de uma convulsão fortíssima assim, voltava com muitas vezes no corpo, terrível assim. É muito humilhante também, era uma questão muito humilhante. E aí eu lembro que entrei no quarto, peguei o violão e comecei a cantar uma música de um irmão lá e eu nem conheço esse irmão. Essa música me marcou tanto, baseada no Salmo 119 né, que diz: 'Eu estou como um odre na fumaça'. O que é que o odre na fumaça é? É aquela pintura, o couro da novena do posto no varal, ele fica preso ali... E eu 'Senhor, não tem o que fazer, eu tô preso aqui, eu tô literalmente preso né'. Cercada, me sentindo ele, como o Salmo 139: 'Por trás e por diante... se eu for a mãe não tem um próximo de é isso aqui que eu vou viver e é isso tá bom o seu encontro'. Sendo que me curava em tanto, vivi coisa de cura... e sabia que isso me curava mesmo. 'E quando Ele vai curar?'"</p>
-                 <p><strong>Thamires:</strong> "E aí entrei, comecei a cantar isso né: 'Quando a verdade me consolar, preciso viver as promessas né?' Tá, eu fui cantando aquela música. Quando aquilo acabou, estava com a escritura aberta meditando em Salmos 42, vem. Oi, e ele fala: 'Como a corça suspira pelas correntes das águas'. Eu comecei a chorar, aquela melodia, eu chorei a melodia 'Aquieta Minh'Alma' inteira primeiro. Nem sem uma letra. Depois compus a letra e depois mostrei né pro pessoal do ministério: 'Tudo que aceito, uma palavra aqui, outra ali, música pronto'. E as pessoas até falavam muito dessa música: 'Muito ruim não gravar essa música, essa música é horrível, essa... essa gostei muito ruim... fica... vamos gravar'. Cara, toda vez que a gente ministra, toca as pessoas, é uma história, tem uma história com essa canção e tal. Gravamos aí né, foi que deu no que deu. E anos depois... já era 2015, compus em 2010... já em 2015 já tava tendo sim, 5, 6 convulsões por dia."</p>
-                 <p><strong>Entrevistador:</strong> "Sério?"</p>
-                 <p><strong>Thamires:</strong> "Tava terrível. Senhor... Eu lembro que nesse dia eu tava no culto de mulheres, são umas cinco mil mulheres, um pastor da Nigéria tinha vindo ministrar. E eu tinha acabado de passar mal assim, tudo abaixo, teve uma crise convulsiva assim. E troquei de roupa né, você tava naquela situação de uma mente brilhante, troquei de roupa tudo, só que eu cheguei no culto que está acontecendo e parecia que tava no cemitério e ninguém responde à presença de Deus, e a presença de Deus estava ali. E eu 'Meu Deus, ninguém vai fazer nada, de novo vai fazer nada, ninguém vai fazer nada, não tem mais um fazer do nosso Senhor'. Eu me revoltei: 'Meu Deus como assim a presença de Deus, para que você possa tá só olhando como se não valesse nada'."</p>
-                 <p><strong>Thamires:</strong> "Eu fui lá, fui lá para frente sozinha. Fechei... ele começou a ministrar, as meninas tavam junto com ele. Ele só orando e o pessoal ministrando 'Navegarei' e eu ali de olho fechado. Sai uma irmã assim sabe, aquela quando acontece assim que do mesmo jeito do banheiro assim, nasceu parece, e sobem e vem uma irmã... 'Pois amor eu tô vendo... o Senhor está te curando hoje' e saiu. E eu vi, muita gente sabe, eu passava mal demais né. Tem muita gente que sabia e até o Fred Arrais estava conversando com ele: 'Cara, te ajudei uma vez numa ministração de socorrista. Eu estava ministrando, te socorri'. 'É meu? Foi assim no meio? Eu não lembro'. Licitação, eu passei mal e eu falei: 'Meu Deus, eu nem lembrava disso'. Minha irmã passou, eu falei: 'Muita gente sabe, eu não vou parar os remédios, eu não vou'. E seis meses antes eu tinha pegado um diagnóstico por imagem né, nosso... muito cerebral tudo dentro... Eu tinha um exame finalmente né para falar: 'Amigos queridos, olha, é uma condição médica'."</p>
-                 <p><strong>Thamires:</strong> "E aí eu falei: 'Vou continuar os remédios'. Eu tô tendo crise com o remédio, não consigo. Inclusive as pessoas que tá falando 'é muito linda essa letra, dessa música e tal', mas eu tava vivendo literal. Depender de Deus é viver perigosamente para mim, era: 'Você vai? Vou confiar no Senhor, vou depender do Senhor, mas eu vou, se eu tiver atravessando a rua, eu passar mal e me atropelar, vou morrer, acabou'. E não era um perigo viver, e os médicos sem falar: 'Nas próximas convulsões não garanto que você volta enxergando, a gente não garante que você volta falando, a gente não ganha nada... com parada cardiorrespiratória, vai se imaginar'."</p>
-                 <p><strong>Thamires:</strong> "E aí eu falei: 'Vou continuar os remédios'. 20 dias depois eu lembrei que eu não tinha tomado remédio e me dei conta que não tava passando, não tava passando mal mais. E você... anos se passaram, fui fazer os exames tudo e até com o doutor Cláudio aí... não sei se conhece, irmão... e ele falou: 'Tamires, seu cérebro é perfeito né. De alguém que um dia sofreu disso e hoje está bem, não é de alguém que um dia... ele fica sequelas, ele fica mostra, é só umas cargas elétricas muito fortes, só não seu, seu cérebro é como se você nunca tivesse tido nada'. Então assim, a música para mim ela sempre esteve relacionada diretamente com um relacionamento com Deus, mas ela também foi a ferramenta de uso para muita gente. Então é..."</p>
-               </div>
-
-               <h2>Testemunhos: Monumentos Vivos da Fidelidade de Deus</h2>
-               <p><em>"Contai entre as nações a sua glória"</em> (<strong>Salmo 96:3</strong>). Os testemunhos não são apenas histórias do passado; eles são monumentos vivos da fidelidade divina. Eles existem para:</p>
-               <ul>
-                 <li><strong>Glorificar a Deus</strong>, não o homem.</li>
-                 <li><strong>Fortalecer a comunidade</strong> na fé.</li>
-                 <li><strong>Validar que o Evangelho</strong> transforma.</li>
-                 <li><strong>Cumprir Atos 1:8:</strong> "Ser-me-eis testemunhas".</li>
-                 <li><strong>Construir legado</strong> para futuras gerações.</li>
-               </ul>
-               <p>Nesta seção, compartilhamos histórias reais de como Deus usa a música, o sofrimento e a rendição para escrever canções que ecoam eternamente.</p>
-
-               <hr style={{border: 'none', borderTop: '1px solid #eee', margin: '3rem 0'}} />
-
-               <div className="quote-box" style={{textAlign: 'center', fontSize: '1.3rem', fontFamily: 'serif', fontStyle: 'italic', margin: '2rem 0'}}>
-                 "Como a corça suspira pelas correntes das águas, assim, ó Deus, a minha alma suspira por ti."<br/>— <strong>Salmo 42:1</strong>
-               </div>
-
-               <h2>O Encontro que Mudou Tudo ✨</h2>
-               <p>Como Thamires recebeu o batismo no Espírito cantando e entendeu a música como linguagem de relacionamento com Deus. Não era apenas talento ou paixão secundária (a dança era a primária), mas o meio escolhido por Deus para que ela expressasse seu coração a Ele.</p>
-
-               <h2>A Visita Inesperada 🚪 → A Menina de Seis Anos no Louvor</h2>
-               <p>Microfone grande demais, banda inteira e só ela pequena no altar. Mas ali, já aos seis anos, Deus estava chamando uma adoradora. A música não era exibição, era intimidade precoce e profunda com o Senhor.</p>
-
-               <h2>A Saudação que Trouxe Paz 🕊️ → Quando a Música Parecia sem Sentido</h2>
-               <p>A crise adolescente veio acompanhada de um choque de realidade com o "mercado" e a "competição" eclesiástica. "Se é adoração, por que competição?" Essa busca por pureza a fez se afastar momentaneamente, até entender o real propósito da adoração.</p>
-
-               <h2>O Poder das Palavras-Chave 🗣️ → Aquieta Minh'Alma: A Melodia que Nasceu em Lágrimas</h2>
-               <p>No dia 3 de dezembro de 2010, após uma convulsão humilhante, Thamires encontrou consolo na dor ao ler o Salmo 42. Foi ali, trancada no quarto e chorando, que a melodia de um dos maiores hinos de sua geração nasceu, antes mesmo da letra.</p>
-
-               <h2>Do Sono da Morte para a Vida em Cristo ⚡ → Viver Perigosamente: Confiança em Meio ao Perigo</h2>
-               <p>Com 5 a 6 convulsões por dia, enfrentando diagnósticos assustadores (risco de perder visão, fala, ou a própria vida) e até o julgamento religioso ("é demônio, é pecado, é frescura"), ela precisou aprender na prática que "depender de Deus é viver perigosamente".</p>
-
-               <h2>A Simplicidade que Transforma 🌿 → Seu Cérebro é Perfeito</h2>
-               <p>A cura não veio como um relâmpago mágico, mas no processo de uma adoração desesperada em um culto onde parecia que "Deus não estava fazendo nada". Anos depois, os exames confirmaram o impossível: um cérebro sem sequelas, "como se você nunca tivesse tido nada".</p>
-
-               <h2>Lições para Nossa Vida 📖</h2>
-               <ul>
-                 <li><strong>A música pode ser linguagem de cura</strong>, não apenas talento vocal.</li>
-                 <li><strong>Deus usa nossa dor</strong> para compor hinos que consolam outras pessoas que estão na fumaça.</li>
-                 <li><strong>"Depender de Deus é viver perigosamente"</strong> — mas é o único lugar seguro de verdade.</li>
-                 <li><strong>A cura pode vir no processo</strong>, e o milagre se confirma no tempo de Deus.</li>
-                 <li><strong>Nossas canções nascem da Palavra</strong> unida à nossa experiência e rendição.</li>
-               </ul>
-
-               <h2>Reflexão Final 🔒</h2>
-               <p>O testemunho de Thamires é um convite para ver a adoração não como performance ou competição, mas como o oxigênio de um relacionamento vivo com o Espírito Santo. É um chamado para compor a partir da Palavra e continuar adorando e confiando, mesmo quando o diagnóstico tenta te calar.</p>
-
-               <div style={{display: 'flex', flexWrap: 'wrap', gap: '20px', margin: '3rem 0'}}>
-                 <div style={{flex: '1 1 300px', padding: '1.5rem', background: '#f5f5f5', borderRadius: '8px', textAlign: 'center'}}>
-                   <em>"O SENHOR está perto dos que têm o coração quebrantado e salva os de espírito abatido."</em><br/><strong>— Salmo 34:18</strong>
-                 </div>
-                 <div style={{flex: '1 1 300px', padding: '1.5rem', background: '#f5f5f5', borderRadius: '8px', textAlign: 'center'}}>
-                   <em>"Mas os que esperam no SENHOR renovam as suas forças; sobem com asas como águias, correm e não se cansam, caminham e não se fatigam."</em><br/><strong>— Isaías 40:31</strong>
-                 </div>
-               </div>
-
-               <hr style={{border: 'none', borderTop: '1px solid #eee', margin: '2rem 0'}} />
-
-               <h2>Oração 🙏</h2>
-               <blockquote style={{fontStyle: 'italic', fontSize: '1.1rem', color: '#555', background: '#fff9f9', padding: '20px', borderRadius: '10px', borderLeft: '4px solid #722F37'}}>
-                 "Senhor Jesus,<br/>
-                 Obrigado porque Tu és o Deus que ouve o choro e transforma em canção.<br/>
-                 Ensina-nos a usar nossa dor como linguagem de adoração, não como muro.<br/>
-                 Que nossas canções nasçam da Tua Palavra e do nosso encontro contigo.<br/>
-                 Cura os quebrantados, consola os que esperam, renova os que cansaram.<br/>
-                 Usa-nos como instrumentos de Tua graça, mesmo quando não entendemos o processo.<br/>
-                 E que, como Thamires, possamos dizer: 'Minha música é relacionamento Contigo'.<br/>
-                 Em nome de Jesus, amém."
-               </blockquote>
-
-               <h2>Desafio Prático da Semana 🎯</h2>
-               <div style={{background: '#f0f7ff', padding: '1.5rem', borderRadius: '12px', marginTop: '1.5rem', borderLeft: '4px solid #0066cc'}}>
-                 <ol style={{margin: 0, paddingLeft: '1.5rem'}}>
-                   <li style={{marginBottom: '10px'}}><strong>Leia Salmo 42</strong> e medite: "Como a corça suspira... assim minha alma suspira por Ti".</li>
-                   <li style={{marginBottom: '10px'}}><strong>Escreva uma oração ou canção curta</strong> baseada em um versículo que fala ao seu coração hoje.</li>
-                   <li style={{marginBottom: '10px'}}><strong>Compartilhe com alguém</strong> como Deus tem usado sua história (ou sua música) para abençoar.</li>
-                   <li style={{marginBottom: '10px'}}><strong>Esta semana, antes de cantar, orar ou servir</strong>, pergunte: "Senhor, isso é expressão do meu coração para Ti ou busca de reconhecimento?"</li>
-                   <li><strong>Ore por alguém que está esperando cura:</strong> "Senhor, renova as forças de quem espera em Ti".</li>
-                 </ol>
-               </div>
-
-             </div>
-
-           
-              <ShareBar title="Thamires" url="/testemunho-thamires-musica-cura-aquieta-minhalma" />
-              <RelatedArticles currentLink="/testemunho-thamires-musica-cura-aquieta-minhalma" category="Testemunhos" />
-           </main>
         ) : isTestemunhoJulliany ? (
           <main className="article-content section-mb">
              <Breadcrumb category="Testemunhos" categoryLink="/testemunhos" title="Julliany Souza" />
@@ -6500,7 +4877,7 @@ function App({ ssrPath } = {}) {
                <h2 style={{fontSize: '1.2rem', fontWeight: 'normal', color: '#555', margin: '15px 0'}}>Como uma adolescente usou o louvor como arma espiritual e viu Deus transformar uma família</h2>
                <div className="article-meta">
                  📖 <strong>TESTEMUNHOS | Soli Deo Gloria</strong><br/>
-                 <span style={{fontSize: '0.9rem', color: '#666'}}><em>Baseado em conteúdo do YouTube | 25 Jun, 2026</em></span>
+                 <span style={{fontSize: '0.9rem', color: '#666'}}><em>Por Andrews Rocha de Morais | 25 Jun, 2026</em></span>
                </div>
                <div className="share-buttons" style={{display: 'flex', gap: '10px', marginTop: '15px', justifyContent: 'center'}}>
                  <button className="share-btn">📘 Facebook</button>
@@ -6530,12 +4907,6 @@ function App({ ssrPath } = {}) {
              <div className="article-body">
                <p style={{fontSize: '1.1rem', color: '#555', fontStyle: 'italic', marginBottom: '2.5rem', textAlign: 'center'}}>Antes dos palcos e das multidões, havia uma porta fechada. Do outro lado, dor. Do lado de cá, uma adolescente com um violão e uma certeza: "Creio que Tu és a cura". Descubra como Julliany Souza aprendeu que o louvor não é apenas música — é arma espiritual que rompe cadeias e gera chamados.</p>
 
-               <h2>📝 Transcrição do Testemunho</h2>
-               <div style={{background: '#f8f9fa', padding: '1.5rem', borderLeft: '4px solid #0066cc', borderRadius: '0 8px 8px 0', marginBottom: '3rem', color: '#444', lineHeight: '1.8', fontSize: '0.95rem'}}>
-                 <p>"Eu passei a viver uma, uma vida de devoção ao Senhor ainda na minha adolescência, e eu comecei a usar o louvor como arma ali na minha casa, para o que eu tava passando na minha família. E eu me lembro que meu pai, ele ficava... eh, ele fazia uso da droga dentro de casa, trancado no quarto, e eu ficava cantando na porta para ele. Eu ficava cantando os louvores porque eu entendia que aquilo ali era uma arma.</p>
-                 <p>E de alguma forma eu entendia que Deus tinha me entregado aquilo, sabe? Que o Senhor tinha me entregue aquilo. Então eu ficava cantando na porta dele: 'Creio que tu és a cura'. E meu chamado, acredito que começou ali. Começou na minha casa, começou com essa fé tão grande que eu tinha, que o meu pai seria alcançado, que meu pai seria tocado por Deus através da minha voz, através daquilo que eu cantava."</p>
-               </div>
-
                <h2>Testemunhos: Monumentos Vivos da Fidelidade de Deus</h2>
                <p><em>"Contai entre as nações a sua glória"</em> (<strong>Salmo 96:3</strong>). Os testemunhos não são apenas histórias do passado; eles são monumentos vivos da fidelidade divina. Eles existem para:</p>
                <ul>
@@ -6556,19 +4927,19 @@ function App({ ssrPath } = {}) {
                <h2>O Encontro que Mudou Tudo ✨</h2>
                <p>Como Julliany, ainda adolescente, entendeu que o louvor era mais que música: era linguagem de guerra espiritual e intercessão. Ela descobriu cedo que a adoração move os céus a favor das nossas batalhas terrenas.</p>
 
-               <h2>A Visita Inesperada 🚪 → A Porta Fechada do Quarto</h2>
-               <p>O pai trancado, o uso de drogas, a filha do lado de fora com um violão e uma convicção inabalável: "Deus me entregou isso". Em vez de ceder ao desespero, ela escolheu usar o que tinha nas mãos para lutar por quem amava.</p>
+               <h2>A Porta Fechada do Quarto</h2>
+               <p>O pai trancado no quarto, a filha do lado de fora com um violão e uma convicção inabalável: "Deus me entregou isso". Em vez de ceder ao desespero, ela escolheu usar o que tinha nas mãos para lutar por quem amava.</p>
 
-               <h2>A Saudação que Trouxe Paz 🕊️ → Creio que Tu és a Cura</h2>
+               <h2>Creio que Tu és a Cura</h2>
                <p>A frase "Creio que tu és a cura" era repetida como profecia, não apenas como um desejo distante. Era a fé que canta antes de ver o milagre acontecer, declarando a verdade sobre a dor.</p>
 
-               <h2>O Poder das Palavras-Chave 🗣️ → O Louvor como Arma</h2>
+               <h2>O Louvor como Arma</h2>
                <p>Não era entretenimento, nem performance. Era uma arma espiritual capaz de romper cadeias invisíveis. O louvor tem o poder de mudar a atmosfera e trazer a luz de Deus para as trevas mais densas.</p>
 
-               <h2>Do Sono da Morte para a Vida em Cristo ⚡ → O Chamado que Nasceu em Casa</h2>
+               <h2>O Chamado que Nasceu em Casa</h2>
                <p>O ministério não começou no palco; começou no corredor, na porta, na persistência de uma filha que amava seu pai. O verdadeiro chamado de Deus muitas vezes floresce no solo escondido das nossas lutas familiares.</p>
 
-               <h2>A Simplicidade que Transforma 🌿 → Fé que Canta no Escuro</h2>
+               <h2>Fé que Canta no Escuro</h2>
                <p>Não precisava de plateia, de microfone de última geração, nem de aplausos. Precisava apenas de obediência e fé verdadeira. E Deus honrou aquela voz que cantava no escuro.</p>
 
                <h2>Lições para Nossa Vida 📖</h2>
@@ -6784,7 +5155,7 @@ function App({ ssrPath } = {}) {
              <div className="article-header">
                <span className="cat-tag">Devocional / Vida Cristã</span>
                <h1>O Silêncio de Deus nas Dificuldades: Confiando no Caráter Revelado do Senhor</h1>
-               <div className="article-meta">📖 <strong>Texto Base:</strong> Efésios 2:8</div>
+               <div className="article-meta">📖 <strong>Texto Base:</strong> Jó 42:2</div>
              
                <ArticleInfo date="11 de Junho de 2026" readingTime={11} />
               </div>
@@ -6795,8 +5166,8 @@ function App({ ssrPath } = {}) {
              <p>Há momentos na jornada cristã em que o céu parece de bronze. Clamamos, oramos, jejuamos, mas parecem não haver respostas. O silêncio de Deus é uma das experiências mais angustiantes que um crente pode enfrentar. Contudo, é precisamente nesses momentos que somos chamados a confiar não em nossos sentimentos, mas no caráter imutável do Senhor conforme revelado em Sua Palavra.</p>
 
              <h2>Quando Deus Parece Se Calar</h2>
-             <p>O salmista conhecia bem essa experiência. No Salmo 13, Davi pergunta quatro vezes "até quando?":</p>
-             <p><em>"Até quando, SENHOR? Esconder-te-ás para sempre? Até quando arderá a tua ira como fogo?"</em> (v.1)</p>
+             <p>O salmista conhecia bem essa experiência. No Salmo 13, Davi pergunta quatro vezes “até quando?”. Uma pergunta parecida aparece no Salmo 89:46:</p>
+             <p><em>"Até quando, SENHOR? Esconder-te-ás para sempre? Até quando arderá a tua ira como fogo?"</em> (Salmo 89:46)</p>
              <p>Esses não são gritos de descrença, mas de fé agonizante. São a expressão de almas que conhecem a Deus o suficiente para saber que Ele <em>deveria</em> estar agindo, mas que, na experiência presente, parecem abandonadas.</p>
 
              <h3>O Perigo de Confiar nos Sentimentos</h3>
@@ -6832,7 +5203,7 @@ function App({ ssrPath } = {}) {
              <p>Salmo 27:14: <em>"Espera no SENHOR, anima-te, e ele fortalecerá o teu coração."</em></p>
 
              <h2>Conclusão</h2>
-             <p>O Salmo 40 termina com uma declaração gloriosa: <em>"Pôs na minha boca um cântico novo, um hino ao nosso Deus."</em></p>
+             <p>No começo do Salmo 40, depois de esperar com paciência pelo Senhor, Davi faz uma declaração gloriosa (v. 3): <em>"Pôs na minha boca um cântico novo, um hino ao nosso Deus."</em></p>
              <p>O mesmo Deus que permite o silêncio também concede o cântico. Confie no caráter revelado de Deus. Ele é fiel. Ele é bom. Ele <strong>nunca</strong> se atrasa.</p>
 
              <hr />
@@ -6846,7 +5217,7 @@ function App({ ssrPath } = {}) {
 
              <h3>Características de Seu Ministério</h3>
              <p><strong>Teologia Calvinista:</strong> Spurgeon era firmemente calvinista, crendo na soberania absoluta de Deus na salvação.</p>
-             <p><strong>Paixão pelas Almas:</strong> Apesar de sua teologia da eleição, era um evangelista ardente. Fundiu um orfanato que cuidou de mais de 500 crianças.</p>
+             <p><strong>Paixão pelas Almas:</strong> Apesar de sua teologia da eleição, era um evangelista ardente. Fundou um orfanato em Londres.</p>
              <p><strong>Sofrimento e Perseverança:</strong> Sofreu de gota e depressão ao longo da vida.</p>
              <p>Faleceu em 31 de janeiro de 1892, aos 57 anos.</p>
 
@@ -7005,7 +5376,7 @@ function App({ ssrPath } = {}) {
                <h1>A Carta aos Gálatas e a Liberdade Cristã: O Evangelho da Graça Contra o Legalismo</h1>
                <div className="article-meta">
                  📖 <strong>ESTUDOS BÍBLICOS | Soli Deo Gloria</strong><br/>
-                 <span style={{fontSize: '0.9rem', color: '#666'}}><em>Baseado em conteúdo do YouTube | 14 Mar, 2026</em></span>
+                 <span style={{fontSize: '0.9rem', color: '#666'}}><em>Por Andrews Rocha de Morais | 14 Mar, 2026</em></span>
                </div>
              
                <ArticleInfo date="11 de Junho de 2026" readingTime={12} />
@@ -7407,7 +5778,7 @@ function App({ ssrPath } = {}) {
                <p className="article-subtitle" style={{fontSize: '1.2rem', color: '#555', marginTop: '0.5rem'}}>Sua história nos ensina que Deus ouve o clamor dos humildes, que a oração persistente move o céu e que um filho dedicado a Deus pode transformar uma nação.</p>
                <div className="article-meta">
                  📖 <strong>PERSONAGENS BÍBLICOS | Soli Deo Gloria</strong><br/>
-                 <span style={{fontSize: '0.9rem', color: '#666'}}><em>Baseado em conteúdo do YouTube | 25 Jun, 2026</em></span>
+                 <span style={{fontSize: '0.9rem', color: '#666'}}><em>Por Andrews Rocha de Morais | 25 Jun, 2026</em></span>
                </div>
              
                <ArticleInfo date="23 de Junho de 2026" readingTime={9} />
@@ -7561,7 +5932,7 @@ function App({ ssrPath } = {}) {
                <p className="article-subtitle" style={{fontSize: '1.2rem', color: '#555', marginTop: '0.5rem'}}>Uma jornada que ecoa através dos séculos e nos ensina como Deus age quando tudo parece perdido.</p>
                <div className="article-meta">
                  📖 <strong>PERSONAGENS BÍBLICOS | Soli Deo Gloria</strong><br/>
-                 <span style={{fontSize: '0.9rem', color: '#666'}}><em>Baseado em conteúdo do YouTube | 25 Jun, 2026</em></span>
+                 <span style={{fontSize: '0.9rem', color: '#666'}}><em>Por Andrews Rocha de Morais | 25 Jun, 2026</em></span>
                </div>
              
                <ArticleInfo date="23 de Junho de 2026" readingTime={10} />
@@ -7718,7 +6089,7 @@ function App({ ssrPath } = {}) {
                <p className="article-subtitle" style={{fontSize: '1.2rem', color: '#555', marginTop: '0.5rem'}}>A história não é um conto de fadas; é um testemunho vivo de como Deus escolhe, prepara e exalta aqueles que confiam nEle em meio à obscuridade.</p>
                <div className="article-meta">
                  📖 <strong>PERSONAGENS BÍBLICOS | Soli Deo Gloria</strong><br/>
-                 <span style={{fontSize: '0.9rem', color: '#666'}}><em>Baseado em conteúdo do YouTube | 25 Jun, 2026</em></span>
+                 <span style={{fontSize: '0.9rem', color: '#666'}}><em>Por Andrews Rocha de Morais | 25 Jun, 2026</em></span>
                </div>
              
                <ArticleInfo date="23 de Junho de 2026" readingTime={10} />
@@ -7856,7 +6227,7 @@ function App({ ssrPath } = {}) {
                <span className="cat-tag red">História Bíblica / Teologia</span>
                <h1>As Cinco Solas e Sua Relevância Hoje: Os Pilares da Reforma que Ainda Transformam Vidas</h1>
                <p className="article-subtitle" style={{fontSize: '1.2rem', color: '#555', marginTop: '0.5rem'}}>Descubra os cinco princípios fundamentais da Reforma Protestante e como eles continuam essenciais para a fé cristã no século XXI</p>
-               <div className="article-meta">📖 <strong>Texto Base:</strong> Jó 42:2</div>
+               <div className="article-meta">📖 <strong>Texto Base:</strong> Efésios 2:8</div>
              
                <ArticleInfo date="22 de Junho de 2026" readingTime={14} />
               </div>
@@ -7869,7 +6240,7 @@ function App({ ssrPath } = {}) {
              <hr />
 
              <h2>📜 1. Sola Scriptura (Somente a Escritura)</h2>
-             <p>O princípio material da Reforma afirma que a Bíblia é a única regra infalível de fé e prática para o cristão e para a Igreja.</p>
+             <p>O princípio formal da Reforma afirma que a Bíblia é a única regra infalível de fé e prática para o cristão e para a Igreja.</p>
              
              <div style={{background: '#f9f9f9', borderLeft: '4px solid #8B0000', padding: '15px', margin: '20px 0'}}>
                <p style={{margin: 0}}><em>"Toda a Escritura é divinamente inspirada, e proveitosa para ensinar, para redarguir, para corrigir, para instruir em justiça."</em> — 2 Timóteo 3:16</p>
@@ -7967,272 +6338,6 @@ function App({ ssrPath } = {}) {
           
               <ShareBar title="As Cinco Solas" url="/cinco-solas-relevancia-hoje-reforma-protestante" />
               <RelatedArticles currentLink="/cinco-solas-relevancia-hoje-reforma-protestante" category="Estudos Bíblicos" />
-           </main>
-        ) : isProvisao ? (
-          <main className="article-content section-mb">
-             <Breadcrumb category="Testemunhos" categoryLink="/testemunhos" title="Deus Honrou a Fé Dela" />
-             <div className="article-header">
-               <span className="cat-tag">Devocional / Testemunhos</span>
-               <h1>Deus Honrou a Fé Dela: O Milagre do Cachorro que Trouxe Dinheiro na Boca</h1>
-               <p className="article-subtitle" style={{fontSize: '1.2rem', color: '#555', marginTop: '0.5rem'}}>Um testemunho poderoso de provisão sobrenatural e o perigo da murmuração nas provas da fé</p>
-               <div className="article-meta">📖 <strong>Texto Base:</strong> Filipenses 4:19</div>
-             
-               <ArticleInfo date="11 de Junho de 2026" readingTime={8} />
-              </div>
-             
-             <img src="/provisao.webp" alt="O Milagre do Cachorro que Trouxe Dinheiro na Boca" className="article-hero-img" fetchPriority="high" />
-             
-             <p><em>"Louvai ao SENHOR, porque ele é bom, porque a sua misericórdia dura para sempre."</em> — Salmo 136:1</p>
-             <p>Há testemunhos que não apenas nos emocionam, mas nos ensinam lições profundas sobre fé, provisão divina e o caráter de Deus. Esta é a história real de uma mãe de doze filhos que, enfrentando oito dias sem pão na mesa, aprendeu da maneira mais extraordinária que <strong>Deus honra aqueles que confiam nEle sem murmurar</strong>.</p>
-             <p>Assista ao testemunho completo abaixo:</p>
-
-             <hr />
-
-             <h2>📺 O Testemunho</h2>
-             <div style={{position: 'relative', paddingBottom: '177.77%', height: 0, overflow: 'hidden', maxWidth: '100%', background: '#000', margin: '2rem 0', borderRadius: '12px'}}>
-               <iframe 
-                 src="https://www.youtube.com/embed/gBFAXFhgoAY" 
-                 title="Deus honrou a fé dela. Ela não reclamou. #bençãos #biblia #testemunho"
-                 frameBorder="0" 
-                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-                 allowFullScreen
-                 style={{position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', borderRadius: '12px'}}>
-               </iframe>
-             </div>
-             <p><strong>Canal:</strong> OUVINDO A CRISTO<br />
-             <strong>Duração:</strong> Short/YouTube Shorts</p>
-
-             <hr />
-
-             <h2>🍞 A Prova do Pão: Oito Dias com Uma Panela de Feijão</h2>
-             <p>A história começa com uma pergunta difícil do pastor Apolone: <em>"O seu filho tem o que comer?"</em></p>
-             <p>Com sinceridade tocante, mas sem revolta, ela respondeu:</p>
-             <blockquote>
-               <p><em>"Não, pastor. Faz oito dias hoje que eu só tenho uma panela de feijão de avô para dar de comer aos meus filhos. Eu não fico dizendo a ninguém o que estou passando, mas Deus usa as pessoas; aí vem um e manda um pacote de biscoito, outro manda outro negócio, e assim nós estamos escapando."</em></p>
-             </blockquote>
-
-             <h3>A Realidade Dura</h3>
-             <p>Imagine a cena:</p>
-             <ul>
-               <li><strong>Doze filhos</strong> para criar (na época, oito ou nove em casa)</li>
-               <li><strong>Oito dias</strong> sem pão</li>
-               <li>Apenas <strong>uma panela de feijão</strong> para todos</li>
-               <li>Mesa vazia, mas coração cheio de fé</li>
-             </ul>
-             <p>Ela confessa: <em>"Eu não blasfemava, eu não murmurava."</em> Se o marido não tinha dinheiro, ela aceitava. E Jesus ia conservando a casa dela.</p>
-             <p><strong>Lição #1:</strong> A verdadeira fé não depende das circunstâncias. Ela canta e ora o dia todo, mesmo com a despensa vazia.</p>
-
-             <hr />
-
-             <h2>😢 O Dia em que as Forças Acabaram</h2>
-             <p>Mas houve um dia em que a prova ficou pesada demais. Faltou o pão e o sustento para o <strong>filho mais pequenininho, um bebê de apenas dois meses</strong> que estava deitado na rede.</p>
-             <p>Ela confessa com honestidade brutal:</p>
-             <blockquote>
-               <p><em>"Eu não nego, eu não tinha forças nem para orar."</em></p>
-             </blockquote>
-
-             <h3>O Desespero Silencioso</h3>
-             <p>A única coisa que ela conseguia fazer era:</p>
-             <ul>
-               <li>Andar de um lado para o outro dentro de casa</li>
-               <li>Lágrimas caindo dos olhos</li>
-               <li>Clamar em pensamento: <em>"Senhor, o que é que eu faço hoje?"</em></li>
-               <li>Olhar para a filheirinha dos filhos e chorar escondida</li>
-               <li>Entrar no quarto, chorar mais um pouco, voltar para a sala</li>
-             </ul>
-             <p>Quando foi ficando tarde, ela saiu no quintal, olhou para o céu e repetiu:</p>
-             <blockquote>
-               <p><em>"Jesus, o que eu faço para quando essa criança acordar eu ter o que dar de comer a ela?"</em></p>
-             </blockquote>
-             <p><strong>Lição #2:</strong> Até os gigantes da fé têm momentos de fraqueza. O importante não é nunca cair, é para quem você clama quando cai.</p>
-
-             <hr />
-
-             <h2>🐕 O Milagre Inesperado: Leão, o Cão Providencial</h2>
-             <p>A família criava um cachorrinho cujo nome era, curiosamente, <strong>Leão</strong>.</p>
-             <p>Logo após sua oração sincera olhando para o céu, ela viu o cachorrinho vindo correndo da rua. O animal correu, entrou no meio das crianças que estavam no quintal e <strong>soltou algo da boca</strong>.</p>
-             <p>Na hora, os filhos gritaram: <em>"Mãe, olha o que o Leão trouxe!"</em></p>
-
-             <h3>O Que Aconteceu</h3>
-             <p>Quando ela olhou, o cachorro havia trazido:</p>
-             <ul>
-               <li><strong>Um bolo de dinheiro enrolado</strong> jogado no chão</li>
-               <li>Não lembrava se eram 80 ou 180 Cruzeiros (moeda da época)</li>
-               <li>Era dinheiro vivo, certinho</li>
-             </ul>
-             <p>Ela declara no vídeo:</p>
-             <blockquote>
-               <p><em>"As coisas que Deus faz são muito bem feitas. Eu nunca ia esperar que um cachorro viesse trazer dinheiro na boca!"</em></p>
-             </blockquote>
-             <p>Ela pegou aquele dinheiro e, <strong>assim que o bebê de dois meses acordou na rede</strong>, ela já tinha conseguido comprar a comida e o sustento para ele.</p>
-
-             <h3>A Resposta aos Críticos</h3>
-             <p>Algumas pessoas na época duvidaram ou zombaram da história. Sua resposta foi firme:</p>
-             <blockquote>
-               <p><em>"Se vocês quiserem acreditar, acreditem, se não quiserem, não acreditem. Eu vi o animal trazendo, eu recebi o dinheiro e dei de comer aos meus filhos. Estou aqui contando a bênção para a glória de Deus, porque eu não tenho precisão de inventar uma mentira dessas."</em></p>
-             </blockquote>
-             <p><strong>Lição #3:</strong> Deus usa os meios mais improváveis para prover. Um cachorro chamado Leão foi o instrumento de milagre. Quem somos nós para limitar o Criador?</p>
-
-             <hr />
-
-             <h2>✨ A Promessa Cumprida: "Multiplicarei o Pão da Tua Mesa"</h2>
-             <p>Depois que ela passou por essa prova extrema sem murmurar, ela conta que <strong>Jesus falou fortemente ao seu coração</strong>:</p>
-             <blockquote>
-               <p><em>"Agora multiplicarei o pão da tua mesa."</em></p>
-             </blockquote>
-             <p>Ela testemunha que, a partir daquele dia:</p>
-             <ul>
-               <li>Com aquele mesmo dinheiro e a bênção de Deus</li>
-               <li>O sustento <strong>multiplicou</strong></li>
-               <li><strong>Nunca, nunca mais faltou nada</strong> na mesa dela</li>
-             </ul>
-             <p><strong>Lição #4:</strong> A fidelidade na prova gera multiplicação depois da prova. Deus não apenas supriu a necessidade do dia, mas estabeleceu provisão contínua.</p>
-
-             <hr />
-
-             <h2>📖 O Que a Bíblia Diz Sobre Não Murmurar</h2>
-             <p>Este testemunho ilustra perfeitamente o que as Escrituras ensinam sobre murmuração e fé:</p>
-
-             <h3>1. A Murmuração Impede a Bênção</h3>
-             <blockquote>
-               <p><em>"Não façam nada por ambição egoísta ou por vaidade, mas humildemente considerem os outros superiores a vocês mesmos."</em> — Filipenses 2:3</p>
-             </blockquote>
-             <p>Os israelitas murmuraram no deserto e não entraram na Terra Prometida (Números 14:26-35). A murmuração é falta de fé na provisão de Deus.</p>
-
-             <h3>2. A Gratidão Abre Portas</h3>
-             <blockquote>
-               <p><em>"Deem graças em todas as circunstâncias, pois esta é a vontade de Deus para vocês em Cristo Jesus."</em> — 1 Tessalonicenses 5:18</p>
-             </blockquote>
-             <p>Essa senhora cantava e orava mesmo sem pão. Sua gratidão na prova preparou o caminho para o milagre.</p>
-
-             <h3>3. Deus Honra a Fé</h3>
-             <blockquote>
-               <p><em>"Sem fé é impossível agradar a Deus, pois quem dele se aproxima precisa crer que ele existe e que recompensa aqueles que o buscam."</em> — Hebreus 11:6</p>
-             </blockquote>
-             <p>Ela buscou a Deus sem murmurar. Deus honrou sua fé de forma sobrenatural.</p>
-
-             <h3>4. A Provisão de Deus Vem de Formas Inesperadas</h3>
-             <blockquote>
-               <p><em>"Porque todo animal da selva é meu, e o gado sobre milhares de colinas."</em> — Salmo 50:10</p>
-             </blockquote>
-             <p>Deus é dono de tudo. Se Ele quiser usar um cachorro, um corvo (como com Elias), ou uma viúva (como com Elias novamente), Ele usará.</p>
-
-             <hr />
-
-             <h2>💡 Lições Práticas para Nossa Vida</h2>
-
-             <h3>1. Não Rotule Todas as Provas como "Ataque do Diabo"</h3>
-             <p>O conselho final dela é ouro puro:</p>
-             <blockquote>
-               <p><em>"Por isso que eu digo e gosto muito de dizer: gente, quando você estiver passando por uma prova, não blasfeme. Nem fique dizendo que é o diabo, porque nem tudo é o diabo! Tem coisas que é Deus nos preparando para uma obra. E se a gente viver murmurando ou dizendo que tudo é o adversário, nós não vencemos."</em></p>
-             </blockquote>
-             <p><strong>Aplicação:</strong> Às vezes, a prova é <strong>permitida por Deus</strong> para nos fortalecer, não um ataque do inimigo para nos destruir.</p>
-
-             <h3>2. Aceite a Realidade Sem Revolta</h3>
-             <p>Ela disse: <em>"Se o marido não tinha dinheiro, ela aceitava que não tinha e ponto final."</em></p>
-             <p>Isso não é passividade, é <strong>confiança ativa</strong> na soberania de Deus.</p>
-
-             <h3>3. Deus Vê Sua Lágrima Escondida</h3>
-             <p>Ela chorava escondida para os filhos não verem. Deus viu. Deus ouviu. Deus agiu.</p>
-             <blockquote>
-               <p><em>"Guarda as minhas lágrimas no teu odre; acaso não estão elas no teu livro?"</em> — Salmo 56:8</p>
-             </blockquote>
-
-             <h3>4. O Milagre Vem no Tempo de Deus</h3>
-             <p>Ela orou o dia todo. Quando estava ficando tarde, o milagre chegou.</p>
-             <p>Não desista na hora mais escura. O milagre pode estar a minutos de distância.</p>
-
-             <h3>5. Testemunhe Sem Medo de Críticas</h3>
-             <p>Ela enfrentou zombadores, mas continuou contando a verdade para glória de Deus.</p>
-             <p><strong>Seu testemunho é sua arma espiritual.</strong> Não o cale por medo do que dirão.</p>
-
-             <hr />
-
-             <h2>🔥 Reflexão Final: Qual É a Sua "Prova do Pão"?</h2>
-             <p>Talvez você esteja vivendo agora:</p>
-             <ul>
-               <li>Uma crise financeira</li>
-               <li>Uma necessidade urgente</li>
-               <li>Uma porta fechada</li>
-               <li>Uma espera dolorosa</li>
-             </ul>
-             <p><strong>O que você tem feito?</strong></p>
-             <ul>
-               <li>Tem murmurado ou orado?</li>
-               <li>Tem culpado o diabo ou confiado em Deus?</li>
-               <li>Tem escondido suas lágrimas ou derramado-as diante do Senhor?</li>
-             </ul>
-             
-             <h3>A Promessa para Você</h3>
-             <p>Deus não mudou. O mesmo Deus que usou um cachorro chamado Leão para trazer dinheiro na boca é o <strong>mesmo Deus</strong> que pode prover para você hoje.</p>
-             <p>Mas há uma condição: <strong>não murmure</strong>.</p>
-             <p>A murmuração fecha portas. A fé abre céus.</p>
-
-             <hr />
-
-             <h2>🙏 Oração Baseada Neste Testemunho</h2>
-             <p><em>"Senhor Jesus,<br />
-             Assim como honraste a fé dessa mãe, honra a minha fé hoje.<br />
-             Perdoa-me pelas vezes em que murmurei, reclamei e duvidei do Teu cuidado.<br />
-             Ensina-me a confiar em Ti mesmo quando a mesa estiver vazia.<br />
-             Ajuda-me a cantar e orar mesmo quando não entender Teus caminhos.<br />
-             Eu creio que Tu podes usar meios improváveis para me abençoar.<br />
-             Eu creio que, se eu permanecer fiel na prova, Tu multiplicarás o pão da minha mesa.<br />
-             Eu não murmurarei. Eu confiarei. Eu esperarei.<br />
-             Em nome de Jesus, amém."</em></p>
-
-             <hr />
-
-             <h2>📝 Desafio Prático da Semana</h2>
-             <p><strong>Comprometa-se a:</strong></p>
-             <ol>
-               <li><strong>Não reclamar</strong> por 7 dias seguidos</li>
-               <li><strong>Agradecer</strong> a Deus três vezes ao dia, mesmo nas dificuldades</li>
-               <li><strong>Orar</strong> em vez de murmurar quando a prova apertar</li>
-               <li><strong>Testemunhar</strong> o que Deus tem feito em sua vida, mesmo que pareça pequeno</li>
-             </ol>
-             <p>Ao final dos 7 dias, escreva em um diário o que mudou em seu coração e em suas circunstâncias.</p>
-
-             <hr />
-
-             <h2>📚 Versículos para Memorizar</h2>
-             <p>✓ <strong>Salmo 37:25</strong> — <em>"Fui moço e agora sou velho, mas nunca vi o justo desamparado, nem seus filhos mendigando o pão."</em></p>
-             <p>✓ <strong>Filipenses 4:19</strong> — <em>"O meu Deus suprirá todas as necessidades de vocês, de acordo com as suas gloriosas riquezas em Cristo Jesus."</em></p>
-             <p>✓ <strong>Tiago 1:2-4</strong> — <em>"Considerem motivo de grande alegria o fato de passarem por diversas provações, pois vocês sabem que a prova da sua fé produz perseverança."</em></p>
-             <p>✓ <strong>1 Pedro 5:7</strong> — <em>"Lancem sobre ele toda a sua ansiedade, porque ele tem cuidado de vocês."</em></p>
-
-             <hr />
-
-             <h2>💬 Compartilhe Seu Testemunho</h2>
-             <p>Deus tem feito milagres em sua vida? Assim como essa mãe, <strong>não se cale</strong>. Seu testemunho pode ser a fé que alguém precisa para crer que Deus também proverá.</p>
-             <p>Deixe nos comentários ou compartilhe com alguém que está passando por uma prova.</p>
-             <p><strong>Lembre-se:</strong> O mesmo Deus que honrou a fé dela, honrará a sua fé também.</p>
-
-             <hr />
-             <p><em>"As coisas que Deus faz são muito bem feitas."</em> — Testemunho do vídeo</p>
-             <p><strong>Soli Deo Gloria.</strong></p>
-
-             <hr />
-
-             <p><strong>📌 Sobre o Canal OUVINDO A CRISTO:</strong><br />
-             O canal "OUVINDO A CRISTO" tem como propósito compartilhar testemunhos, mensagens e conteúdos que edificam a fé cristã. Este vídeo em formato Shorts alcançou milhares de pessoas com esta mensagem poderosa de fé e provisão.</p>
-             <p><strong>Assista mais conteúdos:</strong> <a href="https://youtube.com/@OUVINDOACRISTO" target="_blank" rel="noreferrer">Canal OUVINDO A CRISTO no YouTube</a></p>
-
-             <hr />
-
-             <p><strong>📖 Referências Bíblicas:</strong> Salmo 136:1 | Filipenses 2:3 | 1 Tessalonicenses 5:18 | Hebreus 11:6 | Salmo 50:10 | Salmo 56:8 | Salmo 37:25 | Filipenses 4:19 | Tiago 1:2-4 | 1 Pedro 5:7</p>
-             <p><strong>🔗 Link do Vídeo Original:</strong> <a href="https://youtube.com/shorts/gBFAXFhgoAY" target="_blank" rel="noreferrer">https://youtube.com/shorts/gBFAXFhgoAY</a></p>
-             
-             <div className="article-tags" style={{marginTop: '2rem'}}>
-                <span className="cat-tag" style={{marginRight: '10px'}}>#provisãodivina</span>
-                <span className="cat-tag" style={{marginRight: '10px'}}>#fé</span>
-                <span className="cat-tag" style={{marginRight: '10px'}}>#testemunho</span>
-                <span className="cat-tag" style={{marginRight: '10px'}}>#milagre</span>
-                <span className="cat-tag">#nãomurmure</span>
-             </div>
-          
-              <ShareBar title="Deus Honrou a Fé Dela" url="/deus-honrou-fe-testemunho-milagres-provisao-divina" />
-              <RelatedArticles currentLink="/deus-honrou-fe-testemunho-milagres-provisao-divina" category="Testemunhos" />
            </main>
          ) : isCopaJesus ? (
           <main className="article-content section-mb">
@@ -8439,7 +6544,7 @@ function App({ ssrPath } = {}) {
                <h1>'Seja o Seu Sim, Sim': A Verdade Radical de Jesus sobre Integridade e Juramentos</h1>
                <div className="article-meta">
                  📖 <strong>ESTUDOS BÍBLICOS | Soli Deo Gloria</strong><br/>
-                 <span style={{fontSize: '0.9rem', color: '#666'}}><em>Baseado em conteúdo do YouTube | 25 Jun, 2026</em></span>
+                 <span style={{fontSize: '0.9rem', color: '#666'}}><em>Por Andrews Rocha de Morais | 25 Jun, 2026</em></span>
                </div>
              
                <ArticleInfo date="25 de Junho de 2026" readingTime={8} />
@@ -8588,7 +6693,7 @@ function App({ ssrPath } = {}) {
                <h1>5 Sinais Bíblicos para Identificar Falsos Líderes: Discernimento Espiritual em Tempos de Engano</h1>
                <div className="article-meta">
                  📖 <strong>ESTUDOS BÍBLICOS | Soli Deo Gloria</strong><br/>
-                 <span style={{fontSize: '0.9rem', color: '#666'}}><em>Baseado em conteúdo do YouTube | 25 Jun, 2026</em></span>
+                 <span style={{fontSize: '0.9rem', color: '#666'}}><em>Por Andrews Rocha de Morais | 25 Jun, 2026</em></span>
                </div>
              
                <ArticleInfo date="25 de Junho de 2026" readingTime={9} />
@@ -8804,7 +6909,7 @@ function App({ ssrPath } = {}) {
                <h1>5 Tipos de Pessoas que a Bíblia Orienta Não Ajudar: Sabedoria Divina para Limites Saudáveis</h1>
                <div className="article-meta">
                  📖 <strong>ESTUDOS BÍBLICOS | Soli Deo Gloria</strong><br/>
-                 <span style={{fontSize: '0.9rem', color: '#666'}}><em>Baseado em conteúdo do YouTube | 25 Jun, 2026</em></span>
+                 <span style={{fontSize: '0.9rem', color: '#666'}}><em>Por Andrews Rocha de Morais | 25 Jun, 2026</em></span>
                </div>
              
                <ArticleInfo date="25 de Junho de 2026" readingTime={8} />
@@ -9299,7 +7404,7 @@ function App({ ssrPath } = {}) {
                <p style={{fontSize: '1.1rem', color: '#555', marginTop: '8px', lineHeight: '1.6'}}>Uma análise exegética de 1 Tessalonicenses 4, 2 Coríntios 5 e Filipenses 1 sobre o que acontece com os crentes entre a morte e a segunda vinda de Cristo.</p>
                <div className="article-meta">
                  📖 <strong>ESTUDOS BÍBLICOS | Soli Deo Gloria</strong><br/>
-                 <span style={{fontSize: '0.9rem', color: '#666'}}><em>Baseado em conteúdo do YouTube | 25 Jun, 2026</em></span>
+                 <span style={{fontSize: '0.9rem', color: '#666'}}><em>Por Andrews Rocha de Morais | 25 Jun, 2026</em></span>
                </div>
                <ArticleInfo date="25 de Junho de 2026" readingTime={16} />
               </div>
@@ -9515,7 +7620,7 @@ function App({ ssrPath } = {}) {
                <p style={{fontSize: '1.1rem', color: '#555', marginTop: '8px', lineHeight: '1.6'}}>Uma análise exegética sobre o chamado, a identidade de Cristo e o custo do verdadeiro discipulado.</p>
                <div className="article-meta">
                  📖 <strong>INÍCIO / ESTUDOS BÍBLICOS | Soli Deo Gloria</strong><br/>
-                 <span style={{fontSize: '0.9rem', color: '#666'}}><em>Baseado em conteúdo do YouTube | 25 Jun, 2026</em></span>
+                 <span style={{fontSize: '0.9rem', color: '#666'}}><em>Por Andrews Rocha de Morais | 25 Jun, 2026</em></span>
                </div>
                <ArticleInfo date="25 de Junho de 2026" readingTime={12} />
               </div>
@@ -9648,7 +7753,7 @@ function App({ ssrPath } = {}) {
                <p style={{fontSize: '1.1rem', color: '#555', marginTop: '8px', lineHeight: '1.6'}}>Um chamado para resgatar a responsabilidade pessoal no estudo das Escrituras e usar ativamente a mente que Deus nos deu.</p>
                <div className="article-meta">
                  📖 <strong>DEVOCIONAIS / VIDA CRISTÃ | Soli Deo Gloria</strong><br/>
-                 <span style={{fontSize: '0.9rem', color: '#666'}}><em>Baseado em conteúdo do YouTube | 25 Jun, 2026</em></span>
+                 <span style={{fontSize: '0.9rem', color: '#666'}}><em>Por Andrews Rocha de Morais | 25 Jun, 2026</em></span>
                </div>
                <ArticleInfo date="25 de Junho de 2026" readingTime={14} />
               </div>
@@ -9875,7 +7980,7 @@ function App({ ssrPath } = {}) {
                     <img src="/cinco_solas.webp" alt="As Cinco Solas e Sua Relevância Hoje" loading="lazy" />
                     <div className="split-card-content">
                       <h4>As Cinco Solas e Sua Relevância Hoje: Os Pilares da Reforma que Ainda Transformam Vidas</h4>
-                      <div className="meta">📖 <strong>Texto Base:</strong> Jó 42:2</div>
+                      <div className="meta">📖 <strong>Texto Base:</strong> Efésios 2:8</div>
                       <p>
                         Conheça os cinco pilares que sustentaram a Reforma Protestante no século XVI e entenda por que Sola Scriptura, Sola Fide, Sola Gratia, Solus Christus e Soli Deo Gloria ainda são essenciais para a fé cristã autêntica nos dias de hoje.
                       </p>
@@ -9937,15 +8042,6 @@ function App({ ssrPath } = {}) {
                   </a>
                 </div>
                 <div className="split-card">
-                  <a href="/deus-honrou-fe-testemunho-milagres-provisao-divina" style={{textDecoration: 'none', color: 'inherit'}}>
-                    <img src="/provisao.webp" alt="Deus Honrou a Fé Dela" loading="lazy" />
-                    <div className="split-card-content">
-                      <h4>Deus Honrou a Fé Dela: O Milagre do Cachorro que Trouxe Dinheiro na Boca</h4>
-                      <div className="meta">📖 <strong>Texto Base:</strong> Filipenses 4:19</div>
-                    </div>
-                  </a>
-                </div>
-                <div className="split-card">
                   <a href="/artigo/sarca-ardente" style={{textDecoration: 'none', color: 'inherit'}}>
                     <img src="/sarca-ardente.webp" alt="A Sarça Ardente" loading="lazy" />
                     <div className="split-card-content">
@@ -9999,15 +8095,7 @@ function App({ ssrPath } = {}) {
                     <img src="/silence_of_god.webp" alt="O Silêncio de Deus" className="img-ph" loading="lazy" />
                     <h3>O Silêncio de Deus nas Dificuldades: Confiando no Caráter Revelado do Senhor</h3>
                     <p>Quando clamamos e parecemos não ouvir resposta, devemos confiar no caráter revelado do Senhor ao invés de nossos sentimentos...</p>
-                    <div className="meta">📖 <strong>Texto Base:</strong> Efésios 2:8</div>
-                  </a>
-                </div>
-                <div className="grid-3-item">
-                  <a href="/como-ler-biblia-inteira-2026-metodos-praticos" style={{textDecoration: 'none', color: 'inherit'}}>
-                    <img src="/metodos_biblia.webp" alt="Leitura Bíblica" className="img-ph" loading="lazy" />
-                    <h3>5 Métodos Práticos para Ler a Bíblia Inteira em 2026</h3>
-                    <p>Descubra 5 métodos práticos e testados para ler a Bíblia inteira em 2026, mesmo com rotina corrida. Técnicas flexíveis, aplicativos recomendados e o segredo da constância.</p>
-                    <div className="meta">📖 <strong>Texto Base:</strong> Filipenses 4:19</div>
+                    <div className="meta">📖 <strong>Texto Base:</strong> Jó 42:2</div>
                   </a>
                 </div>
               </div>
@@ -10061,8 +8149,6 @@ function App({ ssrPath } = {}) {
             
             <Newsletter />
           </>
-        ) : (isDeusDetermina || isInconstancia || isSofrimento || isPosicionamento) ? (
-          <RecentArticles isDeusDetermina={isDeusDetermina} isInconstancia={isInconstancia} isSofrimento={isSofrimento} isPosicionamento={isPosicionamento} />
         ) : novoArtigo ? (
           <NovoArtigo artigo={novoArtigo} />
         ) : (

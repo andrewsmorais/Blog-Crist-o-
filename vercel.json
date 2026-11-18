@@ -6,11 +6,43 @@
   "headers": [
     {
       "source": "/assets/(.*)",
-      "headers": [{ "key": "Cache-Control", "value": "public, max-age=31536000, immutable" }]
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=31536000, immutable"
+        }
+      ]
     },
     {
       "source": "/(.*)\\.(webp|png|jpg|jpeg|svg)",
-      "headers": [{ "key": "Cache-Control", "value": "public, max-age=2592000" }]
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=2592000"
+        }
+      ]
+    }
+  ],
+  "redirects": [
+    {
+      "source": "/se-posicione-deixe-com-deus-chamado-urgente",
+      "destination": "/devocionais",
+      "permanent": true
+    },
+    {
+      "source": "/deus-honrou-fe-testemunho-milagres-provisao-divina",
+      "destination": "/testemunhos",
+      "permanent": true
+    },
+    {
+      "source": "/testemunho-thamires-musica-cura-aquieta-minhalma",
+      "destination": "/testemunhos",
+      "permanent": true
+    },
+    {
+      "source": "/justin-bieber-copa-elogio-ou-ilusao-diferenca-falar-deus-ser-deus",
+      "destination": "/noticias",
+      "permanent": true
     }
   ]
 }

@@ -14,12 +14,12 @@ export default function Analise() {
         Os que batizam filhos de crentes (presbiterianos e reformados em geral) respondem com a continuidade da aliança. Deus ordenou a circuncisão de meninos de oito dias (Gênesis 17:12), e Paulo diz que a circuncisão de Abraão foi “selo da justiça da fé” (Romanos 4:11). Ou seja, um sinal pode ser dado a quem ainda não professa fé sem significar que o rito salva. Colossenses 2:11-12 liga circuncisão e batismo. Atos 2:39 afirma que a promessa é “para vós e para vossos filhos”, e Atos 16:15,33 relata batismos de casas inteiras. Os batistas respondem que o texto não menciona bebês nessas casas.
       </p>
       <p>
-        Dois pontos adicionais. Primeiro, Marcos 16:16, citado no artigo, pertence ao final longo do evangelho, ausente dos manuscritos mais antigos; por prudência, convém basear a doutrina em outros textos. O versículo, aliás, condena quem não crê, e não quem não foi batizado. Segundo, a palavra grega <em>baptizo</em> não resolve sozinha o modo: os reformados em geral aceitam também o batismo por aspersão ou derramamento, enquanto os batistas defendem a imersão.
+        Dois pontos adicionais. Primeiro, como o artigo já observa, Marcos 16:16 pertence ao final longo do evangelho, ausente dos manuscritos mais antigos; por prudência, convém basear a doutrina em outros textos. O versículo, aliás, condena quem não crê, e não quem não foi batizado. Segundo, a palavra grega <em>baptizo</em> não resolve sozinha o modo: os reformados em geral aceitam também o batismo por aspersão ou derramamento, enquanto os batistas defendem a imersão.
       </p>
 
       <h3>O que a tradição reformada de fato ensina</h3>
       <p>
-        O artigo diz que há confusão entre os reformados por causa da Confissão de Westminster, mas a própria Confissão responde à objeção. No capítulo 28, seção 4, ela afirma que devem ser batizados não só os que professam a fé, mas também os filhos de pais crentes. Na seção 5, ensina que a graça e a salvação não estão tão inseparavelmente ligadas ao batismo que ninguém possa ser regenerado sem ele, nem que todos os batizados sejam indubitavelmente regenerados. Na seção 6, declara que a eficácia do batismo não está presa ao momento em que é administrado. E o capítulo 27, seção 3, diz que a graça dos sacramentos não é conferida por poder neles, mas pela obra do Espírito.
+        Vale reforçar o que a Confissão de Westminster de fato diz, porque ela mesma responde à objeção de que o batismo infantil seria um rito que salva. No capítulo 28, seção 4, ela afirma que devem ser batizados não só os que professam a fé, mas também os filhos de pais crentes. Na seção 5, ensina que a graça e a salvação não estão tão inseparavelmente ligadas ao batismo que ninguém possa ser regenerado sem ele, nem que todos os batizados sejam indubitavelmente regenerados. Na seção 6, declara que a eficácia do batismo não está presa ao momento em que é administrado. E o capítulo 27, seção 3, diz que a graça dos sacramentos não é conferida por poder neles, mas pela obra do Espírito.
       </p>
       <p>
         Assim, a objeção de que batizados que se afastam da fé provam um erro não atinge a doutrina como a Confissão a formula: o sinal e selo promete, mas não age mecanicamente. O Catecismo de Heidelberg, na pergunta 74, defende o batismo infantil por pertencerem os filhos ao povo e à aliança de Deus, e Calvino trata do tema nas Institutas, livro 4, capítulo 16. Por outro lado, a Confissão Batista de 1689, no capítulo 29, seção 2, reserva o batismo a quem professa arrependimento e fé. São duas posições históricas, ambas contrárias à salvação automática pelo rito.
@@ -34,7 +34,7 @@ export default function Analise() {
       <ol>
         <li>Em que ponto todos os cristãos evangélicos concordam sobre o batismo e a salvação?</li>
         <li>Que paralelo existe entre a circuncisão e o batismo em Colossenses 2:11-12, e que limites esse paralelo tem?</li>
-        <li>O que a profissão de fé pública acrescenta ao batismo, segundo Atos 8:36-37?</li>
+        <li>O que a profissão de fé pública acrescenta ao batismo, segundo Atos 8:35-38?</li>
         <li>Como podemos conversar sobre esse tema com respeito, sem dividir a igreja?</li>
         <li>Em que coisas tenho confiado, além de Cristo, para me sentir seguro diante de Deus?</li>
       </ol>
