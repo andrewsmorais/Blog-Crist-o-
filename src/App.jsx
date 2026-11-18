@@ -9825,7 +9825,7 @@ function App({ ssrPath } = {}) {
             <section className="section-mb">
               <div className="hero-main" style={{ marginBottom: '80px', position: 'relative' }}>
                 <a href={heroArticles[currentHeroIndex].link} className="hero-main-link" style={{textDecoration: 'none', color: 'inherit'}}>
-                  <img src={heroArticles[currentHeroIndex].image} alt={heroArticles[currentHeroIndex].title} className="img-ph" fetchPriority="high" style={{objectFit: 'cover', width: '100%', height: '100%'}} />
+                  <img src={heroArticles[currentHeroIndex].image} alt={heroArticles[currentHeroIndex].title} className="img-ph" fetchPriority="high" />
                   <div className="hero-main-text" style={{display: 'flex', flexDirection: 'column', justifyContent: 'center'}}>
                     <span className="cat-tag">{heroArticles[currentHeroIndex].tag}</span>
                     <h2 className="hero-title" style={{marginTop: '10px'}}>{heroArticles[currentHeroIndex].title}</h2>

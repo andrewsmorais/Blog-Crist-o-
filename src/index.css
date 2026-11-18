@@ -214,16 +214,33 @@ img {
   gap: 32px;
   align-items: center;
 }
+
+/* Col 1 (60%) — todas as fotos do carrossel com o mesmo tamanho (referência: artigo maior) */
+.hero-main .img-ph {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 4/3;
+  object-fit: cover;
+  object-position: center;
+  margin-bottom: 0;
+}
 @media (min-width: 900px) {
   .hero-main-link {
     grid-template-columns: 1.7fr 1fr;
+    min-height: 540px;
+  }
+  .hero-main .img-ph {
+    aspect-ratio: auto;
+    height: 540px;
   }
 }
-
-/* Col 1 (60%) */
-.hero-main .img-ph {
-  aspect-ratio: 16/9;
-  margin-bottom: 0;
+@media (min-width: 1200px) {
+  .hero-main-link {
+    min-height: 610px;
+  }
+  .hero-main .img-ph {
+    height: 610px;
+  }
 }
 .hero-main h1, .hero-main .hero-title {
   font-family: var(--font-title);
@@ -1052,7 +1069,7 @@ h1, .article-content h1, .privacy-policy-content h1, .hero-main h1, .hero-main .
   top: 0;
   left: 0;
   width: 100%;
-  aspect-ratio: 16/9;
+  aspect-ratio: 4/3;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -1061,7 +1078,12 @@ h1, .article-content h1, .privacy-policy-content h1, .hero-main h1, .hero-main .
   pointer-events: none;
 }
 @media (min-width: 900px) {
-  .hero-arrows { width: calc(62.96% - 20px); }
+  .hero-arrows {
+    width: calc(62.96% - 20px);
+    aspect-ratio: auto;
+    bottom: 0;
+    height: auto;
+  }
 }
 .hero-arrow {
   pointer-events: auto;
