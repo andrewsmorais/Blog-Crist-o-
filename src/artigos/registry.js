@@ -8,6 +8,7 @@ export const CATEGORY_LINKS = {
   Devocionais: '/devocionais',
   'Personagens Bíblicos': '/personagens-biblicos',
   Testemunhos: '/testemunhos',
+  'Atividades Bíblicas Infantis': '/atividades-biblicas-infantis',
   Notícias: '/noticias',
 };
 

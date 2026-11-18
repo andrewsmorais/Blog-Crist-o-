@@ -31,13 +31,14 @@ const STATIC = {
   '/devocionais': { title: `Devocionais | ${SITE_NAME}`, description: 'Devocionais cristãos para meditar na Palavra de Deus, fortalecer a fé e encontrar consolo nas Escrituras.' },
   '/personagens-biblicos': { title: `Personagens Bíblicos | ${SITE_NAME}`, description: 'A vida de homens e mulheres da Bíblia — Elias, Davi, Ester, Ana, Paulo, Jó e outros — e o que eles nos ensinam hoje.' },
   '/testemunhos': { title: `Testemunhos | ${SITE_NAME}`, description: 'Histórias reais de fé, conversão e restauração que mostram a fidelidade de Deus na vida de pessoas comuns.' },
+  '/atividades-biblicas-infantis': { title: `Atividades Bíblicas Infantis | ${SITE_NAME}`, description: 'Atividades, histórias e ideias para pais ensinarem a Bíblia às crianças em casa: colorir, montar, versículos, oração e devocional em família.' },
   '/noticias': { title: `Notícias | ${SITE_NAME}`, description: 'Notícias do mundo cristão comentadas à luz da Bíblia.' },
   '/politica-de-privacidade': { title: `Política de Privacidade | ${SITE_NAME}`, description: 'Como o Soli Deo Gloria coleta, usa e protege seus dados, incluindo cookies e anúncios do Google AdSense.' },
   '/politica-de-cookies': { title: `Política de Cookies | ${SITE_NAME}`, description: 'Quais cookies o Soli Deo Gloria usa e como você pode gerenciá-los.' },
   '/termos-de-uso': { title: `Termos de Uso | ${SITE_NAME}`, description: 'Termos e condições de uso do site Soli Deo Gloria.' },
 };
 
-const CATEGORY_OF = { 'Estudos Bíblicos': '/estudos-biblicos', Devocionais: '/devocionais', 'Personagens Bíblicos': '/personagens-biblicos', Testemunhos: '/testemunhos', 'Notícias': '/noticias' };
+const CATEGORY_OF = { 'Estudos Bíblicos': '/estudos-biblicos', Devocionais: '/devocionais', 'Personagens Bíblicos': '/personagens-biblicos', Testemunhos: '/testemunhos', 'Atividades Bíblicas Infantis': '/atividades-biblicas-infantis', 'Notícias': '/noticias' };
 
 // ---------- utilidades ----------
 const esc = (s) => String(s).replace(/&/g, '&amp;').replace(/"/g, '&quot;').replace(/</g, '&lt;').replace(/>/g, '&gt;');

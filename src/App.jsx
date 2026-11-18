@@ -1469,6 +1469,7 @@ function App({ ssrPath } = {}) {
   const isSamuel = path === '/samuel-profeta-voz-deus-trevas-israel';
   const isJo = path === '/jo-homem-perdeu-tudo-soberania-divina';
   const isTestemunhos = path === '/testemunhos';
+  const isAtividadesInfantis = path === '/atividades-biblicas-infantis';
   const isTestemunhoDeusEBom = path === '/testemunho-deus-e-bom-historia-fe-transformacao';
   const isTestemunhoDesespero = path === '/testemunho-desespero-esperanca';
   const isTestemunhoEEle = path === '/testemunho-e-ele-cancao-nasceu-deserto-paulo-vicente';
@@ -1543,6 +1544,7 @@ function App({ ssrPath } = {}) {
               <li><a href="/devocionais" className={isDevocionais ? "active" : ""}>Devocionais</a></li>
               <li><a href="/personagens-biblicos" className={isPersonagensBiblicos ? "active" : ""}>Personagens Bíblicos</a></li>
               <li><a href="/testemunhos" className={isTestemunhos ? "active" : ""}>Testemunhos</a></li>
+              <li><a href="/atividades-biblicas-infantis" className={isAtividadesInfantis ? "active" : ""}>Atividades Infantis</a></li>
               <li><a href="/noticias" className={isNoticias ? "active" : ""}>Notícias</a></li>
               <li><a href="/contato" className={isContato ? "active" : ""}>Contato</a></li>
             </ul>
@@ -3202,6 +3204,16 @@ function App({ ssrPath } = {}) {
               <p>📍 <strong>Soli Deo Gloria Portal Teológico</strong></p>
               <p>✉️ E-mail oficial: contato@sdgloria.com.br</p>
               <p style={{fontSize: '0.85rem', marginTop: '0.5rem'}}>⏱️ Tempo médio de resposta: até 48 horas úteis.</p>
+            </div>
+          </main>
+        ) : isAtividadesInfantis ? (
+          <main className="section-mb">
+            <div className="section-title">
+              <h1 className="section-title-h1">Atividades Bíblicas Infantis</h1>
+            </div>
+            <p style={{marginTop: '1rem', lineHeight: '1.7'}}>Ideias para pais e responsáveis ensinarem a Bíblia às crianças em casa: histórias, atividades de colorir e de montar, versículos para memorizar, oração e devocional em família.</p>
+            <div className="grid-3" style={{marginTop: '2rem'}}>
+              <NovosArtigosCards categoria="Atividades Bíblicas Infantis" />
             </div>
           </main>
         ) : isTestemunhos ? (
