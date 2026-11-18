@@ -293,7 +293,7 @@ function NovosArtigosCards({ categoria, limite, itemClass = 'grid-3-item' }) {
   return lista.map(a => (
     <div className={itemClass} key={a.slug}>
       <a href={a.link} style={{textDecoration: 'none', color: 'inherit'}}>
-        <img src={a.image} alt={a.title} className="img-ph" loading="lazy" width="1200" height="630" style={{objectFit: 'cover'}} />
+        <img src={a.image} alt={a.title} className="img-ph" loading="lazy" width="1200" height="630" style={{objectFit: 'cover', height: 'auto'}} />
         <h3 style={{fontSize: '1.1rem', marginBottom: '8px', lineHeight: '1.4'}}>{a.title}</h3>
         <p style={{fontSize: '0.9rem', color: '#666', marginTop: '8px'}}>{a.excerpt}</p>
         <div className="meta">📖 <strong>{a.textoBase}</strong></div>
