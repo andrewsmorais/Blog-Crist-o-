@@ -21,7 +21,7 @@ const { render, allArticlesData, artigosNovos } = await import(
 // Páginas fixas (não são artigos)
 const STATIC = {
   '/': {
-    title: `${SITE_NAME} | Estudos Bíblicos, Teologia Reformada e Devocionais`,
+    title: `${SITE_NAME} | Estudos Bíblicos e Devocionais Reformados`,
     description:
       'Estudos bíblicos, teologia reformada, devocionais, personagens bíblicos e testemunhos de fé. Conteúdo cristão em português para nutrir sua vida espiritual.',
   },
@@ -38,6 +38,7 @@ const STATIC = {
   '/termos-de-uso': { title: `Termos de Uso | ${SITE_NAME}`, description: 'Termos e condições de uso do site Soli Deo Gloria.' },
 };
 
+const TITULOS_SEO = JSON.parse(fs.readFileSync(new URL('./titulos-seo.json', import.meta.url), 'utf8'));
 const CATEGORY_OF = { 'Estudos Bíblicos': '/estudos-biblicos', Devocionais: '/devocionais', 'Personagens Bíblicos': '/personagens-biblicos', Testemunhos: '/testemunhos', 'Atividades Bíblicas Infantis': '/atividades-biblicas-infantis', 'Notícias': '/noticias' };
 
 // ---------- utilidades ----------
@@ -170,7 +171,9 @@ for (const route of routes) {
   }
   description = clip(decode(description));
 
-  const title = STATIC[route]?.title || `${clip(h1 || article?.title || SITE_NAME, 70)} | ${SITE_NAME}`;
+  const curto = TITULOS_SEO[route];
+  const base = curto || h1 || article?.title || SITE_NAME;
+  const title = STATIC[route]?.title || (`${base} | ${SITE_NAME}`.length <= 65 ? `${base} | ${SITE_NAME}` : clip(base, 65));
   const imgMatch = body.match(/<img[^>]*class="article-hero-img"[^>]*>/) || (!isStatic && body.match(/<main[\s\S]*?(<img[^>]*>)/));
   const imgTag = Array.isArray(imgMatch) ? imgMatch[1] || imgMatch[0] : '';
   const imgSrc = (imgTag.match(/src="([^"]+)"/) || [])[1];
